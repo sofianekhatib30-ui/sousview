@@ -1,0 +1,4236 @@
+{
+ "00-flour": {
+  "aisle": "pantry",
+  "n": {
+   "it": "farina 00",
+   "en": "00 flour",
+   "fr": "farine T45",
+   "es": "harina de trigo",
+   "de": "Weizenmehl Type 405"
+  },
+  "pantry": true
+ },
+ "agave-syrup": {
+  "aisle": "pantry",
+  "n": {
+   "it": "sciroppo d'agave",
+   "en": "agave syrup",
+   "fr": "sirop d'agave",
+   "es": "sirope de agave",
+   "de": "Agavendicksaft"
+  }
+ },
+ "aged-rum": {
+  "aisle": "drinks",
+  "n": {
+   "it": "rum invecchiato",
+   "en": "aged rum",
+   "fr": "rhum vieux",
+   "es": "ron añejo",
+   "de": "gereifter Rum"
+  }
+ },
+ "aleppo-pepper": {
+  "aisle": "spices",
+  "n": {
+   "it": "peperoncino di Aleppo (pul biber)",
+   "en": "Aleppo pepper (pul biber)",
+   "fr": "piment d'Alep",
+   "es": "pimienta de Alepo",
+   "de": "Pul Biber"
+  }
+ },
+ "almond-butter": {
+  "aisle": "pantry",
+  "n": {
+   "it": "burro di mandorle",
+   "en": "almond butter",
+   "fr": "purée d'amandes",
+   "es": "crema de almendras",
+   "de": "Mandelmus"
+  }
+ },
+ "almond-flour": {
+  "aisle": "pantry",
+  "n": {
+   "it": "farina di mandorle",
+   "en": "ground almonds",
+   "fr": "poudre d’amandes",
+   "es": "harina de almendra",
+   "de": "gemahlene Mandeln"
+  }
+ },
+ "almond-milk": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "bevanda di mandorla",
+   "en": "almond milk",
+   "fr": "lait d'amande",
+   "es": "bebida de almendra",
+   "de": "Mandeldrink"
+  }
+ },
+ "almonds": {
+  "aisle": "pantry",
+  "n": {
+   "it": "mandorle",
+   "en": "almonds",
+   "fr": "amandes",
+   "es": "almendras",
+   "de": "Mandeln"
+  }
+ },
+ "amarena-cherries": {
+  "aisle": "pantry",
+  "n": {
+   "it": "amarene sciroppate",
+   "en": "amarena cherries",
+   "fr": "cerises amarena",
+   "es": "cerezas amarena",
+   "de": "Amarenakirschen"
+  }
+ },
+ "anchovy-fillets": {
+  "aisle": "pantry",
+  "n": {
+   "it": "filetti d'acciuga",
+   "en": "anchovy fillets",
+   "fr": "filets d'anchois",
+   "es": "filetes de anchoa",
+   "de": "Sardellenfilets"
+  }
+ },
+ "angostura-bitters": {
+  "aisle": "drinks",
+  "n": {
+   "it": "Angostura",
+   "en": "Angostura bitters",
+   "fr": "Angostura",
+   "es": "Angostura",
+   "de": "Angostura"
+  }
+ },
+ "anise-seeds": {
+  "aisle": "spices",
+  "n": {
+   "it": "semi di anice",
+   "en": "aniseed",
+   "fr": "graines d'anis",
+   "es": "anís en grano",
+   "de": "Anissamen"
+  }
+ },
+ "aonori": {
+  "aisle": "pantry",
+  "n": {
+   "it": "alga aonori",
+   "en": "aonori",
+   "fr": "aonori",
+   "es": "aonori",
+   "de": "Aonori"
+  }
+ },
+ "aperol": {
+  "aisle": "drinks",
+  "n": {
+   "it": "Aperol",
+   "en": "Aperol",
+   "fr": "Aperol",
+   "es": "Aperol",
+   "de": "Aperol"
+  }
+ },
+ "apple-cider-vinegar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "aceto di mele",
+   "en": "apple cider vinegar",
+   "fr": "vinaigre de cidre",
+   "es": "vinagre de manzana",
+   "de": "Apfelessig"
+  }
+ },
+ "apple-juice": {
+  "aisle": "drinks",
+  "n": {
+   "it": "succo di mela",
+   "en": "apple juice",
+   "fr": "jus de pomme",
+   "es": "zumo de manzana",
+   "de": "Apfelsaft"
+  }
+ },
+ "apples": {
+  "aisle": "produce",
+  "n": {
+   "it": "mele",
+   "en": "apples",
+   "fr": "pommes",
+   "es": "manzanas",
+   "de": "Äpfel"
+  }
+ },
+ "apricot-jam": {
+  "aisle": "pantry",
+  "n": {
+   "it": "confettura di albicocche",
+   "en": "apricot jam",
+   "fr": "confiture d'abricots",
+   "es": "mermelada de albaricoque",
+   "de": "Aprikosenkonfitüre"
+  }
+ },
+ "apricots": {
+  "aisle": "produce",
+  "n": {
+   "it": "albicocche",
+   "en": "apricots",
+   "fr": "abricots",
+   "es": "albaricoques",
+   "de": "Aprikosen"
+  }
+ },
+ "artichokes": {
+  "aisle": "produce",
+  "n": {
+   "it": "carciofi",
+   "en": "artichokes",
+   "fr": "artichauts",
+   "es": "alcachofas",
+   "de": "Artischocken"
+  }
+ },
+ "asparagus": {
+  "aisle": "produce",
+  "n": {
+   "it": "asparagi",
+   "en": "asparagus",
+   "fr": "asperges",
+   "es": "espárragos",
+   "de": "Spargel"
+  }
+ },
+ "avocados": {
+  "aisle": "produce",
+  "n": {
+   "it": "avocado",
+   "en": "avocados",
+   "fr": "avocats",
+   "es": "aguacates",
+   "de": "Avocados"
+  }
+ },
+ "baby-spinach": {
+  "aisle": "produce",
+  "n": {
+   "it": "spinacini",
+   "en": "baby spinach",
+   "fr": "pousses d’épinards",
+   "es": "brotes de espinaca",
+   "de": "Babyspinat"
+  }
+ },
+ "bacon": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "bacon",
+   "en": "bacon",
+   "fr": "bacon",
+   "es": "beicon",
+   "de": "Bacon"
+  }
+ },
+ "baguettes": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "baguette",
+   "en": "baguettes",
+   "fr": "baguettes",
+   "es": "baguetes",
+   "de": "Baguettes"
+  }
+ },
+ "baking-powder": {
+  "aisle": "pantry",
+  "n": {
+   "it": "lievito per dolci",
+   "en": "baking powder",
+   "fr": "levure chimique",
+   "es": "levadura química",
+   "de": "Backpulver"
+  },
+  "pantry": true
+ },
+ "baking-soda": {
+  "aisle": "pantry",
+  "n": {
+   "it": "bicarbonato",
+   "en": "baking soda",
+   "fr": "bicarbonate",
+   "es": "bicarbonato",
+   "de": "Natron"
+  },
+  "pantry": true
+ },
+ "bamboo-shoots": {
+  "aisle": "pantry",
+  "n": {
+   "it": "germogli di bambù",
+   "en": "bamboo shoots",
+   "fr": "pousses de bambou",
+   "es": "brotes de bambú",
+   "de": "Bambussprossen"
+  }
+ },
+ "bananas": {
+  "aisle": "produce",
+  "n": {
+   "it": "banane",
+   "en": "bananas",
+   "fr": "bananes",
+   "es": "plátanos",
+   "de": "Bananen"
+  }
+ },
+ "basil": {
+  "aisle": "produce",
+  "n": {
+   "it": "basilico",
+   "en": "basil",
+   "fr": "basilic",
+   "es": "albahaca",
+   "de": "Basilikum"
+  }
+ },
+ "basil-pesto": {
+  "aisle": "pantry",
+  "n": {
+   "it": "pesto alla genovese",
+   "en": "basil pesto",
+   "fr": "pesto au basilic",
+   "es": "pesto genovés",
+   "de": "Pesto Genovese"
+  }
+ },
+ "basmati-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso basmati",
+   "en": "basmati rice",
+   "fr": "riz basmati",
+   "es": "arroz basmati",
+   "de": "Basmatireis"
+  }
+ },
+ "bay-leaves": {
+  "aisle": "spices",
+  "n": {
+   "it": "alloro",
+   "en": "bay leaves",
+   "fr": "laurier",
+   "es": "laurel",
+   "de": "Lorbeerblätter"
+  }
+ },
+ "bean-sprouts": {
+  "aisle": "produce",
+  "n": {
+   "it": "germogli di soia",
+   "en": "bean sprouts",
+   "fr": "pousses de soja",
+   "es": "brotes de soja",
+   "de": "Sojasprossen"
+  }
+ },
+ "bechamel": {
+  "aisle": "pantry",
+  "n": {
+   "it": "besciamella",
+   "en": "béchamel",
+   "fr": "béchamel",
+   "es": "bechamel",
+   "de": "Béchamelsauce"
+  }
+ },
+ "beef": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "polpa di manzo",
+   "en": "beef",
+   "fr": "bœuf",
+   "es": "carne de ternera",
+   "de": "Rindfleisch"
+  }
+ },
+ "beef-broth": {
+  "aisle": "pantry",
+  "n": {
+   "it": "brodo di carne",
+   "en": "beef stock",
+   "fr": "bouillon de bœuf",
+   "es": "caldo de carne",
+   "de": "Rinderbrühe"
+  }
+ },
+ "beef-marrow": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "midollo di bue",
+   "en": "beef marrow",
+   "fr": "moelle de bœuf",
+   "es": "tuétano",
+   "de": "Rindermark"
+  }
+ },
+ "beef-sirloin": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "controfiletto di manzo",
+   "en": "beef sirloin",
+   "fr": "faux-filet",
+   "es": "lomo bajo de ternera",
+   "de": "Rinderlende"
+  }
+ },
+ "beef-stew-meat": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "spezzatino di manzo",
+   "en": "stewing beef",
+   "fr": "bœuf à braiser",
+   "es": "carne de ternera para guisar",
+   "de": "Rindergulasch"
+  }
+ },
+ "beefsteak-tomatoes": {
+  "aisle": "produce",
+  "n": {
+   "it": "pomodori da insalata",
+   "en": "beefsteak tomatoes",
+   "fr": "tomates cœur de bœuf",
+   "es": "tomates de ensalada",
+   "de": "Fleischtomaten"
+  }
+ },
+ "bell-peppers": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoni",
+   "en": "bell peppers",
+   "fr": "poivrons",
+   "es": "pimientos",
+   "de": "Paprika"
+  }
+ },
+ "birds-eye-chilies": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoncini thai",
+   "en": "bird's eye chilies",
+   "fr": "piments oiseau",
+   "es": "chiles tailandeses",
+   "de": "Thai-Chilis"
+  }
+ },
+ "bitter-almond-extract": {
+  "aisle": "pantry",
+  "n": {
+   "it": "aroma mandorla amara",
+   "en": "bitter almond extract",
+   "fr": "arôme d'amande amère",
+   "es": "esencia de almendra amarga",
+   "de": "Bittermandelaroma"
+  }
+ },
+ "black-mustard-seeds": {
+  "aisle": "spices",
+  "n": {
+   "it": "semi di senape nera",
+   "en": "black mustard seeds",
+   "fr": "graines de moutarde noire",
+   "es": "semillas de mostaza negra",
+   "de": "schwarze Senfsamen"
+  }
+ },
+ "black-olives": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olive nere",
+   "en": "black olives",
+   "fr": "olives noires",
+   "es": "aceitunas negras",
+   "de": "schwarze Oliven"
+  }
+ },
+ "black-pepper": {
+  "aisle": "spices",
+  "n": {
+   "it": "pepe nero",
+   "en": "black pepper",
+   "fr": "poivre noir",
+   "es": "pimienta negra",
+   "de": "schwarzer Pfeffer"
+  },
+  "pantry": true
+ },
+ "black-salt": {
+  "aisle": "spices",
+  "n": {
+   "it": "sale nero kala namak",
+   "en": "black salt (kala namak)",
+   "fr": "sel noir kala namak",
+   "es": "sal negra kala namak",
+   "de": "Kala Namak"
+  }
+ },
+ "black-tea": {
+  "aisle": "pantry",
+  "n": {
+   "it": "tè nero",
+   "en": "black tea",
+   "fr": "thé noir",
+   "es": "té negro",
+   "de": "schwarzer Tee"
+  }
+ },
+ "black-vinegar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "aceto nero cinese",
+   "en": "Chinese black vinegar",
+   "fr": "vinaigre noir chinois",
+   "es": "vinagre negro chino",
+   "de": "chinesischer Schwarzessig"
+  }
+ },
+ "blood-oranges": {
+  "aisle": "produce",
+  "n": {
+   "it": "arance rosse",
+   "en": "blood oranges",
+   "fr": "oranges sanguines",
+   "es": "naranjas sanguinas",
+   "de": "Blutorangen"
+  }
+ },
+ "blueberries": {
+  "aisle": "produce",
+  "n": {
+   "it": "mirtilli",
+   "en": "blueberries",
+   "fr": "myrtilles",
+   "es": "arándanos",
+   "de": "Heidelbeeren"
+  }
+ },
+ "bolognese-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "ragù alla bolognese",
+   "en": "Bolognese sauce",
+   "fr": "sauce bolognaise",
+   "es": "salsa boloñesa",
+   "de": "Bolognese-Sauce"
+  }
+ },
+ "bomba-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso bomba",
+   "en": "bomba rice",
+   "fr": "riz bomba",
+   "es": "arroz bomba",
+   "de": "Bomba-Reis"
+  }
+ },
+ "bourbon": {
+  "aisle": "drinks",
+  "n": {
+   "it": "bourbon",
+   "en": "bourbon",
+   "fr": "bourbon",
+   "es": "bourbon",
+   "de": "Bourbon"
+  }
+ },
+ "brandy": {
+  "aisle": "drinks",
+  "n": {
+   "it": "brandy",
+   "en": "brandy",
+   "fr": "brandy",
+   "es": "brandy",
+   "de": "Weinbrand"
+  }
+ },
+ "bread": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pane",
+   "en": "bread",
+   "fr": "pain",
+   "es": "pan",
+   "de": "Brot"
+  }
+ },
+ "bread-flour": {
+  "aisle": "pantry",
+  "n": {
+   "it": "farina manitoba",
+   "en": "bread flour",
+   "fr": "farine de force",
+   "es": "harina de fuerza",
+   "de": "Brotmehl Type 550"
+  }
+ },
+ "breadcrumbs": {
+  "aisle": "pantry",
+  "n": {
+   "it": "pangrattato",
+   "en": "breadcrumbs",
+   "fr": "chapelure",
+   "es": "pan rallado",
+   "de": "Semmelbrösel"
+  }
+ },
+ "brioche": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pan brioche",
+   "en": "brioche",
+   "fr": "brioche",
+   "es": "pan brioche",
+   "de": "Brioche"
+  }
+ },
+ "broccoli": {
+  "aisle": "produce",
+  "n": {
+   "it": "broccoli",
+   "en": "broccoli",
+   "fr": "brocoli",
+   "es": "brócoli",
+   "de": "Brokkoli"
+  }
+ },
+ "brown-sugar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "zucchero di canna",
+   "en": "brown sugar",
+   "fr": "sucre roux",
+   "es": "azúcar moreno",
+   "de": "brauner Zucker"
+  }
+ },
+ "bucatini": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "bucatini",
+   "en": "bucatini",
+   "fr": "bucatini",
+   "es": "bucatini",
+   "de": "Bucatini"
+  }
+ },
+ "buckwheat-flour": {
+  "aisle": "pantry",
+  "n": {
+   "it": "farina di grano saraceno",
+   "en": "buckwheat flour",
+   "fr": "farine de sarrasin",
+   "es": "harina de trigo sarraceno",
+   "de": "Buchweizenmehl"
+  }
+ },
+ "burger-buns": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "panini per hamburger",
+   "en": "burger buns",
+   "fr": "pains burger",
+   "es": "panes de hamburguesa",
+   "de": "Burgerbrötchen"
+  }
+ },
+ "butter": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "burro",
+   "en": "butter",
+   "fr": "beurre",
+   "es": "mantequilla",
+   "de": "Butter"
+  }
+ },
+ "button-mushrooms": {
+  "aisle": "produce",
+  "n": {
+   "it": "funghi champignon",
+   "en": "button mushrooms",
+   "fr": "champignons de Paris",
+   "es": "champiñones",
+   "de": "Champignons"
+  }
+ },
+ "cachaca": {
+  "aisle": "drinks",
+  "n": {
+   "it": "cachaça",
+   "en": "cachaça",
+   "fr": "cachaça",
+   "es": "cachaça",
+   "de": "Cachaça"
+  }
+ },
+ "caciocavallo": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "caciocavallo",
+   "en": "caciocavallo cheese",
+   "fr": "caciocavallo",
+   "es": "queso caciocavallo",
+   "de": "Caciocavallo"
+  }
+ },
+ "campari": {
+  "aisle": "drinks",
+  "n": {
+   "it": "Campari",
+   "en": "Campari",
+   "fr": "Campari",
+   "es": "Campari",
+   "de": "Campari"
+  }
+ },
+ "canned-black-beans": {
+  "aisle": "pantry",
+  "n": {
+   "it": "fagioli neri lessati",
+   "en": "canned black beans",
+   "fr": "haricots noirs en conserve",
+   "es": "alubias negras cocidas",
+   "de": "schwarze Bohnen (Dose)"
+  }
+ },
+ "canned-borlotti-beans": {
+  "aisle": "pantry",
+  "n": {
+   "it": "fagioli borlotti lessati",
+   "en": "canned borlotti beans",
+   "fr": "haricots borlotti en conserve",
+   "es": "alubias borlotti cocidas",
+   "de": "Borlottibohnen (Dose)"
+  }
+ },
+ "canned-butter-beans": {
+  "aisle": "pantry",
+  "n": {
+   "it": "fagioli bianchi di Spagna lessati",
+   "en": "canned butter beans",
+   "fr": "haricots de Lima en conserve",
+   "es": "garrofó cocido",
+   "de": "Limabohnen (Dose)"
+  }
+ },
+ "canned-cannellini-beans": {
+  "aisle": "pantry",
+  "n": {
+   "it": "fagioli cannellini lessati",
+   "en": "canned cannellini beans",
+   "fr": "haricots cannellini en conserve",
+   "es": "alubias blancas cocidas",
+   "de": "Cannellini-Bohnen (Dose)"
+  }
+ },
+ "canned-chickpeas": {
+  "aisle": "pantry",
+  "n": {
+   "it": "ceci lessati",
+   "en": "canned chickpeas",
+   "fr": "pois chiches en conserve",
+   "es": "garbanzos cocidos",
+   "de": "Kichererbsen (Dose)"
+  }
+ },
+ "canned-kidney-beans": {
+  "aisle": "pantry",
+  "n": {
+   "it": "fagioli rossi lessati",
+   "en": "canned kidney beans",
+   "fr": "haricots rouges en conserve",
+   "es": "alubias rojas cocidas",
+   "de": "Kidneybohnen (Dose)"
+  }
+ },
+ "canned-lentils": {
+  "aisle": "pantry",
+  "n": {
+   "it": "lenticchie lessate",
+   "en": "canned lentils",
+   "fr": "lentilles en conserve",
+   "es": "lentejas cocidas",
+   "de": "Linsen (Dose)"
+  }
+ },
+ "canned-tomatoes": {
+  "aisle": "pantry",
+  "n": {
+   "it": "pomodori pelati",
+   "en": "canned tomatoes",
+   "fr": "tomates pelées en conserve",
+   "es": "tomate en conserva",
+   "de": "Dosentomaten"
+  }
+ },
+ "canned-tuna": {
+  "aisle": "pantry",
+  "n": {
+   "it": "tonno sott'olio",
+   "en": "canned tuna",
+   "fr": "thon en boîte",
+   "es": "atún en lata",
+   "de": "Thunfisch (Dose)"
+  }
+ },
+ "capers": {
+  "aisle": "pantry",
+  "n": {
+   "it": "capperi",
+   "en": "capers",
+   "fr": "câpres",
+   "es": "alcaparras",
+   "de": "Kapern"
+  }
+ },
+ "caraway-seeds": {
+  "aisle": "spices",
+  "n": {
+   "it": "semi di cumino dei prati",
+   "en": "caraway seeds",
+   "fr": "graines de carvi",
+   "es": "alcaravea",
+   "de": "Kümmel"
+  }
+ },
+ "cardamom-pods": {
+  "aisle": "spices",
+  "n": {
+   "it": "cardamomo in bacche",
+   "en": "cardamom pods",
+   "fr": "cardamome en gousses",
+   "es": "vainas de cardamomo",
+   "de": "Kardamomkapseln"
+  }
+ },
+ "carnaroli-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso Carnaroli",
+   "en": "Carnaroli rice",
+   "fr": "riz carnaroli",
+   "es": "arroz carnaroli",
+   "de": "Carnaroli-Reis"
+  }
+ },
+ "carrots": {
+  "aisle": "produce",
+  "n": {
+   "it": "carote",
+   "en": "carrots",
+   "fr": "carottes",
+   "es": "zanahorias",
+   "de": "Karotten"
+  }
+ },
+ "cauliflower": {
+  "aisle": "produce",
+  "n": {
+   "it": "cavolfiore",
+   "en": "cauliflower",
+   "fr": "chou-fleur",
+   "es": "coliflor",
+   "de": "Blumenkohl"
+  }
+ },
+ "cavolo-nero": {
+  "aisle": "produce",
+  "n": {
+   "it": "cavolo nero",
+   "en": "cavolo nero",
+   "fr": "chou noir de Toscane",
+   "es": "col negra toscana",
+   "de": "Schwarzkohl"
+  }
+ },
+ "cayenne-pepper": {
+  "aisle": "spices",
+  "n": {
+   "it": "pepe di Caienna",
+   "en": "cayenne pepper",
+   "fr": "piment de Cayenne",
+   "es": "cayena",
+   "de": "Cayennepfeffer"
+  }
+ },
+ "celeriac": {
+  "aisle": "produce",
+  "n": {
+   "it": "sedano rapa",
+   "en": "celeriac",
+   "fr": "céleri-rave",
+   "es": "apionabo",
+   "de": "Knollensellerie"
+  }
+ },
+ "celery": {
+  "aisle": "produce",
+  "n": {
+   "it": "sedano",
+   "en": "celery",
+   "fr": "céleri branche",
+   "es": "apio",
+   "de": "Staudensellerie"
+  }
+ },
+ "celery-salt": {
+  "aisle": "spices",
+  "n": {
+   "it": "sale al sedano",
+   "en": "celery salt",
+   "fr": "sel de céleri",
+   "es": "sal de apio",
+   "de": "Selleriesalz"
+  }
+ },
+ "cheddar": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "cheddar",
+   "en": "cheddar",
+   "fr": "cheddar",
+   "es": "queso cheddar",
+   "de": "Cheddar"
+  }
+ },
+ "cherry-tomatoes": {
+  "aisle": "produce",
+  "n": {
+   "it": "pomodorini",
+   "en": "cherry tomatoes",
+   "fr": "tomates cerises",
+   "es": "tomates cherry",
+   "de": "Kirschtomaten"
+  }
+ },
+ "chia-seeds": {
+  "aisle": "pantry",
+  "n": {
+   "it": "semi di chia",
+   "en": "chia seeds",
+   "fr": "graines de chia",
+   "es": "semillas de chía",
+   "de": "Chiasamen"
+  }
+ },
+ "chicken-breast": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "petto di pollo",
+   "en": "chicken breast",
+   "fr": "blanc de poulet",
+   "es": "pechuga de pollo",
+   "de": "Hähnchenbrust"
+  }
+ },
+ "chicken-broth": {
+  "aisle": "pantry",
+  "n": {
+   "it": "brodo di pollo",
+   "en": "chicken stock",
+   "fr": "bouillon de volaille",
+   "es": "caldo de pollo",
+   "de": "Hühnerbrühe"
+  }
+ },
+ "chicken-livers": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "fegatini di pollo",
+   "en": "chicken livers",
+   "fr": "foies de volaille",
+   "es": "hígados de pollo",
+   "de": "Hühnerleber"
+  }
+ },
+ "chicken-pieces": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "pollo a pezzi",
+   "en": "chicken pieces",
+   "fr": "poulet en morceaux",
+   "es": "pollo troceado",
+   "de": "Hähnchenteile"
+  }
+ },
+ "chicken-thighs": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "sovracosce di pollo",
+   "en": "chicken thighs",
+   "fr": "hauts de cuisse de poulet",
+   "es": "contramuslos de pollo",
+   "de": "Hähnchenoberkeulen"
+  }
+ },
+ "chickpea-flour": {
+  "aisle": "pantry",
+  "n": {
+   "it": "farina di ceci",
+   "en": "chickpea flour",
+   "fr": "farine de pois chiches",
+   "es": "harina de garbanzo",
+   "de": "Kichererbsenmehl"
+  }
+ },
+ "chickpea-pasta": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pasta di ceci",
+   "en": "chickpea pasta",
+   "fr": "pâtes de pois chiches",
+   "es": "pasta de garbanzo",
+   "de": "Kichererbsennudeln"
+  }
+ },
+ "chicory": {
+  "aisle": "produce",
+  "n": {
+   "it": "cicoria",
+   "en": "chicory",
+   "fr": "chicorée",
+   "es": "achicoria",
+   "de": "Zichorie"
+  }
+ },
+ "chili-flakes": {
+  "aisle": "spices",
+  "n": {
+   "it": "peperoncino in fiocchi",
+   "en": "chili flakes",
+   "fr": "piment en flocons",
+   "es": "copos de guindilla",
+   "de": "Chiliflocken"
+  }
+ },
+ "chili-oil": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olio al peperoncino",
+   "en": "chili oil",
+   "fr": "huile pimentée",
+   "es": "aceite de guindilla",
+   "de": "Chiliöl"
+  }
+ },
+ "chili-powder": {
+  "aisle": "spices",
+  "n": {
+   "it": "peperoncino in polvere",
+   "en": "chili powder",
+   "fr": "piment en poudre",
+   "es": "guindilla en polvo",
+   "de": "Chilipulver"
+  }
+ },
+ "chives": {
+  "aisle": "produce",
+  "n": {
+   "it": "erba cipollina",
+   "en": "chives",
+   "fr": "ciboulette",
+   "es": "cebollino",
+   "de": "Schnittlauch"
+  }
+ },
+ "chocolate-chips": {
+  "aisle": "pantry",
+  "n": {
+   "it": "gocce di cioccolato",
+   "en": "chocolate chips",
+   "fr": "pépites de chocolat",
+   "es": "pepitas de chocolate",
+   "de": "Schokotropfen"
+  }
+ },
+ "cilantro": {
+  "aisle": "produce",
+  "n": {
+   "it": "coriandolo fresco",
+   "en": "cilantro",
+   "fr": "coriandre fraîche",
+   "es": "cilantro",
+   "de": "frischer Koriander"
+  }
+ },
+ "cinnamon-sticks": {
+  "aisle": "spices",
+  "n": {
+   "it": "cannella in stecche",
+   "en": "cinnamon sticks",
+   "fr": "bâtons de cannelle",
+   "es": "canela en rama",
+   "de": "Zimtstangen"
+  }
+ },
+ "citrus-vodka": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vodka agli agrumi",
+   "en": "citrus vodka",
+   "fr": "vodka citron",
+   "es": "vodka de cítricos",
+   "de": "Zitronenwodka"
+  }
+ },
+ "clams": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "vongole veraci",
+   "en": "clams",
+   "fr": "palourdes",
+   "es": "almejas",
+   "de": "Venusmuscheln"
+  }
+ },
+ "clarified-butter": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "burro chiarificato",
+   "en": "ghee",
+   "fr": "beurre clarifié",
+   "es": "mantequilla clarificada",
+   "de": "Butterschmalz"
+  }
+ },
+ "cloves": {
+  "aisle": "spices",
+  "n": {
+   "it": "chiodi di garofano",
+   "en": "cloves",
+   "fr": "clous de girofle",
+   "es": "clavos",
+   "de": "Gewürznelken"
+  }
+ },
+ "coarse-bulgur": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "bulgur grosso",
+   "en": "coarse bulgur",
+   "fr": "boulgour gros",
+   "es": "bulgur grueso",
+   "de": "grober Bulgur"
+  }
+ },
+ "coarse-salt": {
+  "aisle": "spices",
+  "n": {
+   "it": "sale grosso",
+   "en": "coarse salt",
+   "fr": "gros sel",
+   "es": "sal gorda",
+   "de": "grobes Salz"
+  },
+  "pantry": true
+ },
+ "cocoa-powder": {
+  "aisle": "pantry",
+  "n": {
+   "it": "cacao amaro",
+   "en": "cocoa powder",
+   "fr": "cacao en poudre",
+   "es": "cacao en polvo",
+   "de": "Kakaopulver"
+  }
+ },
+ "coconut-cream": {
+  "aisle": "pantry",
+  "n": {
+   "it": "crema di cocco",
+   "en": "coconut cream",
+   "fr": "crème de coco",
+   "es": "crema de coco",
+   "de": "Kokoscreme"
+  }
+ },
+ "coconut-milk": {
+  "aisle": "pantry",
+  "n": {
+   "it": "latte di cocco",
+   "en": "coconut milk",
+   "fr": "lait de coco",
+   "es": "leche de coco",
+   "de": "Kokosmilch"
+  }
+ },
+ "coconut-milk-drink": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "bevanda al cocco",
+   "en": "coconut milk drink",
+   "fr": "boisson au coco",
+   "es": "bebida de coco",
+   "de": "Kokosdrink"
+  }
+ },
+ "coconut-oil": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olio di cocco",
+   "en": "coconut oil",
+   "fr": "huile de coco",
+   "es": "aceite de coco",
+   "de": "Kokosöl"
+  }
+ },
+ "coffee": {
+  "aisle": "pantry",
+  "n": {
+   "it": "caffè macinato",
+   "en": "ground coffee",
+   "fr": "café moulu",
+   "es": "café molido",
+   "de": "gemahlener Kaffee"
+  }
+ },
+ "coffee-beans": {
+  "aisle": "pantry",
+  "n": {
+   "it": "caffè in grani",
+   "en": "coffee beans",
+   "fr": "café en grains",
+   "es": "café en grano",
+   "de": "Kaffeebohnen"
+  }
+ },
+ "coffee-liqueur": {
+  "aisle": "drinks",
+  "n": {
+   "it": "liquore al caffè",
+   "en": "coffee liqueur",
+   "fr": "liqueur de café",
+   "es": "licor de café",
+   "de": "Kaffeelikör"
+  }
+ },
+ "cooked-ham": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "prosciutto cotto",
+   "en": "ham",
+   "fr": "jambon blanc",
+   "es": "jamón cocido",
+   "de": "Kochschinken"
+  }
+ },
+ "cooked-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso (cotto il giorno prima)",
+   "en": "rice (cooked the day before)",
+   "fr": "riz (cuit la veille)",
+   "es": "arroz (cocido del día anterior)",
+   "de": "Reis (am Vortag gekocht)"
+  }
+ },
+ "coriander-seeds": {
+  "aisle": "spices",
+  "n": {
+   "it": "semi di coriandolo",
+   "en": "coriander seeds",
+   "fr": "graines de coriandre",
+   "es": "semillas de cilantro",
+   "de": "Koriandersamen"
+  }
+ },
+ "cornstarch": {
+  "aisle": "pantry",
+  "n": {
+   "it": "amido di mais",
+   "en": "cornstarch",
+   "fr": "fécule de maïs",
+   "es": "maicena",
+   "de": "Speisestärke"
+  }
+ },
+ "couscous": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "couscous",
+   "en": "couscous",
+   "fr": "semoule de couscous",
+   "es": "cuscús",
+   "de": "Couscous"
+  }
+ },
+ "cranberry-juice": {
+  "aisle": "drinks",
+  "n": {
+   "it": "succo di mirtillo rosso",
+   "en": "cranberry juice",
+   "fr": "jus de cranberry",
+   "es": "zumo de arándano rojo",
+   "de": "Cranberrysaft"
+  }
+ },
+ "cream-cheese": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "formaggio spalmabile",
+   "en": "cream cheese",
+   "fr": "fromage frais à tartiner",
+   "es": "queso crema",
+   "de": "Frischkäse"
+  }
+ },
+ "cucumbers": {
+  "aisle": "produce",
+  "n": {
+   "it": "cetrioli",
+   "en": "cucumbers",
+   "fr": "concombres",
+   "es": "pepinos",
+   "de": "Gurken"
+  }
+ },
+ "cumin-seeds": {
+  "aisle": "spices",
+  "n": {
+   "it": "semi di cumino",
+   "en": "cumin seeds",
+   "fr": "graines de cumin",
+   "es": "comino en grano",
+   "de": "Kreuzkümmel ganz"
+  }
+ },
+ "daikon": {
+  "aisle": "produce",
+  "n": {
+   "it": "daikon",
+   "en": "daikon",
+   "fr": "radis daikon",
+   "es": "daikon",
+   "de": "Rettich"
+  }
+ },
+ "dark-chocolate": {
+  "aisle": "pantry",
+  "n": {
+   "it": "cioccolato fondente",
+   "en": "dark chocolate",
+   "fr": "chocolat noir",
+   "es": "chocolate negro",
+   "de": "Zartbitterschokolade"
+  }
+ },
+ "dark-rum": {
+  "aisle": "drinks",
+  "n": {
+   "it": "rum scuro",
+   "en": "dark rum",
+   "fr": "rhum brun",
+   "es": "ron oscuro",
+   "de": "brauner Rum"
+  }
+ },
+ "dashi": {
+  "aisle": "pantry",
+  "n": {
+   "it": "dashi",
+   "en": "dashi",
+   "fr": "dashi",
+   "es": "dashi",
+   "de": "Dashi"
+  }
+ },
+ "desiccated-coconut": {
+  "aisle": "pantry",
+  "n": {
+   "it": "cocco rapé",
+   "en": "desiccated coconut",
+   "fr": "noix de coco râpée",
+   "es": "coco rallado",
+   "de": "Kokosraspeln"
+  }
+ },
+ "digestive-biscuits": {
+  "aisle": "pantry",
+  "n": {
+   "it": "biscotti digestive",
+   "en": "digestive biscuits",
+   "fr": "biscuits sablés",
+   "es": "galletas digestive",
+   "de": "Vollkornkekse"
+  }
+ },
+ "dijon-mustard": {
+  "aisle": "pantry",
+  "n": {
+   "it": "senape di Digione",
+   "en": "Dijon mustard",
+   "fr": "moutarde de Dijon",
+   "es": "mostaza de Dijon",
+   "de": "Dijon-Senf"
+  }
+ },
+ "dill": {
+  "aisle": "produce",
+  "n": {
+   "it": "aneto",
+   "en": "dill",
+   "fr": "aneth",
+   "es": "eneldo",
+   "de": "Dill"
+  }
+ },
+ "dried-apricots": {
+  "aisle": "pantry",
+  "n": {
+   "it": "albicocche secche",
+   "en": "dried apricots",
+   "fr": "abricots secs",
+   "es": "orejones",
+   "de": "getrocknete Aprikosen"
+  }
+ },
+ "dried-chilies": {
+  "aisle": "spices",
+  "n": {
+   "it": "peperoncino secco",
+   "en": "dried chilies",
+   "fr": "piments séchés",
+   "es": "guindillas secas",
+   "de": "getrocknete Chilis"
+  }
+ },
+ "dried-marjoram": {
+  "aisle": "spices",
+  "n": {
+   "it": "maggiorana secca",
+   "en": "dried marjoram",
+   "fr": "marjolaine séchée",
+   "es": "mejorana seca",
+   "de": "getrockneter Majoran"
+  }
+ },
+ "dried-mint": {
+  "aisle": "spices",
+  "n": {
+   "it": "menta secca",
+   "en": "dried mint",
+   "fr": "menthe séchée",
+   "es": "menta seca",
+   "de": "getrocknete Minze"
+  }
+ },
+ "dried-oregano": {
+  "aisle": "spices",
+  "n": {
+   "it": "origano secco",
+   "en": "dried oregano",
+   "fr": "origan séché",
+   "es": "orégano seco",
+   "de": "getrockneter Oregano"
+  },
+  "pantry": true
+ },
+ "dried-shiitake": {
+  "aisle": "pantry",
+  "n": {
+   "it": "funghi shiitake secchi",
+   "en": "dried shiitake",
+   "fr": "shiitakés séchés",
+   "es": "shiitake secos",
+   "de": "getrocknete Shiitake"
+  }
+ },
+ "dried-thyme": {
+  "aisle": "spices",
+  "n": {
+   "it": "timo secco",
+   "en": "dried thyme",
+   "fr": "thym séché",
+   "es": "tomillo seco",
+   "de": "getrockneter Thymian"
+  }
+ },
+ "dried-wakame": {
+  "aisle": "pantry",
+  "n": {
+   "it": "alga wakame secca",
+   "en": "dried wakame",
+   "fr": "wakamé séché",
+   "es": "alga wakame seca",
+   "de": "getrocknete Wakame"
+  }
+ },
+ "dry-vermouth": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vermouth dry",
+   "en": "dry vermouth",
+   "fr": "vermouth dry",
+   "es": "vermut seco",
+   "de": "trockener Wermut"
+  }
+ },
+ "dry-white-wine": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vino bianco secco",
+   "en": "dry white wine",
+   "fr": "vin blanc sec",
+   "es": "vino blanco seco",
+   "de": "trockener Weißwein"
+  }
+ },
+ "dry-yeast": {
+  "aisle": "pantry",
+  "n": {
+   "it": "lievito di birra secco",
+   "en": "dry yeast",
+   "fr": "levure de boulanger sèche",
+   "es": "levadura seca de panadero",
+   "de": "Trockenhefe"
+  }
+ },
+ "edamame": {
+  "aisle": "frozen",
+  "n": {
+   "it": "edamame surgelati",
+   "en": "frozen edamame",
+   "fr": "edamame surgelés",
+   "es": "edamame congelado",
+   "de": "TK-Edamame"
+  }
+ },
+ "eggplants": {
+  "aisle": "produce",
+  "n": {
+   "it": "melanzane",
+   "en": "eggplants",
+   "fr": "aubergines",
+   "es": "berenjenas",
+   "de": "Auberginen"
+  }
+ },
+ "eggs": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "uova",
+   "en": "eggs",
+   "fr": "œufs",
+   "es": "huevos",
+   "de": "Eier"
+  }
+ },
+ "elderflower-syrup": {
+  "aisle": "drinks",
+  "n": {
+   "it": "sciroppo di sambuco",
+   "en": "elderflower syrup",
+   "fr": "sirop de fleurs de sureau",
+   "es": "sirope de flor de saúko",
+   "de": "Holunderblütensirup"
+  }
+ },
+ "emmental": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "emmental",
+   "en": "Emmental",
+   "fr": "emmental",
+   "es": "queso emmental",
+   "de": "Emmentaler"
+  }
+ },
+ "english-muffins": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "muffin inglesi",
+   "en": "English muffins",
+   "fr": "muffins anglais",
+   "es": "muffins ingleses",
+   "de": "English Muffins"
+  }
+ },
+ "extra-virgin-olive-oil": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olio extravergine",
+   "en": "extra virgin olive oil",
+   "fr": "huile d'olive vierge extra",
+   "es": "aceite de oliva virgen extra",
+   "de": "natives Olivenöl extra"
+  },
+  "pantry": true
+ },
+ "fennel": {
+  "aisle": "produce",
+  "n": {
+   "it": "finocchi",
+   "en": "fennel",
+   "fr": "fenouil",
+   "es": "hinojo",
+   "de": "Fenchel"
+  }
+ },
+ "feta": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "feta",
+   "en": "feta",
+   "fr": "feta",
+   "es": "queso feta",
+   "de": "Feta"
+  }
+ },
+ "fine-bulgur": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "bulgur fine",
+   "en": "fine bulgur",
+   "fr": "boulgour fin",
+   "es": "bulgur fino",
+   "de": "feiner Bulgur"
+  }
+ },
+ "firm-tofu": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "tofu compatto",
+   "en": "firm tofu",
+   "fr": "tofu ferme",
+   "es": "tofu firme",
+   "de": "Tofu natur"
+  }
+ },
+ "fish-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "salsa di pesce",
+   "en": "fish sauce",
+   "fr": "sauce poisson",
+   "es": "salsa de pescado",
+   "de": "Fischsauce"
+  }
+ },
+ "flaked-almonds": {
+  "aisle": "pantry",
+  "n": {
+   "it": "mandorle a lamelle",
+   "en": "flaked almonds",
+   "fr": "amandes effilées",
+   "es": "almendra laminada",
+   "de": "Mandelblättchen"
+  }
+ },
+ "flaky-salt": {
+  "aisle": "spices",
+  "n": {
+   "it": "sale in fiocchi",
+   "en": "flaky sea salt",
+   "fr": "fleur de sel",
+   "es": "sal en escamas",
+   "de": "Salzflocken"
+  }
+ },
+ "floury-potatoes": {
+  "aisle": "produce",
+  "n": {
+   "it": "patate farinose",
+   "en": "floury potatoes",
+   "fr": "pommes de terre farineuses",
+   "es": "patatas harinosas",
+   "de": "mehligkochende Kartoffeln"
+  }
+ },
+ "fontina": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "fontina",
+   "en": "fontina",
+   "fr": "fontina",
+   "es": "queso fontina",
+   "de": "Fontina"
+  }
+ },
+ "fresh-chilies": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoncini freschi",
+   "en": "fresh chilies",
+   "fr": "piments frais",
+   "es": "guindillas frescas",
+   "de": "frische Chilis"
+  }
+ },
+ "fresh-egg-pasta": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pasta fresca all'uovo",
+   "en": "fresh egg pasta",
+   "fr": "pâtes fraîches aux œufs",
+   "es": "pasta fresca al huevo",
+   "de": "frische Eiernudeln"
+  }
+ },
+ "fresh-ginger": {
+  "aisle": "produce",
+  "n": {
+   "it": "zenzero fresco",
+   "en": "fresh ginger",
+   "fr": "gingembre frais",
+   "es": "jengibre fresco",
+   "de": "frischer Ingwer"
+  }
+ },
+ "fresh-marjoram": {
+  "aisle": "produce",
+  "n": {
+   "it": "maggiorana fresca",
+   "en": "fresh marjoram",
+   "fr": "marjolaine fraîche",
+   "es": "mejorana fresca",
+   "de": "frischer Majoran"
+  }
+ },
+ "fresh-tomatoes": {
+  "aisle": "produce",
+  "n": {
+   "it": "pomodori",
+   "en": "tomatoes",
+   "fr": "tomates",
+   "es": "tomates",
+   "de": "Tomaten"
+  }
+ },
+ "fresh-yeast": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "lievito di birra fresco",
+   "en": "fresh yeast",
+   "fr": "levure fraîche",
+   "es": "levadura fresca",
+   "de": "frische Hefe"
+  }
+ },
+ "frozen-mixed-berries": {
+  "aisle": "frozen",
+  "n": {
+   "it": "frutti di bosco surgelati",
+   "en": "frozen mixed berries",
+   "fr": "fruits rouges surgelés",
+   "es": "frutos rojos congelados",
+   "de": "TK-Beerenmischung"
+  }
+ },
+ "frozen-peas": {
+  "aisle": "frozen",
+  "n": {
+   "it": "piselli surgelati",
+   "en": "frozen peas",
+   "fr": "petits pois surgelés",
+   "es": "guisantes congelados",
+   "de": "TK-Erbsen"
+  }
+ },
+ "galangal": {
+  "aisle": "produce",
+  "n": {
+   "it": "galanga",
+   "en": "galangal",
+   "fr": "galanga",
+   "es": "galanga",
+   "de": "Galgant"
+  }
+ },
+ "garam-masala": {
+  "aisle": "spices",
+  "n": {
+   "it": "garam masala",
+   "en": "garam masala",
+   "fr": "garam masala",
+   "es": "garam masala",
+   "de": "Garam Masala"
+  }
+ },
+ "garlic": {
+  "aisle": "produce",
+  "n": {
+   "it": "aglio",
+   "en": "garlic",
+   "fr": "ail",
+   "es": "ajo",
+   "de": "Knoblauch"
+  }
+ },
+ "gelatin-sheets": {
+  "aisle": "pantry",
+  "n": {
+   "it": "gelatina in fogli",
+   "en": "gelatin sheets",
+   "fr": "feuilles de gélatine",
+   "es": "hojas de gelatina",
+   "de": "Blattgelatine"
+  }
+ },
+ "giardiniera": {
+  "aisle": "pantry",
+  "n": {
+   "it": "giardiniera",
+   "en": "giardiniera (pickled vegetables)",
+   "fr": "légumes au vinaigre",
+   "es": "encurtidos variados",
+   "de": "Mixed Pickles"
+  }
+ },
+ "gin": {
+  "aisle": "drinks",
+  "n": {
+   "it": "gin",
+   "en": "gin",
+   "fr": "gin",
+   "es": "ginebra",
+   "de": "Gin"
+  }
+ },
+ "ginger-ale": {
+  "aisle": "drinks",
+  "n": {
+   "it": "ginger ale",
+   "en": "ginger ale",
+   "fr": "ginger ale",
+   "es": "ginger ale",
+   "de": "Ginger Ale"
+  }
+ },
+ "ginger-beer": {
+  "aisle": "drinks",
+  "n": {
+   "it": "ginger beer",
+   "en": "ginger beer",
+   "fr": "ginger beer",
+   "es": "ginger beer",
+   "de": "Ginger Beer"
+  }
+ },
+ "glutinous-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso glutinoso",
+   "en": "glutinous rice",
+   "fr": "riz gluant",
+   "es": "arroz glutinoso",
+   "de": "Klebreis"
+  }
+ },
+ "gochugaru": {
+  "aisle": "spices",
+  "n": {
+   "it": "gochugaru",
+   "en": "gochugaru",
+   "fr": "gochugaru",
+   "es": "gochugaru",
+   "de": "Gochugaru"
+  }
+ },
+ "gochujang": {
+  "aisle": "pantry",
+  "n": {
+   "it": "gochujang",
+   "en": "gochujang",
+   "fr": "gochujang",
+   "es": "gochujang",
+   "de": "Gochujang"
+  }
+ },
+ "grana-padano": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "Grana Padano",
+   "en": "Grana Padano",
+   "fr": "grana padano",
+   "es": "grana padano",
+   "de": "Grana Padano"
+  }
+ },
+ "grapefruits": {
+  "aisle": "produce",
+  "n": {
+   "it": "pompelmi",
+   "en": "grapefruits",
+   "fr": "pamplemousses",
+   "es": "pomelos",
+   "de": "Grapefruits"
+  }
+ },
+ "greek-yogurt": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "yogurt greco",
+   "en": "Greek yogurt",
+   "fr": "yaourt grec",
+   "es": "yogur griego",
+   "de": "griechischer Joghurt"
+  }
+ },
+ "green-apples": {
+  "aisle": "produce",
+  "n": {
+   "it": "mele verdi",
+   "en": "green apples",
+   "fr": "pommes vertes",
+   "es": "manzanas verdes",
+   "de": "grüne Äpfel"
+  }
+ },
+ "green-beans": {
+  "aisle": "produce",
+  "n": {
+   "it": "fagiolini",
+   "en": "green beans",
+   "fr": "haricots verts",
+   "es": "judías verdes",
+   "de": "grüne Bohnen"
+  }
+ },
+ "green-bell-peppers": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoni verdi",
+   "en": "green bell peppers",
+   "fr": "poivrons verts",
+   "es": "pimientos verdes",
+   "de": "grüne Paprika"
+  }
+ },
+ "green-chilies": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoncini verdi",
+   "en": "green chilies",
+   "fr": "piments verts",
+   "es": "guindillas verdes",
+   "de": "grüne Chilis"
+  }
+ },
+ "green-olives": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olive verdi",
+   "en": "green olives",
+   "fr": "olives vertes",
+   "es": "aceitunas verdes",
+   "de": "grüne Oliven"
+  }
+ },
+ "grenadine": {
+  "aisle": "drinks",
+  "n": {
+   "it": "granatina",
+   "en": "grenadine",
+   "fr": "sirop de grenadine",
+   "es": "granadina",
+   "de": "Grenadine"
+  }
+ },
+ "ground-beef": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "macinato di manzo",
+   "en": "ground beef",
+   "fr": "bœuf haché",
+   "es": "carne picada de ternera",
+   "de": "Rinderhack"
+  }
+ },
+ "ground-beef-pork": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "macinato misto",
+   "en": "ground beef and pork",
+   "fr": "haché bœuf-porc",
+   "es": "carne picada mixta",
+   "de": "gemischtes Hackfleisch"
+  }
+ },
+ "ground-cardamom": {
+  "aisle": "spices",
+  "n": {
+   "it": "cardamomo macinato",
+   "en": "ground cardamom",
+   "fr": "cardamome moulue",
+   "es": "cardamomo molido",
+   "de": "gemahlener Kardamom"
+  }
+ },
+ "ground-cinnamon": {
+  "aisle": "spices",
+  "n": {
+   "it": "cannella in polvere",
+   "en": "ground cinnamon",
+   "fr": "cannelle en poudre",
+   "es": "canela molida",
+   "de": "Zimt gemahlen"
+  }
+ },
+ "ground-coriander": {
+  "aisle": "spices",
+  "n": {
+   "it": "coriandolo in polvere",
+   "en": "ground coriander",
+   "fr": "coriandre moulue",
+   "es": "cilantro molido",
+   "de": "Koriander gemahlen"
+  }
+ },
+ "ground-cumin": {
+  "aisle": "spices",
+  "n": {
+   "it": "cumino in polvere",
+   "en": "ground cumin",
+   "fr": "cumin en poudre",
+   "es": "comino molido",
+   "de": "Kreuzkümmel gemahlen"
+  }
+ },
+ "ground-ginger": {
+  "aisle": "spices",
+  "n": {
+   "it": "zenzero in polvere",
+   "en": "ground ginger",
+   "fr": "gingembre en poudre",
+   "es": "jengibre molido",
+   "de": "Ingwerpulver"
+  }
+ },
+ "ground-pork": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "macinato di maiale",
+   "en": "ground pork",
+   "fr": "porc haché",
+   "es": "carne picada de cerdo",
+   "de": "Schweinehack"
+  }
+ },
+ "ground-turmeric": {
+  "aisle": "spices",
+  "n": {
+   "it": "curcuma",
+   "en": "ground turmeric",
+   "fr": "curcuma",
+   "es": "cúrcuma",
+   "de": "Kurkuma"
+  }
+ },
+ "gruyere": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "groviera",
+   "en": "Gruyère",
+   "fr": "gruyère",
+   "es": "queso gruyère",
+   "de": "Greyerzer"
+  }
+ },
+ "guanciale": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "guanciale",
+   "en": "guanciale",
+   "fr": "guanciale",
+   "es": "guanciale",
+   "de": "Guanciale"
+  }
+ },
+ "gyoza-wrappers": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "dischi per gyoza",
+   "en": "gyoza wrappers",
+   "fr": "feuilles à gyoza",
+   "es": "obleas para gyozas",
+   "de": "Gyoza-Teigblätter"
+  }
+ },
+ "harissa": {
+  "aisle": "pantry",
+  "n": {
+   "it": "harissa",
+   "en": "harissa",
+   "fr": "harissa",
+   "es": "harissa",
+   "de": "Harissa"
+  }
+ },
+ "hazelnuts": {
+  "aisle": "pantry",
+  "n": {
+   "it": "nocciole",
+   "en": "hazelnuts",
+   "fr": "noisettes",
+   "es": "avellanas",
+   "de": "Haselnüsse"
+  }
+ },
+ "heavy-cream": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "panna fresca",
+   "en": "heavy cream",
+   "fr": "crème entière",
+   "es": "nata para montar",
+   "de": "Schlagsahne"
+  }
+ },
+ "hoisin-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "salsa hoisin",
+   "en": "hoisin sauce",
+   "fr": "sauce hoisin",
+   "es": "salsa hoisin",
+   "de": "Hoisinsauce"
+  }
+ },
+ "honey": {
+  "aisle": "pantry",
+  "n": {
+   "it": "miele",
+   "en": "honey",
+   "fr": "miel",
+   "es": "miel",
+   "de": "Honig"
+  }
+ },
+ "hot-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "Tabasco",
+   "en": "hot sauce",
+   "fr": "Tabasco",
+   "es": "Tabasco",
+   "de": "Tabasco"
+  }
+ },
+ "ice": {
+  "aisle": "frozen",
+  "n": {
+   "it": "ghiaccio",
+   "en": "ice",
+   "fr": "glaçons",
+   "es": "hielo",
+   "de": "Eiswürfel"
+  },
+  "pantry": true
+ },
+ "jalapenos": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoncini jalapeño",
+   "en": "jalapeños",
+   "fr": "piments jalapeño",
+   "es": "jalapeños",
+   "de": "Jalapeños"
+  }
+ },
+ "kaffir-lime-leaves": {
+  "aisle": "produce",
+  "n": {
+   "it": "foglie di lime kaffir",
+   "en": "makrut lime leaves",
+   "fr": "feuilles de combava",
+   "es": "hojas de lima kaffir",
+   "de": "Kaffirlimettenblätter"
+  }
+ },
+ "kalamata-olives": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olive Kalamata",
+   "en": "Kalamata olives",
+   "fr": "olives de Kalamata",
+   "es": "aceitunas Kalamata",
+   "de": "Kalamata-Oliven"
+  }
+ },
+ "katsuobushi": {
+  "aisle": "pantry",
+  "n": {
+   "it": "katsuobushi",
+   "en": "bonito flakes",
+   "fr": "bonite séchée",
+   "es": "katsuobushi",
+   "de": "Bonitoflocken"
+  }
+ },
+ "ketchup": {
+  "aisle": "pantry",
+  "n": {
+   "it": "ketchup",
+   "en": "ketchup",
+   "fr": "ketchup",
+   "es": "kétchup",
+   "de": "Ketchup"
+  }
+ },
+ "kiwis": {
+  "aisle": "produce",
+  "n": {
+   "it": "kiwi",
+   "en": "kiwis",
+   "fr": "kiwis",
+   "es": "kiwis",
+   "de": "Kiwis"
+  }
+ },
+ "kombu": {
+  "aisle": "pantry",
+  "n": {
+   "it": "alga kombu",
+   "en": "kombu",
+   "fr": "kombu",
+   "es": "alga kombu",
+   "de": "Kombu"
+  }
+ },
+ "ladyfingers": {
+  "aisle": "pantry",
+  "n": {
+   "it": "savoiardi",
+   "en": "ladyfingers",
+   "fr": "biscuits à la cuillère",
+   "es": "bizcochos de soletilla",
+   "de": "Löffelbiskuits"
+  }
+ },
+ "lamb-shoulder": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "spalla d'agnello",
+   "en": "lamb shoulder",
+   "fr": "épaule d'agneau",
+   "es": "paletilla de cordero",
+   "de": "Lammschulter"
+  }
+ },
+ "lard": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "strutto",
+   "en": "lard",
+   "fr": "saindoux",
+   "es": "manteca de cerdo",
+   "de": "Schweineschmalz"
+  }
+ },
+ "leeks": {
+  "aisle": "produce",
+  "n": {
+   "it": "porri",
+   "en": "leeks",
+   "fr": "poireaux",
+   "es": "puerros",
+   "de": "Lauch"
+  }
+ },
+ "lemongrass": {
+  "aisle": "produce",
+  "n": {
+   "it": "citronella",
+   "en": "lemongrass",
+   "fr": "citronnelle",
+   "es": "hierba limón",
+   "de": "Zitronengras"
+  }
+ },
+ "lemons": {
+  "aisle": "produce",
+  "n": {
+   "it": "limoni",
+   "en": "lemons",
+   "fr": "citrons",
+   "es": "limones",
+   "de": "Zitronen"
+  }
+ },
+ "lentils": {
+  "aisle": "pantry",
+  "n": {
+   "it": "lenticchie",
+   "en": "lentils",
+   "fr": "lentilles",
+   "es": "lentejas",
+   "de": "Linsen"
+  }
+ },
+ "limes": {
+  "aisle": "produce",
+  "n": {
+   "it": "lime",
+   "en": "limes",
+   "fr": "citrons verts",
+   "es": "limas",
+   "de": "Limetten"
+  }
+ },
+ "long-grain-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso a chicco lungo",
+   "en": "long-grain rice",
+   "fr": "riz long",
+   "es": "arroz de grano largo",
+   "de": "Langkornreis"
+  }
+ },
+ "long-green-peppers": {
+  "aisle": "produce",
+  "n": {
+   "it": "friggitelli",
+   "en": "long green peppers",
+   "fr": "piments doux verts",
+   "es": "pimientos verdes italianos",
+   "de": "grüne Spitzpaprika"
+  }
+ },
+ "macaroni": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "maccheroncini",
+   "en": "macaroni",
+   "fr": "coquillettes",
+   "es": "macarrones",
+   "de": "Hörnchennudeln"
+  }
+ },
+ "mangoes": {
+  "aisle": "produce",
+  "n": {
+   "it": "mango",
+   "en": "mangoes",
+   "fr": "mangues",
+   "es": "mangos",
+   "de": "Mangos"
+  }
+ },
+ "maple-syrup": {
+  "aisle": "pantry",
+  "n": {
+   "it": "sciroppo d'acero",
+   "en": "maple syrup",
+   "fr": "sirop d'érable",
+   "es": "sirope de arce",
+   "de": "Ahornsirup"
+  }
+ },
+ "mascarpone": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "mascarpone",
+   "en": "mascarpone",
+   "fr": "mascarpone",
+   "es": "mascarpone",
+   "de": "Mascarpone"
+  }
+ },
+ "mayonnaise": {
+  "aisle": "pantry",
+  "n": {
+   "it": "maionese",
+   "en": "mayonnaise",
+   "fr": "mayonnaise",
+   "es": "mayonesa",
+   "de": "Mayonnaise"
+  }
+ },
+ "medium-grain-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso Originario",
+   "en": "medium-grain rice",
+   "fr": "riz rond",
+   "es": "arroz redondo",
+   "de": "Mittelkornreis"
+  }
+ },
+ "medjool-dates": {
+  "aisle": "pantry",
+  "n": {
+   "it": "datteri Medjool",
+   "en": "Medjool dates",
+   "fr": "dattes Medjool",
+   "es": "dátiles Medjool",
+   "de": "Medjool-Datteln"
+  }
+ },
+ "melons": {
+  "aisle": "produce",
+  "n": {
+   "it": "melone",
+   "en": "melon",
+   "fr": "melon",
+   "es": "melón",
+   "de": "Melone"
+  }
+ },
+ "milk": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "latte intero",
+   "en": "whole milk",
+   "fr": "lait entier",
+   "es": "leche entera",
+   "de": "Vollmilch"
+  }
+ },
+ "mint": {
+  "aisle": "produce",
+  "n": {
+   "it": "menta",
+   "en": "mint",
+   "fr": "menthe",
+   "es": "menta",
+   "de": "Minze"
+  }
+ },
+ "mirin": {
+  "aisle": "pantry",
+  "n": {
+   "it": "mirin",
+   "en": "mirin",
+   "fr": "mirin",
+   "es": "mirin",
+   "de": "Mirin"
+  }
+ },
+ "miso": {
+  "aisle": "pantry",
+  "n": {
+   "it": "miso",
+   "en": "miso paste",
+   "fr": "pâte miso",
+   "es": "pasta de miso",
+   "de": "Misopaste"
+  }
+ },
+ "mixed-berries": {
+  "aisle": "produce",
+  "n": {
+   "it": "frutti di bosco",
+   "en": "mixed berries",
+   "fr": "fruits rouges",
+   "es": "frutos rojos",
+   "de": "gemischte Beeren"
+  }
+ },
+ "mixed-seeds": {
+  "aisle": "pantry",
+  "n": {
+   "it": "semi misti",
+   "en": "mixed seeds",
+   "fr": "mélange de graines",
+   "es": "mezcla de semillas",
+   "de": "Saatenmischung"
+  }
+ },
+ "mozzarella": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "mozzarella fior di latte",
+   "en": "mozzarella",
+   "fr": "mozzarella",
+   "es": "mozzarella",
+   "de": "Mozzarella"
+  }
+ },
+ "mushrooms": {
+  "aisle": "produce",
+  "n": {
+   "it": "funghi misti",
+   "en": "mixed mushrooms",
+   "fr": "champignons variés",
+   "es": "setas variadas",
+   "de": "Pilzmischung"
+  }
+ },
+ "mussels": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "cozze",
+   "en": "mussels",
+   "fr": "moules",
+   "es": "mejillones",
+   "de": "Miesmuscheln"
+  }
+ },
+ "mustard": {
+  "aisle": "pantry",
+  "n": {
+   "it": "senape",
+   "en": "mustard",
+   "fr": "moutarde",
+   "es": "mostaza",
+   "de": "Senf"
+  }
+ },
+ "napa-cabbage": {
+  "aisle": "produce",
+  "n": {
+   "it": "cavolo cinese",
+   "en": "napa cabbage",
+   "fr": "chou chinois",
+   "es": "col china",
+   "de": "Chinakohl"
+  }
+ },
+ "nori": {
+  "aisle": "pantry",
+  "n": {
+   "it": "alga nori",
+   "en": "nori sheets",
+   "fr": "feuilles de nori",
+   "es": "alga nori",
+   "de": "Noriblätter"
+  }
+ },
+ "nutmeg": {
+  "aisle": "spices",
+  "n": {
+   "it": "noce moscata",
+   "en": "nutmeg",
+   "fr": "noix de muscade",
+   "es": "nuez moscada",
+   "de": "Muskatnuss"
+  }
+ },
+ "oat-milk": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "bevanda d'avena",
+   "en": "oat milk",
+   "fr": "boisson à l'avoine",
+   "es": "bebida de avena",
+   "de": "Haferdrink"
+  }
+ },
+ "octopus": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "polpo",
+   "en": "octopus",
+   "fr": "poulpe",
+   "es": "pulpo",
+   "de": "Oktopus"
+  }
+ },
+ "olive-oil": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olio d'oliva",
+   "en": "olive oil",
+   "fr": "huile d'olive",
+   "es": "aceite de oliva",
+   "de": "Olivenöl"
+  }
+ },
+ "onions": {
+  "aisle": "produce",
+  "n": {
+   "it": "cipolle",
+   "en": "onions",
+   "fr": "oignons",
+   "es": "cebollas",
+   "de": "Zwiebeln"
+  }
+ },
+ "orange-curacao": {
+  "aisle": "drinks",
+  "n": {
+   "it": "curaçao",
+   "en": "orange curaçao",
+   "fr": "curaçao",
+   "es": "curaçao",
+   "de": "Curaçao"
+  }
+ },
+ "oranges": {
+  "aisle": "produce",
+  "n": {
+   "it": "arance",
+   "en": "oranges",
+   "fr": "oranges",
+   "es": "naranjas",
+   "de": "Orangen"
+  }
+ },
+ "orgeat-syrup": {
+  "aisle": "drinks",
+  "n": {
+   "it": "orzata",
+   "en": "orgeat syrup",
+   "fr": "sirop d'orgeat",
+   "es": "horchata de almendra",
+   "de": "Mandelsirup"
+  }
+ },
+ "oyster-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "salsa d'ostriche",
+   "en": "oyster sauce",
+   "fr": "sauce d'huître",
+   "es": "salsa de ostras",
+   "de": "Austernsauce"
+  }
+ },
+ "padron-peppers": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoncini di Padrón",
+   "en": "Padrón peppers",
+   "fr": "piments de Padrón",
+   "es": "pimientos de Padrón",
+   "de": "Pimientos de Padrón"
+  }
+ },
+ "pak-choi": {
+  "aisle": "produce",
+  "n": {
+   "it": "pak choi",
+   "en": "pak choi",
+   "fr": "pak choï",
+   "es": "pak choi",
+   "de": "Pak Choi"
+  }
+ },
+ "pancetta": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "pancetta",
+   "en": "pancetta",
+   "fr": "poitrine fumée",
+   "es": "panceta",
+   "de": "Pancetta"
+  }
+ },
+ "parboiled-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso parboiled",
+   "en": "parboiled rice",
+   "fr": "riz étuvé",
+   "es": "arroz vaporizado",
+   "de": "Parboiled-Reis"
+  }
+ },
+ "parmigiano-reggiano": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "Parmigiano Reggiano",
+   "en": "Parmesan",
+   "fr": "parmesan",
+   "es": "queso parmesano",
+   "de": "Parmesan"
+  }
+ },
+ "parsley": {
+  "aisle": "produce",
+  "n": {
+   "it": "prezzemolo",
+   "en": "parsley",
+   "fr": "persil",
+   "es": "perejil",
+   "de": "Petersilie"
+  }
+ },
+ "peaches": {
+  "aisle": "produce",
+  "n": {
+   "it": "pesche",
+   "en": "peaches",
+   "fr": "pêches",
+   "es": "melocotones",
+   "de": "Pfirsiche"
+  }
+ },
+ "peanut-butter": {
+  "aisle": "pantry",
+  "n": {
+   "it": "burro d'arachidi",
+   "en": "peanut butter",
+   "fr": "beurre de cacahuète",
+   "es": "crema de cacahuete",
+   "de": "Erdnussbutter"
+  }
+ },
+ "peanut-oil": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olio di arachidi",
+   "en": "peanut oil",
+   "fr": "huile d'arachide",
+   "es": "aceite de cacahuete",
+   "de": "Erdnussöl"
+  }
+ },
+ "pearl-barley": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "orzo perlato",
+   "en": "pearl barley",
+   "fr": "orge perlé",
+   "es": "cebada perlada",
+   "de": "Perlgraupen"
+  }
+ },
+ "pearled-farro": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "farro perlato",
+   "en": "pearled farro",
+   "fr": "épeautre perlé",
+   "es": "farro perlado",
+   "de": "Emmer (geperlt)"
+  }
+ },
+ "pears": {
+  "aisle": "produce",
+  "n": {
+   "it": "pere",
+   "en": "pears",
+   "fr": "poires",
+   "es": "peras",
+   "de": "Birnen"
+  }
+ },
+ "peas": {
+  "aisle": "produce",
+  "n": {
+   "it": "piselli",
+   "en": "peas",
+   "fr": "petits pois",
+   "es": "guisantes",
+   "de": "Erbsen"
+  }
+ },
+ "peas-and-carrots": {
+  "aisle": "frozen",
+  "n": {
+   "it": "piselli e carote surgelati",
+   "en": "frozen peas and carrots",
+   "fr": "petits pois-carottes surgelés",
+   "es": "guisantes y zanahoria congelados",
+   "de": "TK-Erbsen und Möhren"
+  }
+ },
+ "pecorino-romano": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "pecorino romano",
+   "en": "Pecorino Romano",
+   "fr": "pecorino romano",
+   "es": "queso pecorino romano",
+   "de": "Pecorino Romano"
+  }
+ },
+ "pecorino-sardo": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "pecorino sardo",
+   "en": "Pecorino Sardo",
+   "fr": "pecorino sarde",
+   "es": "queso pecorino sardo",
+   "de": "Pecorino Sardo"
+  }
+ },
+ "persimmons": {
+  "aisle": "produce",
+  "n": {
+   "it": "cachi",
+   "en": "persimmons",
+   "fr": "kakis",
+   "es": "caquis",
+   "de": "Kakis"
+  }
+ },
+ "piadinas": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "piadine",
+   "en": "piadinas",
+   "fr": "piadine",
+   "es": "piadinas",
+   "de": "Piadine"
+  }
+ },
+ "pickled-ginger": {
+  "aisle": "pantry",
+  "n": {
+   "it": "zenzero sottaceto",
+   "en": "pickled ginger",
+   "fr": "gingembre mariné",
+   "es": "jengibre encurtido",
+   "de": "eingelegter Ingwer"
+  }
+ },
+ "pickles": {
+  "aisle": "pantry",
+  "n": {
+   "it": "cetriolini sottaceto",
+   "en": "pickles",
+   "fr": "cornichons",
+   "es": "pepinillos",
+   "de": "Gewürzgurken"
+  }
+ },
+ "pine-nuts": {
+  "aisle": "pantry",
+  "n": {
+   "it": "pinoli",
+   "en": "pine nuts",
+   "fr": "pignons de pin",
+   "es": "piñones",
+   "de": "Pinienkerne"
+  }
+ },
+ "pineapple": {
+  "aisle": "produce",
+  "n": {
+   "it": "ananas",
+   "en": "pineapple",
+   "fr": "ananas",
+   "es": "piña",
+   "de": "Ananas"
+  }
+ },
+ "pineapple-juice": {
+  "aisle": "drinks",
+  "n": {
+   "it": "succo d'ananas",
+   "en": "pineapple juice",
+   "fr": "jus d'ananas",
+   "es": "zumo de piña",
+   "de": "Ananassaft"
+  }
+ },
+ "pistachios": {
+  "aisle": "pantry",
+  "n": {
+   "it": "pistacchi",
+   "en": "pistachios",
+   "fr": "pistaches",
+   "es": "pistachos",
+   "de": "Pistazien"
+  }
+ },
+ "pita-breads": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pane pita",
+   "en": "pita breads",
+   "fr": "pains pita",
+   "es": "panes de pita",
+   "de": "Pitabrote"
+  }
+ },
+ "pizza-dough": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "impasto per pizza",
+   "en": "pizza dough",
+   "fr": "pâte à pizza",
+   "es": "masa de pizza",
+   "de": "Pizzateig"
+  }
+ },
+ "plain-yogurt": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "yogurt bianco",
+   "en": "plain yogurt",
+   "fr": "yaourt nature",
+   "es": "yogur natural",
+   "de": "Naturjoghurt"
+  }
+ },
+ "plums": {
+  "aisle": "produce",
+  "n": {
+   "it": "prugne",
+   "en": "plums",
+   "fr": "prunes",
+   "es": "ciruelas",
+   "de": "Pflaumen"
+  }
+ },
+ "polenta": {
+  "aisle": "pantry",
+  "n": {
+   "it": "farina per polenta",
+   "en": "polenta",
+   "fr": "polenta",
+   "es": "polenta",
+   "de": "Polenta"
+  }
+ },
+ "porcini-mushrooms": {
+  "aisle": "produce",
+  "n": {
+   "it": "funghi porcini",
+   "en": "porcini mushrooms",
+   "fr": "cèpes",
+   "es": "boletus",
+   "de": "Steinpilze"
+  }
+ },
+ "pork": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "polpa di maiale",
+   "en": "pork",
+   "fr": "porc",
+   "es": "carne de cerdo",
+   "de": "Schweinefleisch"
+  }
+ },
+ "pork-belly": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "pancetta di maiale fresca",
+   "en": "pork belly",
+   "fr": "poitrine de porc",
+   "es": "panceta de cerdo",
+   "de": "Schweinebauch"
+  }
+ },
+ "pork-loin": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "lonza di maiale",
+   "en": "pork loin",
+   "fr": "longe de porc",
+   "es": "lomo de cerdo",
+   "de": "Schweinelachs"
+  }
+ },
+ "pork-shoulder": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "spalla di maiale",
+   "en": "pork shoulder",
+   "fr": "épaule de porc",
+   "es": "paleta de cerdo",
+   "de": "Schweineschulter"
+  }
+ },
+ "potato-gnocchi": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "gnocchi di patate",
+   "en": "potato gnocchi",
+   "fr": "gnocchis de pommes de terre",
+   "es": "ñoquis de patata",
+   "de": "Kartoffelgnocchi"
+  }
+ },
+ "potatoes": {
+  "aisle": "produce",
+  "n": {
+   "it": "patate",
+   "en": "potatoes",
+   "fr": "pommes de terre",
+   "es": "patatas",
+   "de": "Kartoffeln"
+  }
+ },
+ "powdered-sugar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "zucchero a velo",
+   "en": "powdered sugar",
+   "fr": "sucre glace",
+   "es": "azúcar glas",
+   "de": "Puderzucker"
+  }
+ },
+ "prosciutto-crudo": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "prosciutto crudo",
+   "en": "prosciutto",
+   "fr": "jambon cru italien",
+   "es": "jamón curado",
+   "de": "Rohschinken"
+  }
+ },
+ "prosecco": {
+  "aisle": "drinks",
+  "n": {
+   "it": "prosecco",
+   "en": "prosecco",
+   "fr": "prosecco",
+   "es": "prosecco",
+   "de": "Prosecco"
+  }
+ },
+ "provolone": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "provolone",
+   "en": "provolone",
+   "fr": "provolone",
+   "es": "queso provolone",
+   "de": "Provolone"
+  }
+ },
+ "pumpkin-seeds": {
+  "aisle": "pantry",
+  "n": {
+   "it": "semi di zucca",
+   "en": "pumpkin seeds",
+   "fr": "graines de courge",
+   "es": "pipas de calabaza",
+   "de": "Kürbiskerne"
+  }
+ },
+ "quark": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "quark",
+   "en": "quark",
+   "fr": "fromage blanc",
+   "es": "queso quark",
+   "de": "Quark"
+  }
+ },
+ "quinoa": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "quinoa",
+   "en": "quinoa",
+   "fr": "quinoa",
+   "es": "quinoa",
+   "de": "Quinoa"
+  }
+ },
+ "radicchio": {
+  "aisle": "produce",
+  "n": {
+   "it": "radicchio",
+   "en": "radicchio",
+   "fr": "trévise",
+   "es": "radicchio",
+   "de": "Radicchio"
+  }
+ },
+ "raisins": {
+  "aisle": "pantry",
+  "n": {
+   "it": "uvetta",
+   "en": "raisins",
+   "fr": "raisins secs",
+   "es": "pasas",
+   "de": "Rosinen"
+  }
+ },
+ "ramen-noodles": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "noodles per ramen",
+   "en": "ramen noodles",
+   "fr": "nouilles ramen",
+   "es": "fideos ramen",
+   "de": "Ramen-Nudeln"
+  }
+ },
+ "ras-el-hanout": {
+  "aisle": "spices",
+  "n": {
+   "it": "ras el hanout",
+   "en": "ras el hanout",
+   "fr": "ras el hanout",
+   "es": "ras el hanout",
+   "de": "Ras el-Hanout"
+  }
+ },
+ "red-bell-peppers": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoni rossi",
+   "en": "red bell peppers",
+   "fr": "poivrons rouges",
+   "es": "pimientos rojos",
+   "de": "rote Paprika"
+  }
+ },
+ "red-cabbage": {
+  "aisle": "produce",
+  "n": {
+   "it": "cavolo rosso",
+   "en": "red cabbage",
+   "fr": "chou rouge",
+   "es": "lombarda",
+   "de": "Rotkohl"
+  }
+ },
+ "red-lentils": {
+  "aisle": "pantry",
+  "n": {
+   "it": "lenticchie rosse",
+   "en": "red lentils",
+   "fr": "lentilles corail",
+   "es": "lentejas rojas",
+   "de": "rote Linsen"
+  }
+ },
+ "red-onions": {
+  "aisle": "produce",
+  "n": {
+   "it": "cipolle rosse",
+   "en": "red onions",
+   "fr": "oignons rouges",
+   "es": "cebollas moradas",
+   "de": "rote Zwiebeln"
+  }
+ },
+ "red-wine": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vino rosso",
+   "en": "red wine",
+   "fr": "vin rouge",
+   "es": "vino tinto",
+   "de": "Rotwein"
+  }
+ },
+ "red-wine-vinegar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "aceto di vino rosso",
+   "en": "red wine vinegar",
+   "fr": "vinaigre de vin rouge",
+   "es": "vinagre de vino tinto",
+   "de": "Rotweinessig"
+  },
+  "pantry": true
+ },
+ "rice-flour": {
+  "aisle": "pantry",
+  "n": {
+   "it": "farina di riso",
+   "en": "rice flour",
+   "fr": "farine de riz",
+   "es": "harina de arroz",
+   "de": "Reismehl"
+  }
+ },
+ "rice-noodles": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "noodles di riso",
+   "en": "rice noodles",
+   "fr": "nouilles de riz",
+   "es": "fideos de arroz",
+   "de": "Reisnudeln"
+  }
+ },
+ "rice-vinegar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "aceto di riso",
+   "en": "rice vinegar",
+   "fr": "vinaigre de riz",
+   "es": "vinagre de arroz",
+   "de": "Reisessig"
+  }
+ },
+ "ricotta": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "ricotta",
+   "en": "ricotta",
+   "fr": "ricotta",
+   "es": "ricotta",
+   "de": "Ricotta"
+  }
+ },
+ "ricotta-salata": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "ricotta salata",
+   "en": "ricotta salata",
+   "fr": "ricotta salata",
+   "es": "ricotta salada",
+   "de": "Ricotta salata"
+  }
+ },
+ "risotto-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso per risotti",
+   "en": "risotto rice",
+   "fr": "riz à risotto",
+   "es": "arroz para risotto",
+   "de": "Risottoreis"
+  }
+ },
+ "roasted-peanuts": {
+  "aisle": "pantry",
+  "n": {
+   "it": "arachidi tostate",
+   "en": "roasted peanuts",
+   "fr": "cacahuètes grillées",
+   "es": "cacahuetes tostados",
+   "de": "geröstete Erdnüsse"
+  }
+ },
+ "rocket": {
+  "aisle": "produce",
+  "n": {
+   "it": "rucola",
+   "en": "arugula",
+   "fr": "roquette",
+   "es": "rúcula",
+   "de": "Rucola"
+  }
+ },
+ "rolled-oats": {
+  "aisle": "pantry",
+  "n": {
+   "it": "fiocchi d'avena",
+   "en": "rolled oats",
+   "fr": "flocons d'avoine",
+   "es": "copos de avena",
+   "de": "Haferflocken"
+  }
+ },
+ "rosemary": {
+  "aisle": "produce",
+  "n": {
+   "it": "rosmarino",
+   "en": "rosemary",
+   "fr": "romarin",
+   "es": "romero",
+   "de": "Rosmarin"
+  }
+ },
+ "rustic-bread": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pane toscano",
+   "en": "rustic bread",
+   "fr": "pain de campagne",
+   "es": "pan de pueblo",
+   "de": "Bauernbrot"
+  }
+ },
+ "saffron": {
+  "aisle": "spices",
+  "n": {
+   "it": "zafferano",
+   "en": "saffron",
+   "fr": "safran",
+   "es": "azafrán",
+   "de": "Safran"
+  }
+ },
+ "sage": {
+  "aisle": "produce",
+  "n": {
+   "it": "salvia",
+   "en": "sage",
+   "fr": "sauge",
+   "es": "salvia",
+   "de": "Salbei"
+  }
+ },
+ "sake": {
+  "aisle": "drinks",
+  "n": {
+   "it": "sake",
+   "en": "sake",
+   "fr": "saké",
+   "es": "sake",
+   "de": "Sake"
+  }
+ },
+ "salami": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "salame",
+   "en": "salami",
+   "fr": "salami",
+   "es": "salami",
+   "de": "Salami"
+  }
+ },
+ "salmon-fillets": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "filetti di salmone",
+   "en": "salmon fillets",
+   "fr": "pavés de saumon",
+   "es": "lomos de salmón",
+   "de": "Lachsfilets"
+  }
+ },
+ "salt": {
+  "aisle": "spices",
+  "n": {
+   "it": "sale",
+   "en": "salt",
+   "fr": "sel",
+   "es": "sal",
+   "de": "Salz"
+  },
+  "pantry": true
+ },
+ "sardines": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "sarde fresche",
+   "en": "fresh sardines",
+   "fr": "sardines fraîches",
+   "es": "sardinas frescas",
+   "de": "frische Sardinen"
+  }
+ },
+ "savoy-cabbage": {
+  "aisle": "produce",
+  "n": {
+   "it": "verza",
+   "en": "Savoy cabbage",
+   "fr": "chou frisé",
+   "es": "col rizada",
+   "de": "Wirsing"
+  }
+ },
+ "semolina": {
+  "aisle": "pantry",
+  "n": {
+   "it": "semola rimacinata",
+   "en": "durum wheat semolina",
+   "fr": "semoule de blé dur",
+   "es": "sémola de trigo duro",
+   "de": "Hartweizengrieß"
+  }
+ },
+ "sesame-rolls": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "panini al sesamo",
+   "en": "sesame rolls",
+   "fr": "petits pains au sésame",
+   "es": "panecillos de sésamo",
+   "de": "Sesambrötchen"
+  }
+ },
+ "sesame-seeds": {
+  "aisle": "pantry",
+  "n": {
+   "it": "semi di sesamo",
+   "en": "sesame seeds",
+   "fr": "graines de sésame",
+   "es": "sésamo",
+   "de": "Sesam"
+  }
+ },
+ "shallots": {
+  "aisle": "produce",
+  "n": {
+   "it": "scalogni",
+   "en": "shallots",
+   "fr": "échalotes",
+   "es": "chalotas",
+   "de": "Schalotten"
+  }
+ },
+ "shaoxing-wine": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vino Shaoxing",
+   "en": "Shaoxing wine",
+   "fr": "vin de Shaoxing",
+   "es": "vino de Shaoxing",
+   "de": "Shaoxing-Wein"
+  }
+ },
+ "sherry-vinegar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "aceto di Jerez",
+   "en": "sherry vinegar",
+   "fr": "vinaigre de Xérès",
+   "es": "vinagre de Jerez",
+   "de": "Sherryessig"
+  }
+ },
+ "shiitake-mushrooms": {
+  "aisle": "produce",
+  "n": {
+   "it": "funghi shiitake",
+   "en": "shiitake mushrooms",
+   "fr": "champignons shiitaké",
+   "es": "setas shiitake",
+   "de": "Shiitake-Pilze"
+  }
+ },
+ "short-grain-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso a chicco tondo",
+   "en": "short-grain rice",
+   "fr": "riz rond",
+   "es": "arroz de grano corto",
+   "de": "Rundkornreis"
+  }
+ },
+ "short-pasta": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pasta corta",
+   "en": "short pasta",
+   "fr": "pâtes courtes",
+   "es": "pasta corta",
+   "de": "kurze Nudeln"
+  }
+ },
+ "shortcrust-pastry": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pasta brisée",
+   "en": "shortcrust pastry",
+   "fr": "pâte brisée",
+   "es": "masa quebrada",
+   "de": "Mürbeteig"
+  }
+ },
+ "shrimp": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "gamberi sgusciati",
+   "en": "shrimp",
+   "fr": "crevettes décortiquées",
+   "es": "gambas peladas",
+   "de": "Garnelen"
+  }
+ },
+ "sichuan-pepper": {
+  "aisle": "spices",
+  "n": {
+   "it": "pepe di Sichuan",
+   "en": "Sichuan pepper",
+   "fr": "poivre du Sichuan",
+   "es": "pimienta de Sichuan",
+   "de": "Szechuanpfeffer"
+  }
+ },
+ "silken-tofu": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "tofu morbido",
+   "en": "silken tofu",
+   "fr": "tofu soyeux",
+   "es": "tofu sedoso",
+   "de": "Seidentofu"
+  }
+ },
+ "simple-syrup": {
+  "aisle": "drinks",
+  "n": {
+   "it": "sciroppo di zucchero",
+   "en": "simple syrup",
+   "fr": "sirop de sucre",
+   "es": "almíbar",
+   "de": "Zuckersirup"
+  }
+ },
+ "smoked-bacon": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "pancetta affumicata a cubetti",
+   "en": "smoked bacon lardons",
+   "fr": "lardons fumés",
+   "es": "taquitos de beicon ahumado",
+   "de": "Speckwürfel"
+  }
+ },
+ "smoked-paprika": {
+  "aisle": "spices",
+  "n": {
+   "it": "paprika affumicata",
+   "en": "smoked paprika",
+   "fr": "paprika fumé",
+   "es": "pimentón ahumado",
+   "de": "geräuchertes Paprikapulver"
+  }
+ },
+ "smoked-provola": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "provola affumicata",
+   "en": "smoked provola",
+   "fr": "provola fumée",
+   "es": "provola ahumada",
+   "de": "geräucherte Provola"
+  }
+ },
+ "smoked-sausage": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "salsiccia affumicata",
+   "en": "smoked sausage",
+   "fr": "saucisse fumée",
+   "es": "salchicha ahumada",
+   "de": "Rauchwurst"
+  }
+ },
+ "soaked-stockfish": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "stoccafisso ammollato",
+   "en": "soaked stockfish",
+   "fr": "stockfisch dessalé",
+   "es": "bacalao seco remojado",
+   "de": "eingeweichter Stockfisch"
+  }
+ },
+ "soda-water": {
+  "aisle": "drinks",
+  "n": {
+   "it": "acqua frizzante",
+   "en": "soda water",
+   "fr": "eau gazeuse",
+   "es": "agua con gas",
+   "de": "Sprudelwasser"
+  }
+ },
+ "sour-cream": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "panna acida",
+   "en": "sour cream",
+   "fr": "crème aigre",
+   "es": "nata agria",
+   "de": "Schmand"
+  }
+ },
+ "sourdough-bread": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pane a lievitazione naturale",
+   "en": "sourdough bread",
+   "fr": "pain au levain",
+   "es": "pan de masa madre",
+   "de": "Sauerteigbrot"
+  }
+ },
+ "soy-milk": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "bevanda di soia",
+   "en": "soy milk",
+   "fr": "boisson au soja",
+   "es": "bebida de soja",
+   "de": "Sojadrink"
+  }
+ },
+ "soy-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "salsa di soia",
+   "en": "soy sauce",
+   "fr": "sauce soja",
+   "es": "salsa de soja",
+   "de": "Sojasauce"
+  }
+ },
+ "spaghetti": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "spaghetti",
+   "en": "spaghetti",
+   "fr": "spaghettis",
+   "es": "espaguetis",
+   "de": "Spaghetti"
+  }
+ },
+ "spinach": {
+  "aisle": "produce",
+  "n": {
+   "it": "spinaci",
+   "en": "spinach",
+   "fr": "épinards",
+   "es": "espinacas",
+   "de": "Spinat"
+  }
+ },
+ "spring-onions": {
+  "aisle": "produce",
+  "n": {
+   "it": "cipollotti",
+   "en": "spring onions",
+   "fr": "oignons nouveaux",
+   "es": "cebolletas",
+   "de": "Frühlingszwiebeln"
+  }
+ },
+ "squacquerone": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "squacquerone",
+   "en": "squacquerone cheese",
+   "fr": "squacquerone",
+   "es": "queso squacquerone",
+   "de": "Squacquerone"
+  }
+ },
+ "squash": {
+  "aisle": "produce",
+  "n": {
+   "it": "zucca",
+   "en": "squash",
+   "fr": "courge",
+   "es": "calabaza",
+   "de": "Kürbis"
+  }
+ },
+ "star-anise": {
+  "aisle": "spices",
+  "n": {
+   "it": "anice stellato",
+   "en": "star anise",
+   "fr": "anis étoilé",
+   "es": "anís estrellado",
+   "de": "Sternanis"
+  }
+ },
+ "strawberries": {
+  "aisle": "produce",
+  "n": {
+   "it": "fragole",
+   "en": "strawberries",
+   "fr": "fraises",
+   "es": "fresas",
+   "de": "Erdbeeren"
+  }
+ },
+ "sugar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "zucchero",
+   "en": "sugar",
+   "fr": "sucre",
+   "es": "azúcar",
+   "de": "Zucker"
+  },
+  "pantry": true
+ },
+ "sunflower-oil": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olio di semi di girasole",
+   "en": "sunflower oil",
+   "fr": "huile de tournesol",
+   "es": "aceite de girasol",
+   "de": "Sonnenblumenöl"
+  },
+  "pantry": true
+ },
+ "sushi-grade-salmon": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "salmone abbattuto per crudo",
+   "en": "sushi-grade salmon",
+   "fr": "saumon qualité sashimi",
+   "es": "salmón apto para crudo",
+   "de": "Lachs in Sushi-Qualität"
+  }
+ },
+ "sushi-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso per sushi",
+   "en": "sushi rice",
+   "fr": "riz à sushi",
+   "es": "arroz para sushi",
+   "de": "Sushireis"
+  }
+ },
+ "sweet-paprika": {
+  "aisle": "spices",
+  "n": {
+   "it": "paprika dolce",
+   "en": "sweet paprika",
+   "fr": "paprika doux",
+   "es": "pimentón dulce",
+   "de": "Paprikapulver edelsüß"
+  }
+ },
+ "sweet-potato-noodles": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "noodles di patata dolce",
+   "en": "sweet potato noodles",
+   "fr": "nouilles de patate douce",
+   "es": "fideos de boniato",
+   "de": "Süßkartoffelnudeln"
+  }
+ },
+ "sweet-shortcrust-pastry": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "pasta frolla",
+   "en": "sweet shortcrust pastry",
+   "fr": "pâte sablée",
+   "es": "masa sablé",
+   "de": "süßer Mürbeteig"
+  }
+ },
+ "sweet-vermouth": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vermouth rosso",
+   "en": "sweet vermouth",
+   "fr": "vermouth rouge",
+   "es": "vermut rojo",
+   "de": "roter Wermut"
+  }
+ },
+ "sweetcorn": {
+  "aisle": "pantry",
+  "n": {
+   "it": "mais dolce",
+   "en": "sweetcorn",
+   "fr": "maïs doux",
+   "es": "maíz dulce",
+   "de": "Mais"
+  }
+ },
+ "sweetened-condensed-milk": {
+  "aisle": "pantry",
+  "n": {
+   "it": "latte condensato",
+   "en": "sweetened condensed milk",
+   "fr": "lait concentré sucré",
+   "es": "leche condensada",
+   "de": "gezuckerte Kondensmilch"
+  }
+ },
+ "swiss-chard": {
+  "aisle": "produce",
+  "n": {
+   "it": "bietole",
+   "en": "Swiss chard",
+   "fr": "blettes",
+   "es": "acelgas",
+   "de": "Mangold"
+  }
+ },
+ "swordfish-steaks": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "tranci di pesce spada",
+   "en": "swordfish steaks",
+   "fr": "darnes d’espadon",
+   "es": "rodajas de pez espada",
+   "de": "Schwertfischsteaks"
+  }
+ },
+ "taggiasca-olives": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olive taggiasche",
+   "en": "Taggiasca olives",
+   "fr": "olives taggiasche",
+   "es": "aceitunas taggiasca",
+   "de": "Taggiasca-Oliven"
+  }
+ },
+ "tahini": {
+  "aisle": "pantry",
+  "n": {
+   "it": "tahina",
+   "en": "tahini",
+   "fr": "tahin",
+   "es": "tahini",
+   "de": "Tahin"
+  }
+ },
+ "tamarind-paste": {
+  "aisle": "pantry",
+  "n": {
+   "it": "pasta di tamarindo",
+   "en": "tamarind paste",
+   "fr": "pâte de tamarin",
+   "es": "pasta de tamarindo",
+   "de": "Tamarindenpaste"
+  }
+ },
+ "tequila": {
+  "aisle": "drinks",
+  "n": {
+   "it": "tequila",
+   "en": "tequila",
+   "fr": "tequila",
+   "es": "tequila",
+   "de": "Tequila"
+  }
+ },
+ "thai-basil": {
+  "aisle": "produce",
+  "n": {
+   "it": "basilico thai",
+   "en": "Thai basil",
+   "fr": "basilic thaï",
+   "es": "albahaca tailandesa",
+   "de": "Thai-Basilikum"
+  }
+ },
+ "thyme": {
+  "aisle": "produce",
+  "n": {
+   "it": "timo",
+   "en": "thyme",
+   "fr": "thym",
+   "es": "tomillo",
+   "de": "Thymian"
+  }
+ },
+ "toasted-sesame-oil": {
+  "aisle": "pantry",
+  "n": {
+   "it": "olio di sesamo tostato",
+   "en": "toasted sesame oil",
+   "fr": "huile de sésame grillé",
+   "es": "aceite de sésamo tostado",
+   "de": "geröstetes Sesamöl"
+  }
+ },
+ "tomato-juice": {
+  "aisle": "drinks",
+  "n": {
+   "it": "succo di pomodoro",
+   "en": "tomato juice",
+   "fr": "jus de tomate",
+   "es": "zumo de tomate",
+   "de": "Tomatensaft"
+  }
+ },
+ "tomato-passata": {
+  "aisle": "pantry",
+  "n": {
+   "it": "passata di pomodoro",
+   "en": "tomato passata",
+   "fr": "coulis de tomate",
+   "es": "tomate triturado",
+   "de": "passierte Tomaten"
+  }
+ },
+ "tomato-paste": {
+  "aisle": "pantry",
+  "n": {
+   "it": "concentrato di pomodoro",
+   "en": "tomato paste",
+   "fr": "concentré de tomate",
+   "es": "concentrado de tomate",
+   "de": "Tomatenmark"
+  }
+ },
+ "tomato-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "sugo di pomodoro",
+   "en": "tomato sauce",
+   "fr": "sauce tomate",
+   "es": "salsa de tomate",
+   "de": "Tomatensauce"
+  }
+ },
+ "tonic-water": {
+  "aisle": "drinks",
+  "n": {
+   "it": "acqua tonica",
+   "en": "tonic water",
+   "fr": "tonic",
+   "es": "tónica",
+   "de": "Tonic Water"
+  }
+ },
+ "triple-sec": {
+  "aisle": "drinks",
+  "n": {
+   "it": "triple sec",
+   "en": "triple sec",
+   "fr": "triple sec",
+   "es": "triple sec",
+   "de": "Triple Sec"
+  }
+ },
+ "turnip-tops": {
+  "aisle": "produce",
+  "n": {
+   "it": "cime di rapa",
+   "en": "turnip tops",
+   "fr": "feuilles de navet",
+   "es": "grelos",
+   "de": "Stielmus"
+  }
+ },
+ "turnips": {
+  "aisle": "produce",
+  "n": {
+   "it": "rape",
+   "en": "turnips",
+   "fr": "navets",
+   "es": "nabos",
+   "de": "Speiserüben"
+  }
+ },
+ "valtellina-casera": {
+  "aisle": "dairy-eggs",
+  "n": {
+   "it": "Valtellina Casera",
+   "en": "Valtellina Casera cheese",
+   "fr": "valtellina casera",
+   "es": "queso Valtellina Casera",
+   "de": "Valtellina Casera"
+  }
+ },
+ "vanilla-extract": {
+  "aisle": "pantry",
+  "n": {
+   "it": "estratto di vaniglia",
+   "en": "vanilla extract",
+   "fr": "extrait de vanille",
+   "es": "extracto de vainilla",
+   "de": "Vanilleextrakt"
+  }
+ },
+ "vanilla-pods": {
+  "aisle": "pantry",
+  "n": {
+   "it": "bacche di vaniglia",
+   "en": "vanilla pods",
+   "fr": "gousses de vanille",
+   "es": "vainas de vainilla",
+   "de": "Vanilleschoten"
+  }
+ },
+ "veal-chops": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "costolette di vitello",
+   "en": "veal chops",
+   "fr": "côtes de veau",
+   "es": "chuletas de ternera",
+   "de": "Kalbskoteletts"
+  }
+ },
+ "veal-escalopes": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "fettine di vitello",
+   "en": "veal escalopes",
+   "fr": "escalopes de veau",
+   "es": "filetes de ternera",
+   "de": "Kalbsschnitzel"
+  }
+ },
+ "veal-shanks": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "ossibuchi di vitello",
+   "en": "veal shanks",
+   "fr": "jarret de veau",
+   "es": "jarrete de ternera",
+   "de": "Kalbshaxe in Scheiben"
+  }
+ },
+ "vegetable-broth": {
+  "aisle": "pantry",
+  "n": {
+   "it": "brodo vegetale",
+   "en": "vegetable stock",
+   "fr": "bouillon de légumes",
+   "es": "caldo de verduras",
+   "de": "Gemüsebrühe"
+  }
+ },
+ "vialone-nano-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso Vialone Nano",
+   "en": "Vialone Nano rice",
+   "fr": "riz vialone nano",
+   "es": "arroz Vialone Nano",
+   "de": "Vialone-Nano-Reis"
+  }
+ },
+ "vin-santo": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vin santo",
+   "en": "vin santo",
+   "fr": "vin santo",
+   "es": "vin santo",
+   "de": "Vin Santo"
+  }
+ },
+ "vodka": {
+  "aisle": "drinks",
+  "n": {
+   "it": "vodka",
+   "en": "vodka",
+   "fr": "vodka",
+   "es": "vodka",
+   "de": "Wodka"
+  }
+ },
+ "walnuts": {
+  "aisle": "pantry",
+  "n": {
+   "it": "noci",
+   "en": "walnuts",
+   "fr": "noix",
+   "es": "nueces",
+   "de": "Walnüsse"
+  }
+ },
+ "water": {
+  "aisle": "drinks",
+  "n": {
+   "it": "acqua",
+   "en": "water",
+   "fr": "eau",
+   "es": "agua",
+   "de": "Wasser"
+  },
+  "pantry": true
+ },
+ "watermelon": {
+  "aisle": "produce",
+  "n": {
+   "it": "anguria",
+   "en": "watermelon",
+   "fr": "pastèque",
+   "es": "sandía",
+   "de": "Wassermelone"
+  }
+ },
+ "waxy-potatoes": {
+  "aisle": "produce",
+  "n": {
+   "it": "patate a pasta soda",
+   "en": "waxy potatoes",
+   "fr": "pommes de terre à chair ferme",
+   "es": "patatas para cocer",
+   "de": "festkochende Kartoffeln"
+  }
+ },
+ "wheat-noodles": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "noodles di grano",
+   "en": "wheat noodles",
+   "fr": "nouilles de blé",
+   "es": "fideos de trigo",
+   "de": "Weizennudeln"
+  }
+ },
+ "white-cabbage": {
+  "aisle": "produce",
+  "n": {
+   "it": "cavolo cappuccio",
+   "en": "white cabbage",
+   "fr": "chou blanc",
+   "es": "repollo",
+   "de": "Weißkohl"
+  }
+ },
+ "white-fish-fillets": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "filetti di pesce bianco",
+   "en": "white fish fillets",
+   "fr": "filets de poisson blanc",
+   "es": "filetes de pescado blanco",
+   "de": "weiße Fischfilets"
+  }
+ },
+ "white-peaches": {
+  "aisle": "produce",
+  "n": {
+   "it": "pesche bianche",
+   "en": "white peaches",
+   "fr": "pêches blanches",
+   "es": "melocotones blancos",
+   "de": "weiße Pfirsiche"
+  }
+ },
+ "white-pepper": {
+  "aisle": "spices",
+  "n": {
+   "it": "pepe bianco",
+   "en": "white pepper",
+   "fr": "poivre blanc",
+   "es": "pimienta blanca",
+   "de": "weißer Pfeffer"
+  }
+ },
+ "white-rice": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "riso",
+   "en": "rice",
+   "fr": "riz",
+   "es": "arroz",
+   "de": "Reis"
+  }
+ },
+ "white-rum": {
+  "aisle": "drinks",
+  "n": {
+   "it": "rum bianco",
+   "en": "white rum",
+   "fr": "rhum blanc",
+   "es": "ron blanco",
+   "de": "weißer Rum"
+  }
+ },
+ "white-wine-vinegar": {
+  "aisle": "pantry",
+  "n": {
+   "it": "aceto di vino bianco",
+   "en": "white wine vinegar",
+   "fr": "vinaigre de vin blanc",
+   "es": "vinagre de vino blanco",
+   "de": "Weißweinessig"
+  },
+  "pantry": true
+ },
+ "whole-chicken": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "pollo intero",
+   "en": "whole chicken",
+   "fr": "poulet entier",
+   "es": "pollo entero",
+   "de": "ganzes Hähnchen"
+  }
+ },
+ "whole-sea-bass": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "branzini",
+   "en": "whole sea bass",
+   "fr": "bars entiers",
+   "es": "lubinas",
+   "de": "Wolfsbarsche"
+  }
+ },
+ "whole-sole": {
+  "aisle": "meat-fish",
+  "n": {
+   "it": "sogliole",
+   "en": "whole sole",
+   "fr": "soles entières",
+   "es": "lenguados",
+   "de": "Seezungen"
+  }
+ },
+ "wild-fennel": {
+  "aisle": "produce",
+  "n": {
+   "it": "finocchietto selvatico",
+   "en": "wild fennel",
+   "fr": "fenouil sauvage",
+   "es": "hinojo silvestre",
+   "de": "wilder Fenchel"
+  }
+ },
+ "wooden-skewers": {
+  "aisle": "pantry",
+  "n": {
+   "it": "spiedini di legno",
+   "en": "wooden skewers",
+   "fr": "piques en bois",
+   "es": "brochetas de madera",
+   "de": "Holzspieße"
+  }
+ },
+ "worcestershire-sauce": {
+  "aisle": "pantry",
+  "n": {
+   "it": "salsa Worcestershire",
+   "en": "Worcestershire sauce",
+   "fr": "sauce Worcestershire",
+   "es": "salsa Worcestershire",
+   "de": "Worcestershiresauce"
+  }
+ },
+ "ya-cai": {
+  "aisle": "pantry",
+  "n": {
+   "it": "ya cai",
+   "en": "ya cai (Sichuan preserved greens)",
+   "fr": "ya cai",
+   "es": "ya cai",
+   "de": "Ya Cai"
+  }
+ },
+ "yakisoba-noodles": {
+  "aisle": "bakery-pasta",
+  "n": {
+   "it": "noodles per yakisoba",
+   "en": "yakisoba noodles",
+   "fr": "nouilles yakisoba",
+   "es": "fideos yakisoba",
+   "de": "Yakisoba-Nudeln"
+  }
+ },
+ "yellow-bell-peppers": {
+  "aisle": "produce",
+  "n": {
+   "it": "peperoni gialli",
+   "en": "yellow bell peppers",
+   "fr": "poivrons jaunes",
+   "es": "pimientos amarillos",
+   "de": "gelbe Paprika"
+  }
+ },
+ "zaatar": {
+  "aisle": "spices",
+  "n": {
+   "it": "za'atar",
+   "en": "za'atar",
+   "fr": "zaatar",
+   "es": "zaatar",
+   "de": "Za'atar"
+  }
+ },
+ "zucchini": {
+  "aisle": "produce",
+  "n": {
+   "it": "zucchine",
+   "en": "zucchini",
+   "fr": "courgettes",
+   "es": "calabacines",
+   "de": "Zucchini"
+  }
+ }
+}

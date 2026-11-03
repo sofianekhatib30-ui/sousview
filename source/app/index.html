@@ -1,0 +1,2273 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SousView: un ricettario completo sugli occhiali, passo passo, con timer automatici, menù, lista della spesa e porzioni che si ricalcolano.">
+<meta name="mrbd-web-app-capable" content="yes">
+<meta name="theme-color" content="#000000">
+<title>SousView</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&family=Fraunces:opsz,wght,SOFT@9..144,600..900,0..100&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  :root {
+    /* Display additivo: il nero è trasparente, quindi tutta la palette è luce. */
+    --ink: #F5F1E8;
+    --quiet: #ABA497;
+    --saffron: #FFC23D;   /* tempo e calore: timer, minuti, tacche */
+    --rad: #FF7A1A;       /* paprika: marchio, focus, azione principale */
+    --basil: #9BE36B;     /* diete, fatto in casa, spunte */
+    --line: rgba(245, 241, 232, 0.24);
+    --surface: rgba(245, 241, 232, 0.055);
+    --dim: rgba(245, 241, 232, 0.2);
+    --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --sans: 'Atkinson Hyperlegible Next', 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    font-size: clamp(15px, 4.1vmin, 30px);
+    color-scheme: dark;
+  }
+  html, body, #app { inline-size: 100%; block-size: 100%; }
+  body {
+    margin: 0; min-inline-size: 0; overflow: hidden;
+    background: #000; color: var(--ink);
+    font-family: var(--sans); line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+  }
+  .shell {
+    display: grid;
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    grid-template-areas: 'h' 'r' 'c' 'f';
+    inline-size: 100%; block-size: 100%;
+    padding: 4vmin 5vmin; gap: 0;
+    overflow: hidden;
+  }
+  header { grid-area: h; margin-block-end: 2vmin; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; min-inline-size: 0; min-block-size: 1.35rem; }
+  .brand { display: flex; align-items: center; gap: 0.35rem; flex: none; font-family: var(--serif); font-weight: 800; font-variation-settings: 'SOFT' 100; font-size: 0.9rem; color: var(--rad); white-space: nowrap; }
+  .brand .dial { inline-size: 1.1rem; block-size: 1.1rem; --on: var(--rad); --off: rgba(255, 122, 26, 0.35); }
+  .timing .brand-word { display: none; }
+  .timers { display: flex; gap: 0.35rem; flex-wrap: wrap; justify-content: flex-end; min-inline-size: 0; }
+  .timer {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.1rem 0.55rem; border-radius: 2rem;
+    border: 2px solid var(--saffron); color: var(--saffron);
+    font-size: 0.7rem; font-weight: 800; font-variant-numeric: tabular-nums;
+    white-space: nowrap; max-inline-size: 100%; overflow: hidden; text-overflow: ellipsis;
+  }
+  .timer.cur { background: var(--saffron); color: #000; }
+  .timer.paused { border-style: dashed; }
+  .timer.cur.paused { background: transparent; color: var(--saffron); }
+  .timer.done { background: var(--rad); border-color: var(--rad); color: #000; animation: blink 0.8s steps(2) infinite; }
+  .timer .now { inline-size: 0.45rem; block-size: 0.45rem; border-radius: 50%; background: currentColor; flex: none; }
+  @keyframes blink { 50% { opacity: 0.35; } }
+  #ring { grid-area: r; display: grid; gap: 0.35rem; margin-block-end: 2vmin; }
+  #ring:empty { display: none; }
+  .content { grid-area: c; min-block-size: 0; overflow-y: auto; overflow-x: hidden; scrollbar-width: none; padding: 7px 8px; margin: -7px -8px; }
+  .content::-webkit-scrollbar { display: none; }
+  footer { grid-area: f; display: flex; gap: 0.55rem; margin-block-start: 2vmin; }
+  footer button { inline-size: auto; flex: 1 1 auto; justify-content: center; text-align: center; margin: 0; }
+  footer #prev { flex: 0 0 3.6rem; }
+  #ring button { margin: 0; background: var(--rad); border-color: var(--rad); color: #000; animation: blink 0.8s steps(2) infinite; }
+  #ring button * { color: #000; }
+  #ring button .ic { stroke: #000; }
+  #ring button:focus { animation: none; }
+  footer:empty { display: none; }
+
+  h1 { font-family: var(--serif); font-weight: 800; font-variation-settings: 'SOFT' 100; font-size: 1.42rem; line-height: 1.05; letter-spacing: -0.01em; margin: 0.05rem 0 0.4rem; overflow-wrap: break-word; hyphens: auto; }
+  h1.hero { font-size: 1.75rem; margin-block-end: 0.55rem; }
+  h1 .ic { inline-size: 1.3rem; block-size: 1.3rem; color: var(--rad); vertical-align: -0.12em; margin-inline-end: 0.35rem; }
+  h2 { font-size: 0.78rem; font-weight: 800; color: var(--quiet); margin: 1rem 0 0.45rem; }
+  p { margin: 0 0 0.5rem; }
+  .meta { color: var(--quiet); font-size: 0.74rem; }
+  .intro { font-size: 0.84rem; margin-block-end: 0.55rem; }
+  .ic { inline-size: 1.2rem; block-size: 1.2rem; flex: none; fill: none; stroke: currentColor; stroke-width: 2.3; stroke-linecap: round; stroke-linejoin: round; }
+
+  button, input, textarea { font: inherit; color: inherit; }
+  button {
+    display: flex; align-items: center; gap: 0.6rem;
+    inline-size: 100%; min-block-size: 2.3rem;
+    text-align: start; padding: 0.5rem 0.8rem;
+    border-radius: 0.85rem; border: 2px solid var(--line); background: var(--surface);
+    font-size: 0.88rem; font-weight: 700; color: var(--ink);
+    cursor: pointer; margin: 0 0 0.45rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+  button .grow { flex: 1; min-inline-size: 0; overflow-wrap: break-word; }
+  button .sub { display: block; font-weight: 400; font-size: 0.68rem; color: var(--quiet); margin-block-start: 0.05rem; }
+  button > .ic { color: var(--rad); }
+  button.primary { border: 3px solid var(--rad); color: var(--rad); justify-content: center; }
+  button.primary .ic { inline-size: 1rem; block-size: 1rem; fill: currentColor; stroke: none; }
+  button.feat { padding-block: 0.6rem; }
+  button.feat .grow { font-family: var(--serif); font-variation-settings: 'SOFT' 100; font-size: 1.02rem; font-weight: 800; }
+  button.feat .sub { font-family: var(--sans); }
+  button.feat > .ic { inline-size: 1.7rem; block-size: 1.7rem; }
+
+  /* Il focus: una lastra radicchio con il testo ritagliato in nero, più un anello chiaro. */
+  button:focus { outline: 3px solid var(--ink); outline-offset: 3px; background: var(--rad); border-color: var(--rad); color: #000; }
+  button:focus * { color: #000 !important; } /* il testo ritagliato vince su ogni colore di dettaglio */
+  button:focus .ic { stroke: #000; }
+  button:focus .dial { --on: #000; --off: rgba(0, 0, 0, 0.3); --now: #000; }
+  input:focus, textarea:focus { outline: 3px solid var(--rad); outline-offset: 2px; border-color: var(--rad); }
+
+  /* La firma: il quadrante a tacche, come un contaminuti da cucina. */
+  .dial line { stroke: var(--off, rgba(245, 241, 232, 0.2)); stroke-width: 5.5; stroke-linecap: round; }
+  .dial line.on { stroke: var(--on, var(--saffron)); }
+  .dial line.now { stroke: var(--now, var(--rad)); stroke-width: 8; }
+  .dw { position: relative; inline-size: 2.5rem; block-size: 2.5rem; flex: none; display: grid; place-items: center; }
+  .dw .dial { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; }
+  .dw b { position: relative; font-size: 0.66rem; font-weight: 800; font-variant-numeric: tabular-nums; color: var(--saffron); }
+
+  .search { position: relative; margin: 0 0 0.5rem; }
+  .search .ic { position: absolute; inset-inline-start: 0.75rem; inset-block-start: 50%; transform: translateY(-50%); color: var(--quiet); pointer-events: none; }
+  input, textarea { inline-size: 100%; background: var(--surface); border: 2px solid var(--line); border-radius: 0.85rem; padding: 0.5rem 0.75rem; font-size: 0.86rem; min-block-size: 2.3rem; }
+  .search input { padding-inline-start: 2.35rem; }
+  input[type=search]::-webkit-search-cancel-button { display: none; }
+  textarea { min-block-size: 4.2em; resize: none; }
+  label { display: block; font-size: 0.74rem; color: var(--quiet); margin: 0.55rem 0 0.25rem; }
+
+  .strip > .ic { color: var(--quiet); }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-block-start: 0.2rem; }
+  .chip { font-size: 0.64rem; font-weight: 800; color: var(--basil); border: 1.5px solid var(--basil); border-radius: 2rem; padding: 0.02rem 0.45rem; }
+  button:focus .chip { border-color: #000; }
+
+  .sec-h { display: flex; align-items: center; gap: 0.5rem; margin: 0.95rem 0 0.45rem; font-size: 0.78rem; font-weight: 800; color: var(--quiet); }
+  .sec-h .dial { inline-size: 1.55rem; block-size: 1.55rem; flex: none; }
+
+  .rrow { gap: 0.7rem; padding: 0.42rem 0.75rem 0.42rem 0.5rem; }
+  .rrow .rt { display: block; font-size: 0.86rem; line-height: 1.18; }
+  .rrow.pick .rt { font-family: var(--serif); font-variation-settings: 'SOFT' 100; font-size: 1rem; font-weight: 800; line-height: 1.1; }
+  .rm { display: flex; flex-wrap: wrap; align-items: center; gap: 0.12rem 0.55rem; font-size: 0.66rem; color: var(--quiet); font-weight: 600; margin-block-start: 0.12rem; }
+  .dg { display: inline-flex; gap: 0.2rem; color: var(--basil); }
+  .dg .ic { inline-size: 0.95rem; block-size: 0.95rem; stroke-width: 2.6; }
+  .alc { color: var(--saffron); display: inline-flex; }
+  .alc .ic { inline-size: 0.95rem; block-size: 0.95rem; }
+  .yours { font-size: 0.6rem; font-weight: 800; color: var(--basil); border: 1.5px solid var(--basil); border-radius: 2rem; padding: 0 0.4rem; }
+
+  .cats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.45rem; }
+  .cats button { margin: 0; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 0.3rem; min-block-size: 4.3rem; padding: 0.5rem 0.55rem; position: relative; }
+  .cats .ic { inline-size: 1.5rem; block-size: 1.5rem; color: var(--rad); }
+  .cats .nm { font-size: 0.7rem; line-height: 1.12; hyphens: auto; overflow-wrap: anywhere; }
+  .cats .ct { position: absolute; inset-block-start: 0.45rem; inset-inline-end: 0.55rem; font-size: 0.64rem; font-weight: 800; color: var(--saffron); font-variant-numeric: tabular-nums; }
+  .cats button.zero { opacity: 0.5; }
+  .cats button.zero:focus { opacity: 1; }
+
+  .subrow .cnt, .count { flex: none; min-inline-size: 1.8rem; text-align: center; font-size: 0.72rem; font-weight: 800; color: var(--saffron); border: 2px solid var(--saffron); border-radius: 2rem; padding: 0 0.4rem; font-variant-numeric: tabular-nums; }
+  button:focus .cnt { border-color: #000; }
+  .subrow.zero { opacity: 0.5; }
+  .subrow.zero:focus { opacity: 1; }
+
+  .state { display: grid; justify-items: center; text-align: center; gap: 0.6rem; padding: 1.2rem 0.4rem; color: var(--quiet); font-size: 0.82rem; }
+  .state .dial { inline-size: 3rem; block-size: 3rem; }
+  .spin { animation: spin 1.6s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .state button { inline-size: auto; padding-inline: 1.4rem; justify-content: center; }
+  .empty { color: var(--quiet); font-size: 0.82rem; margin: 0.5rem 0 0.7rem; }
+
+  .facts { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 1rem; margin: 0.15rem 0 0.5rem; }
+  .fact { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; font-weight: 800; }
+  .fact small { display: block; font-size: 0.62rem; color: var(--quiet); font-weight: 600; }
+  .fact .dw { inline-size: 2.1rem; block-size: 2.1rem; }
+  .pips { display: inline-flex; gap: 0.18rem; }
+  .pips i { inline-size: 0.45rem; block-size: 0.45rem; border-radius: 50%; border: 2px solid var(--saffron); }
+  .pips i.on { background: var(--saffron); }
+  .badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.1rem 0 0.55rem; }
+  .badge { display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.66rem; font-weight: 800; color: var(--basil); border: 1.5px solid var(--basil); border-radius: 2rem; padding: 0.08rem 0.5rem 0.08rem 0.35rem; }
+  .badge .ic { inline-size: 0.9rem; block-size: 0.9rem; }
+  .badge.warn { color: var(--saffron); border-color: var(--saffron); }
+  .badge.plain { color: var(--quiet); border-color: var(--dim); }
+  .seasonrow { display: flex; align-items: center; gap: 0.5rem; font-size: 0.72rem; color: var(--quiet); font-weight: 700; margin: 0 0 0.5rem; }
+  .seasonrow .dial { inline-size: 1.6rem; block-size: 1.6rem; flex: none; --on: var(--basil); }
+
+  .servings { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 0.6rem; margin: 0.3rem 0 0.2rem; }
+  .servings button { justify-content: center; margin: 0; font-size: 1.15rem; }
+  .servings output { font-size: 0.92rem; font-weight: 800; text-align: center; min-inline-size: 5.5em; }
+
+  .seg { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.35rem 0 0.2rem; }
+  .seg button { margin: 0; flex: 1 1 auto; inline-size: auto; justify-content: center; text-align: center; font-size: 0.72rem; min-block-size: 2rem; padding: 0.3rem 0.6rem; gap: 0.35rem; }
+  .seg button .ic { inline-size: 1rem; block-size: 1rem; color: var(--quiet); }
+  .seg button[aria-pressed=true] { border-color: var(--basil); color: var(--basil); background: rgba(155, 227, 107, 0.1); }
+  .seg button[aria-pressed=true] .ic { color: var(--basil); }
+  .seg button:focus { background: var(--rad); border-color: var(--rad); color: #000; }
+
+  ul.ing { list-style: none; margin: 0; padding: 0; }
+  ul.ing > li { padding: 0.3rem 0; border-block-end: 1px solid rgba(245, 241, 232, 0.1); font-size: 0.84rem; }
+  .li { display: flex; gap: 0.6rem; }
+  .q { color: var(--saffron); font-weight: 800; min-inline-size: 5.4em; flex: none; font-variant-numeric: tabular-nums; }
+  .nest { margin: 0.35rem 0 0.15rem; padding-inline-start: 0.7rem; border-inline-start: 3px solid var(--basil); }
+  .nest .nh { font-size: 0.7rem; color: var(--basil); font-weight: 800; margin-block-end: 0.15rem; }
+  .nest ul { list-style: none; margin: 0; padding: 0; }
+  .nest li { font-size: 0.76rem; padding: 0.12rem 0; }
+  .nest .q { min-inline-size: 5em; }
+
+  .tip { display: block; text-align: start; padding: 0.5rem 0.75rem; border: 0; border-inline-start: 3px solid var(--saffron); border-radius: 0 0.85rem 0.85rem 0; background: var(--surface); margin: 0 0 0.45rem; }
+  button.tip { border: 2px solid var(--line); border-inline-start: 3px solid var(--saffron); }
+  .tip .tk { display: flex; align-items: center; gap: 0.35rem; font-size: 0.66rem; font-weight: 800; color: var(--saffron); }
+  .tip .tk .ic { inline-size: 1rem; block-size: 1rem; color: var(--saffron); }
+  .tip .tt { display: block; font-size: 0.8rem; font-weight: 600; margin-block-start: 0.15rem; line-height: 1.3; }
+  .tip .tl { display: flex; align-items: center; gap: 0.3rem; color: var(--rad); font-size: 0.72rem; font-weight: 800; margin-block-start: 0.3rem; }
+  .tip .tl .ic { inline-size: 0.8rem; block-size: 0.8rem; fill: currentColor; stroke: none; }
+  button.tip:focus { border-color: var(--rad); }
+
+  .cook-h { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; font-size: 0.72rem; font-weight: 800; color: var(--quiet); }
+  .cook-h .meth { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--saffron); min-inline-size: 0; }
+  .cook-h .meth .ic { inline-size: 1rem; block-size: 1rem; }
+  .phase { display: flex; align-items: center; gap: 0.45rem; margin-block-start: 0.25rem; color: var(--rad); font-family: var(--serif); font-variation-settings: 'SOFT' 100; font-weight: 800; font-size: 0.86rem; line-height: 1.1; }
+  .phase .pn { display: grid; place-items: center; flex: none; inline-size: 1.3rem; block-size: 1.3rem; border-radius: 50%; background: var(--rad); color: #000; font-family: var(--sans); font-size: 0.7rem; }
+  .phase.plain { color: var(--quiet); }
+  .ticks { display: flex; gap: 3px; align-items: center; margin: 0.45rem 0 0.7rem; block-size: 0.8rem; }
+  .ticks i { flex: 1; block-size: 0.45rem; border-radius: 2px; background: var(--dim); }
+  .ticks i.on { background: var(--rad); }
+  .ticks i.cur { block-size: 0.8rem; background: var(--ink); }
+  .ticks i.gap { margin-inline-start: 0.45rem; }
+  .steptext { font-size: 1.22rem; line-height: 1.3; font-weight: 600; }
+  .steptext.long { font-size: 1.08rem; }
+  .big-timer { display: flex; align-items: center; gap: 0.9rem; margin-block-start: 0.8rem; }
+  .big-timer .dw { inline-size: 6rem; block-size: 6rem; }
+  .big-timer .dw b { font-size: 1.3rem; }
+  .big-timer .dial line { stroke-width: 2.6; }
+  .big-timer .dw b.hms { font-size: 0.95rem; }
+  .big-timer .lbl { font-size: 0.86rem; font-weight: 800; }
+  .big-timer .lbl small { display: block; color: var(--quiet); font-weight: 600; font-size: 0.72rem; margin-block-start: 0.1rem; }
+  .big-timer.done .dial { --on: var(--rad); }
+  .big-timer.done .dw b { color: var(--rad); animation: blink 0.8s steps(2) infinite; }
+  .bgnote { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--saffron); }
+
+  .done-hero { text-align: center; padding-block-start: 0.4rem; }
+  .done-hero .dw { inline-size: 5rem; block-size: 5rem; margin: 0 auto 0.5rem; }
+  .done-hero .dial { --on: var(--rad); }
+  .done-hero .dial line { stroke-width: 2.6; }
+  .done-hero .dw .ic { position: relative; inline-size: 2rem; block-size: 2rem; color: var(--rad); stroke-width: 3; }
+  .note { border-inline-start: 3px solid var(--saffron); padding: 0.2rem 0 0.2rem 0.7rem; font-size: 0.8rem; margin: 0.6rem 0; text-align: start; }
+  .hint { font-size: 0.72rem; color: var(--quiet); margin: 0.5rem 0; }
+
+  .fgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem; }
+  .fgrid button { margin: 0; }
+  .box { inline-size: 1.2rem; block-size: 1.2rem; border: 2px solid var(--quiet); border-radius: 0.35rem; flex: none; display: grid; place-items: center; }
+  .box .ic { inline-size: 0.9rem; block-size: 0.9rem; opacity: 0; stroke-width: 3.2; }
+  [aria-pressed=true] > .box { background: var(--basil); border-color: var(--basil); }
+  [aria-pressed=true] > .box .ic { opacity: 1; stroke: #000; }
+  button:focus > .box { border-color: #000; }
+  button:focus[aria-pressed=true] > .box { background: #000; }
+  button:focus[aria-pressed=true] > .box .ic { stroke: var(--rad); }
+
+  .roles { display: flex; flex-wrap: wrap; align-items: center; gap: 0.1rem 0; margin-block-start: 0.2rem; font-size: 0.64rem; font-weight: 700; color: var(--quiet); font-family: var(--sans); }
+  .roles span + span::before { content: ''; display: inline-block; inline-size: 2px; block-size: 0.7em; background: var(--saffron); margin-inline: 0.4rem; vertical-align: -0.05em; }
+  button:focus .roles span + span::before { background: #000; }
+  .course .role { display: block; font-size: 0.64rem; color: var(--rad); font-weight: 800; margin-block-end: 0.05rem; }
+  .pairing { border: 2px solid var(--saffron); border-radius: 1rem; padding: 0.6rem 0.85rem 0.7rem; margin: 0.9rem 0 0.4rem; background: rgba(255, 194, 61, 0.08); }
+  .pairing .ph { display: flex; align-items: center; gap: 0.4rem; color: var(--saffron); font-weight: 800; font-size: 0.74rem; }
+  .pairing p { font-family: var(--serif); font-variation-settings: 'SOFT' 100; font-size: 0.98rem; font-weight: 700; margin: 0.3rem 0 0; line-height: 1.25; }
+  ol.plan { list-style: none; margin: 0; padding: 0; counter-reset: p; }
+  ol.plan li { position: relative; padding: 0.05rem 0 0.75rem 2rem; font-size: 0.8rem; counter-increment: p; }
+  ol.plan li::before { content: counter(p); position: absolute; inset-inline-start: 0; inset-block-start: 0; inline-size: 1.3rem; block-size: 1.3rem; border-radius: 50%; border: 2px solid var(--saffron); color: var(--saffron); display: grid; place-items: center; font-size: 0.64rem; font-weight: 800; }
+  ol.plan li::after { content: ''; position: absolute; inset-inline-start: calc(0.65rem - 1px); inset-block: 1.3rem 0; inline-size: 2px; background: var(--dim); }
+  ol.plan li:last-child::after { display: none; }
+  ol.plan li:last-child::before { background: var(--saffron); color: #000; }
+
+  .si .nm { flex: 1; min-inline-size: 0; font-weight: 600; font-size: 0.84rem; overflow-wrap: break-word; }
+  .si .qt { flex: none; color: var(--saffron); font-weight: 800; font-size: 0.78rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .si[aria-pressed=true] .nm { text-decoration: line-through; color: var(--quiet); }
+  .si[aria-pressed=true] .qt { color: var(--quiet); }
+  .si:focus .nm, .si:focus .qt { color: #000; }
+  .si { padding-block: 0.38rem; min-block-size: 2.1rem; }
+  .shophead { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+  .progress-note { font-size: 0.72rem; color: var(--basil); font-weight: 800; }
+
+  .langs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.45rem; margin-block-end: 0.9rem; }
+  .langs button { margin: 0; padding: 0.55rem 0.7rem; }
+  .langs button.on { border-color: var(--basil); color: var(--basil); }
+  .langs button.on::after { content: ''; flex: none; margin-inline-start: auto; inline-size: 0.5rem; block-size: 0.5rem; border-radius: 50%; background: var(--basil); }
+  .langs button.on:focus { color: #000; }
+  .langs button.on:focus::after { background: #000; }
+
+  .toast {
+    position: fixed; inset-inline: 6vmin; inset-block-end: 6vmin;
+    background: #000; border: 2px solid var(--rad); color: var(--ink);
+    padding: 0.5rem 0.8rem; border-radius: 0.85rem; font-size: 0.8rem; font-weight: 700;
+    opacity: 0; transition: opacity 0.2s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; }
+  .sr { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div id="app" class="shell" aria-live="polite">
+  <header>
+    <span class="brand" id="brand"></span>
+    <span id="timerbar" class="timers"></span>
+  </header>
+  <div id="ring"></div>
+  <main id="content" class="content"></main>
+  <footer id="footer"></footer>
+</div>
+<div id="toast" class="toast" role="status"></div>
+
+<script>
+(() => {
+  'use strict';
+
+  // ---------- Lingue ----------
+  const LANGS = [['it', 'Italiano'], ['en', 'English'], ['fr', 'Français'], ['es', 'Español'], ['de', 'Deutsch']];
+  const VOICE = { it: 'it-IT', en: 'en-US', fr: 'fr-FR', es: 'es-ES', de: 'de-DE' };
+  const NAME_EN = { it: 'Italian', en: 'English', fr: 'French', es: 'Spanish', de: 'German' };
+  const pl = (n, one, many) => n === 1 ? one : many;
+
+  const T = {
+    it: {
+      home: 'Cosa cuciniamo?', season: (m) => `Di stagione a ${m}`, min: 'min', yours: 'Le tue cose',
+      mine: 'Le mie ricette', saved: (n) => pl(n, '1 salvata', `${n} salvate`), none: 'Ancora nessuna',
+      create: 'Crea una ricetta', createSub: 'Da zero, scrivendo o dettando',
+      company: 'Cucina in compagnia', companySub: 'Qualcuno ti guida in videochiamata',
+      settings: 'Impostazioni', settingsSub: 'Lingua e avvisi vocali', language: 'Lingua', back: 'Indietro',
+      voiceOn: 'Avvisi vocali: sì', voiceOff: 'Avvisi vocali: no', voiceSub: 'Ti dice quando un timer finisce',
+      variant: 'variante', yoursTag: 'tua',
+      serv: (n) => pl(n, '1 porzione', `${n} porzioni`), servLabel: 'Porzioni', fewer: 'Meno porzioni', more: 'Più porzioni',
+      steps: (n) => pl(n, '1 passaggio', `${n} passaggi`),
+      mineEmpty: 'Non hai ancora ricette tue. Creane una, oppure apri una ricetta e salvala come tua.',
+      createPlus: 'Crea una ricetta', fromScratch: 'Da zero',
+      ingredients: 'Ingredienti', saveMine: 'Salva come mia', saveWith: (s) => `Con ${s}`, saveLater: 'Poi la modifichi come vuoi',
+      del: 'Elimina questa ricetta', start: 'Inizia a cucinare', savedToast: 'Salvata in Le mie ricette', deletedToast: 'Ricetta eliminata',
+      stepOf: (a, b) => `Passo ${a} di ${b}`, stepN: (n) => `Passo ${n}`, prev: 'Passo precedente',
+      done: 'Fatto', doneShort: 'fatto', timeUp: 'Tempo scaduto', timeUpMsg: 'tempo scaduto', paused: 'In pausa', running: 'Timer avviato', ready: 'Pronto',
+      startTimer: 'Avvia timer', oneMore: 'Ancora 1 min', resume: 'Riprendi', pause: 'Pausa', finish: 'Fine', next: 'Avanti',
+      enjoy: 'Buon appetito!', left: (n) => pl(n, 'Hai ancora 1 timer attivo in alto.', `Hai ancora ${n} timer attivi in alto.`),
+      saveAgain: 'Per rifarla e modificarla', toStart: 'Torna all\'inizio',
+      newRecipe: 'Nuova ricetta',
+      createHint: 'Tocca un campo per scrivere, dettare o usare la tastiera. Se in un passaggio scrivi "10 minuti", il timer parte da solo.',
+      name: 'Nome', namePh: 'Es. Pasta della nonna', ingLabel: 'Ingredienti, uno per riga', ingPh: '200 g farina',
+      stepsLabel: 'Passaggi, uno per riga', stepsPh: 'Cuoci 10 minuti',
+      aiNote: 'Con Meta AI attivo puoi anche dire: "Ehi Meta, crea una ricetta di…" e la trovi qui già divisa in passaggi.',
+      saveRecipe: 'Salva ricetta', needMore: 'Servono almeno il nome e un passaggio', recipeSaved: 'Ricetta salvata',
+      companyP: 'Chi ti aiuta vede in diretta quello che vedi tu e ti dice cosa fare.',
+      companySteps: '1. Apri la ricetta qui in SousView.<br>2. Avvia una videochiamata WhatsApp dagli occhiali e passa alla visuale degli occhiali.<br>3. L\'altra persona ti segue passo passo mentre tu tieni le mani libere.',
+      companySoon: 'In arrivo: un link da mandare a chi ti aiuta, per vedere sul telefono il passaggio a cui sei e mandarti brevi indicazioni che compaiono qui.',
+      chooseRecipe: 'Scegli una ricetta', timer: 'Timer', durEx: '10 minuti',
+      searchPh: 'Cerca un piatto', searchTitle: 'Cerca', searchHint: 'Scrivi o detta il nome di un piatto.',
+      results: (n) => pl(n, '1 ricetta trovata', `${n} ricette trovate`), noResults: (q) => `Nessuna ricetta per «${q}».`,
+      categories: 'Categorie', filters: 'Filtri', filtersNone: 'Nessun filtro attivo', forYou: 'Per te', diet: 'Dieta',
+      recipesN: (n) => pl(n, '1 ricetta', `${n} ricette`), showN: (n) => n ? pl(n, 'Mostra 1 ricetta', `Mostra ${n} ricette`) : 'Nessuna ricetta',
+      clearFilters: 'Togli i filtri', emptyFiltered: 'Nessuna ricetta corrisponde ai filtri attivi.', emptySub: 'Qui non ci sono ancora ricette.',
+      loading: 'Carico le ricette…', loadError: 'Non riesco a caricare le ricette. Controlla la connessione e riprova.', retry: 'Riprova',
+      kcal: (n) => `circa ${n} kcal`, perServ: 'a porzione', diffs: ['Facile', 'Media', 'Impegnativa'], alcohol: 'Contiene alcol',
+      seasonLbl: 'Di stagione', surprise: 'Sorprendimi',
+      tips: 'Consigli', tipK: { twist: 'Variante', pair: 'Abbinamento', secret: 'Il trucco', spice: 'Spezie', leftover: 'Avanzi' },
+      openLinked: 'Apri la ricetta', nextTime: 'Per la prossima volta',
+      makeQ: 'Pronto o fatto in casa?', store: 'Pronto', homemade: 'Fatto in casa', forBase: (s) => `Per farlo in casa: ${s}`,
+      method: 'Cottura',
+      menus: 'Menù completi', menusSub: 'Dall\'antipasto al dolce, con gli abbinamenti', courses: (n) => pl(n, '1 portata', `${n} portate`),
+      dishes: 'Le portate', drinks: 'Da bere', pairing: 'Nel bicchiere', gamePlan: 'Come organizzarti',
+      guests: (n) => pl(n, '1 ospite', `${n} ospiti`), guestsLabel: 'Ospiti', fewerG: 'Meno ospiti', moreG: 'Più ospiti',
+      roles: { aperitivo: 'Aperitivo', antipasto: 'Antipasto', primo: 'Primo', secondo: 'Secondo', contorno: 'Contorno', dolce: 'Dolce', 'piatto-unico': 'Piatto unico', colazione: 'Colazione', bevanda: 'Bevanda' },
+      shop: 'Lista della spesa', shopSub: (n) => pl(n, '1 cosa da comprare', `${n} cose da comprare`), shopFor: (s) => `Per ${s}`,
+      staples: 'Di solito in casa', staplesSub: (n) => pl(n, '1 cosa da controllare', `${n} cose da controllare`),
+      untick: 'Togli le spunte', ticked: (a, b) => `${a} di ${b} presi`, dismiss: 'Tocca per chiudere',
+      aisles: { produce: 'Frutta e verdura', 'meat-fish': 'Carne e pesce', 'dairy-eggs': 'Latticini e uova', 'bakery-pasta': 'Pane e pasta', pantry: 'Dispensa', spices: 'Spezie', frozen: 'Surgelati', drinks: 'Bevande', other: 'Altro' },
+      unit: { tbsp: (v) => v > 1 ? 'cucchiai' : 'cucchiaio', tsp: (v) => v > 1 ? 'cucchiaini' : 'cucchiaino', pinch: (v) => v > 1 ? 'pizzichi' : 'pizzico' }
+    },
+    en: {
+      home: 'What are we cooking?', season: (m) => `In season in ${m}`, min: 'min', yours: 'Yours',
+      mine: 'My recipes', saved: (n) => `${n} saved`, none: 'None yet',
+      create: 'Create a recipe', createSub: 'From scratch, typing or dictating',
+      company: 'Cook together', companySub: 'Someone guides you on a video call',
+      settings: 'Settings', settingsSub: 'Language and voice alerts', language: 'Language', back: 'Back',
+      voiceOn: 'Voice alerts: on', voiceOff: 'Voice alerts: off', voiceSub: 'Tells you when a timer ends',
+      variant: 'variation', yoursTag: 'yours',
+      serv: (n) => pl(n, '1 serving', `${n} servings`), servLabel: 'Servings', fewer: 'Fewer servings', more: 'More servings',
+      steps: (n) => pl(n, '1 step', `${n} steps`),
+      mineEmpty: 'You don\'t have any recipes of your own yet. Create one, or open a recipe and save it as yours.',
+      createPlus: 'Create a recipe', fromScratch: 'From scratch',
+      ingredients: 'Ingredients', saveMine: 'Save to my recipes', saveWith: (s) => `With ${s}`, saveLater: 'Then change it however you like',
+      del: 'Delete this recipe', start: 'Start cooking', savedToast: 'Saved to My recipes', deletedToast: 'Recipe deleted',
+      stepOf: (a, b) => `Step ${a} of ${b}`, stepN: (n) => `Step ${n}`, prev: 'Previous step',
+      done: 'Done', doneShort: 'done', timeUp: 'Time\'s up', timeUpMsg: 'time\'s up', paused: 'Paused', running: 'Timer running', ready: 'Ready',
+      startTimer: 'Start timer', oneMore: '1 more min', resume: 'Resume', pause: 'Pause', finish: 'Finish', next: 'Next',
+      enjoy: 'Enjoy your meal!', left: (n) => pl(n, 'You still have 1 timer running up top.', `You still have ${n} timers running up top.`),
+      saveAgain: 'To cook it again and tweak it', toStart: 'Back to start',
+      newRecipe: 'New recipe',
+      createHint: 'Tap a field to type, dictate or use the keyboard. If a step says "10 minutes", the timer starts by itself.',
+      name: 'Name', namePh: 'E.g. Grandma\'s pasta', ingLabel: 'Ingredients, one per line', ingPh: '200 g flour',
+      stepsLabel: 'Steps, one per line', stepsPh: 'Cook 10 minutes',
+      aiNote: 'With Meta AI on, you can also say: "Hey Meta, create a recipe for…" and you\'ll find it here, already split into steps.',
+      saveRecipe: 'Save recipe', needMore: 'You need at least a name and one step', recipeSaved: 'Recipe saved',
+      companyP: 'Whoever is helping you sees what you see, live, and tells you what to do.',
+      companySteps: '1. Open the recipe here in SousView.<br>2. Start a WhatsApp video call from the glasses and switch to the glasses view.<br>3. The other person follows you step by step while your hands stay free.',
+      companySoon: 'Coming soon: a link to send to your helper, so they can see on their phone which step you\'re on and send you short tips that appear here.',
+      chooseRecipe: 'Choose a recipe', timer: 'Timer', durEx: '10 minutes',
+      searchPh: 'Search for a dish', searchTitle: 'Search', searchHint: 'Type or dictate the name of a dish.',
+      results: (n) => pl(n, '1 recipe found', `${n} recipes found`), noResults: (q) => `No recipes for “${q}”.`,
+      categories: 'Categories', filters: 'Filters', filtersNone: 'No filters on', forYou: 'For you', diet: 'Diet',
+      recipesN: (n) => pl(n, '1 recipe', `${n} recipes`), showN: (n) => n ? pl(n, 'Show 1 recipe', `Show ${n} recipes`) : 'No recipes',
+      clearFilters: 'Clear filters', emptyFiltered: 'No recipes match the filters you have on.', emptySub: 'No recipes here yet.',
+      loading: 'Loading recipes…', loadError: 'Couldn\'t load the recipes. Check your connection and try again.', retry: 'Try again',
+      kcal: (n) => `approx. ${n} kcal`, perServ: 'per serving', diffs: ['Easy', 'Medium', 'Challenging'], alcohol: 'Contains alcohol',
+      seasonLbl: 'In season', surprise: 'Surprise me',
+      tips: 'Tips', tipK: { twist: 'Twist', pair: 'Goes with', secret: 'The trick', spice: 'Herbs & spices', leftover: 'Leftovers' },
+      openLinked: 'Open the recipe', nextTime: 'Next time',
+      makeQ: 'Store-bought or homemade?', store: 'Store-bought', homemade: 'Homemade', forBase: (s) => `To make it at home: ${s}`,
+      method: 'Cook it in',
+      menus: 'Full menus', menusSub: 'Starter to dessert, with pairings', courses: (n) => pl(n, '1 course', `${n} courses`),
+      dishes: 'Courses', drinks: 'Drinks', pairing: 'In the glass', gamePlan: 'Game plan',
+      guests: (n) => pl(n, '1 guest', `${n} guests`), guestsLabel: 'Guests', fewerG: 'Fewer guests', moreG: 'More guests',
+      roles: { aperitivo: 'Aperitif', antipasto: 'Starter', primo: 'First course', secondo: 'Main course', contorno: 'Side', dolce: 'Dessert', 'piatto-unico': 'One-dish meal', colazione: 'Breakfast', bevanda: 'Drink' },
+      shop: 'Shopping list', shopSub: (n) => pl(n, '1 thing to buy', `${n} things to buy`), shopFor: (s) => `For ${s}`,
+      staples: 'Usually in the cupboard', staplesSub: (n) => pl(n, '1 thing to check', `${n} things to check`),
+      untick: 'Untick all', ticked: (a, b) => `${a} of ${b} in the basket`, dismiss: 'Tap to dismiss',
+      aisles: { produce: 'Fruit & veg', 'meat-fish': 'Meat & fish', 'dairy-eggs': 'Dairy & eggs', 'bakery-pasta': 'Bread & pasta', pantry: 'Pantry', spices: 'Spices', frozen: 'Frozen', drinks: 'Drinks', other: 'Other' },
+      unit: { tbsp: () => 'tbsp', tsp: () => 'tsp', pinch: (v) => v > 1 ? 'pinches' : 'pinch' }
+    },
+    fr: {
+      home: 'On cuisine quoi ?', season: (m) => `De saison en ${m}`, min: 'min', yours: 'À toi',
+      mine: 'Mes recettes', saved: (n) => pl(n, '1 enregistrée', `${n} enregistrées`), none: 'Aucune pour l\'instant',
+      create: 'Créer une recette', createSub: 'De zéro, en écrivant ou en dictant',
+      company: 'Cuisiner à deux', companySub: 'Quelqu\'un te guide en appel vidéo',
+      settings: 'Réglages', settingsSub: 'Langue et alertes vocales', language: 'Langue', back: 'Retour',
+      voiceOn: 'Alertes vocales : oui', voiceOff: 'Alertes vocales : non', voiceSub: 'Te prévient quand un minuteur se termine',
+      variant: 'variante', yoursTag: 'à toi',
+      serv: (n) => pl(n, '1 portion', `${n} portions`), servLabel: 'Portions', fewer: 'Moins de portions', more: 'Plus de portions',
+      steps: (n) => pl(n, '1 étape', `${n} étapes`),
+      mineEmpty: 'Tu n\'as pas encore de recettes à toi. Crées-en une, ou ouvre une recette et garde-la dans tes recettes.',
+      createPlus: 'Créer une recette', fromScratch: 'De zéro',
+      ingredients: 'Ingrédients', saveMine: 'Garder dans mes recettes', saveWith: (s) => `Avec ${s}`, saveLater: 'Puis modifie-la comme tu veux',
+      del: 'Supprimer cette recette', start: 'Commencer à cuisiner', savedToast: 'Enregistrée dans Mes recettes', deletedToast: 'Recette supprimée',
+      stepOf: (a, b) => `Étape ${a} sur ${b}`, stepN: (n) => `Étape ${n}`, prev: 'Étape précédente',
+      done: 'Fini', doneShort: 'fini', timeUp: 'Temps écoulé', timeUpMsg: 'temps écoulé', paused: 'En pause', running: 'Minuteur lancé', ready: 'Prêt',
+      startTimer: 'Lancer le minuteur', oneMore: 'Encore 1 min', resume: 'Reprendre', pause: 'Pause', finish: 'Terminer', next: 'Suivant',
+      enjoy: 'Bon appétit !', left: (n) => pl(n, 'Il te reste 1 minuteur actif en haut.', `Il te reste ${n} minuteurs actifs en haut.`),
+      saveAgain: 'Pour la refaire et la modifier', toStart: 'Retour à l\'accueil',
+      newRecipe: 'Nouvelle recette',
+      createHint: 'Touche un champ pour écrire, dicter ou utiliser le clavier. Si une étape contient « 10 minutes », le minuteur démarre tout seul.',
+      name: 'Nom', namePh: 'Ex. Les pâtes de mamie', ingLabel: 'Ingrédients, un par ligne', ingPh: '200 g de farine',
+      stepsLabel: 'Étapes, une par ligne', stepsPh: 'Cuire 10 minutes',
+      aiNote: 'Avec Meta AI activé, tu peux aussi dire : « Hey Meta, crée une recette de… » et tu la retrouves ici, déjà découpée en étapes.',
+      saveRecipe: 'Enregistrer la recette', needMore: 'Il faut au moins un nom et une étape', recipeSaved: 'Recette enregistrée',
+      companyP: 'La personne qui t\'aide voit en direct ce que tu vois et te dit quoi faire.',
+      companySteps: '1. Ouvre la recette ici dans SousView.<br>2. Lance un appel vidéo WhatsApp depuis les lunettes et passe à la vue des lunettes.<br>3. L\'autre personne te suit étape par étape pendant que tu gardes les mains libres.',
+      companySoon: 'Bientôt : un lien à envoyer à la personne qui t\'aide, pour voir sur son téléphone l\'étape où tu en es et t\'envoyer de courtes indications qui s\'affichent ici.',
+      chooseRecipe: 'Choisis une recette', timer: 'Minuteur', durEx: '10 minutes',
+      searchPh: 'Chercher un plat', searchTitle: 'Recherche', searchHint: 'Écris ou dicte le nom d\'un plat.',
+      results: (n) => pl(n, '1 recette trouvée', `${n} recettes trouvées`), noResults: (q) => `Aucune recette pour « ${q} ».`,
+      categories: 'Catégories', filters: 'Filtres', filtersNone: 'Aucun filtre actif', forYou: 'Pour toi', diet: 'Régime',
+      recipesN: (n) => pl(n, '1 recette', `${n} recettes`), showN: (n) => n ? pl(n, 'Voir 1 recette', `Voir ${n} recettes`) : 'Aucune recette',
+      clearFilters: 'Retirer les filtres', emptyFiltered: 'Aucune recette ne correspond aux filtres actifs.', emptySub: 'Pas encore de recettes ici.',
+      loading: 'Chargement des recettes…', loadError: 'Impossible de charger les recettes. Vérifie ta connexion et réessaie.', retry: 'Réessayer',
+      kcal: (n) => `env. ${n} kcal`, perServ: 'par portion', diffs: ['Facile', 'Intermédiaire', 'Difficile'], alcohol: 'Contient de l\'alcool',
+      seasonLbl: 'De saison', surprise: 'Surprends-moi',
+      tips: 'Astuces', tipK: { twist: 'Variante', pair: 'Accord', secret: 'L\'astuce', spice: 'Épices et herbes', leftover: 'Les restes' },
+      openLinked: 'Ouvrir la recette', nextTime: 'La prochaine fois',
+      makeQ: 'Du commerce ou fait maison ?', store: 'Du commerce', homemade: 'Fait maison', forBase: (s) => `Pour le faire maison : ${s}`,
+      method: 'Cuisson',
+      menus: 'Menus complets', menusSub: 'De l\'entrée au dessert, avec les accords', courses: (n) => pl(n, '1 plat', `${n} plats`),
+      dishes: 'Les plats', drinks: 'À boire', pairing: 'Dans le verre', gamePlan: 'Le déroulé',
+      guests: (n) => pl(n, '1 invité', `${n} invités`), guestsLabel: 'Invités', fewerG: 'Moins d\'invités', moreG: 'Plus d\'invités',
+      roles: { aperitivo: 'Apéritif', antipasto: 'Entrée', primo: 'Premier plat', secondo: 'Plat principal', contorno: 'Accompagnement', dolce: 'Dessert', 'piatto-unico': 'Plat complet', colazione: 'Petit-déjeuner', bevanda: 'Boisson' },
+      shop: 'Liste de courses', shopSub: (n) => pl(n, '1 article à acheter', `${n} articles à acheter`), shopFor: (s) => `Pour ${s}`,
+      staples: 'Déjà dans tes placards', staplesSub: (n) => pl(n, '1 article à vérifier', `${n} articles à vérifier`),
+      untick: 'Tout décocher', ticked: (a, b) => `${a} sur ${b} dans le panier`, dismiss: 'Touche pour fermer',
+      aisles: { produce: 'Fruits et légumes', 'meat-fish': 'Viande et poisson', 'dairy-eggs': 'Crèmerie et œufs', 'bakery-pasta': 'Pain et pâtes', pantry: 'Épicerie', spices: 'Épices', frozen: 'Surgelés', drinks: 'Boissons', other: 'Autres' },
+      unit: { tbsp: () => 'c. à s.', tsp: () => 'c. à c.', pinch: (v) => v > 1 ? 'pincées' : 'pincée' }
+    },
+    es: {
+      home: '¿Qué cocinamos?', season: (m) => `De temporada en ${m}`, min: 'min', yours: 'Lo tuyo',
+      mine: 'Mis recetas', saved: (n) => pl(n, '1 guardada', `${n} guardadas`), none: 'Todavía ninguna',
+      create: 'Crear una receta', createSub: 'Desde cero, escribiendo o dictando',
+      company: 'Cocinar en compañía', companySub: 'Alguien te guía por videollamada',
+      settings: 'Ajustes', settingsSub: 'Idioma y avisos de voz', language: 'Idioma', back: 'Atrás',
+      voiceOn: 'Avisos de voz: sí', voiceOff: 'Avisos de voz: no', voiceSub: 'Te avisa cuando termina un temporizador',
+      variant: 'variante', yoursTag: 'tuya',
+      serv: (n) => pl(n, '1 ración', `${n} raciones`), servLabel: 'Raciones', fewer: 'Menos raciones', more: 'Más raciones',
+      steps: (n) => pl(n, '1 paso', `${n} pasos`),
+      mineEmpty: 'Todavía no tienes recetas tuyas. Crea una, o abre una receta y guárdala como tuya.',
+      createPlus: 'Crear una receta', fromScratch: 'Desde cero',
+      ingredients: 'Ingredientes', saveMine: 'Guardar como mía', saveWith: (s) => `Con ${s}`, saveLater: 'Luego la cambias como quieras',
+      del: 'Eliminar esta receta', start: 'Empezar a cocinar', savedToast: 'Guardada en Mis recetas', deletedToast: 'Receta eliminada',
+      stepOf: (a, b) => `Paso ${a} de ${b}`, stepN: (n) => `Paso ${n}`, prev: 'Paso anterior',
+      done: 'Hecho', doneShort: 'hecho', timeUp: 'Se acabó el tiempo', timeUpMsg: 'se acabó el tiempo', paused: 'En pausa', running: 'Temporizador en marcha', ready: 'Listo',
+      startTimer: 'Iniciar temporizador', oneMore: '1 min más', resume: 'Reanudar', pause: 'Pausa', finish: 'Terminar', next: 'Siguiente',
+      enjoy: '¡Buen provecho!', left: (n) => pl(n, 'Aún tienes 1 temporizador activo arriba.', `Aún tienes ${n} temporizadores activos arriba.`),
+      saveAgain: 'Para repetirla y cambiarla', toStart: 'Volver al inicio',
+      newRecipe: 'Nueva receta',
+      createHint: 'Toca un campo para escribir, dictar o usar el teclado. Si en un paso escribes «10 minutos», el temporizador se pone en marcha solo.',
+      name: 'Nombre', namePh: 'Ej. La pasta de la abuela', ingLabel: 'Ingredientes, uno por línea', ingPh: '200 g de harina',
+      stepsLabel: 'Pasos, uno por línea', stepsPh: 'Cocina 10 minutos',
+      aiNote: 'Con Meta AI activado también puedes decir: «Hey Meta, crea una receta de…» y la encontrarás aquí, ya dividida en pasos.',
+      saveRecipe: 'Guardar receta', needMore: 'Hace falta al menos el nombre y un paso', recipeSaved: 'Receta guardada',
+      companyP: 'Quien te ayuda ve en directo lo que ves tú y te dice qué hacer.',
+      companySteps: '1. Abre la receta aquí en SousView.<br>2. Inicia una videollamada de WhatsApp desde las gafas y cambia a la vista de las gafas.<br>3. La otra persona te sigue paso a paso mientras tú tienes las manos libres.',
+      companySoon: 'Próximamente: un enlace para enviar a quien te ayuda, para ver en su móvil el paso en el que estás y mandarte indicaciones breves que aparecen aquí.',
+      chooseRecipe: 'Elige una receta', timer: 'Temporizador', durEx: '10 minutos',
+      searchPh: 'Buscar un plato', searchTitle: 'Buscar', searchHint: 'Escribe o dicta el nombre de un plato.',
+      results: (n) => pl(n, '1 receta encontrada', `${n} recetas encontradas`), noResults: (q) => `No hay recetas para «${q}».`,
+      categories: 'Categorías', filters: 'Filtros', filtersNone: 'Ningún filtro activo', forYou: 'Para ti', diet: 'Dieta',
+      recipesN: (n) => pl(n, '1 receta', `${n} recetas`), showN: (n) => n ? pl(n, 'Ver 1 receta', `Ver ${n} recetas`) : 'Ninguna receta',
+      clearFilters: 'Quitar los filtros', emptyFiltered: 'Ninguna receta coincide con los filtros activos.', emptySub: 'Todavía no hay recetas aquí.',
+      loading: 'Cargando recetas…', loadError: 'No se han podido cargar las recetas. Revisa la conexión y vuelve a intentarlo.', retry: 'Reintentar',
+      kcal: (n) => `aprox. ${n} kcal`, perServ: 'por ración', diffs: ['Fácil', 'Intermedia', 'Difícil'], alcohol: 'Contiene alcohol',
+      seasonLbl: 'De temporada', surprise: 'Sorpréndeme',
+      tips: 'Consejos', tipK: { twist: 'Variante', pair: 'Acompáñalo con', secret: 'El truco', spice: 'Especias y hierbas', leftover: 'Las sobras' },
+      openLinked: 'Abrir la receta', nextTime: 'La próxima vez',
+      makeQ: '¿Comprado o casero?', store: 'Comprado', homemade: 'Casero', forBase: (s) => `Para hacerlo en casa: ${s}`,
+      method: 'Cocción',
+      menus: 'Menús completos', menusSub: 'Del entrante al postre, con maridaje', courses: (n) => pl(n, '1 plato', `${n} platos`),
+      dishes: 'Los platos', drinks: 'Para beber', pairing: 'En la copa', gamePlan: 'Cómo organizarte',
+      guests: (n) => pl(n, '1 invitado', `${n} invitados`), guestsLabel: 'Invitados', fewerG: 'Menos invitados', moreG: 'Más invitados',
+      roles: { aperitivo: 'Aperitivo', antipasto: 'Entrante', primo: 'Primer plato', secondo: 'Segundo plato', contorno: 'Guarnición', dolce: 'Postre', 'piatto-unico': 'Plato único', colazione: 'Desayuno', bevanda: 'Bebida' },
+      shop: 'Lista de la compra', shopSub: (n) => pl(n, '1 cosa que comprar', `${n} cosas que comprar`), shopFor: (s) => `Para ${s}`,
+      staples: 'Lo que sueles tener en casa', staplesSub: (n) => pl(n, '1 cosa que revisar', `${n} cosas que revisar`),
+      untick: 'Desmarcar todo', ticked: (a, b) => `${a} de ${b} en la cesta`, dismiss: 'Toca para cerrar',
+      aisles: { produce: 'Frutas y verduras', 'meat-fish': 'Carne y pescado', 'dairy-eggs': 'Lácteos y huevos', 'bakery-pasta': 'Pan y pasta', pantry: 'Despensa', spices: 'Especias', frozen: 'Congelados', drinks: 'Bebidas', other: 'Otros' },
+      unit: { tbsp: (v) => v > 1 ? 'cucharadas' : 'cucharada', tsp: (v) => v > 1 ? 'cucharaditas' : 'cucharadita', pinch: (v) => v > 1 ? 'pizcas' : 'pizca' }
+    },
+    de: {
+      home: 'Was kochen wir?', season: (m) => `Saisonal im ${m}`, min: 'Min.', yours: 'Deins',
+      mine: 'Meine Rezepte', saved: (n) => `${n} gespeichert`, none: 'Noch keine',
+      create: 'Rezept erstellen', createSub: 'Von Grund auf, getippt oder diktiert',
+      company: 'Gemeinsam kochen', companySub: 'Jemand leitet dich per Videoanruf an',
+      settings: 'Einstellungen', settingsSub: 'Sprache und Sprachhinweise', language: 'Sprache', back: 'Zurück',
+      voiceOn: 'Sprachhinweise: an', voiceOff: 'Sprachhinweise: aus', voiceSub: 'Sagt dir, wenn ein Timer abläuft',
+      variant: 'Variante', yoursTag: 'deins',
+      serv: (n) => pl(n, '1 Portion', `${n} Portionen`), servLabel: 'Portionen', fewer: 'Weniger Portionen', more: 'Mehr Portionen',
+      steps: (n) => pl(n, '1 Schritt', `${n} Schritte`),
+      mineEmpty: 'Du hast noch keine eigenen Rezepte. Erstell eins oder öffne ein Rezept und speichere es als deins.',
+      createPlus: 'Rezept erstellen', fromScratch: 'Von Grund auf',
+      ingredients: 'Zutaten', saveMine: 'In meinen Rezepten speichern', saveWith: (s) => `Mit ${s}`, saveLater: 'Danach kannst du es frei ändern',
+      del: 'Dieses Rezept löschen', start: 'Jetzt kochen', savedToast: 'In Meine Rezepte gespeichert', deletedToast: 'Rezept gelöscht',
+      stepOf: (a, b) => `Schritt ${a} von ${b}`, stepN: (n) => `Schritt ${n}`, prev: 'Vorheriger Schritt',
+      done: 'Fertig', doneShort: 'fertig', timeUp: 'Zeit abgelaufen', timeUpMsg: 'Zeit abgelaufen', paused: 'Pausiert', running: 'Timer läuft', ready: 'Bereit',
+      startTimer: 'Timer starten', oneMore: 'Noch 1 Min.', resume: 'Fortsetzen', pause: 'Pause', finish: 'Fertig', next: 'Weiter',
+      enjoy: 'Guten Appetit!', left: (n) => pl(n, 'Oben läuft noch 1 Timer.', `Oben laufen noch ${n} Timer.`),
+      saveAgain: 'Zum Nachkochen und Anpassen', toStart: 'Zurück zum Start',
+      newRecipe: 'Neues Rezept',
+      createHint: 'Tippe auf ein Feld, um zu schreiben, zu diktieren oder die Tastatur zu nutzen. Steht in einem Schritt „10 Minuten“, startet der Timer von selbst.',
+      name: 'Name', namePh: 'Z. B. Omas Nudeln', ingLabel: 'Zutaten, eine pro Zeile', ingPh: '200 g Mehl',
+      stepsLabel: 'Schritte, einer pro Zeile', stepsPh: '10 Minuten kochen',
+      aiNote: 'Mit Meta AI kannst du auch sagen: „Hey Meta, erstell ein Rezept für …“ – es erscheint hier, schon in Schritte aufgeteilt.',
+      saveRecipe: 'Rezept speichern', needMore: 'Mindestens ein Name und ein Schritt nötig', recipeSaved: 'Rezept gespeichert',
+      companyP: 'Wer dir hilft, sieht live, was du siehst, und sagt dir, was zu tun ist.',
+      companySteps: '1. Öffne das Rezept hier in SousView.<br>2. Starte einen WhatsApp-Videoanruf von der Brille und wechsle zur Brillenansicht.<br>3. Die andere Person begleitet dich Schritt für Schritt, während du die Hände frei hast.',
+      companySoon: 'Demnächst: ein Link für die Person, die dir hilft. Damit sieht sie auf dem Handy, bei welchem Schritt du bist, und schickt dir kurze Hinweise, die hier erscheinen.',
+      chooseRecipe: 'Wähl ein Rezept', timer: 'Timer', durEx: '10 Minuten',
+      searchPh: 'Gericht suchen', searchTitle: 'Suche', searchHint: 'Tipp oder diktier den Namen eines Gerichts.',
+      results: (n) => pl(n, '1 Rezept gefunden', `${n} Rezepte gefunden`), noResults: (q) => `Keine Rezepte für „${q}“.`,
+      categories: 'Kategorien', filters: 'Filter', filtersNone: 'Keine Filter aktiv', forYou: 'Für dich', diet: 'Ernährung',
+      recipesN: (n) => pl(n, '1 Rezept', `${n} Rezepte`), showN: (n) => n ? pl(n, '1 Rezept zeigen', `${n} Rezepte zeigen`) : 'Keine Rezepte',
+      clearFilters: 'Filter entfernen', emptyFiltered: 'Kein Rezept passt zu den aktiven Filtern.', emptySub: 'Hier gibt es noch keine Rezepte.',
+      loading: 'Rezepte werden geladen …', loadError: 'Die Rezepte konnten nicht geladen werden. Prüf deine Verbindung und versuch es noch mal.', retry: 'Noch mal versuchen',
+      kcal: (n) => `ca. ${n} kcal`, perServ: 'pro Portion', diffs: ['Einfach', 'Mittel', 'Anspruchsvoll'], alcohol: 'Enthält Alkohol',
+      seasonLbl: 'Saison', surprise: 'Überrasch mich',
+      tips: 'Tipps', tipK: { twist: 'Variante', pair: 'Passt dazu', secret: 'Der Kniff', spice: 'Kräuter & Gewürze', leftover: 'Reste' },
+      openLinked: 'Rezept öffnen', nextTime: 'Beim nächsten Mal',
+      makeQ: 'Gekauft oder selbst gemacht?', store: 'Gekauft', homemade: 'Selbst gemacht', forBase: (s) => `Zum Selbermachen: ${s}`,
+      method: 'Garmethode',
+      menus: 'Ganze Menüs', menusSub: 'Von der Vorspeise bis zum Dessert, mit Getränken', courses: (n) => pl(n, '1 Gang', `${n} Gänge`),
+      dishes: 'Die Gänge', drinks: 'Getränke', pairing: 'Im Glas', gamePlan: 'Ablaufplan',
+      guests: (n) => pl(n, '1 Gast', `${n} Gäste`), guestsLabel: 'Gäste', fewerG: 'Weniger Gäste', moreG: 'Mehr Gäste',
+      roles: { aperitivo: 'Aperitif', antipasto: 'Vorspeise', primo: 'Erster Gang', secondo: 'Hauptgang', contorno: 'Beilage', dolce: 'Dessert', 'piatto-unico': 'Hauptgericht', colazione: 'Frühstück', bevanda: 'Getränk' },
+      shop: 'Einkaufsliste', shopSub: (n) => pl(n, '1 Sache zu kaufen', `${n} Sachen zu kaufen`), shopFor: (s) => `Für ${s}`,
+      staples: 'Hast du meist zu Hause', staplesSub: (n) => pl(n, '1 Sache zu prüfen', `${n} Sachen zu prüfen`),
+      untick: 'Alle Haken entfernen', ticked: (a, b) => `${a} von ${b} im Korb`, dismiss: 'Tippen zum Schließen',
+      aisles: { produce: 'Obst & Gemüse', 'meat-fish': 'Fleisch & Fisch', 'dairy-eggs': 'Milchprodukte & Eier', 'bakery-pasta': 'Brot & Nudeln', pantry: 'Vorrat', spices: 'Gewürze', frozen: 'Tiefkühl', drinks: 'Getränke', other: 'Sonstiges' },
+      unit: { tbsp: () => 'EL', tsp: () => 'TL', pinch: (v) => v > 1 ? 'Prisen' : 'Prise' }
+    }
+  };
+
+  // ---------- Archivio locale (può fallire: lo gestiamo) ----------
+  const mkStore = (getS) => ({
+    get(key, fallback) { try { const v = getS().getItem(key); return v ? JSON.parse(v) : fallback; } catch (e) { return fallback; } },
+    set(key, value) { try { getS().setItem(key, JSON.stringify(value)); return true; } catch (e) { return false; } }
+  });
+  const store = mkStore(() => localStorage);
+  const session = mkStore(() => sessionStorage);
+
+  function detectLang() {
+    try { const saved = localStorage.getItem('sv_lang'); if (T[saved]) return saved; } catch (e) { /* niente archivio: si va avanti */ }
+    const list = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || '']);
+    for (const l of list) { const k = String(l).slice(0, 2).toLowerCase(); if (T[k]) return k; }
+    return 'en';
+  }
+  let lang = detectLang();
+  const t = () => T[lang];
+
+  // ---------- Unità ----------
+  const UNIT_RE = /^(cuill[eè]res?\s[àa]\s(?:soupe|caf[ée])|c\.\s?[àa]\s?[sc]\.?|cucchiaini|cucchiaino|cucchiai|cucchiaio|bicchieri|bicchiere|tablespoons?|teaspoons?|tbsp|tbs|tsp|cucharaditas?|cucharadas?|e(?:ss|ß)l[oö]ffel|teel[oö]ffel|el|tl|grammi|grammes?|gramm|grams?|gramos?|gr|g|kg|ml|cl|dl|litri|litro|litres?|liters?|litros?|liter|l)\.?(?=\s|$)/i;
+  function unitInfo(word) {
+    const s = String(word || '').toLowerCase().replace(/\s+/g, ' ').trim();
+    if (!s) return ['', 1];
+    if (/^(g|gr|grammi|grammo|grammes?|gramm|grams?|gramos?)\.?$/.test(s)) return ['g', 1];
+    if (s === 'kg') return ['g', 1000];
+    if (s === 'ml') return ['ml', 1];
+    if (s === 'cl') return ['ml', 10];
+    if (s === 'dl') return ['ml', 100];
+    if (s === 'pinch') return ['pinch', 1];
+    if (/^(l|litri|litro|litres?|liters?|litros?|liter)$/.test(s)) return ['ml', 1000];
+    if (/^(tbsp|tbs|cucchiai|cucchiaio|tablespoons?|c\. ?[àa] ?s\.?|cuill[eè]res? [àa] soupe|cucharadas?|el|e(ss|ß)l[oö]ffel)\.?$/.test(s)) return ['tbsp', 1];
+    if (/^(tsp|cucchiaini|cucchiaino|teaspoons?|c\. ?[àa] ?c\.?|cuill[eè]res? [àa] caf[ée]|cucharaditas?|tl|teel[oö]ffel)\.?$/.test(s)) return ['tsp', 1];
+    return [s, 1]; // unità libera di una vecchia ricetta (es. "bicchiere"): si mostra com'è
+  }
+  function normalizeMine(list) {
+    if (!Array.isArray(list)) return [];
+    return list.filter((r) => r && typeof r === 'object' && r.id && Array.isArray(r.steps) && Array.isArray(r.ingredients)).map((r) => ({
+      ...r,
+      title: String(r.title || r.id),
+      servings: Math.max(1, parseInt(r.servings, 10) || 2),
+      steps: r.steps.filter((s) => s && typeof s.t === 'string'),
+      ingredients: r.ingredients.filter(Boolean).map((i) => {
+        const [u, f] = unitInfo(i.u);
+        return { ...i, n: String(i.n || ''), u, q: typeof i.q === 'number' ? i.q * f : null };
+      })
+    }));
+  }
+
+  let mine = normalizeMine(store.get('sv_mine', []));
+  let voiceOn = store.get('sv_voice', true) !== false;
+  const saveMine = () => store.set('sv_mine', mine);
+  let makeChoice = store.get('sv_make', {}) || {};
+  let methodChoice = store.get('sv_method', {}) || {};
+  let shopTicks = store.get('sv_shop', {}) || {};
+
+  // ---------- Utilità ----------
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ß/g, 'ss').replace(/[^a-z0-9]+/g, ' ').trim();
+  const fmtClock = (sec) => {
+    sec = Math.max(0, Math.ceil(sec));
+    const h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = sec % 60;
+    return (h ? h + ':' + String(m).padStart(2, '0') : m) + ':' + String(s).padStart(2, '0');
+  };
+  const fmtNum = (v) => {
+    try { return new Intl.NumberFormat(lang, { maximumFractionDigits: 1, useGrouping: false }).format(v); } catch (e) { return String(v); }
+  };
+  const MONTH = new Date().getMonth() + 1;
+  const monthName = (m) => {
+    try { return new Intl.DateTimeFormat(lang, { month: 'long' }).format(new Date(2026, (m || MONTH) - 1, 15)); } catch (e) { return ''; }
+  };
+  const monthShort = (m) => {
+    try { return new Intl.DateTimeFormat(lang, { month: 'short' }).format(new Date(2026, m - 1, 15)).replace(/\.$/, ''); } catch (e) { return String(m); }
+  };
+  const fmtMin = (m) => {
+    const L = t();
+    if (m < 60) return `${m} ${L.min}`;
+    const h = Math.floor(m / 60), r = m % 60;
+    return r ? `${h} h ${r} ${L.min}` : `${h} h`;
+  };
+  const fmtQty = (q, u) => {
+    if (q == null) return '';
+    if (u === 'g' || u === 'ml') {
+      if (q >= 1000 && q % 100 === 0) return fmtNum(q / 1000) + (u === 'g' ? ' kg' : ' l');
+      const v = q >= 100 ? Math.round(q / 10) * 10 : q >= 10 ? Math.round(q / 5) * 5 : Math.round(q * 10) / 10;
+      return fmtNum(v) + ' ' + u;
+    }
+    let v = Math.round(q * 2) / 2;
+    if (v === 0 && q > 0) v = 0.5;
+    const whole = Math.floor(v), half = v - whole >= 0.5;
+    const txt = half ? (whole ? whole + '½' : '½') : fmtNum(whole);
+    const unit = t().unit[u] ? t().unit[u](v) : u;
+    return unit ? txt + ' ' + unit : txt;
+  };
+  let toastTimer = 0;
+  const $toast = document.getElementById('toast');
+  const toast = (msg) => {
+    $toast.textContent = msg;
+    $toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => $toast.classList.remove('show'), 2600);
+  };
+  const speak = (text) => {
+    if (!voiceOn) return;
+    if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) return;
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = VOICE[lang];
+      window.speechSynthesis.speak(u);
+    } catch (e) { /* la voce è un extra: il testo resta a schermo */ }
+  };
+  // Durate in italiano, inglese, francese, spagnolo e tedesco.
+  const parseTimer = (text) => {
+    const h = String(text).match(/(\d+(?:[.,]\d+)?)\s*(?:ore|ora|hours?|hrs?|h|heures?|horas?|stunden|stunde|std)\b/i);
+    const m = String(text).match(/(\d+(?:[.,]\d+)?)\s*(?:minuti|minuto|minutes?|mins?|minutos|minuten|min|mn)\b/i);
+    let sec = 0;
+    if (h) sec += parseFloat(h[1].replace(',', '.')) * 3600;
+    if (m) sec += parseFloat(m[1].replace(',', '.')) * 60;
+    return sec > 0 ? Math.round(sec) : null;
+  };
+  const parseIngredient = (line) => {
+    const s = line.trim().replace(/^[-•*]\s*/, '');
+    if (!s) return null;
+    const m = s.match(/^(\d+(?:[.,]\d+)?)(\s*)(.*)$/);
+    if (!m || !m[3]) return { q: null, u: '', n: s };
+    let q = parseFloat(m[1].replace(',', '.'));
+    let rest = m[3], u = '';
+    const um = rest.match(UNIT_RE);
+    if (um) {
+      const [k, f] = unitInfo(um[1]);
+      u = k; q *= f;
+      rest = rest.slice(um[0].length).trim();
+    } else if (!m[2]) {
+      return { q: null, u: '', n: s };
+    }
+    rest = rest.replace(/^(?:di|de|of|von)\s+|^d['’]\s*/i, '').trim();
+    if (!rest) return { q: null, u: '', n: s };
+    return { q, u, n: rest };
+  };
+  const splitLines = (text) => String(text || '').split(/\r?\n|;|\|/).map((x) => x.trim()).filter(Boolean);
+  const slug = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'ricetta';
+  const hash = (s) => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; };
+
+  const AUTO_LABEL = /^(passo|step|étape|paso|schritt) \d+$/i;
+  const stepLabel = (s, i) => (s.label && !AUTO_LABEL.test(s.label) ? s.label : t().stepN(i + 1));
+
+  function buildRecipe({ title, servings, ingredients, steps, basedOn }) {
+    const ing = (Array.isArray(ingredients) ? ingredients : splitLines(ingredients)).map((x) => typeof x === 'string' ? parseIngredient(x) : x).filter(Boolean);
+    const st = (Array.isArray(steps) ? steps : splitLines(steps)).map((s, i) => {
+      const text = typeof s === 'string' ? s : s.t;
+      const timer = parseTimer(text);
+      return timer ? { t: text, timer, label: t().stepN(i + 1) } : { t: text };
+    });
+    const totalMin = Math.max(10, Math.round(st.reduce((a, s) => a + (s.timer || 0), 0) / 60) + st.length * 2);
+    return {
+      id: 'mia-' + slug(title) + '-' + Date.now().toString(36),
+      title: String(title).trim().slice(0, 80),
+      servings: Math.min(20, Math.max(1, parseInt(servings, 10) || 2)),
+      minutes: totalMin, tags: ['mia'], ingredients: ing, steps: st,
+      mine: true, lang, basedOn: basedOn || null
+    };
+  }
+
+  // ---------- Icone (tratto, 32×32) ----------
+  const C = (x, y, r) => `M${x - r} ${y}a${r} ${r} 0 1 0 ${2 * r} 0a${r} ${r} 0 1 0 ${-2 * r} 0`;
+  const IC = {
+    antipasti: 'M7 27L23 7' + C(20, 11, 4) + C(12, 20, 3),
+    primi: 'M4 15h24c0 7-5 12-12 12S4 22 4 15zM10 15c0-4 3-4 3-8M16 15c0-4 3-4 3-8M22 15c0-3 2-4 2-7',
+    unici: 'M4 16h24c0 7-5 11-12 11S4 23 4 16z' + C(11, 12, 3) + C(18, 11, 3.5) + C(24, 13, 1.5),
+    secondi: 'M3 16c6-8 16-8 21 0c-5 8-15 8-21 0zM24 16l5-5v10z' + C(10, 15, 1),
+    contorni: 'M6 26C6 13 13 6 26 6c0 13-7 20-20 20zM6 26L19 13',
+    forno: 'M16 29L4 9c7-5 17-5 24 0zM7 13c5-3 13-3 18 0' + C(14, 18, 1.6) + C(19, 15, 1.4),
+    dolci: 'M5 27h22V17H5zM5 22h22M9 17v-4M16 17v-4M23 17v-4M9 9v.5M16 9v.5M23 9v.5',
+    colazione: 'M9 8c5-4 12-2 14 2 5 1 7 8 3 12-3 4-11 5-16 2-5-3-6-12-1-16z' + C(15, 16, 4),
+    bevande: 'M6 11h16v11a5 5 0 0 1-5 5h-6a5 5 0 0 1-5-5zM22 14h2a3 3 0 0 1 0 6h-2M11 4c-1 2 1 3 0 5M16 4c-1 2 1 3 0 5',
+    cocktail: 'M5 6h22L16 18zM16 18v9M11 27h10M21 3l-3 8',
+    basi: 'M10 4h12v4H10zM9 8h14c2 2 3 4 3 7v9a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-9c0-3 1-5 3-7zM6 17h20',
+    dice: 'M6 6h20v20H6z' + C(11, 11, 1.2) + C(16, 16, 1.2) + C(21, 21, 1.2),
+    menu: 'M4 4v8M7 4v8M4 12h3M5.5 12v16M28 4c-3 3-3 9 0 11v13' + C(17, 16, 7),
+    search: C(14, 14, 8) + 'M20 20l7 7',
+    filter: 'M4 8h24M9 16h14M13 24h6',
+    mine: 'M9 4h14v24l-7-5-7 5z',
+    create: 'M16 6v20M6 16h20',
+    company: C(11, 11, 4) + C(22, 12, 3) + 'M3 27c0-5 4-8 8-8s8 3 8 8M19 21c4-1 10 1 10 6',
+    settings: 'M4 9h15M25 9h3M4 23h3M13 23h15' + C(22, 9, 3) + C(10, 23, 3),
+    cart: 'M3 6h4l3 15h15l3-11H8' + C(12, 26, 1.8) + C(23, 26, 1.8),
+    glass: 'M10 4h12c0 7-2 11-6 11s-6-4-6-11zM16 15v11M11 27h10',
+    check: 'M7 17l6 6 12-13',
+    play: 'M9 5l18 11-18 11z',
+    alarm: C(16, 17, 10) + 'M16 11v6l4 3M5 6l4-3M27 6l-4-3',
+    twist: 'M5 11h18l-5-5M27 21H9l5 5',
+    pair: C(12, 16, 7) + C(20, 16, 7),
+    secret: C(10, 16, 5) + 'M15 16h13M24 16v5M28 16v4',
+    spice: 'M16 28V6M16 13c-4 0-7-3-7-7 4 0 7 3 7 7zM16 20c4 0 7-3 7-7-4 0-7 3-7 7zM16 27c-4 0-7-3-7-7 4 0 7 3 7 7z',
+    leftover: 'M5 13h22v13H5zM3 8h26v5H3zM13 18h6',
+    veg: 'M6 26C6 13 13 6 26 6c0 13-7 20-20 20zM6 26L19 13',
+    vegan: 'M16 28V16M16 16C16 9 11 6 5 6c0 7 5 10 11 10zM16 19c0-5 4-8 10-8 0 6-4 8-10 8z',
+    gf: 'M16 28V9M16 13c-3 0-5-2-5-5 3 0 5 2 5 5zM16 13c3 0 5-2 5-5-3 0-5 2-5 5zM16 20c-3 0-5-2-5-5 3 0 5 2 5 5zM16 20c3 0 5-2 5-5-3 0-5 2-5 5zM5 27L27 5',
+    lf: 'M16 4c5 7 8 11 8 15a8 8 0 0 1-16 0c0-4 3-8 8-15zM5 27L27 5',
+    oven: 'M4 5h24v22H4zM4 11h24M8 15h16v8H8zM9 8h1M14 8h1',
+    airfryer: 'M8 4h16l3 23H5zM10 13h12v9H10zM13 8h6',
+    pan: C(13, 17, 9) + 'M22 17h8',
+    pot: 'M5 12h22v11a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM3 12h26M12 8h8M2 16h3M27 16h3',
+    pressure: 'M5 13h22v10a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM3 13h26M16 9V4M13 4h6',
+    grill: 'M4 6h20v20H4zM24 16h6M8 6L4 10M16 6L4 18M24 6L4 26M24 14L12 26M24 22l-4 4',
+    bbq: 'M4 12h24c0 7-5 11-12 11S4 19 4 12zM10 23l-3 6M22 23l3 6M11 8c-1-2 1-3 0-5M16 8c-1-2 1-3 0-5M21 8c-1-2 1-3 0-5',
+    steam: 'M5 16h22v8a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4zM8 12h16M11 9c-1-2 1-3 0-6M16 9c-1-2 1-3 0-6M21 9c-1-2 1-3 0-6',
+    microwave: 'M3 7h26v18H3zM6 10h15v12H6zM25 11v2M25 17v2',
+    slow: 'M5 11h22v11a5 5 0 0 1-5 5H10a5 5 0 0 1-5-5zM3 11h26M16 15v4l3 2',
+    wok: 'M3 13h26c0 8-6 13-13 13S3 21 3 13zM24 9l5-4',
+    fry: 'M5 13h18v11a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3zM23 16l7-4M9 13V8M14 13V7M19 13V8'
+  };
+  const icon = (k, cls) => `<svg class="ic${cls ? ' ' + cls : ''}" viewBox="0 0 32 32" aria-hidden="true"><path d="${IC[k] || IC.primi}"/></svg>`;
+
+  // ---------- Il quadrante a tacche ----------
+  const GEO = {};
+  function geo(n) {
+    if (GEO[n]) return GEO[n];
+    const out = [];
+    const r2 = 47;
+    for (let i = 0; i < n; i++) {
+      const r1 = n > 24 ? (i % 5 ? 40 : 33) : 35; // sul quadrante da 60, una tacca lunga ogni 5 minuti
+      const a = (i / n) * 2 * Math.PI - Math.PI / 2, c = Math.cos(a), s = Math.sin(a);
+      out.push(`x1="${(50 + c * r1).toFixed(1)}" y1="${(50 + s * r1).toFixed(1)}" x2="${(50 + c * r2).toFixed(1)}" y2="${(50 + s * r2).toFixed(1)}"`);
+    }
+    return (GEO[n] = out);
+  }
+  function dial(n, cls, extra) {
+    return `<svg class="dial${extra ? ' ' + extra : ''}" viewBox="0 0 100 100" aria-hidden="true">${geo(n).map((g, i) => `<line ${g} class="${cls(i) || ''}"/>`).join('')}</svg>`;
+  }
+  const minDial = (m) => `<span class="dw">${dial(12, (i) => i < Math.min(12, Math.ceil(m / 5)) ? 'on' : '')}<b>${m < 100 ? m : Math.round(m / 60) + 'h'}</b></span>`;
+  const monthDial = (months) => dial(12, (i) => (i + 1 === MONTH ? 'now' : months && months.includes(i + 1) ? 'on' : ''));
+
+  // ---------- Dati: albero, indice, file per sottocategoria ----------
+  const D = { tree: null, idx: [], byId: new Map(), st: 'idle', menus: null, menusSt: 'idle', shop: null, shopSt: 'idle', files: new Map() };
+  function fetchJSON(url, ms) {
+    const ctl = typeof AbortController === 'function' ? new AbortController() : null;
+    const tm = setTimeout(() => ctl && ctl.abort(), ms || 9000);
+    return fetch(url, ctl ? { signal: ctl.signal } : {}).then((r) => {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).finally(() => clearTimeout(tm));
+  }
+  let corePromise = null;
+  function loadCore() {
+    if (D.st === 'ok') return Promise.resolve();
+    if (corePromise) return corePromise;
+    D.st = 'loading';
+    corePromise = Promise.all([fetchJSON('data/tree.json'), fetchJSON('data/index.json')]).then(([tree, ix]) => {
+      if (!tree || !Array.isArray(tree.cats)) throw new Error('bad tree');
+      D.tree = tree;
+      D.idx = (ix && Array.isArray(ix.r) ? ix.r : []).filter((x) => x && x.id && x.t).map((x) => ({ d: [], g: [], mo: [], o: 'IT', m: 0, k: 0, ...x }));
+      D.byId = new Map(D.idx.map((x) => [x.id, x]));
+      D.st = 'ok';
+    }).catch((e) => { D.st = 'error'; throw e; }).finally(() => { corePromise = null; });
+    return corePromise;
+  }
+  let menusPromise = null;
+  function loadMenus() {
+    if (D.menusSt === 'ok') return Promise.resolve(D.menus);
+    if (menusPromise) return menusPromise;
+    D.menusSt = 'loading';
+    menusPromise = fetchJSON('data/menus.json').then((m) => {
+      D.menus = (m && Array.isArray(m.menus) ? m.menus : []).filter((x) => x && x.id && x.i18n && Array.isArray(x.courses));
+      D.menusSt = 'ok';
+      return D.menus;
+    }, () => { D.menus = []; D.menusSt = 'ok'; return D.menus; }).finally(() => { menusPromise = null; });
+    return menusPromise;
+  }
+  function loadShop() {
+    if (D.shopSt === 'ok') return Promise.resolve(D.shop);
+    if (D.shopSt === 'loading') return D.shopP;
+    D.shopSt = 'loading';
+    D.shopP = fetchJSON('data/shop.json', 5000).then((s) => (s && typeof s === 'object' ? s : {}), () => ({})).then((s) => { D.shop = s; D.shopSt = 'ok'; return s; });
+    return D.shopP;
+  }
+  const adapt = (r) => ({ ...r, ingredients: (r.ing || []).map((x) => ({ ...x })), steps: Array.isArray(r.steps) ? r.steps : [], tips: Array.isArray(r.tips) ? r.tips : [], methods: Array.isArray(r.methods) ? r.methods : [] });
+  function loadSub(c, s, L) {
+    L = L || lang;
+    const key = `${L}/${c}-${s}`;
+    let e = D.files.get(key);
+    if (e && e.st !== 'error') return e.p;
+    e = { st: 'loading' };
+    e.p = fetchJSON(`data/${L}/${c}-${s}.json`).then((list) => {
+      e.list = (Array.isArray(list) ? list : []).filter((r) => r && r.id).map(adapt);
+      e.map = new Map(e.list.map((r) => [r.id, r]));
+      e.st = 'ok';
+      return e.list;
+    }).catch((err) => { e.st = 'error'; throw err; });
+    D.files.set(key, e);
+    return e.p;
+  }
+  function cached(id, L) {
+    const x = D.byId.get(id);
+    if (!x) return null;
+    const e = D.files.get(`${L || lang}/${x.c}-${x.s}`);
+    return e && e.st === 'ok' ? e.map.get(id) || null : null;
+  }
+  const findMine = (id) => mine.find((r) => r.id === id);
+  const findRecipe = (id) => findMine(id) || cached(id);
+  function ensure(id) {
+    if (findRecipe(id)) return Promise.resolve(findRecipe(id));
+    return loadCore().then(() => {
+      const x = D.byId.get(id);
+      if (!x) throw new Error('not_found');
+      return loadSub(x.c, x.s).then(() => cached(id));
+    });
+  }
+  const withTimeout = (p, ms) => Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), ms))]);
+
+  const titleOf = (x) => (x.t && (x.t[lang] || x.t.en || x.t.it)) || x.id;
+  const nm = (o) => (o && o.name && (o.name[lang] || o.name.en)) || (o && o.id) || '';
+  const catOf = (c) => D.tree && D.tree.cats.find((x) => x.id === c);
+  const subOf = (c, s) => { const k = catOf(c); return k && k.subs.find((x) => x.id === s); };
+  const filterDefs = () => (D.tree && Array.isArray(D.tree.filters) ? D.tree.filters : []).filter((f) => FX[f.id]);
+  const filterName = (k) => nm(filterDefs().find((f) => f.id === k)) || k;
+  const methodName = (k) => nm(D.tree && (D.tree.methods || []).find((m) => m.id === k)) || k;
+  const region = (code) => { try { return new Intl.DisplayNames([lang], { type: 'region' }).of(code); } catch (e) { return code; } };
+
+  // ---------- Filtri ----------
+  const FX = {
+    veg: (r) => r.d.includes('veg'), vegan: (r) => r.d.includes('vegan'), gf: (r) => r.d.includes('gf'), lf: (r) => r.d.includes('lf'),
+    light: (r) => r.k <= 450, quick: (r) => r.m <= 25, season: (r) => (r.mo || []).includes(MONTH),
+    nonna: (r) => (r.g || []).includes('nonna'), world: (r) => r.o !== 'IT'
+  };
+  const FILTER_DIET = ['veg', 'vegan', 'gf', 'lf'];
+  let filters = (store.get('sv_filters', []) || []).filter((k) => FX[k]);
+  const setFilters = (list) => { filters = [...new Set(list)].filter((k) => FX[k]); store.set('sv_filters', filters); };
+  const passes = (x, fs) => (fs || filters).every((k) => FX[k](x));
+  const countFor = (pred, fs) => D.idx.reduce((n, x) => n + (pred(x) && passes(x, fs) ? 1 : 0), 0);
+
+  function search(q, opts) {
+    opts = opts || {};
+    const words = norm(q).split(' ').filter(Boolean);
+    if (!words.length) return [];
+    const fs = opts.filters || filters;
+    // Radici morbide: "lasagna" trova "lasagne", "pomodori" trova "pomodoro", "Tomaten" trova "Tomate".
+    const stems = words.map((w) => (w.length >= 6 ? [w, w.slice(0, -1), w.slice(0, -2)] : w.length >= 5 ? [w, w.slice(0, -1)] : [w]));
+    const has = (n, exact) => (exact ? words.every((w) => n.includes(w)) : stems.every((alts) => alts.some((w) => n.includes(w))));
+    const hits = [];
+    for (const x of D.idx) {
+      if (opts.cat && x.c !== opts.cat) continue;
+      if (!passes(x, fs)) continue;
+      const own = norm(titleOf(x));
+      let score = -1;
+      if (has(own, true)) score = own.startsWith(words[0]) ? 4 : 3;
+      else if (has(own)) score = 2;
+      else if (opts.anyLang && Object.values(x.t).some((ti) => has(norm(ti)))) score = 1;
+      if (score >= 0) hits.push([score, x]);
+    }
+    hits.sort((a, b) => b[0] - a[0] || titleOf(a[1]).localeCompare(titleOf(b[1]), lang));
+    return hits.map((h) => h[1]);
+  }
+
+  function spotlight() {
+    const day = new Date(); const seed = `${day.getFullYear()}-${day.getMonth()}-${day.getDate()}`;
+    const browse = (x) => !['basi', 'bevande', 'cocktail'].includes(x.c);
+    const tries = [
+      (x) => browse(x) && x.mo.length && x.mo.includes(MONTH) && passes(x),
+      (x) => browse(x) && x.mo.length && x.mo.includes(MONTH),
+      (x) => browse(x) && passes(x),
+      (x) => browse(x)
+    ];
+    let pool = [];
+    for (const f of tries) { pool = D.idx.filter(f); if (pool.length >= 3) break; }
+    if (!pool.length) pool = D.idx.slice();
+    pool.sort((a, b) => hash(a.id + seed) - hash(b.id + seed));
+    const out = [], cats = new Set();
+    for (const x of pool) { if (!cats.has(x.c)) { out.push(x); cats.add(x.c); } if (out.length === 3) break; }
+    for (const x of pool) { if (out.length >= 3) break; if (!out.includes(x)) out.push(x); }
+    return out;
+  }
+
+  // ---------- Fatto in casa, metodi di cottura ----------
+  const isHome = (bid) => !!makeChoice[bid];
+  const setHome = (bid, on) => { if (on) makeChoice[bid] = 1; else delete makeChoice[bid]; store.set('sv_make', makeChoice); };
+  const basesOf = (r) => {
+    const seen = new Set(), out = [];
+    (r.ingredients || []).forEach((i, n) => { if (i.make && !seen.has(i.make) && D.byId.has(i.make) && i.make !== r.id) { seen.add(i.make); out.push({ id: i.make, ing: i, n }); } });
+    return out;
+  };
+  const homeBases = (r) => basesOf(r).filter((b) => isHome(b.id)).map((b) => b.id);
+  const methodOf = (r) => { const ms = r.methods || []; const m = methodChoice[r.id]; return ms.includes(m) ? m : ms[0] || null; };
+  const setMethod = (r, m) => { if (m === (r.methods || [])[0]) delete methodChoice[r.id]; else methodChoice[r.id] = m; store.set('sv_method', methodChoice); };
+  function resolveStep(s, method, ph, rid, i) {
+    const a = method && s.alt && s.alt[method];
+    const o = { t: a ? a.t : s.t, label: s.label, bg: !!s.bg, ph, key: rid + '#' + i, i };
+    const timer = a ? a.timer : s.timer;
+    if (timer) o.timer = timer;
+    return o;
+  }
+  // Il piano di cottura: prima le basi fatte in casa, nell'ordine degli ingredienti, poi il piatto.
+  function planOf(e) {
+    const r = findRecipe(e.id);
+    if (!r) return null;
+    const steps = [], phases = [];
+    (e.bases || []).forEach((bid) => {
+      const b = findRecipe(bid);
+      if (!b) return;
+      const ph = phases.length;
+      phases.push(b.title);
+      const nb = b.base_steps > 0 ? Math.min(b.base_steps, b.steps.length) : b.steps.length; // come fase, solo i primi N passi
+      b.steps.slice(0, nb).forEach((s, i) => steps.push(resolveStep(s, null, ph, bid, i)));
+    });
+    const ph = phases.length ? phases.length : -1;
+    if (phases.length) phases.push(r.title);
+    const m = e.method && (r.methods || []).includes(e.method) ? e.method : null;
+    r.steps.forEach((s, i) => steps.push(resolveStep(s, m && m !== r.methods[0] ? m : null, ph, r.id, i)));
+    return { r, steps, phases };
+  }
+
+  // ---------- Stato e navigazione ----------
+  // Una pila di schermate tutta nostra; nel browser al massimo due voci: casa + una aggiunta mentre sei altrove.
+  const SCREENS = ['home', 'cat', 'sub', 'search', 'filters', 'recipe', 'cook', 'mine', 'create', 'company', 'settings', 'menus', 'menu', 'shop'];
+  let stack = [{ s: 'home' }];
+  let pushed = false, expectPop = false;
+  const cur = () => stack[stack.length - 1];
+  const activeId = () => (document.activeElement && document.activeElement !== document.body ? document.activeElement.id : '') || '';
+  function go(entry, focusId) {
+    cur().f = activeId() || cur().f;
+    stack.push(entry);
+    if (!pushed) { history.pushState({ sv: 1 }, ''); pushed = true; }
+    render(focusId);
+  }
+  function replaceTop(entry, focusId) { stack[stack.length - 1] = entry; render(focusId); }
+  function goBack() { if (stack.length > 1) history.back(); }
+  function goHome() {
+    stack = [stack[0]];
+    if (pushed) { pushed = false; expectPop = true; history.back(); }
+    render();
+  }
+  window.addEventListener('popstate', () => {
+    if (expectPop) { expectPop = false; return; }
+    pushed = false;
+    if (stack.length > 1) stack.pop();
+    if (stack.length > 1) { history.pushState({ sv: 1 }, ''); pushed = true; }
+    render(cur().f);
+  });
+  function saveStack() { session.set('sv_stack', stack.map((e) => { const o = { ...e }; delete o.err; return o; })); }
+  (function restore() {
+    const hs = history.state;
+    const saved = session.get('sv_stack', null);
+    if (hs && hs.sv === 1) {
+      if (Array.isArray(saved) && saved.length > 1 && saved.every((e) => e && SCREENS.includes(e.s)) && saved[0].s === 'home') { stack = saved; pushed = true; }
+      else { expectPop = true; history.back(); }
+    } else history.replaceState({ sv: 0 }, '');
+  })();
+
+  // ---------- Timer ----------
+  const timers = []; // {id, label, total, endsAt, remaining, paused, done, stepKey}
+  let timerSeq = 0;
+  const $app = document.getElementById('app');
+  const $content = document.getElementById('content');
+  const $footer = document.getElementById('footer');
+  const $timerbar = document.getElementById('timerbar');
+  const $ring = document.getElementById('ring');
+  document.getElementById('brand').innerHTML = dial(12, (i) => i < 9 ? 'on' : '') + '<span class="brand-word">SousView</span>';
+
+  function startTimer(seconds, label, stepKey) {
+    const existing = stepKey && timers.find((x) => x.stepKey === stepKey);
+    if (existing) return existing;
+    const tm = { id: ++timerSeq, label: label || null, total: seconds, endsAt: Date.now() + seconds * 1000, remaining: seconds, paused: false, done: false, stepKey: stepKey || null };
+    timers.push(tm);
+    renderTimerbar();
+    return tm;
+  }
+  function timerLabel(tm) {
+    if (tm.stepKey) {
+      const k = tm.stepKey.lastIndexOf('#');
+      const r = findRecipe(tm.stepKey.slice(0, k));
+      const n = parseInt(tm.stepKey.slice(k + 1), 10);
+      const s = r && r.steps[n];
+      if (s && s.timer) return stepLabel(s, n);
+    }
+    return tm.label || t().timer;
+  }
+  function togglePause(tm) {
+    if (tm.done) return;
+    if (tm.paused) { tm.endsAt = Date.now() + tm.remaining * 1000; tm.paused = false; }
+    else { tm.remaining = Math.max(0, (tm.endsAt - Date.now()) / 1000); tm.paused = true; }
+  }
+  function removeTimer(tm) {
+    const i = timers.indexOf(tm);
+    if (i >= 0) timers.splice(i, 1);
+    renderTimerbar();
+  }
+  function currentKey() {
+    const e = cur();
+    if (e.s !== 'cook') return null;
+    const p = planOf(e);
+    const s = p && p.steps[e.step];
+    return s ? s.key : null;
+  }
+  function tick() {
+    const now = Date.now();
+    let changed = false;
+    for (const tm of timers) {
+      if (tm.paused || tm.done) continue;
+      tm.remaining = Math.max(0, (tm.endsAt - now) / 1000);
+      if (tm.remaining <= 0) {
+        tm.done = true; changed = true;
+        const msg = timerLabel(tm) + ': ' + t().timeUpMsg;
+        toast(msg);
+        speak(msg);
+      }
+    }
+    renderTimerbar();
+    updateBigTimer();
+    if (changed && cur().s === 'cook') renderFooter();
+  }
+  // In alto: solo i timer che girano davvero, con quello del passo attuale pieno e per primo.
+  function renderTimerbar() {
+    const L = t();
+    const ck = currentKey();
+    const list = timers.filter((x) => !x.done || x.stepKey === ck).sort((a, b) => (b.stepKey === ck) - (a.stepKey === ck));
+    $timerbar.innerHTML = list.map((tm) => {
+      const isCur = ck && tm.stepKey === ck;
+      return `<span class="timer${isCur ? ' cur' : ''}${tm.done ? ' done' : ''}${tm.paused ? ' paused' : ''}">${isCur ? '<i class="now"></i>' : ''}${esc(timerLabel(tm))} ${tm.done ? L.doneShort : fmtClock(tm.remaining)}</span>`;
+    }).join('');
+    $app.classList.toggle('timing', list.length >= 2);
+    renderRing();
+  }
+  // I timer di sottofondo che suonano: un pulsante che lampeggia sopra il contenuto, finché non lo chiudi.
+  let ringSig = null;
+  function renderRing() {
+    const ck = currentKey();
+    const ring = timers.filter((x) => x.done && x.stepKey !== ck);
+    const sig = lang + ring.map((x) => x.id).join(',');
+    if (sig === ringSig) return;
+    ringSig = sig;
+    const L = t();
+    $ring.innerHTML = ring.map((tm) => `<button type="button" id="ring-${tm.id}">${icon('alarm')}<span class="grow">${esc(timerLabel(tm))}: ${esc(L.timeUpMsg)}<span class="sub">${esc(L.dismiss)}</span></span></button>`).join('');
+    ring.forEach((tm) => on('ring-' + tm.id, () => {
+      const had = activeId() === 'ring-' + tm.id;
+      removeTimer(tm);
+      if (had) { const f = $footer.querySelector('button') || $content.querySelector('button'); if (f) f.focus(); }
+    }));
+  }
+  function stepTimerOf(e) {
+    const p = planOf(e);
+    const s = p && p.steps[e.step];
+    return s ? timers.find((x) => x.stepKey === s.key) : null;
+  }
+  function updateBigTimer() {
+    const box = document.getElementById('bigtimer');
+    if (!box) return;
+    const tm = stepTimerOf(cur());
+    if (!tm) return;
+    const L = t();
+    box.classList.toggle('done', tm.done);
+    const clock = box.querySelector('b');
+    const txt = tm.done ? L.done : fmtClock(tm.remaining);
+    if (clock.textContent !== txt) { clock.textContent = txt; clock.classList.toggle('hms', txt.length > 5); }
+    box.querySelector('.lbl span').textContent = tm.done ? L.timeUp : (tm.paused ? L.paused : L.running);
+    const lit = tm.done ? 60 : Math.ceil((tm.remaining / tm.total) * 60);
+    box.querySelectorAll('line').forEach((l, i) => l.classList.toggle('on', i < lit));
+  }
+  setInterval(tick, 250);
+
+  // ---------- Pezzi di interfaccia ----------
+  const handlers = {};
+  function on(id, fn) { handlers[id] = fn; }
+  document.addEventListener('click', (ev) => {
+    const b = ev.target.closest && ev.target.closest('button');
+    if (b && b.id && handlers[b.id]) handlers[b.id](b, ev);
+  });
+  function btn(id, label, sub, cls, ic, aria) {
+    return `<button type="button" id="${id}"${cls ? ` class="${cls}"` : ''}${aria ? ` aria-label="${esc(aria)}"` : ''}>${ic ? icon(ic) : ''}<span class="grow">${label}${sub ? `<span class="sub">${sub}</span>` : ''}</span></button>`;
+  }
+  const dietGlyphs = (d) => {
+    const ks = d.includes('vegan') ? ['vegan'] : d.includes('veg') ? ['veg'] : [];
+    if (d.includes('gf')) ks.push('gf');
+    if (d.includes('lf') && !d.includes('vegan')) ks.push('lf');
+    return ks.length ? `<span class="dg">${ks.map((k) => icon(k)).join('')}<span class="sr">${ks.map(filterName).join(', ')}</span></span>` : '';
+  };
+  const kcalShort = (k) => (k ? `~${k} kcal` : '');
+  function rowBtn(x, prefix, cls, extra) {
+    const L = t();
+    return `<button type="button" id="${prefix}${x.id}" class="rrow${cls ? ' ' + cls : ''}">${minDial(x.m)}<span class="grow"><span class="rt">${esc(titleOf(x))}</span><span class="rm">${extra ? `<span>${esc(extra)}</span>` : ''}<span>${fmtMin(x.m)}</span>${x.k ? `<span>${kcalShort(x.k)}</span>` : ''}${dietGlyphs(x.d)}${x.a ? `<span class="alc">${icon('glass')}<span class="sr">${esc(L.alcohol)}</span></span>` : ''}</span></span></button>`;
+  }
+  function mineRow(r, prefix) {
+    const L = t();
+    return `<button type="button" id="${prefix}${r.id}" class="rrow">${minDial(r.minutes || 10)}<span class="grow"><span class="rt">${esc(r.title)}</span><span class="rm"><span class="yours">${r.basedOn ? L.variant : L.yoursTag}</span><span>${L.serv(r.servings)}</span><span>${L.steps(r.steps.length)}</span></span></span></button>`;
+  }
+  const openRecipe = (id, serv) => {
+    const r = findRecipe(id), x = D.byId.get(id);
+    go({ s: 'recipe', id, serv: serv || (r ? r.servings : null) || null });
+    if (!r && x) loadSub(x.c, x.s).catch(() => {});
+  };
+  function bindRows(list, prefix, serv) { list.forEach((x) => on(prefix + x.id, () => openRecipe(x.id, serv))); }
+  function strip() {
+    const L = t();
+    const act = filters;
+    return `<button type="button" id="go-filters" class="strip">${icon('filter')}<span class="grow">${L.filters}${act.length ? `<span class="chips">${act.map((k) => `<span class="chip">${esc(filterName(k))}</span>`).join('')}</span>` : `<span class="sub">${L.filtersNone}</span>`}</span></button>`;
+  }
+  const bindStrip = () => on('go-filters', () => go({ s: 'filters' }));
+  const spinner = () => dial(12, (i) => (i < 4 ? 'on' : ''), 'spin');
+  function loadingBlock() { return `<div class="state">${spinner()}<span>${esc(t().loading)}</span></div>`; }
+  function errorBlock(id) { return `<div class="state"><span>${esc(t().loadError)}</span><button type="button" id="${id || 'retry'}">${esc(t().retry)}</button></div>`; }
+  // Aspetta dei dati e ridisegna la stessa schermata quando arrivano (o mostra l'errore).
+  function need(p) {
+    const e = cur();
+    const keep = () => (activeId() && activeId() !== lastPrimary ? activeId() : null); // se l'utente non si è mosso, va sul nuovo pulsante principale
+    p.then(() => { if (cur() === e) render(keep()); }, () => { if (cur() === e) { e.err = 1; render(keep()); } });
+  }
+  function showLoading() { $content.innerHTML = loadingBlock(); $footer.innerHTML = ''; return null; }
+  function showError(retry) {
+    $content.innerHTML = errorBlock('retry'); $footer.innerHTML = '';
+    on('retry', () => { const e = cur(); delete e.err; if (D.st === 'error') D.st = 'idle'; if (retry) retry(); render('retry'); });
+    return 'retry';
+  }
+  // Ritorna true se i dati di base ci sono; altrimenti disegna attesa o errore.
+  function coreReady() {
+    if (D.st === 'ok') return true;
+    if (D.st === 'error' || cur().err) { showError(); return false; }
+    need(loadCore());
+    showLoading();
+    return false;
+  }
+
+  // ---------- Schermate ----------
+  function renderHome() {
+    const L = t();
+    const ok = D.st === 'ok';
+    if (D.st === 'idle' || D.st === 'loading') need(loadCore());
+    if (D.menusSt === 'idle') need(loadMenus());
+    let h = `<h1 class="hero">${esc(L.home)}</h1>
+      <div class="search">${icon('search')}<input id="q" type="search" enterkeyhint="search" autocomplete="off" placeholder="${esc(L.searchPh)}" aria-label="${esc(L.searchTitle)}"></div>`;
+    let picks = [];
+    if (ok) {
+      picks = spotlight();
+      h += strip();
+      h += `<div class="sec-h">${monthDial(null)}<span>${esc(L.season(monthName()))}</span></div>`;
+      h += picks.map((x) => rowBtn(x, 'sp-', 'pick', nm(catOf(x.c)))).join('');
+      if (D.menus && D.menus.length) h += btn('go-menus', esc(L.menus), esc(L.menusSub), 'feat', 'menu');
+      h += `<h2>${esc(L.categories)}</h2><div class="cats">${D.tree.cats.map((c) => {
+        const n = countFor((x) => x.c === c.id);
+        return `<button type="button" id="cat-${c.id}"${n ? '' : ' class="zero"'}><span class="ct">${n}</span>${icon(IC[c.id] ? c.id : 'primi')}<span class="nm">${esc(nm(c))}</span></button>`;
+      }).join('')}<button type="button" id="go-surprise">${icon('dice')}<span class="nm">${esc(L.surprise)}</span></button></div>`;
+    } else if (D.st === 'error') h += errorBlock('retry-home');
+    else h += loadingBlock();
+    h += `<h2>${esc(L.yours)}</h2>
+      ${btn('go-mine', L.mine, mine.length ? L.saved(mine.length) : L.none, '', 'mine')}
+      ${btn('go-create', L.create, L.createSub, '', 'create')}
+      ${btn('go-company', L.company, L.companySub, '', 'company')}
+      ${btn('go-settings', L.settings, L.settingsSub, '', 'settings')}`;
+    $content.innerHTML = h;
+    $footer.innerHTML = '';
+    if (ok) {
+      bindStrip();
+      bindRows(picks, 'sp-');
+      on('go-menus', () => go({ s: 'menus' }));
+      D.tree.cats.forEach((c) => on('cat-' + c.id, () => go({ s: 'cat', c: c.id })));
+      on('go-surprise', () => {
+        let pool = D.idx.filter((x) => x.c !== 'basi' && passes(x));
+        if (!pool.length) pool = D.idx.filter((x) => x.c !== 'basi');
+        if (pool.length) openRecipe(pool[Math.floor(Math.random() * pool.length)].id);
+      });
+    }
+    on('retry-home', () => { D.st = 'idle'; render('retry-home'); });
+    on('go-mine', () => go({ s: 'mine' }));
+    on('go-create', () => go({ s: 'create' }));
+    on('go-company', () => go({ s: 'company' }));
+    on('go-settings', () => go({ s: 'settings' }));
+    bindSearchInput(document.getElementById('q'), (q) => go({ s: 'search', q }, 'sq'));
+    return picks.length ? 'sp-' + picks[0].id : 'go-mine';
+  }
+
+  function bindSearchInput(el, onQuery) {
+    if (!el) return;
+    let tm = 0;
+    const fire = () => { clearTimeout(tm); const v = el.value.trim(); if (v) onQuery(v); };
+    el.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(fire, 450); });
+    el.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); fire(); } });
+  }
+
+  function renderSearch() {
+    const L = t();
+    if (!coreReady()) return null;
+    const e = cur();
+    $content.innerHTML = `<h1>${esc(L.searchTitle)}</h1>
+      <div class="search">${icon('search')}<input id="sq" type="search" enterkeyhint="search" autocomplete="off" placeholder="${esc(L.searchPh)}" aria-label="${esc(L.searchTitle)}" value="${esc(e.q || '')}"></div>
+      ${strip()}<div id="sres"></div>`;
+    $footer.innerHTML = '';
+    bindStrip();
+    const el = document.getElementById('sq');
+    const draw = () => {
+      const q = e.q || '';
+      const hits = search(q).slice(0, 40);
+      const mh = q ? mine.filter((r) => norm(r.title).includes(norm(q))) : [];
+      const all = search(q, { filters: [] });
+      let h = '';
+      if (!q) h = `<p class="empty">${esc(L.searchHint)}</p>`;
+      else if (!hits.length && !mh.length) {
+        h = `<p class="empty">${esc(L.noResults(q))}${filters.length && all.length ? ' ' + esc(L.emptyFiltered) : ''}</p>`;
+        if (filters.length && all.length) h += btn('s-clear', esc(L.clearFilters), esc(L.showN(all.length)));
+      } else h = `<h2>${esc(L.results(hits.length + mh.length))}</h2>` + hits.map((x) => rowBtn(x, 'r-', '', nm(catOf(x.c)))).join('') + mh.map((r) => mineRow(r, 'm-')).join('');
+      document.getElementById('sres').innerHTML = h;
+      bindRows(hits, 'r-');
+      mh.forEach((r) => on('m-' + r.id, () => go({ s: 'recipe', id: r.id, serv: r.servings })));
+      on('s-clear', () => { setFilters([]); render(); });
+      saveStack();
+    };
+    draw();
+    let tm = 0;
+    el.addEventListener('input', () => { clearTimeout(tm); tm = setTimeout(() => { e.q = el.value.trim(); draw(); }, 250); });
+    el.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Enter') { ev.preventDefault(); clearTimeout(tm); e.q = el.value.trim(); draw(); const f = document.querySelector('#sres button'); if (f) f.focus(); }
+    });
+    requestAnimationFrame(() => { try { el.setSelectionRange(el.value.length, el.value.length); } catch (er) { /* niente cursore */ } });
+    return 'sq';
+  }
+
+  function renderFilters() {
+    const L = t();
+    if (!coreReady()) return null;
+    const defs = filterDefs();
+    const tg = (f) => {
+      const onF = filters.includes(f.id);
+      const sub = f.id === 'light' ? '≤ 450 kcal' : f.id === 'quick' ? `≤ 25 ${L.min}` : f.id === 'season' ? monthName() : '';
+      return `<button type="button" id="f-${f.id}" aria-pressed="${onF}"><span class="box">${icon('check')}</span><span class="grow">${esc(nm(f))}${sub ? `<span class="sub">${esc(sub)}</span>` : ''}</span></button>`;
+    };
+    const n = countFor(() => true);
+    $content.innerHTML = `<h1>${esc(L.filters)}</h1>
+      <h2>${esc(L.diet)}</h2><div class="fgrid">${defs.filter((f) => FILTER_DIET.includes(f.id)).map(tg).join('')}</div>
+      <h2>${esc(L.forYou)}</h2><div class="fgrid">${defs.filter((f) => !FILTER_DIET.includes(f.id)).map(tg).join('')}</div>
+      ${filters.length ? `<div style="margin-top:0.8rem">${btn('f-clear', esc(L.clearFilters), '')}</div>` : ''}`;
+    $footer.innerHTML = btn('f-done', esc(L.showN(n)), '', 'primary');
+    defs.forEach((f) => on('f-' + f.id, () => {
+      setFilters(filters.includes(f.id) ? filters.filter((k) => k !== f.id) : filters.concat(f.id));
+      render('f-' + f.id);
+    }));
+    on('f-clear', () => { setFilters([]); render(defs[0] ? 'f-' + defs[0].id : 'f-done'); });
+    on('f-done', () => goBack());
+    return defs[0] ? 'f-' + defs[0].id : 'f-done';
+  }
+
+  function renderCat() {
+    const L = t();
+    if (!coreReady()) return null;
+    const e = cur(), c = catOf(e.c);
+    if (!c) return renderHome();
+    $content.innerHTML = `<h1>${icon(IC[c.id] ? c.id : 'primi')}${esc(nm(c))}</h1>${strip()}<h2>${esc(L.recipesN(countFor((x) => x.c === c.id)))}</h2>
+      ${c.subs.map((s) => {
+        const n = countFor((x) => x.c === c.id && x.s === s.id);
+        return `<button type="button" id="sub-${s.id}" class="subrow${n ? '' : ' zero'}" aria-label="${esc(nm(s) + ', ' + L.recipesN(n))}"><span class="grow">${esc(nm(s))}</span><span class="cnt">${n}</span></button>`;
+      }).join('')}`;
+    $footer.innerHTML = '';
+    bindStrip();
+    c.subs.forEach((s) => on('sub-' + s.id, () => go({ s: 'sub', c: c.id, sub: s.id })));
+    const first = c.subs.find((s) => countFor((x) => x.c === c.id && x.s === s.id)) || c.subs[0];
+    return first ? 'sub-' + first.id : 'go-filters';
+  }
+
+  function renderSub() {
+    const L = t();
+    if (!coreReady()) return null;
+    const e = cur(), c = catOf(e.c), s = subOf(e.c, e.sub);
+    if (!c || !s) return renderHome();
+    const allHere = D.idx.filter((x) => x.c === c.id && x.s === s.id);
+    const list = allHere.filter((x) => passes(x)).sort((a, b) => titleOf(a).localeCompare(titleOf(b), lang));
+    let h = `<h1>${esc(nm(s))}</h1>${strip()}`;
+    if (list.length) h += `<h2>${esc(L.recipesN(list.length))}</h2>` + list.map((x) => rowBtn(x, 'r-')).join('');
+    else if (allHere.length) h += `<p class="empty">${esc(L.emptyFiltered)}</p>` + btn('s-clear', esc(L.clearFilters), esc(L.showN(allHere.length)));
+    else h += `<p class="empty">${esc(L.emptySub)}</p>`;
+    if (allHere.some((x) => x.a)) h += `<p class="hint">${icon('glass')} ${esc(L.alcohol)}</p>`;
+    $content.innerHTML = h;
+    $footer.innerHTML = '';
+    bindStrip();
+    bindRows(list, 'r-');
+    on('s-clear', () => { setFilters([]); render(); });
+    if (allHere.length) loadSub(c.id, s.id).catch(() => {}); // il file pesante arriva solo adesso, in sottofondo
+    return list.length ? 'r-' + list[0].id : allHere.length ? 's-clear' : 'go-filters';
+  }
+
+  function scaledIng(r, serv) {
+    const k = (serv || r.servings) / r.servings;
+    return r.ingredients.map((i) => ({ ...i, q: i.q == null ? null : i.q * k }));
+  }
+
+  function tipsBlock(r, prefix) {
+    const L = t();
+    return (r.tips || []).map((tp, i) => {
+      const linked = tp.link && D.byId.get(tp.link);
+      const inner = `<span class="tk">${icon(tp.k)}${esc(L.tipK[tp.k] || '')}</span><span class="tt">${esc(tp.t)}</span>${linked ? `<span class="tl">${icon('play')}${esc(titleOf(linked))}</span>` : ''}`;
+      return linked ? `<button type="button" id="${prefix}${i}" class="tip" aria-label="${esc((L.tipK[tp.k] || '') + ': ' + tp.t + '. ' + L.openLinked + ': ' + titleOf(linked))}">${inner}</button>` : `<div class="tip">${inner}</div>`;
+    }).join('');
+  }
+  function bindTips(r, prefix) { (r.tips || []).forEach((tp, i) => { if (tp.link && D.byId.has(tp.link)) on(prefix + i, () => openRecipe(tp.link)); }); }
+
+  function seasonText(months) {
+    if (!months || !months.length || months.length === 12) return '';
+    const set = new Set(months), runs = [];
+    let start = null;
+    for (let k = 0; k < 24; k++) {
+      const m = (k % 12) + 1;
+      if (set.has(m) && start === null && !set.has(((m + 10) % 12) + 1)) start = m;
+      if (start !== null && set.has(m) && !set.has((m % 12) + 1)) { runs.push([start, m]); start = null; if (runs.length >= 3) break; }
+    }
+    const uniq = [...new Map(runs.map((r) => [r.join('-'), r])).values()];
+    return uniq.map(([a, b]) => (a === b ? monthShort(a) : `${monthShort(a)} – ${monthShort(b)}`)).join(', ');
+  }
+
+  function renderRecipe() {
+    const L = t();
+    const e = cur();
+    let r = findRecipe(e.id);
+    if (!r) {
+      if (e.err) return showError();
+      need(ensure(e.id));
+      return showLoading();
+    }
+    if (!e.serv) e.serv = r.servings;
+    const bases = r.mine ? [] : basesOf(r);
+    const missing = bases.filter((b) => !findRecipe(b.id));
+    if (missing.length) Promise.all(missing.map((b) => ensure(b.id))).then(() => { if (cur() === e) render(activeId()); }, () => {});
+    const x = D.byId.get(r.id);
+    const ing = scaledIng(r, e.serv);
+    const meth = methodOf(r);
+    let h = `<h1>${esc(r.title)}</h1>`;
+    if (r.intro) h += `<p class="intro">${esc(r.intro)}</p>`;
+    h += `<div class="facts"><span class="fact">${minDial(r.minutes || 10)}<span>${fmtMin(r.minutes || 10)}</span></span>`;
+    if (r.kcal) h += `<span class="fact"><span>${esc(L.kcal(r.kcal))}<small>${esc(L.perServ)}</small></span></span>`;
+    if (r.diff) h += `<span class="fact"><span class="pips">${[1, 2, 3].map((n) => `<i class="${n <= r.diff ? 'on' : ''}"></i>`).join('')}</span><span>${esc(L.diffs[r.diff - 1] || '')}</span></span>`;
+    h += '</div>';
+    const badges = [];
+    (r.diet || []).forEach((d) => { if (FX[d] && !((d === 'veg' || d === 'lf') && r.diet.includes('vegan'))) badges.push(`<span class="badge">${icon(d)}${esc(filterName(d))}</span>`); });
+    if (r.alcohol || (x && x.a)) badges.push(`<span class="badge warn">${icon('glass')}${esc(L.alcohol)}</span>`);
+    if (r.origin && r.origin !== 'IT') badges.push(`<span class="badge plain">${esc(region(r.origin))}</span>`);
+    if (badges.length) h += `<div class="badges">${badges.join('')}</div>`;
+    const st = seasonText(r.months);
+    if (st) h += `<div class="seasonrow">${monthDial(r.months)}<span>${esc(L.seasonLbl)}: ${esc(st)}</span></div>`;
+    h += `<div class="servings" role="group" aria-label="${esc(L.servLabel)}">
+        <button type="button" id="srv-minus" aria-label="${esc(L.fewer)}">−</button>
+        <output id="srv-out">${L.serv(e.serv)}</output>
+        <button type="button" id="srv-plus" aria-label="${esc(L.more)}">+</button>
+      </div>`;
+    if ((r.methods || []).length > 1) {
+      h += `<h2>${esc(L.method)}</h2><div class="seg" role="group" aria-label="${esc(L.method)}">${r.methods.map((m) => `<button type="button" id="me-${m}" aria-pressed="${m === meth}">${icon(IC[m] ? m : 'pot')}${esc(methodName(m))}</button>`).join('')}</div>`;
+    }
+    h += `<h2>${esc(L.ingredients)}</h2><ul class="ing">${ing.map((i, n) => {
+      let li = `<div class="li"><span class="q">${esc(fmtQty(i.q, i.u))}</span><span>${esc(i.n)}</span></div>`;
+      const b = bases.find((y) => y.n === n);
+      if (b) {
+        const home = isHome(b.id);
+        li += `<div class="seg" role="group" aria-label="${esc(L.makeQ)}"><button type="button" id="mk-${n}-0" aria-pressed="${!home}">${esc(L.store)}</button><button type="button" id="mk-${n}-1" aria-pressed="${home}">${esc(L.homemade)}</button></div>`;
+        if (home) {
+          const br = findRecipe(b.id);
+          if (br) {
+            const bi = scaledIng(br, e.serv);
+            li += `<div class="nest"><div class="nh">${esc(L.forBase(br.title))}</div><ul>${bi.map((y) => `<li class="li"><span class="q">${esc(fmtQty(y.q, y.u))}</span><span>${esc(y.n)}</span></li>`).join('')}</ul></div>`;
+          } else li += `<div class="nest"><div class="nh">${esc(L.loading)}</div></div>`;
+        }
+      }
+      return `<li>${li}</li>`;
+    }).join('')}</ul>`;
+    h += `<div style="margin-top:0.7rem">${btn('go-shop', esc(L.shop), esc(L.shopFor(L.serv(e.serv))), '', 'cart')}</div>`;
+    if ((r.tips || []).length) h += `<h2>${esc(L.tips)}</h2>${tipsBlock(r, 'tip-')}`;
+    h += `<div style="margin-top:0.7rem">
+        ${e.serv !== r.servings || !r.mine ? btn('save-mine', L.saveMine, e.serv !== r.servings ? L.saveWith(L.serv(e.serv)) : L.saveLater, '', 'mine') : ''}
+        ${r.mine ? btn('delete-mine', L.del, '') : ''}
+      </div>`;
+    $content.innerHTML = h;
+    $footer.innerHTML = `<button type="button" id="start-cook" class="primary">${icon('play')}<span>${esc(L.start)}</span></button>`;
+    const setServ = (n) => { e.serv = Math.min(20, Math.max(1, n)); render(activeId()); };
+    on('srv-minus', () => setServ(e.serv - 1));
+    on('srv-plus', () => setServ(e.serv + 1));
+    (r.methods || []).forEach((m) => on('me-' + m, () => { setMethod(r, m); render('me-' + m); }));
+    bases.forEach((b) => {
+      on(`mk-${b.n}-0`, () => { setHome(b.id, false); render(`mk-${b.n}-0`); });
+      on(`mk-${b.n}-1`, () => { setHome(b.id, true); render(`mk-${b.n}-1`); });
+    });
+    bindTips(r, 'tip-');
+    on('go-shop', () => go({ s: 'shop', from: 'recipe', id: r.id, n: e.serv }));
+    on('start-cook', () => startCook(r, e));
+    on('save-mine', () => { const copy = saveAsMine(r, e.serv); toast(t().savedToast); replaceTop({ s: 'recipe', id: copy.id, serv: copy.servings }); });
+    on('delete-mine', () => { mine = mine.filter((y) => y.id !== r.id); saveMine(); toast(t().deletedToast); goBack(); });
+    return 'start-cook';
+  }
+
+  function startCook(r, e) {
+    const bases = r.mine ? [] : homeBases(r);
+    const entry = { s: 'cook', id: r.id, serv: e.serv || r.servings, step: 0, bases, method: methodOf(r) };
+    Promise.all(bases.map(ensure)).then(() => {
+      if (cur() !== e) return;
+      go(entry);
+      enterStep();
+      renderTimerbar();
+      updateBigTimer();
+      renderFooter();
+    }, () => { toast(t().loadError); });
+  }
+
+  function saveAsMine(r, serv) {
+    serv = serv || r.servings;
+    const k = serv / r.servings;
+    const m = methodOf(r);
+    const steps = r.steps.map((s, i) => { const o = resolveStep(s, m && m !== (r.methods || [])[0] ? m : null, -1, r.id, i); const out = { t: o.t }; if (o.timer) { out.timer = o.timer; out.label = s.label || t().stepN(i + 1); } return out; });
+    const copy = {
+      id: 'mia-' + slug(r.title) + '-' + Date.now().toString(36),
+      title: r.title, servings: serv, minutes: r.minutes,
+      ingredients: r.ingredients.map((i) => ({ q: i.q == null ? null : Math.round(i.q * k * 10) / 10, u: i.u, n: i.n, ...(i.k ? { k: i.k } : {}), ...(i.make ? { make: i.make } : {}) })),
+      steps, tips: r.tips || [], kcal: r.kcal, diet: r.diet,
+      mine: true, lang: r.lang || lang, basedOn: r.mine ? (r.basedOn || null) : r.id, tags: ['mia']
+    };
+    mine.unshift(copy);
+    saveMine();
+    return copy;
+  }
+
+  function enterStep() {
+    const e = cur();
+    const p = planOf(e);
+    const s = p && p.steps[e.step];
+    if (s && s.timer) startTimer(s.timer, stepLabel(s, s.i), s.key);
+  }
+
+  function renderCook() {
+    const L = t();
+    const e = cur();
+    const r = findRecipe(e.id);
+    const missing = [e.id].concat(e.bases || []).filter((id) => !findRecipe(id));
+    if (missing.length) {
+      if (e.err) return showError();
+      need(Promise.all(missing.map(ensure)));
+      return showLoading();
+    }
+    const p = planOf(e);
+    if (e.step >= p.steps.length) return renderDone(r, e);
+    const s = p.steps[e.step];
+    const tm = stepTimerOf(e);
+    const meth = (r.methods || []).length > 1 && e.method ? `<span class="meth">${icon(IC[e.method] ? e.method : 'pot')}${esc(methodName(e.method))}</span>` : '';
+    const phase = p.phases.length ? `<div class="phase"><span class="pn">${s.ph + 1}</span><span>${esc(p.phases[s.ph])}</span></div>` : `<div class="phase plain"><span>${esc(r.title)}</span></div>`;
+    const ticks = p.steps.map((x, i) => `<i class="${i === e.step ? 'cur' : i < e.step ? 'on' : ''}${i && x.ph !== p.steps[i - 1].ph ? ' gap' : ''}"></i>`).join('');
+    const clock = tm ? (tm.done ? L.done : fmtClock(tm.remaining)) : fmtClock(s.timer || 0);
+    const lit = tm ? (tm.done ? 60 : Math.ceil((tm.remaining / tm.total) * 60)) : 60;
+    $content.innerHTML = `
+      <div class="cook-h"><span>${esc(L.stepOf(e.step + 1, p.steps.length))}</span>${meth}</div>
+      ${phase}
+      <div class="ticks" aria-hidden="true">${ticks}</div>
+      <div class="steptext${s.t.length > 110 ? ' long' : ''}">${esc(s.t)}</div>
+      ${s.timer ? `
+        <div id="bigtimer" class="big-timer${tm && tm.done ? ' done' : ''}">
+          <span class="dw">${dial(60, (i) => (i < lit ? 'on' : ''))}<b class="${clock.length > 5 ? 'hms' : ''}">${clock}</b></span>
+          <span class="lbl">${esc(stepLabel(s, s.i))}<small><span>${tm ? (tm.done ? L.timeUp : (tm.paused ? L.paused : L.running)) : L.ready}</span></small></span>
+        </div>` : ''}`;
+    renderFooter();
+    return 'next';
+  }
+
+  function renderFooter() {
+    const e = cur();
+    if (e.s !== 'cook') return;
+    const p = planOf(e);
+    if (!p || e.step >= p.steps.length) return;
+    const L = t();
+    const s = p.steps[e.step];
+    const tm = stepTimerOf(e);
+    const focused = activeId();
+    const parts = [];
+    if (e.step > 0) parts.push(`<button type="button" id="prev" aria-label="${esc(L.prev)}">◀</button>`);
+    if (s.timer) {
+      if (!tm) parts.push(`<button type="button" id="timer-start">${esc(L.startTimer)}</button>`);
+      else if (tm.done) parts.push(`<button type="button" id="timer-again">${esc(L.oneMore)}</button>`);
+      else parts.push(`<button type="button" id="timer-pause">${esc(tm.paused ? L.resume : L.pause)}</button>`);
+    }
+    const last = e.step === p.steps.length - 1;
+    parts.push(`<button type="button" id="next" class="primary">${last ? icon('check') : ''}<span>${esc(last ? L.finish : L.next)}</span>${last ? '' : icon('play')}</button>`);
+    $footer.innerHTML = parts.join('');
+    on('prev', () => moveStep(-1));
+    on('next', () => moveStep(1));
+    on('timer-start', () => { enterStep(); renderCook(); refocus('timer-pause'); });
+    on('timer-pause', () => { const x = stepTimerOf(cur()); if (x) togglePause(x); renderFooter(); updateBigTimer(); renderTimerbar(); refocus('timer-pause'); });
+    on('timer-again', () => { const x = stepTimerOf(cur()); if (x) { removeTimer(x); startTimer(60, x.label, x.stepKey); } renderCook(); renderTimerbar(); refocus('timer-pause'); });
+    if (focused && document.getElementById(focused)) refocus(focused);
+  }
+
+  // Lasci un passo: il suo timer si chiude, a meno che la cottura vada avanti in sottofondo (bg).
+  function moveStep(delta) {
+    const e = cur();
+    const p = planOf(e);
+    if (!p) return;
+    const leaving = p.steps[e.step];
+    if (leaving) {
+      const tm = timers.find((x) => x.stepKey === leaving.key);
+      if (tm && (!leaving.bg || tm.done)) removeTimer(tm);
+    }
+    e.step = Math.min(p.steps.length, Math.max(0, e.step + delta));
+    if (delta > 0 && e.step < p.steps.length) enterStep();
+    render();
+  }
+
+  function renderDone(r, e) {
+    const L = t();
+    const left = timers.filter((x) => !x.done).length;
+    const tips = r.tips || [];
+    const order = ['twist', 'pair', 'secret', 'spice', 'leftover'];
+    const pick = tips.slice().sort((a, b) => order.indexOf(a.k) - order.indexOf(b.k))[0];
+    $content.innerHTML = `
+      <div class="done-hero">
+        <div class="dw">${dial(60, () => 'on')}${icon('check')}</div>
+        <h1>${esc(L.enjoy)}</h1>
+        <p class="meta">${esc(r.title)}, ${esc(L.serv(e.serv))}</p>
+        ${left ? `<p class="note">${esc(L.left(left))}</p>` : ''}
+      </div>
+      ${pick ? `<h2>${esc(L.nextTime)}</h2>${tipsBlock({ tips: [pick] }, 'dtip-')}` : ''}
+      ${!r.mine ? btn('save-mine', L.saveMine, L.saveAgain, '', 'mine') : ''}`;
+    $footer.innerHTML = `<button type="button" id="home" class="primary"><span>${esc(L.toStart)}</span></button>`;
+    on('home', () => { timers.filter((x) => x.done).forEach(removeTimer); goHome(); });
+    on('save-mine', () => { saveAsMine(r, e.serv); toast(t().savedToast); render('home'); });
+    if (pick && pick.link && D.byId.has(pick.link)) on('dtip-0', () => openRecipe(pick.link));
+    return 'home';
+  }
+
+  function renderMenus() {
+    const L = t();
+    if (!coreReady()) return null;
+    if (D.menusSt !== 'ok') { need(loadMenus()); return showLoading(); }
+    const ms = D.menus || [];
+    $content.innerHTML = `<h1>${icon('menu')}${esc(L.menus)}</h1><p class="meta">${esc(L.menusSub)}</p>` + ms.map((m) => {
+      const tx = m.i18n[lang] || m.i18n.en || {};
+      const roles = (m.drinks || []).filter((c) => c.role === 'aperitivo').concat(m.courses).map((c) => L.roles[c.role] || c.role);
+      return `<button type="button" id="mn-${m.id}" class="feat"><span class="grow">${esc(tx.title || m.id)}<span class="roles">${roles.map((x) => `<span>${esc(x)}</span>`).join('')}</span><span class="sub">${esc(L.courses(m.courses.length))}</span></span>${dietGlyphs(m.diet || [])}</button>`;
+    }).join('');
+    $footer.innerHTML = '';
+    ms.forEach((m) => on('mn-' + m.id, () => go({ s: 'menu', id: m.id, guests: 4 })));
+    return ms[0] ? 'mn-' + ms[0].id : null;
+  }
+
+  const menuById = (id) => (D.menus || []).find((m) => m.id === id);
+  function renderMenu() {
+    const L = t();
+    if (!coreReady()) return null;
+    if (D.menusSt !== 'ok') { need(loadMenus()); return showLoading(); }
+    const e = cur(), m = menuById(e.id);
+    if (!m) return renderMenus();
+    const tx = m.i18n[lang] || m.i18n.en || {};
+    const g = e.guests || 4;
+    const row = (c, i, p) => {
+      const x = D.byId.get(c.id);
+      if (!x) return '';
+      return `<button type="button" id="${p}${i}" class="rrow course">${minDial(x.m)}<span class="grow"><span class="role">${esc(L.roles[c.role] || c.role)}</span><span class="rt">${esc(titleOf(x))}</span><span class="rm"><span>${fmtMin(x.m)}</span>${x.k ? `<span>${kcalShort(x.k)}</span>` : ''}${dietGlyphs(x.d)}${x.a ? `<span class="alc">${icon('glass')}<span class="sr">${esc(L.alcohol)}</span></span>` : ''}</span></span></button>`;
+    };
+    const st = seasonText(m.months);
+    let h = `<h1>${esc(tx.title || m.id)}</h1>${tx.intro ? `<p class="intro">${esc(tx.intro)}</p>` : ''}`;
+    const badges = (m.diet || []).filter((d) => FX[d] && !((d === 'veg' || d === 'lf') && m.diet.includes('vegan'))).map((d) => `<span class="badge">${icon(d)}${esc(filterName(d))}</span>`);
+    if (badges.length) h += `<div class="badges">${badges.join('')}</div>`;
+    if (st) h += `<div class="seasonrow">${monthDial(m.months)}<span>${esc(L.seasonLbl)}: ${esc(st)}</span></div>`;
+    h += `<div class="servings" role="group" aria-label="${esc(L.guestsLabel)}">
+        <button type="button" id="g-minus" aria-label="${esc(L.fewerG)}">−</button>
+        <output id="g-out">${esc(L.guests(g))}</output>
+        <button type="button" id="g-plus" aria-label="${esc(L.moreG)}">+</button></div>`;
+    h += `<h2>${esc(L.dishes)}</h2>` + m.courses.map((c, i) => row(c, i, 'mc-')).join('');
+    if (m.drinks && m.drinks.length) h += `<h2>${esc(L.drinks)}</h2>` + m.drinks.map((c, i) => row(c, i, 'md-')).join('');
+    if (tx.wine) h += `<div class="pairing"><div class="ph">${icon('glass')}${esc(L.pairing)}</div><p>${esc(tx.wine)}</p></div>`;
+    if (Array.isArray(tx.plan) && tx.plan.length) h += `<h2>${esc(L.gamePlan)}</h2><ol class="plan">${tx.plan.map((x) => `<li>${esc(x)}</li>`).join('')}</ol>`;
+    h += btn('go-shop', esc(L.shop), esc(L.shopFor(L.guests(g))), '', 'cart');
+    $content.innerHTML = h;
+    $footer.innerHTML = '';
+    const setG = (n) => { e.guests = Math.min(24, Math.max(1, n)); render(activeId()); };
+    on('g-minus', () => setG(g - 1));
+    on('g-plus', () => setG(g + 1));
+    m.courses.forEach((c, i) => on('mc-' + i, () => openRecipe(c.id, g)));
+    (m.drinks || []).forEach((c, i) => on('md-' + i, () => openRecipe(c.id, g)));
+    on('go-shop', () => go({ s: 'shop', from: 'menu', id: m.id, n: g }));
+    return m.courses.length ? 'mc-0' : 'go-shop';
+  }
+
+  // ---------- Lista della spesa ----------
+  const AISLES = ['produce', 'meat-fish', 'dairy-eggs', 'bakery-pasta', 'pantry', 'spices', 'frozen', 'drinks', 'other'];
+  const STAPLE = /^(salt|sea-salt|coarse-salt|fine-salt|table-salt|black-pepper|white-pepper|pepper|water|sugar|white-sugar|caster-sugar|granulated-sugar|flour|plain-flour|all-purpose-flour|00-flour|flour-00|wheat-flour|olive-oil|extra-virgin-olive-oil|sunflower-oil|vegetable-oil|seed-oil|oil|peanut-oil|neutral-oil)$/;
+  // Corsie del supermercato da una chiave come "ground-beef": override per i casi ambigui, poi parole intere in ordine.
+  const AISLE_OVR = {
+    'beefsteak-tomatoes': 'produce', 'coconut-milk': 'pantry', 'coconut-cream': 'pantry', 'sweetened-condensed-milk': 'pantry', 'peanut-butter': 'pantry',
+    'almond-butter': 'pantry', 'butter-beans': 'pantry', 'fish-sauce': 'pantry', 'oyster-sauce': 'pantry', 'canned-tuna': 'pantry', 'basil-pesto': 'pantry',
+    pesto: 'pantry', 'pickled-ginger': 'pantry', 'fresh-egg-pasta': 'bakery-pasta', 'fresh-yeast': 'dairy-eggs', ice: 'frozen', 'coconut-milk-drink': 'drinks',
+    katsuobushi: 'pantry', dashi: 'pantry', bechamel: 'dairy-eggs', 'tomato-juice': 'drinks', 'soaked-stockfish': 'meat-fish', water: 'pantry',
+    'cooked-rice': 'pantry', 'potato-gnocchi': 'bakery-pasta', giardiniera: 'pantry', pickles: 'pantry', 'ginger-ale': 'drinks', 'ginger-beer': 'drinks',
+    'bolognese-sauce': 'pantry', 'tomato-sauce': 'pantry', 'pizza-dough': 'bakery-pasta', 'shortcrust-pastry': 'dairy-eggs', 'sweet-shortcrust-pastry': 'dairy-eggs',
+    'medjool-dates': 'pantry', 'black-salt': 'spices', 'celery-salt': 'spices', 'ground-coffee': 'pantry', 'coffee-beans': 'pantry', coffee: 'pantry',
+    'green-beans': 'produce', 'black-mustard-seeds': 'spices', 'tomato-passata': 'pantry', grenadine: 'drinks', 'black-tea': 'pantry', 'cocoa-powder': 'pantry', 'baking-powder': 'pantry', 'baking-soda': 'pantry', 'gelatin-sheets': 'pantry', 'chocolate-chips': 'pantry'
+  };
+  const AISLE_TOK = [
+    ['frozen', ['frozen']],
+    ['drinks', ['rum', 'gin', 'vodka', 'tequila', 'cachaca', 'bourbon', 'brandy', 'prosecco', 'campari', 'aperol', 'vermouth', 'liqueur', 'curacao', 'triple', 'sake', 'bitters', 'tonic', 'soda', 'juice', 'santo', 'beer']],
+    ['pantry', ['canned', 'sauce', 'paste', 'syrup', 'broth', 'stock', 'extract', 'oil', 'vinegar', 'flour', 'sugar', 'rice', 'beans', 'lentils', 'chickpeas', 'olives', 'capers', 'honey', 'jam', 'nuts', 'almonds', 'hazelnuts', 'walnuts', 'pistachios', 'peanuts', 'raisins', 'chocolate', 'oats', 'quinoa', 'polenta', 'bulgur', 'farro', 'barley', 'couscous', 'semolina', 'tofu', 'miso', 'tahini', 'mustard', 'ketchup', 'mayonnaise', 'yeast', 'cornstarch', 'gochujang', 'harissa', 'mirin', 'nori', 'kombu', 'wakame', 'cherries', 'coconut', 'dates', 'gelatin', 'bamboo', 'edamame', 'sweetcorn', 'tamarind', 'condensed']],
+    ['meat-fish', ['beef', 'pork', 'veal', 'lamb', 'chicken', 'turkey', 'duck', 'bacon', 'pancetta', 'guanciale', 'ham', 'prosciutto', 'salame', 'salami', 'sausage', 'lard', 'marrow', 'anchovies', 'anchovy', 'sardines', 'salmon', 'tuna', 'clams', 'mussels', 'octopus', 'shrimp', 'prawns', 'swordfish', 'fish', 'bass', 'sole', 'stockfish', 'livers', 'sirloin', 'thighs', 'breast']],
+    ['dairy-eggs', ['egg', 'eggs', 'milk', 'butter', 'cream', 'yogurt', 'cheese', 'cheddar', 'emmental', 'feta', 'fontina', 'gruyere', 'mascarpone', 'mozzarella', 'parmigiano', 'pecorino', 'grana', 'provolone', 'provola', 'ricotta', 'quark', 'squacquerone', 'caciocavallo', 'fior', 'casera', 'ghee']],
+    ['bakery-pasta', ['pasta', 'spaghetti', 'bucatini', 'ditalini', 'macaroni', 'gnocchi', 'noodles', 'ramen', 'bread', 'baguette', 'brioche', 'buns', 'rolls', 'muffins', 'piadina', 'pita', 'breadcrumbs', 'ladyfingers', 'biscuits', 'pastry', 'wrappers']],
+    ['spices', ['pepper', 'peppercorns', 'paprika', 'cumin', 'cinnamon', 'nutmeg', 'cloves', 'cardamom', 'turmeric', 'saffron', 'vanilla', 'anise', 'garam', 'ras', 'zaatar', 'sumac', 'seeds', 'bay', 'flakes', 'powder', 'gochugaru', 'biber', 'aonori', 'ground', 'dried', 'pods', 'salt']],
+    ['produce', ['apple', 'apples', 'apricots', 'artichokes', 'asparagus', 'aubergine', 'eggplant', 'avocado', 'avocados', 'banana', 'basil', 'sprouts', 'berries', 'blueberries', 'strawberries', 'broccoli', 'cabbage', 'carrot', 'carrots', 'cauliflower', 'cavolo', 'celeriac', 'celery', 'chicory', 'chives', 'cilantro', 'coriander', 'cucumber', 'daikon', 'dill', 'fennel', 'galangal', 'garlic', 'ginger', 'grapefruit', 'jalapeno', 'kiwi', 'leek', 'leeks', 'lemon', 'lemongrass', 'lime', 'mango', 'mangoes', 'marjoram', 'melon', 'mint', 'mushrooms', 'shiitake', 'onion', 'orange', 'oranges', 'choi', 'parsley', 'peach', 'peaches', 'pear', 'pears', 'peas', 'peppers', 'persimmon', 'pineapple', 'plums', 'potatoes', 'pumpkin', 'squash', 'radicchio', 'rocket', 'rosemary', 'sage', 'scallions', 'shallot', 'spinach', 'chard', 'thyme', 'tomatoes', 'turnip', 'tops', 'watermelon', 'zucchini', 'chili', 'chilli', 'chillies', 'leaves', 'cai', 'beans', 'fresh']]
+  ];
+  // Spezie solo se è davvero una spezia: un peperoncino fresco o un peperone sono verdura, i semi di sesamo dispensa.
+  const PRODUCE_FIRST = ['bell', 'green', 'red', 'yellow', 'padron', 'fresh', 'jalapeno', 'bird'];
+  const aisleOf = (k) => {
+    const s = D.shop && D.shop[k];
+    if (s && AISLES.includes(s.aisle)) return s.aisle;
+    if (AISLE_OVR[k]) return AISLE_OVR[k];
+    const tk = String(k).split('-').flatMap((w) => [w, w.replace(/s$/, ''), w.replace(/es$/, '')]); // onions → onion, tomatoes → tomato, limes → lime
+    const has = (list) => list.some((w) => tk.includes(w));
+    if (has(['wine']) && !has(['vinegar'])) return 'drinks';
+    if (has(['seeds']) && has(['chia', 'sesame', 'pumpkin', 'mixed'])) return 'pantry';
+    if (has(['ground']) && has(['beef', 'pork'])) return 'meat-fish';
+    if (has(['pepper', 'peppers', 'chili', 'chilli', 'chillies']) && has(PRODUCE_FIRST) && !has(['flakes', 'powder', 'dried', 'oil'])) return 'produce';
+    if (has(['dried']) && has(['apricots', 'lentils', 'shiitake', 'wakame', 'yeast'])) return 'pantry';
+    for (const [a, list] of AISLE_TOK) if (has(list)) return a;
+    return 'other';
+  };
+  function shopSources(e) {
+    if (e.from === 'menu') {
+      const m = menuById(e.id);
+      return m ? m.courses.concat(m.drinks || []).map((c) => c.id).filter((id) => D.byId.has(id)) : [];
+    }
+    return [e.id];
+  }
+  // Ritorna una promessa che si risolve quando ricette, basi fatte in casa e shop.json sono pronti.
+  function shopLoad(e) {
+    const first = e.from === 'menu' ? loadCore().then(loadMenus) : loadCore();
+    return first.then(() => Promise.all(shopSources(e).map(ensure))).then((rs) => {
+      const bids = [...new Set(rs.filter(Boolean).flatMap((r) => (r.mine ? [] : homeBases(r))))];
+      return Promise.all(bids.map(ensure));
+    }).then(loadShop);
+  }
+  function shopReady(e) {
+    if (D.shopSt !== 'ok' || D.st !== 'ok') return false;
+    if (e.from === 'menu' && D.menusSt !== 'ok') return false;
+    return shopSources(e).every((id) => {
+      const r = findRecipe(id);
+      return r && (r.mine ? true : homeBases(r).every((b) => findRecipe(b)));
+    });
+  }
+  function shopModel(e) {
+    const items = new Map();
+    const add = (ing, k) => {
+      const key = (ing.k || slug(ing.n)) + '|' + (ing.u || '');
+      let it = items.get(key);
+      if (!it) { it = { key, k: ing.k || slug(ing.n), u: ing.u || '', q: 0, has: false, n: ing.n }; items.set(key, it); }
+      if (ing.q == null) return;
+      it.q += ing.q * k; it.has = true;
+    };
+    const n = e.n || 1;
+    for (const id of shopSources(e)) {
+      const r = findRecipe(id);
+      if (!r) continue;
+      const serv = n;
+      for (const ing of r.ingredients) {
+        if (ing.make && !r.mine && isHome(ing.make)) {
+          const b = findRecipe(ing.make);
+          if (b) { b.ingredients.forEach((y) => add(y, serv / b.servings)); continue; }
+        }
+        add(ing, serv / r.servings);
+      }
+    }
+    // Un solo rigo per prodotto: stesso nome e unità si sommano; "q.b." sparisce se c'è già una quantità.
+    const byName = new Map();
+    for (const it of items.values()) {
+      const s = D.shop && D.shop[it.k];
+      if (s && s.n && s.n[lang]) it.n = s.n[lang];
+      const nk = norm(it.n) + '|' + it.u;
+      const prev = byName.get(nk);
+      if (prev) { prev.q += it.q; prev.has = prev.has || it.has; prev.keys.push(it.key); }
+      else { it.keys = [it.key]; byName.set(nk, it); }
+    }
+    const quant = new Set([...byName.values()].filter((x) => x.has).map((x) => x.k));
+    const groups = {}, staples = [];
+    for (const it of byName.values()) {
+      if (!it.has && quant.has(it.k)) continue;
+      if (it.has && (it.u === 'g' || it.u === 'ml') && it.q < 10) it.q = Math.ceil(it.q);
+      if (it.has && it.u === '' && it.q > 0) it.q = Math.ceil(it.q - 0.01); // al banco non si compra mezza carota
+      it.qt = it.has ? fmtQty(it.q, it.u) : '';
+      const se = D.shop && D.shop[it.k];
+      if (se ? !!se.pantry : STAPLE.test(it.k)) staples.push(it); // shop.json decide; la regola interna vale solo senza
+
+      else (groups[aisleOf(it.k)] = groups[aisleOf(it.k)] || []).push(it);
+    }
+    const sortN = (a, b) => a.n.localeCompare(b.n, lang);
+    return { groups: AISLES.filter((a) => groups[a]).map((a) => ({ aisle: a, items: groups[a].sort(sortN) })), staples: staples.sort(sortN) };
+  }
+  const shopKey = (e) => `${e.from}:${e.id}`;
+  function shopText(e) {
+    const L = t();
+    const model = shopModel(e);
+    const title = e.from === 'menu' ? ((menuById(e.id) || {}).i18n || {})[lang] : null;
+    const head = `${L.shop}: ${e.from === 'menu' ? (title && title.title) || e.id : (findRecipe(e.id) || {}).title} (${e.from === 'menu' ? L.guests(e.n) : L.serv(e.n)})`;
+    const line = (it) => `- ${it.n}${it.qt ? ': ' + it.qt : ''}`;
+    const parts = [head];
+    model.groups.forEach((g) => parts.push('', L.aisles[g.aisle], ...g.items.map(line)));
+    if (model.staples.length) parts.push('', L.staples, ...model.staples.map(line));
+    return parts.join('\n');
+  }
+  function renderShop() {
+    const L = t();
+    const e = cur();
+    if (!shopReady(e)) {
+      if (e.err) return showError();
+      need(shopLoad(e));
+      return showLoading();
+    }
+    const model = shopModel(e);
+    const ticks = new Set(shopTicks[shopKey(e)] || []);
+    const all = model.groups.flatMap((g) => g.items);
+    const done = all.filter((it) => ticks.has(it.key)).length;
+    const title = e.from === 'menu' ? ((menuById(e.id) || {}).i18n || {})[lang] : null;
+    const name = e.from === 'menu' ? (title && title.title) || e.id : (findRecipe(e.id) || {}).title;
+    let idn = 0;
+    const ids = [];
+    const item = (it) => {
+      const id = 'si-' + (idn++);
+      ids.push([id, it]);
+      return `<button type="button" id="${id}" class="si" aria-pressed="${ticks.has(it.key)}"><span class="box">${icon('check')}</span><span class="nm">${esc(it.n)}</span><span class="qt">${esc(it.qt)}</span></button>`;
+    };
+    let h = `<h1>${icon('cart')}${esc(L.shop)}</h1><div class="shophead"><p class="meta">${esc(name || '')}, ${esc(e.from === 'menu' ? L.guests(e.n) : L.serv(e.n))}</p>${done ? `<span class="progress-note">${esc(L.ticked(done, all.length))}</span>` : ''}</div>`;
+    h += model.groups.map((g) => `<h2>${esc(L.aisles[g.aisle])}</h2>${g.items.map(item).join('')}`).join('');
+    if (model.staples.length) {
+      h += `<div style="margin-top:1rem"></div>` + btn('st-toggle', `${e.open ? '▾' : '▸'} ${esc(L.staples)}`, esc(L.staplesSub(model.staples.length)), '', '', null).replace('<button', `<button aria-expanded="${!!e.open}"`);
+      if (e.open) h += model.staples.map(item).join('');
+    }
+    if (ticks.size) h += `<div style="margin-top:0.8rem">${btn('shop-reset', esc(L.untick), '')}</div>`;
+    $content.innerHTML = h;
+    $footer.innerHTML = '';
+    ids.forEach(([id, it]) => on(id, () => {
+      const set = new Set(shopTicks[shopKey(e)] || []);
+      if (set.has(it.key)) set.delete(it.key); else set.add(it.key);
+      shopTicks[shopKey(e)] = [...set];
+      const keys = Object.keys(shopTicks);
+      if (keys.length > 40) delete shopTicks[keys[0]];
+      store.set('sv_shop', shopTicks);
+      render(id);
+    }));
+    on('st-toggle', () => { e.open = !e.open; render('st-toggle'); });
+    on('shop-reset', () => { delete shopTicks[shopKey(e)]; store.set('sv_shop', shopTicks); render(); });
+    return ids.length ? ids[0][0] : 'st-toggle';
+  }
+
+  function renderSettings() {
+    const L = t();
+    $content.innerHTML = `
+      <h1>${esc(L.settings)}</h1>
+      <h2>${esc(L.language)}</h2>
+      <div class="langs" role="group" aria-label="${esc(L.language)}">${LANGS.map(([k, name]) => `<button type="button" id="lang-${k}" lang="${k}" class="${k === lang ? 'on' : ''}" aria-pressed="${k === lang}">${name}</button>`).join('')}</div>
+      ${btn('toggle-voice', voiceOn ? L.voiceOn : L.voiceOff, L.voiceSub)}
+    `;
+    $footer.innerHTML = btn('settings-back', esc(L.back), '');
+    LANGS.forEach(([k]) => on('lang-' + k, () => setLang(k)));
+    on('toggle-voice', () => { voiceOn = !voiceOn; store.set('sv_voice', voiceOn); render('toggle-voice'); });
+    on('settings-back', () => goBack());
+    return 'lang-' + lang;
+  }
+
+  function setLang(k) {
+    if (!T[k]) return false;
+    lang = k;
+    try { localStorage.setItem('sv_lang', k); } catch (e) { /* resta valida per questa sessione */ }
+    document.documentElement.lang = k;
+    render(cur().s === 'settings' ? 'lang-' + k : activeId());
+    return true;
+  }
+
+  function renderMine() {
+    const L = t();
+    $content.innerHTML = `
+      <h1>${esc(L.mine)}</h1>
+      ${mine.length ? mine.map((r) => mineRow(r, 'open-')).join('') : `<p class="empty">${esc(L.mineEmpty)}</p>`}
+      ${btn('go-create', L.createPlus, L.fromScratch, '', 'create')}
+    `;
+    $footer.innerHTML = '';
+    mine.forEach((r) => on('open-' + r.id, () => go({ s: 'recipe', id: r.id, serv: r.servings })));
+    on('go-create', () => go({ s: 'create' }));
+    return mine.length ? 'open-' + mine[0].id : 'go-create';
+  }
+
+  function renderCreate() {
+    const L = t();
+    $content.innerHTML = `
+      <h1>${esc(L.newRecipe)}</h1>
+      <p class="hint">${esc(L.createHint)}</p>
+      <label for="f-title">${esc(L.name)}</label>
+      <input id="f-title" type="text" placeholder="${esc(L.namePh)}">
+      <label for="f-serv">${esc(L.servLabel)}</label>
+      <input id="f-serv" type="number" value="2" min="1" max="20">
+      <label for="f-ing">${esc(L.ingLabel)}</label>
+      <textarea id="f-ing" placeholder="${esc(L.ingPh)}"></textarea>
+      <label for="f-steps">${esc(L.stepsLabel)}</label>
+      <textarea id="f-steps" placeholder="${esc(L.stepsPh)}"></textarea>
+      <p class="note">${esc(L.aiNote)}</p>
+    `;
+    $footer.innerHTML = btn('f-save', esc(L.saveRecipe), '', 'primary');
+    on('f-save', () => {
+      const title = val('f-title');
+      const steps = splitLines(val('f-steps'));
+      if (!title || !steps.length) { toast(t().needMore); return; }
+      const r = buildRecipe({ title, servings: val('f-serv'), ingredients: val('f-ing'), steps });
+      mine.unshift(r); saveMine();
+      toast(t().recipeSaved);
+      replaceTop({ s: 'recipe', id: r.id, serv: r.servings });
+    });
+    return 'f-title';
+  }
+
+  function renderCompany() {
+    const L = t();
+    $content.innerHTML = `
+      <h1>${esc(L.company)}</h1>
+      <p>${esc(L.companyP)}</p>
+      <p class="note">${L.companySteps}</p>
+      <p class="hint">${esc(L.companySoon)}</p>
+    `;
+    $footer.innerHTML = btn('company-ok', esc(L.chooseRecipe), '', 'primary');
+    on('company-ok', () => goBack());
+    return 'company-ok';
+  }
+
+  // ---------- Render ----------
+  function val(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+  function refocus(id) { const el = document.getElementById(id); if (el) el.focus({ preventScroll: false }); }
+  let lastEntry = null, lastPrimary = null;
+  function render(focusId) {
+    for (const k in handlers) delete handlers[k];
+    ringSig = null;
+    const e = cur();
+    let primary;
+    switch (e.s) {
+      case 'cat': primary = renderCat(); break;
+      case 'sub': primary = renderSub(); break;
+      case 'search': primary = renderSearch(); break;
+      case 'filters': primary = renderFilters(); break;
+      case 'recipe': primary = renderRecipe(); break;
+      case 'cook': primary = renderCook(); break;
+      case 'mine': primary = renderMine(); break;
+      case 'create': primary = renderCreate(); break;
+      case 'company': primary = renderCompany(); break;
+      case 'settings': primary = renderSettings(); break;
+      case 'menus': primary = renderMenus(); break;
+      case 'menu': primary = renderMenu(); break;
+      case 'shop': primary = renderShop(); break;
+      default: e.s = 'home'; primary = renderHome();
+    }
+    if (e !== lastEntry) { $content.scrollTop = 0; lastEntry = e; }
+    renderTimerbar();
+    registerTools();
+    saveStack();
+    lastPrimary = primary;
+    const want = focusId && document.getElementById(focusId) ? focusId : primary;
+    requestAnimationFrame(() => { if (want) refocus(want); });
+  }
+
+  // ---------- Strumenti per Meta AI (WebMCP) ----------
+  let toolsController = null;
+  const isRealNumber = (n) => typeof n === 'number' && isFinite(n);
+  const FILTER_IDS = Object.keys(FX);
+
+  function recipeSummary(r, e) {
+    const serv = e && e.serv ? e.serv : r.servings;
+    const meth = methodOf(r);
+    return {
+      id: r.id, title: r.title, servings: serv, minutes: r.minutes, kcal_per_serving: r.kcal || null,
+      ingredients: scaledIng(r, serv).map((i) => (fmtQty(i.q, i.u) + ' ' + i.n).trim()),
+      steps: r.steps.map((s, i) => { const o = resolveStep(s, meth && meth !== (r.methods || [])[0] ? meth : null, -1, r.id, i); return `${i + 1}. ${o.t}${o.timer ? ` (timer ${Math.round(o.timer / 60)} min${o.bg ? ', keeps running in background' : ''})` : ''}`; }),
+      homemade_options: (r.mine ? [] : basesOf(r)).map((b) => ({ base_id: b.id, ingredient: b.ing.n, base_title: (findRecipe(b.id) || {}).title || titleOf(D.byId.get(b.id)), homemade: isHome(b.id) })),
+      methods: (r.methods || []).map((m) => ({ id: m, name: methodName(m), selected: m === meth })),
+      tips: (r.tips || []).map((tp) => ({ kind: tp.k, text: tp.t, ...(tp.link && D.byId.has(tp.link) ? { linked_recipe_id: tp.link, linked_recipe_title: titleOf(D.byId.get(tp.link)) } : {}) }))
+    };
+  }
+  function findByTitle(q) {
+    const id = String(q || '').trim();
+    if (!id) return null;
+    if (findMine(id)) return id;
+    if (D.byId.has(id)) return id;
+    const n = norm(id);
+    const m = mine.find((r) => norm(r.title) === n) || mine.find((r) => norm(r.title).includes(n));
+    if (m) return m.id;
+    const ex = D.idx.find((x) => Object.values(x.t).some((ti) => norm(ti) === n));
+    if (ex) return ex.id;
+    const hit = search(id, { filters: [], anyLang: true })[0];
+    return hit ? hit.id : null;
+  }
+  const catFrom = (c) => {
+    if (!c || !D.tree) return null;
+    const n = norm(c);
+    const k = D.tree.cats.find((x) => x.id === c || Object.values(x.name).some((v) => norm(v) === n));
+    return k ? k.id : null;
+  };
+
+  let toolsKey = '';
+  function registerTools() {
+    if (!document.modelContext || typeof document.modelContext.registerTool !== 'function') return;
+    const e = cur();
+    const key = [e.s, e.id || '', lang, D.st, D.menusSt].join('|');
+    if (key === toolsKey) return;
+    toolsKey = key;
+    if (toolsController) toolsController.abort();
+    toolsController = new AbortController();
+    const signal = toolsController.signal;
+    const reg = (def) => {
+      try {
+        const p = document.modelContext.registerTool(def, { signal });
+        if (p && p.catch) p.catch(() => {});
+      } catch (er) { /* uno strumento che non si registra non deve bloccare l'app */ }
+    };
+    const core = () => withTimeout(loadCore(), 8000);
+
+    reg({
+      name: 'recipes_search',
+      description: 'Searches the SousView cookbook (about 260 recipes) by dish name, diet/style filters and category. Returns up to 10 matches with ids, titles in the app language and minutes. Use recipe_open with an id to show one.',
+      annotations: { readOnlyHint: true },
+      inputSchema: {
+        type: 'object',
+        properties: {
+          query: { type: 'string', description: 'Words from the dish name, in any of the 5 languages. Leave empty to browse by filters or category.' },
+          filters: { type: 'array', items: { type: 'string', enum: FILTER_IDS }, description: 'Optional. veg, vegan, gf (gluten-free), lf (lactose-free), light (≤450 kcal), quick (≤25 min), season (in season this month), nonna (traditional Italian home cooking), world (non-Italian). If omitted, the filters the user set in the app apply.' },
+          category: { type: 'string', description: 'Optional category id or name, from categories_list.' }
+        }
+      },
+      async execute(input) {
+        try { await core(); } catch (er) { return { error: 'offline', next_action: 'Say the recipes could not be loaded. Stop.' }; }
+        const fs = Array.isArray(input && input.filters) ? input.filters.filter((k) => FX[k]) : filters;
+        const cat = catFrom(input && input.category);
+        const q = String((input && input.query) || '').trim();
+        let list = q ? search(q, { filters: fs, cat, anyLang: true }) : D.idx.filter((x) => (!cat || x.c === cat) && passes(x, fs));
+        const total = list.length;
+        list = list.slice(0, 10);
+        return {
+          language: NAME_EN[lang], total_matches: total, filters_applied: fs,
+          results: list.map((x) => ({ id: x.id, title: titleOf(x), minutes: x.m, kcal: x.k, category: nm(catOf(x.c)) })),
+          next_action: total ? 'Offer the user a few of these in one short sentence, or call recipe_open.' : 'Say nothing matched and suggest fewer filters. Stop.'
+        };
+      }
+    });
+    reg({
+      name: 'categories_list',
+      description: 'Lists the cookbook categories and their subcategories with recipe counts that respect the active filters.',
+      annotations: { readOnlyHint: true },
+      async execute() {
+        try { await core(); } catch (er) { return { error: 'offline' }; }
+        return {
+          language: NAME_EN[lang], active_filters: filters,
+          categories: D.tree.cats.map((c) => ({ id: c.id, name: nm(c), count: countFor((x) => x.c === c.id), subcategories: c.subs.map((s) => ({ id: s.id, name: nm(s), count: countFor((x) => x.c === c.id && x.s === s.id) })) })),
+          next_action: 'Answer briefly. Use recipes_search with a category to list dishes.'
+        };
+      }
+    });
+    reg({
+      name: 'filters_set',
+      description: 'Sets the diet and style filters the user browses with in the app (they persist). Mode replace (default) sets exactly these; add or remove changes them.',
+      inputSchema: {
+        type: 'object',
+        properties: {
+          filters: { type: 'array', items: { type: 'string', enum: FILTER_IDS }, description: 'Filter ids. An empty list with mode replace clears all filters.' },
+          mode: { type: 'string', enum: ['replace', 'add', 'remove'] }
+        },
+        required: ['filters']
+      },
+      async execute(input) {
+        const list = (Array.isArray(input && input.filters) ? input.filters : []).filter((k) => FX[k]);
+        const mode = (input && input.mode) || 'replace';
+        setFilters(mode === 'add' ? filters.concat(list) : mode === 'remove' ? filters.filter((k) => !list.includes(k)) : list);
+        try { await core(); } catch (er) { /* conta dopo */ }
+        render(activeId());
+        return { active_filters: filters, matching_recipes: D.st === 'ok' ? countFor(() => true) : null, next_action: 'Confirm in one short sentence. Stop.' };
+      }
+    });
+    reg({
+      name: 'recipes_list',
+      description: 'Lists today\'s seasonal picks shown on the home screen and the user\'s own saved recipes.',
+      annotations: { readOnlyHint: true },
+      async execute() {
+        try { await core(); } catch (er) { /* solo le mie */ }
+        return {
+          language: NAME_EN[lang],
+          seasonal: D.st === 'ok' ? spotlight().map((x) => ({ id: x.id, title: titleOf(x), minutes: x.m })) : [],
+          mine: mine.map((r) => ({ id: r.id, title: r.title })),
+          next_action: 'Tell the user the options in one short sentence, or call recipe_open. For anything else use recipes_search.'
+        };
+      }
+    });
+    reg({
+      name: 'recipe_open',
+      description: 'Opens a recipe on the display, by id or by title in any language, ready to start cooking.',
+      inputSchema: { type: 'object', properties: { recipe: { type: 'string', description: 'Recipe id (from recipes_search) or its title in any language.' }, servings: { type: 'number', description: 'Optional number of servings.' } }, required: ['recipe'] },
+      async execute(input) {
+        try { await core(); } catch (er) { if (!findMine(String(input && input.recipe))) return { error: 'offline', next_action: 'Say the recipes could not be loaded. Stop.' }; }
+        const id = findByTitle(input && input.recipe);
+        if (!id) return { error: 'not_found', message: 'No recipe with that name.', next_action: 'Call recipes_search with other words.' };
+        let r;
+        try { r = await withTimeout(ensure(id), 8000); } catch (er) { return { error: 'offline', next_action: 'Say the recipe could not be loaded. Stop.' }; }
+        const n = Math.round(Number(input && input.servings));
+        go({ s: 'recipe', id, serv: n >= 1 && n <= 20 ? n : r.servings });
+        return { opened: r.title, id, servings: cur().serv, minutes: r.minutes, next_action: 'Say it is open in one short sentence. Stop.' };
+      }
+    });
+    reg({
+      name: 'recipe_create',
+      description: `Creates and saves a new recipe in the user's collection (My recipes), then opens it. Use it when the user asks you to invent a recipe, write one from scratch, or save a changed version of a recipe. Write the title, ingredients and steps in ${NAME_EN[lang]}, the app's current language. Each step must be one short action; write durations like "${t().durEx}" inside a step so the app starts a timer for it.`,
+      inputSchema: {
+        type: 'object',
+        properties: {
+          title: { type: 'string', description: 'Short recipe name.' },
+          servings: { type: 'number', description: 'Number of servings the quantities are for.' },
+          ingredients: { type: 'string', description: 'Ingredients separated by semicolons, each as quantity, unit, name. Units: g, kg, ml, l, tbsp, tsp, or none.' },
+          steps: { type: 'string', description: 'Steps separated by semicolons, in order.' },
+          based_on: { type: 'string', description: 'Id of the recipe this one changes, if any.' }
+        },
+        required: ['title', 'ingredients', 'steps']
+      },
+      async execute(input) {
+        const title = String((input && input.title) || '').trim();
+        const steps = splitLines(input && input.steps);
+        const ings = splitLines(input && input.ingredients);
+        if (!title || steps.length < 1 || ings.length < 1) return { error: 'incomplete', message: 'A title, at least one ingredient and one step are needed.', next_action: 'Call recipe_create again with all three.' };
+        if (steps.length > 30 || ings.length > 40) return { error: 'too_long', next_action: 'Shorten the recipe and call recipe_create again.' };
+        const bid = input.based_on && String(input.based_on);
+        const r = buildRecipe({ title, servings: isRealNumber(input.servings) ? input.servings : 2, ingredients: ings, steps, basedOn: bid && (findMine(bid) || D.byId.has(bid)) ? bid : null });
+        mine.unshift(r); saveMine();
+        go({ s: 'recipe', id: r.id, serv: r.servings });
+        return { saved: r.title, language: NAME_EN[lang], steps: r.steps.length, timers: r.steps.filter((s) => s.timer).length, next_action: `Say the recipe is saved and on screen, in one short sentence in ${NAME_EN[lang]}. Stop.` };
+      }
+    });
+    reg({
+      name: 'menus_list',
+      description: 'Lists the curated full menus (starter to dessert, with drink pairings and a cook\'s game plan).',
+      annotations: { readOnlyHint: true },
+      async execute() {
+        try { await withTimeout(loadMenus(), 8000); await core(); } catch (er) { return { error: 'offline' }; }
+        const L = t();
+        return {
+          language: NAME_EN[lang],
+          menus: (D.menus || []).map((m) => ({ id: m.id, title: (m.i18n[lang] || m.i18n.en || {}).title, courses: m.courses.map((c) => `${L.roles[c.role] || c.role}: ${D.byId.has(c.id) ? titleOf(D.byId.get(c.id)) : c.id}`), diet: m.diet || [] })),
+          next_action: 'Offer them in one short sentence, or call menu_open.'
+        };
+      }
+    });
+    reg({
+      name: 'menu_open',
+      description: 'Opens a curated menu on the display, by id or title.',
+      inputSchema: { type: 'object', properties: { menu: { type: 'string', description: 'Menu id or title from menus_list.' }, guests: { type: 'number', description: 'Optional number of guests.' } }, required: ['menu'] },
+      async execute(input) {
+        try { await withTimeout(loadMenus(), 8000); await core(); } catch (er) { return { error: 'offline' }; }
+        const q = String((input && input.menu) || '');
+        const n = norm(q);
+        const m = menuById(q) || (D.menus || []).find((x) => Object.values(x.i18n).some((v) => norm(v.title) === n)) || (D.menus || []).find((x) => Object.values(x.i18n).some((v) => norm(v.title).includes(n)));
+        if (!m || !n) return { error: 'not_found', options: (D.menus || []).map((x) => (x.i18n[lang] || x.i18n.en || {}).title), next_action: 'Ask which of the options they want.' };
+        const g = Math.round(Number(input && input.guests));
+        go({ s: 'menu', id: m.id, guests: g >= 1 && g <= 24 ? g : 4 });
+        return { opened: (m.i18n[lang] || m.i18n.en).title, guests: cur().guests, next_action: 'Say it is open in one short sentence. Stop.' };
+      }
+    });
+    reg({
+      name: 'shopping_list',
+      description: 'Returns a shopping list as plain text in the app language, grouped by supermarket aisle, for a recipe or a whole menu. Without arguments it uses the recipe or menu on screen. Read it to the user or send it as a message.',
+      annotations: { readOnlyHint: true },
+      inputSchema: { type: 'object', properties: { recipe: { type: 'string', description: 'Optional recipe id or title.' }, menu: { type: 'string', description: 'Optional menu id.' }, people: { type: 'number', description: 'Optional servings or guests.' } } },
+      async execute(input) {
+        const c = cur();
+        let e = null;
+        const ppl = Math.round(Number(input && input.people));
+        try {
+          await core();
+          if (input && input.menu) { await loadMenus(); const m = menuById(String(input.menu)) || (D.menus || []).find((x) => Object.values(x.i18n).some((v) => norm(v.title) === norm(input.menu))); if (m) e = { from: 'menu', id: m.id, n: 4 }; }
+          else if (input && input.recipe) { const id = findByTitle(input.recipe); if (id) { const r = await ensure(id); e = { from: 'recipe', id, n: r.servings }; } }
+          else if (c.s === 'shop') e = { from: c.from, id: c.id, n: c.n };
+          else if (c.s === 'menu') e = { from: 'menu', id: c.id, n: c.guests || 4 };
+          else if ((c.s === 'recipe' || c.s === 'cook') && c.id) e = { from: 'recipe', id: c.id, n: c.serv || (findRecipe(c.id) || {}).servings || 2 };
+          if (!e) return { error: 'nothing_selected', next_action: 'Ask which recipe or menu the list is for.' };
+          if (ppl >= 1 && ppl <= 24) e.n = ppl;
+          await withTimeout(shopLoad(e), 9000);
+        } catch (er) { return { error: 'offline', next_action: 'Say the list could not be prepared. Stop.' }; }
+        return { language: NAME_EN[lang], text: shopText(e), next_action: 'Read it briefly or send it if the user asked. Pantry staples are listed last: mention them as things to check.' };
+      }
+    });
+
+    if (e.s === 'home' || e.s === 'settings') {
+      reg({
+        name: 'language_set',
+        description: 'Changes the language of the app on the glasses: menus, recipes, timers and voice alerts. Supported: Italian, English, French, Spanish, German. Recipes the user saved stay in the language they were written in.',
+        inputSchema: { type: 'object', properties: { language: { type: 'string', enum: ['it', 'en', 'fr', 'es', 'de'], description: 'Language code.' } }, required: ['language'] },
+        async execute(input) {
+          const k = input && input.language;
+          if (!T[k]) return { error: 'unsupported_language', supported: LANGS.map(([c]) => c), next_action: 'Say which languages are available. Stop.' };
+          setLang(k);
+          return { language: k, next_action: 'Confirm in one short sentence. Stop.' };
+        }
+      });
+    }
+
+    if (e.s === 'recipe' || e.s === 'cook') {
+      const r = findRecipe(e.id);
+      if (r) {
+        reg({
+          name: 'recipe_current',
+          description: 'Returns the recipe on screen: ingredients for the chosen servings, all steps for the chosen cooking method, homemade-or-store-bought options, cooking methods and tips. Use it before suggesting changes or a variant.',
+          annotations: { readOnlyHint: true },
+          async execute() { return { ...recipeSummary(r, e), current_step: e.s === 'cook' ? e.step + 1 : null, next_action: 'Answer the user briefly; to save a changed version call recipe_create with based_on.' }; }
+        });
+        reg({
+          name: 'servings_set',
+          description: 'Changes how many servings the recipe on screen is for. Quantities are recalculated by the app.',
+          inputSchema: { type: 'object', properties: { servings: { type: 'number', description: 'Whole number from 1 to 20.' } }, required: ['servings'] },
+          async execute(input) {
+            const n = Math.round(Number(input && input.servings));
+            if (!isFinite(n) || n < 1 || n > 20) return { error: 'out_of_range', next_action: 'Ask for a number between 1 and 20.' };
+            e.serv = n; render(activeId());
+            return { servings: n, next_action: 'Confirm in one short sentence. Stop.' };
+          }
+        });
+      }
+      if (r && e.s === 'recipe') {
+        reg({
+          name: 'homemade_set',
+          description: 'Chooses store-bought or homemade for an ingredient that can be made at home (fresh pasta, pizza dough, broth, sauces…). Homemade adds that base recipe\'s steps before the dish when cooking. See homemade_options in recipe_current.',
+          inputSchema: { type: 'object', properties: { base: { type: 'string', description: 'base_id from recipe_current, the ingredient name, or "all".' }, homemade: { type: 'boolean' } }, required: ['base', 'homemade'] },
+          async execute(input) {
+            const bs = basesOf(r);
+            if (!bs.length) return { error: 'no_options', next_action: 'Say this recipe has nothing to make at home. Stop.' };
+            const q = String((input && input.base) || '');
+            const pick = q === 'all' ? bs : bs.filter((b) => b.id === q || norm(b.ing.n).includes(norm(q)) || norm(q).includes(norm(b.ing.n)));
+            if (!pick.length) return { error: 'not_found', options: bs.map((b) => b.id), next_action: 'Call homemade_set with one of the options.' };
+            pick.forEach((b) => setHome(b.id, !!(input && input.homemade)));
+            try { await withTimeout(Promise.all(pick.map((b) => ensure(b.id))), 8000); } catch (er) { /* si vedrà il caricamento */ }
+            render(activeId());
+            return { changed: pick.map((b) => b.id), homemade: !!input.homemade, next_action: 'Confirm in one short sentence. Stop.' };
+          }
+        });
+        if ((r.methods || []).length > 1) {
+          reg({
+            name: 'method_set',
+            description: 'Chooses the cooking method for the recipe on screen (for example oven or air fryer). Steps and timers adapt.',
+            inputSchema: { type: 'object', properties: { method: { type: 'string', enum: r.methods, description: 'Method id.' } }, required: ['method'] },
+            async execute(input) {
+              const m = String((input && input.method) || '');
+              const id = r.methods.find((x) => x === m || norm(methodName(x)) === norm(m));
+              if (!id) return { error: 'not_available', options: r.methods, next_action: 'Offer the available methods. Stop.' };
+              setMethod(r, id); render(activeId());
+              return { method: id, name: methodName(id), next_action: 'Confirm in one short sentence. Stop.' };
+            }
+          });
+        }
+      }
+    }
+
+    if (e.s === 'cook') {
+      reg({
+        name: 'step_next',
+        description: 'Moves to the next cooking step. If that step has a timer, the app starts it.',
+        async execute() {
+          const p = planOf(cur());
+          if (!p) return { error: 'not_cooking' };
+          moveStep(1);
+          const c = cur();
+          if (c.step >= p.steps.length) return { finished: true, next_action: 'Say the recipe is done. Stop.' };
+          const s = p.steps[c.step];
+          return { step: c.step + 1, of: p.steps.length, timer_started_minutes: s.timer ? Math.round(s.timer / 60) : null, next_action: 'Do not read the step aloud; the user sees it. Say nothing or one short word. Stop.' };
+        }
+      });
+      reg({
+        name: 'step_previous',
+        description: 'Goes back to the previous cooking step.',
+        async execute() {
+          const c = cur();
+          if (c.step === 0) return { error: 'first_step', next_action: 'Say this is already the first step. Stop.' };
+          moveStep(-1);
+          return { step: cur().step + 1, next_action: 'Stop.' };
+        }
+      });
+      reg({
+        name: 'timer_start',
+        description: 'Starts an extra kitchen timer shown at the top of the display, for example for something not in the recipe.',
+        inputSchema: { type: 'object', properties: { minutes: { type: 'number', description: 'Duration in minutes, 1 to 240.' }, label: { type: 'string', description: 'Short name for what is cooking.' } }, required: ['minutes'] },
+        async execute(input) {
+          const m = Number(input && input.minutes);
+          if (!isFinite(m) || m < 0.25 || m > 240) return { error: 'out_of_range', next_action: 'Ask for a duration between 1 and 240 minutes.' };
+          const label = String((input && input.label) || '').trim().slice(0, 20);
+          const tm = startTimer(Math.round(m * 60), label || null);
+          return { started: timerLabel(tm), minutes: m, running_timers: timers.filter((x) => !x.done).length, next_action: 'Confirm in one short sentence. Stop.' };
+        }
+      });
+      reg({
+        name: 'timer_status',
+        description: 'Tells how much time is left on each running kitchen timer.',
+        annotations: { readOnlyHint: true },
+        async execute() {
+          return { timers: timers.map((x) => ({ label: timerLabel(x), left: x.done ? 'done' : fmtClock(x.remaining), paused: x.paused })), next_action: 'Answer in one short sentence. Stop.' };
+        }
+      });
+    }
+  }
+
+  // ---------- Avvio ----------
+  document.documentElement.lang = lang;
+  loadCore().catch(() => {});
+  loadMenus();
+  render();
+  if (navigator.wakeLock && navigator.wakeLock.request) {
+    navigator.wakeLock.request('screen').catch(() => {});
+  }
+})();
+</script>
+</body>
+</html>

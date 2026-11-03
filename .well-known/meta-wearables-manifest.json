@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "SousView",
+  "description": "Ricettario completo passo passo: timer automatici, menù con abbinamenti, lista della spesa e porzioni ricalcolate.",
+  "appearance": {
+    "theme_color": "#FF7A1A",
+    "icon": {
+      "src": "../icon.svg",
+      "type": "monochrome"
+    }
+  }
+}
