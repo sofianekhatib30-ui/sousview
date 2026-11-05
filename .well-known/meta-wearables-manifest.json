@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "FixView",
+  "description": "Hands-free repairs and DIY, one step at a time: timers, mid-job checks and safety rules for your country. In 5 languages.",
+  "appearance": {
+    "theme_color": "#FFD23F",
+    "icon": {
+      "src": "../icon.svg",
+      "type": "monochrome"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{"group": "EXAMPLE", "guides": [
+{
+  "id": "spurgare-termosifone",
+  "cat": "idraulica",
+  "diff": 1, "active": 15, "total": 30,
+  "risk": 1, "topic": "water",
+  "allow": {},
+  "ppe": ["gloves"],
+  "tags": [],
+  "months": [10, 11, 12, 1, 2],
+  "tools": [{"k": "radiator-key"}, {"k": "flat-screwdriver", "own": true}],
+  "mats": [{"k": "cloth", "q": 1, "u": "", "own": true}, {"k": "small-container", "q": 1, "u": "", "own": true}],
+  "steps": [
+    {"ic": "power-off", "timer": 1200, "warn": 1},
+    {"ic": "look"},
+    {"ic": "clean"},
+    {"ic": "loosen"},
+    {"ic": "drop", "check": true},
+    {"ic": "tighten"},
+    {"ic": "measure", "check": true}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Spurgare un termosifone",
+      "intro": "Se è caldo sotto e freddo sopra, c'è aria: la fai uscire in pochi minuti.",
+      "tools": ["Chiavetta per termosifoni", "Cacciavite piatto"],
+      "mats": ["Panno asciutto", "Bicchiere o ciotolina"],
+      "steps": [
+        "Spegni il riscaldamento e aspetta che il termosifone sia tiepido.",
+        "Trova la valvolina di sfiato: in alto, sul lato opposto al rubinetto.",
+        "Metti il panno e il bicchiere sotto la valvolina.",
+        "Gira la chiavetta di un quarto di giro in senso antiorario: senti uscire l'aria.",
+        "Aspetta che esca un filo d'acqua continuo, senza bolle.",
+        "Richiudi in senso orario senza stringere troppo.",
+        "Controlla la pressione della caldaia: di solito tra [[1-1.5 bar]] a impianto freddo."
+      ],
+      "labels": ["Raffreddamento", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Esce acqua senza bolle?", "fix": "Se esce solo aria, aspetta ancora. Se non esce niente, la valvolina può essere otturata: puliscila con uno spillo."},
+        "6": {"q": "La pressione è nella zona giusta?", "fix": "Se è bassa, riportala al valore indicato sul manuale con il rubinetto di carico della caldaia."}
+      },
+      "warns": {"0": "L'acqua del termosifone acceso scotta: aspetta che si raffreddi."},
+      "tips": ["Parti dal termosifone più vicino alla caldaia e vai verso il più lontano.", "Rifallo a inizio inverno: il riscaldamento consuma meno."]
+    },
+    "en": {
+      "title": "Bleed a radiator",
+      "intro": "Warm at the bottom, cold at the top means trapped air: let it out in minutes.",
+      "tools": ["Radiator key", "Flat screwdriver"],
+      "mats": ["Dry cloth", "Small cup or bowl"],
+      "steps": [
+        "Turn the heating off and wait until the radiator is lukewarm.",
+        "Find the bleed valve: at the top, on the side opposite the main valve.",
+        "Hold the cloth and the cup under the bleed valve.",
+        "Turn the key a quarter turn anticlockwise: you'll hear air hiss out.",
+        "Wait until a steady trickle of water comes out, with no bubbles.",
+        "Close it clockwise without overtightening.",
+        "Check the boiler pressure: usually [[1-1.5 bar]] with the system cold."
+      ],
+      "labels": ["Cool down", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Is water coming out with no bubbles?", "fix": "If it's still only air, keep waiting. If nothing comes out, the valve may be clogged: clear it with a pin."},
+        "6": {"q": "Is the pressure in the right range?", "fix": "If it's low, top it up to the value in the manual with the boiler's filling loop."}
+      },
+      "warns": {"0": "Water from a hot radiator scalds: let it cool first."},
+      "tips": ["Start with the radiator nearest the boiler and work outwards.", "Do it at the start of winter: the heating uses less energy."]
+    },
+    "fr": {
+      "title": "Purger un radiateur",
+      "intro": "Chaud en bas, froid en haut : il y a de l'air. Tu le fais sortir en quelques minutes.",
+      "tools": ["Clé de purge", "Tournevis plat"],
+      "mats": ["Chiffon sec", "Petit verre ou bol"],
+      "steps": [
+        "Coupe le chauffage et attends que le radiateur soit tiède.",
+        "Repère la vis de purge : en haut, du côté opposé au robinet.",
+        "Place le chiffon et le verre sous la vis de purge.",
+        "Tourne la clé d'un quart de tour vers la gauche : l'air s'échappe en sifflant.",
+        "Attends qu'un filet d'eau continu sorte, sans bulles.",
+        "Referme vers la droite sans trop serrer.",
+        "Vérifie la pression de la chaudière : en général [[1-1.5 bar]] à froid."
+      ],
+      "labels": ["Refroidissement", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "L'eau sort-elle sans bulles ?", "fix": "S'il ne sort que de l'air, attends encore. S'il ne sort rien, la vis est peut-être bouchée : débouche-la avec une épingle."},
+        "6": {"q": "La pression est-elle dans la bonne zone ?", "fix": "Si elle est basse, remets-la à la valeur du manuel avec le robinet de remplissage de la chaudière."}
+      },
+      "warns": {"0": "L'eau d'un radiateur chaud brûle : laisse-le refroidir."},
+      "tips": ["Commence par le radiateur le plus proche de la chaudière, puis éloigne-toi.", "Fais-le au début de l'hiver : le chauffage consomme moins."]
+    },
+    "es": {
+      "title": "Purgar un radiador",
+      "intro": "Caliente abajo y frío arriba: tiene aire. Lo sacas en pocos minutos.",
+      "tools": ["Llave de purga", "Destornillador plano"],
+      "mats": ["Trapo seco", "Vaso o cuenco pequeño"],
+      "steps": [
+        "Apaga la calefacción y espera a que el radiador esté templado.",
+        "Busca el purgador: arriba, en el lado contrario a la llave de paso.",
+        "Pon el trapo y el vaso debajo del purgador.",
+        "Gira la llave un cuarto de vuelta a la izquierda: oirás salir el aire.",
+        "Espera a que salga un hilo de agua continuo, sin burbujas.",
+        "Cierra hacia la derecha sin apretar demasiado.",
+        "Mira la presión de la caldera: suele estar entre [[1-1.5 bar]] en frío."
+      ],
+      "labels": ["Enfriar", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "¿Sale agua sin burbujas?", "fix": "Si solo sale aire, espera un poco más. Si no sale nada, el purgador puede estar obstruido: límpialo con un alfiler."},
+        "6": {"q": "¿La presión está en la zona correcta?", "fix": "Si está baja, súbela al valor del manual con la llave de llenado de la caldera."}
+      },
+      "warns": {"0": "El agua de un radiador encendido quema: deja que se enfríe."},
+      "tips": ["Empieza por el radiador más cercano a la caldera y sigue hacia el más lejano.", "Hazlo al empezar el invierno: la calefacción gasta menos."]
+    },
+    "de": {
+      "title": "Heizkörper entlüften",
+      "intro": "Unten warm, oben kalt heißt Luft im Heizkörper: Du lässt sie in Minuten raus.",
+      "tools": ["Entlüftungsschlüssel", "Schlitzschraubendreher"],
+      "mats": ["Trockener Lappen", "Kleiner Becher"],
+      "steps": [
+        "Schalte die Heizung aus und warte, bis der Heizkörper lauwarm ist.",
+        "Such das Entlüftungsventil: oben, auf der Seite gegenüber dem Thermostat.",
+        "Halte Lappen und Becher unter das Ventil.",
+        "Dreh den Schlüssel eine Vierteldrehung gegen den Uhrzeigersinn: Luft zischt raus.",
+        "Warte, bis gleichmäßig Wasser ohne Blasen kommt.",
+        "Schließ das Ventil im Uhrzeigersinn, ohne zu fest anzuziehen.",
+        "Prüf den Anlagendruck: meist [[1-1.5 bar]] bei kalter Anlage."
+      ],
+      "labels": ["Abkühlen", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Kommt Wasser ohne Blasen?", "fix": "Kommt nur Luft, warte noch. Kommt gar nichts, ist das Ventil vielleicht verstopft: mit einer Nadel freimachen."},
+        "6": {"q": "Liegt der Druck im richtigen Bereich?", "fix": "Ist er zu niedrig, füll über den Füllhahn der Heizung bis zum Wert aus der Anleitung nach."}
+      },
+      "warns": {"0": "Wasser aus einem heißen Heizkörper verbrüht: erst abkühlen lassen."},
+      "tips": ["Fang beim Heizkörper nächst der Heizung an und arbeite dich nach außen vor.", "Mach es zu Winterbeginn: Die Heizung verbraucht dann weniger."]
+    }
+  }
+}
+]}

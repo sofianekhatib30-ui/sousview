@@ -1,0 +1,2600 @@
+{
+ "group": "B",
+ "guides": [
+  {
+   "id": "montare-cassettiera-kit",
+   "cat": "montaggio",
+   "diff": 2,
+   "active": 120,
+   "total": 120,
+   "risk": 0,
+   "topic": null,
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "phillips-screwdriver",
+     "own": true
+    },
+    {
+     "k": "allen-key"
+    },
+    {
+     "k": "rubber-mallet"
+    },
+    {
+     "k": "tape-measure"
+    },
+    {
+     "k": "hammer",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "small-container",
+     "q": 4,
+     "u": "",
+     "own": true
+    }
+   ],
+   "steps": [
+    {
+     "ic": "box"
+    },
+    {
+     "ic": "look",
+     "check": true
+    },
+    {
+     "ic": "screw"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "tighten"
+    },
+    {
+     "ic": "measure",
+     "check": true
+    },
+    {
+     "ic": "hammer"
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "box"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "check",
+     "check": true
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Montare una cassettiera in kit",
+     "intro": "Cassettiera arrivata in scatola? La monti in squadra, con i cassetti che scorrono bene.",
+     "tools": [
+      "Cacciavite a croce",
+      "Chiave a brugola (in dotazione)",
+      "Martello di gomma",
+      "Metro",
+      "Martello"
+     ],
+     "mats": [
+      "Ciotoline o vaschette"
+     ],
+     "steps": [
+      "Apri la scatola a terra, appiattisci il cartone e usalo come piano di lavoro per non rigare i pannelli.",
+      "Conta pannelli e minuteria confrontandoli con l'elenco delle istruzioni, codice per codice.",
+      "Dividi viti, eccentrici, spine e chiodini per codice in ciotoline separate.",
+      "Infila le spine di legno e i perni degli eccentrici nei fori dei fianchi, come mostra il disegno.",
+      "Unisci fianchi, top e fondo; gira gli eccentrici in senso orario finché fanno presa, circa mezzo giro.",
+      "Misura le due diagonali della struttura: devono essere uguali, al massimo [[2 mm]] di differenza.",
+      "Infila il pannello posteriore e fissalo con i chiodini ogni [[15 cm]], tenendo la struttura in squadra.",
+      "Avvita le guide all'interno dei fianchi nei fori già fatti, alla stessa altezza a destra e a sinistra.",
+      "Monta ogni cassetto: fianchi, frontale, fondo infilato nelle scanalature, poi il retro.",
+      "Avvita le guide ai cassetti e infila ogni cassetto nelle sue guide fino a sentire lo scatto.",
+      "Chiudi tutti i cassetti e guarda le fessure tra i frontali."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Ci sono tutti i pezzi dell'elenco?",
+       "fix": "Non iniziare: annota il codice mancante e contatta il negozio, di solito lo mandano gratis."
+      },
+      "5": {
+       "q": "Le due diagonali sono uguali?",
+       "fix": "Spingi piano l'angolo della diagonale più lunga finché tornano uguali, poi fissa subito il pannello dietro."
+      },
+      "10": {
+       "q": "Le fessure sono regolari e i cassetti scorrono bene?",
+       "fix": "Allenta le viti della guida, spostala nelle asole e riserra. Ricontrolla che la struttura sia ancora in squadra."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Ferma l'eccentrico appena fa presa: se forzi, il truciolare si sbriciola e non tiene più.",
+      "Non stringere a fondo le viti finché la struttura non è completa: serra tutto alla fine.",
+      "Se è più alta di [[80 cm]], fissala al muro contro il ribaltamento, soprattutto con bambini in casa."
+     ]
+    },
+    "en": {
+     "title": "Assemble a flat-pack chest of drawers",
+     "intro": "Chest of drawers in a box? Build it square, with drawers that run smoothly.",
+     "tools": [
+      "Phillips screwdriver",
+      "Allen key (supplied)",
+      "Rubber mallet",
+      "Tape measure",
+      "Hammer"
+     ],
+     "mats": [
+      "Small bowls or tubs"
+     ],
+     "steps": [
+      "Open the box on the floor, flatten the cardboard and use it as a work mat so the panels don't get scratched.",
+      "Count the panels and fittings against the parts list in the manual, code by code.",
+      "Sort screws, cam locks, dowels and nails by code into separate bowls.",
+      "Push the wooden dowels and cam bolts into the side panel holes, as shown in the drawings.",
+      "Join sides, top and base; turn the cam locks clockwise until they grip, about half a turn.",
+      "Measure both diagonals of the frame: they should match within [[2 mm]].",
+      "Slide in the back panel and nail it every [[15 cm]], keeping the frame square.",
+      "Screw the drawer runners inside the sides into the pre-drilled holes, same height left and right.",
+      "Build each drawer: sides, front, base slid into the grooves, then the back.",
+      "Screw the runners to the drawers and slide each drawer onto its runners until it clicks.",
+      "Close all the drawers and look at the gaps between the fronts."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Are all the parts on the list there?",
+       "fix": "Don't start: note the missing part code and contact the shop, they usually send it free."
+      },
+      "5": {
+       "q": "Are the two diagonals the same?",
+       "fix": "Gently push the corner of the longer diagonal until they match, then fix the back panel straight away."
+      },
+      "10": {
+       "q": "Are the gaps even and do the drawers run smoothly?",
+       "fix": "Loosen the runner screws, shift the runner in its slotted holes and retighten. Check the frame is still square."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Stop turning a cam lock as soon as it grips: force it and the chipboard crumbles and won't hold.",
+      "Leave screws slightly loose until the whole frame is together, then tighten everything.",
+      "Over [[80 cm]] tall? Fix it to the wall against tipping, especially with children at home."
+     ]
+    },
+    "fr": {
+     "title": "Monter une commode en kit",
+     "intro": "Commode livrée en carton ? Tu la montes d'équerre, avec des tiroirs qui coulissent bien.",
+     "tools": [
+      "Tournevis cruciforme",
+      "Clé Allen (fournie)",
+      "Maillet en caoutchouc",
+      "Mètre ruban",
+      "Marteau"
+     ],
+     "mats": [
+      "Petits bols ou barquettes"
+     ],
+     "steps": [
+      "Ouvre le carton par terre, aplatis-le et sers-t'en comme plan de travail pour ne pas rayer les panneaux.",
+      "Compte les panneaux et la quincaillerie avec la liste de la notice, référence par référence.",
+      "Trie vis, excentriques, tourillons et pointes par référence dans des bols séparés.",
+      "Enfonce les tourillons en bois et les tiges des excentriques dans les trous des côtés, comme sur le schéma.",
+      "Assemble côtés, dessus et fond ; tourne les excentriques vers la droite jusqu'à ce qu'ils serrent, environ un demi-tour.",
+      "Mesure les deux diagonales du caisson : elles doivent être égales, à [[2 mm]] près.",
+      "Glisse le panneau du fond et cloue-le tous les [[15 cm]], en gardant le caisson d'équerre.",
+      "Visse les coulisses à l'intérieur des côtés dans les trous prépercés, à la même hauteur à gauche et à droite.",
+      "Monte chaque tiroir : côtés, façade, fond glissé dans les rainures, puis l'arrière.",
+      "Visse les coulisses sur les tiroirs et engage chaque tiroir sur ses coulisses jusqu'au clic.",
+      "Ferme tous les tiroirs et regarde les jours entre les façades."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Toutes les pièces de la liste sont-elles là ?",
+       "fix": "Ne commence pas : note la référence manquante et contacte le magasin, en général ils l'envoient gratuitement."
+      },
+      "5": {
+       "q": "Les deux diagonales sont-elles égales ?",
+       "fix": "Pousse doucement l'angle de la diagonale la plus longue jusqu'à l'égalité, puis fixe tout de suite le fond."
+      },
+      "10": {
+       "q": "Les jours sont-ils réguliers et les tiroirs coulissent-ils bien ?",
+       "fix": "Desserre les vis de la coulisse, décale-la dans ses trous oblongs et resserre. Vérifie que le caisson est toujours d'équerre."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Arrête de tourner l'excentrique dès qu'il serre : si tu forces, l'aggloméré s'effrite et ne tient plus.",
+      "Ne serre pas les vis à fond avant que le caisson soit complet : serre tout à la fin.",
+      "Plus de [[80 cm]] de haut ? Fixe-la au mur contre le basculement, surtout avec des enfants."
+     ]
+    },
+    "es": {
+     "title": "Montar una cómoda de kit",
+     "intro": "¿Cómoda en caja? La montas a escuadra y con cajones que se deslizan bien.",
+     "tools": [
+      "Destornillador de estrella",
+      "Llave Allen (incluida)",
+      "Mazo de goma",
+      "Metro",
+      "Martillo"
+     ],
+     "mats": [
+      "Cuencos o recipientes pequeños"
+     ],
+     "steps": [
+      "Abre la caja en el suelo, aplana el cartón y úsalo como superficie de trabajo para no rayar los paneles.",
+      "Cuenta paneles y herrajes con la lista de piezas del manual, referencia por referencia.",
+      "Separa tornillos, excéntricas, espigas y clavos por referencia en cuencos distintos.",
+      "Mete las espigas de madera y los pernos de las excéntricas en los agujeros de los laterales, como en el dibujo.",
+      "Une laterales, techo y base; gira las excéntricas a la derecha hasta que agarren, más o menos media vuelta.",
+      "Mide las dos diagonales del mueble: deben ser iguales, como mucho [[2 mm]] de diferencia.",
+      "Mete el panel trasero y clávalo cada [[15 cm]], manteniendo el mueble a escuadra.",
+      "Atornilla las guías dentro de los laterales en los agujeros ya hechos, a la misma altura a izquierda y derecha.",
+      "Monta cada cajón: laterales, frente, fondo metido en las ranuras y luego la trasera.",
+      "Atornilla las guías a los cajones y mete cada cajón en sus guías hasta oír el clic.",
+      "Cierra todos los cajones y mira las rendijas entre los frentes."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "¿Están todas las piezas de la lista?",
+       "fix": "No empieces: apunta la referencia que falta y contacta con la tienda, normalmente la envían gratis."
+      },
+      "5": {
+       "q": "¿Las dos diagonales son iguales?",
+       "fix": "Empuja con suavidad la esquina de la diagonal más larga hasta igualarlas y fija enseguida el panel trasero."
+      },
+      "10": {
+       "q": "¿Las rendijas son iguales y los cajones corren bien?",
+       "fix": "Afloja los tornillos de la guía, muévela en sus agujeros alargados y vuelve a apretar. Comprueba que sigue a escuadra."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Deja de girar la excéntrica en cuanto agarre: si fuerzas, el aglomerado se deshace y ya no sujeta.",
+      "No aprietes a fondo los tornillos hasta tener el mueble completo: aprieta todo al final.",
+      "¿Mide más de [[80 cm]]? Fíjala a la pared para que no vuelque, sobre todo si hay niños."
+     ]
+    },
+    "de": {
+     "title": "Kommode aus dem Bausatz aufbauen",
+     "intro": "Kommode im Karton? Du baust sie rechtwinklig auf, mit Schubladen, die sauber laufen.",
+     "tools": [
+      "Kreuzschlitzschraubendreher",
+      "Inbusschlüssel (liegt bei)",
+      "Gummihammer",
+      "Maßband",
+      "Hammer"
+     ],
+     "mats": [
+      "Kleine Schalen oder Dosen"
+     ],
+     "steps": [
+      "Öffne den Karton auf dem Boden, falte ihn flach und nimm ihn als Unterlage, damit nichts verkratzt.",
+      "Zähl Platten und Beschläge anhand der Teileliste in der Anleitung, Nummer für Nummer.",
+      "Sortier Schrauben, Exzenter, Holzdübel und Nägel nach Nummer in getrennte Schalen.",
+      "Steck die Holzdübel und Exzenterbolzen in die Löcher der Seitenwände, wie in der Zeichnung.",
+      "Verbinde Seiten, Deckel und Boden; dreh die Exzenter im Uhrzeigersinn, bis sie greifen, etwa eine halbe Drehung.",
+      "Miss beide Diagonalen des Korpus: Sie sollten bis auf [[2 mm]] gleich sein.",
+      "Schieb die Rückwand ein und nagle sie alle [[15 cm]] fest, während der Korpus rechtwinklig bleibt.",
+      "Schraub die Schubladenschienen innen an die Seiten in die vorgebohrten Löcher, links und rechts gleich hoch.",
+      "Bau jede Schublade: Seiten, Front, Boden in die Nuten schieben, dann die Rückseite.",
+      "Schraub die Schienen an die Schubladen und schieb jede Schublade auf ihre Schienen, bis sie einrastet.",
+      "Schließ alle Schubladen und schau dir die Fugen zwischen den Fronten an."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Sind alle Teile aus der Liste da?",
+       "fix": "Fang nicht an: Notier die fehlende Teilenummer und melde dich beim Händler, meist schickt er sie kostenlos."
+      },
+      "5": {
+       "q": "Sind beide Diagonalen gleich lang?",
+       "fix": "Drück die Ecke der längeren Diagonale sanft, bis beide gleich sind, und nagle dann sofort die Rückwand fest."
+      },
+      "10": {
+       "q": "Sind die Fugen gleichmäßig und laufen die Schubladen leicht?",
+       "fix": "Lös die Schrauben der Schiene, verschieb sie in den Langlöchern und zieh sie wieder an. Prüf, ob der Korpus noch rechtwinklig ist."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Hör auf zu drehen, sobald der Exzenter greift: Mit Gewalt bröselt die Spanplatte und hält nicht mehr.",
+      "Zieh die Schrauben erst ganz fest, wenn der ganze Korpus steht.",
+      "Höher als [[80 cm]]? Sichere sie an der Wand gegen Kippen, besonders mit Kindern im Haus."
+     ]
+    }
+   }
+  },
+  {
+   "id": "fissare-mobile-al-muro",
+   "cat": "montaggio",
+   "diff": 2,
+   "active": 40,
+   "total": 40,
+   "risk": 1,
+   "topic": "power-tools",
+   "allow": {},
+   "ppe": [
+    "glasses"
+   ],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "drill"
+    },
+    {
+     "k": "wall-detector"
+    },
+    {
+     "k": "drill-bits"
+    },
+    {
+     "k": "tape-measure"
+    },
+    {
+     "k": "pencil",
+     "own": true
+    },
+    {
+     "k": "phillips-screwdriver",
+     "own": true
+    },
+    {
+     "k": "hammer",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "anti-tip-kit",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "wall-plugs",
+     "q": 2,
+     "u": ""
+    },
+    {
+     "k": "screws",
+     "q": 2,
+     "u": ""
+    }
+   ],
+   "steps": [
+    {
+     "ic": "level"
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "tester",
+     "warn": 1,
+     "check": true
+    },
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "pencil"
+    },
+    {
+     "ic": "drill",
+     "warn": 1
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "tighten"
+    },
+    {
+     "ic": "hand",
+     "check": true
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Fissare un mobile al muro",
+     "intro": "Mobile alto? Lo ancori al muro così non si ribalta, nemmeno se un bimbo ci si arrampica.",
+     "tools": [
+      "Trapano",
+      "Rilevatore di tubi e cavi",
+      "Punte da trapano",
+      "Metro",
+      "Matita",
+      "Cacciavite a croce",
+      "Martello"
+     ],
+     "mats": [
+      "Kit antiribaltamento (cinghia e staffe)",
+      "Tasselli",
+      "Viti"
+     ],
+     "steps": [
+      "Metti il mobile nella sua posizione definitiva contro il muro e controlla che sia stabile e in bolla.",
+      "Avvita la staffa della cinghia al top o a un fianco del mobile, mai al pannello posteriore sottile.",
+      "Passa il rilevatore lentamente sul muro dove forerai, in orizzontale e in verticale.",
+      "Bussa sul muro: se suona vuoto è cartongesso e cerchi il montante; se è pieno è mattone o cemento.",
+      "Appoggia la staffa da muro alla stessa altezza, cinghia tesa, e segna i fori con la matita.",
+      "Fora: sul mattone senza percussione, sul cemento con percussione, punta uguale al tassello, es. [[6 mm]].",
+      "Togli la polvere dal foro e infila il tassello a filo muro. Sul cartongesso usa un tassello per cavità o il montante.",
+      "Avvita la staffa al muro finché è ben ferma, senza far girare il tassello a vuoto.",
+      "Aggancia la cinghia, tendila e tira piano la parte alta del mobile verso di te."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Il rilevatore non segnala niente nel punto scelto?",
+       "fix": "Sposta il punto di almeno [[10 cm]] di lato e ripassa: la cinghia può anche lavorare un po' in diagonale."
+      },
+      "8": {
+       "q": "Il mobile resta fermo quando lo tiri?",
+       "fix": "Se il tassello gira o esce, usane uno più lungo o uno per cavità; sul cartongesso avvita nel montante."
+      }
+     },
+     "warns": {
+      "2": "Non forare mai sopra o sotto prese e interruttori: lì i cavi di solito corrono dritti.",
+      "5": "Metti gli occhiali e tieni il trapano con due mani, con il cavo lontano dalla punta."
+     },
+     "tips": [
+      "Segna la profondità sulla punta con del nastro: lunghezza del tassello più [[5 mm]].",
+      "Sul cartongesso senza montante usa tasselli metallici a espansione: quelli in plastica si sfilano.",
+      "Mobile largo più di [[80 cm]]? Metti due cinghie, una vicino a ogni fianco."
+     ]
+    },
+    "en": {
+     "title": "Anchor a tall unit to the wall",
+     "intro": "Tall wardrobe or bookcase? Anchor it so it can't tip over, even if a child climbs it.",
+     "tools": [
+      "Drill",
+      "Stud and cable detector",
+      "Drill bits",
+      "Tape measure",
+      "Pencil",
+      "Phillips screwdriver",
+      "Hammer"
+     ],
+     "mats": [
+      "Anti-tip kit (strap and brackets)",
+      "Wall plugs",
+      "Screws"
+     ],
+     "steps": [
+      "Put the unit in its final spot against the wall and check it's level and doesn't rock.",
+      "Screw the strap's furniture bracket to the top or a side panel, never to the thin back panel.",
+      "Run the detector slowly over the wall where you'll drill, both across and up and down.",
+      "Knock on the wall: hollow means plasterboard, so find a stud; solid means brick or concrete.",
+      "Hold the wall bracket at the same height with the strap taut and mark the holes in pencil.",
+      "Drill: no hammer action on brick, hammer on concrete, bit the same size as the plug, e.g. [[6 mm]].",
+      "Clear the dust from the hole and tap the plug in flush. On plasterboard use a cavity anchor or the stud.",
+      "Screw the wall bracket on firmly, stopping before the plug starts to spin.",
+      "Hook up the strap, tension it and gently pull the top of the unit towards you."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Does the detector stay silent at your drilling spot?",
+       "fix": "Move the spot at least [[10 cm]] sideways and scan again: the strap can run at a slight angle."
+      },
+      "8": {
+       "q": "Does the unit stay put when you pull it?",
+       "fix": "If the plug spins or pulls out, use a longer plug or a cavity anchor; on plasterboard screw into the stud."
+      }
+     },
+     "warns": {
+      "2": "Never drill directly above or below sockets and switches: cables usually run straight from them.",
+      "5": "Wear safety glasses and hold the drill with both hands, cable away from the bit."
+     },
+     "tips": [
+      "Mark the drilling depth on the bit with tape: plug length plus [[5 mm]].",
+      "On plasterboard with no stud, use metal cavity anchors: plastic plugs pull out.",
+      "Unit wider than [[80 cm]]? Use two straps, one near each side."
+     ]
+    },
+    "fr": {
+     "title": "Fixer un meuble au mur",
+     "intro": "Meuble haut ? Tu le fixes au mur pour qu'il ne bascule pas, même si un enfant y grimpe.",
+     "tools": [
+      "Perceuse",
+      "Détecteur de montants et câbles",
+      "Forets",
+      "Mètre ruban",
+      "Crayon",
+      "Tournevis cruciforme",
+      "Marteau"
+     ],
+     "mats": [
+      "Kit anti-basculement (sangle et équerres)",
+      "Chevilles",
+      "Vis"
+     ],
+     "steps": [
+      "Mets le meuble à sa place définitive contre le mur et vérifie qu'il est stable et de niveau.",
+      "Visse l'équerre de la sangle sur le dessus ou un côté du meuble, jamais sur le fond fin.",
+      "Passe lentement le détecteur sur le mur à l'endroit du perçage, à l'horizontale et à la verticale.",
+      "Toque le mur : si ça sonne creux, c'est du placo, cherche un montant ; si c'est plein, brique ou béton.",
+      "Tiens l'équerre murale à la même hauteur, sangle tendue, et marque les trous au crayon.",
+      "Perce : sans percussion sur la brique, avec sur le béton, foret du diamètre de la cheville, ex. [[6 mm]].",
+      "Enlève la poussière du trou et enfonce la cheville à fleur. Sur placo, prends une cheville à expansion ou vise le montant.",
+      "Visse l'équerre au mur bien ferme, sans faire tourner la cheville dans le trou.",
+      "Accroche la sangle, tends-la et tire doucement le haut du meuble vers toi."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Le détecteur reste-t-il muet à l'endroit choisi ?",
+       "fix": "Décale le point d'au moins [[10 cm]] et repasse : la sangle peut travailler un peu en biais."
+      },
+      "8": {
+       "q": "Le meuble reste-t-il en place quand tu le tires ?",
+       "fix": "Si la cheville tourne ou sort, prends-en une plus longue ou une cheville à expansion ; sur placo, vise le montant."
+      }
+     },
+     "warns": {
+      "2": "Ne perce jamais à l'aplomb d'une prise ou d'un interrupteur : les câbles y passent souvent tout droit.",
+      "5": "Mets des lunettes et tiens la perceuse à deux mains, câble loin du foret."
+     },
+     "tips": [
+      "Marque la profondeur sur le foret avec du ruban : longueur de la cheville plus [[5 mm]].",
+      "Sur placo sans montant, prends des chevilles métalliques à expansion : le plastique s'arrache.",
+      "Meuble de plus de [[80 cm]] de large ? Mets deux sangles, une près de chaque côté."
+     ]
+    },
+    "es": {
+     "title": "Fijar un mueble a la pared",
+     "intro": "¿Mueble alto? Lo anclas a la pared para que no vuelque, aunque un niño trepe por él.",
+     "tools": [
+      "Taladro",
+      "Detector de tubos y cables",
+      "Brocas",
+      "Metro",
+      "Lápiz",
+      "Destornillador de estrella",
+      "Martillo"
+     ],
+     "mats": [
+      "Kit antivuelco (cinta y escuadras)",
+      "Tacos",
+      "Tornillos"
+     ],
+     "steps": [
+      "Pon el mueble en su sitio definitivo contra la pared y comprueba que está nivelado y no cojea.",
+      "Atornilla la escuadra de la cinta al techo o a un lateral del mueble, nunca a la trasera fina.",
+      "Pasa el detector despacio por la pared donde vas a taladrar, en horizontal y en vertical.",
+      "Golpea la pared: si suena hueca es pladur y buscas un montante; si es maciza, ladrillo u hormigón.",
+      "Apoya la escuadra de pared a la misma altura, con la cinta tensa, y marca los agujeros con lápiz.",
+      "Taladra: sin percutor en ladrillo, con percutor en hormigón, broca del tamaño del taco, p. ej. [[6 mm]].",
+      "Quita el polvo del agujero y mete el taco a ras. En pladur usa un taco de expansión o atornilla al montante.",
+      "Atornilla la escuadra a la pared hasta que quede firme, sin que el taco gire.",
+      "Engancha la cinta, ténsala y tira suavemente de la parte alta del mueble hacia ti."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "¿El detector no marca nada en el punto elegido?",
+       "fix": "Mueve el punto al menos [[10 cm]] a un lado y vuelve a pasar: la cinta puede ir algo inclinada."
+      },
+      "8": {
+       "q": "¿El mueble no se mueve cuando tiras de él?",
+       "fix": "Si el taco gira o se sale, usa uno más largo o uno de expansión; en pladur atornilla al montante."
+      }
+     },
+     "warns": {
+      "2": "No taladres nunca justo encima o debajo de enchufes e interruptores: los cables suelen ir rectos.",
+      "5": "Ponte gafas y sujeta el taladro con las dos manos, con el cable lejos de la broca."
+     },
+     "tips": [
+      "Marca la profundidad en la broca con cinta: largo del taco más [[5 mm]].",
+      "En pladur sin montante usa tacos metálicos de expansión: los de plástico se salen.",
+      "¿Mueble de más de [[80 cm]] de ancho? Pon dos cintas, una cerca de cada lateral."
+     ]
+    },
+    "de": {
+     "title": "Möbel an der Wand sichern",
+     "intro": "Hohes Möbel? Du sicherst es an der Wand, damit es nicht kippt, auch wenn ein Kind klettert.",
+     "tools": [
+      "Bohrmaschine",
+      "Leitungssucher",
+      "Bohrer",
+      "Maßband",
+      "Bleistift",
+      "Kreuzschlitzschraubendreher",
+      "Hammer"
+     ],
+     "mats": [
+      "Kippschutz-Set (Gurt und Winkel)",
+      "Dübel",
+      "Schrauben"
+     ],
+     "steps": [
+      "Stell das Möbel an seinen endgültigen Platz an der Wand und prüf, ob es gerade steht und nicht wackelt.",
+      "Schraub den Möbelwinkel des Gurts an den Deckel oder eine Seitenwand, nie an die dünne Rückwand.",
+      "Fahr mit dem Leitungssucher langsam über die Bohrstelle, waagerecht und senkrecht.",
+      "Klopf an die Wand: Klingt sie hohl, ist es Gipskarton, such ein Ständerprofil; massiv heißt Ziegel oder Beton.",
+      "Halt den Wandwinkel auf gleicher Höhe, Gurt gespannt, und markier die Löcher mit Bleistift.",
+      "Bohr: Ziegel ohne Schlag, Beton mit Schlag, Bohrer so dick wie der Dübel, z. B. [[6 mm]].",
+      "Saug den Staub aus dem Loch und klopf den Dübel bündig ein. In Gipskarton Hohlraumdübel nehmen oder ins Profil schrauben.",
+      "Schraub den Wandwinkel fest an, aber hör auf, bevor sich der Dübel mitdreht.",
+      "Häng den Gurt ein, spann ihn und zieh oben sanft am Möbel zu dir hin."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Bleibt der Leitungssucher an der Bohrstelle stumm?",
+       "fix": "Verschieb die Stelle um mindestens [[10 cm]] und such erneut: Der Gurt darf leicht schräg laufen."
+      },
+      "8": {
+       "q": "Bleibt das Möbel stehen, wenn du daran ziehst?",
+       "fix": "Dreht sich der Dübel oder kommt er raus, nimm einen längeren oder einen Hohlraumdübel; bei Gipskarton ins Profil schrauben."
+      }
+     },
+     "warns": {
+      "2": "Bohr nie direkt über oder unter Steckdosen und Schaltern: Dort laufen Leitungen meist gerade weg.",
+      "5": "Trag eine Schutzbrille und halt die Maschine mit beiden Händen, Kabel weg vom Bohrer."
+     },
+     "tips": [
+      "Markier die Bohrtiefe mit Klebeband am Bohrer: Dübellänge plus [[5 mm]].",
+      "In Gipskarton ohne Profil Metall-Hohlraumdübel nehmen: Kunststoffdübel reißen aus.",
+      "Möbel breiter als [[80 cm]]? Nimm zwei Gurte, je einen nahe jeder Seite."
+     ]
+    }
+   }
+  },
+  {
+   "id": "regolare-ante-cucina",
+   "cat": "montaggio",
+   "diff": 1,
+   "active": 20,
+   "total": 20,
+   "risk": 0,
+   "topic": null,
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "phillips-screwdriver",
+     "own": true
+    }
+   ],
+   "mats": [],
+   "steps": [
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "push",
+     "check": true
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "check",
+     "check": true
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Regolare le ante della cucina",
+     "intro": "Ante storte, che sbattono o non chiudono? Con un cacciavite le rimetti dritte in pochi minuti.",
+     "tools": [
+      "Cacciavite a croce (PZ2)"
+     ],
+     "mats": [],
+     "steps": [
+      "Chiudi le ante e guarda le fessure: annota quale anta è più alta, sporge o è inclinata.",
+      "Apri l'anta e guarda la cerniera: di solito la vite vicina all'anta regola il lato, quella dietro la profondità.",
+      "Controlla che ogni cerniera sia agganciata alla basetta: premi il braccio finché senti lo scatto.",
+      "Per spostare l'anta di lato gira la vite vicina all'anta di un quarto di giro, uguale su tutte le cerniere.",
+      "Se l'anta è inclinata, gira quella vite solo sulla cerniera alta o bassa, finché il bordo è parallelo all'anta vicina.",
+      "Per la profondità gira la vite posteriore: l'anta si avvicina o si allontana finché chiude a filo del mobile.",
+      "Per l'altezza allenta le viti della basetta (o gira l'eccentrico, se c'è), alza o abbassa l'anta e riserra.",
+      "Chiudi tutte le ante e guarda di nuovo fessure e frontali."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Tutte le cerniere sono agganciate bene?",
+       "fix": "Aggancia prima la parte davanti del braccio, poi premi dietro fino allo scatto. Se balla, stringi le viti della basetta."
+      },
+      "7": {
+       "q": "Le fessure sono regolari, circa [[2-3 mm]], e le ante a filo?",
+       "fix": "Torna alla vite di quella direzione e dai un altro quarto di giro: ogni cerniera si regola solo di pochi millimetri."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Usa un cacciavite a mano, non l'avvitatore: le viti delle cerniere sono tenere e si spanano subito.",
+      "Se l'anta si riabbassa, le viti della basetta non tengono nel truciolare: metti viti un po' più grosse.",
+      "Prima di regolare, stringi le viti che fissano la cerniera all'anta: spesso il difetto è solo lì."
+     ]
+    },
+    "en": {
+     "title": "Adjust kitchen cabinet doors",
+     "intro": "Doors crooked, rubbing or not closing? A screwdriver puts them straight in minutes.",
+     "tools": [
+      "Phillips screwdriver (PZ2)"
+     ],
+     "mats": [],
+     "steps": [
+      "Close the doors and look at the gaps: note which door sits higher, sticks out or leans.",
+      "Open the door and look at the hinge: usually the screw nearest the door is side, the one behind it depth.",
+      "Check each hinge is clipped onto its plate: press the arm until it clicks.",
+      "To move the door sideways, turn the screw nearest the door a quarter turn, the same on every hinge.",
+      "If the door leans, turn that screw on the top or bottom hinge only, until the edge runs parallel to the next door.",
+      "For depth, turn the rear screw: the door moves in or out until it closes flush with the cabinet.",
+      "For height, loosen the plate screws (or turn the cam, if there is one), raise or lower the door and retighten.",
+      "Close all the doors and look at the gaps and fronts again."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Are all the hinges clipped on properly?",
+       "fix": "Hook the front of the arm on first, then press the back until it clicks. If it wobbles, tighten the plate screws."
+      },
+      "7": {
+       "q": "Are the gaps even, about [[2-3 mm]], and the doors flush?",
+       "fix": "Go back to the screw for that direction and give it another quarter turn: each hinge only moves a few millimetres."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Use a hand screwdriver, not a drill driver: hinge screws are soft and strip easily.",
+      "If the door keeps dropping, the plate screws have lost grip in the chipboard: fit slightly thicker screws.",
+      "Before adjusting, tighten the screws holding the hinge to the door: often that's the whole problem."
+     ]
+    },
+    "fr": {
+     "title": "Régler les portes de cuisine",
+     "intro": "Portes de travers, qui frottent ou ferment mal ? Un tournevis suffit pour les remettre droites.",
+     "tools": [
+      "Tournevis cruciforme (PZ2)"
+     ],
+     "mats": [],
+     "steps": [
+      "Ferme les portes et regarde les jours : note quelle porte est plus haute, dépasse ou penche.",
+      "Ouvre la porte et regarde la charnière : en général la vis côté porte règle le latéral, celle de derrière la profondeur.",
+      "Vérifie que chaque charnière est clipsée sur son embase : appuie sur le bras jusqu'au clic.",
+      "Pour décaler la porte sur le côté, tourne la vis côté porte d'un quart de tour, pareil sur chaque charnière.",
+      "Si la porte penche, tourne cette vis sur la charnière du haut ou du bas seulement, jusqu'à aligner le bord sur la voisine.",
+      "Pour la profondeur, tourne la vis arrière : la porte avance ou recule jusqu'à fermer à fleur du caisson.",
+      "Pour la hauteur, desserre les vis de l'embase (ou tourne l'excentrique s'il y en a un), monte ou baisse la porte et resserre.",
+      "Ferme toutes les portes et regarde à nouveau les jours et les façades."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Toutes les charnières sont-elles bien clipsées ?",
+       "fix": "Accroche d'abord l'avant du bras, puis appuie sur l'arrière jusqu'au clic. Si ça bouge, serre les vis de l'embase."
+      },
+      "7": {
+       "q": "Les jours sont-ils réguliers, environ [[2-3 mm]], et les portes à fleur ?",
+       "fix": "Reviens à la vis de cette direction et donne encore un quart de tour : une charnière ne se règle que de quelques millimètres."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Prends un tournevis à main, pas la visseuse : les vis de charnière sont tendres et foirent vite.",
+      "Si la porte retombe, les vis de l'embase ne tiennent plus dans l'aggloméré : mets des vis un peu plus grosses.",
+      "Avant de régler, resserre les vis qui fixent la charnière sur la porte : souvent tout vient de là."
+     ]
+    },
+    "es": {
+     "title": "Ajustar las puertas de la cocina",
+     "intro": "¿Puertas torcidas, que rozan o no cierran? Con un destornillador las enderezas en minutos.",
+     "tools": [
+      "Destornillador de estrella (PZ2)"
+     ],
+     "mats": [],
+     "steps": [
+      "Cierra las puertas y mira las rendijas: apunta qué puerta queda más alta, sobresale o está inclinada.",
+      "Abre la puerta y mira la bisagra: normalmente el tornillo junto a la puerta es el lateral y el de detrás, la profundidad.",
+      "Comprueba que cada bisagra está enganchada a su base: aprieta el brazo hasta oír el clic.",
+      "Para mover la puerta de lado, gira el tornillo junto a la puerta un cuarto de vuelta, igual en todas las bisagras.",
+      "Si la puerta está inclinada, gira ese tornillo solo en la bisagra de arriba o de abajo hasta que el canto quede paralelo.",
+      "Para la profundidad, gira el tornillo trasero: la puerta entra o sale hasta cerrar a ras del mueble.",
+      "Para la altura, afloja los tornillos de la base (o gira la excéntrica si la hay), sube o baja la puerta y aprieta.",
+      "Cierra todas las puertas y vuelve a mirar las rendijas y los frentes."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "¿Están todas las bisagras bien enganchadas?",
+       "fix": "Engancha primero la parte delantera del brazo y luego aprieta atrás hasta el clic. Si baila, aprieta los tornillos de la base."
+      },
+      "7": {
+       "q": "¿Las rendijas son iguales, de unos [[2-3 mm]], y las puertas a ras?",
+       "fix": "Vuelve al tornillo de esa dirección y dale otro cuarto de vuelta: cada bisagra solo se mueve unos milímetros."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Usa un destornillador manual, no el atornillador: los tornillos de las bisagras son blandos y se pasan enseguida.",
+      "Si la puerta vuelve a caer, los tornillos de la base ya no agarran en el aglomerado: pon unos algo más gruesos.",
+      "Antes de ajustar, aprieta los tornillos que sujetan la bisagra a la puerta: a menudo el fallo está ahí."
+     ]
+    },
+    "de": {
+     "title": "Küchenschranktüren einstellen",
+     "intro": "Türen schief oder schließen nicht? Mit einem Schraubendreher richtest du sie in Minuten aus.",
+     "tools": [
+      "Kreuzschlitzschraubendreher (PZ2)"
+     ],
+     "mats": [],
+     "steps": [
+      "Schließ die Türen und schau dir die Fugen an: Merk dir, welche Tür höher sitzt, vorsteht oder schief hängt.",
+      "Öffne die Tür und schau aufs Scharnier: Meist ist die Schraube nahe der Tür für seitlich, die dahinter für die Tiefe.",
+      "Prüf, ob jedes Scharnier auf der Montageplatte eingerastet ist: Drück den Arm an, bis es klickt.",
+      "Zum seitlichen Verschieben dreh die Schraube nahe der Tür eine Vierteldrehung, an allen Scharnieren gleich.",
+      "Hängt die Tür schief, dreh diese Schraube nur am oberen oder unteren Scharnier, bis die Kante parallel zur Nachbartür ist.",
+      "Für die Tiefe dreh die hintere Schraube: Die Tür geht vor oder zurück, bis sie bündig schließt.",
+      "Für die Höhe lös die Schrauben der Montageplatte (oder dreh den Exzenter, falls vorhanden), verschieb die Tür, zieh fest.",
+      "Schließ alle Türen und schau dir Fugen und Fronten noch einmal an."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Sind alle Scharniere richtig eingerastet?",
+       "fix": "Häng den Arm vorne zuerst ein und drück hinten an, bis es klickt. Wackelt es, zieh die Schrauben der Montageplatte nach."
+      },
+      "7": {
+       "q": "Sind die Fugen gleichmäßig, etwa [[2-3 mm]], und die Fronten bündig?",
+       "fix": "Geh zurück zur Schraube für diese Richtung und dreh noch eine Vierteldrehung: Scharniere verstellen nur wenige Millimeter."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Nimm einen Handschraubendreher, keinen Akkuschrauber: Scharnierschrauben sind weich und drehen schnell durch.",
+      "Sackt die Tür wieder ab, halten die Schrauben der Montageplatte nicht mehr in der Spanplatte: etwas dickere nehmen.",
+      "Zieh vor dem Einstellen die Schrauben an, die das Scharnier an der Tür halten: Oft liegt der Fehler nur dort."
+     ]
+    }
+   }
+  },
+  {
+   "id": "sedia-che-traballa",
+   "cat": "legno",
+   "diff": 2,
+   "active": 60,
+   "total": 1500,
+   "risk": 1,
+   "topic": null,
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "rubber-mallet"
+    },
+    {
+     "k": "band-clamp"
+    },
+    {
+     "k": "chisel"
+    },
+    {
+     "k": "phillips-screwdriver",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "wood-glue",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "cloth",
+     "q": 1,
+     "u": "",
+     "own": true
+    }
+   ],
+   "steps": [
+    {
+     "ic": "look",
+     "check": true
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "hammer"
+    },
+    {
+     "ic": "knife",
+     "warn": 1
+    },
+    {
+     "ic": "push",
+     "check": true
+    },
+    {
+     "ic": "brush"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "tighten"
+    },
+    {
+     "ic": "level",
+     "check": true
+    },
+    {
+     "ic": "wait",
+     "timer": 86400
+    },
+    {
+     "ic": "knife"
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Riparare una sedia che traballa",
+     "intro": "Sedia di legno che balla? Reincolli l'incastro allentato e torna solida come prima.",
+     "tools": [
+      "Martello di gomma",
+      "Morsetto a nastro (o cinghia a cricchetto)",
+      "Scalpello da legno",
+      "Cacciavite a croce"
+     ],
+     "mats": [
+      "Colla vinilica per legno",
+      "Panno umido"
+     ],
+     "steps": [
+      "Capovolgi la sedia su una coperta e muovi ogni gamba e traversa: trova l'incastro che si muove.",
+      "Se sotto la seduta ci sono viti o tasselli d'angolo, stringili prima: a volte basta questo.",
+      "Smonta l'incastro allentato a colpetti di martello di gomma, con un panno in mezzo; lascia stare quelli saldi.",
+      "Raschia la vecchia colla dal tenone e dal foro con lo scalpello, fino al legno pulito.",
+      "Prova a secco: rimonta l'incastro senza colla.",
+      "Spalma uno strato sottile di colla sul tenone e dentro il foro.",
+      "Infila l'incastro, battilo col martello di gomma finché è chiuso e togli la colla che esce col panno umido.",
+      "Avvolgi la cinghia attorno alle gambe all'altezza dell'incastro e stringi finché si chiude bene.",
+      "Metti la sedia su un pavimento piano e guarda le quattro gambe.",
+      "Lascia la cinghia e non sederti per 24 ore, o per il tempo indicato sulla colla.",
+      "Togli la cinghia e raschia via con lo scalpello le gocce di colla secca."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Indurimento",
+      ""
+     ],
+     "checks": {
+      "0": {
+       "q": "Hai trovato l'incastro che si muove?",
+       "fix": "Siediti e dondola piano mentre qualcuno guarda: un incastro aperto mostra una riga scura o una fessura."
+      },
+      "4": {
+       "q": "L'incastro a secco entra giusto, senza gioco?",
+       "fix": "Se balla, incolla un truciolo sottile sul tenone o avvolgilo con una garza di cotone imbevuta di colla."
+      },
+      "8": {
+       "q": "Tutte e quattro le gambe toccano il pavimento?",
+       "fix": "Allenta la cinghia, premi giù l'angolo sollevato e riserra prima che la colla faccia presa."
+      }
+     },
+     "warns": {
+      "3": "Raschia sempre allontanando lo scalpello dalla mano che tiene il pezzo."
+     },
+     "tips": [
+      "L'incastro non si smonta? Fai un forellino da [[2 mm]] in un punto nascosto e inietta colla con una siringa.",
+      "Una cinghia a cricchetto da auto va benissimo: metti del cartone sotto per non segnare il legno.",
+      "Se la gamba o la seduta sono crepate, non solo allentate, portala da un falegname."
+     ]
+    },
+    "en": {
+     "title": "Fix a wobbly wooden chair",
+     "intro": "Wooden chair rocking? Reglue the loose joint and it'll be solid again.",
+     "tools": [
+      "Rubber mallet",
+      "Band clamp (or ratchet strap)",
+      "Wood chisel",
+      "Phillips screwdriver"
+     ],
+     "mats": [
+      "Wood glue (PVA)",
+      "Damp cloth"
+     ],
+     "steps": [
+      "Turn the chair upside down on a blanket and wiggle each leg and rail: find the joint that moves.",
+      "If there are screws or corner blocks under the seat, tighten them first: sometimes that's all it needs.",
+      "Tap the loose joint apart with the rubber mallet, a cloth in between; leave the firm joints alone.",
+      "Scrape the old glue off the tenon and out of the hole with the chisel, down to clean wood.",
+      "Dry-fit: push the joint back together without glue.",
+      "Spread a thin coat of wood glue on the tenon and inside the hole.",
+      "Push the joint home, tap it with the mallet until it's closed and wipe off squeeze-out with the damp cloth.",
+      "Wrap the strap around the legs at the height of the joint and tighten until the joint closes.",
+      "Stand the chair on a flat floor and look at all four legs.",
+      "Leave the strap on and don't sit on it for 24 hours, or as long as the glue says.",
+      "Take the strap off and pare away any dried glue drips with the chisel."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Glue curing",
+      ""
+     ],
+     "checks": {
+      "0": {
+       "q": "Have you found the joint that moves?",
+       "fix": "Sit on it and rock gently while someone watches: an open joint shows a thin dark line or a gap."
+      },
+      "4": {
+       "q": "Does the dry joint fit snugly, with no play?",
+       "fix": "If it's loose, glue a thin wood shaving onto the tenon, or wrap it in thin cotton cloth soaked in glue."
+      },
+      "8": {
+       "q": "Do all four legs touch the floor?",
+       "fix": "Loosen the strap, press the high corner down and retighten before the glue grabs."
+      }
+     },
+     "warns": {
+      "3": "Always scrape with the chisel moving away from the hand holding the piece."
+     },
+     "tips": [
+      "Joint won't come apart? Drill a [[2 mm]] hole in a hidden spot and inject glue with a syringe.",
+      "A car ratchet strap works as a band clamp: slip cardboard under it to protect the wood.",
+      "If a leg or the seat is cracked, not just loose, take it to a joiner."
+     ]
+    },
+    "fr": {
+     "title": "Réparer une chaise branlante",
+     "intro": "Chaise en bois qui bouge ? Tu recolles l'assemblage desserré et elle redevient solide.",
+     "tools": [
+      "Maillet en caoutchouc",
+      "Serre-joint à sangle",
+      "Ciseau à bois",
+      "Tournevis cruciforme"
+     ],
+     "mats": [
+      "Colle à bois (vinylique)",
+      "Chiffon humide"
+     ],
+     "steps": [
+      "Retourne la chaise sur une couverture et fais bouger chaque pied et barreau : trouve l'assemblage qui joue.",
+      "S'il y a des vis ou des tasseaux d'angle sous l'assise, resserre-les d'abord : parfois ça suffit.",
+      "Démonte l'assemblage desserré à petits coups de maillet, un chiffon entre les deux ; laisse les assemblages solides.",
+      "Gratte l'ancienne colle sur le tenon et dans la mortaise avec le ciseau, jusqu'au bois propre.",
+      "Fais un essai à blanc : remonte l'assemblage sans colle.",
+      "Étale une fine couche de colle à bois sur le tenon et dans la mortaise.",
+      "Emboîte l'assemblage, tape au maillet jusqu'à ce qu'il soit fermé et essuie la colle qui déborde au chiffon humide.",
+      "Passe la sangle autour des pieds à hauteur de l'assemblage et serre jusqu'à ce qu'il se ferme.",
+      "Pose la chaise sur un sol plat et regarde les quatre pieds.",
+      "Laisse la sangle et ne t'assieds pas pendant 24 heures, ou le temps indiqué sur la colle.",
+      "Enlève la sangle et retire au ciseau les coulures de colle sèche."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Séchage colle",
+      ""
+     ],
+     "checks": {
+      "0": {
+       "q": "As-tu trouvé l'assemblage qui bouge ?",
+       "fix": "Assieds-toi et balance-toi doucement pendant qu'on regarde : un assemblage ouvert montre une fine ligne sombre."
+      },
+      "4": {
+       "q": "L'assemblage à blanc entre-t-il juste, sans jeu ?",
+       "fix": "S'il a du jeu, colle un fin copeau sur le tenon ou entoure-le d'un tissu de coton fin imbibé de colle."
+      },
+      "8": {
+       "q": "Les quatre pieds touchent-ils le sol ?",
+       "fix": "Desserre la sangle, appuie sur le coin qui se lève et resserre avant que la colle prenne."
+      }
+     },
+     "warns": {
+      "3": "Gratte toujours en éloignant le ciseau de la main qui tient la pièce."
+     },
+     "tips": [
+      "L'assemblage ne se démonte pas ? Perce un trou de [[2 mm]] à un endroit caché et injecte la colle à la seringue.",
+      "Une sangle à cliquet de voiture fait un bon serre-joint : glisse du carton dessous pour protéger le bois.",
+      "Si un pied ou l'assise est fendu, pas seulement desserré, confie la chaise à un menuisier."
+     ]
+    },
+    "es": {
+     "title": "Arreglar una silla que se tambalea",
+     "intro": "¿Silla de madera que se mueve? Vuelves a encolar la unión floja y queda firme otra vez.",
+     "tools": [
+      "Mazo de goma",
+      "Sargento de cinta (o cincha con carraca)",
+      "Formón",
+      "Destornillador de estrella"
+     ],
+     "mats": [
+      "Cola blanca para madera",
+      "Trapo húmedo"
+     ],
+     "steps": [
+      "Pon la silla boca abajo sobre una manta y mueve cada pata y travesaño: busca la unión que se mueve.",
+      "Si bajo el asiento hay tornillos o tacos de esquina, apriétalos primero: a veces basta con eso.",
+      "Desmonta la unión floja con golpecitos de mazo, con un trapo en medio; deja las uniones firmes.",
+      "Rasca la cola vieja de la espiga y del agujero con el formón, hasta dejar la madera limpia.",
+      "Prueba en seco: vuelve a montar la unión sin cola.",
+      "Extiende una capa fina de cola en la espiga y dentro del agujero.",
+      "Encaja la unión, golpéala con el mazo hasta que cierre y limpia la cola que sale con el trapo húmedo.",
+      "Pasa la cincha alrededor de las patas a la altura de la unión y aprieta hasta que cierre.",
+      "Pon la silla en un suelo plano y mira las cuatro patas.",
+      "Deja la cincha puesta y no te sientes durante 24 horas, o lo que indique la cola.",
+      "Quita la cincha y retira con el formón las gotas de cola seca."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Secado cola",
+      ""
+     ],
+     "checks": {
+      "0": {
+       "q": "¿Has encontrado la unión que se mueve?",
+       "fix": "Siéntate y balancéate suave mientras alguien mira: una unión abierta muestra una línea oscura o una rendija."
+      },
+      "4": {
+       "q": "¿La unión en seco encaja justa, sin holgura?",
+       "fix": "Si baila, pega una viruta fina en la espiga o envuélvela con un trapo fino de algodón empapado en cola."
+      },
+      "8": {
+       "q": "¿Las cuatro patas tocan el suelo?",
+       "fix": "Afloja la cincha, presiona la esquina que se levanta y vuelve a apretar antes de que agarre la cola."
+      }
+     },
+     "warns": {
+      "3": "Rasca siempre con el formón alejándose de la mano que sujeta la pieza."
+     },
+     "tips": [
+      "¿La unión no se suelta? Haz un agujero de [[2 mm]] en un sitio oculto e inyecta cola con una jeringa.",
+      "Una cincha con carraca del coche sirve de sargento: pon cartón debajo para no marcar la madera.",
+      "Si la pata o el asiento están rajados, no solo flojos, llévala a un carpintero."
+     ]
+    },
+    "de": {
+     "title": "Wackelnden Holzstuhl reparieren",
+     "intro": "Holzstuhl wackelt? Du leimst die lockere Verbindung neu und er steht wieder fest.",
+     "tools": [
+      "Gummihammer",
+      "Bandzwinge (oder Spanngurt)",
+      "Stechbeitel",
+      "Kreuzschlitzschraubendreher"
+     ],
+     "mats": [
+      "Holzleim (Weißleim)",
+      "Feuchter Lappen"
+     ],
+     "steps": [
+      "Leg den Stuhl kopfüber auf eine Decke und rüttel an jedem Bein und jeder Strebe: Such die lockere Verbindung.",
+      "Sind unter der Sitzfläche Schrauben oder Eckklötze, zieh sie zuerst nach: Manchmal reicht das schon.",
+      "Klopf die lockere Verbindung mit dem Gummihammer auseinander, Lappen dazwischen; feste Verbindungen lässt du.",
+      "Kratz den alten Leim mit dem Stechbeitel vom Zapfen und aus dem Loch, bis blankes Holz kommt.",
+      "Mach eine Trockenprobe: Steck die Verbindung ohne Leim zusammen.",
+      "Streich eine dünne Schicht Holzleim auf den Zapfen und ins Loch.",
+      "Steck die Verbindung zusammen, klopf sie mit dem Gummihammer zu und wisch austretenden Leim feucht weg.",
+      "Leg den Gurt auf Höhe der Verbindung um die Beine und spann ihn, bis die Fuge geschlossen ist.",
+      "Stell den Stuhl auf einen ebenen Boden und schau dir alle vier Beine an.",
+      "Lass den Gurt dran und setz dich 24 Stunden nicht drauf, oder so lange, wie es auf dem Leim steht.",
+      "Nimm den Gurt ab und stich getrocknete Leimtropfen mit dem Stechbeitel weg."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Leim trocknet",
+      ""
+     ],
+     "checks": {
+      "0": {
+       "q": "Hast du die Verbindung gefunden, die sich bewegt?",
+       "fix": "Setz dich drauf und schaukle leicht, während jemand zuschaut: Eine offene Fuge zeigt einen dunklen Strich."
+      },
+      "4": {
+       "q": "Sitzt die Verbindung trocken stramm, ohne Spiel?",
+       "fix": "Hat sie Spiel, leim einen dünnen Span auf den Zapfen oder wickle dünnen, leimgetränkten Baumwollstoff darum."
+      },
+      "8": {
+       "q": "Berühren alle vier Beine den Boden?",
+       "fix": "Lös den Gurt, drück die hohe Ecke runter und spann neu, bevor der Leim anzieht."
+      }
+     },
+     "warns": {
+      "3": "Arbeite mit dem Stechbeitel immer von der Hand weg, die das Teil hält."
+     },
+     "tips": [
+      "Lässt sich die Verbindung nicht lösen? Bohr verdeckt ein [[2 mm]] Loch und spritz Leim mit einer Spritze hinein.",
+      "Ein Spanngurt aus dem Auto ersetzt die Bandzwinge: Leg Pappe unter, damit das Holz keine Druckstellen bekommt.",
+      "Ist ein Bein oder die Sitzfläche gerissen, nicht nur locker, bring den Stuhl zum Tischler."
+     ]
+    }
+   }
+  },
+  {
+   "id": "carteggiare-verniciare-legno",
+   "cat": "legno",
+   "diff": 1,
+   "active": 90,
+   "total": 1770,
+   "risk": 1,
+   "topic": "chem",
+   "allow": {},
+   "ppe": [
+    "mask"
+   ],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "sanding-block"
+    },
+    {
+     "k": "paintbrush"
+    },
+    {
+     "k": "phillips-screwdriver",
+     "own": true
+    },
+    {
+     "k": "vacuum-cleaner",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "sandpaper",
+     "q": 3,
+     "u": ""
+    },
+    {
+     "k": "wood-varnish",
+     "q": 250,
+     "u": "ml"
+    },
+    {
+     "k": "tack-cloth",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "cloth",
+     "q": 1,
+     "u": "",
+     "own": true
+    }
+   ],
+   "steps": [
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "sand"
+    },
+    {
+     "ic": "sand",
+     "check": true
+    },
+    {
+     "ic": "clean"
+    },
+    {
+     "ic": "brush",
+     "warn": 1
+    },
+    {
+     "ic": "wait",
+     "timer": 14400
+    },
+    {
+     "ic": "sand",
+     "check": true
+    },
+    {
+     "ic": "brush"
+    },
+    {
+     "ic": "wait",
+     "timer": 86400
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Carteggiare e verniciare il legno",
+     "intro": "Comodino o sgabello rovinato? Lo carteggi e gli dai due mani di vernice per legno.",
+     "tools": [
+      "Tampone per carta vetrata",
+      "Pennello",
+      "Cacciavite a croce",
+      "Aspirapolvere"
+     ],
+     "mats": [
+      "Carta vetrata grana 120, 180 e 240",
+      "Vernice per legno all'acqua",
+      "Panno antipolvere",
+      "Panno"
+     ],
+     "steps": [
+      "Smonta pomelli e ferramenta e metti il pezzo su dei giornali, in una stanza ben arieggiata.",
+      "Carteggia tutto con grana 120, sempre nel verso delle venature, finché la vecchia finitura è opaca e uniforme.",
+      "Ripassa con grana 180 e poi 240, nel verso delle venature, finché al tatto è liscio.",
+      "Aspira la polvere e passa il panno antipolvere o uno appena umido finché resta pulito.",
+      "Mescola la vernice senza scuoterla e stendi una mano sottile nel verso delle venature, a pennellate lunghe.",
+      "Lascia asciugare, di solito circa 4 ore: controlla il tempo sul barattolo.",
+      "Carteggia leggero con grana 240 finché le fibre alzate spariscono, poi togli la polvere.",
+      "Stendi la seconda mano sottile allo stesso modo, senza ripassare dove sta già asciugando.",
+      "Lascia indurire 24 ore prima di usarlo o di rimontare i pomelli."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Asciugatura",
+      "",
+      "",
+      "Indurimento"
+     ],
+     "checks": {
+      "2": {
+       "q": "La superficie è liscia e opaca ovunque, senza zone lucide?",
+       "fix": "Ripassa le zone lucide con grana 120, poi di nuovo con 180 e 240."
+      },
+      "6": {
+       "q": "È liscio senza essere arrivato al legno nudo?",
+       "fix": "Se hai scoperto il legno, dai un ritocco sottile in quel punto e lascialo asciugare prima della seconda mano."
+      }
+     },
+     "warns": {
+      "4": "Tieni la finestra aperta, niente fiamme vicino, e leggi le avvertenze sul barattolo."
+     },
+     "tips": [
+      "Vuoi cambiare colore? Dai prima l'impregnante colorato, lascialo asciugare, poi la vernice sopra.",
+      "Vecchia vernice spessa o pittura? Parti da grana 80 o usa uno sverniciatore.",
+      "Tra una mano e l'altra avvolgi il pennello nella pellicola: così non si secca."
+     ]
+    },
+    "en": {
+     "title": "Sand and varnish wooden furniture",
+     "intro": "Tired bedside table or stool? Sand it back and give it two fresh coats of varnish.",
+     "tools": [
+      "Sanding block",
+      "Paintbrush",
+      "Phillips screwdriver",
+      "Vacuum cleaner"
+     ],
+     "mats": [
+      "Sandpaper, grit 120, 180 and 240",
+      "Water-based wood varnish",
+      "Tack cloth",
+      "Cloth"
+     ],
+     "steps": [
+      "Remove knobs and hardware and stand the piece on newspaper in a well-ventilated room.",
+      "Sand everything with grit 120, always along the grain, until the old finish is dull and even.",
+      "Go over it with grit 180, then 240, along the grain, until it feels smooth.",
+      "Vacuum the dust, then wipe with a tack cloth or a barely damp cloth until it comes away clean.",
+      "Stir the varnish, don't shake it, and brush on a thin coat along the grain in long strokes.",
+      "Let it dry, usually about 4 hours: check the time on the tin.",
+      "Sand lightly with grit 240 until the raised fibres are gone, then dust off.",
+      "Brush on the second thin coat the same way, without going back over areas already drying.",
+      "Let it harden for 24 hours before using it or refitting the knobs."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Drying",
+      "",
+      "",
+      "Hardening"
+     ],
+     "checks": {
+      "2": {
+       "q": "Is the surface smooth and evenly dull, with no shiny patches?",
+       "fix": "Go back over the shiny patches with grit 120, then 180 and 240 again."
+      },
+      "6": {
+       "q": "Is it smooth without sanding through to bare wood?",
+       "fix": "If you went through, dab a thin touch-up coat on that spot and let it dry before the second coat."
+      }
+     },
+     "warns": {
+      "4": "Keep a window open, no flames nearby, and read the safety label on the tin."
+     },
+     "tips": [
+      "Want a new colour? Apply wood stain first, let it dry as the tin says, then varnish over it.",
+      "Thick old paint or varnish? Start with grit 80, or use a paint stripper.",
+      "Wrap the brush in cling film between coats so it doesn't dry out."
+     ]
+    },
+    "fr": {
+     "title": "Poncer et vernir un meuble en bois",
+     "intro": "Table de chevet ou tabouret abîmé ? Tu le ponces et tu lui passes deux couches de vernis.",
+     "tools": [
+      "Cale à poncer",
+      "Pinceau",
+      "Tournevis cruciforme",
+      "Aspirateur"
+     ],
+     "mats": [
+      "Papier de verre grain 120, 180 et 240",
+      "Vernis bois à l'eau",
+      "Chiffon antipoussière",
+      "Chiffon"
+     ],
+     "steps": [
+      "Démonte boutons et quincaillerie et pose la pièce sur du papier journal, dans une pièce bien aérée.",
+      "Ponce tout au grain 120, toujours dans le sens du fil, jusqu'à ce que l'ancienne finition soit mate et uniforme.",
+      "Repasse au grain 180 puis 240, dans le sens du fil, jusqu'à ce que ce soit doux au toucher.",
+      "Aspire la poussière, puis essuie au chiffon antipoussière ou à peine humide jusqu'à ce qu'il reste propre.",
+      "Mélange le vernis sans le secouer et passe une couche fine dans le sens du fil, à longs coups de pinceau.",
+      "Laisse sécher, en général environ 4 heures : vérifie le temps sur le pot.",
+      "Égrène légèrement au grain 240 jusqu'à ce que les fibres relevées disparaissent, puis dépoussière.",
+      "Passe la deuxième couche fine de la même façon, sans revenir sur les zones qui sèchent.",
+      "Laisse durcir 24 heures avant de t'en servir ou de remonter les boutons."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Séchage",
+      "",
+      "",
+      "Durcissement"
+     ],
+     "checks": {
+      "2": {
+       "q": "La surface est-elle douce et mate partout, sans zones brillantes ?",
+       "fix": "Repasse les zones brillantes au grain 120, puis de nouveau au 180 et au 240."
+      },
+      "6": {
+       "q": "Est-ce lisse sans être arrivé au bois nu ?",
+       "fix": "Si le bois est à nu, fais une fine retouche à cet endroit et laisse sécher avant la deuxième couche."
+      }
+     },
+     "warns": {
+      "4": "Garde la fenêtre ouverte, aucune flamme à côté, et lis les consignes sur le pot."
+     },
+     "tips": [
+      "Envie d'une autre couleur ? Passe d'abord une teinte à bois, laisse sécher, puis vernis par-dessus.",
+      "Vieille peinture ou vernis épais ? Commence au grain 80 ou utilise un décapant.",
+      "Entre deux couches, emballe le pinceau dans du film alimentaire : il ne sèche pas."
+     ]
+    },
+    "es": {
+     "title": "Lijar y barnizar un mueble de madera",
+     "intro": "¿Mesilla o taburete estropeado? Lo lijas y le das dos manos de barniz nuevas.",
+     "tools": [
+      "Taco de lijar",
+      "Brocha",
+      "Destornillador de estrella",
+      "Aspiradora"
+     ],
+     "mats": [
+      "Lija de grano 120, 180 y 240",
+      "Barniz al agua para madera",
+      "Trapo atrapapolvo",
+      "Trapo"
+     ],
+     "steps": [
+      "Quita tiradores y herrajes y pon la pieza sobre papel de periódico, en un cuarto bien ventilado.",
+      "Lija todo con grano 120, siempre a favor de la veta, hasta que el acabado viejo quede mate y uniforme.",
+      "Repasa con grano 180 y luego 240, a favor de la veta, hasta que al tacto esté suave.",
+      "Aspira el polvo y pasa el trapo atrapapolvo o uno apenas húmedo hasta que salga limpio.",
+      "Remueve el barniz sin agitarlo y da una mano fina a favor de la veta, con pasadas largas.",
+      "Deja secar, normalmente unas 4 horas: mira el tiempo en el bote.",
+      "Lija suave con grano 240 hasta que desaparezca el repelo y quita el polvo.",
+      "Da la segunda mano fina igual, sin volver a pasar por zonas que ya están secando.",
+      "Deja endurecer 24 horas antes de usarlo o de volver a poner los tiradores."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Secado",
+      "",
+      "",
+      "Endurecido"
+     ],
+     "checks": {
+      "2": {
+       "q": "¿La superficie está suave y mate en todas partes, sin brillos?",
+       "fix": "Repasa las zonas brillantes con grano 120 y luego otra vez con 180 y 240."
+      },
+      "6": {
+       "q": "¿Está suave sin haber llegado a la madera desnuda?",
+       "fix": "Si se ve la madera, da un retoque fino en ese punto y deja secar antes de la segunda mano."
+      }
+     },
+     "warns": {
+      "4": "Ventana abierta, nada de llamas cerca, y lee las advertencias del bote."
+     },
+     "tips": [
+      "¿Quieres otro color? Da primero un tinte para madera, deja secar y luego barniza encima.",
+      "¿Pintura vieja o barniz grueso? Empieza con grano 80 o usa un decapante.",
+      "Entre manos, envuelve la brocha en film transparente para que no se seque."
+     ]
+    },
+    "de": {
+     "title": "Holzmöbel schleifen und lackieren",
+     "intro": "Nachttisch oder Hocker abgenutzt? Du schleifst ihn ab und gibst ihm zwei neue Lackschichten.",
+     "tools": [
+      "Schleifklotz",
+      "Pinsel",
+      "Kreuzschlitzschraubendreher",
+      "Staubsauger"
+     ],
+     "mats": [
+      "Schleifpapier Körnung 120, 180 und 240",
+      "Holzlack auf Wasserbasis",
+      "Staubbindetuch",
+      "Lappen"
+     ],
+     "steps": [
+      "Bau Knöpfe und Beschläge ab und stell das Stück auf Zeitungspapier, in einen gut gelüfteten Raum.",
+      "Schleif alles mit Körnung 120, immer in Faserrichtung, bis die alte Oberfläche matt und gleichmäßig ist.",
+      "Geh mit Körnung 180 und dann 240 drüber, in Faserrichtung, bis es sich glatt anfühlt.",
+      "Saug den Staub ab und wisch mit dem Staubbindetuch oder einem kaum feuchten Lappen nach, bis er sauber bleibt.",
+      "Rühr den Lack um, nicht schütteln, und streich eine dünne Schicht in Faserrichtung, in langen Zügen.",
+      "Lass ihn trocknen, meist etwa 4 Stunden: Schau auf der Dose nach.",
+      "Schleif leicht mit Körnung 240 zwischen, bis die aufgestellten Fasern weg sind, dann entstauben.",
+      "Streich die zweite dünne Schicht genauso, ohne über Stellen zu gehen, die schon antrocknen.",
+      "Lass alles 24 Stunden aushärten, bevor du es benutzt oder die Knöpfe wieder anbaust."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Trocknen",
+      "",
+      "",
+      "Aushärten"
+     ],
+     "checks": {
+      "2": {
+       "q": "Ist die Fläche überall glatt und matt, ohne glänzende Stellen?",
+       "fix": "Schleif die glänzenden Stellen noch mal mit 120, dann wieder mit 180 und 240."
+      },
+      "6": {
+       "q": "Ist es glatt, ohne bis aufs rohe Holz durchgeschliffen?",
+       "fix": "Bist du durch, tupf dort dünn Lack nach und lass ihn trocknen, bevor die zweite Schicht kommt."
+      }
+     },
+     "warns": {
+      "4": "Fenster offen lassen, kein offenes Feuer in der Nähe, und lies die Hinweise auf der Dose."
+     },
+     "tips": [
+      "Andere Farbe gewünscht? Erst Holzbeize auftragen, trocknen lassen, dann darüber lackieren.",
+      "Dicke alte Farbe oder Lackschicht? Fang mit Körnung 80 an oder nimm Abbeizer.",
+      "Wickel den Pinsel zwischen den Schichten in Frischhaltefolie, dann trocknet er nicht aus."
+     ]
+    }
+   }
+  },
+  {
+   "id": "posare-laminato",
+   "cat": "pavimenti",
+   "diff": 2,
+   "active": 360,
+   "total": 2880,
+   "risk": 1,
+   "topic": "power-tools",
+   "allow": {},
+   "ppe": [
+    "glasses"
+   ],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "tape-measure"
+    },
+    {
+     "k": "pencil",
+     "own": true
+    },
+    {
+     "k": "spirit-level"
+    },
+    {
+     "k": "jigsaw"
+    },
+    {
+     "k": "flooring-kit"
+    },
+    {
+     "k": "rubber-mallet"
+    },
+    {
+     "k": "utility-knife"
+    }
+   ],
+   "mats": [
+    {
+     "k": "laminate-flooring",
+     "q": null,
+     "u": ""
+    },
+    {
+     "k": "underlay",
+     "q": null,
+     "u": ""
+    },
+    {
+     "k": "vapour-barrier",
+     "q": null,
+     "u": ""
+    },
+    {
+     "k": "adhesive-tape",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "skirting-boards",
+     "q": null,
+     "u": ""
+    }
+   ],
+   "steps": [
+    {
+     "ic": "box",
+     "timer": 172800,
+     "bg": true
+    },
+    {
+     "ic": "floor"
+    },
+    {
+     "ic": "level",
+     "check": true
+    },
+    {
+     "ic": "floor"
+    },
+    {
+     "ic": "measure"
+    },
+    {
+     "ic": "floor",
+     "check": true
+    },
+    {
+     "ic": "saw",
+     "warn": 1
+    },
+    {
+     "ic": "floor",
+     "check": true
+    },
+    {
+     "ic": "measure"
+    },
+    {
+     "ic": "pull"
+    },
+    {
+     "ic": "hammer"
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Posare un pavimento in laminato",
+     "intro": "Pavimento nuovo senza colla: posi il laminato a incastro in una stanza in un weekend.",
+     "tools": [
+      "Metro",
+      "Matita",
+      "Livella lunga",
+      "Seghetto alternativo",
+      "Kit posa (tampone, tirante, distanziali)",
+      "Martello di gomma",
+      "Taglierino"
+     ],
+     "mats": [
+      "Laminato a incastro",
+      "Materassino sottopavimento",
+      "Barriera al vapore (su massetto)",
+      "Nastro adesivo",
+      "Battiscopa"
+     ],
+     "steps": [
+      "Lascia i pacchi chiusi, distesi in piano nella stanza da pavimentare, per 48 ore: le doghe si adattano al clima.",
+      "Intanto svuota la stanza, togli i battiscopa e aspira bene il pavimento.",
+      "Appoggia la livella in più punti: sotto non devono restare fessure oltre [[2 mm]].",
+      "Stendi il materassino accostato, senza sovrapporlo, e unisci i teli col nastro. Sul massetto metti prima la barriera al vapore.",
+      "Misura la larghezza della stanza e dividi per la larghezza della doga: se l'ultima fila viene sotto [[5 cm]], rifila la prima.",
+      "Metti i distanziali lungo i muri per un giunto di [[8-10 mm]] e posa la prima fila da un angolo, lato maschio verso il muro.",
+      "Taglia l'ultima doga della fila col seghetto, decoro verso il basso; se l'avanzo è almeno [[30 cm]], inizia la fila dopo.",
+      "Per ogni fila inclina il lato lungo, abbassalo e chiudi il lato corto col tampone. Sfalsa le giunte corte.",
+      "Per l'ultima fila appoggia una doga sulla precedente, segna la distanza dal muro meno il giunto e tagliala per lungo.",
+      "Monta l'ultima fila col tirante, battendo piano finché gli incastri si chiudono.",
+      "Togli i distanziali e fissa il battiscopa al muro, mai al pavimento, così il laminato può muoversi."
+     ],
+     "labels": [
+      "Acclimatamento",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Il pavimento è piano, senza avvallamenti o gobbe?",
+       "fix": "Riempi gli avvallamenti con autolivellante e lascialo asciugare; carteggia o raschia le gobbe."
+      },
+      "5": {
+       "q": "La prima fila è dritta e appoggiata ai distanziali?",
+       "fix": "Se il muro è storto, ricopia la sua forma sulla prima fila e taglia le doghe per seguirlo."
+      },
+      "7": {
+       "q": "Le giunte corte sono sfalsate di almeno [[30 cm]] tra le file?",
+       "fix": "Togli la fila e ricominciala con una doga di lunghezza diversa: giunte allineate indeboliscono il pavimento."
+      }
+     },
+     "warns": {
+      "6": "Stacca la spina del seghetto prima di cambiare lama e tieni le dita lontane dalla linea di taglio."
+     },
+     "tips": [
+      "Agli stipiti taglia la base dello stipite con un seghetto poggiato su un avanzo di doga e infila la doga sotto.",
+      "Posa le doghe parallele alla finestra principale: le giunte si notano meno.",
+      "Non fissare mai cucina o mobili pesanti attraverso il laminato: deve restare flottante."
+     ]
+    },
+    "en": {
+     "title": "Lay a laminate floor",
+     "intro": "A new floor with no glue: lay click laminate in a room over a weekend.",
+     "tools": [
+      "Tape measure",
+      "Pencil",
+      "Long spirit level",
+      "Jigsaw",
+      "Fitting kit (tapping block, pull bar, spacers)",
+      "Rubber mallet",
+      "Utility knife"
+     ],
+     "mats": [
+      "Click laminate boards",
+      "Underlay",
+      "Vapour barrier (on concrete)",
+      "Tape",
+      "Skirting boards (baseboards)"
+     ],
+     "steps": [
+      "Leave the sealed packs lying flat in the room for 48 hours so the boards adjust to its temperature and humidity.",
+      "Meanwhile, empty the room, take off the skirting boards and vacuum the floor.",
+      "Lay the spirit level on the floor in several places: gaps underneath shouldn't exceed [[2 mm]].",
+      "Roll out the underlay edge to edge, no overlaps, and tape the joins. On concrete, lay the vapour barrier first.",
+      "Measure the room width and divide by the board width: if the last row comes out under [[5 cm]], trim the first row.",
+      "Set spacers along the walls for an [[8-10 mm]] gap and lay the first row from a corner, tongue side to the wall.",
+      "Cut the last board of the row with the jigsaw, decor face down; if the offcut is at least [[30 cm]], it starts the next row.",
+      "For each new row, angle the long edge in, lower it and tap the short joint shut with the block. Stagger the joints.",
+      "For the last row, lay a board on the previous one, mark the distance to the wall minus the gap and rip it lengthwise.",
+      "Fit the last row with the pull bar, tapping gently until the joints close.",
+      "Remove the spacers and fix the skirting to the wall, never to the floor, so the laminate can move."
+     ],
+     "labels": [
+      "Acclimatising",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Is the floor flat, with no big dips or bumps?",
+       "fix": "Fill dips with self-levelling compound and let it dry; sand or scrape down bumps."
+      },
+      "5": {
+       "q": "Is the first row straight and tight to the spacers?",
+       "fix": "If the wall is crooked, scribe its shape onto the first row and cut the boards to follow it."
+      },
+      "7": {
+       "q": "Are the end joints staggered at least [[30 cm]] row to row?",
+       "fix": "Take the row out and restart it with a board of a different length: lined-up joints weaken the floor."
+      }
+     },
+     "warns": {
+      "6": "Unplug the jigsaw before changing the blade and keep your fingers clear of the cutting line."
+     },
+     "tips": [
+      "At door frames, undercut the frame with a saw resting on an offcut and slide the board underneath.",
+      "Run the boards parallel to the main window: the joints show less.",
+      "Never fix kitchen units or heavy furniture through the laminate: it has to float freely."
+     ]
+    },
+    "fr": {
+     "title": "Poser un parquet stratifié",
+     "intro": "Un sol neuf sans colle : tu poses un stratifié clipsable dans une pièce en un week-end.",
+     "tools": [
+      "Mètre ruban",
+      "Crayon",
+      "Grand niveau",
+      "Scie sauteuse",
+      "Kit de pose (cale de frappe, tire-lame, cales)",
+      "Maillet en caoutchouc",
+      "Cutter"
+     ],
+     "mats": [
+      "Lames stratifiées clipsables",
+      "Sous-couche",
+      "Film pare-vapeur (sur chape)",
+      "Adhésif",
+      "Plinthes"
+     ],
+     "steps": [
+      "Laisse les paquets fermés, à plat, dans la pièce à équiper pendant 48 heures : les lames s'adaptent au climat.",
+      "Pendant ce temps, vide la pièce, dépose les plinthes et aspire bien le sol.",
+      "Pose le niveau à plusieurs endroits : il ne doit pas rester de jour de plus de [[2 mm]] dessous.",
+      "Déroule la sous-couche bord à bord, sans chevauchement, et scotche les jonctions. Sur chape, pose d'abord le pare-vapeur.",
+      "Mesure la largeur de la pièce et divise par celle d'une lame : si la dernière rangée fait moins de [[5 cm]], recoupe la première.",
+      "Place des cales le long des murs pour un joint de [[8-10 mm]] et pose la première rangée depuis un angle, languette côté mur.",
+      "Coupe la dernière lame à la scie sauteuse, décor dessous ; si la chute fait au moins [[30 cm]], elle commence la rangée suivante.",
+      "Pour chaque rangée, incline le côté long, abaisse-le et ferme le petit côté à la cale de frappe. Décale les joints.",
+      "Pour la dernière rangée, pose une lame sur la précédente, marque la distance au mur moins le joint et coupe-la en long.",
+      "Pose la dernière rangée avec le tire-lame, en tapant doucement jusqu'à ce que les joints se ferment.",
+      "Retire les cales et fixe les plinthes au mur, jamais au sol, pour que le stratifié puisse bouger."
+     ],
+     "labels": [
+      "Acclimatation",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Le sol est-il plan, sans creux ni bosses ?",
+       "fix": "Comble les creux avec un ragréage autolissant et laisse sécher ; ponce ou gratte les bosses."
+      },
+      "5": {
+       "q": "La première rangée est-elle droite et contre les cales ?",
+       "fix": "Si le mur est de travers, reporte sa forme sur la première rangée et découpe les lames pour le suivre."
+      },
+      "7": {
+       "q": "Les joints de bout sont-ils décalés d'au moins [[30 cm]] entre rangées ?",
+       "fix": "Retire la rangée et recommence-la avec une lame d'une autre longueur : des joints alignés affaiblissent le sol."
+      }
+     },
+     "warns": {
+      "6": "Débranche la scie sauteuse avant de changer la lame et garde les doigts loin du trait de coupe."
+     },
+     "tips": [
+      "Aux chambranles, recoupe le bas du chambranle à la scie posée sur une chute et glisse la lame dessous.",
+      "Pose les lames parallèles à la fenêtre principale : les joints se voient moins.",
+      "Ne fixe jamais cuisine ou meubles lourds à travers le stratifié : il doit rester flottant."
+     ]
+    },
+    "es": {
+     "title": "Instalar suelo laminado",
+     "intro": "Suelo nuevo sin cola: colocas laminado de clic en una habitación en un fin de semana.",
+     "tools": [
+      "Metro",
+      "Lápiz",
+      "Nivel largo",
+      "Sierra de calar",
+      "Kit de instalación (taco, tiralamas, cuñas)",
+      "Mazo de goma",
+      "Cúter"
+     ],
+     "mats": [
+      "Laminado de clic",
+      "Base aislante",
+      "Lámina antihumedad (sobre solera)",
+      "Cinta adhesiva",
+      "Rodapiés"
+     ],
+     "steps": [
+      "Deja los paquetes cerrados y en plano en la habitación durante 48 horas para que las lamas se adapten al ambiente.",
+      "Mientras tanto, vacía la habitación, quita los rodapiés y aspira bien el suelo.",
+      "Apoya el nivel en varios puntos: debajo no deben quedar huecos de más de [[2 mm]].",
+      "Extiende la base a tope, sin solapar, y une las juntas con cinta. Sobre solera, pon antes la lámina antihumedad.",
+      "Mide el ancho de la habitación y divide por el ancho de la lama: si la última fila sale de menos de [[5 cm]], recorta la primera.",
+      "Pon cuñas junto a las paredes para una junta de [[8-10 mm]] y coloca la primera fila desde una esquina, macho hacia la pared.",
+      "Corta la última lama con la sierra de calar, decorado abajo; si el sobrante mide [[30 cm]] o más, empieza con él la siguiente.",
+      "En cada fila nueva, inclina el lado largo, bájalo y cierra el lado corto con el taco. Alterna las juntas.",
+      "Para la última fila, pon una lama sobre la anterior, marca la distancia a la pared menos la junta y córtala a lo largo.",
+      "Coloca la última fila con el tiralamas, golpeando suave hasta que cierren las juntas.",
+      "Quita las cuñas y fija el rodapié a la pared, nunca al suelo, para que el laminado pueda moverse."
+     ],
+     "labels": [
+      "Aclimatación",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "¿El suelo está plano, sin hundimientos ni bultos?",
+       "fix": "Rellena los hundimientos con autonivelante y deja secar; lija o rasca los bultos."
+      },
+      "5": {
+       "q": "¿La primera fila está recta y apoyada en las cuñas?",
+       "fix": "Si la pared está torcida, copia su forma en la primera fila y corta las lamas para seguirla."
+      },
+      "7": {
+       "q": "¿Las juntas cortas están desplazadas al menos [[30 cm]] entre filas?",
+       "fix": "Quita la fila y empiézala con una lama de otro largo: las juntas alineadas debilitan el suelo."
+      }
+     },
+     "warns": {
+      "6": "Desenchufa la sierra antes de cambiar la hoja y mantén los dedos lejos de la línea de corte."
+     },
+     "tips": [
+      "En los marcos de puerta, recorta la base del marco con una sierra apoyada en un sobrante y mete la lama debajo.",
+      "Coloca las lamas paralelas a la ventana principal: las juntas se notan menos.",
+      "Nunca fijes muebles de cocina o pesados a través del laminado: tiene que quedar flotante."
+     ]
+    },
+    "de": {
+     "title": "Laminat verlegen",
+     "intro": "Neuer Boden ohne Kleber: Du verlegst Klick-Laminat in einem Raum an einem Wochenende.",
+     "tools": [
+      "Maßband",
+      "Bleistift",
+      "Lange Wasserwaage",
+      "Stichsäge",
+      "Verlegeset (Schlagklotz, Zugeisen, Keile)",
+      "Gummihammer",
+      "Cuttermesser"
+     ],
+     "mats": [
+      "Klick-Laminat",
+      "Trittschalldämmung",
+      "Dampfsperre (auf Estrich)",
+      "Klebeband",
+      "Sockelleisten"
+     ],
+     "steps": [
+      "Lass die Pakete geschlossen und flach 48 Stunden im Raum liegen, damit sich die Dielen ans Raumklima anpassen.",
+      "Räum in der Zwischenzeit den Raum leer, nimm die Sockelleisten ab und saug gründlich.",
+      "Leg die Wasserwaage an mehreren Stellen auf: Darunter sollten keine Spalten über [[2 mm]] bleiben.",
+      "Roll die Dämmung Stoß an Stoß aus, ohne Überlappung, und kleb die Nähte ab. Auf Estrich zuerst die Dampfsperre.",
+      "Miss die Raumbreite und teil sie durch die Dielenbreite: Wird die letzte Reihe schmaler als [[5 cm]], kürz die erste.",
+      "Setz Keile an die Wände für [[8-10 mm]] Fuge und leg die erste Reihe ab einer Ecke, Feder zur Wand.",
+      "Säg die letzte Diele der Reihe mit der Stichsäge, Dekor nach unten; ist der Rest mindestens [[30 cm]], beginnt er die nächste.",
+      "Für jede Reihe die Längsseite schräg ansetzen, absenken und den Kopfstoß mit dem Schlagklotz schließen. Stöße versetzen.",
+      "Für die letzte Reihe leg eine Diele auf die vorletzte, markier den Wandabstand minus Fuge und säg sie längs zu.",
+      "Setz die letzte Reihe mit dem Zugeisen ein und klopf sanft, bis die Fugen geschlossen sind.",
+      "Nimm die Keile raus und befestige die Sockelleisten an der Wand, nie am Boden, damit das Laminat arbeiten kann."
+     ],
+     "labels": [
+      "Akklimatisieren",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Ist der Boden eben, ohne Mulden oder Buckel?",
+       "fix": "Füll Mulden mit Ausgleichsmasse und lass sie trocknen; Buckel abschleifen oder abkratzen."
+      },
+      "5": {
+       "q": "Ist die erste Reihe gerade und liegt an den Keilen an?",
+       "fix": "Ist die Wand schief, übertrag ihren Verlauf auf die erste Reihe und schneid die Dielen passend zu."
+      },
+      "7": {
+       "q": "Sind die Kopfstöße von Reihe zu Reihe mindestens [[30 cm]] versetzt?",
+       "fix": "Nimm die Reihe raus und fang mit einer anders langen Diele an: Fluchtende Stöße schwächen den Boden."
+      }
+     },
+     "warns": {
+      "6": "Zieh vor dem Blattwechsel den Stecker der Stichsäge und halt die Finger weg von der Schnittlinie."
+     },
+     "tips": [
+      "An Türzargen die Zarge unten mit einer Säge kürzen, die auf einem Reststück aufliegt, und die Diele drunterschieben.",
+      "Verleg die Dielen parallel zum Hauptfenster: Die Stöße fallen weniger auf.",
+      "Nie Küche oder schwere Möbel durch das Laminat festschrauben: Es muss schwimmend liegen bleiben."
+     ]
+    }
+   }
+  },
+  {
+   "id": "riparare-graffio-parquet",
+   "cat": "pavimenti",
+   "diff": 1,
+   "active": 20,
+   "total": 50,
+   "risk": 0,
+   "topic": null,
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "plastic-spatula"
+    },
+    {
+     "k": "soft-cloth",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "wax-filler-stick",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "wood-filler",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "masking-tape",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "sandpaper",
+     "q": 1,
+     "u": ""
+    }
+   ],
+   "steps": [
+    {
+     "ic": "clean"
+    },
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "tape"
+    },
+    {
+     "ic": "caulk"
+    },
+    {
+     "ic": "knife",
+     "check": true
+    },
+    {
+     "ic": "wait",
+     "timer": 1800
+    },
+    {
+     "ic": "sand"
+    },
+    {
+     "ic": "clean",
+     "check": true
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Riparare un graffio sul parquet",
+     "intro": "Graffio o solco sul parquet? Lo riempi e lo mimetizzi con cera o stucco colorato.",
+     "tools": [
+      "Spatola di plastica",
+      "Panno morbido"
+     ],
+     "mats": [
+      "Pastello di cera per legno",
+      "Stucco per legno colorato",
+      "Nastro di carta",
+      "Carta vetrata grana 240"
+     ],
+     "steps": [
+      "Pulisci il graffio con un panno umido e lascia asciugare: lo sporco nel solco si vedrebbe sotto il riempitivo.",
+      "Passa l'unghia di traverso: se non si impunta, il graffio è solo nella finitura; se si impunta, è nel legno.",
+      "Prova il colore in un punto nascosto, sotto un mobile: deve somigliare alla doga, puoi mescolare due pastelli.",
+      "Se il graffio è profondo, metti il nastro di carta lungo i due lati per proteggere la finitura.",
+      "Premi il pastello di cera o lo stucco nel graffio, riempiendolo un filo oltre il bordo.",
+      "Livella con la spatola tenuta piatta, tirando nel verso della venatura, e togli l'eccesso.",
+      "Con lo stucco lascia asciugare come indica il tubetto, di solito 30 minuti; con la cera non serve aspettare.",
+      "Solo con lo stucco: carteggia leggero la toppa con grana 240 finché è a filo, senza toccare la doga intorno.",
+      "Togli il nastro e lucida con un panno morbido e asciutto finché la brillantezza è uguale."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Asciugatura",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Il riempitivo è a filo del pavimento, non incavato?",
+       "fix": "Aggiungine un altro po' e rilivella: lo stucco cala leggermente asciugando."
+      },
+      "8": {
+       "q": "In piedi, il graffio si nota a fatica?",
+       "fix": "Dai un altro strato sottile o usa un pastello più scuro per ridisegnare le venature, poi rilucida."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Graffio leggero su parquet a olio? Strofina una goccia dello stesso olio con un panno: spesso sparisce.",
+      "Ridisegna le venature sulla toppa con un pennarello da ritocco più scuro: la riparazione quasi scompare.",
+      "Solchi profondi su più doghe o legno ingrigito: serve una levigatura, chiedi a un parquettista."
+     ]
+    },
+    "en": {
+     "title": "Fix a scratch in a wooden floor",
+     "intro": "Scratch or gouge in your wood floor? Fill it and blend it in with wax or tinted filler.",
+     "tools": [
+      "Plastic spatula",
+      "Soft cloth"
+     ],
+     "mats": [
+      "Wax filler stick",
+      "Tinted wood filler",
+      "Masking tape",
+      "Sandpaper, grit 240"
+     ],
+     "steps": [
+      "Clean the scratch with a damp cloth and let it dry: dirt in the groove would show through the filler.",
+      "Run a fingernail across it: if it doesn't catch, it's only in the finish; if it catches, it's into the wood.",
+      "Test the colour on a hidden spot, under furniture: match the board's tone; you can blend two sticks.",
+      "For a deep scratch, run masking tape along both sides to protect the finish.",
+      "Press the wax stick or tinted filler into the scratch, leaving it slightly proud.",
+      "Level it with the spatula held flat, pulling along the grain, and take off the excess.",
+      "With filler, let it dry as the tube says, usually 30 minutes; wax needs no wait.",
+      "Filler only: lightly sand the patch with grit 240 until flush, without touching the board around it.",
+      "Peel off the tape and buff with a soft dry cloth until the sheen matches."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Drying",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Is the filling flush with the floor, not sunken?",
+       "fix": "Add a little more and level it again: filler shrinks slightly as it dries."
+      },
+      "8": {
+       "q": "From standing height, is the scratch hard to spot?",
+       "fix": "Add another thin layer, or use a darker stick to draw grain lines across it, then buff again."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Light scratch in an oiled floor? Rub in a drop of the same oil with a cloth: it often vanishes.",
+      "Draw grain lines over the patch with a darker touch-up pen and the repair almost disappears.",
+      "Deep gouges across several boards or grey bare wood: the floor needs sanding; ask a floor fitter."
+     ]
+    },
+    "fr": {
+     "title": "Réparer une rayure sur un parquet",
+     "intro": "Rayure ou entaille sur le parquet ? Tu la combles et la camoufles à la cire ou à la pâte à bois.",
+     "tools": [
+      "Spatule en plastique",
+      "Chiffon doux"
+     ],
+     "mats": [
+      "Bâton de cire pour bois",
+      "Pâte à bois teintée",
+      "Ruban de masquage",
+      "Papier de verre grain 240"
+     ],
+     "steps": [
+      "Nettoie la rayure avec un chiffon humide et laisse sécher : la saleté dans le creux se verrait sous la pâte.",
+      "Passe l'ongle en travers : s'il n'accroche pas, la rayure est dans le vernis ; s'il accroche, elle touche le bois.",
+      "Teste la teinte à un endroit caché, sous un meuble : elle doit rappeler la lame, tu peux mélanger deux bâtons.",
+      "Si la rayure est profonde, colle du ruban de masquage des deux côtés pour protéger la finition.",
+      "Enfonce la cire ou la pâte à bois dans la rayure, en la remplissant un peu au-dessus du niveau.",
+      "Arase avec la spatule tenue à plat, dans le sens du fil, et retire l'excédent.",
+      "Avec la pâte, laisse sécher le temps indiqué sur le tube, souvent 30 minutes ; avec la cire, pas d'attente.",
+      "Pâte seulement : ponce légèrement la retouche au grain 240 jusqu'à niveau, sans toucher la lame autour.",
+      "Retire le ruban et lustre avec un chiffon doux et sec jusqu'à retrouver le même brillant."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Séchage",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Le rebouchage est-il à niveau, sans creux ?",
+       "fix": "Ajoute un peu de produit et arase de nouveau : la pâte se rétracte un peu en séchant."
+      },
+      "8": {
+       "q": "Debout, la rayure se voit-elle à peine ?",
+       "fix": "Remets une fine couche ou prends un bâton plus foncé pour redessiner le fil du bois, puis relustre."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Rayure légère sur parquet huilé ? Frotte une goutte de la même huile au chiffon : souvent elle disparaît.",
+      "Redessine le fil du bois sur la retouche avec un feutre de retouche plus foncé : elle devient presque invisible.",
+      "Entailles profondes sur plusieurs lames ou bois grisé : il faut poncer, demande à un parqueteur."
+     ]
+    },
+    "es": {
+     "title": "Reparar un arañazo en el parquet",
+     "intro": "¿Arañazo o surco en el parquet? Lo rellenas y lo disimulas con cera o masilla de color.",
+     "tools": [
+      "Espátula de plástico",
+      "Trapo suave"
+     ],
+     "mats": [
+      "Barra de cera para madera",
+      "Masilla para madera de color",
+      "Cinta de carrocero",
+      "Lija de grano 240"
+     ],
+     "steps": [
+      "Limpia el arañazo con un trapo húmedo y deja secar: la suciedad del surco se vería bajo el relleno.",
+      "Pasa la uña de través: si no se engancha, el arañazo solo está en el barniz; si se engancha, llega a la madera.",
+      "Prueba el color en un sitio oculto, bajo un mueble: debe parecerse a la lama; puedes mezclar dos barras.",
+      "Si el arañazo es profundo, pon cinta de carrocero a los dos lados para proteger el acabado.",
+      "Aprieta la barra de cera o la masilla dentro del arañazo, dejándola un poco por encima.",
+      "Enrasa con la espátula plana, tirando a favor de la veta, y quita lo que sobra.",
+      "Con masilla, deja secar lo que indique el tubo, normalmente 30 minutos; con cera no hace falta esperar.",
+      "Solo con masilla: lija suave el parche con grano 240 hasta que quede a ras, sin tocar la lama de alrededor.",
+      "Quita la cinta y frota con un trapo suave y seco hasta que el brillo sea igual."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Secado",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "¿El relleno queda a ras del suelo, sin hundirse?",
+       "fix": "Añade un poco más y vuelve a enrasar: la masilla encoge un poco al secar."
+      },
+      "8": {
+       "q": "Mirando de pie, ¿el arañazo apenas se ve?",
+       "fix": "Da otra capa fina o usa una barra más oscura para dibujar la veta encima y vuelve a frotar."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "¿Arañazo leve en parquet al aceite? Frota una gota del mismo aceite con un trapo: a menudo desaparece.",
+      "Dibuja la veta sobre el parche con un rotulador de retoque más oscuro y casi no se nota.",
+      "Surcos profundos en varias lamas o madera gris: hay que acuchillar el suelo; llama a un parquetista."
+     ]
+    },
+    "de": {
+     "title": "Kratzer im Parkett reparieren",
+     "intro": "Kratzer oder Rille im Holzboden? Du füllst sie mit Wachs oder Holzkitt und tarnst sie.",
+     "tools": [
+      "Kunststoffspachtel",
+      "Weiches Tuch"
+     ],
+     "mats": [
+      "Hartwachsstange",
+      "Farbiger Holzkitt",
+      "Malerkrepp",
+      "Schleifpapier Körnung 240"
+     ],
+     "steps": [
+      "Reinig den Kratzer mit einem feuchten Tuch und lass ihn trocknen: Schmutz in der Rille würde durchscheinen.",
+      "Fahr mit dem Fingernagel quer drüber: Hakt er nicht, ist nur der Lack verletzt; hakt er, geht es ins Holz.",
+      "Teste den Farbton an einer versteckten Stelle, unter einem Möbel: Er soll zur Diele passen, zwei Stangen lassen sich mischen.",
+      "Bei tiefen Kratzern klebst du Malerkrepp an beide Seiten, um die Oberfläche zu schützen.",
+      "Drück das Wachs oder den Kitt in den Kratzer, etwas über das Niveau hinaus.",
+      "Zieh es mit dem flach gehaltenen Spachtel in Faserrichtung ab und nimm den Überschuss weg.",
+      "Kitt trocknen lassen, wie auf der Tube steht, meist 30 Minuten; Wachs braucht keine Wartezeit.",
+      "Nur bei Kitt: Schleif die Stelle leicht mit Körnung 240, bis sie bündig ist, ohne die Diele drumherum.",
+      "Zieh das Krepp ab und polier mit einem weichen, trockenen Tuch, bis der Glanz passt."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Trocknen",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Ist die Füllung bündig mit dem Boden, nicht eingesunken?",
+       "fix": "Gib etwas mehr dazu und zieh erneut ab: Kitt schwindet beim Trocknen leicht."
+      },
+      "8": {
+       "q": "Fällt der Kratzer im Stehen kaum noch auf?",
+       "fix": "Trag noch eine dünne Schicht auf oder zeichne mit einer dunkleren Stange die Maserung nach, dann nachpolieren."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Leichter Kratzer in geöltem Parkett? Reib einen Tropfen desselben Öls mit einem Tuch ein: Oft verschwindet er.",
+      "Zeichne mit einem dunkleren Retuschierstift die Maserung über die Stelle: Die Reparatur ist kaum zu sehen.",
+      "Tiefe Rillen über mehrere Dielen oder graues, rohes Holz: Der Boden muss geschliffen werden, frag einen Parkettleger."
+     ]
+    }
+   }
+  }
+ ]
+}

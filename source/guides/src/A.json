@@ -1,0 +1,2717 @@
+{"group": "A", "guides": [
+{
+  "id": "spurgare-termosifone",
+  "cat": "idraulica",
+  "diff": 1,
+  "active": 15,
+  "total": 30,
+  "risk": 1,
+  "topic": "water",
+  "allow": {},
+  "ppe": [
+    "gloves"
+  ],
+  "tags": [],
+  "months": [
+    10,
+    11,
+    12,
+    1,
+    2
+  ],
+  "tools": [
+    {
+      "k": "radiator-key"
+    },
+    {
+      "k": "flat-screwdriver",
+      "own": true
+    }
+  ],
+  "mats": [
+    {
+      "k": "cloth",
+      "q": 1,
+      "u": "",
+      "own": true
+    },
+    {
+      "k": "small-container",
+      "q": 1,
+      "u": "",
+      "own": true
+    }
+  ],
+  "steps": [
+    {
+      "ic": "power-off",
+      "timer": 1200,
+      "warn": 1
+    },
+    {
+      "ic": "look"
+    },
+    {
+      "ic": "clean"
+    },
+    {
+      "ic": "loosen"
+    },
+    {
+      "ic": "drop",
+      "check": true
+    },
+    {
+      "ic": "tighten"
+    },
+    {
+      "ic": "measure",
+      "check": true
+    }
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Spurgare un termosifone",
+      "intro": "Se è caldo sotto e freddo sopra, c'è aria: la fai uscire in pochi minuti.",
+      "tools": [
+        "Chiavetta per termosifoni",
+        "Cacciavite piatto"
+      ],
+      "mats": [
+        "Panno asciutto",
+        "Bicchiere o ciotolina"
+      ],
+      "steps": [
+        "Spegni il riscaldamento e aspetta che il termosifone sia tiepido.",
+        "Trova la valvolina di sfiato: in alto, sul lato opposto al rubinetto.",
+        "Metti il panno e il bicchiere sotto la valvolina.",
+        "Gira la chiavetta di un quarto di giro in senso antiorario: senti uscire l'aria.",
+        "Aspetta che esca un filo d'acqua continuo, senza bolle.",
+        "Richiudi in senso orario senza stringere troppo.",
+        "Controlla la pressione della caldaia: di solito tra [[1-1.5 bar]] a impianto freddo."
+      ],
+      "labels": [
+        "Raffreddamento",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "Esce acqua senza bolle?",
+          "fix": "Se esce solo aria, aspetta ancora. Se non esce niente, la valvolina può essere otturata: puliscila con uno spillo."
+        },
+        "6": {
+          "q": "La pressione è nella zona giusta?",
+          "fix": "Se è bassa, riportala al valore indicato sul manuale con il rubinetto di carico della caldaia."
+        }
+      },
+      "warns": {
+        "0": "L'acqua del termosifone acceso scotta: aspetta che si raffreddi."
+      },
+      "tips": [
+        "Parti dal termosifone più vicino alla caldaia e vai verso il più lontano.",
+        "Rifallo a inizio inverno: il riscaldamento consuma meno."
+      ]
+    },
+    "en": {
+      "title": "Bleed a radiator",
+      "intro": "Warm at the bottom, cold at the top means trapped air: let it out in minutes.",
+      "tools": [
+        "Radiator key",
+        "Flat screwdriver"
+      ],
+      "mats": [
+        "Dry cloth",
+        "Small cup or bowl"
+      ],
+      "steps": [
+        "Turn the heating off and wait until the radiator is lukewarm.",
+        "Find the bleed valve: at the top, on the side opposite the main valve.",
+        "Hold the cloth and the cup under the bleed valve.",
+        "Turn the key a quarter turn anticlockwise: you'll hear air hiss out.",
+        "Wait until a steady trickle of water comes out, with no bubbles.",
+        "Close it clockwise without overtightening.",
+        "Check the boiler pressure: usually [[1-1.5 bar]] with the system cold."
+      ],
+      "labels": [
+        "Cool down",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "Is water coming out with no bubbles?",
+          "fix": "If it's still only air, keep waiting. If nothing comes out, the valve may be clogged: clear it with a pin."
+        },
+        "6": {
+          "q": "Is the pressure in the right range?",
+          "fix": "If it's low, top it up to the value in the manual with the boiler's filling loop."
+        }
+      },
+      "warns": {
+        "0": "Water from a hot radiator scalds: let it cool first."
+      },
+      "tips": [
+        "Start with the radiator nearest the boiler and work outwards.",
+        "Do it at the start of winter: the heating uses less energy."
+      ]
+    },
+    "fr": {
+      "title": "Purger un radiateur",
+      "intro": "Chaud en bas, froid en haut : il y a de l'air. Tu le fais sortir en quelques minutes.",
+      "tools": [
+        "Clé de purge",
+        "Tournevis plat"
+      ],
+      "mats": [
+        "Chiffon sec",
+        "Petit verre ou bol"
+      ],
+      "steps": [
+        "Coupe le chauffage et attends que le radiateur soit tiède.",
+        "Repère la vis de purge : en haut, du côté opposé au robinet.",
+        "Place le chiffon et le verre sous la vis de purge.",
+        "Tourne la clé d'un quart de tour vers la gauche : l'air s'échappe en sifflant.",
+        "Attends qu'un filet d'eau continu sorte, sans bulles.",
+        "Referme vers la droite sans trop serrer.",
+        "Vérifie la pression de la chaudière : en général [[1-1.5 bar]] à froid."
+      ],
+      "labels": [
+        "Refroidissement",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "L'eau sort-elle sans bulles ?",
+          "fix": "S'il ne sort que de l'air, attends encore. S'il ne sort rien, la vis est peut-être bouchée : débouche-la avec une épingle."
+        },
+        "6": {
+          "q": "La pression est-elle dans la bonne zone ?",
+          "fix": "Si elle est basse, remets-la à la valeur du manuel avec le robinet de remplissage de la chaudière."
+        }
+      },
+      "warns": {
+        "0": "L'eau d'un radiateur chaud brûle : laisse-le refroidir."
+      },
+      "tips": [
+        "Commence par le radiateur le plus proche de la chaudière, puis éloigne-toi.",
+        "Fais-le au début de l'hiver : le chauffage consomme moins."
+      ]
+    },
+    "es": {
+      "title": "Purgar un radiador",
+      "intro": "Caliente abajo y frío arriba: tiene aire. Lo sacas en pocos minutos.",
+      "tools": [
+        "Llave de purga",
+        "Destornillador plano"
+      ],
+      "mats": [
+        "Trapo seco",
+        "Vaso o cuenco pequeño"
+      ],
+      "steps": [
+        "Apaga la calefacción y espera a que el radiador esté templado.",
+        "Busca el purgador: arriba, en el lado contrario a la llave de paso.",
+        "Pon el trapo y el vaso debajo del purgador.",
+        "Gira la llave un cuarto de vuelta a la izquierda: oirás salir el aire.",
+        "Espera a que salga un hilo de agua continuo, sin burbujas.",
+        "Cierra hacia la derecha sin apretar demasiado.",
+        "Mira la presión de la caldera: suele estar entre [[1-1.5 bar]] en frío."
+      ],
+      "labels": [
+        "Enfriar",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "¿Sale agua sin burbujas?",
+          "fix": "Si solo sale aire, espera un poco más. Si no sale nada, el purgador puede estar obstruido: límpialo con un alfiler."
+        },
+        "6": {
+          "q": "¿La presión está en la zona correcta?",
+          "fix": "Si está baja, súbela al valor del manual con la llave de llenado de la caldera."
+        }
+      },
+      "warns": {
+        "0": "El agua de un radiador encendido quema: deja que se enfríe."
+      },
+      "tips": [
+        "Empieza por el radiador más cercano a la caldera y sigue hacia el más lejano.",
+        "Hazlo al empezar el invierno: la calefacción gasta menos."
+      ]
+    },
+    "de": {
+      "title": "Heizkörper entlüften",
+      "intro": "Unten warm, oben kalt heißt Luft im Heizkörper: Du lässt sie in Minuten raus.",
+      "tools": [
+        "Entlüftungsschlüssel",
+        "Schlitzschraubendreher"
+      ],
+      "mats": [
+        "Trockener Lappen",
+        "Kleiner Becher"
+      ],
+      "steps": [
+        "Schalte die Heizung aus und warte, bis der Heizkörper lauwarm ist.",
+        "Such das Entlüftungsventil: oben, auf der Seite gegenüber dem Thermostat.",
+        "Halte Lappen und Becher unter das Ventil.",
+        "Dreh den Schlüssel eine Vierteldrehung gegen den Uhrzeigersinn: Luft zischt raus.",
+        "Warte, bis gleichmäßig Wasser ohne Blasen kommt.",
+        "Schließ das Ventil im Uhrzeigersinn, ohne zu fest anzuziehen.",
+        "Prüf den Anlagendruck: meist [[1-1.5 bar]] bei kalter Anlage."
+      ],
+      "labels": [
+        "Abkühlen",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "Kommt Wasser ohne Blasen?",
+          "fix": "Kommt nur Luft, warte noch. Kommt gar nichts, ist das Ventil vielleicht verstopft: mit einer Nadel freimachen."
+        },
+        "6": {
+          "q": "Liegt der Druck im richtigen Bereich?",
+          "fix": "Ist er zu niedrig, füll über den Füllhahn der Heizung bis zum Wert aus der Anleitung nach."
+        }
+      },
+      "warns": {
+        "0": "Wasser aus einem heißen Heizkörper verbrüht: erst abkühlen lassen."
+      },
+      "tips": [
+        "Fang beim Heizkörper nächst der Heizung an und arbeite dich nach außen vor.",
+        "Mach es zu Winterbeginn: Die Heizung verbraucht dann weniger."
+      ]
+    }
+  }
+},
+{
+  "id": "sturare-lavandino",
+  "cat": "idraulica",
+  "diff": 1,
+  "active": 15,
+  "total": 45,
+  "risk": 1,
+  "topic": "water",
+  "allow": {},
+  "ppe": [
+    "gloves"
+  ],
+  "tags": [
+    "emergency"
+  ],
+  "months": [],
+  "tools": [
+    {
+      "k": "plunger"
+    },
+    {
+      "k": "kettle",
+      "own": true
+    }
+  ],
+  "mats": [
+    {
+      "k": "baking-soda",
+      "q": 100,
+      "u": "g"
+    },
+    {
+      "k": "white-vinegar",
+      "q": 250,
+      "u": "ml"
+    },
+    {
+      "k": "cloth",
+      "q": 1,
+      "u": "",
+      "own": true
+    }
+  ],
+  "steps": [
+    {
+      "ic": "clean"
+    },
+    {
+      "ic": "drop",
+      "warn": 1
+    },
+    {
+      "ic": "hand"
+    },
+    {
+      "ic": "plunger"
+    },
+    {
+      "ic": "check",
+      "check": true
+    },
+    {
+      "ic": "drop"
+    },
+    {
+      "ic": "wait",
+      "timer": 1800
+    },
+    {
+      "ic": "drop",
+      "check": true
+    }
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Sturare il lavandino",
+      "intro": "Lo scarico è lento o fermo: ventosa e acqua calda, poi bicarbonato e aceto se serve.",
+      "tools": [
+        "Sturalavandini a ventosa",
+        "Bollitore o pentola"
+      ],
+      "mats": [
+        "Bicarbonato",
+        "Aceto bianco",
+        "Panno"
+      ],
+      "steps": [
+        "Togli il tappo o la griglia dello scarico ed elimina con le dita capelli e residui che vedi.",
+        "Versa piano [[1 l]] di acqua molto calda, non bollente, direttamente nello scarico.",
+        "Tappa il foro del troppopieno con il panno bagnato e tienilo premuto.",
+        "Lascia [[2-3 cm]] d'acqua nel lavello, appoggia la ventosa sullo scarico e pompa forte 15-20 volte.",
+        "Stacca la ventosa di colpo e guarda se l'acqua scende veloce.",
+        "Se è ancora lento, versa [[100 g]] di bicarbonato nello scarico e subito dopo [[250 ml]] di aceto.",
+        "Metti il tappo e lascia lavorare la schiuma per mezz'ora.",
+        "Risciacqua con [[1 l]] di acqua molto calda e guarda come scarica."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Effervescenza",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "L'acqua scende via veloce?",
+          "fix": "Ripeti la ventosa altre due volte. Se resta lento, passa a bicarbonato e aceto."
+        },
+        "7": {
+          "q": "Ora scarica senza ristagni?",
+          "fix": "Il blocco è nel sifone: smontalo e puliscilo. Se si fermano più scarichi insieme, chiama un idraulico."
+        }
+      },
+      "warns": {
+        "1": "Se hai già versato un disgorgante chimico, non aggiungere altro: rischi schizzi corrosivi."
+      },
+      "tips": [
+        "Nel lavello a due vasche, tappa l'altro scarico con un panno mentre usi la ventosa.",
+        "Una volta al mese, acqua calda e un cucchiaio di bicarbonato tengono lontano il grasso.",
+        "Non buttare l'olio di frittura nel lavandino: lascialo raffreddare e mettilo in una bottiglia."
+      ]
+    },
+    "en": {
+      "title": "Unblock a sink",
+      "intro": "Slow or stuck drain: plunger and hot water first, then baking soda and vinegar if needed.",
+      "tools": [
+        "Sink plunger",
+        "Kettle or pan"
+      ],
+      "mats": [
+        "Baking soda",
+        "White vinegar",
+        "Cloth"
+      ],
+      "steps": [
+        "Take out the plug or strainer and pull out any hair or gunk you can see with your fingers.",
+        "Slowly pour [[1 l]] of very hot, not boiling, water straight into the drain.",
+        "Block the overflow hole with the wet cloth and keep it pressed down.",
+        "Leave [[2-3 cm]] of water in the sink, seat the plunger over the drain and pump hard 15-20 times.",
+        "Pull the plunger off sharply and watch whether the water drains fast.",
+        "If it's still slow, tip [[100 g]] of baking soda into the drain, then [[250 ml]] of vinegar.",
+        "Put the plug in and let the fizzing work for half an hour.",
+        "Flush with [[1 l]] of very hot water and watch how it drains."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Fizzing",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "Is the water draining away fast?",
+          "fix": "Plunge twice more. If it's still slow, move on to baking soda and vinegar."
+        },
+        "7": {
+          "q": "Does it drain now with no standing water?",
+          "fix": "The blockage is in the trap: take it off and clean it. If several drains are blocked at once, call a plumber."
+        }
+      },
+      "warns": {
+        "1": "If you've already used a chemical drain cleaner, don't add anything: it can splash back and burn."
+      },
+      "tips": [
+        "On a double sink, block the other drain with a cloth while you plunge.",
+        "Once a month, hot water and a spoonful of baking soda stop grease from building up.",
+        "Never pour frying oil down the sink: let it cool and bin it in a bottle."
+      ]
+    },
+    "fr": {
+      "title": "Déboucher un évier ou lavabo",
+      "intro": "Écoulement lent ou bouché : ventouse et eau chaude, puis bicarbonate et vinaigre si besoin.",
+      "tools": [
+        "Ventouse",
+        "Bouilloire ou casserole"
+      ],
+      "mats": [
+        "Bicarbonate de soude",
+        "Vinaigre blanc",
+        "Chiffon"
+      ],
+      "steps": [
+        "Enlève la bonde ou la grille et retire avec les doigts les cheveux et déchets visibles.",
+        "Verse doucement [[1 l]] d'eau très chaude, pas bouillante, directement dans la bonde.",
+        "Bouche le trop-plein avec le chiffon mouillé et garde-le appuyé.",
+        "Laisse [[2-3 cm]] d'eau dans l'évier, pose la ventouse sur la bonde et pompe fort 15 à 20 fois.",
+        "Retire la ventouse d'un coup sec et regarde si l'eau s'écoule vite.",
+        "Si ça reste lent, verse [[100 g]] de bicarbonate dans la bonde, puis [[250 ml]] de vinaigre.",
+        "Mets le bouchon et laisse la mousse agir une demi-heure.",
+        "Rince avec [[1 l]] d'eau très chaude et regarde comment ça s'écoule."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Effervescence",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "L'eau s'écoule-t-elle vite ?",
+          "fix": "Recommence deux fois avec la ventouse. Si c'est toujours lent, passe au bicarbonate et au vinaigre."
+        },
+        "7": {
+          "q": "Ça s'écoule sans eau qui stagne ?",
+          "fix": "Le bouchon est dans le siphon : démonte-le et nettoie-le. Si plusieurs évacuations bouchent, appelle un plombier."
+        }
+      },
+      "warns": {
+        "1": "Si tu as déjà versé un déboucheur chimique, n'ajoute rien : risque d'éclaboussures corrosives."
+      },
+      "tips": [
+        "Sur un évier double, bouche l'autre bonde avec un chiffon pendant que tu pompes.",
+        "Une fois par mois, eau chaude et une cuillère de bicarbonate évitent les dépôts de graisse.",
+        "Ne verse jamais l'huile de friture dans l'évier : laisse-la refroidir et jette-la en bouteille."
+      ]
+    },
+    "es": {
+      "title": "Desatascar el fregadero o lavabo",
+      "intro": "Desagüe lento o atascado: desatascador y agua caliente; si hace falta, bicarbonato y vinagre.",
+      "tools": [
+        "Desatascador de ventosa",
+        "Hervidor o cazo"
+      ],
+      "mats": [
+        "Bicarbonato",
+        "Vinagre blanco",
+        "Trapo"
+      ],
+      "steps": [
+        "Quita el tapón o la rejilla y saca con los dedos los pelos y restos que veas.",
+        "Echa despacio [[1 l]] de agua muy caliente, sin que llegue a hervir, directo al desagüe.",
+        "Tapa el rebosadero con el trapo mojado y mantenlo apretado.",
+        "Deja [[2-3 cm]] de agua en la pila, pon la ventosa sobre el desagüe y bombea fuerte 15-20 veces.",
+        "Despega la ventosa de golpe y mira si el agua baja rápido.",
+        "Si sigue lento, echa [[100 g]] de bicarbonato en el desagüe y luego [[250 ml]] de vinagre.",
+        "Pon el tapón y deja que la espuma actúe media hora.",
+        "Aclara con [[1 l]] de agua muy caliente y mira cómo traga."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Efervescencia",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "¿El agua se va rápido?",
+          "fix": "Bombea dos veces más. Si sigue lento, pasa al bicarbonato con vinagre."
+        },
+        "7": {
+          "q": "¿Ahora traga sin que se quede agua?",
+          "fix": "El atasco está en el sifón: desmóntalo y límpialo. Si se atascan varios desagües a la vez, llama a un fontanero."
+        }
+      },
+      "warns": {
+        "1": "Si ya echaste un desatascador químico, no añadas nada más: puede salpicar y quemar."
+      },
+      "tips": [
+        "En un fregadero doble, tapa el otro desagüe con un trapo mientras bombeas.",
+        "Una vez al mes, agua caliente y una cucharada de bicarbonato evitan que se acumule grasa.",
+        "No tires el aceite de freír por el fregadero: déjalo enfriar y échalo en una botella."
+      ]
+    },
+    "de": {
+      "title": "Spüle oder Waschbecken verstopft",
+      "intro": "Abfluss langsam oder dicht: erst Saugglocke und heißes Wasser, dann Natron und Essig.",
+      "tools": [
+        "Saugglocke",
+        "Wasserkocher oder Topf"
+      ],
+      "mats": [
+        "Natron",
+        "Haushaltsessig",
+        "Lappen"
+      ],
+      "steps": [
+        "Nimm Stöpsel oder Sieb raus und zieh sichtbare Haare und Reste mit den Fingern heraus.",
+        "Gieß langsam [[1 l]] sehr heißes, aber nicht kochendes Wasser direkt in den Abfluss.",
+        "Stopf den Überlauf mit dem nassen Lappen zu und halt ihn fest gedrückt.",
+        "Lass [[2-3 cm]] Wasser im Becken, setz die Saugglocke auf den Abfluss und pump 15- bis 20-mal kräftig.",
+        "Zieh die Saugglocke ruckartig ab und schau, ob das Wasser schnell abläuft.",
+        "Läuft es noch langsam, gib [[100 g]] Natron in den Abfluss und gleich danach [[250 ml]] Essig.",
+        "Stöpsel rein und lass den Schaum eine halbe Stunde arbeiten.",
+        "Spül mit [[1 l]] sehr heißem Wasser nach und schau, wie es abläuft."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Einwirken",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "Läuft das Wasser schnell ab?",
+          "fix": "Noch zweimal pumpen. Bleibt es langsam, mach mit Natron und Essig weiter."
+        },
+        "7": {
+          "q": "Läuft es jetzt ohne Stau ab?",
+          "fix": "Dann sitzt die Verstopfung im Siphon: abschrauben und reinigen. Sind mehrere Abflüsse dicht, ruf einen Installateur."
+        }
+      },
+      "warns": {
+        "1": "Hast du schon chemischen Rohrreiniger benutzt, gib nichts mehr dazu: Er kann ätzend zurückspritzen."
+      },
+      "tips": [
+        "Bei einer Doppelspüle den zweiten Abfluss mit einem Lappen zuhalten, während du pumpst.",
+        "Einmal im Monat heißes Wasser und ein Löffel Natron: So setzt sich kein Fett fest.",
+        "Kein Frittieröl in den Abfluss: abkühlen lassen und in einer Flasche in den Restmüll."
+      ]
+    }
+  }
+},
+{
+  "id": "pulire-sifone-lavandino",
+  "cat": "idraulica",
+  "diff": 1,
+  "active": 20,
+  "total": 20,
+  "risk": 0,
+  "topic": null,
+  "allow": {},
+  "ppe": [
+    "gloves"
+  ],
+  "tags": [],
+  "months": [],
+  "tools": [
+    {
+      "k": "bucket",
+      "own": true
+    },
+    {
+      "k": "slip-joint-pliers"
+    },
+    {
+      "k": "old-toothbrush",
+      "own": true
+    }
+  ],
+  "mats": [
+    {
+      "k": "cloth",
+      "q": 1,
+      "u": "",
+      "own": true
+    },
+    {
+      "k": "trap-washer",
+      "q": null,
+      "u": ""
+    }
+  ],
+  "steps": [
+    {
+      "ic": "bucket"
+    },
+    {
+      "ic": "look"
+    },
+    {
+      "ic": "loosen",
+      "warn": 1
+    },
+    {
+      "ic": "clean"
+    },
+    {
+      "ic": "look"
+    },
+    {
+      "ic": "check",
+      "check": true
+    },
+    {
+      "ic": "tighten"
+    },
+    {
+      "ic": "drop",
+      "check": true
+    }
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Pulire il sifone del lavandino",
+      "intro": "Scarico lento o puzza dal lavello: smonti il sifone, lo pulisci e lo rimonti senza perdite.",
+      "tools": [
+        "Secchio",
+        "Pinza a pappagallo",
+        "Spazzolino vecchio"
+      ],
+      "mats": [
+        "Panno",
+        "Guarnizioni di ricambio"
+      ],
+      "steps": [
+        "Svuota il mobile sotto il lavandino e metti il secchio proprio sotto il sifone.",
+        "Guarda com'è fatto: a bicchiere, con un fondo che si svita, o a U con due ghiere.",
+        "Svita a mano il fondo o le ghiere in senso antiorario: l'acqua sporca cade nel secchio.",
+        "Svuota il sifone nel secchio e strofina dentro con lo spazzolino finché è pulito.",
+        "Controlla il tubo che va al muro e togli con le dita lo sporco che arriva fin lì.",
+        "Guarda le guarnizioni: devono essere intere, morbide e ben al loro posto.",
+        "Rimonta tutto e stringi le ghiere a mano, più un ultimo quarto di giro.",
+        "Apri l'acqua per un minuto e passa un foglio di carta sotto ogni raccordo."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "Le guarnizioni sono intere e morbide?",
+          "fix": "Se sono crepate, dure o schiacciate, portale in ferramenta e prendine di uguali."
+        },
+        "7": {
+          "q": "Il foglio resta asciutto sotto i raccordi?",
+          "fix": "Se si bagna, raddrizza il tubo e stringi un po' di più. Se perde ancora, la guarnizione è storta o va cambiata."
+        }
+      },
+      "warns": {
+        "2": "Se è duro, usa la pinza sopra un panno e senza forzare: la plastica si crepa facilmente."
+      },
+      "tips": [
+        "Fai una foto al sifone prima di smontarlo: rimontarlo diventa facilissimo.",
+        "In cucina pulisci il sifone ogni sei mesi: grasso e residui si accumulano in fretta.",
+        "Se il tubo nel muro resta intasato serve una sonda: se non passa, chiama un idraulico."
+      ]
+    },
+    "en": {
+      "title": "Clean a sink trap",
+      "intro": "Slow drain or bad smell from the sink: take off the trap, clean it and refit it leak-free.",
+      "tools": [
+        "Bucket",
+        "Slip-joint pliers",
+        "Old toothbrush"
+      ],
+      "mats": [
+        "Cloth",
+        "Spare trap washers"
+      ],
+      "steps": [
+        "Clear out the cupboard under the sink and put the bucket right under the trap.",
+        "See what type it is: a bottle trap with a cup that unscrews, or a U-bend with two nuts.",
+        "Unscrew the cup or the nuts by hand, anticlockwise: the dirty water drops into the bucket.",
+        "Empty the trap into the bucket and scrub inside with the toothbrush until it's clean.",
+        "Check the pipe going into the wall and pull out any gunk you can reach with your fingers.",
+        "Look at the washers: they should be whole, soft and sitting properly in place.",
+        "Put it all back and tighten the nuts by hand, plus one last quarter turn.",
+        "Run the tap for a minute and wipe a sheet of paper under every joint."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "Are the washers whole and soft?",
+          "fix": "If they're cracked, hard or squashed, take them to a hardware shop and get matching ones."
+        },
+        "7": {
+          "q": "Does the paper stay dry under the joints?",
+          "fix": "If it gets wet, line the pipe up and tighten a bit more. If it still leaks, the washer is crooked or worn out."
+        }
+      },
+      "warns": {
+        "2": "If it's stuck, use the pliers over a cloth and go gently: plastic cracks easily."
+      },
+      "tips": [
+        "Take a photo of the trap before you undo it: putting it back becomes easy.",
+        "Clean the kitchen trap every six months: grease and food scraps build up fast.",
+        "If the pipe in the wall stays blocked, you need a drain snake: if that fails, call a plumber."
+      ]
+    },
+    "fr": {
+      "title": "Nettoyer le siphon de l'évier",
+      "intro": "Écoulement lent ou odeur : démonte le siphon, nettoie-le et remonte-le sans fuite.",
+      "tools": [
+        "Seau",
+        "Pince multiprise",
+        "Vieille brosse à dents"
+      ],
+      "mats": [
+        "Chiffon",
+        "Joints de rechange"
+      ],
+      "steps": [
+        "Vide le meuble sous l'évier et place le seau juste sous le siphon.",
+        "Regarde le modèle : siphon bouteille avec un culot qui se dévisse, ou en U avec deux écrous.",
+        "Dévisse à la main le culot ou les écrous vers la gauche : l'eau sale tombe dans le seau.",
+        "Vide le siphon dans le seau et frotte l'intérieur avec la brosse jusqu'à ce qu'il soit propre.",
+        "Vérifie le tuyau qui part dans le mur et retire avec les doigts la saleté accessible.",
+        "Regarde les joints : ils doivent être entiers, souples et bien en place.",
+        "Remonte tout et serre les écrous à la main, plus un dernier quart de tour.",
+        "Fais couler l'eau une minute et passe une feuille de papier sous chaque raccord."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "Les joints sont-ils entiers et souples ?",
+          "fix": "S'ils sont fendus, durs ou écrasés, emporte-les au magasin de bricolage et prends les mêmes."
+        },
+        "7": {
+          "q": "Le papier reste-t-il sec sous les raccords ?",
+          "fix": "S'il se mouille, réaligne le tuyau et serre un peu plus. Si ça fuit encore, le joint est de travers ou usé."
+        }
+      },
+      "warns": {
+        "2": "Si ça coince, prends la pince avec un chiffon, sans forcer : le plastique se fend vite."
+      },
+      "tips": [
+        "Prends le siphon en photo avant de le démonter : le remontage devient simple.",
+        "À la cuisine, nettoie le siphon tous les six mois : graisse et déchets s'accumulent vite.",
+        "Si le tuyau du mur reste bouché, il faut un furet : si ça ne passe pas, appelle un plombier."
+      ]
+    },
+    "es": {
+      "title": "Limpiar el sifón del fregadero",
+      "intro": "Desagüe lento o mal olor: desmontas el sifón, lo limpias y lo vuelves a montar sin fugas.",
+      "tools": [
+        "Cubo",
+        "Alicate de pico de loro",
+        "Cepillo de dientes viejo"
+      ],
+      "mats": [
+        "Trapo",
+        "Juntas de repuesto"
+      ],
+      "steps": [
+        "Vacía el mueble bajo el fregadero y pon el cubo justo debajo del sifón.",
+        "Mira qué tipo es: de botella, con un vaso que se desenrosca, o en U con dos tuercas.",
+        "Desenrosca a mano el vaso o las tuercas hacia la izquierda: el agua sucia cae al cubo.",
+        "Vacía el sifón en el cubo y frota por dentro con el cepillo hasta que quede limpio.",
+        "Revisa el tubo que entra en la pared y saca con los dedos la suciedad que alcances.",
+        "Mira las juntas: tienen que estar enteras, blandas y bien colocadas.",
+        "Vuelve a montarlo todo y aprieta las tuercas a mano, más un último cuarto de vuelta.",
+        "Abre el grifo un minuto y pasa una hoja de papel por debajo de cada unión."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "¿Las juntas están enteras y blandas?",
+          "fix": "Si están agrietadas, duras o aplastadas, llévalas a la ferretería y compra unas iguales."
+        },
+        "7": {
+          "q": "¿El papel sale seco de debajo de las uniones?",
+          "fix": "Si se moja, alinea el tubo y aprieta un poco más. Si sigue goteando, la junta está torcida o gastada."
+        }
+      },
+      "warns": {
+        "2": "Si está duro, usa el alicate sobre un trapo y sin forzar: el plástico se raja fácil."
+      },
+      "tips": [
+        "Hazle una foto al sifón antes de desmontarlo: así montarlo es facilísimo.",
+        "En la cocina, límpialo cada seis meses: la grasa y los restos se acumulan rápido.",
+        "Si el tubo de la pared sigue atascado, hace falta una sonda: si no pasa, llama a un fontanero."
+      ]
+    },
+    "de": {
+      "title": "Siphon unter dem Becken reinigen",
+      "intro": "Abfluss langsam oder es riecht: Siphon abschrauben, reinigen und dicht wieder anbringen.",
+      "tools": [
+        "Eimer",
+        "Wasserpumpenzange",
+        "Alte Zahnbürste"
+      ],
+      "mats": [
+        "Lappen",
+        "Ersatzdichtungen"
+      ],
+      "steps": [
+        "Räum den Unterschrank aus und stell den Eimer direkt unter den Siphon.",
+        "Schau, welche Bauart es ist: Flaschensiphon mit Becher zum Abschrauben oder Röhrensiphon mit zwei Muttern.",
+        "Schraub Becher oder Muttern von Hand gegen den Uhrzeigersinn ab: Das Schmutzwasser läuft in den Eimer.",
+        "Leer den Siphon in den Eimer und schrubb ihn innen mit der Zahnbürste, bis er sauber ist.",
+        "Prüf das Rohr zur Wand und hol mit den Fingern raus, was du an Schmutz erreichst.",
+        "Sieh dir die Dichtungen an: Sie müssen ganz, weich und richtig eingesetzt sein.",
+        "Bau alles wieder zusammen und zieh die Muttern von Hand an, plus eine letzte Vierteldrehung.",
+        "Lass eine Minute Wasser laufen und fahr mit einem Blatt Papier unter jeder Verbindung entlang."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "Sind die Dichtungen ganz und weich?",
+          "fix": "Sind sie rissig, hart oder platt, nimm sie mit in den Baumarkt und kauf passende neue."
+        },
+        "7": {
+          "q": "Bleibt das Papier unter den Verbindungen trocken?",
+          "fix": "Wird es nass, Rohr ausrichten und etwas fester anziehen. Tropft es weiter, sitzt die Dichtung schief oder ist hin."
+        }
+      },
+      "warns": {
+        "2": "Sitzt es fest, nimm die Zange mit einem Lappen und ohne Gewalt: Kunststoff reißt schnell."
+      },
+      "tips": [
+        "Mach vor dem Abschrauben ein Foto vom Siphon: Dann ist der Zusammenbau ein Kinderspiel.",
+        "Den Küchensiphon alle sechs Monate reinigen: Fett und Essensreste setzen sich schnell ab.",
+        "Bleibt das Wandrohr dicht, brauchst du eine Rohrspirale. Klappt das nicht, ruf einen Installateur."
+      ]
+    }
+  }
+},
+{
+  "id": "sturare-wc",
+  "cat": "idraulica",
+  "diff": 1,
+  "active": 20,
+  "total": 45,
+  "risk": 1,
+  "topic": "water",
+  "allow": {},
+  "ppe": [
+    "gloves"
+  ],
+  "tags": [
+    "emergency"
+  ],
+  "months": [],
+  "tools": [
+    {
+      "k": "toilet-plunger"
+    },
+    {
+      "k": "bucket",
+      "own": true
+    },
+    {
+      "k": "toilet-auger"
+    }
+  ],
+  "mats": [
+    {
+      "k": "dish-soap",
+      "q": 50,
+      "u": "ml",
+      "own": true
+    },
+    {
+      "k": "old-towel",
+      "q": 2,
+      "u": "",
+      "own": true
+    }
+  ],
+  "steps": [
+    {
+      "ic": "hand",
+      "warn": 1
+    },
+    {
+      "ic": "bucket"
+    },
+    {
+      "ic": "plunger"
+    },
+    {
+      "ic": "plunger"
+    },
+    {
+      "ic": "check",
+      "check": true
+    },
+    {
+      "ic": "drop",
+      "warn": 1
+    },
+    {
+      "ic": "wait",
+      "timer": 1200
+    },
+    {
+      "ic": "plunger",
+      "check": true
+    },
+    {
+      "ic": "push"
+    }
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Sturare il WC",
+      "intro": "Il WC non scarica o l'acqua sale: ventosa, acqua calda e detersivo, sonda solo se serve.",
+      "tools": [
+        "Sturalavandini per WC",
+        "Secchio",
+        "Sonda per WC"
+      ],
+      "mats": [
+        "Detersivo per piatti",
+        "Vecchi asciugamani"
+      ],
+      "steps": [
+        "Non tirare più l'acqua. Stendi vecchi asciugamani attorno alla base del WC.",
+        "Se la tazza è piena fino all'orlo, togli un po' d'acqua con un secchiello: lasciane quanto basta a coprire la ventosa.",
+        "Infila la ventosa nel foro in fondo alla tazza, ben aderente, e premi piano la prima volta per far uscire l'aria.",
+        "Pompa forte su e giù 15-20 volte senza staccarla, poi tirala via di scatto.",
+        "Aspetta qualche secondo e guarda se l'acqua nella tazza scende da sola.",
+        "Versa un bel getto di detersivo per piatti, poi [[3 l]] di acqua calda, circa [[60 °C]], da un po' in alto.",
+        "Lascia agire 20 minuti: il detersivo fa scivolare il blocco e l'acqua lo ammorbidisce.",
+        "Ripassa con la ventosa, poi tira l'acqua una sola volta e tieni d'occhio il livello.",
+        "Ancora bloccato? Infila la sonda nella curva e gira la manovella spingendo piano, poi ritirala."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Ammollo",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "L'acqua è scesa al livello normale?",
+          "fix": "Ripeti la ventosa altre 2-3 volte. Se non cambia niente, passa ad acqua calda e detersivo."
+        },
+        "7": {
+          "q": "Il WC scarica di nuovo normalmente?",
+          "fix": "Se no, usa la sonda al passo dopo. Se è caduto dentro un oggetto rigido, non spingerlo: chiama un idraulico."
+        }
+      },
+      "warns": {
+        "0": "Ogni scarico in più può far traboccare la tazza: tira solo quando l'acqua è scesa.",
+        "5": "Mai acqua bollente: la ceramica può creparsi. E niente disgorganti chimici insieme a questi metodi."
+      },
+      "tips": [
+        "Se tiri e l'acqua sale, alza il coperchio della cassetta e abbassa il galleggiante: il carico si ferma.",
+        "La ventosa giusta per il WC ha un collare di gomma che entra nel foro: aderisce molto meglio.",
+        "Se più scarichi gorgogliano o rigurgitano insieme, il blocco è nella colonna: chiama un idraulico."
+      ]
+    },
+    "en": {
+      "title": "Unblock a toilet",
+      "intro": "Toilet won't flush or water's rising: plunger, hot water and soap, an auger only if needed.",
+      "tools": [
+        "Toilet plunger",
+        "Bucket",
+        "Toilet auger"
+      ],
+      "mats": [
+        "Liquid dish soap",
+        "Old towels"
+      ],
+      "steps": [
+        "Don't flush again. Lay old towels around the base of the toilet.",
+        "If the bowl is full to the rim, bail some water into the bucket: leave enough to cover the plunger.",
+        "Push the plunger into the hole at the bottom of the bowl, sealed tight, and press gently first to push the air out.",
+        "Pump hard up and down 15-20 times without breaking the seal, then pull it off sharply.",
+        "Wait a few seconds and watch whether the water in the bowl goes down on its own.",
+        "Squirt in a good dose of dish soap, then [[3 l]] of hot water, about [[60 °C]], poured from a bit of height.",
+        "Leave it 20 minutes: the soap lets the blockage slide and the water softens it.",
+        "Plunge again, then flush just once and keep an eye on the water level.",
+        "Still blocked? Feed the auger into the bend and turn the handle while pushing gently, then pull it out."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Soaking",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "Has the water dropped to its normal level?",
+          "fix": "Plunge 2-3 more times. If nothing changes, move on to hot water and soap."
+        },
+        "7": {
+          "q": "Does the toilet flush normally again?",
+          "fix": "If not, use the auger in the next step. If something hard fell in, don't push it further: call a plumber."
+        }
+      },
+      "warns": {
+        "0": "Every extra flush can make the bowl overflow: only flush once the water has gone down.",
+        "5": "Never use boiling water: it can crack the porcelain. Don't combine this with chemical drain cleaners."
+      },
+      "tips": [
+        "If you flush and it rises, lift the cistern lid and push the float down to stop the refill.",
+        "A proper toilet plunger has a rubber flange that fits into the hole: it seals far better.",
+        "If several drains gurgle or back up together, the blockage is in the main stack: call a plumber."
+      ]
+    },
+    "fr": {
+      "title": "Déboucher les WC",
+      "intro": "WC bouchés ou eau qui monte : ventouse, eau chaude et liquide vaisselle, furet en dernier.",
+      "tools": [
+        "Ventouse pour WC",
+        "Seau",
+        "Furet pour WC"
+      ],
+      "mats": [
+        "Liquide vaisselle",
+        "Vieilles serviettes"
+      ],
+      "steps": [
+        "Ne tire plus la chasse. Étale de vieilles serviettes autour du pied des WC.",
+        "Si la cuvette est pleine à ras bord, retire un peu d'eau avec un récipient : laisse de quoi couvrir la ventouse.",
+        "Enfonce la ventouse dans le trou au fond de la cuvette, bien à plat, et appuie doucement d'abord pour chasser l'air.",
+        "Pompe fort de haut en bas 15 à 20 fois sans la décoller, puis arrache-la d'un coup.",
+        "Attends quelques secondes et regarde si l'eau de la cuvette descend toute seule.",
+        "Verse une bonne giclée de liquide vaisselle, puis [[3 l]] d'eau chaude, environ [[60 °C]], d'un peu haut.",
+        "Laisse agir 20 minutes : le savon fait glisser le bouchon et l'eau le ramollit.",
+        "Repasse la ventouse, puis tire la chasse une seule fois en surveillant le niveau.",
+        "Toujours bouché ? Glisse le furet dans le coude et tourne la manivelle en poussant doucement, puis retire-le."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Trempage",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "L'eau est-elle redescendue à son niveau normal ?",
+          "fix": "Refais 2 ou 3 séries de ventouse. Si rien ne change, passe à l'eau chaude et au liquide vaisselle."
+        },
+        "7": {
+          "q": "Les WC s'évacuent-ils de nouveau normalement ?",
+          "fix": "Sinon, prends le furet à l'étape suivante. Si un objet dur est tombé dedans, ne le pousse pas : appelle un plombier."
+        }
+      },
+      "warns": {
+        "0": "Chaque chasse en plus peut faire déborder la cuvette : attends que l'eau soit descendue.",
+        "5": "Jamais d'eau bouillante : la céramique peut se fêler. Pas de déboucheur chimique en même temps."
+      },
+      "tips": [
+        "Si tu as tiré et que ça monte, ouvre le réservoir et appuie sur le flotteur pour couper le remplissage.",
+        "Une vraie ventouse WC a une collerette en caoutchouc qui entre dans le trou : elle colle bien mieux.",
+        "Si plusieurs évacuations gargouillent ou refoulent, le bouchon est dans la colonne : appelle un plombier."
+      ]
+    },
+    "es": {
+      "title": "Desatascar el váter",
+      "intro": "El váter no traga o el agua sube: ventosa, agua caliente y jabón; sonda solo si hace falta.",
+      "tools": [
+        "Desatascador de váter",
+        "Cubo",
+        "Sonda para váter"
+      ],
+      "mats": [
+        "Lavavajillas líquido",
+        "Toallas viejas"
+      ],
+      "steps": [
+        "No tires más de la cadena. Pon toallas viejas alrededor de la base del váter.",
+        "Si la taza está llena hasta el borde, saca algo de agua con un recipiente: deja la que cubra la ventosa.",
+        "Mete la ventosa en el agujero del fondo, bien ajustada, y empuja suave la primera vez para sacar el aire.",
+        "Bombea fuerte arriba y abajo 15-20 veces sin despegarla y luego tira de golpe.",
+        "Espera unos segundos y mira si el agua de la taza baja sola.",
+        "Echa un buen chorro de lavavajillas y luego [[3 l]] de agua caliente, a unos [[60 °C]], desde un poco de altura.",
+        "Déjalo actuar 20 minutos: el jabón hace resbalar el atasco y el agua lo ablanda.",
+        "Vuelve a pasar la ventosa, tira de la cadena una sola vez y vigila el nivel.",
+        "¿Sigue atascado? Mete la sonda por el codo y gira la manivela empujando suave; luego sácala."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Remojo",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "¿El agua ha bajado a su nivel normal?",
+          "fix": "Repite la ventosa 2 o 3 veces más. Si no cambia nada, pasa al agua caliente con jabón."
+        },
+        "7": {
+          "q": "¿El váter vuelve a tragar normal?",
+          "fix": "Si no, usa la sonda en el paso siguiente. Si se cayó algo duro dentro, no lo empujes: llama a un fontanero."
+        }
+      },
+      "warns": {
+        "0": "Cada descarga de más puede desbordar la taza: tira solo cuando el agua haya bajado.",
+        "5": "Nunca agua hirviendo: la porcelana puede rajarse. No lo mezcles con desatascadores químicos."
+      },
+      "tips": [
+        "Si tiras y el agua sube, abre la cisterna y baja la boya con la mano para cortar el llenado.",
+        "El desatascador bueno para váter tiene una falda de goma que entra en el agujero: ajusta mucho mejor.",
+        "Si varios desagües borbotean o rebosan a la vez, el atasco está en la bajante: llama a un fontanero."
+      ]
+    },
+    "de": {
+      "title": "Toilette verstopft",
+      "intro": "Das WC spült nicht ab oder das Wasser steigt: Saugglocke, heißes Wasser, Spüli, notfalls Spirale.",
+      "tools": [
+        "WC-Saugglocke",
+        "Eimer",
+        "WC-Spirale"
+      ],
+      "mats": [
+        "Spülmittel",
+        "Alte Handtücher"
+      ],
+      "steps": [
+        "Nicht noch mal spülen. Leg alte Handtücher rund um den Fuß der Toilette.",
+        "Ist die Schüssel randvoll, schöpf etwas Wasser in den Eimer: Es soll die Saugglocke noch bedecken.",
+        "Setz die Saugglocke dicht auf das Loch unten in der Schüssel und drück beim ersten Mal sanft, damit die Luft rausgeht.",
+        "Pump 15- bis 20-mal kräftig auf und ab, ohne sie abzuheben, dann reiß sie ruckartig ab.",
+        "Warte ein paar Sekunden und schau, ob das Wasser in der Schüssel von selbst sinkt.",
+        "Gib einen kräftigen Schuss Spülmittel hinein, dann [[3 l]] heißes Wasser, etwa [[60 °C]], aus etwas Höhe.",
+        "Lass es 20 Minuten wirken: Das Spülmittel macht die Verstopfung glitschig, das Wasser weicht sie auf.",
+        "Noch mal mit der Saugglocke arbeiten, dann nur einmal spülen und den Wasserstand im Blick behalten.",
+        "Immer noch dicht? Schieb die Spirale in den Bogen und dreh die Kurbel unter leichtem Druck, dann zieh sie raus."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Einweichen",
+        "",
+        ""
+      ],
+      "checks": {
+        "4": {
+          "q": "Ist das Wasser auf den normalen Stand gesunken?",
+          "fix": "Noch 2-3 Runden pumpen. Ändert sich nichts, mach mit heißem Wasser und Spülmittel weiter."
+        },
+        "7": {
+          "q": "Spült die Toilette wieder normal?",
+          "fix": "Wenn nicht, nimm im nächsten Schritt die Spirale. Ist etwas Hartes reingefallen, nicht weiterschieben: Installateur rufen."
+        }
+      },
+      "warns": {
+        "0": "Jedes weitere Spülen kann die Schüssel überlaufen lassen: erst spülen, wenn das Wasser gesunken ist.",
+        "5": "Kein kochendes Wasser: Die Keramik kann springen. Nicht mit chemischem Rohrreiniger kombinieren."
+      },
+      "tips": [
+        "Spülst du und es steigt: Deckel vom Spülkasten ab und den Schwimmer runterdrücken, dann stoppt der Zulauf.",
+        "Eine richtige WC-Saugglocke hat einen Gummikragen, der ins Loch passt: Sie saugt viel besser.",
+        "Gluckern mehrere Abflüsse oder drückt Wasser hoch, sitzt die Verstopfung im Fallrohr: Installateur rufen."
+      ]
+    }
+  }
+},
+{
+  "id": "chiudere-acqua-generale",
+  "cat": "idraulica",
+  "diff": 1,
+  "active": 5,
+  "total": 10,
+  "risk": 1,
+  "topic": "water",
+  "allow": {},
+  "ppe": [],
+  "tags": [
+    "emergency"
+  ],
+  "months": [],
+  "tools": [
+    {
+      "k": "flashlight",
+      "own": true
+    },
+    {
+      "k": "bucket",
+      "own": true
+    }
+  ],
+  "mats": [
+    {
+      "k": "old-towel",
+      "q": null,
+      "u": "",
+      "own": true
+    }
+  ],
+  "steps": [
+    {
+      "ic": "look",
+      "warn": 1
+    },
+    {
+      "ic": "valve"
+    },
+    {
+      "ic": "drop",
+      "timer": 60,
+      "check": true
+    },
+    {
+      "ic": "bucket"
+    },
+    {
+      "ic": "phone"
+    },
+    {
+      "ic": "phone"
+    }
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Chiudere l'acqua generale",
+      "intro": "Perdita o tubo rotto: chiudi subito il rubinetto generale e limiti i danni.",
+      "tools": [
+        "Torcia",
+        "Secchio"
+      ],
+      "mats": [
+        "Asciugamani vecchi"
+      ],
+      "steps": [
+        "Trova il rubinetto generale: di solito vicino al contatore, in cantina, sotto il lavello o in una nicchia in bagno.",
+        "Giralo in senso orario fino in fondo. Se è a leva, mettila di traverso rispetto al tubo.",
+        "Apri il rubinetto più basso di casa: esce ancora un po' d'acqua, poi deve calare e fermarsi.",
+        "Metti secchio e asciugamani sotto la perdita e asciuga il pavimento.",
+        "Fotografa la perdita e i danni: servono all'idraulico e all'assicurazione.",
+        "Chiama un idraulico. Se l'acqua arriva dal vicino o da tubi comuni, avvisa anche l'amministratore."
+      ],
+      "labels": [
+        "",
+        "",
+        "Svuotamento",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "2": {
+          "q": "Dopo un minuto l'acqua ha smesso di uscire?",
+          "fix": "Il rubinetto non chiude bene o ce n'è un altro: chiudi quello al contatore o chiama subito l'acquedotto."
+        }
+      },
+      "warns": {
+        "0": "Se l'acqua tocca prese o quadro elettrico, stacca il generale solo se ci arrivi all'asciutto."
+      },
+      "tips": [
+        "Cercalo oggi, con calma, e attaccaci un'etichetta: in emergenza non perdi tempo.",
+        "Aprilo e chiudilo un paio di volte l'anno: così non si blocca quando serve."
+      ]
+    },
+    "en": {
+      "title": "Turn off the main water",
+      "intro": "Leak or burst pipe: shut the main stopcock straight away and limit the damage.",
+      "tools": [
+        "Torch or flashlight",
+        "Bucket"
+      ],
+      "mats": [
+        "Old towels"
+      ],
+      "steps": [
+        "Find the main stopcock: usually by the water meter, under the kitchen sink, in the basement or a bathroom recess.",
+        "Turn it clockwise all the way. If it has a lever, set it across the pipe.",
+        "Open the lowest tap in the house: a bit more water comes out, then it should slow and stop.",
+        "Put the bucket and towels under the leak and mop up the floor.",
+        "Take photos of the leak and the damage: the plumber and your insurer will need them.",
+        "Call a plumber. If the water comes from a neighbour or shared pipes, tell the landlord or building manager too."
+      ],
+      "labels": [
+        "",
+        "",
+        "Draining",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "2": {
+          "q": "After a minute, has the water stopped running?",
+          "fix": "The valve isn't sealing or there's another one: close the one at the meter or call your water company now."
+        }
+      },
+      "warns": {
+        "0": "If water reaches sockets or the fuse box, only switch off the mains if you can reach it from a dry spot."
+      },
+      "tips": [
+        "Find it today, calmly, and tag it with a label: in an emergency you won't waste time.",
+        "Open and close it a couple of times a year so it doesn't seize when you need it."
+      ]
+    },
+    "fr": {
+      "title": "Couper l'arrivée d'eau générale",
+      "intro": "Fuite ou tuyau percé : ferme tout de suite le robinet général et limite les dégâts.",
+      "tools": [
+        "Lampe torche",
+        "Seau"
+      ],
+      "mats": [
+        "Vieilles serviettes"
+      ],
+      "steps": [
+        "Trouve le robinet général : souvent près du compteur, à la cave, sous l'évier ou dans une niche de la salle de bain.",
+        "Tourne-le vers la droite jusqu'au bout. Si c'est un levier, mets-le en travers du tuyau.",
+        "Ouvre le robinet le plus bas de la maison : un peu d'eau sort encore, puis le débit doit baisser et s'arrêter.",
+        "Mets le seau et les serviettes sous la fuite et éponge le sol.",
+        "Photographie la fuite et les dégâts : le plombier et l'assurance en auront besoin.",
+        "Appelle un plombier. Si l'eau vient d'un voisin ou des parties communes, préviens aussi le syndic."
+      ],
+      "labels": [
+        "",
+        "",
+        "Vidange",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "2": {
+          "q": "Après une minute, l'eau a-t-elle arrêté de couler ?",
+          "fix": "Le robinet ferme mal ou il y en a un autre : ferme celui du compteur ou appelle tout de suite le service des eaux."
+        }
+      },
+      "warns": {
+        "0": "Si l'eau touche des prises ou le tableau électrique, coupe le disjoncteur seulement si tu es au sec."
+      },
+      "tips": [
+        "Repère-le dès aujourd'hui, au calme, et mets-y une étiquette : en urgence tu gagnes du temps.",
+        "Ouvre-le et ferme-le deux fois par an : il ne se bloquera pas le jour où tu en as besoin."
+      ]
+    },
+    "es": {
+      "title": "Cerrar la llave de paso general",
+      "intro": "Fuga o tubería rota: cierra enseguida la llave general y limita los daños.",
+      "tools": [
+        "Linterna",
+        "Cubo"
+      ],
+      "mats": [
+        "Toallas viejas"
+      ],
+      "steps": [
+        "Busca la llave de paso general: suele estar junto al contador, en el trastero, bajo el fregadero o en un hueco del baño.",
+        "Gírala hacia la derecha hasta el fondo. Si es de palanca, ponla atravesada respecto al tubo.",
+        "Abre el grifo más bajo de la casa: sale algo de agua y luego debe bajar y parar.",
+        "Pon el cubo y las toallas bajo la fuga y seca el suelo.",
+        "Haz fotos de la fuga y de los daños: las necesitarán el fontanero y el seguro.",
+        "Llama a un fontanero. Si el agua viene del vecino o de tuberías comunes, avisa también al administrador."
+      ],
+      "labels": [
+        "",
+        "",
+        "Vaciado",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "2": {
+          "q": "¿Al cabo de un minuto ha dejado de salir agua?",
+          "fix": "La llave no cierra bien o hay otra: cierra la del contador o llama ya a la compañía de aguas."
+        }
+      },
+      "warns": {
+        "0": "Si el agua toca enchufes o el cuadro eléctrico, baja el general solo si llegas pisando seco."
+      },
+      "tips": [
+        "Búscala hoy, con calma, y ponle una etiqueta: en una urgencia no pierdes tiempo.",
+        "Ábrela y ciérrala un par de veces al año: así no se agarrota cuando la necesites."
+      ]
+    },
+    "de": {
+      "title": "Hauptwasserhahn zudrehen",
+      "intro": "Leck oder Rohrbruch: Dreh sofort den Hauptwasserhahn zu und begrenz den Schaden.",
+      "tools": [
+        "Taschenlampe",
+        "Eimer"
+      ],
+      "mats": [
+        "Alte Handtücher"
+      ],
+      "steps": [
+        "Such den Hauptabsperrhahn: meist beim Wasserzähler, im Keller, unter der Spüle oder in einer Nische im Bad.",
+        "Dreh ihn im Uhrzeigersinn bis zum Anschlag. Ist es ein Hebel, stell ihn quer zum Rohr.",
+        "Öffne den tiefsten Wasserhahn im Haus: Es kommt noch etwas Wasser, dann muss es weniger werden und aufhören.",
+        "Stell Eimer und Handtücher unter das Leck und wisch den Boden trocken.",
+        "Fotografier das Leck und die Schäden: Installateur und Versicherung brauchen die Bilder.",
+        "Ruf einen Installateur. Kommt das Wasser vom Nachbarn oder aus gemeinsamen Leitungen, sag der Hausverwaltung Bescheid."
+      ],
+      "labels": [
+        "",
+        "",
+        "Leerlaufen",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "2": {
+          "q": "Hat das Wasser nach einer Minute aufgehört zu laufen?",
+          "fix": "Der Hahn schließt nicht dicht oder es gibt noch einen: den am Zähler zudrehen oder sofort den Wasserversorger anrufen."
+        }
+      },
+      "warns": {
+        "0": "Erreicht Wasser Steckdosen oder den Sicherungskasten, schalte nur ab, wenn du dabei trocken stehst."
+      },
+      "tips": [
+        "Such ihn heute in Ruhe und kleb ein Etikett dran: Im Notfall sparst du Zeit.",
+        "Dreh ihn ein-, zweimal im Jahr auf und zu: Dann sitzt er nicht fest, wenn du ihn brauchst."
+      ]
+    }
+  }
+},
+{
+  "id": "rubinetto-che-gocciola",
+  "cat": "idraulica",
+  "diff": 2,
+  "active": 40,
+  "total": 40,
+  "risk": 1,
+  "topic": "water",
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [
+    {
+      "k": "adjustable-wrench"
+    },
+    {
+      "k": "flat-screwdriver",
+      "own": true
+    },
+    {
+      "k": "phillips-screwdriver",
+      "own": true
+    },
+    {
+      "k": "hex-key-set"
+    }
+  ],
+  "mats": [
+    {
+      "k": "tap-washer",
+      "q": null,
+      "u": ""
+    },
+    {
+      "k": "tap-cartridge",
+      "q": null,
+      "u": ""
+    },
+    {
+      "k": "silicone-grease",
+      "q": null,
+      "u": ""
+    },
+    {
+      "k": "cloth",
+      "q": 1,
+      "u": "",
+      "own": true
+    }
+  ],
+  "steps": [
+    {
+      "ic": "water-off",
+      "warn": 2
+    },
+    {
+      "ic": "drop",
+      "check": true
+    },
+    {
+      "ic": "look"
+    },
+    {
+      "ic": "screwdriver"
+    },
+    {
+      "ic": "loosen"
+    },
+    {
+      "ic": "look",
+      "check": true
+    },
+    {
+      "ic": "screw"
+    },
+    {
+      "ic": "tighten"
+    },
+    {
+      "ic": "screwdriver"
+    },
+    {
+      "ic": "valve",
+      "check": true
+    }
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Rubinetto che gocciola",
+      "intro": "Goccia anche chiuso: cambi la guarnizione o la cartuccia e smetti di sprecare acqua.",
+      "tools": [
+        "Chiave inglese",
+        "Cacciavite piatto",
+        "Cacciavite a croce",
+        "Set di chiavi a brugola"
+      ],
+      "mats": [
+        "Guarnizione per vitone",
+        "Cartuccia ceramica",
+        "Grasso al silicone",
+        "Panno"
+      ],
+      "steps": [
+        "Chiudi i rubinetti d'arresto sotto il lavandino girandoli in senso orario fino in fondo.",
+        "Apri il rubinetto per scaricare la pressione e chiudi lo scarico col tappo: le vitine non scappano.",
+        "Capisci il tipo: se la manopola fa più giri prima di chiudere è a vitone; se fa mezzo giro o è a leva, è a cartuccia.",
+        "Togli il tappino colorato, svita la vite sotto (a croce o a brugola) e sfila manopola o leva.",
+        "Svita il vitone o la ghiera della cartuccia con la chiave inglese, con un panno per non graffiare.",
+        "Guarda il pezzo tolto: guarnizione schiacciata o cartuccia rigata? Portalo in ferramenta per un ricambio uguale.",
+        "Vitone: cambia la guarnizione in fondo, tenuta da una vitina. Cartuccia: infila la nuova con i dentini nelle sedi.",
+        "Ungi il filetto con un velo di grasso al silicone e riavvita con la chiave, deciso ma senza forzare.",
+        "Rimonta manopola o leva, la vite e il tappino colorato.",
+        "Riapri piano i rubinetti d'arresto, poi apri e chiudi il rubinetto un paio di volte."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "1": {
+          "q": "Dal rubinetto aperto non esce più acqua?",
+          "fix": "Il rubinetto d'arresto non chiude: chiudi l'acqua generale prima di andare avanti."
+        },
+        "5": {
+          "q": "Hai un ricambio identico, stessa misura e attacco?",
+          "fix": "Porta in ferramenta il pezzo vecchio: le cartucce cambiano anche di pochi millimetri, per esempio [[35 mm]] o [[40 mm]]."
+        },
+        "9": {
+          "q": "Il rubinetto chiuso ora resta asciutto?",
+          "fix": "Se goccia ancora, la sede è rovinata o la cartuccia non è in sede: smonta e controlla, o chiama un idraulico."
+        }
+      },
+      "warns": {
+        "0": "Non smontare niente con l'acqua aperta: esce a pressione e allaga il bagno."
+      },
+      "tips": [
+        "Metti i pezzi in fila nell'ordine in cui li togli: al rimontaggio non hai dubbi.",
+        "Se goccia dalla base della leva e non dal beccuccio, vanno cambiati gli O-ring, non la cartuccia.",
+        "Niente rubinetti d'arresto sotto il lavandino? Chiudi il generale e apri un rubinetto in basso."
+      ],
+      "gate": [
+        "So dove si trova il rubinetto generale dell'acqua"
+      ]
+    },
+    "en": {
+      "title": "Fix a dripping tap or faucet",
+      "intro": "Drips even when it's off: replace the washer or cartridge and stop wasting water.",
+      "tools": [
+        "Adjustable wrench",
+        "Flat screwdriver",
+        "Phillips screwdriver",
+        "Hex key (Allen key) set"
+      ],
+      "mats": [
+        "Tap washer",
+        "Ceramic cartridge",
+        "Silicone grease",
+        "Cloth"
+      ],
+      "steps": [
+        "Close the isolation valves under the sink, turning them clockwise all the way.",
+        "Open the tap to release the pressure and put the plug in the drain so no small screws get lost.",
+        "Work out the type: several turns to close means a washer tap; a half turn or a lever means a ceramic cartridge.",
+        "Prise off the coloured cap, undo the screw under it (Phillips or Allen) and lift off the handle or lever.",
+        "Unscrew the headgear or the cartridge nut with the wrench, over a cloth so you don't scratch it.",
+        "Look at the part: squashed washer or scored cartridge? Take it to a hardware shop to get an identical one.",
+        "Washer tap: swap the washer at the bottom, held by a small screw. Cartridge: fit the new one with its lugs in the slots.",
+        "Wipe a thin film of silicone grease on the thread and screw it back firmly, without forcing.",
+        "Refit the handle or lever, the screw and the coloured cap.",
+        "Slowly reopen the isolation valves, then open and close the tap a couple of times."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "1": {
+          "q": "Has the open tap stopped running?",
+          "fix": "The isolation valve isn't closing: shut off the main water before you go on."
+        },
+        "5": {
+          "q": "Do you have an identical part, same size and fitting?",
+          "fix": "Take the old part to the shop: cartridges differ by just a few millimetres, for example [[35 mm]] or [[40 mm]]."
+        },
+        "9": {
+          "q": "Does the tap stay dry now when it's closed?",
+          "fix": "If it still drips, the seat is worn or the cartridge isn't seated: take it apart and check, or call a plumber."
+        }
+      },
+      "warns": {
+        "0": "Don't undo anything with the water on: it comes out under pressure and floods the room."
+      },
+      "tips": [
+        "Line up the parts in the order you take them off: reassembly is then easy.",
+        "If it drips from the base of the lever rather than the spout, replace the O-rings, not the cartridge.",
+        "No isolation valves under the sink? Turn off the main water and open a low tap."
+      ],
+      "gate": [
+        "I know where the main water stopcock is"
+      ]
+    },
+    "fr": {
+      "title": "Robinet qui goutte",
+      "intro": "Il goutte même fermé : change le joint ou la cartouche et arrête de gaspiller l'eau.",
+      "tools": [
+        "Clé à molette",
+        "Tournevis plat",
+        "Tournevis cruciforme",
+        "Jeu de clés Allen"
+      ],
+      "mats": [
+        "Joint de clapet",
+        "Cartouche céramique",
+        "Graisse silicone",
+        "Chiffon"
+      ],
+      "steps": [
+        "Ferme les robinets d'arrêt sous le lavabo en les tournant vers la droite jusqu'au bout.",
+        "Ouvre le robinet pour faire tomber la pression et mets le bouchon dans la bonde : aucune vis ne s'échappe.",
+        "Repère le type : plusieurs tours pour fermer, c'est un robinet à clapet ; un demi-tour ou un levier, une cartouche.",
+        "Retire le cache coloré, dévisse la vis dessous (cruciforme ou Allen) et enlève la poignée ou le levier.",
+        "Dévisse la tête du robinet ou l'écrou de la cartouche à la clé, avec un chiffon pour ne pas rayer.",
+        "Regarde la pièce : joint écrasé ou cartouche rayée ? Emporte-la au magasin pour prendre la même.",
+        "Clapet : change le joint au bout, tenu par une petite vis. Cartouche : mets la neuve avec les ergots dans leurs encoches.",
+        "Mets un voile de graisse silicone sur le filetage et revisse à la clé, ferme mais sans forcer.",
+        "Remets la poignée ou le levier, la vis et le cache coloré.",
+        "Rouvre doucement les robinets d'arrêt, puis ouvre et ferme le robinet deux ou trois fois."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "1": {
+          "q": "L'eau a-t-elle arrêté de couler du robinet ouvert ?",
+          "fix": "Le robinet d'arrêt ne ferme pas : coupe l'eau au robinet général avant de continuer."
+        },
+        "5": {
+          "q": "As-tu une pièce identique, même taille et même fixation ?",
+          "fix": "Emporte l'ancienne au magasin : les cartouches varient de quelques millimètres, par exemple [[35 mm]] ou [[40 mm]]."
+        },
+        "9": {
+          "q": "Le robinet fermé reste-t-il sec maintenant ?",
+          "fix": "S'il goutte encore, le siège est abîmé ou la cartouche mal placée : redémonte et vérifie, ou appelle un plombier."
+        }
+      },
+      "warns": {
+        "0": "Ne démonte rien avec l'eau ouverte : elle sort sous pression et inonde la pièce."
+      },
+      "tips": [
+        "Aligne les pièces dans l'ordre où tu les enlèves : le remontage devient évident.",
+        "Si ça fuit au pied du levier et pas au bec, ce sont les joints toriques à changer, pas la cartouche.",
+        "Pas de robinets d'arrêt sous le lavabo ? Coupe l'eau au général et ouvre un robinet en bas."
+      ],
+      "gate": [
+        "Je sais où se trouve le robinet général d'eau"
+      ]
+    },
+    "es": {
+      "title": "Grifo que gotea",
+      "intro": "Gotea aunque esté cerrado: cambias la zapata o el cartucho y dejas de tirar agua.",
+      "tools": [
+        "Llave inglesa",
+        "Destornillador plano",
+        "Destornillador de estrella",
+        "Juego de llaves Allen"
+      ],
+      "mats": [
+        "Zapata de montera",
+        "Cartucho cerámico",
+        "Grasa de silicona",
+        "Trapo"
+      ],
+      "steps": [
+        "Cierra las llaves de escuadra bajo el lavabo girándolas hacia la derecha hasta el fondo.",
+        "Abre el grifo para quitar la presión y pon el tapón en el desagüe: así no se pierde ningún tornillo.",
+        "Mira el tipo: si el mando da varias vueltas hasta cerrar, es de montera; si da media vuelta o es monomando, de cartucho.",
+        "Quita el embellecedor de color, afloja el tornillo de debajo (estrella o Allen) y saca el mando o la palanca.",
+        "Desenrosca la montera o la tuerca del cartucho con la llave, con un trapo para no rayarlo.",
+        "Mira la pieza: ¿zapata aplastada o cartucho rayado? Llévala a la ferretería y compra una igual.",
+        "Montera: cambia la zapata del extremo, sujeta con un tornillito. Cartucho: mete el nuevo con las pestañas en sus ranuras.",
+        "Unta la rosca con un poco de grasa de silicona y vuelve a enroscar con la llave, firme pero sin forzar.",
+        "Vuelve a poner el mando o la palanca, el tornillo y el embellecedor.",
+        "Abre despacio las llaves de escuadra y luego abre y cierra el grifo un par de veces."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "1": {
+          "q": "¿Ha dejado de salir agua por el grifo abierto?",
+          "fix": "La llave de escuadra no cierra: cierra la llave de paso general antes de seguir."
+        },
+        "5": {
+          "q": "¿Tienes un recambio idéntico, misma medida y encaje?",
+          "fix": "Lleva la pieza vieja a la ferretería: los cartuchos cambian por pocos milímetros, por ejemplo [[35 mm]] o [[40 mm]]."
+        },
+        "9": {
+          "q": "¿El grifo cerrado ya no gotea?",
+          "fix": "Si sigue goteando, el asiento está dañado o el cartucho mal colocado: desmonta y revisa, o llama a un fontanero."
+        }
+      },
+      "warns": {
+        "0": "No desmontes nada con el agua abierta: sale a presión y te inunda el baño."
+      },
+      "tips": [
+        "Pon las piezas en fila en el orden en que las quitas: al montar no tendrás dudas.",
+        "Si gotea por la base de la palanca y no por el caño, toca cambiar las juntas tóricas, no el cartucho.",
+        "¿No hay llaves de escuadra bajo el lavabo? Cierra la general y abre un grifo bajo."
+      ],
+      "gate": [
+        "Sé dónde está la llave de paso general"
+      ]
+    },
+    "de": {
+      "title": "Tropfenden Wasserhahn reparieren",
+      "intro": "Er tropft auch zugedreht: Dichtung oder Kartusche tauschen und kein Wasser mehr verschwenden.",
+      "tools": [
+        "Rollgabelschlüssel",
+        "Schlitzschraubendreher",
+        "Kreuzschlitzschraubendreher",
+        "Inbusschlüssel-Set"
+      ],
+      "mats": [
+        "Hahndichtung",
+        "Keramikkartusche",
+        "Silikonfett",
+        "Lappen"
+      ],
+      "steps": [
+        "Dreh die Eckventile unter dem Waschbecken im Uhrzeigersinn bis zum Anschlag zu.",
+        "Öffne den Hahn, damit der Druck rausgeht, und mach den Stöpsel rein: So fällt keine Schraube in den Abfluss.",
+        "Bestimm die Bauart: Viele Umdrehungen bis zu heißt Oberteil mit Dichtung; halbe Drehung oder Hebel heißt Kartusche.",
+        "Hebel die farbige Kappe ab, löse die Schraube darunter (Kreuz oder Inbus) und zieh Griff oder Hebel ab.",
+        "Schraub das Oberteil oder die Kartuschenmutter mit dem Schlüssel ab, mit Lappen dazwischen gegen Kratzer.",
+        "Schau dir das Teil an: Dichtung platt oder Kartusche verkratzt? Nimm es mit in den Baumarkt und kauf das gleiche.",
+        "Oberteil: Dichtung unten tauschen, sie hält mit einer kleinen Schraube. Kartusche: neue mit den Nasen in die Aussparungen.",
+        "Gib einen Hauch Silikonfett aufs Gewinde und schraub fest an, aber ohne Gewalt.",
+        "Setz Griff oder Hebel, Schraube und farbige Kappe wieder drauf.",
+        "Öffne die Eckventile langsam, dann den Hahn ein paarmal auf- und zudrehen."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "1": {
+          "q": "Kommt aus dem offenen Hahn kein Wasser mehr?",
+          "fix": "Das Eckventil schließt nicht: Dreh erst den Hauptwasserhahn zu, bevor du weitermachst."
+        },
+        "5": {
+          "q": "Hast du ein identisches Ersatzteil, gleiche Größe und Aufnahme?",
+          "fix": "Nimm das alte Teil mit: Kartuschen unterscheiden sich um wenige Millimeter, etwa [[35 mm]] oder [[40 mm]]."
+        },
+        "9": {
+          "q": "Bleibt der Hahn jetzt zugedreht trocken?",
+          "fix": "Tropft er noch, ist der Ventilsitz beschädigt oder die Kartusche sitzt schief: zerlegen und prüfen oder Installateur rufen."
+        }
+      },
+      "warns": {
+        "0": "Nichts abschrauben, solange das Wasser an ist: Es spritzt unter Druck raus und flutet das Bad."
+      },
+      "tips": [
+        "Leg die Teile in der Reihenfolge ab, in der du sie ausbaust: Beim Zusammenbau gibt's keine Fragen.",
+        "Tropft es am Hebelfuß statt am Auslauf, sind die O-Ringe dran, nicht die Kartusche.",
+        "Keine Eckventile unterm Becken? Dreh den Hauptwasserhahn zu und öffne einen tiefen Hahn."
+      ],
+      "gate": [
+        "Ich weiß, wo der Hauptwasserhahn ist"
+      ]
+    }
+  }
+},
+{
+  "id": "pulire-aeratore-rubinetto",
+  "cat": "idraulica",
+  "diff": 1,
+  "active": 10,
+  "total": 50,
+  "risk": 0,
+  "topic": null,
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [
+    {
+      "k": "slip-joint-pliers"
+    },
+    {
+      "k": "old-toothbrush",
+      "own": true
+    }
+  ],
+  "mats": [
+    {
+      "k": "white-vinegar",
+      "q": 250,
+      "u": "ml"
+    },
+    {
+      "k": "small-container",
+      "q": 1,
+      "u": "",
+      "own": true
+    },
+    {
+      "k": "cloth",
+      "q": 1,
+      "u": "",
+      "own": true
+    }
+  ],
+  "steps": [
+    {
+      "ic": "hand"
+    },
+    {
+      "ic": "loosen"
+    },
+    {
+      "ic": "look"
+    },
+    {
+      "ic": "wait",
+      "timer": 2400
+    },
+    {
+      "ic": "clean"
+    },
+    {
+      "ic": "check",
+      "check": true
+    },
+    {
+      "ic": "drop"
+    },
+    {
+      "ic": "tighten",
+      "check": true
+    }
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Pulire l'aeratore del rubinetto",
+      "intro": "Getto debole o storto: il calcare ha intasato il filtro. Lo sciogli con l'aceto.",
+      "tools": [
+        "Pinza a pappagallo",
+        "Spazzolino vecchio"
+      ],
+      "mats": [
+        "Aceto bianco",
+        "Ciotola",
+        "Panno"
+      ],
+      "steps": [
+        "Chiudi lo scarico con il tappo: i pezzi dell'aeratore sono piccoli e scappano subito.",
+        "Svita a mano l'aeratore in punta al beccuccio. Se è duro, usa la pinza avvolta nel panno.",
+        "Separa i pezzi (retine, rompigetto, guarnizione) e mettili in fila nell'ordine in cui escono.",
+        "Mettili nella ciotola coperti di aceto e lascia agire 40 minuti: il calcare si scioglie.",
+        "Spazzola retine e fori con lo spazzolino e sciacqua sotto l'acqua corrente.",
+        "Guarda la retina controluce: i fori devono essere tutti aperti.",
+        "Apri il rubinetto senza aeratore per qualche secondo: escono i residui rimasti nel tubo.",
+        "Rimonta i pezzi nell'ordine, avvita a mano e apri l'acqua."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Ammollo",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "I fori della retina sono tutti liberi?",
+          "fix": "Rimetti in aceto altri 20 minuti o liberali con uno stuzzicadenti. Se è deformata, compra un aeratore uguale."
+        },
+        "7": {
+          "q": "Il getto è regolare e il filetto non perde?",
+          "fix": "Se perde dal filetto, controlla che la guarnizione sia dentro e piatta, poi stringi un po' di più."
+        }
+      },
+      "warns": {},
+      "tips": [
+        "Per gli aeratori incassati serve una chiavetta apposita: spesso è in dotazione col rubinetto.",
+        "Con l'acqua dura fallo ogni due o tre mesi; il soffione della doccia si pulisce allo stesso modo.",
+        "Porta l'aeratore vecchio in ferramenta: i filetti hanno misure diverse, come [[22 mm]] o [[24 mm]]."
+      ]
+    },
+    "en": {
+      "title": "Clean a tap aerator",
+      "intro": "Weak or spluttering flow: limescale has clogged the aerator. Vinegar dissolves it.",
+      "tools": [
+        "Slip-joint pliers",
+        "Old toothbrush"
+      ],
+      "mats": [
+        "White vinegar",
+        "Small bowl",
+        "Cloth"
+      ],
+      "steps": [
+        "Put the plug in the drain: aerator parts are tiny and roll away in a second.",
+        "Unscrew the aerator at the tip of the spout by hand. If it's stuck, use the pliers wrapped in the cloth.",
+        "Take the parts apart (screens, flow insert, washer) and line them up in the order they come out.",
+        "Put them in the bowl, cover with vinegar and leave for 40 minutes: the limescale dissolves.",
+        "Scrub the screens and holes with the toothbrush and rinse under running water.",
+        "Hold the screen up to the light: every hole should be open.",
+        "Run the tap without the aerator for a few seconds to flush out any grit in the pipe.",
+        "Refit the parts in order, screw it on by hand and turn the water on."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Soaking",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "Are all the holes in the screen clear?",
+          "fix": "Soak another 20 minutes or clear them with a toothpick. If it's bent out of shape, buy a matching aerator."
+        },
+        "7": {
+          "q": "Is the flow even, with no leak at the thread?",
+          "fix": "If it leaks at the thread, check the washer is in and flat, then tighten a little more."
+        }
+      },
+      "warns": {},
+      "tips": [
+        "Recessed aerators need a small aerator key: it often comes with the tap.",
+        "In hard water areas do it every two or three months; shower heads clean up the same way.",
+        "Take the old aerator to the shop: threads come in different sizes, like [[22 mm]] or [[24 mm]]."
+      ]
+    },
+    "fr": {
+      "title": "Nettoyer le mousseur du robinet",
+      "intro": "Jet faible ou qui part de travers : le calcaire bouche le mousseur. Le vinaigre le dissout.",
+      "tools": [
+        "Pince multiprise",
+        "Vieille brosse à dents"
+      ],
+      "mats": [
+        "Vinaigre blanc",
+        "Petit bol",
+        "Chiffon"
+      ],
+      "steps": [
+        "Mets le bouchon dans la bonde : les pièces du mousseur sont minuscules et filent vite.",
+        "Dévisse à la main le mousseur au bout du bec. S'il résiste, prends la pince entourée du chiffon.",
+        "Sépare les pièces (grilles, brise-jet, joint) et aligne-les dans l'ordre où elles sortent.",
+        "Mets-les dans le bol, couvre de vinaigre et laisse agir 40 minutes : le calcaire se dissout.",
+        "Brosse les grilles et les trous avec la brosse à dents et rince sous l'eau du robinet.",
+        "Regarde la grille à contre-jour : tous les trous doivent être ouverts.",
+        "Fais couler le robinet sans mousseur quelques secondes pour chasser les saletés du tuyau.",
+        "Remonte les pièces dans l'ordre, visse à la main et ouvre l'eau."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Trempage",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "Les trous de la grille sont-ils tous dégagés ?",
+          "fix": "Remets 20 minutes dans le vinaigre ou débouche-les avec un cure-dent. S'il est déformé, achète le même mousseur."
+        },
+        "7": {
+          "q": "Le jet est-il régulier, sans fuite au filetage ?",
+          "fix": "Si ça fuit au filetage, vérifie que le joint est en place et bien à plat, puis serre un peu plus."
+        }
+      },
+      "warns": {},
+      "tips": [
+        "Les mousseurs encastrés se dévissent avec une petite clé spéciale, souvent fournie avec le robinet.",
+        "En eau calcaire, fais-le tous les deux ou trois mois ; la pomme de douche se nettoie pareil.",
+        "Emporte l'ancien mousseur au magasin : les filetages varient, par exemple [[22 mm]] ou [[24 mm]]."
+      ]
+    },
+    "es": {
+      "title": "Limpiar el aireador del grifo",
+      "intro": "Chorro flojo o torcido: la cal ha tapado el aireador. El vinagre la disuelve.",
+      "tools": [
+        "Alicate de pico de loro",
+        "Cepillo de dientes viejo"
+      ],
+      "mats": [
+        "Vinagre blanco",
+        "Cuenco pequeño",
+        "Trapo"
+      ],
+      "steps": [
+        "Pon el tapón en el desagüe: las piezas del aireador son diminutas y se escapan enseguida.",
+        "Desenrosca a mano el aireador de la punta del caño. Si está duro, usa el alicate envuelto en el trapo.",
+        "Separa las piezas (rejillas, rompechorros, junta) y ponlas en fila en el orden en que salen.",
+        "Mételas en el cuenco, cúbrelas de vinagre y déjalas 40 minutos: la cal se disuelve.",
+        "Cepilla rejillas y agujeros con el cepillo de dientes y aclara bajo el grifo.",
+        "Mira la rejilla a contraluz: todos los agujeros tienen que estar abiertos.",
+        "Abre el grifo sin aireador unos segundos para que salga la suciedad del tubo.",
+        "Vuelve a montar las piezas en orden, enrosca a mano y abre el agua."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Remojo",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "¿Están libres todos los agujeros de la rejilla?",
+          "fix": "Déjala otros 20 minutos en vinagre o ábrelos con un palillo. Si está deformada, compra un aireador igual."
+        },
+        "7": {
+          "q": "¿El chorro sale regular y no gotea por la rosca?",
+          "fix": "Si gotea por la rosca, comprueba que la junta está dentro y plana, y aprieta un poco más."
+        }
+      },
+      "warns": {},
+      "tips": [
+        "Los aireadores ocultos necesitan una llavecita especial: suele venir con el grifo.",
+        "Con agua dura, hazlo cada dos o tres meses; la alcachofa de la ducha se limpia igual.",
+        "Lleva el aireador viejo a la ferretería: las roscas varían, por ejemplo [[22 mm]] o [[24 mm]]."
+      ]
+    },
+    "de": {
+      "title": "Perlator am Wasserhahn reinigen",
+      "intro": "Schwacher oder schiefer Strahl: Kalk verstopft den Perlator. Essig löst ihn.",
+      "tools": [
+        "Wasserpumpenzange",
+        "Alte Zahnbürste"
+      ],
+      "mats": [
+        "Haushaltsessig",
+        "Kleine Schüssel",
+        "Lappen"
+      ],
+      "steps": [
+        "Mach den Stöpsel in den Abfluss: Die Perlatorteile sind winzig und rollen sofort weg.",
+        "Schraub den Perlator vorne am Auslauf von Hand ab. Sitzt er fest, nimm die Zange mit dem Lappen drum.",
+        "Nimm die Teile auseinander (Siebe, Strahlregler, Dichtung) und leg sie in der Reihenfolge ab.",
+        "Leg sie in die Schüssel, mit Essig bedeckt, und lass sie 40 Minuten liegen: Der Kalk löst sich.",
+        "Schrubb Siebe und Löcher mit der Zahnbürste und spül sie unter fließendem Wasser ab.",
+        "Halt das Sieb gegen das Licht: Alle Löcher sollen frei sein.",
+        "Lass den Hahn ohne Perlator ein paar Sekunden laufen, damit Schmutz aus der Leitung rauskommt.",
+        "Setz die Teile in der Reihenfolge wieder ein, schraub von Hand fest und dreh das Wasser auf."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Einweichen",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "5": {
+          "q": "Sind alle Löcher im Sieb frei?",
+          "fix": "Noch 20 Minuten in Essig legen oder mit einem Zahnstocher frei machen. Ist es verbogen, kauf einen gleichen Perlator."
+        },
+        "7": {
+          "q": "Kommt der Strahl gleichmäßig, ohne Tropfen am Gewinde?",
+          "fix": "Tropft es am Gewinde, prüf, ob die Dichtung drin und flach ist, und zieh etwas fester an."
+        }
+      },
+      "warns": {},
+      "tips": [
+        "Verdeckte Perlatoren brauchen einen kleinen Spezialschlüssel: Der liegt oft der Armatur bei.",
+        "Bei hartem Wasser alle zwei bis drei Monate; den Duschkopf reinigst du genauso.",
+        "Nimm den alten Perlator mit in den Laden: Die Gewinde sind verschieden, etwa [[22 mm]] oder [[24 mm]]."
+      ]
+    }
+  }
+},
+{
+  "id": "cassetta-wc-che-perde",
+  "cat": "idraulica",
+  "diff": 2,
+  "active": 30,
+  "total": 60,
+  "risk": 1,
+  "topic": "water",
+  "allow": {},
+  "ppe": [
+    "gloves"
+  ],
+  "tags": [],
+  "months": [],
+  "tools": [
+    {
+      "k": "flat-screwdriver",
+      "own": true
+    },
+    {
+      "k": "phillips-screwdriver",
+      "own": true
+    }
+  ],
+  "mats": [
+    {
+      "k": "flush-valve-seal",
+      "q": 1,
+      "u": ""
+    },
+    {
+      "k": "food-dye",
+      "q": null,
+      "u": ""
+    },
+    {
+      "k": "sponge",
+      "q": 1,
+      "u": "",
+      "own": true
+    },
+    {
+      "k": "old-towel",
+      "q": 1,
+      "u": "",
+      "own": true
+    }
+  ],
+  "steps": [
+    {
+      "ic": "lift",
+      "warn": 1
+    },
+    {
+      "ic": "look"
+    },
+    {
+      "ic": "screwdriver"
+    },
+    {
+      "ic": "drop",
+      "timer": 120,
+      "check": true
+    },
+    {
+      "ic": "drop"
+    },
+    {
+      "ic": "wait",
+      "timer": 900
+    },
+    {
+      "ic": "look",
+      "check": true
+    },
+    {
+      "ic": "water-off"
+    },
+    {
+      "ic": "pull"
+    },
+    {
+      "ic": "clean"
+    },
+    {
+      "ic": "tighten",
+      "check": true
+    }
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Cassetta del WC che perde",
+      "intro": "Lo sciacquone continua a scorrere: regoli il galleggiante o cambi la guarnizione di scarico.",
+      "tools": [
+        "Cacciavite piatto",
+        "Cacciavite a croce"
+      ],
+      "mats": [
+        "Guarnizione valvola di scarico",
+        "Colorante alimentare",
+        "Spugna",
+        "Asciugamano vecchio"
+      ],
+      "steps": [
+        "Togli il coperchio della cassetta (o la placca, se è a incasso) e posalo su un asciugamano.",
+        "Guarda il livello: l'acqua deve fermarsi circa [[2 cm]] sotto la cima del tubo di troppopieno.",
+        "Se è troppo alta, abbassa il galleggiante con la vite di regolazione o la clip sull'asta, poco alla volta.",
+        "Tira l'acqua e lascia riempire la cassetta: la valvola di carico deve chiudersi da sola.",
+        "Versa qualche goccia di colorante nell'acqua della cassetta e non tirare l'acqua.",
+        "Aspetta un quarto d'ora senza usare il WC.",
+        "Guarda dentro la tazza: se è colorata, l'acqua passa dalla guarnizione della valvola di scarico.",
+        "Chiudi il rubinetto sotto la cassetta, tira l'acqua per svuotarla e asciuga il fondo con la spugna.",
+        "Sgancia la valvola di scarico, di solito con un quarto di giro o una levetta, e sfilala verso l'alto.",
+        "Togli la guarnizione vecchia, pulisci la sede dal calcare e infila quella nuova, ben piatta.",
+        "Rimonta la valvola, riapri il rubinetto e prova due scarichi completi."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Riempimento",
+        "",
+        "Test colore",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "3": {
+          "q": "Il carico si ferma da solo sotto il troppopieno?",
+          "fix": "Se l'acqua continua a entrare, la valvola di carico è usurata: cambia la sua guarnizione o tutta la valvola."
+        },
+        "6": {
+          "q": "La tazza è rimasta senza colore?",
+          "fix": "Se no, perde la guarnizione della valvola di scarico: cambiala con i passi che seguono."
+        },
+        "10": {
+          "q": "Dopo il carico la tazza resta ferma, senza filo d'acqua?",
+          "fix": "Controlla che la guarnizione sia piatta e la valvola ben agganciata. Se perde ancora, cambia il meccanismo o chiama un idraulico."
+        }
+      },
+      "warns": {
+        "0": "Il coperchio in ceramica è pesante e fragile: tienilo con due mani e posalo a terra."
+      },
+      "tips": [
+        "Porta la guarnizione vecchia in ferramenta: ogni marca ha la sua misura.",
+        "Se dopo il test la tazza resta pulita e il livello è giusto, hai finito: rimetti il coperchio.",
+        "Nei WC a incasso, dietro la placca c'è lo stesso meccanismo, spesso con il suo rubinetto."
+      ]
+    },
+    "en": {
+      "title": "Fix a running toilet",
+      "intro": "The toilet keeps running: adjust the float or replace the flush valve seal.",
+      "tools": [
+        "Flat screwdriver",
+        "Phillips screwdriver"
+      ],
+      "mats": [
+        "Flush valve seal",
+        "Food dye",
+        "Sponge",
+        "Old towel"
+      ],
+      "steps": [
+        "Lift off the cistern lid (or the flush plate on a concealed cistern) and set it down on a towel.",
+        "Check the level: the water should stop about [[2 cm]] below the top of the overflow pipe.",
+        "If it's too high, lower the float with its adjusting screw or the clip on the rod, a little at a time.",
+        "Flush and let the cistern refill: the fill valve should shut off on its own.",
+        "Add a few drops of food dye to the water in the cistern and don't flush.",
+        "Wait a quarter of an hour without using the toilet.",
+        "Look in the bowl: if it's coloured, water is getting past the flush valve seal.",
+        "Close the isolation valve under the cistern, flush to empty it and sponge out the bottom.",
+        "Release the flush valve, usually with a quarter turn or a small lever, and lift it out.",
+        "Remove the old seal, clean the limescale off the seat and fit the new one, sitting flat.",
+        "Refit the valve, reopen the isolation valve and test with two full flushes."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Refilling",
+        "",
+        "Dye test",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "3": {
+          "q": "Does the refill stop on its own below the overflow?",
+          "fix": "If water keeps coming in, the fill valve is worn: replace its washer or the whole valve."
+        },
+        "6": {
+          "q": "Has the bowl stayed clear of dye?",
+          "fix": "If not, the flush valve seal is leaking: replace it in the next steps."
+        },
+        "10": {
+          "q": "After refilling, is the bowl still, with no trickle?",
+          "fix": "Check the seal is flat and the valve properly clipped in. If it still runs, replace the mechanism or call a plumber."
+        }
+      },
+      "warns": {
+        "0": "A ceramic lid is heavy and fragile: hold it with both hands and put it on the floor."
+      },
+      "tips": [
+        "Take the old seal to the shop: every brand has its own size.",
+        "If the bowl stays clear after the test and the level is right, you're done: put the lid back.",
+        "On a concealed cistern the same mechanism sits behind the flush plate, often with its own valve."
+      ]
+    },
+    "fr": {
+      "title": "Chasse d'eau qui fuit",
+      "intro": "La chasse coule sans arrêt : règle le flotteur ou change le joint du mécanisme.",
+      "tools": [
+        "Tournevis plat",
+        "Tournevis cruciforme"
+      ],
+      "mats": [
+        "Joint de mécanisme de chasse",
+        "Colorant alimentaire",
+        "Éponge",
+        "Vieille serviette"
+      ],
+      "steps": [
+        "Enlève le couvercle du réservoir (ou la plaque, si le bâti est encastré) et pose-le sur une serviette.",
+        "Regarde le niveau : l'eau doit s'arrêter environ [[2 cm]] sous le haut du tube de trop-plein.",
+        "S'il est trop haut, baisse le flotteur avec sa vis de réglage ou le clip sur la tige, petit à petit.",
+        "Tire la chasse et laisse le réservoir se remplir : le robinet flotteur doit se couper tout seul.",
+        "Verse quelques gouttes de colorant dans l'eau du réservoir et ne tire pas la chasse.",
+        "Attends un quart d'heure sans utiliser les WC.",
+        "Regarde dans la cuvette : si elle est colorée, l'eau passe sous le joint du mécanisme de chasse.",
+        "Ferme le robinet d'arrêt du réservoir, tire la chasse pour le vider et éponge le fond.",
+        "Décroche le mécanisme de chasse, en général d'un quart de tour ou avec un levier, et sors-le par le haut.",
+        "Enlève l'ancien joint, nettoie le calcaire du siège et mets le neuf bien à plat.",
+        "Remonte le mécanisme, rouvre le robinet et teste deux chasses complètes."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Remplissage",
+        "",
+        "Test colorant",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "3": {
+          "q": "Le remplissage s'arrête-t-il seul sous le trop-plein ?",
+          "fix": "Si l'eau continue d'arriver, le robinet flotteur est usé : change son joint ou tout le robinet."
+        },
+        "6": {
+          "q": "La cuvette est-elle restée sans colorant ?",
+          "fix": "Sinon, c'est le joint du mécanisme de chasse qui fuit : change-le aux étapes suivantes."
+        },
+        "10": {
+          "q": "Après remplissage, la cuvette reste-t-elle sans filet d'eau ?",
+          "fix": "Vérifie que le joint est à plat et le mécanisme bien clipsé. Si ça coule encore, change le mécanisme ou appelle un plombier."
+        }
+      },
+      "warns": {
+        "0": "Le couvercle en céramique est lourd et fragile : prends-le à deux mains et pose-le au sol."
+      },
+      "tips": [
+        "Emporte l'ancien joint au magasin : chaque marque a sa taille.",
+        "Si la cuvette reste propre après le test et que le niveau est bon, c'est fini : remets le couvercle.",
+        "Sur un bâti encastré, le même mécanisme est derrière la plaque, souvent avec son propre robinet."
+      ]
+    },
+    "es": {
+      "title": "Cisterna del váter que pierde agua",
+      "intro": "La cisterna no deja de correr: ajustas la boya o cambias la junta de la descarga.",
+      "tools": [
+        "Destornillador plano",
+        "Destornillador de estrella"
+      ],
+      "mats": [
+        "Junta del mecanismo de descarga",
+        "Colorante alimentario",
+        "Esponja",
+        "Toalla vieja"
+      ],
+      "steps": [
+        "Quita la tapa de la cisterna (o el pulsador, si es empotrada) y déjala sobre una toalla.",
+        "Mira el nivel: el agua debe pararse unos [[2 cm]] por debajo del borde del tubo de rebose.",
+        "Si está demasiado alto, baja la boya con su tornillo de ajuste o la pinza de la varilla, poco a poco.",
+        "Tira de la cadena y deja que se llene: el grifo de llenado tiene que cerrarse solo.",
+        "Echa unas gotas de colorante en el agua de la cisterna y no tires de la cadena.",
+        "Espera un cuarto de hora sin usar el váter.",
+        "Mira la taza: si se ha teñido, el agua se escapa por la junta del mecanismo de descarga.",
+        "Cierra la llave de escuadra de la cisterna, tira de la cadena para vaciarla y seca el fondo con la esponja.",
+        "Suelta el mecanismo de descarga, normalmente con un cuarto de vuelta o una pestaña, y sácalo hacia arriba.",
+        "Quita la junta vieja, limpia la cal del asiento y pon la nueva bien plana.",
+        "Vuelve a montar el mecanismo, abre la llave y prueba dos descargas completas."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Llenado",
+        "",
+        "Prueba de color",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "3": {
+          "q": "¿El llenado se para solo por debajo del rebose?",
+          "fix": "Si sigue entrando agua, el grifo de llenado está gastado: cambia su junta o el grifo entero."
+        },
+        "6": {
+          "q": "¿La taza se ha quedado sin color?",
+          "fix": "Si no, pierde la junta del mecanismo de descarga: cámbiala en los pasos siguientes."
+        },
+        "10": {
+          "q": "Tras el llenado, ¿la taza queda quieta, sin hilo de agua?",
+          "fix": "Comprueba que la junta está plana y el mecanismo bien enganchado. Si sigue, cambia el mecanismo o llama a un fontanero."
+        }
+      },
+      "warns": {
+        "0": "La tapa de cerámica pesa y se rompe fácil: cógela con las dos manos y déjala en el suelo."
+      },
+      "tips": [
+        "Lleva la junta vieja a la ferretería: cada marca tiene su medida.",
+        "Si tras la prueba la taza sigue limpia y el nivel es bueno, ya está: vuelve a poner la tapa.",
+        "En las cisternas empotradas, detrás del pulsador está el mismo mecanismo, a menudo con su propia llave."
+      ]
+    },
+    "de": {
+      "title": "Spülkasten läuft ständig",
+      "intro": "Die Toilette läuft dauernd nach: Schwimmer einstellen oder Ablaufdichtung tauschen.",
+      "tools": [
+        "Schlitzschraubendreher",
+        "Kreuzschlitzschraubendreher"
+      ],
+      "mats": [
+        "Dichtung für Ablaufventil",
+        "Lebensmittelfarbe",
+        "Schwamm",
+        "Altes Handtuch"
+      ],
+      "steps": [
+        "Nimm den Spülkastendeckel ab (bei Unterputz die Drückerplatte) und leg ihn auf ein Handtuch.",
+        "Prüf den Wasserstand: Er soll etwa [[2 cm]] unter der Oberkante des Überlaufrohrs stehen bleiben.",
+        "Ist er zu hoch, stell den Schwimmer mit der Einstellschraube oder dem Clip am Gestänge tiefer, Stück für Stück.",
+        "Spül und lass den Kasten volllaufen: Das Füllventil muss von selbst schließen.",
+        "Gib ein paar Tropfen Lebensmittelfarbe ins Wasser im Spülkasten und spül nicht.",
+        "Warte eine Viertelstunde, ohne die Toilette zu benutzen.",
+        "Schau in die Schüssel: Ist sie gefärbt, läuft Wasser an der Dichtung des Ablaufventils vorbei.",
+        "Dreh das Eckventil am Spülkasten zu, spül ihn leer und tupf den Boden mit dem Schwamm trocken.",
+        "Löse das Ablaufventil, meist mit einer Vierteldrehung oder einem Hebel, und zieh es nach oben raus.",
+        "Nimm die alte Dichtung ab, mach den Sitz kalkfrei und setz die neue flach ein.",
+        "Bau das Ventil wieder ein, öffne das Eckventil und teste zwei volle Spülungen."
+      ],
+      "labels": [
+        "",
+        "",
+        "",
+        "Volllaufen",
+        "",
+        "Farbtest",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "checks": {
+        "3": {
+          "q": "Stoppt der Zulauf von selbst unter dem Überlauf?",
+          "fix": "Läuft weiter Wasser nach, ist das Füllventil verschlissen: Dichtung oder ganzes Ventil tauschen."
+        },
+        "6": {
+          "q": "Ist die Schüssel ohne Farbe geblieben?",
+          "fix": "Wenn nicht, ist die Ablaufdichtung undicht: Tausch sie in den nächsten Schritten."
+        },
+        "10": {
+          "q": "Steht das Wasser in der Schüssel nach dem Füllen still?",
+          "fix": "Prüf, ob die Dichtung flach liegt und das Ventil richtig eingerastet ist. Läuft es weiter, Garnitur tauschen oder Installateur rufen."
+        }
+      },
+      "warns": {
+        "0": "Der Keramikdeckel ist schwer und zerbrechlich: mit beiden Händen halten und auf den Boden legen."
+      },
+      "tips": [
+        "Nimm die alte Dichtung mit in den Laden: Jeder Hersteller hat eigene Maße.",
+        "Bleibt die Schüssel nach dem Test sauber und der Stand stimmt, bist du fertig: Deckel drauf.",
+        "Beim Unterputz-Spülkasten sitzt dieselbe Technik hinter der Drückerplatte, oft mit eigenem Absperrventil."
+      ]
+    }
+  }
+}
+]}

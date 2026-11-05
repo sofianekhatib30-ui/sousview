@@ -1,0 +1,1674 @@
+{"group": "D", "guides": [
+{
+  "id": "cambiare-cinghia-tapparella",
+  "cat": "serramenti",
+  "diff": 2, "active": 45, "total": 45,
+  "risk": 1, "topic": null,
+  "ppe": ["gloves"],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "phillips-screwdriver", "own": true}, {"k": "flat-screwdriver", "own": true}, {"k": "stepladder"}, {"k": "tape-measure"}, {"k": "scissors", "own": true}],
+  "mats": [{"k": "roller-shutter-strap", "q": 1, "u": ""}],
+  "steps": [
+    {"ic": "pull"},
+    {"ic": "screwdriver"},
+    {"ic": "hand", "warn": 1},
+    {"ic": "ladder", "warn": 1},
+    {"ic": "loosen"},
+    {"ic": "measure"},
+    {"ic": "hand", "check": true},
+    {"ic": "push"},
+    {"ic": "tighten", "warn": 1},
+    {"ic": "hand"},
+    {"ic": "pull", "check": true},
+    {"ic": "screwdriver"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Cambiare la cinghia della tapparella",
+      "intro": "Cinghia sfilacciata o rotta? La cambi in meno di un'ora, senza smontare la tapparella.",
+      "tools": ["Cacciavite a croce", "Cacciavite piatto", "Scala", "Metro", "Forbici"],
+      "mats": ["Cinghia per tapparelle (rotolo)"],
+      "steps": [
+        "Abbassa la tapparella fino in fondo, finché poggia sul davanzale.",
+        "Svita le viti della placca dell'avvolgitore accanto alla finestra e sfila la cassetta dal muro.",
+        "Tieni fermo il tamburo, sfila la vecchia cinghia e lascialo girare piano finché la molla è scarica.",
+        "Sali sulla scala e apri il coperchio del cassonetto: di solito viti o incastri sul lato verso la stanza.",
+        "Srotola la vecchia cinghia dalla puleggia contando i giri e guardando il verso, poi sganciala.",
+        "Misura la vecchia cinghia e taglia la nuova lunga uguale, più [[20 cm]] di margine.",
+        "Aggancia la nuova cinghia alla puleggia e avvolgila ben piatta, con gli stessi giri e nello stesso verso.",
+        "Fai scendere la cinghia nella feritoia fino all'avvolgitore, senza attorcigliarla.",
+        "Carica la molla: gira il tamburo al contrario di come si è scaricato, per vari giri, finché fa resistenza.",
+        "Tenendo il tamburo, infila la cinghia nella sua fessura e lascialo girare piano finché la cinghia è tesa.",
+        "Tira la cinghia: la tapparella deve salire fino in alto e la cinghia rientrare da sola.",
+        "Rimonta la cassetta dell'avvolgitore con le sue viti e richiudi il cassonetto."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "6": {"q": "La cinghia è avvolta dritta e centrata sulla puleggia?", "fix": "Srotolala e riavvolgila piatta: se si accavalla, la tapparella si blocca o la cinghia si consuma presto."},
+        "10": {"q": "Sale fino in cima e la cinghia rientra tesa?", "fix": "Se non arriva in cima, aggiungi giri sulla puleggia. Se la cinghia resta molle, carica la molla di qualche giro in più."}
+      },
+      "warns": {
+        "2": "La molla è carica: se il tamburo ti scappa gira di colpo e può pizzicarti le dita.",
+        "3": "Usa una scala stabile, non una sedia: nel cassonetto lavori con le braccia alzate.",
+        "8": "Non mollare il tamburo carico: torna indietro di scatto. Tienilo con tutta la mano."
+      },
+      "tips": [
+        "Prima di comprarla misura la larghezza della vecchia cinghia: le più comuni sono [[14 mm]], [[22 mm]] e [[23 mm]].",
+        "Se la molla non tiene più o la cassetta è rotta, cambia l'avvolgitore intero: costa poco e va nello stesso foro.",
+        "Se la tapparella resta dura anche con la cinghia nuova, il problema è nelle guide o nel rullo, non nella cinghia."
+      ]
+    },
+    "en": {
+      "title": "Replace a roller shutter strap",
+      "intro": "Frayed or snapped strap? Swap it in under an hour without taking the shutter down.",
+      "tools": ["Phillips screwdriver", "Flat screwdriver", "Stepladder", "Tape measure", "Scissors"],
+      "mats": ["Roller shutter strap (roll)"],
+      "steps": [
+        "Lower the shutter all the way, until it rests on the sill.",
+        "Unscrew the cover plate of the strap winder next to the window and pull the winder out of the wall.",
+        "Hold the drum, pull out the old strap and let the drum turn slowly until the spring is unwound.",
+        "Climb the ladder and open the shutter box cover above the window: usually screws or clips on the room side.",
+        "Unwind the old strap from the pulley, counting the turns and noting the direction, then unhook it.",
+        "Measure the old strap and cut the new one to the same length, plus [[20 cm]] spare.",
+        "Hook the new strap onto the pulley and wind it on flat, with the same turns in the same direction.",
+        "Feed the strap down through the slot to the winder, without twisting it.",
+        "Wind up the spring: turn the drum the opposite way to how it unwound, several turns, until it resists.",
+        "Holding the drum, slot the strap into it and let it turn slowly until the strap is taut.",
+        "Pull the strap: the shutter should rise all the way and the strap should wind back in by itself.",
+        "Screw the winder back in place and close the shutter box cover."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "6": {"q": "Is the strap wound straight and centred on the pulley?", "fix": "Unwind it and wind it on flat again: if it overlaps, the shutter jams or the strap wears out quickly."},
+        "10": {"q": "Does it go all the way up with the strap pulling back taut?", "fix": "If it won't reach the top, add turns on the pulley. If the strap stays slack, give the spring a few more turns."}
+      },
+      "warns": {
+        "2": "The spring is loaded: if the drum slips it spins hard and can pinch your fingers.",
+        "3": "Use a steady stepladder, not a chair: you'll be working with your arms up.",
+        "8": "Never let go of a wound drum: it snaps back. Grip it with your whole hand."
+      },
+      "tips": [
+        "Measure the width of the old strap before buying: the usual sizes are [[14 mm]], [[22 mm]] and [[23 mm]].",
+        "If the spring no longer holds or the box is cracked, replace the whole winder: it's cheap and fits the same hole.",
+        "If the shutter is still heavy with a new strap, the problem is in the guide rails or the roller, not the strap."
+      ]
+    },
+    "fr": {
+      "title": "Changer la sangle d'un volet roulant",
+      "intro": "Sangle effilochée ou cassée ? Tu la changes en moins d'une heure, sans démonter le volet.",
+      "tools": ["Tournevis cruciforme", "Tournevis plat", "Escabeau", "Mètre", "Ciseaux"],
+      "mats": ["Sangle de volet roulant (rouleau)"],
+      "steps": [
+        "Descends le volet complètement, jusqu'à ce qu'il repose sur l'appui.",
+        "Dévisse la plaque de l'enrouleur à côté de la fenêtre et sors le boîtier du mur.",
+        "Tiens le tambour, retire l'ancienne sangle et laisse-le tourner doucement jusqu'à ce que le ressort soit détendu.",
+        "Monte sur l'escabeau et ouvre le coffre du volet : en général des vis ou des clips côté pièce.",
+        "Déroule l'ancienne sangle de la poulie en comptant les tours et en notant le sens, puis décroche-la.",
+        "Mesure l'ancienne sangle et coupe la nouvelle à la même longueur, plus [[20 cm]] de marge.",
+        "Accroche la nouvelle sangle à la poulie et enroule-la bien à plat, même nombre de tours, même sens.",
+        "Fais descendre la sangle par la fente jusqu'à l'enrouleur, sans la vriller.",
+        "Arme le ressort : tourne le tambour dans le sens inverse de sa détente, plusieurs tours, jusqu'à sentir une résistance.",
+        "Sans lâcher le tambour, glisse la sangle dans sa fente et laisse-le tourner doucement jusqu'à ce qu'elle soit tendue.",
+        "Tire la sangle : le volet doit monter jusqu'en haut et la sangle se réenrouler toute seule.",
+        "Revisse le boîtier de l'enrouleur et referme le coffre."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "6": {"q": "La sangle est-elle enroulée droite et centrée sur la poulie ?", "fix": "Déroule-la et réenroule-la à plat : si elle chevauche, le volet se bloque ou la sangle s'use vite."},
+        "10": {"q": "Le volet monte-t-il jusqu'en haut avec une sangle bien tendue ?", "fix": "S'il n'arrive pas en haut, ajoute des tours sur la poulie. Si la sangle reste molle, arme le ressort de quelques tours de plus."}
+      },
+      "warns": {
+        "2": "Le ressort est armé : si le tambour t'échappe, il tourne d'un coup et peut te pincer les doigts.",
+        "3": "Prends un escabeau stable, pas une chaise : tu travailles les bras en l'air.",
+        "8": "Ne lâche jamais un tambour armé : il revient d'un coup. Tiens-le à pleine main."
+      },
+      "tips": [
+        "Mesure la largeur de l'ancienne sangle avant d'acheter : les plus courantes font [[14 mm]], [[22 mm]] ou [[23 mm]].",
+        "Si le ressort ne tient plus ou si le boîtier est cassé, change l'enrouleur entier : il coûte peu et se pose pareil.",
+        "Si le volet reste dur avec une sangle neuve, le souci vient des coulisses ou de l'axe, pas de la sangle."
+      ]
+    },
+    "es": {
+      "title": "Cambiar la cinta de la persiana",
+      "intro": "¿Cinta deshilachada o rota? La cambias en menos de una hora sin desmontar la persiana.",
+      "tools": ["Destornillador de estrella", "Destornillador plano", "Escalera", "Metro", "Tijeras"],
+      "mats": ["Cinta de persiana (rollo)"],
+      "steps": [
+        "Baja la persiana del todo, hasta que apoye en el alféizar.",
+        "Desatornilla la placa del recogedor junto a la ventana y saca la caja de la pared.",
+        "Sujeta el tambor, saca la cinta vieja y deja que gire despacio hasta que el muelle quede suelto.",
+        "Súbete a la escalera y abre la tapa del cajón de la persiana: suele ir con tornillos o pestañas por dentro.",
+        "Desenrolla la cinta vieja de la polea contando las vueltas y fijándote en el sentido, y suéltala.",
+        "Mide la cinta vieja y corta la nueva igual de larga, más [[20 cm]] de margen.",
+        "Engancha la cinta nueva en la polea y enróllala bien plana, con las mismas vueltas y en el mismo sentido.",
+        "Baja la cinta por la ranura hasta el recogedor, sin que se retuerza.",
+        "Carga el muelle: gira el tambor al revés de como se soltó, varias vueltas, hasta que haga resistencia.",
+        "Sin soltar el tambor, mete la cinta en su ranura y deja que gire despacio hasta que la cinta quede tensa.",
+        "Tira de la cinta: la persiana debe subir hasta arriba y la cinta recogerse sola.",
+        "Vuelve a atornillar el recogedor y cierra la tapa del cajón."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "6": {"q": "¿La cinta está enrollada recta y centrada en la polea?", "fix": "Desenróllala y vuelve a enrollarla plana: si se monta, la persiana se atasca o la cinta se gasta enseguida."},
+        "10": {"q": "¿Sube hasta arriba y la cinta se recoge tensa?", "fix": "Si no llega arriba, añade vueltas en la polea. Si la cinta queda floja, carga el muelle unas vueltas más."}
+      },
+      "warns": {
+        "2": "El muelle está cargado: si se te escapa el tambor, gira de golpe y te puede pillar los dedos.",
+        "3": "Usa una escalera estable, no una silla: trabajarás con los brazos en alto.",
+        "8": "No sueltes nunca el tambor cargado: vuelve de golpe. Sujétalo con toda la mano."
+      },
+      "tips": [
+        "Antes de comprarla, mide el ancho de la cinta vieja: las más comunes son de [[14 mm]], [[22 mm]] y [[23 mm]].",
+        "Si el muelle ya no tira o la caja está rota, cambia el recogedor entero: es barato y va en el mismo hueco.",
+        "Si la persiana sigue dura con la cinta nueva, el problema está en las guías o en el eje, no en la cinta."
+      ]
+    },
+    "de": {
+      "title": "Rollladengurt wechseln",
+      "intro": "Gurt ausgefranst oder gerissen? Du tauschst ihn in unter einer Stunde, ohne Ausbau.",
+      "tools": ["Kreuzschraubendreher", "Schlitzschraubendreher", "Trittleiter", "Maßband", "Schere"],
+      "mats": ["Rollladengurt (Rolle)"],
+      "steps": [
+        "Lass den Rollladen ganz herunter, bis er auf der Fensterbank aufsitzt.",
+        "Schraub die Abdeckung des Gurtwicklers neben dem Fenster ab und zieh den Wickler aus der Wand.",
+        "Halt die Trommel fest, zieh den alten Gurt heraus und lass sie langsam drehen, bis die Feder entspannt ist.",
+        "Steig auf die Leiter und öffne den Rollladenkasten: meist Schrauben oder Clips auf der Zimmerseite.",
+        "Wickel den alten Gurt von der Gurtscheibe ab, zähl die Umdrehungen, merk dir die Richtung und häng ihn aus.",
+        "Miss den alten Gurt und schneid den neuen gleich lang zu, plus [[20 cm]] Reserve.",
+        "Häng den neuen Gurt in die Gurtscheibe ein und wickel ihn flach auf: gleiche Umdrehungen, gleiche Richtung.",
+        "Führ den Gurt durch den Schlitz nach unten bis zum Wickler, ohne ihn zu verdrehen.",
+        "Spann die Feder: Dreh die Trommel entgegen der Richtung, in der sie sich entspannt hat, mehrmals, bis sie Widerstand gibt.",
+        "Halt die Trommel, steck den Gurt in ihren Schlitz und lass sie langsam drehen, bis der Gurt straff ist.",
+        "Zieh am Gurt: Der Rollladen muss ganz hochgehen und der Gurt sich von selbst aufwickeln.",
+        "Schraub den Wickler wieder fest und schließ den Rollladenkasten."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "6": {"q": "Liegt der Gurt gerade und mittig auf der Gurtscheibe?", "fix": "Abwickeln und flach neu aufwickeln: Liegt er schief übereinander, klemmt der Rollladen oder der Gurt verschleißt schnell."},
+        "10": {"q": "Geht er ganz hoch und wickelt sich der Gurt straff auf?", "fix": "Kommt er nicht ganz hoch, mehr Umdrehungen auf die Gurtscheibe. Bleibt der Gurt locker, die Feder ein paar Umdrehungen mehr spannen."}
+      },
+      "warns": {
+        "2": "Die Feder ist gespannt: Rutscht dir die Trommel weg, dreht sie schlagartig und klemmt die Finger.",
+        "3": "Nimm eine stabile Leiter, keinen Stuhl: Du arbeitest mit erhobenen Armen.",
+        "8": "Lass die gespannte Trommel nie los: Sie schnellt zurück. Halt sie mit der ganzen Hand."
+      },
+      "tips": [
+        "Miss vor dem Kauf die Breite des alten Gurts: Üblich sind [[14 mm]], [[22 mm]] und [[23 mm]].",
+        "Hält die Feder nicht mehr oder ist das Gehäuse kaputt, tausch den ganzen Gurtwickler: Er ist günstig.",
+        "Geht der Rollladen auch mit neuem Gurt schwer, liegt es an den Führungsschienen oder der Welle, nicht am Gurt."
+      ]
+    }
+  }
+},
+{
+  "id": "porta-che-struscia",
+  "cat": "serramenti",
+  "diff": 2, "active": 45, "total": 60,
+  "risk": 1, "topic": null,
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "phillips-screwdriver", "own": true}, {"k": "allen-key-set"}, {"k": "pencil", "own": true}, {"k": "block-plane"}],
+  "mats": [{"k": "screws", "q": 2, "u": ""}, {"k": "sandpaper", "q": 2, "u": ""}, {"k": "wood-finish", "q": null, "u": ""}],
+  "steps": [
+    {"ic": "look"},
+    {"ic": "look", "check": true},
+    {"ic": "lift"},
+    {"ic": "tighten"},
+    {"ic": "screwdriver"},
+    {"ic": "screw"},
+    {"ic": "check", "check": true},
+    {"ic": "pencil"},
+    {"ic": "lift", "warn": 1},
+    {"ic": "sand"},
+    {"ic": "brush"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Sistemare una porta che struscia",
+      "intro": "La porta gratta sul telaio o sul pavimento? Trova il punto e sistemala, dalla vite al pialletto.",
+      "tools": ["Cacciavite a croce", "Set di chiavi a brugola", "Matita", "Pialletto"],
+      "mats": ["Viti lunghe da legno", "Carta vetrata", "Vernice o cera"],
+      "steps": [
+        "Chiudi la porta piano e cerca dove tocca: segni di sfregamento sul bordo o sul telaio.",
+        "Chiudi la porta su un foglio di carta e fallo scorrere lungo i bordi: dove si blocca, struscia.",
+        "Apri la porta e solleva la maniglia: se la porta si muove su e giù, le cerniere sono lente.",
+        "Stringi tutte le viti delle cerniere, sul telaio e sulla porta, finché sono ben ferme.",
+        "Se le cerniere hanno viti di regolazione, girale di poco per spostare la porta via dal punto che tocca.",
+        "Struscia in alto dal lato serratura? Nella cerniera alta, lato telaio, sostituisci una vite corta con una da [[70 mm]].",
+        "Richiudi la porta e rifai la prova del foglio lungo tutto il bordo.",
+        "Struscia ancora? Segna a matita sul bordo della porta la zona da togliere.",
+        "Togli la porta: di solito si sfila sollevandola dai cardini; se no, svita le cerniere dal telaio.",
+        "Carteggia o pialla solo la zona segnata, poco alla volta: di solito basta togliere [[1-2 mm]].",
+        "Rimonta la porta, provala e ripassa vernice o cera sul legno scoperto, così non assorbe umidità."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Hai trovato il punto in cui struscia?", "fix": "Passa un gessetto sul bordo della porta, chiudila e guarda dove il segno si è trasferito o cancellato."},
+        "6": {"q": "Il foglio scorre libero su tutto il bordo?", "fix": "Se struscia ancora un po', passa alla carta vetrata. Se non chiude proprio, serve piallare: vai avanti."}
+      },
+      "warns": {
+        "8": "La porta è pesante e scivola: fatti aiutare e appoggiala in piedi contro il muro, su un panno."
+      },
+      "tips": [
+        "Struscia solo d'inverno o con l'umido? Il legno si è gonfiato: prima di piallare prova a stringere le cerniere.",
+        "Struscia sul pavimento? Spesso basta una rondella sul perno del cardine per alzarla di [[2 mm]].",
+        "Porta blindata, tagliafuoco o laccata di fabbrica: non piallarla, chiama il produttore o un serramentista."
+      ]
+    },
+    "en": {
+      "title": "Fix a door that sticks or rubs",
+      "intro": "Door scraping the frame or floor? Find the spot and fix it, from a screw to a light plane.",
+      "tools": ["Phillips screwdriver", "Allen key set", "Pencil", "Block plane"],
+      "mats": ["Long wood screws", "Sandpaper", "Paint or wax"],
+      "steps": [
+        "Close the door slowly and look for where it touches: scuff marks on the edge or on the frame.",
+        "Close the door on a sheet of paper and slide it along the edges: where it jams, the door rubs.",
+        "Open the door and lift the handle: if the door moves up and down, the hinges are loose.",
+        "Tighten every hinge screw, on the frame and on the door, until they're firm.",
+        "If the hinges have adjustment screws, turn them a little to move the door away from the spot it touches.",
+        "Rubbing at the top on the latch side? Swap a short screw in the top hinge, frame side, for a [[70 mm]] one.",
+        "Close the door again and repeat the paper test along the whole edge.",
+        "Still rubbing? Mark the area to take off on the door edge with a pencil.",
+        "Take the door off: usually it lifts off the hinge pins; if not, unscrew the hinges from the frame.",
+        "Sand or plane only the marked area, a little at a time: [[1-2 mm]] is usually enough.",
+        "Rehang the door, test it, and seal the bare wood with paint or wax so it doesn't soak up moisture."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Have you found where it rubs?", "fix": "Rub chalk along the door edge, close it, and see where the chalk has transferred or worn off."},
+        "6": {"q": "Does the paper slide freely along the whole edge?", "fix": "If it still rubs slightly, use sandpaper. If it won't close at all, you'll need to plane: carry on."}
+      },
+      "warns": {
+        "8": "Doors are heavy and slip: get help and stand it upright against the wall on a cloth."
+      },
+      "tips": [
+        "Only sticks in winter or damp weather? The wood has swollen: tighten the hinges before you plane anything.",
+        "Scraping the floor? On lift-off hinges, a washer on the hinge pin often raises it by [[2 mm]].",
+        "Fire door, security door or factory-lacquered: don't plane it, call the maker or a joiner."
+      ]
+    },
+    "fr": {
+      "title": "Réparer une porte qui frotte",
+      "intro": "Ta porte frotte sur le cadre ou le sol ? Trouve l'endroit et corrige, de la vis au rabot.",
+      "tools": ["Tournevis cruciforme", "Jeu de clés Allen", "Crayon", "Rabot"],
+      "mats": ["Vis à bois longues", "Papier de verre", "Peinture ou cire"],
+      "steps": [
+        "Ferme la porte doucement et cherche où elle touche : traces de frottement sur le chant ou le cadre.",
+        "Ferme la porte sur une feuille de papier et fais-la glisser le long des bords : là où elle coince, ça frotte.",
+        "Ouvre la porte et soulève la poignée : si la porte bouge de haut en bas, les paumelles ont du jeu.",
+        "Resserre toutes les vis des paumelles, côté cadre et côté porte, jusqu'à ce qu'elles tiennent bien.",
+        "Si tes paumelles ont des vis de réglage, tourne-les un peu pour éloigner la porte du point de frottement.",
+        "Ça frotte en haut côté serrure ? Sur la paumelle du haut, côté cadre, remplace une vis courte par une de [[70 mm]].",
+        "Referme la porte et refais le test de la feuille sur tout le bord.",
+        "Ça frotte encore ? Marque au crayon sur le chant de la porte la zone à enlever.",
+        "Dépose la porte : en général elle se soulève de ses gonds ; sinon, dévisse les paumelles du cadre.",
+        "Ponce ou rabote seulement la zone marquée, petit à petit : [[1-2 mm]] suffisent en général.",
+        "Remonte la porte, teste-la et repasse peinture ou cire sur le bois nu pour qu'il ne prenne pas l'humidité."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "As-tu trouvé l'endroit qui frotte ?", "fix": "Passe une craie sur le chant de la porte, ferme-la et regarde où la craie s'est déposée ou effacée."},
+        "6": {"q": "La feuille glisse-t-elle librement sur tout le bord ?", "fix": "Si ça frotte encore un peu, passe au papier de verre. Si la porte ne ferme pas du tout, il faut raboter : continue."}
+      },
+      "warns": {
+        "8": "Une porte est lourde et glisse : fais-toi aider et pose-la debout contre le mur, sur un chiffon."
+      },
+      "tips": [
+        "Elle ne frotte qu'en hiver ou par temps humide ? Le bois a gonflé : resserre les paumelles avant de raboter.",
+        "Elle frotte au sol ? Une rondelle de paumelle sur le gond suffit souvent à la remonter de [[2 mm]].",
+        "Porte blindée, coupe-feu ou laquée d'usine : ne la rabote pas, appelle le fabricant ou un menuisier."
+      ]
+    },
+    "es": {
+      "title": "Arreglar una puerta que roza",
+      "intro": "¿La puerta roza con el marco o el suelo? Encuentra el punto y arréglalo, del tornillo al cepillo.",
+      "tools": ["Destornillador de estrella", "Juego de llaves Allen", "Lápiz", "Cepillo de carpintero"],
+      "mats": ["Tornillos largos para madera", "Papel de lija", "Pintura o cera"],
+      "steps": [
+        "Cierra la puerta despacio y busca dónde toca: marcas de roce en el canto o en el marco.",
+        "Cierra la puerta sobre una hoja de papel y deslízala por los bordes: donde se atasca, roza.",
+        "Abre la puerta y levanta la manilla: si la puerta se mueve arriba y abajo, las bisagras están flojas.",
+        "Aprieta todos los tornillos de las bisagras, en el marco y en la puerta, hasta que queden firmes.",
+        "Si las bisagras tienen tornillos de ajuste, gíralos un poco para alejar la puerta del punto que roza.",
+        "¿Roza arriba en el lado de la cerradura? Cambia un tornillo corto de la bisagra de arriba, lado marco, por uno de [[70 mm]].",
+        "Vuelve a cerrar y repite la prueba del papel por todo el borde.",
+        "¿Sigue rozando? Marca con lápiz en el canto de la puerta la zona que hay que quitar.",
+        "Desmonta la puerta: normalmente sale levantándola de los pernios; si no, desatornilla las bisagras del marco.",
+        "Lija o cepilla solo la zona marcada, poco a poco: normalmente bastan [[1-2 mm]].",
+        "Vuelve a colgar la puerta, pruébala y da pintura o cera a la madera desnuda para que no coja humedad."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "¿Has encontrado dónde roza?", "fix": "Pasa una tiza por el canto de la puerta, ciérrala y mira dónde se ha marcado o borrado la tiza."},
+        "6": {"q": "¿El papel corre libre por todo el borde?", "fix": "Si aún roza un poco, pasa la lija. Si no cierra del todo, hay que cepillar: sigue adelante."}
+      },
+      "warns": {
+        "8": "La puerta pesa y resbala: pide ayuda y apóyala de pie contra la pared, sobre un trapo."
+      },
+      "tips": [
+        "¿Solo roza en invierno o con humedad? La madera se ha hinchado: aprieta las bisagras antes de cepillar.",
+        "¿Roza con el suelo? Una arandela en el pernio de la bisagra suele subirla [[2 mm]].",
+        "Puerta blindada, cortafuegos o lacada de fábrica: no la cepilles, llama al fabricante o a un carpintero."
+      ]
+    },
+    "de": {
+      "title": "Schleifende Tür richten",
+      "intro": "Tür schleift am Rahmen oder Boden? Stelle finden und beheben, von der Schraube bis zum Hobel.",
+      "tools": ["Kreuzschraubendreher", "Inbusschlüssel-Satz", "Bleistift", "Handhobel"],
+      "mats": ["Lange Holzschrauben", "Schleifpapier", "Lack oder Wachs"],
+      "steps": [
+        "Schließ die Tür langsam und such die Stelle, wo sie anstößt: Schleifspuren an der Kante oder am Rahmen.",
+        "Schließ die Tür über einem Blatt Papier und zieh es an den Kanten entlang: Wo es klemmt, schleift sie.",
+        "Öffne die Tür und heb sie an der Klinke an: Bewegt sie sich auf und ab, sitzen die Bänder locker.",
+        "Zieh alle Schrauben der Bänder nach, am Rahmen und an der Tür, bis sie fest sitzen.",
+        "Haben die Bänder Stellschrauben, dreh sie ein wenig, um die Tür von der Schleifstelle wegzubringen.",
+        "Schleift sie oben an der Schlossseite? Ersetz am oberen Band rahmenseitig eine kurze Schraube durch eine [[70 mm]] lange.",
+        "Schließ die Tür wieder und mach den Papiertest an der ganzen Kante.",
+        "Schleift sie noch? Markier die Stelle, die weg muss, mit Bleistift an der Türkante.",
+        "Häng die Tür aus: meist einfach nach oben aus den Bändern heben; sonst die Bänder vom Rahmen schrauben.",
+        "Schleif oder hobel nur die markierte Stelle, nach und nach: Meist reichen [[1-2 mm]].",
+        "Häng die Tür ein, teste sie und streich das blanke Holz mit Lack oder Wachs, damit es keine Feuchtigkeit zieht."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Hast du die Schleifstelle gefunden?", "fix": "Reib Kreide auf die Türkante, schließ die Tür und schau, wo die Kreide abgefärbt oder abgerieben ist."},
+        "6": {"q": "Gleitet das Papier an der ganzen Kante frei durch?", "fix": "Schleift sie nur noch leicht, nimm Schleifpapier. Schließt sie gar nicht, musst du hobeln: mach weiter."}
+      },
+      "warns": {
+        "8": "Türen sind schwer und rutschen: Hol dir Hilfe und stell sie auf einem Tuch aufrecht an die Wand."
+      },
+      "tips": [
+        "Klemmt sie nur im Winter oder bei Feuchtigkeit? Das Holz ist gequollen: erst die Bänder nachziehen, dann hobeln.",
+        "Schleift sie am Boden? Ein Bandring auf dem Bandstift hebt sie oft um [[2 mm]] an.",
+        "Sicherheits-, Brandschutz- oder werkslackierte Tür: nicht hobeln, frag den Hersteller oder einen Tischler."
+      ]
+    }
+  }
+},
+{
+  "id": "sostituire-maniglia-porta",
+  "cat": "serramenti",
+  "diff": 1, "active": 20, "total": 20,
+  "risk": 0, "topic": null,
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "phillips-screwdriver", "own": true}, {"k": "flat-screwdriver", "own": true}, {"k": "allen-key-set"}, {"k": "tape-measure"}],
+  "mats": [{"k": "door-handle-set", "q": 1, "u": ""}],
+  "steps": [
+    {"ic": "look"},
+    {"ic": "loosen"},
+    {"ic": "screwdriver"},
+    {"ic": "pull"},
+    {"ic": "measure", "check": true},
+    {"ic": "push"},
+    {"ic": "tighten"},
+    {"ic": "check", "check": true},
+    {"ic": "door"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Cambiare la maniglia della porta",
+      "intro": "Maniglia lenta, rotta o solo brutta? Ne monti una nuova in una ventina di minuti.",
+      "tools": ["Cacciavite a croce", "Cacciavite piatto", "Set di chiavi a brugola", "Metro"],
+      "mats": ["Coppia di maniglie (kit completo)"],
+      "steps": [
+        "Guarda come è fissata la maniglia: viti a vista sulla placca o una rosetta che le nasconde.",
+        "Se sul collo della maniglia c'è una vitina (grano), svitala con la brugola.",
+        "Fai leva sulla rosetta col cacciavite piatto nella sua tacca, oppure svita le viti della placca.",
+        "Sfila le due maniglie e il quadro, la barretta quadrata che passa nella serratura.",
+        "Misura il lato del quadro: di solito [[8 mm]], a volte [[7 mm]]. Guarda anche il foro della placca: chiave, cilindro o cieca.",
+        "Infila il quadro nella serratura e monta la prima maniglia, dritta e in orizzontale.",
+        "Monta la seconda maniglia dall'altro lato e stringi viti o grano a fondo, senza storcere la placca.",
+        "Abbassa la maniglia e lasciala: deve tornare su da sola e lo scrocco deve entrare e uscire.",
+        "Chiudi la porta più volte: lo scrocco deve agganciare senza spingere la porta."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Quadro e tipo di placca della nuova maniglia sono uguali ai vecchi?", "fix": "Se il quadro è diverso, usa quello giusto del kit o cambia modello. Non forzare mai un quadro più grosso nella serratura."},
+        "7": {"q": "La maniglia torna su da sola e lo scrocco scorre?", "fix": "Se resta giù, allenta un po' le viti: la placca stringe. Se lo scrocco non si muove, il quadro non è entrato bene."}
+      },
+      "warns": {},
+      "tips": [
+        "Porta il quadro vecchio in negozio: è il modo più rapido per non sbagliare misura.",
+        "Maniglia solo lenta? Spesso basta stringere il grano o le viti: provaci prima di comprarne una nuova.",
+        "Se lo scrocco resta bloccato anche senza maniglia, è la serratura da cambiare, non la maniglia."
+      ]
+    },
+    "en": {
+      "title": "Replace an interior door handle",
+      "intro": "Handle loose, broken or just ugly? Fit a new one in about 20 minutes.",
+      "tools": ["Phillips screwdriver", "Flat screwdriver", "Allen key set", "Tape measure"],
+      "mats": ["Door handle set"],
+      "steps": [
+        "Look at how the handle is fixed: visible screws on the backplate, or a round rose hiding them.",
+        "If there's a tiny grub screw on the handle's neck, undo it with the Allen key.",
+        "Prise the rose off with the flat screwdriver in its notch, or undo the backplate screws.",
+        "Pull out both handles and the spindle, the square bar that runs through the latch.",
+        "Measure the spindle: usually [[8 mm]], sometimes [[7 mm]]. Check the plate type too: keyhole, cylinder or plain.",
+        "Push the spindle into the latch and fit the first handle, straight and level.",
+        "Fit the second handle on the other side and tighten the screws or grub screw fully, keeping the plate straight.",
+        "Push the handle down and let go: it should spring back up and the latch should slide in and out.",
+        "Close the door a few times: the latch should catch without you pushing the door."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Do the new handle's spindle and plate type match the old ones?", "fix": "If the spindle differs, use the right one from the box or pick another model. Never force a thicker spindle into the latch."},
+        "7": {"q": "Does the handle spring back and the latch slide freely?", "fix": "If it stays down, loosen the screws a little: the plate is pinching. If the latch won't move, the spindle isn't seated."}
+      },
+      "warns": {},
+      "tips": [
+        "Take the old spindle to the shop: it's the quickest way to get the right size.",
+        "Handle just loose? Tightening the grub screw or the plate screws often fixes it: try before you buy.",
+        "If the latch sticks even with no handle on, it's the latch or lock that needs replacing, not the handle."
+      ]
+    },
+    "fr": {
+      "title": "Changer une poignée de porte",
+      "intro": "Poignée qui pend, cassée ou juste moche ? Tu en poses une neuve en 20 minutes environ.",
+      "tools": ["Tournevis cruciforme", "Tournevis plat", "Jeu de clés Allen", "Mètre"],
+      "mats": ["Ensemble de poignées de porte"],
+      "steps": [
+        "Regarde comment la poignée est fixée : vis visibles sur la plaque, ou rosace qui les cache.",
+        "S'il y a une petite vis sans tête sur le col de la poignée, desserre-la avec la clé Allen.",
+        "Fais levier sur la rosace avec le tournevis plat dans son encoche, ou dévisse les vis de la plaque.",
+        "Retire les deux poignées et le carré, la tige carrée qui traverse la serrure.",
+        "Mesure le carré : souvent [[7 mm]] en France, sinon [[8 mm]]. Vérifie aussi la plaque : trou de clé, cylindre ou sans trou.",
+        "Glisse le carré dans la serrure et pose la première poignée, droite et à l'horizontale.",
+        "Pose la seconde poignée de l'autre côté et serre à fond les vis ou la vis sans tête, sans tordre la plaque.",
+        "Abaisse la poignée et lâche-la : elle doit remonter seule et le pêne doit rentrer et sortir.",
+        "Ferme la porte plusieurs fois : le pêne doit s'enclencher sans pousser la porte."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Le carré et le type de plaque de la nouvelle poignée sont-ils identiques ?", "fix": "Si le carré diffère, prends celui fourni de la bonne taille ou change de modèle. Ne force jamais un carré trop gros dans la serrure."},
+        "7": {"q": "La poignée remonte-t-elle seule et le pêne coulisse-t-il ?", "fix": "Si elle reste en bas, desserre un peu les vis : la plaque serre trop. Si le pêne ne bouge pas, le carré est mal engagé."}
+      },
+      "warns": {},
+      "tips": [
+        "Apporte l'ancien carré au magasin : c'est le plus sûr pour ne pas te tromper de taille.",
+        "Poignée juste molle ? Resserrer la vis sans tête ou les vis de plaque suffit souvent : essaie avant d'acheter.",
+        "Si le pêne reste bloqué même sans poignée, c'est la serrure à changer, pas la poignée."
+      ]
+    },
+    "es": {
+      "title": "Cambiar la manilla de una puerta",
+      "intro": "¿Manilla floja, rota o fea? Pones una nueva en unos 20 minutos.",
+      "tools": ["Destornillador de estrella", "Destornillador plano", "Juego de llaves Allen", "Metro"],
+      "mats": ["Juego de manillas"],
+      "steps": [
+        "Mira cómo va sujeta la manilla: tornillos a la vista en la placa o una roseta que los tapa.",
+        "Si hay un tornillo prisionero pequeño en el cuello de la manilla, aflójalo con la llave Allen.",
+        "Haz palanca en la roseta con el destornillador plano en su muesca, o quita los tornillos de la placa.",
+        "Saca las dos manillas y el cuadradillo, la barra cuadrada que atraviesa la cerradura.",
+        "Mide el cuadradillo: suele ser de [[8 mm]], a veces de [[7 mm]]. Mira también la placa: con llave, bombín o ciega.",
+        "Mete el cuadradillo en la cerradura y coloca la primera manilla, recta y en horizontal.",
+        "Coloca la segunda manilla por el otro lado y aprieta a fondo tornillos o prisionero, sin torcer la placa.",
+        "Baja la manilla y suéltala: debe volver sola arriba y el resbalón debe entrar y salir.",
+        "Cierra la puerta varias veces: el resbalón debe encajar sin empujar la puerta."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "¿El cuadradillo y el tipo de placa de la manilla nueva son iguales?", "fix": "Si el cuadradillo es distinto, usa el de la medida correcta que trae o cambia de modelo. Nunca fuerces uno más gordo."},
+        "7": {"q": "¿La manilla vuelve sola y el resbalón corre bien?", "fix": "Si se queda abajo, afloja un poco los tornillos: la placa aprieta. Si el resbalón no se mueve, el cuadradillo no ha entrado bien."}
+      },
+      "warns": {},
+      "tips": [
+        "Lleva el cuadradillo viejo a la tienda: es lo más rápido para no equivocarte de medida.",
+        "¿La manilla solo está floja? Apretar el prisionero o los tornillos suele bastar: pruébalo antes de comprar.",
+        "Si el resbalón sigue atascado sin manilla, lo que hay que cambiar es la cerradura, no la manilla."
+      ]
+    },
+    "de": {
+      "title": "Türklinke wechseln",
+      "intro": "Klinke locker, kaputt oder einfach hässlich? Du montierst eine neue in etwa 20 Minuten.",
+      "tools": ["Kreuzschraubendreher", "Schlitzschraubendreher", "Inbusschlüssel-Satz", "Maßband"],
+      "mats": ["Drückergarnitur"],
+      "steps": [
+        "Schau, wie die Klinke befestigt ist: sichtbare Schrauben am Schild oder eine Rosette, die sie verdeckt.",
+        "Sitzt am Hals der Klinke eine kleine Madenschraube, dreh sie mit dem Inbusschlüssel heraus.",
+        "Hebel die Rosette mit dem Schlitzschraubendreher an ihrer Kerbe ab oder schraub das Schild ab.",
+        "Zieh beide Klinken ab und den Vierkantstift aus dem Schloss.",
+        "Miss den Vierkant: meist [[8 mm]], manchmal [[7 mm]]. Achte auch auf die Lochung: Buntbart, Zylinder oder ohne.",
+        "Steck den Vierkantstift ins Schloss und setz die erste Klinke auf, gerade und waagrecht.",
+        "Setz die zweite Klinke auf der anderen Seite auf und zieh die Schrauben fest, ohne das Schild zu verziehen.",
+        "Drück die Klinke runter und lass los: Sie muss von selbst hochkommen und die Falle rein und raus gleiten.",
+        "Schließ die Tür ein paar Mal: Die Falle muss einrasten, ohne dass du drückst."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Passen Vierkant und Lochung der neuen Garnitur zu den alten?", "fix": "Ist der Vierkant anders, nimm den passenden aus der Packung oder ein anderes Modell. Nie einen dickeren ins Schloss zwingen."},
+        "7": {"q": "Kommt die Klinke von selbst hoch und gleitet die Falle frei?", "fix": "Bleibt sie unten, Schrauben etwas lösen: Das Schild klemmt. Bewegt sich die Falle nicht, sitzt der Vierkant nicht richtig."}
+      },
+      "warns": {},
+      "tips": [
+        "Nimm den alten Vierkantstift mit in den Laden: So erwischst du sicher die richtige Größe.",
+        "Klinke nur locker? Oft reicht es, Madenschraube oder Schildschrauben nachzuziehen: erst probieren, dann kaufen.",
+        "Klemmt die Falle auch ohne Klinke, muss das Schloss getauscht werden, nicht die Klinke."
+      ]
+    }
+  }
+},
+{
+  "id": "lubrificare-serratura",
+  "cat": "serramenti",
+  "diff": 1, "active": 15, "total": 20,
+  "risk": 0, "topic": null,
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [],
+  "mats": [{"k": "dry-lock-lubricant", "q": 1, "u": ""}, {"k": "light-machine-oil", "q": 1, "u": ""}, {"k": "cloth", "q": 1, "u": "", "own": true}],
+  "steps": [
+    {"ic": "look"},
+    {"ic": "clean"},
+    {"ic": "spray"},
+    {"ic": "hand"},
+    {"ic": "wait", "timer": 300},
+    {"ic": "check", "check": true},
+    {"ic": "oil"},
+    {"ic": "oil"},
+    {"ic": "clean"},
+    {"ic": "door", "check": true}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Lubrificare serratura e cerniere",
+      "intro": "Chiave dura o porta che cigola? Lubrificante secco nella serratura, olio sulle cerniere.",
+      "tools": [],
+      "mats": ["Lubrificante secco (grafite o PTFE)", "Olio leggero (tipo macchina da cucire)", "Panno"],
+      "steps": [
+        "Capisci cosa non va: la chiave dura nel cilindro, lo scrocco che si inceppa o le cerniere che cigolano.",
+        "Pulisci bene la chiave con il panno: lo sporco che porta finisce ogni volta nel cilindro.",
+        "Spruzza un colpo breve di lubrificante secco (grafite o PTFE) nella fessura della chiave.",
+        "Infila e sfila la chiave e girala avanti e indietro una decina di volte.",
+        "Lascia asciugare qualche minuto: il solvente evapora e resta solo un velo secco.",
+        "Prova la chiave: infilala, girala e sfilala come al solito.",
+        "A porta aperta, metti una goccia d'olio leggero sullo scrocco e spingilo dentro e fuori alcune volte.",
+        "Metti 2-3 gocce d'olio in cima a ogni cerniera, sul perno, poi apri e chiudi la porta più volte.",
+        "Asciuga subito con il panno l'olio che cola, sulla porta e sul pavimento.",
+        "Apri e chiudi la porta lentamente, ascoltando."
+      ],
+      "labels": ["", "", "", "", "Asciugatura", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "La chiave entra e gira senza sforzo?", "fix": "Ripeti una volta. Se resta dura o la chiave è consumata, fatti fare una copia dall'originale o cambia il cilindro."},
+        "9": {"q": "La porta si muove senza cigolare?", "fix": "Se cigola ancora, sfila la porta dai cardini, pulisci il perno, ungilo con grasso o olio e rimontala."}
+      },
+      "warns": {},
+      "tips": [
+        "Niente olio né sbloccante spray nel cilindro: attirano polvere e col tempo lo impastano.",
+        "Serratura esterna gelata? Scalda la chiave, non forzarla: se si spezza dentro serve un fabbro.",
+        "Rifallo una volta l'anno sulle porte esterne: polvere e umidità induriscono i cilindri."
+      ]
+    },
+    "en": {
+      "title": "Lubricate a stiff lock and hinges",
+      "intro": "Key sticking or hinges squeaking? A dry lube for the lock and a drop of oil sort it.",
+      "tools": [],
+      "mats": ["Dry lock lubricant (graphite or PTFE)", "Light machine oil", "Cloth"],
+      "steps": [
+        "Work out what's wrong: a key that's stiff in the cylinder, a sticking latch or squeaky hinges.",
+        "Wipe the key clean with the cloth: any dirt on it ends up in the cylinder every time.",
+        "Give one short squirt of dry lubricant (graphite or PTFE) into the keyhole.",
+        "Push the key in and out and turn it back and forth about ten times.",
+        "Let it dry for a few minutes: the solvent evaporates and leaves a dry film.",
+        "Try the key: put it in, turn it and pull it out as usual.",
+        "With the door open, put a drop of light oil on the latch and push it in and out a few times.",
+        "Put 2-3 drops of oil on top of each hinge pin, then open and close the door several times.",
+        "Wipe off any oil that runs, on the door and on the floor, straight away.",
+        "Open and close the door slowly and listen."
+      ],
+      "labels": ["", "", "", "", "Drying", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "Does the key go in and turn easily?", "fix": "Repeat once. If it's still stiff or the key is worn, get a copy cut from the original or replace the cylinder."},
+        "9": {"q": "Does the door move without squeaking?", "fix": "If it still squeaks, take the hinge pin out or lift the door off, clean the pin, grease or oil it and refit."}
+      },
+      "warns": {},
+      "tips": [
+        "No oil or spray penetrant in the cylinder: they attract dust and gum it up over time.",
+        "Frozen outdoor lock? Warm the key, don't force it: if it snaps inside you'll need a locksmith.",
+        "Do outside doors once a year: dust and damp are what stiffen cylinders."
+      ]
+    },
+    "fr": {
+      "title": "Lubrifier une serrure et des gonds",
+      "intro": "Clé qui force ou porte qui grince ? Lubrifiant sec pour la serrure, huile pour les gonds.",
+      "tools": [],
+      "mats": ["Lubrifiant sec serrure (graphite/PTFE)", "Huile fine (type machine à coudre)", "Chiffon"],
+      "steps": [
+        "Repère ce qui coince : la clé dure dans le cylindre, le pêne qui accroche ou les gonds qui grincent.",
+        "Essuie bien la clé avec le chiffon : la saleté qu'elle porte finit à chaque fois dans le cylindre.",
+        "Envoie une courte pulvérisation de lubrifiant sec (graphite ou PTFE) dans l'entrée de clé.",
+        "Enfonce et retire la clé, et tourne-la dans les deux sens une dizaine de fois.",
+        "Laisse sécher quelques minutes : le solvant s'évapore et il reste un film sec.",
+        "Essaie la clé : enfonce-la, tourne-la et retire-la normalement.",
+        "Porte ouverte, mets une goutte d'huile fine sur le pêne et enfonce-le plusieurs fois.",
+        "Mets 2-3 gouttes d'huile en haut de chaque gond, puis ouvre et ferme la porte plusieurs fois.",
+        "Essuie tout de suite l'huile qui coule, sur la porte et au sol.",
+        "Ouvre et ferme la porte lentement en écoutant."
+      ],
+      "labels": ["", "", "", "", "Séchage", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "La clé entre-t-elle et tourne-t-elle sans forcer ?", "fix": "Recommence une fois. Si elle reste dure ou si la clé est usée, fais refaire une clé sur l'originale ou change le cylindre."},
+        "9": {"q": "La porte bouge-t-elle sans grincer ?", "fix": "Si elle grince encore, soulève la porte de ses gonds, nettoie l'axe, graisse-le et remets la porte."}
+      },
+      "warns": {},
+      "tips": [
+        "Pas d'huile ni de dégrippant dans le cylindre : ça attire la poussière et l'encrasse avec le temps.",
+        "Serrure extérieure gelée ? Réchauffe la clé, ne force pas : si elle casse dedans, il faudra un serrurier.",
+        "Fais-le une fois par an sur les portes extérieures : poussière et humidité durcissent les cylindres."
+      ]
+    },
+    "es": {
+      "title": "Lubricar cerradura y bisagras",
+      "intro": "¿La llave va dura o chirrían las bisagras? Lubricante seco para el bombín y una gota de aceite.",
+      "tools": [],
+      "mats": ["Lubricante seco (grafito o PTFE)", "Aceite fino tipo máquina de coser", "Trapo"],
+      "steps": [
+        "Averigua qué falla: la llave que va dura en el bombín, el resbalón que se engancha o las bisagras que chirrían.",
+        "Limpia bien la llave con el trapo: la suciedad que lleva acaba cada vez dentro del bombín.",
+        "Echa un chorrito corto de lubricante seco (grafito o PTFE) en la ranura de la llave.",
+        "Mete y saca la llave y gírala adelante y atrás unas diez veces.",
+        "Deja secar unos minutos: el disolvente se evapora y queda una película seca.",
+        "Prueba la llave: métela, gírala y sácala como siempre.",
+        "Con la puerta abierta, pon una gota de aceite fino en el resbalón y empújalo dentro y fuera varias veces.",
+        "Pon 2-3 gotas de aceite en la parte de arriba de cada bisagra y abre y cierra la puerta varias veces.",
+        "Seca enseguida el aceite que gotee, en la puerta y en el suelo.",
+        "Abre y cierra la puerta despacio, escuchando."
+      ],
+      "labels": ["", "", "", "", "Secado", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "¿La llave entra y gira sin esfuerzo?", "fix": "Repite una vez. Si sigue dura o la llave está gastada, haz una copia a partir de la original o cambia el bombín."},
+        "9": {"q": "¿La puerta se mueve sin chirriar?", "fix": "Si sigue chirriando, saca la puerta de los pernios, limpia el eje, engrásalo y vuelve a colgarla."}
+      },
+      "warns": {},
+      "tips": [
+        "Nada de aceite ni aflojatodo en el bombín: atraen el polvo y con el tiempo lo empastan.",
+        "¿Cerradura exterior helada? Calienta la llave, no la fuerces: si se parte dentro necesitarás un cerrajero.",
+        "Hazlo una vez al año en las puertas exteriores: el polvo y la humedad endurecen los bombines."
+      ]
+    },
+    "de": {
+      "title": "Schloss und Scharniere schmieren",
+      "intro": "Schlüssel hakt oder Tür quietscht? Trockenschmierung fürs Schloss, ein Tropfen Öl für die Bänder.",
+      "tools": [],
+      "mats": ["Schloss-Trockenspray (Graphit/PTFE)", "Feinmechaniköl", "Lappen"],
+      "steps": [
+        "Finde heraus, was hakt: der Schlüssel im Zylinder, die Falle oder quietschende Bänder.",
+        "Wisch den Schlüssel mit dem Lappen sauber: Schmutz daran landet sonst jedes Mal im Zylinder.",
+        "Sprüh einen kurzen Stoß Trockenschmiermittel (Graphit oder PTFE) in den Schlüsselkanal.",
+        "Steck den Schlüssel rein und raus und dreh ihn etwa zehnmal hin und her.",
+        "Lass es ein paar Minuten trocknen: Das Lösungsmittel verdunstet, ein trockener Film bleibt.",
+        "Probier den Schlüssel: reinstecken, drehen, abziehen wie immer.",
+        "Gib bei offener Tür einen Tropfen Feinöl auf die Falle und drück sie ein paar Mal rein und raus.",
+        "Gib 2-3 Tropfen Öl oben auf jedes Türband und öffne und schließ die Tür mehrmals.",
+        "Wisch herablaufendes Öl gleich ab, an der Tür und am Boden.",
+        "Öffne und schließ die Tür langsam und hör hin."
+      ],
+      "labels": ["", "", "", "", "Trocknen", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "Geht der Schlüssel leicht rein und lässt sich drehen?", "fix": "Noch einmal wiederholen. Bleibt er schwergängig oder ist der Schlüssel abgenutzt, lass ihn vom Original nachmachen oder tausch den Zylinder."},
+        "9": {"q": "Bewegt sich die Tür ohne Quietschen?", "fix": "Quietscht sie noch, häng die Tür aus, reinige den Bandstift, fette ihn und häng sie wieder ein."}
+      },
+      "warns": {},
+      "tips": [
+        "Kein Öl und kein Kriechöl in den Zylinder: Das zieht Staub an und verharzt mit der Zeit.",
+        "Außenschloss eingefroren? Schlüssel anwärmen, nicht mit Gewalt drehen: Bricht er ab, brauchst du den Schlüsseldienst.",
+        "Bei Außentüren einmal im Jahr wiederholen: Staub und Feuchtigkeit machen Zylinder schwergängig."
+      ]
+    }
+  }
+},
+{
+  "id": "paraspifferi-finestra",
+  "cat": "serramenti",
+  "diff": 1, "active": 30, "total": 40,
+  "risk": 0, "topic": null,
+  "ppe": [],
+  "tags": [],
+  "months": [10, 11, 12, 1, 2],
+  "tools": [{"k": "tape-measure"}, {"k": "scissors", "own": true}],
+  "mats": [{"k": "adhesive-seal-strip", "q": 6, "u": "m"}, {"k": "isopropyl-alcohol", "q": 100, "u": "ml"}, {"k": "cloth", "q": 1, "u": "", "own": true}],
+  "steps": [
+    {"ic": "air"},
+    {"ic": "look", "check": true},
+    {"ic": "measure"},
+    {"ic": "measure"},
+    {"ic": "clean"},
+    {"ic": "wait", "timer": 600},
+    {"ic": "scissors"},
+    {"ic": "tape"},
+    {"ic": "hand"},
+    {"ic": "check", "check": true}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Guarnizione paraspifferi alla finestra",
+      "intro": "Entra aria fredda dalla finestra? Trovi gli spifferi e metti una guarnizione adesiva in mezz'ora.",
+      "tools": ["Metro", "Forbici"],
+      "mats": ["Guarnizione adesiva (spugna o gomma)", "Alcol isopropilico", "Panno"],
+      "steps": [
+        "A finestra chiusa, passa il dorso della mano bagnato lungo i bordi: dove senti fresco, entra aria.",
+        "Chiudi la finestra su un foglio in più punti e tiralo: dove esce senza resistenza, serve la guarnizione.",
+        "Scegli lo spessore: guarnizione sottile (profilo E) per fessure fino a [[3 mm]], più spessa (P o D) oltre.",
+        "Misura i lati del telaio dove la metterai e somma le lunghezze, con un po' di margine.",
+        "Pulisci la battuta del telaio con alcol e panno: via polvere, grasso e resti di vecchie guarnizioni.",
+        "Lascia asciugare bene: l'adesivo non attacca su una superficie umida.",
+        "Taglia la guarnizione a misura, un lato alla volta.",
+        "Stacca la pellicola poco alla volta e incolla la guarnizione sulla battuta del telaio, dove l'anta appoggia chiudendosi.",
+        "Premi forte col pollice lungo tutta la guarnizione, angoli compresi.",
+        "Chiudi la finestra e rifai la prova del foglio."
+      ],
+      "labels": ["", "", "", "", "", "Asciugatura", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Il foglio si sfila facile in qualche punto?", "fix": "Se tiene ovunque, l'aria non passa dall'anta: controlla cassonetto, davanzale e il bordo tra telaio e muro."},
+        "9": {"q": "La finestra chiude senza forzare e il foglio ora fa resistenza?", "fix": "Se fatica a chiudersi, la guarnizione è troppo spessa: staccala e metti un profilo più sottile."}
+      },
+      "warns": {},
+      "tips": [
+        "Lavora sopra i [[10 °C]]: col freddo l'adesivo fa fatica. Se serve, scalda il telaio con il phon.",
+        "Infissi in PVC o alluminio con la guarnizione originale usurata: cerca il ricambio a incastro, dura di più.",
+        "Spiffero dal cassonetto della tapparella? Esistono pannelli isolanti e spazzolini per la feritoia della cinghia."
+      ]
+    },
+    "en": {
+      "title": "Draught-proof a window",
+      "intro": "Cold air around the window? Find the leaks and stick on a seal strip in half an hour.",
+      "tools": ["Tape measure", "Scissors"],
+      "mats": ["Self-adhesive seal strip (foam or rubber)", "Isopropyl alcohol", "Cloth"],
+      "steps": [
+        "With the window shut, run the back of a damp hand along the edges: where it feels cold, air gets in.",
+        "Close the window on a sheet of paper at several points and pull: where it slides out easily, you need a seal.",
+        "Pick the thickness: thin strip (E profile) for gaps up to [[3 mm]], thicker (P or D profile) above that.",
+        "Measure the sides of the frame where the strip will go and add them up, plus a little extra.",
+        "Clean the frame rebate with alcohol and a cloth: no dust, grease or bits of old seal.",
+        "Let it dry completely: the adhesive won't stick to a damp surface.",
+        "Cut the strip to length, one side at a time.",
+        "Peel the backing a bit at a time and stick the strip on the frame rebate, where the sash presses when closed.",
+        "Press hard with your thumb along the whole strip, corners included.",
+        "Close the window and repeat the paper test."
+      ],
+      "labels": ["", "", "", "", "", "Drying", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Does the paper slide out easily anywhere?", "fix": "If it holds everywhere, the draught isn't from the sash: check the shutter box, the sill and the frame-to-wall joint."},
+        "9": {"q": "Does the window close easily and the paper now grip?", "fix": "If it's hard to close, the strip is too thick: peel it off and fit a thinner profile."}
+      },
+      "warns": {},
+      "tips": [
+        "Work above [[10 °C]]: the adhesive struggles in the cold. Warm the frame with a hairdryer if needed.",
+        "PVC or aluminium frames with a worn factory seal: look for the push-in replacement, it lasts longer.",
+        "Draught from a roller shutter box? There are insulating panels and brush seals for the strap slot."
+      ]
+    },
+    "fr": {
+      "title": "Calfeutrer une fenêtre",
+      "intro": "De l'air froid passe autour de la fenêtre ? Trouve les fuites et pose un joint en une demi-heure.",
+      "tools": ["Mètre", "Ciseaux"],
+      "mats": ["Joint adhésif (mousse ou caoutchouc)", "Alcool isopropylique", "Chiffon"],
+      "steps": [
+        "Fenêtre fermée, passe le dos de la main humide le long des bords : là où tu sens du frais, l'air entre.",
+        "Ferme la fenêtre sur une feuille à plusieurs endroits et tire : là où elle sort sans résistance, il faut un joint.",
+        "Choisis l'épaisseur : joint fin (profil E) pour un jeu jusqu'à [[3 mm]], plus épais (profil P ou D) au-delà.",
+        "Mesure les côtés du dormant où ira le joint et additionne, avec un peu de marge.",
+        "Nettoie la feuillure du dormant à l'alcool avec un chiffon : ni poussière, ni gras, ni restes d'ancien joint.",
+        "Laisse bien sécher : l'adhésif n'accroche pas sur une surface humide.",
+        "Coupe le joint à longueur, un côté à la fois.",
+        "Décolle la protection petit à petit et colle le joint dans la feuillure, là où l'ouvrant appuie en fermant.",
+        "Appuie fort avec le pouce sur toute la longueur, angles compris.",
+        "Ferme la fenêtre et refais le test de la feuille."
+      ],
+      "labels": ["", "", "", "", "", "Séchage", "", "", "", ""],
+      "checks": {
+        "1": {"q": "La feuille sort-elle facilement à certains endroits ?", "fix": "Si elle tient partout, l'air ne passe pas par l'ouvrant : vérifie le coffre de volet, l'appui et le joint entre dormant et mur."},
+        "9": {"q": "La fenêtre ferme-t-elle sans forcer et la feuille résiste-t-elle ?", "fix": "Si elle ferme mal, le joint est trop épais : retire-le et pose un profil plus fin."}
+      },
+      "warns": {},
+      "tips": [
+        "Travaille au-dessus de [[10 °C]] : l'adhésif accroche mal au froid. Au besoin, chauffe le cadre au sèche-cheveux.",
+        "Fenêtre PVC ou alu au joint d'origine usé : cherche le joint de remplacement à clipser, il dure plus longtemps.",
+        "Courant d'air par le coffre du volet roulant ? Il existe des plaques isolantes et des brosses pour la fente de sangle."
+      ]
+    },
+    "es": {
+      "title": "Poner burlete en una ventana",
+      "intro": "¿Entra frío por la ventana? Localiza las corrientes y pon un burlete adhesivo en media hora.",
+      "tools": ["Metro", "Tijeras"],
+      "mats": ["Burlete adhesivo (espuma o goma)", "Alcohol isopropílico", "Trapo"],
+      "steps": [
+        "Con la ventana cerrada, pasa el dorso de la mano húmeda por los bordes: donde notes fresco, entra aire.",
+        "Cierra la ventana sobre un folio en varios puntos y tira: donde sale sin resistencia, hace falta burlete.",
+        "Elige el grosor: burlete fino (perfil E) para holguras de hasta [[3 mm]], más grueso (perfil P o D) si es mayor.",
+        "Mide los lados del marco donde irá el burlete y súmalos, con un poco de margen.",
+        "Limpia el galce del marco con alcohol y un trapo: sin polvo, grasa ni restos de burlete viejo.",
+        "Deja que seque bien: el adhesivo no pega en una superficie húmeda.",
+        "Corta el burlete a medida, un lado cada vez.",
+        "Quita el papel protector poco a poco y pega el burlete en el galce del marco, donde apoya la hoja al cerrar.",
+        "Aprieta fuerte con el pulgar por todo el burlete, esquinas incluidas.",
+        "Cierra la ventana y repite la prueba del folio."
+      ],
+      "labels": ["", "", "", "", "", "Secado", "", "", "", ""],
+      "checks": {
+        "1": {"q": "¿El folio sale fácil en algún punto?", "fix": "Si aguanta en todas partes, el aire no entra por la hoja: revisa el cajón de la persiana, el alféizar y la unión marco-pared."},
+        "9": {"q": "¿La ventana cierra sin forzar y el folio ahora resiste?", "fix": "Si cuesta cerrarla, el burlete es demasiado grueso: quítalo y pon un perfil más fino."}
+      },
+      "warns": {},
+      "tips": [
+        "Trabaja por encima de [[10 °C]]: con frío el adhesivo pega mal. Si hace falta, calienta el marco con el secador.",
+        "Ventanas de PVC o aluminio con la junta de fábrica gastada: busca el repuesto que va encajado, dura más.",
+        "¿Corriente por el cajón de la persiana? Hay planchas aislantes y cepillos para la ranura de la cinta."
+      ]
+    },
+    "de": {
+      "title": "Fenster gegen Zugluft abdichten",
+      "intro": "Zieht es am Fenster? Undichte Stellen finden und in einer halben Stunde Dichtband aufkleben.",
+      "tools": ["Maßband", "Schere"],
+      "mats": ["Selbstklebendes Dichtband (Schaum/Gummi)", "Isopropylalkohol", "Lappen"],
+      "steps": [
+        "Fahr bei geschlossenem Fenster mit dem feuchten Handrücken an den Kanten entlang: Wo es kühl ist, zieht es.",
+        "Klemm an mehreren Stellen ein Blatt Papier ins Fenster und zieh: Wo es leicht rausgeht, fehlt Dichtung.",
+        "Wähl die Stärke: dünnes Profil (E) für Spalten bis [[3 mm]], darüber ein dickeres (P oder D).",
+        "Miss die Rahmenseiten, wo das Band hinkommt, und zähl sie zusammen, plus etwas Reserve.",
+        "Reinige den Falz am Rahmen mit Alkohol und Lappen: kein Staub, kein Fett, keine alten Dichtungsreste.",
+        "Lass alles gut trocknen: Auf feuchtem Untergrund hält der Kleber nicht.",
+        "Schneid das Band auf Länge zu, eine Seite nach der anderen.",
+        "Zieh die Schutzfolie Stück für Stück ab und kleb das Band in den Rahmenfalz, wo der Flügel beim Schließen anliegt.",
+        "Drück das Band mit dem Daumen fest an, auf ganzer Länge und in den Ecken.",
+        "Schließ das Fenster und mach den Papiertest noch einmal."
+      ],
+      "labels": ["", "", "", "", "", "Trocknen", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Lässt sich das Papier irgendwo leicht herausziehen?", "fix": "Hält es überall, kommt die Zugluft nicht vom Flügel: Prüf Rollladenkasten, Fensterbank und die Fuge zwischen Rahmen und Wand."},
+        "9": {"q": "Schließt das Fenster ohne Kraft und hält das Papier jetzt?", "fix": "Geht es schwer zu, ist das Band zu dick: abziehen und ein dünneres Profil nehmen."}
+      },
+      "warns": {},
+      "tips": [
+        "Arbeite über [[10 °C]]: Bei Kälte klebt das Band schlecht. Notfalls den Rahmen mit dem Föhn anwärmen.",
+        "Kunststoff- oder Alufenster mit verschlissener Originaldichtung: Hol die passende Einziehdichtung, die hält länger.",
+        "Zieht es aus dem Rollladenkasten? Dafür gibt es Dämmplatten und Bürstendichtungen für den Gurtschlitz."
+      ]
+    }
+  }
+},
+{
+  "id": "sostituire-presa",
+  "cat": "elettricita",
+  "diff": 2, "active": 30, "total": 30,
+  "risk": 2, "topic": "elec",
+  "allow": {"DE": "pro", "IT": "warn", "UK": "warn", "FR": "warn", "ES": "warn", "US": "warn"},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "voltage-tester"}, {"k": "insulated-screwdriver-set"}, {"k": "wire-stripper"}],
+  "mats": [{"k": "socket-outlet", "q": 1, "u": ""}],
+  "steps": [
+    {"ic": "power-off", "warn": 2},
+    {"ic": "tester", "warn": 2, "check": true},
+    {"ic": "screwdriver"},
+    {"ic": "tester"},
+    {"ic": "phone"},
+    {"ic": "loosen"},
+    {"ic": "look", "check": true},
+    {"ic": "tighten"},
+    {"ic": "check", "check": true},
+    {"ic": "push"},
+    {"ic": "bolt"},
+    {"ic": "socket"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Sostituire una presa elettrica",
+      "intro": "Presa crepata o che balla? La cambi con una identica, con la corrente staccata e verificata.",
+      "tools": ["Tester di tensione (bipolare)", "Cacciaviti isolati", "Spelafili"],
+      "mats": ["Presa (stesso tipo della vecchia)"],
+      "steps": [
+        "Al quadro elettrico, abbassa l'interruttore della linea di questa presa. Se non sai qual è, abbassa il generale.",
+        "Prova il tester su una presa che funziona, poi su ogni foro di questa: non deve segnare tensione.",
+        "Togli la placca, svita la presa dalla scatola ed estraila piano, senza strattonare i fili.",
+        "Ricontrolla col tester direttamente sui morsetti ora a vista: ancora nessuna tensione.",
+        "Fotografa i collegamenti da vicino: quale filo, di che colore, in quale morsetto.",
+        "Allenta i morsetti e sfila i fili uno alla volta. Sui morsetti a innesto premi il pulsantino di sgancio.",
+        "Guarda fili e scatola: rame pulito, isolante integro, nessun segno di bruciato o di fuso.",
+        "Collega ogni filo allo stesso morsetto della presa nuova, come in foto, terra su terra, e stringi bene.",
+        "Tira piano ogni filo: deve restare fermo, senza rame scoperto fuori dal morsetto.",
+        "Sistema i fili nella scatola senza schiacciarli, fissa la presa dritta e rimonta la placca.",
+        "Rialza l'interruttore al quadro.",
+        "Prova la presa con una lampada. Se scatta il salvavita o qualcosa scalda, rispegni e chiama un elettricista."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Il tester non segna tensione su nessun foro?", "fix": "Non toccare niente: hai spento la linea sbagliata. Torna al quadro, abbassa il generale e riprova."},
+        "6": {"q": "Fili e scatola sono integri, senza bruciature?", "fix": "Fermati: lascia spenta la linea e chiama un elettricista. Non montare la presa nuova."},
+        "8": {"q": "Ogni filo tiene e non c'è rame scoperto fuori dal morsetto?", "fix": "Riapri il morsetto, spella o accorcia il filo alla misura indicata sulla presa (spesso [[10 mm]]) e stringi di nuovo."}
+      },
+      "warns": {
+        "0": "Staccare le spine non basta: la presa resta sotto tensione finché non abbassi l'interruttore al quadro.",
+        "1": "Se il tester segna tensione, o non sei sicuro che funzioni, non toccare la presa."
+      },
+      "tips": [
+        "Fili rovinati, fili in alluminio (grigio argento) o scatola annerita: fermati e chiama un elettricista.",
+        "Porta la presa vecchia in negozio: tipo, portata e fissaggio alla scatola devono essere uguali.",
+        "Negli impianti vecchi i colori dei fili non sono affidabili: copia la foto, non i colori."
+      ],
+      "gate": [
+        "Sostituisco una presa identica, non ne aggiungo una nuova",
+        "So quale interruttore del quadro alimenta questa presa",
+        "Ho un tester di tensione e so che funziona"
+      ]
+    },
+    "en": {
+      "title": "Replace a wall socket (outlet)",
+      "intro": "Cracked or loose socket? Swap it for an identical one, with the power off and tested.",
+      "tools": ["Two-pole voltage tester", "Insulated screwdriver set", "Wire stripper"],
+      "mats": ["Socket (same type as the old one)"],
+      "steps": [
+        "At the fuse box or panel, switch off the breaker for this socket. Not sure which one? Switch off the main.",
+        "Check the tester on a socket that works, then test every hole of this one: it must show no voltage.",
+        "Undo the screws holding the socket or its cover and ease it out of the box without yanking the wires.",
+        "Test again right on the terminals, now exposed: still no voltage.",
+        "Take a close-up photo of the wiring: which wire, which colour, which terminal.",
+        "Loosen the terminals and free the wires one at a time. On push-in terminals, press the release tab.",
+        "Look at the wires and the box: clean copper, intact insulation, no scorch or melt marks.",
+        "Connect each wire to the matching terminal on the new socket, as in the photo, earth to earth, and tighten firmly.",
+        "Tug each wire gently: it must stay put, with no bare copper showing outside the terminal.",
+        "Fold the wires neatly into the box, screw the socket in straight and refit the cover.",
+        "Switch the breaker back on at the panel.",
+        "Test the socket with a lamp. If the RCD trips or anything gets warm, switch off and call an electrician."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Does the tester show no voltage on every hole?", "fix": "Don't touch anything: you switched off the wrong circuit. Go back, switch off the main and test again."},
+        "6": {"q": "Are the wires and box intact, with no scorch marks?", "fix": "Stop: leave the circuit off and call an electrician. Don't fit the new socket."},
+        "8": {"q": "Does every wire hold, with no bare copper showing?", "fix": "Undo the terminal, strip or trim the wire to the length marked on the socket (often [[10 mm]]) and tighten again."}
+      },
+      "warns": {
+        "0": "Unplugging things isn't enough: the socket stays live until its breaker is off.",
+        "1": "If the tester shows voltage, or you're not sure it works, don't touch the socket."
+      },
+      "tips": [
+        "Damaged wires, aluminium wiring (dull silver) or a blackened box: stop and call an electrician.",
+        "Take the old socket to the shop: the type, rating and fixing must match.",
+        "In older homes wire colours can't be trusted: copy the photo, not the colours."
+      ],
+      "gate": [
+        "I'm replacing an identical socket, not adding a new one",
+        "I know which breaker feeds this socket",
+        "I have a voltage tester and know it works"
+      ]
+    },
+    "fr": {
+      "title": "Remplacer une prise électrique",
+      "intro": "Prise fêlée ou qui bouge ? Remplace-la par une identique, courant coupé et vérifié.",
+      "tools": ["VAT (vérificateur d'absence de tension)", "Tournevis isolés", "Pince à dénuder"],
+      "mats": ["Prise (même type que l'ancienne)"],
+      "steps": [
+        "Au tableau électrique, abaisse le disjoncteur du circuit de cette prise. Si tu ne sais pas lequel, coupe le général.",
+        "Teste ton VAT sur une prise qui marche, puis sur chaque trou de celle-ci : aucune tension.",
+        "Retire la plaque, dévisse la prise de la boîte et sors-la doucement, sans tirer sur les fils.",
+        "Reteste directement sur les bornes maintenant visibles : toujours aucune tension.",
+        "Prends en photo les branchements de près : quel fil, quelle couleur, quelle borne.",
+        "Desserre les bornes et libère les fils un par un. Sur les bornes automatiques, appuie sur le levier ou le bouton.",
+        "Regarde les fils et la boîte : cuivre propre, isolant intact, aucune trace de brûlé ou de fondu.",
+        "Branche chaque fil sur la même borne de la nouvelle prise, comme sur la photo, terre sur terre, et serre bien.",
+        "Tire doucement sur chaque fil : il doit tenir, sans cuivre visible hors de la borne.",
+        "Range les fils dans la boîte sans les écraser, fixe la prise bien droite et remets la plaque.",
+        "Relève le disjoncteur au tableau.",
+        "Teste la prise avec une lampe. Si le différentiel saute ou si ça chauffe, recoupe et appelle un électricien."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Le VAT n'indique aucune tension sur tous les trous ?", "fix": "Ne touche à rien : tu as coupé le mauvais circuit. Retourne au tableau, coupe le général et reteste."},
+        "6": {"q": "Les fils et la boîte sont-ils intacts, sans brûlure ?", "fix": "Arrête-toi : laisse le circuit coupé et appelle un électricien. Ne pose pas la nouvelle prise."},
+        "8": {"q": "Chaque fil tient-il, sans cuivre à nu hors de la borne ?", "fix": "Rouvre la borne, dénude ou recoupe le fil à la longueur indiquée sur la prise (souvent [[10 mm]]) et resserre."}
+      },
+      "warns": {
+        "0": "Débrancher les appareils ne suffit pas : la prise reste sous tension tant que le disjoncteur est levé.",
+        "1": "Si le VAT indique une tension, ou si tu doutes qu'il marche, ne touche pas la prise."
+      },
+      "tips": [
+        "Fils abîmés, fils en aluminium (gris argenté) ou boîte noircie : arrête-toi et appelle un électricien.",
+        "Apporte l'ancienne prise au magasin : type, calibre et fixation doivent être les mêmes.",
+        "Dans les vieilles installations, les couleurs des fils ne sont pas fiables : copie la photo, pas les couleurs."
+      ],
+      "gate": [
+        "Je remplace une prise identique, je n'en ajoute pas une nouvelle",
+        "Je sais quel disjoncteur alimente cette prise",
+        "J'ai un testeur de tension et je sais qu'il marche"
+      ]
+    },
+    "es": {
+      "title": "Cambiar un enchufe",
+      "intro": "¿Enchufe roto o que se mueve? Cámbialo por uno igual, con la corriente cortada y comprobada.",
+      "tools": ["Detector de tensión (bipolar)", "Destornilladores aislados", "Pelacables"],
+      "mats": ["Enchufe (del mismo tipo que el viejo)"],
+      "steps": [
+        "En el cuadro eléctrico, baja el automático del circuito de este enchufe. Si no sabes cuál, baja el general.",
+        "Prueba el detector en un enchufe que funcione y luego en cada agujero de este: no debe marcar tensión.",
+        "Quita el embellecedor, desatornilla el enchufe de la caja y sácalo despacio, sin tirar de los cables.",
+        "Vuelve a comprobar con el detector directamente en los bornes, ahora a la vista: sigue sin tensión.",
+        "Haz una foto de cerca de las conexiones: qué cable, de qué color, en qué borne.",
+        "Afloja los bornes y suelta los cables uno a uno. En bornes rápidos, aprieta la pestaña de liberación.",
+        "Mira los cables y la caja: cobre limpio, aislante entero, sin marcas de quemado ni derretido.",
+        "Conecta cada cable al mismo borne del enchufe nuevo, como en la foto, tierra con tierra, y aprieta bien.",
+        "Tira suave de cada cable: debe quedar firme y sin cobre a la vista fuera del borne.",
+        "Recoge los cables en la caja sin aplastarlos, atornilla el enchufe recto y pon el embellecedor.",
+        "Sube el automático en el cuadro.",
+        "Prueba el enchufe con una lámpara. Si salta el diferencial o algo se calienta, corta y llama a un electricista."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "¿El detector no marca tensión en ningún agujero?", "fix": "No toques nada: has cortado el circuito equivocado. Vuelve al cuadro, baja el general y comprueba otra vez."},
+        "6": {"q": "¿Cables y caja están enteros, sin quemaduras?", "fix": "Para: deja el circuito cortado y llama a un electricista. No pongas el enchufe nuevo."},
+        "8": {"q": "¿Cada cable aguanta y no asoma cobre fuera del borne?", "fix": "Abre el borne, pela o corta el cable a la medida que indica el enchufe (suele ser [[10 mm]]) y vuelve a apretar."}
+      },
+      "warns": {
+        "0": "Desenchufar los aparatos no basta: el enchufe sigue con corriente hasta que bajas su automático.",
+        "1": "Si el detector marca tensión, o dudas de que funcione, no toques el enchufe."
+      },
+      "tips": [
+        "Cables dañados, cables de aluminio (gris plateado) o caja ennegrecida: para y llama a un electricista.",
+        "Lleva el enchufe viejo a la tienda: tipo, amperaje y sujeción tienen que ser iguales.",
+        "En instalaciones antiguas los colores de los cables no son fiables: copia la foto, no los colores."
+      ],
+      "gate": [
+        "Cambio un enchufe por otro igual, no añado uno nuevo",
+        "Sé qué automático del cuadro alimenta este enchufe",
+        "Tengo un detector de tensión y sé que funciona"
+      ]
+    },
+    "de": {
+      "title": "Steckdose austauschen",
+      "intro": "Steckdose gesprungen oder locker? Gegen eine gleiche tauschen, mit Strom sicher aus.",
+      "tools": ["Zweipoliger Spannungsprüfer", "Isolierte Schraubendreher (VDE)", "Abisolierzange"],
+      "mats": ["Steckdose (gleicher Typ wie die alte)"],
+      "steps": [
+        "Schalte im Sicherungskasten die Sicherung dieser Steckdose aus. Unsicher, welche? Dann den Hauptschalter.",
+        "Teste den Spannungsprüfer an einer funktionierenden Steckdose, dann an jedem Kontakt dieser: keine Spannung.",
+        "Nimm die Abdeckung ab, lös Schrauben oder Krallen und zieh den Einsatz vorsichtig heraus, ohne an den Adern zu reißen.",
+        "Prüf noch einmal direkt an den jetzt sichtbaren Klemmen: weiterhin keine Spannung.",
+        "Fotografier die Anschlüsse aus der Nähe: welche Ader, welche Farbe, welche Klemme.",
+        "Löse die Klemmen und nimm die Adern einzeln ab. Bei Steckklemmen den Löseknopf drücken.",
+        "Schau dir Adern und Dose an: sauberes Kupfer, heile Isolierung, keine Brand- oder Schmorspuren.",
+        "Schließ jede Ader an dieselbe Klemme der neuen Steckdose an wie auf dem Foto, Schutzleiter an Schutzleiter, und zieh fest.",
+        "Zieh leicht an jeder Ader: Sie muss fest sitzen, ohne blankes Kupfer außerhalb der Klemme.",
+        "Leg die Adern ordentlich in die Dose, setz die Steckdose gerade ein und montier die Abdeckung.",
+        "Schalte die Sicherung im Kasten wieder ein.",
+        "Teste die Steckdose mit einer Lampe. Löst der FI aus oder wird etwas warm: abschalten und Elektriker rufen."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Zeigt der Prüfer an keinem Kontakt Spannung?", "fix": "Nichts anfassen: falsche Sicherung. Zurück zum Kasten, Hauptschalter aus und noch einmal prüfen."},
+        "6": {"q": "Sind Adern und Dose heil, ohne Schmorspuren?", "fix": "Stopp: Sicherung aus lassen und einen Elektriker rufen. Die neue Steckdose nicht einbauen."},
+        "8": {"q": "Hält jede Ader und ist kein blankes Kupfer zu sehen?", "fix": "Klemme öffnen, Ader auf die an der Steckdose angegebene Länge abisolieren oder kürzen (oft [[10 mm]]) und neu festziehen."}
+      },
+      "warns": {
+        "0": "Stecker ziehen reicht nicht: Die Steckdose steht unter Spannung, bis ihre Sicherung aus ist.",
+        "1": "Zeigt der Prüfer Spannung oder bist du unsicher, ob er funktioniert: Finger weg von der Dose."
+      },
+      "tips": [
+        "Beschädigte Adern, Aluminiumleitungen (mattsilbern) oder eine geschwärzte Dose: aufhören und Elektriker rufen.",
+        "Nimm die alte Steckdose mit in den Laden: Typ, Belastbarkeit und Befestigung müssen passen.",
+        "In Altbauten sind die Aderfarben oft nicht verlässlich: Kopier das Foto, nicht die Farben."
+      ],
+      "gate": [
+        "Ich tausche eine gleiche Steckdose, ich setze keine neue",
+        "Ich weiß, welche Sicherung diese Steckdose versorgt",
+        "Ich habe einen Spannungsprüfer und weiß, dass er funktioniert"
+      ]
+    }
+  }
+},
+{
+  "id": "montare-lampadario",
+  "cat": "elettricita",
+  "diff": 2, "active": 45, "total": 45,
+  "risk": 2, "topic": "elec",
+  "allow": {"DE": "pro", "IT": "warn", "UK": "warn", "FR": "warn", "ES": "warn", "US": "warn"},
+  "ppe": ["glasses"],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "voltage-tester"}, {"k": "insulated-screwdriver-set"}, {"k": "stepladder"}, {"k": "wire-stripper"}],
+  "mats": [{"k": "lever-connectors", "q": 3, "u": ""}, {"k": "ceiling-light", "q": 1, "u": ""}],
+  "steps": [
+    {"ic": "power-off", "warn": 2},
+    {"ic": "ladder", "warn": 1},
+    {"ic": "screwdriver"},
+    {"ic": "tester", "warn": 2, "check": true},
+    {"ic": "phone"},
+    {"ic": "loosen", "warn": 1},
+    {"ic": "look", "check": true},
+    {"ic": "screw"},
+    {"ic": "tighten"},
+    {"ic": "check", "check": true},
+    {"ic": "push"},
+    {"ic": "bulb"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Cambiare un lampadario o una plafoniera",
+      "intro": "Sostituisci la lampada a soffitto sullo stesso punto luce, con la corrente staccata e verificata.",
+      "tools": ["Tester di tensione (bipolare)", "Cacciaviti isolati", "Scala", "Spelafili"],
+      "mats": ["Morsetti a leva", "Lampada nuova"],
+      "steps": [
+        "Al quadro, abbassa l'interruttore della linea luci di questa stanza. Spegnere solo l'interruttore a muro non basta.",
+        "Apri del tutto la scala sotto la lampada, su un pavimento piano, e non salire sull'ultimo gradino.",
+        "Svita il rosone o la coppa della vecchia lampada e fallo scendere, senza toccare i fili.",
+        "Con l'interruttore a muro acceso, prova il tester su tutti i fili del soffitto: nessuna tensione.",
+        "Fotografa i collegamenti: quale filo va dove, con i colori e i morsetti.",
+        "Fai reggere la lampada a qualcuno, poi scollega i fili e togli la vecchia lampada con il suo supporto.",
+        "Controlla il fissaggio a soffitto: gancio o tasselli devono essere saldi e reggere il peso della nuova lampada.",
+        "Fissa al soffitto la staffa o il gancio della nuova lampada, come indicato nelle sue istruzioni.",
+        "Collega i fili con i morsetti come in foto: la terra (di solito giallo-verde) va al morsetto di terra della lampada.",
+        "Tira piano ogni filo nei morsetti e controlla che non ci sia rame scoperto.",
+        "Sistema i fili nel rosone senza schiacciarli, aggancia la lampada, poi fissa rosone e lampadine.",
+        "Rialza l'interruttore al quadro e accendi dal muro: la luce deve accendersi e restare stabile."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "3": {"q": "Il tester non segna tensione su nessun filo?", "fix": "Non toccare niente: torna al quadro, abbassa il generale e riprova."},
+        "6": {"q": "Il fissaggio è saldo e adatto al peso della nuova lampada?", "fix": "Se si muove o la lampada è pesante, rifai il fissaggio con tasselli adatti al soffitto prima di appenderla."},
+        "9": {"q": "Ogni filo tiene e non c'è rame scoperto?", "fix": "Riapri il morsetto, spella il filo alla misura indicata sul morsetto (spesso [[10 mm]]) e richiudi."}
+      },
+      "warns": {
+        "0": "L'interruttore a muro può staccare un solo filo: lavora sempre con la linea spenta al quadro.",
+        "1": "Non salire su sedie o sgabelli: con le braccia alzate si perde facilmente l'equilibrio.",
+        "3": "Prima verifica il tester su una presa che funziona. Se segna tensione, non toccare niente.",
+        "5": "Non lasciare mai la lampada appesa ai fili: si sfilano e la lampada cade."
+      },
+      "tips": [
+        "Lampada in classe II (simbolo del doppio quadrato) senza morsetto di terra: isola il filo di terra in un morsetto suo.",
+        "Usa morsetti a leva: tengono bene, si possono riaprire e non serve nastro isolante.",
+        "Lampadari pesanti o ventilatori a soffitto vogliono fissaggi specifici: nel dubbio, chiedi a un elettricista."
+      ],
+      "gate": [
+        "Sostituisco una lampada esistente, non aggiungo un nuovo punto luce",
+        "Ho una scala stabile e qualcuno che mi aiuta a reggere la lampada"
+      ]
+    },
+    "en": {
+      "title": "Replace a ceiling light",
+      "intro": "Swap an old ceiling light for a new one on the same wiring, with the power off and tested.",
+      "tools": ["Two-pole voltage tester", "Insulated screwdriver set", "Stepladder", "Wire stripper"],
+      "mats": ["Lever connectors", "New ceiling light"],
+      "steps": [
+        "At the fuse box or panel, switch off the lighting circuit for this room. The wall switch alone isn't enough.",
+        "Open the stepladder fully under the light, on level floor, and don't stand on the top step.",
+        "Unscrew the canopy or shade of the old light and lower it, without touching the wires.",
+        "With the wall switch on, test every wire at the ceiling with the tester: no voltage.",
+        "Take a photo of the connections: which wire goes where, with colours and terminals.",
+        "Have someone hold the light, then disconnect the wires and remove the old light and its bracket.",
+        "Check the ceiling fixing: the hook or plugs must be solid and able to take the new light's weight.",
+        "Fix the new light's bracket or hook to the ceiling, following its instructions.",
+        "Connect the wires with the connectors as in the photo: earth (ground) to the light's earth terminal.",
+        "Tug each wire gently in the connectors and check there's no bare copper showing.",
+        "Tuck the wires into the canopy without pinching them, hang the light, then fit the canopy and bulbs.",
+        "Switch the circuit back on at the panel and flick the wall switch: the light should come on and stay steady."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "3": {"q": "Does the tester show no voltage on every wire?", "fix": "Don't touch anything: go back to the panel, switch off the main and test again."},
+        "6": {"q": "Is the fixing solid and right for the new light's weight?", "fix": "If it moves or the light is heavy, redo the fixing with plugs suited to your ceiling before hanging it."},
+        "9": {"q": "Does every wire hold, with no bare copper showing?", "fix": "Open the connector, strip the wire to the length marked on it (often [[10 mm]]) and close it again."}
+      },
+      "warns": {
+        "0": "A wall switch may cut only one wire: always work with the circuit off at the panel.",
+        "1": "Don't stand on chairs or stools: with your arms up it's easy to lose your balance.",
+        "3": "Check the tester on a working socket first. If it shows voltage, don't touch anything.",
+        "5": "Never leave a light hanging by its wires: they pull out and it falls."
+      },
+      "tips": [
+        "Class II light (double-square symbol) with no earth terminal: cap the earth wire in its own connector.",
+        "Use lever connectors: they grip well, can be reopened and need no tape.",
+        "Heavy chandeliers or ceiling fans need special fixings or boxes: if unsure, ask an electrician."
+      ],
+      "gate": [
+        "I'm replacing an existing light, not adding a new light point",
+        "I have a steady stepladder and someone to help hold the light"
+      ]
+    },
+    "fr": {
+      "title": "Changer un luminaire au plafond",
+      "intro": "Remplace un vieux plafonnier ou lustre sur le même câblage, courant coupé et vérifié.",
+      "tools": ["VAT (vérificateur d'absence de tension)", "Tournevis isolés", "Escabeau", "Pince à dénuder"],
+      "mats": ["Bornes de connexion à levier", "Nouveau luminaire"],
+      "steps": [
+        "Au tableau, abaisse le disjoncteur du circuit d'éclairage de cette pièce. L'interrupteur mural ne suffit pas.",
+        "Ouvre l'escabeau en grand sous le luminaire, sur un sol plat, et ne monte pas sur la dernière marche.",
+        "Dévisse le cache ou la coupelle de l'ancien luminaire et descends-le, sans toucher les fils.",
+        "Interrupteur mural sur marche, teste chaque fil au plafond avec le VAT : aucune tension.",
+        "Prends en photo les branchements : quel fil va où, avec couleurs et bornes.",
+        "Fais tenir le luminaire par quelqu'un, puis débranche les fils et retire l'ancien luminaire et son support.",
+        "Vérifie la fixation au plafond : crochet ou chevilles doivent être solides et porter le poids du nouveau luminaire.",
+        "Fixe la patte ou le crochet du nouveau luminaire au plafond, selon sa notice.",
+        "Branche les fils avec les bornes comme sur la photo : la terre (en général vert-jaune) sur la borne de terre du luminaire.",
+        "Tire doucement sur chaque fil dans les bornes et vérifie qu'aucun cuivre n'est à nu.",
+        "Range les fils dans le cache sans les pincer, accroche le luminaire, puis fixe le cache et les ampoules.",
+        "Relève le disjoncteur au tableau et allume à l'interrupteur : la lumière doit s'allumer et rester stable."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "3": {"q": "Le VAT n'indique aucune tension sur tous les fils ?", "fix": "Ne touche à rien : retourne au tableau, coupe le général et reteste."},
+        "6": {"q": "La fixation est-elle solide et adaptée au poids du luminaire ?", "fix": "Si elle bouge ou si le luminaire est lourd, refais la fixation avec des chevilles adaptées au plafond avant de l'accrocher."},
+        "9": {"q": "Chaque fil tient-il, sans cuivre à nu ?", "fix": "Rouvre la borne, dénude le fil à la longueur indiquée dessus (souvent [[10 mm]]) et referme."}
+      },
+      "warns": {
+        "0": "L'interrupteur peut ne couper qu'un fil : travaille toujours avec le circuit coupé au tableau.",
+        "1": "Ne monte ni sur une chaise ni sur un tabouret : les bras en l'air, on perd vite l'équilibre.",
+        "3": "Vérifie d'abord le VAT sur une prise qui marche. S'il indique une tension, ne touche à rien.",
+        "5": "Ne laisse jamais un luminaire pendre par ses fils : ils s'arrachent et il tombe."
+      },
+      "tips": [
+        "Luminaire de classe II (symbole double carré) sans borne de terre : isole le fil de terre dans une borne à part.",
+        "Prends des bornes à levier : elles tiennent bien, se rouvrent et évitent le ruban isolant.",
+        "Lustre lourd ou ventilateur de plafond : il faut une fixation spéciale. Dans le doute, demande à un électricien."
+      ],
+      "gate": [
+        "Je remplace un luminaire existant, je n'ajoute pas de point lumineux",
+        "J'ai un escabeau stable et quelqu'un pour tenir le luminaire"
+      ]
+    },
+    "es": {
+      "title": "Cambiar una lámpara de techo",
+      "intro": "Cambia una lámpara de techo vieja por otra en el mismo punto de luz, con la corriente cortada.",
+      "tools": ["Detector de tensión (bipolar)", "Destornilladores aislados", "Escalera", "Pelacables"],
+      "mats": ["Conectores de palanca", "Lámpara nueva"],
+      "steps": [
+        "En el cuadro, baja el automático del circuito de alumbrado de esta habitación. Apagar el interruptor no basta.",
+        "Abre la escalera del todo bajo la lámpara, en suelo plano, y no subas al último peldaño.",
+        "Desatornilla el florón o la tulipa de la lámpara vieja y bájalo, sin tocar los cables.",
+        "Con el interruptor encendido, prueba el detector en todos los cables del techo: sin tensión.",
+        "Haz una foto de las conexiones: qué cable va dónde, con colores y bornes.",
+        "Pide a alguien que sujete la lámpara, desconecta los cables y quita la lámpara vieja y su soporte.",
+        "Revisa la sujeción al techo: el gancho o los tacos deben estar firmes y aguantar el peso de la lámpara nueva.",
+        "Fija al techo la placa o el gancho de la lámpara nueva, según sus instrucciones.",
+        "Conecta los cables con los conectores como en la foto: la tierra (normalmente amarillo-verde) al borne de tierra de la lámpara.",
+        "Tira suave de cada cable en los conectores y comprueba que no asoma cobre.",
+        "Recoge los cables en el florón sin aplastarlos, cuelga la lámpara y pon el florón y las bombillas.",
+        "Sube el automático en el cuadro y enciende el interruptor: la luz debe encenderse y quedarse estable."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "3": {"q": "¿El detector no marca tensión en ningún cable?", "fix": "No toques nada: vuelve al cuadro, baja el general y comprueba otra vez."},
+        "6": {"q": "¿La sujeción está firme y aguanta el peso de la lámpara nueva?", "fix": "Si se mueve o la lámpara pesa mucho, rehaz la sujeción con tacos adecuados para tu techo antes de colgarla."},
+        "9": {"q": "¿Cada cable aguanta y no asoma cobre?", "fix": "Abre el conector, pela el cable a la medida que indica (suele ser [[10 mm]]) y vuelve a cerrarlo."}
+      },
+      "warns": {
+        "0": "El interruptor puede cortar solo un cable: trabaja siempre con el circuito bajado en el cuadro.",
+        "1": "No te subas a sillas ni taburetes: con los brazos en alto se pierde el equilibrio enseguida.",
+        "3": "Comprueba antes el detector en un enchufe que funcione. Si marca tensión, no toques nada.",
+        "5": "Nunca dejes la lámpara colgando de los cables: se sueltan y se cae."
+      },
+      "tips": [
+        "Lámpara de clase II (símbolo de doble cuadrado) sin borne de tierra: aísla el cable de tierra en un conector aparte.",
+        "Usa conectores de palanca: sujetan bien, se pueden volver a abrir y no necesitas cinta aislante.",
+        "Lámparas muy pesadas o ventiladores de techo necesitan una sujeción especial: si dudas, llama a un electricista."
+      ],
+      "gate": [
+        "Cambio una lámpara que ya existe, no añado un punto de luz nuevo",
+        "Tengo una escalera estable y alguien que me ayude a sujetar la lámpara"
+      ]
+    },
+    "de": {
+      "title": "Deckenlampe anschließen",
+      "intro": "Alte Deckenleuchte gegen eine neue tauschen, am selben Anschluss, mit Strom sicher aus.",
+      "tools": ["Zweipoliger Spannungsprüfer", "Isolierte Schraubendreher (VDE)", "Trittleiter", "Abisolierzange"],
+      "mats": ["Hebelklemmen", "Neue Deckenleuchte"],
+      "steps": [
+        "Schalte im Sicherungskasten die Sicherung für das Licht in diesem Raum aus. Der Lichtschalter allein reicht nicht.",
+        "Stell die Leiter ganz geöffnet auf ebenen Boden unter die Lampe und steig nicht auf die oberste Stufe.",
+        "Schraub den Baldachin oder Schirm der alten Lampe ab und lass ihn herunter, ohne die Adern zu berühren.",
+        "Schalte den Lichtschalter ein und prüf jede Ader an der Decke mit dem Prüfer: keine Spannung.",
+        "Fotografier die Anschlüsse: welche Ader wohin, mit Farben und Klemmen.",
+        "Lass jemanden die Lampe halten, dann klemm die Adern ab und nimm die alte Lampe samt Halterung ab.",
+        "Prüf die Befestigung an der Decke: Haken oder Dübel müssen fest sitzen und das Gewicht der neuen Lampe tragen.",
+        "Befestige Halterung oder Haken der neuen Lampe an der Decke, wie in ihrer Anleitung beschrieben.",
+        "Schließ die Adern mit den Klemmen wie auf dem Foto an: Schutzleiter (meist grün-gelb) an die Schutzleiterklemme der Lampe.",
+        "Zieh leicht an jeder Ader in den Klemmen und prüf, dass kein blankes Kupfer zu sehen ist.",
+        "Leg die Adern ohne Quetschen in den Baldachin, häng die Lampe ein, schraub Baldachin und Leuchtmittel fest.",
+        "Schalte die Sicherung wieder ein und drück den Lichtschalter: Die Lampe muss angehen und ruhig leuchten."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "3": {"q": "Zeigt der Prüfer an keiner Ader Spannung?", "fix": "Nichts anfassen: zurück zum Kasten, Hauptschalter aus und noch einmal prüfen."},
+        "6": {"q": "Sitzt die Befestigung fest und trägt sie das Gewicht der neuen Lampe?", "fix": "Wackelt sie oder ist die Lampe schwer, setz vor dem Aufhängen neue, zur Decke passende Dübel."},
+        "9": {"q": "Hält jede Ader und ist kein blankes Kupfer zu sehen?", "fix": "Klemme öffnen, Ader auf die angegebene Länge abisolieren (oft [[10 mm]]) und wieder schließen."}
+      },
+      "warns": {
+        "0": "Der Lichtschalter trennt oft nur eine Ader: Arbeite immer mit ausgeschalteter Sicherung.",
+        "1": "Nicht auf Stühle oder Hocker steigen: Mit erhobenen Armen verlierst du schnell das Gleichgewicht.",
+        "3": "Teste den Prüfer zuerst an einer funktionierenden Steckdose. Zeigt er Spannung: nichts anfassen.",
+        "5": "Lass eine Lampe nie an den Adern hängen: Sie reißen heraus und die Lampe fällt."
+      },
+      "tips": [
+        "Schutzklasse II (Doppelquadrat) ohne Schutzleiterklemme: grün-gelbe Ader einzeln in eine Klemme setzen.",
+        "Nimm Hebelklemmen: Sie halten gut, lassen sich wieder öffnen und brauchen kein Isolierband.",
+        "Schwere Lüster oder Deckenventilatoren brauchen eine spezielle Befestigung: Im Zweifel einen Elektriker fragen."
+      ],
+      "gate": [
+        "Ich tausche eine vorhandene Lampe, ich setze keinen neuen Lichtauslass",
+        "Ich habe eine stabile Leiter und jemanden, der die Lampe hält"
+      ]
+    }
+  }
+},
+{
+  "id": "salvavita-scattato",
+  "cat": "elettricita",
+  "diff": 1, "active": 15, "total": 15,
+  "risk": 1, "topic": "elec",
+  "ppe": [],
+  "tags": ["emergency"],
+  "months": [],
+  "tools": [{"k": "flashlight", "own": true}],
+  "mats": [],
+  "steps": [
+    {"ic": "look", "warn": 1},
+    {"ic": "power-off"},
+    {"ic": "push", "warn": 1, "check": true},
+    {"ic": "push"},
+    {"ic": "bolt"},
+    {"ic": "socket"},
+    {"ic": "push", "check": true},
+    {"ic": "socket"},
+    {"ic": "look"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Salvavita scattato: cosa fare",
+      "intro": "Corrente saltata in parte della casa? Trova la linea e l'apparecchio che fa scattare il salvavita.",
+      "tools": ["Torcia"],
+      "mats": [],
+      "steps": [
+        "Vai al quadro con una torcia e trova la leva abbassata: il salvavita (ha il tasto T) o l'interruttore di una linea.",
+        "Abbassa tutti gli interruttori delle singole linee vicino al salvavita.",
+        "Rialza il salvavita con un gesto deciso, fino in fondo.",
+        "Rialza le linee una alla volta, a qualche secondo l'una dall'altra: quella che lo fa scattare è la linea guasta.",
+        "Lascia giù la linea guasta, riarma il salvavita e rialza le altre: il resto della casa ha di nuovo corrente.",
+        "Stacca tutte le spine sulla linea guasta: quelle delle stanze rimaste al buio.",
+        "Ora rialza la linea guasta, con tutto ancora staccato.",
+        "Ricollega gli apparecchi uno alla volta: quello che fa scattare tutto è il colpevole.",
+        "Lascia staccato quell'apparecchio e fallo riparare o sostituiscilo."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Il salvavita resta su?", "fix": "Se riscatta anche con tutte le linee giù, non insistere: lascialo giù e chiama un elettricista."},
+        "6": {"q": "La linea resta su con niente collegato?", "fix": "Se scatta anche senza niente collegato, il guasto è nell'impianto: lasciala giù e chiama un elettricista."}
+      },
+      "warns": {
+        "0": "Odore di bruciato, fumo o quadro caldo? Non toccare niente e chiama un elettricista.",
+        "2": "Non tenere mai su la leva con la forza o con il nastro: scatta per proteggerti."
+      },
+      "tips": [
+        "Scatta quando piove? Controlla prese esterne e luci del giardino: l'umidità è una causa frequente.",
+        "Gli apparecchi con acqua e resistenze (lavatrice, lavastoviglie, forno, boiler) sono i colpevoli più comuni.",
+        "Premi il tasto T del salvavita ogni sei mesi circa: deve scattare. Se non scatta, fallo controllare."
+      ]
+    },
+    "en": {
+      "title": "RCD / breaker tripped",
+      "intro": "Power out in part of the house? Find which circuit and which appliance tripped it, and reset.",
+      "tools": ["Torch / flashlight"],
+      "mats": [],
+      "steps": [
+        "Go to the fuse box with a torch and find the switch that's down: the RCD (it has a T test button) or a breaker.",
+        "Switch off all the individual circuit breakers next to the RCD.",
+        "Push the RCD back up firmly, all the way.",
+        "Switch the circuits back on one at a time, a few seconds apart: the one that trips it is the faulty circuit.",
+        "Leave the faulty circuit off, reset the RCD and switch the rest back on: the rest of the house has power.",
+        "Unplug everything on the faulty circuit: the rooms that are still dark.",
+        "Now switch the faulty circuit back on, with everything still unplugged.",
+        "Plug the appliances back in one at a time: the one that trips it is the culprit.",
+        "Leave that appliance unplugged and get it repaired or replaced."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Does the RCD stay up?", "fix": "If it trips again with every circuit off, don't keep trying: leave it off and call an electrician."},
+        "6": {"q": "Does the circuit stay on with nothing plugged in?", "fix": "If it trips with nothing plugged in, the fault is in the wiring: leave it off and call an electrician."}
+      },
+      "warns": {
+        "0": "Burning smell, smoke or a hot fuse box? Don't touch anything and call an electrician.",
+        "2": "Never hold the switch up by force or tape it: it trips to protect you."
+      },
+      "tips": [
+        "Trips when it rains? Check outdoor sockets and garden lights: damp is a common cause.",
+        "Appliances with water and heating elements (washer, dishwasher, oven, water heater) are the usual culprits.",
+        "Press the RCD's T button about every six months: it should trip. If it doesn't, get it checked."
+      ]
+    },
+    "fr": {
+      "title": "Disjoncteur différentiel qui saute",
+      "intro": "Plus de courant dans une partie du logement ? Trouve le circuit et l'appareil fautif.",
+      "tools": ["Lampe torche"],
+      "mats": [],
+      "steps": [
+        "Va au tableau avec une lampe et repère la manette baissée : le différentiel (il a un bouton T) ou un disjoncteur.",
+        "Abaisse tous les disjoncteurs divisionnaires sous ce différentiel.",
+        "Relève le différentiel d'un geste franc, jusqu'en haut.",
+        "Relève les disjoncteurs un par un, à quelques secondes d'écart : celui qui fait sauter est le circuit en défaut.",
+        "Laisse ce circuit coupé, réarme le différentiel et relève les autres : le reste du logement a du courant.",
+        "Débranche tout sur le circuit en défaut : dans les pièces encore dans le noir.",
+        "Relève maintenant le circuit en défaut, avec tout encore débranché.",
+        "Rebranche les appareils un par un : celui qui fait sauter est le coupable.",
+        "Laisse cet appareil débranché et fais-le réparer ou remplacer."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Le différentiel reste-t-il en haut ?", "fix": "S'il ressaute avec tous les circuits coupés, n'insiste pas : laisse-le baissé et appelle un électricien."},
+        "6": {"q": "Le circuit tient-il avec rien de branché ?", "fix": "S'il saute sans rien de branché, le défaut est dans l'installation : laisse-le coupé et appelle un électricien."}
+      },
+      "warns": {
+        "0": "Odeur de brûlé, fumée ou tableau chaud ? Ne touche à rien et appelle un électricien.",
+        "2": "Ne bloque jamais la manette en haut, à la main ou avec du scotch : elle saute pour te protéger."
+      },
+      "tips": [
+        "Ça saute quand il pleut ? Vérifie prises extérieures et lumières du jardin : l'humidité est souvent en cause.",
+        "Les appareils avec eau et résistance (lave-linge, lave-vaisselle, four, chauffe-eau) sont les coupables habituels.",
+        "Appuie sur le bouton T du différentiel tous les six mois environ : il doit sauter. Sinon, fais-le contrôler."
+      ]
+    },
+    "es": {
+      "title": "Ha saltado el diferencial",
+      "intro": "¿Sin luz en parte de la casa? Encuentra qué circuito y qué aparato lo hace saltar, y rearma.",
+      "tools": ["Linterna"],
+      "mats": [],
+      "steps": [
+        "Ve al cuadro con una linterna y busca la palanca bajada: el diferencial (tiene botón T) o un automático.",
+        "Baja todos los automáticos (PIA) de los circuitos que hay junto al diferencial.",
+        "Sube el diferencial con un gesto firme, hasta arriba del todo.",
+        "Sube los automáticos uno a uno, con unos segundos entre cada uno: el que lo hace saltar es el circuito averiado.",
+        "Deja bajado ese circuito, rearma el diferencial y sube los demás: el resto de la casa ya tiene luz.",
+        "Desenchufa todo lo del circuito averiado: las habitaciones que siguen a oscuras.",
+        "Ahora sube el circuito averiado, con todo aún desenchufado.",
+        "Vuelve a enchufar los aparatos uno a uno: el que lo hace saltar es el culpable.",
+        "Deja ese aparato desenchufado y llévalo a reparar o cámbialo."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "¿El diferencial se queda arriba?", "fix": "Si vuelve a saltar con todos los circuitos bajados, no insistas: déjalo bajado y llama a un electricista."},
+        "6": {"q": "¿El circuito aguanta sin nada enchufado?", "fix": "Si salta sin nada enchufado, la avería está en la instalación: déjalo bajado y llama a un electricista."}
+      },
+      "warns": {
+        "0": "¿Olor a quemado, humo o cuadro caliente? No toques nada y llama a un electricista.",
+        "2": "Nunca sujetes la palanca arriba a la fuerza ni con cinta: salta para protegerte."
+      },
+      "tips": [
+        "¿Salta cuando llueve? Revisa enchufes exteriores y luces del jardín: la humedad es una causa frecuente.",
+        "Los aparatos con agua y resistencia (lavadora, lavavajillas, horno, termo) son los culpables más habituales.",
+        "Pulsa el botón T del diferencial cada seis meses más o menos: debe saltar. Si no salta, que lo revisen."
+      ]
+    },
+    "de": {
+      "title": "FI-Schalter ausgelöst",
+      "intro": "Strom in einem Teil der Wohnung weg? Finde Stromkreis und Gerät, das den FI auslöst.",
+      "tools": ["Taschenlampe"],
+      "mats": [],
+      "steps": [
+        "Geh mit einer Taschenlampe zum Sicherungskasten und such den Schalter unten: den FI (mit Prüftaste T) oder eine Sicherung.",
+        "Schalte alle Sicherungen aus, die hinter diesem FI hängen.",
+        "Schalte den FI mit einem kräftigen Ruck ganz nach oben.",
+        "Schalte die Sicherungen einzeln wieder ein, mit ein paar Sekunden Abstand: Bei der, die ihn auslöst, liegt der Fehler.",
+        "Lass diesen Kreis aus, schalte FI und die übrigen Sicherungen wieder ein: Der Rest der Wohnung hat Strom.",
+        "Zieh im defekten Kreis alle Stecker: in den Räumen, die noch dunkel sind.",
+        "Schalte jetzt den defekten Kreis wieder ein, während alles noch ausgesteckt ist.",
+        "Steck die Geräte einzeln wieder ein: Das Gerät, bei dem er auslöst, ist der Übeltäter.",
+        "Lass dieses Gerät ausgesteckt und lass es reparieren oder ersetz es."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Bleibt der FI oben?", "fix": "Löst er auch mit allen Sicherungen aus wieder aus, nicht weiter probieren: unten lassen und Elektriker rufen."},
+        "6": {"q": "Bleibt der Kreis drin, wenn nichts angesteckt ist?", "fix": "Löst er auch ohne Geräte aus, liegt der Fehler in der Installation: Kreis aus lassen und Elektriker rufen."}
+      },
+      "warns": {
+        "0": "Brandgeruch, Rauch oder warmer Kasten? Nichts anfassen und einen Elektriker rufen.",
+        "2": "Den Hebel nie mit Gewalt oder Klebeband oben halten: Er löst aus, um dich zu schützen."
+      },
+      "tips": [
+        "Löst er bei Regen aus? Prüf Außensteckdosen und Gartenbeleuchtung: Feuchtigkeit ist eine häufige Ursache.",
+        "Geräte mit Wasser und Heizstab (Waschmaschine, Spülmaschine, Backofen, Boiler) sind die üblichen Übeltäter.",
+        "Drück etwa alle sechs Monate die Prüftaste T am FI: Er muss auslösen. Tut er das nicht, lass ihn prüfen."
+      ]
+    }
+  }
+},
+{
+  "id": "quadro-elettrico-nuove-linee",
+  "cat": "elettricita",
+  "diff": 3, "active": 10, "total": 10,
+  "risk": 3, "topic": "elec",
+  "pro": true,
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [],
+  "mats": [],
+  "steps": [
+    {"ic": "pencil"},
+    {"ic": "phone"},
+    {"ic": "power-off", "warn": 1},
+    {"ic": "phone"},
+    {"ic": "check"}
+  ],
+  "tips": 1,
+  "i18n": {
+    "it": {
+      "title": "Nuove prese, linee o lavori sul quadro",
+      "intro": "Aggiungere prese, punti luce o linee, o mettere mano al quadro: cosa fare prima del tecnico.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Scrivi cosa ti serve: quante prese o luci nuove, dove, e per quali apparecchi (forno, piano a induzione, clima).",
+        "Fotografa il quadro così com'è, senza togliere coperchi: interruttori e scritte. Serviranno al tecnico.",
+        "Se senti odore di bruciato o vedi segni neri, abbassa l'interruttore generale e non toccare altro.",
+        "Chiama un'impresa abilitata e chiedi a fine lavori la Dichiarazione di Conformità (DM 37/08).",
+        "Conserva la Dichiarazione con i documenti di casa: ti servirà per vendere, affittare o per l'assicurazione."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {},
+      "warns": {
+        "2": "Non aprire il quadro: anche col generale giù, i morsetti in arrivo restano sotto tensione."
+      },
+      "tips": [
+        "Chiedi un preventivo scritto con l'elenco dei lavori: così confronti più offerte."
+      ],
+      "why": "Nuove linee e lavori nel quadro richiedono sezioni e protezioni calcolate e, per legge, un'impresa abilitata."
+    },
+    "en": {
+      "title": "New sockets, circuits or fuse box work",
+      "intro": "Adding sockets, lights or circuits, or touching the fuse box: what to do before the pro comes.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Write down what you need: how many new sockets or lights, where, and for which appliances (oven, hob, A/C).",
+        "Photograph the fuse box as it is, without removing any covers: switches and labels. The electrician will need them.",
+        "If you smell burning or see black marks, switch off the main switch and touch nothing else.",
+        "Hire a registered electrician (Part P scheme in England, licensed in the US) and ask for the certificate at the end.",
+        "Keep the certificate with your house papers: you'll need it to sell, let or insure the home."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {},
+      "warns": {
+        "2": "Don't open the fuse box: even with the main off, the incoming terminals stay live."
+      },
+      "tips": [
+        "Ask for a written quote listing the work: it makes comparing offers easy."
+      ],
+      "why": "New circuits and consumer unit work need correct cable sizes and protection, and by law a qualified electrician."
+    },
+    "fr": {
+      "title": "Nouvelles prises, circuits ou tableau",
+      "intro": "Ajouter prises, points lumineux ou circuits, ou toucher au tableau : ce que tu fais avant le pro.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Note ce qu'il te faut : combien de prises ou de points lumineux, où, et pour quels appareils (four, plaque, clim).",
+        "Photographie le tableau tel quel, sans retirer de capot : disjoncteurs et étiquettes. L'électricien en aura besoin.",
+        "Si ça sent le brûlé ou si tu vois des traces noires, coupe le disjoncteur général et ne touche à rien d'autre.",
+        "Fais appel à un électricien qualifié et demande l'attestation Consuel si elle est nécessaire.",
+        "Garde factures et attestations avec les papiers du logement : utiles pour vendre, louer ou l'assurance."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {},
+      "warns": {
+        "2": "N'ouvre pas le tableau : même général coupé, les bornes d'arrivée restent sous tension."
+      },
+      "tips": [
+        "Demande un devis écrit qui détaille les travaux : c'est plus simple pour comparer."
+      ],
+      "why": "Nouveaux circuits et travaux au tableau demandent des sections et protections bien calculées, et un électricien qualifié."
+    },
+    "es": {
+      "title": "Nuevos enchufes, líneas o cuadro",
+      "intro": "Añadir enchufes, puntos de luz o circuitos, o tocar el cuadro: lo que haces antes del profesional.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Apunta lo que necesitas: cuántos enchufes o puntos de luz nuevos, dónde y para qué aparatos (horno, placa, aire).",
+        "Haz fotos del cuadro tal cual, sin quitar tapas: automáticos y etiquetas. Al electricista le servirán.",
+        "Si huele a quemado o ves marcas negras, baja el interruptor general y no toques nada más.",
+        "Contrata a un instalador autorizado y pide el boletín (Certificado de Instalación Eléctrica, CIE) al terminar.",
+        "Guarda el boletín con los papeles de la casa: te lo pedirán para subir potencia, vender o alquilar."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {},
+      "warns": {
+        "2": "No abras el cuadro: aunque bajes el general, los bornes de entrada siguen con tensión."
+      },
+      "tips": [
+        "Pide un presupuesto por escrito con los trabajos detallados: así comparas ofertas."
+      ],
+      "why": "Las líneas nuevas y el cuadro exigen calcular secciones y protecciones, y por ley un instalador autorizado."
+    },
+    "de": {
+      "title": "Neue Stromkreise oder Sicherungskasten",
+      "intro": "Neue Steckdosen, Lampen oder Stromkreise, Arbeiten am Kasten: Das machst du vor dem Profi.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Schreib auf, was du brauchst: wie viele neue Steckdosen oder Lampen, wo und für welche Geräte (Herd, Klima).",
+        "Fotografier den Sicherungskasten, ohne Abdeckungen abzunehmen: Schalter und Beschriftung. Das hilft dem Elektriker.",
+        "Riechst du Verbranntes oder siehst schwarze Spuren, schalte den Hauptschalter aus und fass nichts weiter an.",
+        "Beauftrag einen eingetragenen Elektroinstallateur (im Installateurverzeichnis des Netzbetreibers).",
+        "Lass dir Prüfprotokoll und Rechnung geben und heb sie mit den Unterlagen der Wohnung auf."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {},
+      "warns": {
+        "2": "Öffne den Kasten nicht: Auch bei ausgeschaltetem Hauptschalter stehen die Zuleitungsklemmen unter Spannung."
+      },
+      "tips": [
+        "Lass dir ein schriftliches Angebot mit allen Arbeiten geben: So kannst du vergleichen."
+      ],
+      "why": "Neue Stromkreise und Arbeiten am Verteiler brauchen richtig bemessene Leitungen und Schutz, gesetzlich nur vom Fachbetrieb."
+    }
+  }
+}
+]}

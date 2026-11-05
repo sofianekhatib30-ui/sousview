@@ -1,0 +1,3100 @@
+{
+ "group": "F",
+ "guides": [
+  {
+   "id": "camera-aria-bici",
+   "cat": "veicoli",
+   "diff": 2,
+   "active": 30,
+   "total": 40,
+   "risk": 1,
+   "topic": null,
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "tyre-levers"
+    },
+    {
+     "k": "bike-pump"
+    },
+    {
+     "k": "adjustable-wrench"
+    },
+    {
+     "k": "bucket",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "puncture-repair-kit",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "inner-tube",
+     "q": 1,
+     "u": ""
+    }
+   ],
+   "steps": [
+    {
+     "ic": "wheel"
+    },
+    {
+     "ic": "pull"
+    },
+    {
+     "ic": "pull"
+    },
+    {
+     "ic": "air"
+    },
+    {
+     "ic": "look",
+     "check": true
+    },
+    {
+     "ic": "sand"
+    },
+    {
+     "ic": "wait",
+     "timer": 300
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "check",
+     "check": true
+    },
+    {
+     "ic": "air",
+     "warn": 1
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Riparare una foratura della bici",
+     "intro": "Gomma a terra? Togli la ruota, trovi il buco e lo ripari con una toppa o una camera nuova.",
+     "tools": [
+      "Leve smontagomme",
+      "Pompa per bici",
+      "Chiave inglese",
+      "Bacinella d'acqua"
+     ],
+     "mats": [
+      "Kit toppe con mastice",
+      "Camera d'aria di ricambio"
+     ],
+     "steps": [
+      "Metti il pignone più piccolo, apri lo sgancio del freno e togli la ruota: leva rapida o dadi.",
+      "Sgonfia del tutto. Infila una leva sotto il bordo del copertone, agganciala a un raggio, la seconda a [[10 cm]] e scorri.",
+      "Sfila la camera d'aria dal copertone, lasciando per ultima la valvola.",
+      "Gonfia un po' la camera e ascolta il sibilo. Niente? Immergila nell'acqua: il buco fa le bollicine. Segnalo.",
+      "Passa con cautela le dita dentro il copertone e guarda fuori: togli spine, vetri o fili metallici.",
+      "Asciuga la camera e carteggia intorno al buco una zona un po' più grande della toppa.",
+      "Stendi un velo sottile di mastice e aspetta che diventi opaco e non sembri più bagnato.",
+      "Applica la toppa e premila forte dal centro verso i bordi per un minuto buono.",
+      "Gonfia appena la camera, infila la valvola nel foro del cerchio e sistema la camera dentro il copertone.",
+      "Rimetti il bordo del copertone con i pollici, partendo dalla valvola e chiudendo dal lato opposto.",
+      "Fai il giro della ruota spingendo il copertone di lato: la camera non deve spuntare sotto il bordo.",
+      "Gonfia alla pressione scritta sul fianco del copertone, rimonta la ruota e richiudi lo sgancio del freno."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Mastice",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Hai trovato e tolto la causa della foratura?",
+       "fix": "Passa un panno dentro il copertone: si impiglia su ciò che non vedi. Buco verso il cerchio? Guarda il nastro paracerchio."
+      },
+      "10": {
+       "q": "La camera è tutta dentro, senza pieghe sotto il bordo?",
+       "fix": "Sgonfia, spingi la valvola verso l'interno della gomma e massaggia il bordo finché la camera non si vede più."
+      }
+     },
+     "warns": {
+      "11": "Prima di partire controlla che la ruota sia ben stretta e che i freni frenino davvero."
+     },
+     "tips": [
+      "Due forellini paralleli (morso di serpente) vengono da una gomma troppo sgonfia: tienila alla pressione giusta.",
+      "In giro monta una camera nuova e ripara quella bucata a casa, con calma.",
+      "Copertone tagliato o gomme tubeless: serve un copertone nuovo o un salto dal ciclista."
+     ]
+    },
+    "en": {
+     "title": "Fix a bike puncture",
+     "intro": "Flat tyre? Take the wheel off, find the hole and fix it with a patch or a new inner tube.",
+     "tools": [
+      "Tyre levers",
+      "Bike pump",
+      "Adjustable spanner",
+      "Bowl of water"
+     ],
+     "mats": [
+      "Puncture repair kit",
+      "Spare inner tube"
+     ],
+     "steps": [
+      "Shift to the smallest rear cog, open the brake release and take the wheel off: quick-release lever or nuts.",
+      "Let all the air out. Hook a lever under the tyre edge onto a spoke, the second [[10 cm]] along, then slide it round.",
+      "Pull the inner tube out of the tyre, leaving the valve until last.",
+      "Pump a little air into the tube and listen for a hiss. Nothing? Dip it in water: the hole bubbles. Mark it.",
+      "Carefully run your fingers inside the tyre and look outside: pull out thorns, glass or bits of wire.",
+      "Dry the tube and roughen the area round the hole with sandpaper, a bit bigger than the patch.",
+      "Spread a thin layer of glue and wait until it turns matt and no longer looks wet.",
+      "Stick the patch on and press it hard from the centre outwards for a good minute.",
+      "Put a little air in the tube, push the valve through the rim hole and tuck the tube into the tyre.",
+      "Push the tyre edge back on with your thumbs, starting at the valve and finishing on the opposite side.",
+      "Go round the wheel pushing the tyre sideways: no tube should show under the tyre edge.",
+      "Pump to the pressure printed on the tyre sidewall, refit the wheel and close the brake release."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Glue",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Have you found and removed what caused the puncture?",
+       "fix": "Wipe a cloth round the inside of the tyre: it snags on what you can't see. Hole on the rim side? Check the rim tape."
+      },
+      "10": {
+       "q": "Is the tube fully inside, with nothing pinched under the edge?",
+       "fix": "Let the air out, push the valve up into the tyre and work the edge down until no tube shows."
+      }
+     },
+     "warns": {
+      "11": "Before riding off, make sure the wheel is tight and the brakes really stop you."
+     },
+     "tips": [
+      "Two small parallel holes (a snakebite) come from riding too soft: keep the tyre at the right pressure.",
+      "Out on a ride, fit a new tube and patch the punctured one at home in peace.",
+      "Cut tyre or tubeless setup: you need a new tyre or a trip to the bike shop."
+     ]
+    },
+    "fr": {
+     "title": "Réparer une crevaison de vélo",
+     "intro": "Pneu à plat ? Démonte la roue, trouve le trou et répare-le avec une rustine ou une chambre neuve.",
+     "tools": [
+      "Démonte-pneus",
+      "Pompe à vélo",
+      "Clé à molette",
+      "Bassine d'eau"
+     ],
+     "mats": [
+      "Kit de rustines avec colle",
+      "Chambre à air de rechange"
+     ],
+     "steps": [
+      "Passe sur le plus petit pignon, ouvre le frein et sors la roue : levier de serrage rapide ou écrous.",
+      "Dégonfle à fond. Glisse un démonte-pneu sous le talon, accroche-le à un rayon, le second à [[10 cm]], puis fais le tour.",
+      "Sors la chambre à air du pneu, en gardant la valve pour la fin.",
+      "Gonfle un peu la chambre et écoute le sifflement. Rien ? Plonge-la dans l'eau : le trou fait des bulles. Marque-le.",
+      "Passe prudemment les doigts dans le pneu et regarde dehors : enlève épines, éclats de verre ou bouts de fil métallique.",
+      "Sèche la chambre et ponce autour du trou une zone un peu plus grande que la rustine.",
+      "Étale une fine couche de colle et attends qu'elle devienne mate et n'ait plus l'air mouillée.",
+      "Pose la rustine et appuie fort du centre vers les bords pendant une bonne minute.",
+      "Gonfle à peine la chambre, passe la valve dans le trou de la jante et loge la chambre dans le pneu.",
+      "Remets le talon avec les pouces, en partant de la valve et en finissant du côté opposé.",
+      "Fais le tour de la roue en poussant le pneu sur le côté : la chambre ne doit pas dépasser sous le talon.",
+      "Gonfle à la pression inscrite sur le flanc du pneu, remonte la roue et referme le frein."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Colle",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "As-tu trouvé et enlevé la cause de la crevaison ?",
+       "fix": "Passe un chiffon dans le pneu : il accroche ce que tu ne vois pas. Trou côté jante ? Vérifie le fond de jante."
+      },
+      "10": {
+       "q": "La chambre est-elle bien dedans, sans pli coincé sous le talon ?",
+       "fix": "Dégonfle, pousse la valve vers l'intérieur du pneu et masse le talon jusqu'à ce que la chambre disparaisse."
+      }
+     },
+     "warns": {
+      "11": "Avant de repartir, vérifie que la roue est bien serrée et que les freins freinent vraiment."
+     },
+     "tips": [
+      "Deux petits trous parallèles (pincement) viennent d'un pneu trop dégonflé : garde la bonne pression.",
+      "En balade, monte une chambre neuve et répare la crevée tranquillement à la maison.",
+      "Pneu entaillé ou montage tubeless : il faut un pneu neuf ou passer chez le vélociste."
+     ]
+    },
+    "es": {
+     "title": "Arreglar un pinchazo de bici",
+     "intro": "¿Rueda pinchada? Sacas la rueda, encuentras el agujero y lo arreglas con un parche o cámara nueva.",
+     "tools": [
+      "Desmontables",
+      "Bomba de bici",
+      "Llave inglesa",
+      "Barreño con agua"
+     ],
+     "mats": [
+      "Kit de parches con pegamento",
+      "Cámara de repuesto"
+     ],
+     "steps": [
+      "Pon el piñón más pequeño, abre el freno y saca la rueda: con la palanca de cierre rápido o las tuercas.",
+      "Desínflala del todo. Mete un desmontable bajo el borde, engánchalo a un radio, el otro a [[10 cm]] y deslízalo.",
+      "Saca la cámara de la cubierta, dejando la válvula para el final.",
+      "Infla un poco la cámara y escucha el silbido. ¿Nada? Métela en agua: el agujero suelta burbujas. Márcalo.",
+      "Pasa con cuidado los dedos por dentro de la cubierta y mira por fuera: quita espinas, cristales o alambres.",
+      "Seca la cámara y lija alrededor del agujero una zona algo más grande que el parche.",
+      "Extiende una capa fina de pegamento y espera a que quede mate y ya no parezca mojado.",
+      "Pon el parche y apriétalo fuerte del centro hacia los bordes durante un buen minuto.",
+      "Infla apenas la cámara, mete la válvula por el agujero de la llanta y coloca la cámara dentro de la cubierta.",
+      "Vuelve a meter el borde de la cubierta con los pulgares, empezando por la válvula y acabando en el lado opuesto.",
+      "Da la vuelta a la rueda empujando la cubierta hacia un lado: la cámara no debe asomar bajo el borde.",
+      "Infla a la presión que pone en el lateral de la cubierta, monta la rueda y cierra el freno."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Pegamento",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "¿Has encontrado y quitado lo que causó el pinchazo?",
+       "fix": "Pasa un trapo por dentro de la cubierta: se engancha en lo que no ves. ¿Agujero hacia la llanta? Revisa la cinta de llanta."
+      },
+      "10": {
+       "q": "¿Está la cámara entera dentro, sin pellizcos bajo el borde?",
+       "fix": "Desinfla, empuja la válvula hacia dentro de la cubierta y masajea el borde hasta que no asome la cámara."
+      }
+     },
+     "warns": {
+      "11": "Antes de salir, comprueba que la rueda está bien apretada y que los frenos frenan de verdad."
+     },
+     "tips": [
+      "Dos agujeritos paralelos (mordedura de serpiente) salen por ir con poca presión: mantenla en su valor.",
+      "En ruta, pon una cámara nueva y repara la pinchada en casa con calma.",
+      "Cubierta rajada o tubeless: necesitas cubierta nueva o pasar por el taller de bicis."
+     ]
+    },
+    "de": {
+     "title": "Fahrradschlauch flicken",
+     "intro": "Platten? Rad ausbauen, Loch finden und mit einem Flicken oder neuem Schlauch reparieren.",
+     "tools": [
+      "Reifenheber",
+      "Fahrradpumpe",
+      "Rollgabelschlüssel",
+      "Schüssel mit Wasser"
+     ],
+     "mats": [
+      "Flickzeug mit Vulkanisierlösung",
+      "Ersatzschlauch"
+     ],
+     "steps": [
+      "Schalte aufs kleinste Ritzel, öffne die Bremse und bau das Rad aus: Schnellspanner oder Muttern.",
+      "Luft ganz ablassen. Heber unter die Reifenkante, an einer Speiche einhaken, den zweiten [[10 cm]] daneben, rundum ziehen.",
+      "Zieh den Schlauch aus dem Reifen, das Ventil zuletzt.",
+      "Pump etwas Luft in den Schlauch und hör auf das Zischen. Nichts? Tauch ihn ins Wasser: Das Loch blubbert. Markier es.",
+      "Fahr vorsichtig mit den Fingern innen durch den Reifen und schau außen: Dornen, Glas oder Drahtstücke raus.",
+      "Trockne den Schlauch und raue die Stelle ums Loch an, etwas größer als der Flicken.",
+      "Trag die Lösung dünn auf und warte, bis sie matt ist und nicht mehr feucht aussieht.",
+      "Drück den Flicken auf und press ihn eine gute Minute fest von der Mitte nach außen.",
+      "Pump den Schlauch leicht auf, steck das Ventil durchs Felgenloch und leg den Schlauch in den Reifen.",
+      "Drück die Reifenkante mit den Daumen in die Felge, beim Ventil beginnend, gegenüber zuletzt.",
+      "Geh rundum und drück den Reifen zur Seite: Unter der Kante darf kein Schlauch zu sehen sein.",
+      "Pump auf den Druck, der auf der Reifenflanke steht, bau das Rad ein und schließ die Bremse."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Ablüften",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Hast du die Ursache gefunden und entfernt?",
+       "fix": "Wisch mit einem Lappen innen durch den Reifen: Er bleibt hängen, wo du nichts siehst. Loch zur Felge hin? Felgenband prüfen."
+      },
+      "10": {
+       "q": "Liegt der Schlauch ganz drin, nirgends unter der Kante eingeklemmt?",
+       "fix": "Luft ablassen, Ventil nach oben in den Reifen drücken und die Kante durchkneten, bis kein Schlauch mehr rausschaut."
+      }
+     },
+     "warns": {
+      "11": "Prüf vor der Fahrt, ob das Rad fest sitzt und die Bremsen richtig greifen."
+     },
+     "tips": [
+      "Zwei kleine parallele Löcher (Snakebite) kommen von zu wenig Luft: Halte den richtigen Druck.",
+      "Unterwegs einfach den Ersatzschlauch einbauen und den kaputten zu Hause in Ruhe flicken.",
+      "Reifen aufgeschlitzt oder Tubeless: Dann brauchst du einen neuen Reifen oder die Fahrradwerkstatt."
+     ]
+    }
+   }
+  },
+  {
+   "id": "regolare-freni-bici",
+   "cat": "veicoli",
+   "diff": 2,
+   "active": 30,
+   "total": 30,
+   "risk": 2,
+   "topic": "vehicle",
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "hex-keys"
+    },
+    {
+     "k": "phillips-screwdriver",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "cloth",
+     "q": 1,
+     "u": "",
+     "own": true
+    },
+    {
+     "k": "brake-pads",
+     "q": null,
+     "u": ""
+    }
+   ],
+   "steps": [
+    {
+     "ic": "bike"
+    },
+    {
+     "ic": "look",
+     "check": true
+    },
+    {
+     "ic": "clean"
+    },
+    {
+     "ic": "loosen"
+    },
+    {
+     "ic": "tighten"
+    },
+    {
+     "ic": "wrench",
+     "check": true
+    },
+    {
+     "ic": "screwdriver"
+    },
+    {
+     "ic": "check"
+    },
+    {
+     "ic": "bike",
+     "warn": 2
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Regolare i freni della bici",
+     "intro": "Freni molli o che strisciano? Li registri con il barilotto e riallinei i pattini sul cerchio.",
+     "tools": [
+      "Chiavi a brugola",
+      "Cacciavite a croce"
+     ],
+     "mats": [
+      "Panno",
+      "Pattini freno nuovi (se consumati)"
+     ],
+     "steps": [
+      "Metti la bici stabile, sul cavalletto o capovolta, e gira la ruota: il cerchio deve girare dritto.",
+      "Guarda i pattini: se le scanalature sono sparite o hai raggiunto la tacca di usura, vanno cambiati.",
+      "Pulisci con il panno la pista frenante del cerchio e i pattini, togliendo sassolini e trucioli incastrati.",
+      "Freno molle? Svita di un giro alla volta il barilotto vicino alla leva, finché frena prima di metà corsa.",
+      "Barilotto a fine corsa? Riavvitalo, allenta il morsetto del cavo, tendilo di [[2-3 mm]] e stringi di nuovo.",
+      "Allenta il bullone del pattino, tieni tirata la leva e appoggialo piatto sul cerchio, [[1 mm]] sotto il bordo. Stringi.",
+      "Se un pattino striscia, gira la vitina della molla su quel braccio di un quarto di giro, finché i due lati sono uguali.",
+      "Tira forte la leva più volte e gira la ruota: niente strisciamenti, leva lontana dal manubrio, cavo non sfilacciato.",
+      "Prova a passo d'uomo in un posto tranquillo, un freno alla volta, prima di pedalare normalmente."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "I pattini hanno ancora le scanalature ben visibili?",
+       "fix": "No: monta pattini nuovi dello stesso tipo, adatti al tuo cerchio (alluminio o carbonio), prima di continuare."
+      },
+      "5": {
+       "q": "Il pattino tocca tutto il cerchio senza toccare la gomma?",
+       "fix": "Allenta di nuovo il bullone, tieni la leva tirata e allinea il pattino al cerchio prima di stringere."
+      }
+     },
+     "warns": {
+      "8": "Non andare nel traffico finché entrambi i freni non ti fermano bene a passo d'uomo."
+     },
+     "tips": [
+      "Fischiano? Inclina il pattino in modo che la parte davanti tocchi il cerchio [[1 mm]] prima di quella dietro.",
+      "Cavo sfilacciato o arrugginito: cambialo, costa poco e il freno torna morbido.",
+      "Freni a disco idraulici (tubo, niente cavo): non aprirli, porta la bici dal ciclista."
+     ]
+    },
+    "en": {
+     "title": "Adjust bike brakes",
+     "intro": "Spongy or rubbing brakes? Tune them with the barrel adjuster and realign the pads on the rim.",
+     "tools": [
+      "Allen keys",
+      "Phillips screwdriver"
+     ],
+     "mats": [
+      "Cloth",
+      "New brake pads (if worn)"
+     ],
+     "steps": [
+      "Stand the bike securely, on a stand or upside down, and spin the wheel: the rim should run straight.",
+      "Look at the pads: if the grooves are gone or you've reached the wear line, they need replacing.",
+      "Wipe the rim's braking surface and the pads with the cloth, picking out any grit or metal bits.",
+      "Spongy brake? Turn the barrel adjuster by the lever out one turn at a time until it bites before halfway.",
+      "Adjuster maxed out? Screw it back in, loosen the cable clamp bolt, pull the cable [[2-3 mm]] tighter and retighten.",
+      "Loosen the pad bolt, hold the lever squeezed and set the pad flat on the rim, [[1 mm]] below the top edge. Tighten.",
+      "If one pad rubs, turn the small spring screw on that arm a quarter turn at a time until both gaps match.",
+      "Squeeze the lever hard a few times and spin the wheel: no rubbing, lever clear of the bar, cable not frayed.",
+      "Test at walking pace somewhere quiet, one brake at a time, before you ride normally."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Do the pads still have clearly visible grooves?",
+       "fix": "No: fit new pads of the same type, suited to your rim (alloy or carbon), before carrying on."
+      },
+      "5": {
+       "q": "Does the pad meet the rim fully without touching the tyre?",
+       "fix": "Loosen the bolt again, keep the lever squeezed and line the pad up with the rim before tightening."
+      }
+     },
+     "warns": {
+      "8": "Stay out of traffic until both brakes stop you firmly at walking pace."
+     },
+     "tips": [
+      "Squealing? Angle the pad so its front touches the rim [[1 mm]] before the back (toe-in).",
+      "Frayed or rusty cable: replace it. It's cheap and makes the brake feel light again.",
+      "Hydraulic disc brakes (hose, no cable): don't open them, take the bike to a shop."
+     ]
+    },
+    "fr": {
+     "title": "Régler les freins du vélo",
+     "intro": "Freins mous ou qui frottent ? Règle-les avec la molette et réaligne les patins sur la jante.",
+     "tools": [
+      "Clés Allen",
+      "Tournevis cruciforme"
+     ],
+     "mats": [
+      "Chiffon",
+      "Patins neufs (si usés)"
+     ],
+     "steps": [
+      "Installe le vélo bien stable, sur un pied d'atelier ou à l'envers, et fais tourner la roue : la jante doit tourner droit.",
+      "Regarde les patins : si les rainures ont disparu ou si le témoin d'usure est atteint, change-les.",
+      "Essuie la piste de freinage de la jante et les patins avec le chiffon, retire gravillons et copeaux.",
+      "Frein mou ? Dévisse la molette près du levier d'un tour à la fois, jusqu'à ce qu'il freine avant mi-course.",
+      "Molette en butée ? Revisse-la, desserre la vis du câble, tends le câble de [[2-3 mm]] et resserre.",
+      "Desserre la vis du patin, garde le levier serré et pose le patin à plat sur la jante, [[1 mm]] sous le bord. Serre.",
+      "Si un patin frotte, tourne la petite vis de ressort de ce bras d'un quart de tour, jusqu'à avoir le même écart des deux côtés.",
+      "Serre fort le levier plusieurs fois et fais tourner la roue : aucun frottement, levier loin du guidon, câble non effiloché.",
+      "Essaie au pas dans un endroit calme, un frein après l'autre, avant de rouler normalement."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Les patins ont-ils encore des rainures bien visibles ?",
+       "fix": "Non : monte des patins neufs du même type, adaptés à ta jante (alu ou carbone), avant de continuer."
+      },
+      "5": {
+       "q": "Le patin touche-t-il toute la jante sans toucher le pneu ?",
+       "fix": "Desserre à nouveau, garde le levier serré et aligne le patin sur la jante avant de resserrer."
+      }
+     },
+     "warns": {
+      "8": "Ne va pas dans la circulation tant que les deux freins ne t'arrêtent pas net au pas."
+     },
+     "tips": [
+      "Ça couine ? Incline le patin pour que l'avant touche la jante [[1 mm]] avant l'arrière.",
+      "Câble effiloché ou rouillé : remplace-le, ça coûte peu et le frein redevient doux.",
+      "Freins à disque hydrauliques (durite, pas de câble) : ne les ouvre pas, passe chez un vélociste."
+     ]
+    },
+    "es": {
+     "title": "Ajustar los frenos de la bici",
+     "intro": "¿Frenos blandos o que rozan? Los tensas con el tensor y realineas las zapatas en la llanta.",
+     "tools": [
+      "Llaves Allen",
+      "Destornillador de estrella"
+     ],
+     "mats": [
+      "Trapo",
+      "Zapatas nuevas (si están gastadas)"
+     ],
+     "steps": [
+      "Deja la bici estable, en un caballete o del revés, y gira la rueda: la llanta debe girar recta.",
+      "Mira las zapatas: si ya no tienen ranuras o llegan a la marca de desgaste, toca cambiarlas.",
+      "Limpia con el trapo la pista de frenado de la llanta y las zapatas, quitando piedrecitas y virutas.",
+      "¿Freno blando? Afloja el tensor junto a la maneta una vuelta cada vez, hasta que frene antes de media carrera.",
+      "¿Tensor al tope? Vuelve a enroscarlo, afloja el tornillo del cable, tensa [[2-3 mm]] y aprieta de nuevo.",
+      "Afloja el tornillo de la zapata, aprieta la maneta y apóyala plana en la llanta, [[1 mm]] bajo el borde. Aprieta.",
+      "Si una zapata roza, gira el tornillito del muelle de ese brazo un cuarto de vuelta, hasta igualar las dos holguras.",
+      "Aprieta fuerte la maneta varias veces y gira la rueda: sin roces, la maneta no toca el manillar, cable sin deshilachar.",
+      "Prueba al paso en un sitio tranquilo, un freno cada vez, antes de circular con normalidad."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "¿Las zapatas aún tienen las ranuras bien visibles?",
+       "fix": "No: pon zapatas nuevas del mismo tipo, adecuadas a tu llanta (aluminio o carbono), antes de seguir."
+      },
+      "5": {
+       "q": "¿La zapata apoya entera en la llanta sin tocar la cubierta?",
+       "fix": "Afloja otra vez, mantén la maneta apretada y alinea la zapata con la llanta antes de apretar."
+      }
+     },
+     "warns": {
+      "8": "No salgas al tráfico hasta que los dos frenos te paren bien al paso."
+     },
+     "tips": [
+      "¿Chirrían? Inclina la zapata para que la parte delantera toque la llanta [[1 mm]] antes que la trasera.",
+      "Cable deshilachado u oxidado: cámbialo, cuesta poco y el freno vuelve a ir suave.",
+      "Frenos de disco hidráulicos (latiguillo, sin cable): no los abras, llévala a un taller de bicis."
+     ]
+    },
+    "de": {
+     "title": "Fahrradbremse einstellen",
+     "intro": "Bremse zu weich oder schleift sie? Mit der Stellschraube nachstellen und Beläge neu ausrichten.",
+     "tools": [
+      "Innensechskantschlüssel",
+      "Kreuzschlitzschraubendreher"
+     ],
+     "mats": [
+      "Lappen",
+      "Neue Bremsbeläge (falls abgenutzt)"
+     ],
+     "steps": [
+      "Stell das Rad sicher hin, in einen Montageständer oder kopfüber, und dreh das Laufrad: Die Felge muss gerade laufen.",
+      "Schau dir die Beläge an: Sind die Rillen weg oder ist die Verschleißmarke erreicht, müssen neue her.",
+      "Wisch Bremsflanke und Beläge mit dem Lappen ab und kratz Steinchen oder Metallspäne raus.",
+      "Bremse zu weich? Dreh die Stellschraube am Hebel je eine Umdrehung raus, bis sie vor halbem Hebelweg greift.",
+      "Stellschraube am Ende? Wieder reindrehen, Klemmschraube am Zug lösen, Zug [[2-3 mm]] straffen, festziehen.",
+      "Belagschraube lösen, Hebel gezogen halten, Belag plan an die Felge, [[1 mm]] unter der Kante. Festziehen.",
+      "Schleift ein Belag, dreh die kleine Federschraube an diesem Arm je eine Vierteldrehung, bis beide Abstände gleich sind.",
+      "Zieh den Hebel mehrmals kräftig und dreh das Rad: kein Schleifen, Hebel nicht am Lenker, Zug nicht ausgefranst.",
+      "Teste im Schritttempo an einer ruhigen Stelle, jede Bremse einzeln, bevor du normal fährst."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Haben die Beläge noch gut sichtbare Rillen?",
+       "fix": "Nein: Bau neue Beläge gleichen Typs ein, passend zur Felge (Alu oder Carbon), bevor du weitermachst."
+      },
+      "5": {
+       "q": "Liegt der Belag voll auf der Felge, ohne den Reifen zu berühren?",
+       "fix": "Schraube wieder lösen, Hebel gezogen halten, Belag an der Felge ausrichten und dann festziehen."
+      }
+     },
+     "warns": {
+      "8": "Fahr erst in den Verkehr, wenn dich beide Bremsen im Schritttempo sicher stoppen."
+     },
+     "tips": [
+      "Quietscht es? Stell den Belag so, dass er vorne [[1 mm]] früher an der Felge ist als hinten (Vorspur).",
+      "Zug ausgefranst oder rostig: tauschen. Kostet wenig und die Bremse geht wieder leicht.",
+      "Hydraulische Scheibenbremsen (Leitung statt Zug): nicht öffnen, ab in die Fahrradwerkstatt."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pressione-gomme-auto",
+   "cat": "veicoli",
+   "diff": 1,
+   "active": 15,
+   "total": 15,
+   "risk": 1,
+   "topic": "vehicle",
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "tyre-pressure-gauge"
+    },
+    {
+     "k": "tyre-inflator"
+    }
+   ],
+   "mats": [],
+   "steps": [
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "loosen"
+    },
+    {
+     "ic": "measure"
+    },
+    {
+     "ic": "air",
+     "check": true,
+     "warn": 1
+    },
+    {
+     "ic": "tighten"
+    },
+    {
+     "ic": "wheel"
+    },
+    {
+     "ic": "check",
+     "check": true
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Controllare la pressione delle gomme",
+     "intro": "Gomme alla pressione giusta frenano meglio e durano di più: le controlli in un quarto d'ora.",
+     "tools": [
+      "Manometro per pneumatici",
+      "Compressore o gonfiagomme del distributore"
+     ],
+     "mats": [],
+     "steps": [
+      "Misura a gomme fredde: auto ferma da almeno due ore o dopo pochi chilometri fatti piano.",
+      "Trova i valori sull'etichetta nel montante della portiera, nello sportello del carburante o nel manuale.",
+      "Svita il tappino della valvola e mettilo in tasca, così non lo perdi.",
+      "Premi il manometro dritto e deciso sulla valvola: dopo un breve sibilo leggi il valore, per esempio [[2.2 bar]].",
+      "Gonfia a brevi colpi e rimisura finché arrivi al valore. Se sei sopra, premi il pernino della valvola per sfiatare.",
+      "Riavvita il tappino a mano: tiene fuori sporco e umidità.",
+      "Ripeti sulle altre tre gomme e sulla ruota di scorta, se c'è: spesso vuole una pressione più alta.",
+      "Confronta i valori che avevi misurato all'inizio, prima di gonfiare."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "La gomma è arrivata al valore dell'etichetta?",
+       "fix": "Continua a brevi colpi. Anteriori e posteriori possono avere valori diversi: rileggi la riga giusta."
+      },
+      "7": {
+       "q": "Le gomme avevano perso più o meno lo stesso?",
+       "fix": "Se una era molto più bassa o si sgonfia di nuovo in pochi giorni, falla controllare da un gommista."
+      }
+     },
+     "warns": {
+      "4": "Non superare mai la pressione massima scritta sul fianco della gomma."
+     },
+     "tips": [
+      "Con l'auto carica o per lunghi tratti in autostrada usa i valori a pieno carico della tabella.",
+      "Se l'auto ha i sensori di pressione, reimpostali dopo aver gonfiato: guarda il manuale.",
+      "Controlla una volta al mese e prima dei viaggi lunghi: le gomme perdono aria anche da sole."
+     ]
+    },
+    "en": {
+     "title": "Check car tyre pressure",
+     "intro": "Tyres at the right pressure brake better and last longer: checking takes about 15 minutes.",
+     "tools": [
+      "Tyre pressure gauge",
+      "Compressor or forecourt air pump"
+     ],
+     "mats": [],
+     "steps": [
+      "Check with cold tyres: car parked for at least two hours, or driven only a short, gentle distance.",
+      "Find the values on the sticker in the driver's door frame, inside the fuel flap or in the handbook.",
+      "Unscrew the valve cap and put it in your pocket so you don't lose it.",
+      "Press the gauge straight and firmly onto the valve: after a short hiss, read the value, for example [[2.2 bar]].",
+      "Add air in short bursts and recheck until you reach the value. Too high? Press the valve pin to let some out.",
+      "Screw the cap back on by hand: it keeps dirt and moisture out.",
+      "Do the other three tyres, and the spare if you have one: it often needs a higher pressure.",
+      "Compare the readings you took at the start, before adding any air."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Has the tyre reached the value on the sticker?",
+       "fix": "Keep adding in short bursts. Front and rear can differ: read the right line again."
+      },
+      "7": {
+       "q": "Had all the tyres lost roughly the same amount?",
+       "fix": "If one was much lower or goes down again within days, have a tyre shop check it for a puncture."
+      }
+     },
+     "warns": {
+      "4": "Never go above the maximum pressure printed on the tyre sidewall."
+     },
+     "tips": [
+      "With a fully loaded car or for long motorway trips, use the full-load values from the table.",
+      "If your car has tyre pressure sensors, reset them after inflating: see the handbook.",
+      "Check once a month and before long trips: tyres slowly lose air on their own."
+     ]
+    },
+    "fr": {
+     "title": "Vérifier la pression des pneus",
+     "intro": "Des pneus bien gonflés freinent mieux et durent plus : tu les contrôles en un quart d'heure.",
+     "tools": [
+      "Manomètre pour pneus",
+      "Compresseur ou gonfleur de station"
+     ],
+     "mats": [],
+     "steps": [
+      "Mesure à froid : voiture à l'arrêt depuis au moins deux heures, ou après quelques kilomètres tranquilles.",
+      "Trouve les valeurs sur l'étiquette dans l'encadrement de portière, dans la trappe à carburant ou dans le manuel.",
+      "Dévisse le bouchon de valve et mets-le dans ta poche pour ne pas le perdre.",
+      "Appuie le manomètre bien droit sur la valve : après un bref sifflement, lis la valeur, par exemple [[2.2 bar]].",
+      "Gonfle par petites pressions et remesure jusqu'à la valeur. Trop haut ? Appuie sur le picot de la valve pour dégonfler.",
+      "Revisse le bouchon à la main : il protège la valve de la saleté et de l'humidité.",
+      "Fais les trois autres pneus, et la roue de secours s'il y en a une : elle demande souvent plus de pression.",
+      "Compare les valeurs mesurées au début, avant de regonfler."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Le pneu a-t-il atteint la valeur de l'étiquette ?",
+       "fix": "Continue par petites pressions. L'avant et l'arrière peuvent différer : relis la bonne ligne."
+      },
+      "7": {
+       "q": "Les pneus avaient-ils perdu à peu près la même chose ?",
+       "fix": "Si l'un était bien plus bas ou se dégonfle à nouveau en quelques jours, fais-le vérifier par un pneumaticien."
+      }
+     },
+     "warns": {
+      "4": "Ne dépasse jamais la pression maximale inscrite sur le flanc du pneu."
+     },
+     "tips": [
+      "Voiture chargée ou long trajet sur autoroute : prends les valeurs « pleine charge » du tableau.",
+      "Si ta voiture a des capteurs de pression, réinitialise-les après le gonflage : vois le manuel.",
+      "Contrôle une fois par mois et avant les longs trajets : les pneus perdent de l'air tout seuls."
+     ]
+    },
+    "es": {
+     "title": "Revisar la presión de los neumáticos",
+     "intro": "Con la presión correcta el coche frena mejor y las ruedas duran más: lo revisas en 15 minutos.",
+     "tools": [
+      "Manómetro de neumáticos",
+      "Compresor o inflador de la gasolinera"
+     ],
+     "mats": [],
+     "steps": [
+      "Mide en frío: coche parado al menos dos horas o tras pocos kilómetros a ritmo suave.",
+      "Busca los valores en la pegatina del marco de la puerta, en la tapa del depósito o en el manual.",
+      "Desenrosca el tapón de la válvula y guárdalo en el bolsillo para no perderlo.",
+      "Aprieta el manómetro recto y firme sobre la válvula: tras un breve silbido, lee el valor, por ejemplo [[2.2 bar]].",
+      "Infla a golpes cortos y vuelve a medir hasta llegar al valor. ¿Te pasas? Pulsa el pivote de la válvula para soltar aire.",
+      "Enrosca el tapón a mano: evita que entre suciedad y humedad.",
+      "Repite en las otras tres ruedas y en la de repuesto si la llevas: suele pedir más presión.",
+      "Compara las medidas que tomaste al principio, antes de inflar."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "¿La rueda ha llegado al valor de la pegatina?",
+       "fix": "Sigue a golpes cortos. Delanteras y traseras pueden llevar valores distintos: vuelve a leer la fila correcta."
+      },
+      "7": {
+       "q": "¿Habían perdido las ruedas más o menos lo mismo?",
+       "fix": "Si una estaba mucho más baja o vuelve a perder en pocos días, que la revisen en un taller de neumáticos."
+      }
+     },
+     "warns": {
+      "4": "No pases nunca de la presión máxima que pone en el lateral del neumático."
+     },
+     "tips": [
+      "Con el coche cargado o para viajes largos por autopista, usa los valores a plena carga de la tabla.",
+      "Si tu coche tiene sensores de presión, reinícialos después de inflar: mira el manual.",
+      "Revisa una vez al mes y antes de viajes largos: los neumáticos pierden aire solos."
+     ]
+    },
+    "de": {
+     "title": "Reifendruck prüfen",
+     "intro": "Mit richtigem Reifendruck bremst das Auto besser und die Reifen halten länger. Dauert 15 Minuten.",
+     "tools": [
+      "Reifendruckprüfer",
+      "Kompressor oder Luftsäule an der Tankstelle"
+     ],
+     "mats": [],
+     "steps": [
+      "Miss bei kalten Reifen: Auto mindestens zwei Stunden gestanden oder nur ein paar Kilometer gemütlich gefahren.",
+      "Die Sollwerte stehen auf dem Aufkleber im Türrahmen, in der Tankklappe oder in der Betriebsanleitung.",
+      "Schraub die Ventilkappe ab und steck sie ein, damit sie nicht verloren geht.",
+      "Drück den Prüfer gerade und fest aufs Ventil: Nach kurzem Zischen den Wert ablesen, zum Beispiel [[2.2 bar]].",
+      "Füll in kurzen Stößen nach und miss neu, bis der Wert stimmt. Zu viel? Auf den Ventilstift drücken und ablassen.",
+      "Schraub die Kappe von Hand wieder drauf: Sie hält Schmutz und Feuchtigkeit fern.",
+      "Mach das an den anderen drei Reifen und am Reserverad, falls vorhanden: Es braucht oft mehr Druck.",
+      "Vergleich die Werte, die du ganz am Anfang vor dem Befüllen gemessen hast."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Hat der Reifen den Wert vom Aufkleber erreicht?",
+       "fix": "Weiter in kurzen Stößen füllen. Vorne und hinten können abweichen: die richtige Zeile nochmal lesen."
+      },
+      "7": {
+       "q": "Hatten die Reifen ungefähr gleich viel verloren?",
+       "fix": "War einer deutlich niedriger oder verliert er in wenigen Tagen wieder Luft, lass ihn in der Reifenwerkstatt prüfen."
+      }
+     },
+     "warns": {
+      "4": "Nie über den Maximaldruck gehen, der auf der Reifenflanke steht."
+     },
+     "tips": [
+      "Voll beladen oder für lange Autobahnfahrten nimm die Werte für volle Beladung aus der Tabelle.",
+      "Hat dein Auto Reifendrucksensoren, setz sie nach dem Befüllen zurück: siehe Betriebsanleitung.",
+      "Prüf einmal im Monat und vor langen Fahrten: Reifen verlieren auch von allein langsam Luft."
+     ]
+    }
+   }
+  },
+  {
+   "id": "livello-olio-auto",
+   "cat": "veicoli",
+   "diff": 1,
+   "active": 10,
+   "total": 25,
+   "risk": 1,
+   "topic": "vehicle",
+   "allow": {},
+   "ppe": [
+    "gloves"
+   ],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "funnel"
+    }
+   ],
+   "mats": [
+    {
+     "k": "engine-oil",
+     "q": 1,
+     "u": "l"
+    },
+    {
+     "k": "cloth",
+     "q": 1,
+     "u": "",
+     "own": true
+    }
+   ],
+   "steps": [
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "power-off",
+     "timer": 600,
+     "warn": 1
+    },
+    {
+     "ic": "lift"
+    },
+    {
+     "ic": "pull"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "look",
+     "check": true
+    },
+    {
+     "ic": "loosen"
+    },
+    {
+     "ic": "oil"
+    },
+    {
+     "ic": "wait",
+     "timer": 120
+    },
+    {
+     "ic": "check",
+     "check": true
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Controllare l'olio motore",
+     "intro": "Una volta al mese o prima di un viaggio: controlli il livello dell'olio e rabbocchi se serve.",
+     "tools": [
+      "Imbuto"
+     ],
+     "mats": [
+      "Olio motore del tipo indicato",
+      "Panno o carta assorbente"
+     ],
+     "steps": [
+      "Parcheggia in piano: con l'auto inclinata la lettura sull'astina è sbagliata.",
+      "Spegni il motore e aspetta una decina di minuti: l'olio torna giù nella coppa.",
+      "Apri il cofano, fissalo con l'asta e trova l'astina dell'olio: di solito ha l'impugnatura gialla o arancione.",
+      "Sfila l'astina e puliscila bene con il panno.",
+      "Rimettila dentro fino in fondo, poi sfilala di nuovo tenendo la punta verso il basso.",
+      "Leggi dove arriva l'olio: deve stare tra la tacca MIN e la tacca MAX, meglio vicino al MAX.",
+      "Se serve rabboccare, svita il tappo di riempimento in cima al motore, quello col simbolo dell'oliatore.",
+      "Versa con l'imbuto l'olio indicato sul manuale, poco alla volta: circa [[200 ml]] per volta.",
+      "Aspetta un paio di minuti che l'olio scenda, poi ricontrolla con l'astina pulita.",
+      "Fermati poco sotto il MAX, poi richiudi bene il tappo e rimetti l'astina fino in fondo."
+     ],
+     "labels": [
+      "",
+      "Motore fermo",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Discesa olio",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Il livello è tra MIN e MAX?",
+       "fix": "Sotto il MIN: rabbocca con i passi seguenti. Sopra il MAX: niente viaggi lunghi e fallo scaricare da un meccanico."
+      },
+      "9": {
+       "q": "Il livello è vicino al MAX senza superarlo?",
+       "fix": "Se è ancora basso aggiungi poco alla volta. Se hai superato il MAX, fai togliere l'eccesso da un meccanico."
+      }
+     },
+     "warns": {
+      "1": "Collettore, radiatore e scarico scottano: non toccarli. La ventola può partire da sola."
+     },
+     "tips": [
+      "Molte auto recenti non hanno l'astina: il livello si legge dal menu del cruscotto, vedi il manuale.",
+      "Se devi aggiungere più di [[1 l]] ogni mille chilometri, fai controllare il motore da un meccanico.",
+      "Olio lattiginoso, color caffellatte, sull'astina o sul tappo: non guidare e chiama un meccanico."
+     ]
+    },
+    "en": {
+     "title": "Check engine oil level",
+     "intro": "Once a month or before a trip: check the engine oil level and top it up if needed.",
+     "tools": [
+      "Funnel"
+     ],
+     "mats": [
+      "Engine oil of the right grade",
+      "Cloth or kitchen roll"
+     ],
+     "steps": [
+      "Park on level ground: if the car is tilted, the dipstick reading will be wrong.",
+      "Switch the engine off and wait about ten minutes so the oil drains back into the sump.",
+      "Open the bonnet, prop it on its stay and find the dipstick: usually a yellow or orange handle.",
+      "Pull the dipstick out and wipe it clean with the cloth.",
+      "Push it all the way back in, then pull it out again, keeping the tip pointing down.",
+      "Read where the oil reaches: it should be between the MIN and MAX marks, ideally near MAX.",
+      "If you need to top up, unscrew the filler cap on top of the engine, the one with the oil can symbol.",
+      "Pour in the oil grade from the handbook through the funnel, a little at a time: about [[200 ml]] per go.",
+      "Wait a couple of minutes for the oil to run down, then check again with the clean dipstick.",
+      "Stop just below MAX, then screw the cap on firmly and push the dipstick fully home."
+     ],
+     "labels": [
+      "",
+      "Engine off",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Oil settling",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Is the level between MIN and MAX?",
+       "fix": "Below MIN: top up with the next steps. Above MAX: avoid long drives and have a mechanic drain the excess."
+      },
+      "9": {
+       "q": "Is the level near MAX without going over?",
+       "fix": "Still low: add a little more at a time. Over MAX: have a mechanic take the excess out."
+      }
+     },
+     "warns": {
+      "1": "Manifold, radiator and exhaust stay hot: don't touch them. The fan can start on its own."
+     },
+     "tips": [
+      "Many newer cars have no dipstick: read the level in the dashboard menu, see the handbook.",
+      "If you're adding more than [[1 l]] every thousand kilometres, have a mechanic look at the engine.",
+      "Milky, coffee-coloured oil on the dipstick or cap: don't drive, call a mechanic."
+     ]
+    },
+    "fr": {
+     "title": "Vérifier le niveau d'huile moteur",
+     "intro": "Une fois par mois ou avant un voyage : contrôle le niveau d'huile et fais l'appoint si besoin.",
+     "tools": [
+      "Entonnoir"
+     ],
+     "mats": [
+      "Huile moteur du bon type",
+      "Chiffon ou essuie-tout"
+     ],
+     "steps": [
+      "Gare-toi sur un sol plat : si la voiture penche, la lecture de la jauge sera fausse.",
+      "Coupe le moteur et attends une dizaine de minutes que l'huile redescende dans le carter.",
+      "Ouvre le capot, cale-le avec la béquille et repère la jauge : poignée souvent jaune ou orange.",
+      "Sors la jauge et essuie-la bien avec le chiffon.",
+      "Renfonce-la jusqu'au bout, puis ressors-la en gardant la pointe vers le bas.",
+      "Regarde où arrive l'huile : entre les repères MIN et MAX, idéalement près du MAX.",
+      "S'il faut faire l'appoint, dévisse le bouchon de remplissage sur le moteur, celui avec le symbole de burette.",
+      "Verse avec l'entonnoir l'huile indiquée dans le manuel, petit à petit : environ [[200 ml]] à la fois.",
+      "Attends quelques minutes que l'huile descende, puis recontrôle avec la jauge essuyée.",
+      "Arrête-toi juste sous le MAX, revisse bien le bouchon et renfonce la jauge à fond."
+     ],
+     "labels": [
+      "",
+      "Moteur coupé",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Écoulement",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Le niveau est-il entre MIN et MAX ?",
+       "fix": "Sous le MIN : fais l'appoint avec les étapes suivantes. Au-dessus du MAX : pas de long trajet, fais retirer l'excès."
+      },
+      "9": {
+       "q": "Le niveau est-il près du MAX sans le dépasser ?",
+       "fix": "Encore bas : rajoute un peu à la fois. Au-dessus du MAX : fais retirer l'excès par un garagiste."
+      }
+     },
+     "warns": {
+      "1": "Collecteur, radiateur et échappement brûlent : n'y touche pas. Le ventilateur peut démarrer seul."
+     },
+     "tips": [
+      "Beaucoup de voitures récentes n'ont pas de jauge : le niveau s'affiche au tableau de bord, vois le manuel.",
+      "Si tu rajoutes plus de [[1 l]] tous les mille kilomètres, fais contrôler le moteur par un garagiste.",
+      "Huile laiteuse, couleur café au lait, sur la jauge ou le bouchon : ne roule pas, appelle un garagiste."
+     ]
+    },
+    "es": {
+     "title": "Revisar el nivel de aceite del coche",
+     "intro": "Una vez al mes o antes de un viaje: revisas el nivel de aceite y rellenas si hace falta.",
+     "tools": [
+      "Embudo"
+     ],
+     "mats": [
+      "Aceite de motor del tipo indicado",
+      "Trapo o papel de cocina"
+     ],
+     "steps": [
+      "Aparca en llano: si el coche está inclinado, la varilla marcará mal.",
+      "Apaga el motor y espera unos diez minutos a que el aceite baje al cárter.",
+      "Abre el capó, sujétalo con su soporte y busca la varilla del aceite: suele tener el asa amarilla o naranja.",
+      "Saca la varilla y límpiala bien con el trapo.",
+      "Vuelve a meterla hasta el fondo y sácala otra vez, con la punta hacia abajo.",
+      "Mira hasta dónde llega el aceite: debe estar entre las marcas MIN y MAX, mejor cerca del MAX.",
+      "Si hay que rellenar, desenrosca el tapón de llenado de arriba del motor, el del símbolo de la aceitera.",
+      "Echa con el embudo el aceite que indica el manual, poco a poco: unos [[200 ml]] cada vez.",
+      "Espera un par de minutos a que el aceite baje y vuelve a mirar con la varilla limpia.",
+      "Para justo por debajo del MAX, cierra bien el tapón y mete la varilla hasta el fondo."
+     ],
+     "labels": [
+      "",
+      "Motor parado",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Bajada aceite",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "¿El nivel está entre MIN y MAX?",
+       "fix": "Por debajo del MIN: rellena con los pasos siguientes. Por encima del MAX: evita viajes largos y que un mecánico lo vacíe."
+      },
+      "9": {
+       "q": "¿El nivel está cerca del MAX sin pasarlo?",
+       "fix": "Si sigue bajo, añade un poco más cada vez. Si te has pasado del MAX, que un mecánico quite el exceso."
+      }
+     },
+     "warns": {
+      "1": "Colector, radiador y escape queman: no los toques. El ventilador puede arrancar solo."
+     },
+     "tips": [
+      "Muchos coches nuevos no tienen varilla: el nivel se ve en el menú del cuadro, mira el manual.",
+      "Si tienes que añadir más de [[1 l]] cada mil kilómetros, que un mecánico revise el motor.",
+      "Aceite lechoso, color café con leche, en la varilla o el tapón: no conduzcas y llama a un mecánico."
+     ]
+    },
+    "de": {
+     "title": "Ölstand im Auto prüfen",
+     "intro": "Einmal im Monat oder vor einer Reise: Ölstand prüfen und bei Bedarf nachfüllen.",
+     "tools": [
+      "Trichter"
+     ],
+     "mats": [
+      "Motoröl nach Herstellervorgabe",
+      "Lappen oder Küchenpapier"
+     ],
+     "steps": [
+      "Park auf ebenem Boden: Steht das Auto schräg, zeigt der Messstab falsch an.",
+      "Stell den Motor ab und warte rund zehn Minuten, bis das Öl in die Ölwanne zurückgelaufen ist.",
+      "Öffne die Motorhaube, stütz sie ab und such den Ölmessstab: meist mit gelbem oder orangem Griff.",
+      "Zieh den Messstab raus und wisch ihn mit dem Lappen sauber.",
+      "Steck ihn ganz wieder rein und zieh ihn erneut raus, die Spitze nach unten.",
+      "Lies ab, wo das Öl steht: zwischen MIN- und MAX-Marke, am besten nah an MAX.",
+      "Musst du nachfüllen, schraub den Öleinfülldeckel oben am Motor ab, den mit dem Ölkannen-Symbol.",
+      "Füll mit dem Trichter das Öl aus der Betriebsanleitung nach, in kleinen Mengen: etwa [[200 ml]] pro Mal.",
+      "Warte ein paar Minuten, bis das Öl unten ist, und prüf dann mit dem sauberen Messstab nach.",
+      "Hör knapp unter MAX auf, schraub den Deckel fest zu und steck den Messstab ganz rein."
+     ],
+     "labels": [
+      "",
+      "Motor aus",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Öl läuft ab",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Liegt der Ölstand zwischen MIN und MAX?",
+       "fix": "Unter MIN: mit den nächsten Schritten nachfüllen. Über MAX: keine langen Fahrten, Überschuss in der Werkstatt ablassen."
+      },
+      "9": {
+       "q": "Steht das Öl nah an MAX, aber nicht darüber?",
+       "fix": "Noch zu wenig: in kleinen Mengen nachfüllen. Über MAX: den Überschuss in der Werkstatt absaugen lassen."
+      }
+     },
+     "warns": {
+      "1": "Krümmer, Kühler und Auspuff sind heiß: nicht anfassen. Der Lüfter kann von selbst anlaufen."
+     },
+     "tips": [
+      "Viele neue Autos haben keinen Messstab: Der Ölstand steht im Bordmenü, siehe Betriebsanleitung.",
+      "Musst du mehr als [[1 l]] pro tausend Kilometer nachfüllen, lass den Motor in der Werkstatt prüfen.",
+      "Milchiges, milchkaffeefarbenes Öl am Messstab oder Deckel: nicht fahren, Werkstatt anrufen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "montare-catene-neve",
+   "cat": "veicoli",
+   "diff": 2,
+   "active": 20,
+   "total": 30,
+   "risk": 1,
+   "topic": "vehicle",
+   "allow": {},
+   "ppe": [
+    "gloves"
+   ],
+   "tags": [],
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "tools": [
+    {
+     "k": "hi-vis-vest",
+     "own": true
+    },
+    {
+     "k": "torch",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "snow-chains",
+     "q": 1,
+     "u": ""
+    }
+   ],
+   "steps": [
+    {
+     "ic": "check"
+    },
+    {
+     "ic": "look",
+     "warn": 2
+    },
+    {
+     "ic": "look"
+    },
+    {
+     "ic": "box"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "hand"
+    },
+    {
+     "ic": "wheel"
+    },
+    {
+     "ic": "tighten"
+    },
+    {
+     "ic": "check",
+     "check": true
+    },
+    {
+     "ic": "wheel"
+    },
+    {
+     "ic": "tighten",
+     "check": true
+    },
+    {
+     "ic": "wheel",
+     "warn": 1
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Montare le catene da neve",
+     "intro": "Quando la strada diventa bianca: monti le catene sulle ruote motrici in pochi minuti.",
+     "tools": [
+      "Gilet catarifrangente",
+      "Torcia"
+     ],
+     "mats": [
+      "Catene da neve della misura giusta"
+     ],
+     "steps": [
+      "Fai una prova a casa sull'asciutto e controlla che la misura delle catene sia quella scritta sul fianco della gomma.",
+      "Fermati in un posto sicuro fuori dalla carreggiata: quattro frecce, freno a mano, motore spento, gilet addosso.",
+      "Trova le ruote motrici: di solito le anteriori. Con trazione posteriore o 4x4 guarda il manuale.",
+      "Srotola la catena e stendila a terra senza nodi né maglie attorcigliate.",
+      "Appoggia la catena dietro e sopra la gomma, cavo verso l'interno, e chiudi il cavo in basso dietro la ruota.",
+      "Tira la catena sulla parte davanti della gomma e aggancia le estremità esterne più in alto che puoi.",
+      "Sali in auto e avanza piano di circa [[1 m]]: la parte rimasta sotto la gomma si libera.",
+      "Aggancia la parte che mancava e tendi la catena con il tenditore finché aderisce bene alla gomma.",
+      "Guarda tutto il giro: la catena deve stare centrata sul battistrada, senza maglie girate e con i ganci chiusi.",
+      "Ripeti allo stesso modo sull'altra ruota motrice.",
+      "Dopo [[200-300 m]] fermati di nuovo in sicurezza e ritensiona: la catena si assesta e si allenta.",
+      "Guida dolce, al massimo a 50 km/h o alla velocità sulla confezione, e toglile appena la strada è pulita."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "8": {
+       "q": "La catena è centrata, senza maglie girate e con i ganci chiusi?",
+       "fix": "Allenta, raddrizza il tratto attorcigliato e riaggancia: la catena deve stare uniforme su tutto il giro."
+      },
+      "10": {
+       "q": "La catena è ancora ben tesa dopo qualche centinaio di metri?",
+       "fix": "Tendila ancora dal tenditore. Se continua ad allentarsi, controlla che sia della misura giusta per la gomma."
+      }
+     },
+     "warns": {
+      "1": "Mai sul bordo della corsia: sulla neve le auto non frenano in tempo. Cerca una piazzola o un parcheggio.",
+      "11": "Sull'asfalto pulito le catene si rompono e rovinano gomme e strada: toglile subito."
+     },
+     "tips": [
+      "Tieni nel kit guanti, torcia e un sacchetto da mettere sotto le ginocchia: sulla neve aiuta molto.",
+      "Alcune auto accettano solo catene a basso spessore ([[9 mm]]) o calze da neve: controlla il manuale.",
+      "Dopo l'uso sciacquale con acqua tiepida e falle asciugare prima di riporle: così non arrugginiscono."
+     ]
+    },
+    "en": {
+     "title": "Fit snow chains",
+     "intro": "When the road turns white: fit chains on the drive wheels in a few minutes, calmly.",
+     "tools": [
+      "Hi-vis vest",
+      "Torch"
+     ],
+     "mats": [
+      "Snow chains in the right size"
+     ],
+     "steps": [
+      "Do a practice run at home on dry ground and check the chain size matches the size on the tyre sidewall.",
+      "Stop somewhere safe off the road: hazard lights on, handbrake on, engine off, hi-vis vest on.",
+      "Find the drive wheels: usually the front ones. For rear-wheel drive or 4x4, check the handbook.",
+      "Unroll the chain and lay it flat on the ground, with no knots or twisted links.",
+      "Drape the chain behind and over the tyre, cable on the inside, and close the cable low down behind the wheel.",
+      "Pull the chain over the front of the tyre and hook the outer ends together as high up as you can.",
+      "Get in and drive forward slowly about [[1 m]]: the part that was under the tyre comes free.",
+      "Hook up the missing section and tighten with the tensioner until the chain hugs the tyre.",
+      "Check all the way round: chain centred on the tread, no twisted links, all hooks closed.",
+      "Do the other drive wheel the same way.",
+      "After [[200-300 m]], stop safely again and retighten: the chain settles and goes slack.",
+      "Drive gently, no faster than 50 km/h or the speed on the pack, and take them off once the road is clear."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "8": {
+       "q": "Is the chain centred, with no twisted links and all hooks closed?",
+       "fix": "Loosen it, straighten the twisted part and hook up again: it must sit evenly all the way round."
+      },
+      "10": {
+       "q": "Is the chain still tight after a few hundred metres?",
+       "fix": "Tighten it again at the tensioner. If it keeps loosening, check it's the right size for the tyre."
+      }
+     },
+     "warns": {
+      "1": "Never at the edge of the lane: cars can't stop in time on snow. Find a lay-by or car park.",
+      "11": "On clear tarmac chains break and damage tyres and road: take them off straight away."
+     },
+     "tips": [
+      "Keep gloves, a torch and a bag to kneel on with the chains: it makes a big difference in the snow.",
+      "Some cars only take low-profile chains ([[9 mm]]) or snow socks: check the handbook.",
+      "After use, rinse them in lukewarm water and let them dry before packing away, so they don't rust."
+     ]
+    },
+    "fr": {
+     "title": "Monter des chaînes à neige",
+     "intro": "Quand la route devient blanche : monte les chaînes sur les roues motrices en quelques minutes.",
+     "tools": [
+      "Gilet jaune",
+      "Lampe torche"
+     ],
+     "mats": [
+      "Chaînes à neige à la bonne taille"
+     ],
+     "steps": [
+      "Fais un essai à la maison au sec et vérifie que la taille des chaînes correspond à celle sur le flanc du pneu.",
+      "Arrête-toi dans un endroit sûr hors de la chaussée : warnings, frein à main, moteur coupé, gilet jaune sur toi.",
+      "Repère les roues motrices : en général à l'avant. Propulsion ou 4x4 : regarde le manuel.",
+      "Déroule la chaîne et étale-la par terre, sans nœuds ni maillons vrillés.",
+      "Pose la chaîne derrière et sur le pneu, câble côté intérieur, et ferme le câble en bas derrière la roue.",
+      "Ramène la chaîne sur l'avant du pneu et accroche les extrémités extérieures le plus haut possible.",
+      "Monte dans la voiture et avance doucement d'environ [[1 m]] : la partie coincée sous le pneu se libère.",
+      "Accroche la partie qui manquait et tends la chaîne avec le tendeur jusqu'à ce qu'elle épouse le pneu.",
+      "Fais le tour : chaîne centrée sur la bande de roulement, aucun maillon vrillé, tous les crochets fermés.",
+      "Fais pareil sur l'autre roue motrice.",
+      "Après [[200-300 m]], arrête-toi en sécurité et retends : la chaîne se met en place et se détend.",
+      "Roule en douceur, à 50 km/h maximum ou à la vitesse indiquée sur la boîte, et enlève-les dès que la route est dégagée."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "8": {
+       "q": "La chaîne est-elle centrée, sans maillon vrillé, crochets fermés ?",
+       "fix": "Desserre, redresse la partie vrillée et raccroche : la chaîne doit être régulière sur tout le tour."
+      },
+      "10": {
+       "q": "La chaîne est-elle encore bien tendue après quelques centaines de mètres ?",
+       "fix": "Retends-la au tendeur. Si elle se détend encore, vérifie qu'elle est à la bonne taille pour le pneu."
+      }
+     },
+     "warns": {
+      "1": "Jamais au bord de la voie : sur la neige, les voitures ne s'arrêtent pas à temps. Cherche une aire.",
+      "11": "Sur route dégagée, les chaînes cassent et abîment pneus et chaussée : enlève-les tout de suite."
+     },
+     "tips": [
+      "Garde avec les chaînes des gants, une lampe et un sac pour t'agenouiller : dans la neige, ça change tout.",
+      "Certaines voitures n'acceptent que des chaînes fines ([[9 mm]]) ou des chaussettes à neige : vois le manuel.",
+      "Après usage, rince-les à l'eau tiède et laisse-les sécher avant de les ranger : elles ne rouillent pas."
+     ]
+    },
+    "es": {
+     "title": "Poner cadenas de nieve",
+     "intro": "Cuando la carretera se pone blanca: pones las cadenas en las ruedas motrices en pocos minutos.",
+     "tools": [
+      "Chaleco reflectante",
+      "Linterna"
+     ],
+     "mats": [
+      "Cadenas de nieve de la medida correcta"
+     ],
+     "steps": [
+      "Haz una prueba en casa en seco y comprueba que la medida de las cadenas coincide con la del lateral del neumático.",
+      "Para en un sitio seguro fuera de la calzada: luces de emergencia, freno de mano, motor apagado y chaleco puesto.",
+      "Busca las ruedas motrices: normalmente las delanteras. Si es propulsión o 4x4, mira el manual.",
+      "Desenrolla la cadena y extiéndela en el suelo, sin nudos ni eslabones retorcidos.",
+      "Apoya la cadena detrás y encima de la rueda, cable hacia dentro, y cierra el cable abajo por detrás.",
+      "Tira de la cadena por la parte delantera de la rueda y engancha los extremos exteriores lo más arriba posible.",
+      "Sube al coche y avanza despacio aproximadamente [[1 m]]: se libera la parte que estaba bajo la rueda.",
+      "Engancha la parte que faltaba y tensa la cadena con el tensor hasta que quede ceñida al neumático.",
+      "Revisa toda la vuelta: cadena centrada en la banda de rodadura, sin eslabones girados y con los ganchos cerrados.",
+      "Repite igual en la otra rueda motriz.",
+      "Tras [[200-300 m]], para otra vez en un sitio seguro y vuelve a tensar: la cadena se asienta y se afloja.",
+      "Conduce suave, como máximo a 50 km/h o a la velocidad del envase, y quítalas en cuanto la carretera esté limpia."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "8": {
+       "q": "¿La cadena está centrada, sin eslabones girados y con los ganchos cerrados?",
+       "fix": "Afloja, endereza el tramo retorcido y vuelve a enganchar: la cadena debe quedar uniforme en toda la vuelta."
+      },
+      "10": {
+       "q": "¿Sigue bien tensa la cadena tras unos cientos de metros?",
+       "fix": "Ténsala más con el tensor. Si se sigue aflojando, comprueba que sea de la medida del neumático."
+      }
+     },
+     "warns": {
+      "1": "Nunca en el borde del carril: en la nieve los coches no frenan a tiempo. Busca un apartadero.",
+      "11": "Sobre asfalto limpio las cadenas se rompen y dañan neumático y carretera: quítalas enseguida."
+     },
+     "tips": [
+      "Lleva con las cadenas guantes, linterna y una bolsa para arrodillarte: en la nieve se agradece mucho.",
+      "Algunos coches solo admiten cadenas finas ([[9 mm]]) o fundas textiles: consulta el manual.",
+      "Después de usarlas, acláralas con agua tibia y déjalas secar antes de guardarlas: así no se oxidan."
+     ]
+    },
+    "de": {
+     "title": "Schneeketten montieren",
+     "intro": "Wenn die Straße weiß wird: Ketten in wenigen Minuten auf die Antriebsräder montieren.",
+     "tools": [
+      "Warnweste",
+      "Taschenlampe"
+     ],
+     "mats": [
+      "Schneeketten in passender Größe"
+     ],
+     "steps": [
+      "Üb einmal zu Hause im Trockenen und prüf, ob die Kettengröße zur Reifengröße auf der Flanke passt.",
+      "Halt an einer sicheren Stelle abseits der Fahrbahn: Warnblinker, Handbremse, Motor aus, Warnweste an.",
+      "Such die Antriebsräder: meist vorne. Bei Hinterrad- oder Allradantrieb steht es in der Betriebsanleitung.",
+      "Roll die Kette aus und leg sie flach auf den Boden, ohne Knoten oder verdrehte Glieder.",
+      "Leg die Kette hinter und über den Reifen, Seil nach innen, und schließ das Seil unten hinter dem Rad.",
+      "Zieh die Kette über die Vorderseite des Reifens und hak die äußeren Enden so weit oben wie möglich ein.",
+      "Steig ein und fahr langsam etwa [[1 m]] vor: Der Teil unter dem Reifen wird frei.",
+      "Hak das fehlende Stück ein und spann die Kette mit dem Spanner, bis sie eng am Reifen anliegt.",
+      "Schau rundum: Kette mittig auf der Lauffläche, keine verdrehten Glieder, alle Haken zu.",
+      "Mach das andere Antriebsrad genauso.",
+      "Halt nach [[200-300 m]] wieder sicher an und spann nach: Die Kette setzt sich und wird locker.",
+      "Fahr sanft, höchstens 50 km/h oder was auf der Packung steht, und nimm sie ab, sobald die Straße frei ist."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "8": {
+       "q": "Liegt die Kette mittig, ohne verdrehte Glieder, alle Haken zu?",
+       "fix": "Lösen, verdrehtes Stück geradeziehen und wieder einhaken: Die Kette muss rundum gleichmäßig liegen."
+      },
+      "10": {
+       "q": "Ist die Kette nach ein paar hundert Metern noch straff?",
+       "fix": "Am Spanner nachspannen. Lockert sie sich immer wieder, prüf, ob die Größe zum Reifen passt."
+      }
+     },
+     "warns": {
+      "1": "Nie am Fahrbahnrand: Auf Schnee können andere nicht rechtzeitig bremsen. Such eine Parkbucht.",
+      "11": "Auf freiem Asphalt reißen Ketten und beschädigen Reifen und Straße: sofort abnehmen."
+     },
+     "tips": [
+      "Pack Handschuhe, Lampe und eine Tüte zum Knien zu den Ketten: Im Schnee hilft das enorm.",
+      "Manche Autos erlauben nur dünne Ketten ([[9 mm]]) oder Schneesocken: Schau in die Betriebsanleitung.",
+      "Nach dem Einsatz mit lauwarmem Wasser abspülen und trocknen lassen, bevor du sie wegpackst: kein Rost."
+     ]
+    }
+   }
+  },
+  {
+   "id": "affilare-lama-tosaerba",
+   "cat": "giardino",
+   "diff": 2,
+   "active": 40,
+   "total": 45,
+   "risk": 2,
+   "topic": "blade",
+   "allow": {},
+   "ppe": [
+    "gloves",
+    "glasses"
+   ],
+   "tags": [],
+   "months": [
+    2,
+    3,
+    4
+   ],
+   "tools": [
+    {
+     "k": "socket-wrench"
+    },
+    {
+     "k": "metal-file"
+    },
+    {
+     "k": "wood-block",
+     "own": true
+    },
+    {
+     "k": "marker-pen",
+     "own": true
+    },
+    {
+     "k": "nail",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "cloth",
+     "q": 1,
+     "u": "",
+     "own": true
+    }
+   ],
+   "steps": [
+    {
+     "ic": "power-off",
+     "warn": 2
+    },
+    {
+     "ic": "lift"
+    },
+    {
+     "ic": "pencil"
+    },
+    {
+     "ic": "hand"
+    },
+    {
+     "ic": "loosen"
+    },
+    {
+     "ic": "look",
+     "check": true
+    },
+    {
+     "ic": "sand"
+    },
+    {
+     "ic": "level",
+     "check": true
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "tighten"
+    },
+    {
+     "ic": "hand"
+    },
+    {
+     "ic": "check"
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Affilare la lama del tosaerba",
+     "intro": "Se l'erba resta strappata invece che tagliata, la lama è da affilare: basta una lima.",
+     "tools": [
+      "Chiave a bussola",
+      "Lima per metalli",
+      "Blocchetto di legno",
+      "Pennarello",
+      "Chiodo"
+     ],
+     "mats": [
+      "Panno"
+     ],
+     "steps": [
+      "Rendi impossibile l'avvio: stacca la pipetta della candela, togli la batteria o stacca la spina.",
+      "Inclina il tosaerba sul fianco con il filtro dell'aria e il carburatore verso l'alto, come dice il manuale.",
+      "Pulisci la lama e segna con il pennarello il lato che guarda a terra, per rimontarla uguale.",
+      "Incastra il blocchetto di legno tra lama e scocca, così la lama non gira.",
+      "Svita il bullone centrale, di solito in senso antiorario, e togli lama e rondelle tenendo l'ordine.",
+      "Guarda la lama controluce: deve essere dritta, senza crepe né tacche profonde.",
+      "Lima il filo seguendo l'angolo originale, dall'interno verso la punta, con lo stesso numero di passate per lato.",
+      "Infila il foro centrale su un chiodo piantato nel muro: la lama deve restare orizzontale.",
+      "Rimonta la lama con il segno verso terra e le rondelle nello stesso ordine di prima.",
+      "Blocca di nuovo la lama col legno e stringi forte il bullone, alla coppia del manuale se è indicata.",
+      "Togli il legno e gira la lama a mano con i guanti: non deve toccare la scocca da nessuna parte.",
+      "Rimetti il tosaerba sulle ruote e solo ora ricollega la candela, la batteria o la spina."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "La lama è dritta e senza crepe?",
+       "fix": "Una lama storta o crepata non si affila: compra quella originale per il tuo modello."
+      },
+      "7": {
+       "q": "La lama resta in equilibrio orizzontale?",
+       "fix": "Il lato che scende pesa di più: lima un po' il dorso di quel lato, non il filo, e riprova."
+      }
+     },
+     "warns": {
+      "0": "Anche girata a mano la lama può far partire il motore: scollega candela, batteria o spina."
+     },
+     "tips": [
+      "Il filo deve tagliare come un coltello da cucina, non come un rasoio: dura di più e non si scheggia.",
+      "Col motore a scoppio fallo a serbatoio quasi vuoto: inclinandolo la benzina non cola.",
+      "Affilala a inizio stagione e controllala subito se colpisci un sasso o una radice."
+     ]
+    },
+    "en": {
+     "title": "Sharpen a lawn mower blade",
+     "intro": "If the grass looks torn rather than cut, the blade needs sharpening: a file does the job.",
+     "tools": [
+      "Socket wrench",
+      "Metal file",
+      "Block of wood",
+      "Marker pen",
+      "Nail"
+     ],
+     "mats": [
+      "Cloth"
+     ],
+     "steps": [
+      "Make starting impossible: pull off the spark plug cap, take out the battery or unplug the mower.",
+      "Tip the mower on its side with the air filter and carburettor facing up, as the manual says.",
+      "Clean the blade and mark the side facing the ground with the marker, so it goes back the same way.",
+      "Wedge the block of wood between the blade and the deck so the blade can't turn.",
+      "Undo the centre bolt, usually anticlockwise, and take off the blade and washers, keeping them in order.",
+      "Hold the blade up to the light: it should be straight, with no cracks or deep nicks.",
+      "File the edge at its original angle, from the inside out to the tip, same number of strokes on each side.",
+      "Hang the centre hole on a nail in the wall: the blade should stay level.",
+      "Refit the blade with the mark facing the ground and the washers in the same order.",
+      "Block the blade with the wood again and tighten the bolt hard, to the torque in the manual if given.",
+      "Remove the wood and turn the blade by hand with gloves on: it mustn't touch the deck anywhere.",
+      "Stand the mower back on its wheels and only now reconnect the spark plug, battery or plug."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Is the blade straight and free of cracks?",
+       "fix": "A bent or cracked blade can't be sharpened: buy the original one for your model."
+      },
+      "7": {
+       "q": "Does the blade hang level?",
+       "fix": "The side that drops is heavier: file a little off the back of that side, not the edge, and try again."
+      }
+     },
+     "warns": {
+      "0": "Even turning the blade by hand can start the engine: disconnect the plug, battery or mains."
+     },
+     "tips": [
+      "The edge should cut like a kitchen knife, not a razor: it lasts longer and won't chip.",
+      "On a petrol mower, do it with the tank nearly empty so no fuel drips out when you tip it.",
+      "Sharpen it at the start of the season and check it right away if you hit a stone or root."
+     ]
+    },
+    "fr": {
+     "title": "Affûter la lame de tondeuse",
+     "intro": "Si l'herbe est arrachée plutôt que coupée, la lame est émoussée : une lime suffit.",
+     "tools": [
+      "Clé à douille",
+      "Lime à métaux",
+      "Cale en bois",
+      "Feutre",
+      "Clou"
+     ],
+     "mats": [
+      "Chiffon"
+     ],
+     "steps": [
+      "Rends le démarrage impossible : retire l'antiparasite de la bougie, enlève la batterie ou débranche.",
+      "Couche la tondeuse sur le côté, filtre à air et carburateur vers le haut, comme l'indique le manuel.",
+      "Nettoie la lame et marque au feutre la face tournée vers le sol, pour la remonter dans le même sens.",
+      "Coince la cale en bois entre la lame et le carter pour que la lame ne tourne pas.",
+      "Dévisse le boulon central, en général vers la gauche, et retire lame et rondelles en gardant l'ordre.",
+      "Regarde la lame à contre-jour : elle doit être droite, sans fissure ni grosse entaille.",
+      "Lime le tranchant en suivant l'angle d'origine, de l'intérieur vers la pointe, autant de passes de chaque côté.",
+      "Enfile le trou central sur un clou planté dans le mur : la lame doit rester à l'horizontale.",
+      "Remonte la lame, repère vers le sol, et les rondelles dans le même ordre qu'avant.",
+      "Bloque à nouveau la lame avec la cale et serre fort le boulon, au couple du manuel s'il est indiqué.",
+      "Retire la cale et tourne la lame à la main avec des gants : elle ne doit toucher le carter nulle part.",
+      "Remets la tondeuse sur ses roues et seulement maintenant rebranche bougie, batterie ou prise."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "La lame est-elle droite et sans fissure ?",
+       "fix": "Une lame tordue ou fissurée ne s'affûte pas : achète la lame d'origine de ton modèle."
+      },
+      "7": {
+       "q": "La lame reste-t-elle à l'horizontale ?",
+       "fix": "Le côté qui descend est plus lourd : lime un peu le dos de ce côté, pas le tranchant, et réessaie."
+      }
+     },
+     "warns": {
+      "0": "Même tournée à la main, la lame peut lancer le moteur : déconnecte bougie, batterie ou prise."
+     },
+     "tips": [
+      "Le tranchant doit couper comme un couteau de cuisine, pas comme un rasoir : il tient plus longtemps.",
+      "Sur une tondeuse thermique, fais-le réservoir presque vide : l'essence ne coulera pas en la couchant.",
+      "Affûte en début de saison et vérifie tout de suite si tu as tapé une pierre ou une racine."
+     ]
+    },
+    "es": {
+     "title": "Afilar la cuchilla del cortacésped",
+     "intro": "Si el césped queda desgarrado en vez de cortado, toca afilar la cuchilla: basta una lima.",
+     "tools": [
+      "Llave de vaso",
+      "Lima para metal",
+      "Bloque de madera",
+      "Rotulador",
+      "Clavo"
+     ],
+     "mats": [
+      "Trapo"
+     ],
+     "steps": [
+      "Haz que no pueda arrancar: quita la pipa de la bujía, saca la batería o desenchúfalo.",
+      "Tumba el cortacésped de lado con el filtro de aire y el carburador hacia arriba, como dice el manual.",
+      "Limpia la cuchilla y marca con el rotulador la cara que mira al suelo, para montarla igual.",
+      "Encaja el bloque de madera entre la cuchilla y la carcasa para que no gire.",
+      "Afloja el tornillo central, normalmente hacia la izquierda, y saca cuchilla y arandelas sin perder el orden.",
+      "Mira la cuchilla a contraluz: debe estar recta, sin grietas ni muescas profundas.",
+      "Lima el filo siguiendo el ángulo original, de dentro hacia la punta, con las mismas pasadas en cada lado.",
+      "Cuelga el agujero central de un clavo en la pared: la cuchilla debe quedar horizontal.",
+      "Vuelve a montar la cuchilla con la marca hacia el suelo y las arandelas en el mismo orden.",
+      "Bloquea otra vez la cuchilla con la madera y aprieta fuerte el tornillo, al par del manual si lo indica.",
+      "Quita la madera y gira la cuchilla a mano con guantes: no debe rozar la carcasa en ningún punto.",
+      "Pon el cortacésped sobre las ruedas y solo ahora vuelve a conectar bujía, batería o enchufe."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "¿La cuchilla está recta y sin grietas?",
+       "fix": "Una cuchilla doblada o agrietada no se afila: compra la original de tu modelo."
+      },
+      "7": {
+       "q": "¿La cuchilla queda en equilibrio horizontal?",
+       "fix": "El lado que baja pesa más: lima un poco el lomo de ese lado, no el filo, y vuelve a probar."
+      }
+     },
+     "warns": {
+      "0": "Incluso girándola a mano, la cuchilla puede arrancar el motor: desconecta bujía, batería o enchufe."
+     },
+     "tips": [
+      "El filo debe cortar como un cuchillo de cocina, no como una cuchilla de afeitar: dura más y no se mella.",
+      "En los de gasolina, hazlo con el depósito casi vacío: al tumbarlo no se sale el combustible.",
+      "Afílala al empezar la temporada y revísala enseguida si golpeas una piedra o una raíz."
+     ]
+    },
+    "de": {
+     "title": "Rasenmähermesser schärfen",
+     "intro": "Sieht das Gras ausgefranst statt geschnitten aus, ist das Messer stumpf: Eine Feile reicht.",
+     "tools": [
+      "Steckschlüssel",
+      "Metallfeile",
+      "Holzklotz",
+      "Filzstift",
+      "Nagel"
+     ],
+     "mats": [
+      "Lappen"
+     ],
+     "steps": [
+      "Mach einen Start unmöglich: Zündkerzenstecker ab, Akku raus oder Netzstecker ziehen.",
+      "Kipp den Mäher auf die Seite, Luftfilter und Vergaser nach oben, wie in der Anleitung beschrieben.",
+      "Reinige das Messer und markier mit dem Filzstift die Seite zum Boden, damit es richtig herum zurückkommt.",
+      "Klemm den Holzklotz zwischen Messer und Gehäuse, damit sich das Messer nicht dreht.",
+      "Dreh die Mittelschraube raus, meist gegen den Uhrzeigersinn, und nimm Messer und Scheiben in Reihenfolge ab.",
+      "Halt das Messer gegen das Licht: Es muss gerade sein, ohne Risse oder tiefe Scharten.",
+      "Feil die Schneide im Originalwinkel, von innen zur Spitze, auf beiden Seiten gleich viele Züge.",
+      "Häng das Mittelloch auf einen Nagel in der Wand: Das Messer muss waagerecht bleiben.",
+      "Setz das Messer mit der Markierung nach unten wieder ein, die Scheiben in derselben Reihenfolge.",
+      "Blockier das Messer wieder mit dem Holz und zieh die Schraube fest an, mit dem Drehmoment aus der Anleitung.",
+      "Nimm das Holz weg und dreh das Messer mit Handschuhen von Hand: Es darf nirgends am Gehäuse streifen.",
+      "Stell den Mäher auf die Räder und schließ erst jetzt Zündkerze, Akku oder Stecker wieder an."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "5": {
+       "q": "Ist das Messer gerade und ohne Risse?",
+       "fix": "Ein verbogenes oder gerissenes Messer schärft man nicht: Kauf das Originalmesser für dein Modell."
+      },
+      "7": {
+       "q": "Bleibt das Messer waagerecht hängen?",
+       "fix": "Die Seite, die sinkt, ist schwerer: am Rücken dieser Seite etwas abfeilen, nicht an der Schneide, nochmal testen."
+      }
+     },
+     "warns": {
+      "0": "Schon beim Drehen von Hand kann der Motor anspringen: Kerze, Akku oder Strom trennen."
+     },
+     "tips": [
+      "Die Schneide soll schneiden wie ein Küchenmesser, nicht wie eine Rasierklinge: Sie hält länger.",
+      "Beim Benzinmäher mit fast leerem Tank arbeiten: Beim Kippen läuft kein Sprit aus.",
+      "Schärf es zu Saisonbeginn und prüf es sofort, wenn du einen Stein oder eine Wurzel erwischt hast."
+     ]
+    }
+   }
+  },
+  {
+   "id": "rubinetto-esterno-gelo",
+   "cat": "giardino",
+   "diff": 1,
+   "active": 15,
+   "total": 20,
+   "risk": 0,
+   "topic": "water",
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [
+    10,
+    11,
+    12
+   ],
+   "tools": [
+    {
+     "k": "bucket",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "outdoor-tap-cover",
+     "q": 1,
+     "u": ""
+    },
+    {
+     "k": "pipe-insulation",
+     "q": null,
+     "u": ""
+    }
+   ],
+   "steps": [
+    {
+     "ic": "water-off"
+    },
+    {
+     "ic": "hand"
+    },
+    {
+     "ic": "drop",
+     "timer": 120
+    },
+    {
+     "ic": "valve"
+    },
+    {
+     "ic": "check",
+     "check": true
+    },
+    {
+     "ic": "drop"
+    },
+    {
+     "ic": "snow"
+    },
+    {
+     "ic": "valve"
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Proteggere il rubinetto esterno dal gelo",
+     "intro": "Prima delle gelate svuoti rubinetto da giardino e canna: niente tubi spaccati in inverno.",
+     "tools": [
+      "Secchio"
+     ],
+     "mats": [
+      "Copertura isolante per rubinetto",
+      "Guaina isolante per tubi"
+     ],
+     "steps": [
+      "Trova in casa la valvola che alimenta il rubinetto esterno, spesso sotto il lavello, in garage o in cantina, e chiudila.",
+      "Stacca la canna e tutti gli attacchi dal rubinetto: raccordi, sdoppiatori, programmatore.",
+      "Apri del tutto il rubinetto esterno e lascia uscire l'acqua rimasta nel tubo.",
+      "Se la valvola in casa ha un tappino di scarico, aprilo sopra il secchio finché non esce più acqua, poi richiudilo.",
+      "Controlla il rubinetto esterno: non deve più uscire nemmeno una goccia.",
+      "Svuota la canna sollevandola da un capo all'altro, arrotolala e riponila al riparo dal gelo.",
+      "Infila la copertura isolante sul rubinetto e avvolgi con la guaina i tratti di tubo scoperti.",
+      "Rubinetto normale: lascialo un filo aperto. Rubinetto antigelo, col corpo lungo nel muro: chiudilo, si svuota da sé."
+     ],
+     "labels": [
+      "",
+      "",
+      "Scarico",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Il rubinetto esterno ha smesso del tutto di gocciolare?",
+       "fix": "Se continua, la valvola in casa non è ben chiusa o è usurata: stringila ancora o falla sostituire da un idraulico."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "In primavera chiudi prima il rubinetto esterno, poi riapri piano la valvola in casa e controlla che non goccioli.",
+      "Se dopo una gelata il rubinetto perde dal corpo o il tubo è crepato, chiudi l'acqua e chiama un idraulico.",
+      "Svuota anche impianto d'irrigazione e programmatore, e togli le pile al timer prima dell'inverno."
+     ]
+    },
+    "en": {
+     "title": "Protect an outdoor tap from frost",
+     "intro": "Before the frosts, drain the garden tap and hose so no pipes split over winter.",
+     "tools": [
+      "Bucket"
+     ],
+     "mats": [
+      "Insulated tap cover",
+      "Foam pipe insulation"
+     ],
+     "steps": [
+      "Find the indoor valve that feeds the outside tap, often under the sink, in the garage or cellar, and close it.",
+      "Take the hose and all fittings off the tap: connectors, splitters, watering timer.",
+      "Open the outside tap fully and let the water left in the pipe run out.",
+      "If the indoor valve has a small drain cap, open it over the bucket until no more water comes out, then close it.",
+      "Check the outside tap: not a single drop should come out now.",
+      "Drain the hose by lifting it hand over hand from one end, coil it and store it out of the frost.",
+      "Fit the insulated cover over the tap and wrap any exposed pipe with the foam insulation.",
+      "Normal tap: leave it slightly open. Frost-free tap with a long body in the wall: close it, it drains itself."
+     ],
+     "labels": [
+      "",
+      "",
+      "Draining",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Has the outside tap stopped dripping completely?",
+       "fix": "If it keeps running, the indoor valve isn't fully shut or is worn: close it harder or have a plumber replace it."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "In spring, close the outside tap first, then slowly reopen the indoor valve and check for drips.",
+      "If the tap leaks from its body after a frost or the pipe is cracked, shut the water off and call a plumber.",
+      "Drain any irrigation system and watering timer too, and take the batteries out before winter."
+     ]
+    },
+    "fr": {
+     "title": "Protéger un robinet extérieur du gel",
+     "intro": "Avant les gelées, vidange robinet de jardin et tuyau : pas de canalisation éclatée cet hiver.",
+     "tools": [
+      "Seau"
+     ],
+     "mats": [
+      "Housse isolante pour robinet",
+      "Manchon isolant pour tuyau"
+     ],
+     "steps": [
+      "Trouve dans la maison la vanne du robinet extérieur, souvent sous l'évier, au garage ou à la cave, et ferme-la.",
+      "Retire le tuyau d'arrosage et tous les embouts du robinet : raccords, répartiteur, programmateur.",
+      "Ouvre le robinet extérieur à fond et laisse sortir l'eau restée dans la conduite.",
+      "Si la vanne intérieure a un bouchon de vidange, ouvre-le au-dessus du seau jusqu'à ce que rien ne coule, puis referme.",
+      "Regarde le robinet extérieur : il ne doit plus couler une seule goutte.",
+      "Vide le tuyau d'arrosage en le soulevant d'un bout à l'autre, enroule-le et range-le à l'abri du gel.",
+      "Mets la housse isolante sur le robinet et entoure les bouts de conduite à nu avec le manchon.",
+      "Robinet classique : laisse-le entrouvert. Robinet antigel, à corps long dans le mur : ferme-le, il se vide seul."
+     ],
+     "labels": [
+      "",
+      "",
+      "Vidange",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Le robinet extérieur a-t-il complètement arrêté de goutter ?",
+       "fix": "S'il coule encore, la vanne intérieure est mal fermée ou usée : serre-la davantage ou fais-la changer par un plombier."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Au printemps, ferme d'abord le robinet extérieur, puis rouvre doucement la vanne et vérifie les fuites.",
+      "Si après une gelée le robinet fuit par le corps ou le tuyau est fendu, coupe l'eau et appelle un plombier.",
+      "Vidange aussi l'arrosage automatique et le programmateur, et retire-lui les piles avant l'hiver."
+     ]
+    },
+    "es": {
+     "title": "Proteger un grifo exterior de heladas",
+     "intro": "Antes de las heladas vacías el grifo del jardín y la manguera: nada de tuberías reventadas.",
+     "tools": [
+      "Cubo"
+     ],
+     "mats": [
+      "Funda aislante para grifo",
+      "Coquilla aislante para tubería"
+     ],
+     "steps": [
+      "Busca en casa la llave que alimenta el grifo exterior, a menudo bajo el fregadero, en el garaje o el sótano, y ciérrala.",
+      "Quita la manguera y todos los accesorios del grifo: racores, derivadores, programador.",
+      "Abre del todo el grifo exterior y deja salir el agua que queda en la tubería.",
+      "Si la llave de dentro tiene un tapón de vaciado, ábrelo sobre el cubo hasta que no salga agua y vuelve a cerrarlo.",
+      "Mira el grifo exterior: ya no debe salir ni una gota.",
+      "Vacía la manguera levantándola de un extremo al otro, enróllala y guárdala a cubierto de las heladas.",
+      "Pon la funda aislante sobre el grifo y envuelve con la coquilla los tramos de tubería al aire.",
+      "Grifo normal: déjalo un poco abierto. Grifo antihielo, de cuerpo largo dentro del muro: ciérralo, se vacía solo."
+     ],
+     "labels": [
+      "",
+      "",
+      "Vaciado",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "¿El grifo exterior ha dejado de gotear del todo?",
+       "fix": "Si sigue saliendo, la llave de dentro no cierra bien o está gastada: apriétala más o que la cambie un fontanero."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "En primavera cierra primero el grifo exterior, abre despacio la llave de dentro y revisa que no gotee.",
+      "Si tras una helada el grifo pierde por el cuerpo o la tubería está rajada, corta el agua y llama al fontanero.",
+      "Vacía también el riego automático y el programador, y quítale las pilas antes del invierno."
+     ]
+    },
+    "de": {
+     "title": "Außenwasserhahn winterfest machen",
+     "intro": "Vor dem ersten Frost Gartenhahn und Schlauch entleeren: So platzt im Winter keine Leitung.",
+     "tools": [
+      "Eimer"
+     ],
+     "mats": [
+      "Isolierhaube für Wasserhahn",
+      "Rohrisolierung"
+     ],
+     "steps": [
+      "Such im Haus das Absperrventil für den Außenhahn, oft unter der Spüle, in der Garage oder im Keller, und schließ es.",
+      "Nimm Schlauch und alle Teile vom Hahn ab: Kupplungen, Verteiler, Bewässerungscomputer.",
+      "Dreh den Außenhahn ganz auf und lass das restliche Wasser aus der Leitung laufen.",
+      "Hat das Ventil innen eine Entleerungsschraube, öffne sie über dem Eimer, bis nichts mehr kommt, und schließ sie wieder.",
+      "Schau auf den Außenhahn: Es darf kein einziger Tropfen mehr kommen.",
+      "Leer den Schlauch, indem du ihn von einem Ende her hochhebst, roll ihn auf und lager ihn frostfrei.",
+      "Setz die Isolierhaube auf den Hahn und pack frei liegende Rohrstücke in Rohrisolierung.",
+      "Normaler Hahn: einen Spalt offen lassen. Frostsicherer Hahn mit langem Körper in der Wand: zudrehen, er entleert sich selbst."
+     ],
+     "labels": [
+      "",
+      "",
+      "Entleeren",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "4": {
+       "q": "Tropft der Außenhahn gar nicht mehr?",
+       "fix": "Läuft es weiter, ist das Ventil innen nicht ganz zu oder verschlissen: fester schließen oder vom Installateur tauschen lassen."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Im Frühjahr erst den Außenhahn zudrehen, dann das Ventil innen langsam öffnen und auf Tropfen prüfen.",
+      "Leckt der Hahn nach Frost am Gehäuse oder ist das Rohr gerissen: Wasser abstellen, Installateur rufen.",
+      "Entleer auch Bewässerungsanlage und Bewässerungscomputer und nimm vor dem Winter die Batterien raus."
+     ]
+    }
+   }
+  },
+  {
+   "id": "attaccare-bottone",
+   "cat": "cucito",
+   "diff": 1,
+   "active": 10,
+   "total": 10,
+   "risk": 0,
+   "topic": null,
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "sewing-needle",
+     "own": true
+    },
+    {
+     "k": "scissors",
+     "own": true
+    },
+    {
+     "k": "pin",
+     "own": true
+    },
+    {
+     "k": "tailors-chalk"
+    }
+   ],
+   "mats": [
+    {
+     "k": "sewing-thread",
+     "q": null,
+     "u": "",
+     "own": true
+    },
+    {
+     "k": "button",
+     "q": 1,
+     "u": "",
+     "own": true
+    }
+   ],
+   "steps": [
+    {
+     "ic": "needle"
+    },
+    {
+     "ic": "pencil",
+     "check": true
+    },
+    {
+     "ic": "needle"
+    },
+    {
+     "ic": "push"
+    },
+    {
+     "ic": "needle"
+    },
+    {
+     "ic": "pull"
+    },
+    {
+     "ic": "scissors"
+    },
+    {
+     "ic": "check",
+     "check": true
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Attaccare un bottone",
+     "intro": "Bottone caduto? Lo riattacchi in dieci minuti, con un gambo che lo fa chiudere bene.",
+     "tools": [
+      "Ago da cucito",
+      "Forbici",
+      "Spillo",
+      "Gessetto da sarta"
+     ],
+     "mats": [
+      "Filo dello stesso colore",
+      "Bottone"
+     ],
+     "steps": [
+      "Taglia circa [[60 cm]] di filo, infilalo nell'ago, porta i due capi insieme e fai un nodo.",
+      "Trova il punto dai fori del vecchio filo o chiudendo l'asola sul tessuto, e segnalo con il gessetto.",
+      "Entra dal rovescio, esci sul segno e fai un puntino piccolo per fissare il filo.",
+      "Appoggia il bottone sul segno e metti uno spillo di traverso sopra, tra i fori: fa da distanziale.",
+      "Passa da un foro all'altro sopra lo spillo 4-6 volte. Con 4 fori fai due linee parallele o una croce, come gli altri.",
+      "Togli lo spillo, solleva il bottone e avvolgi il filo 5-6 volte intorno ai fili sotto: è il gambo.",
+      "Porta l'ago sul rovescio, fai 2-3 puntini nello stesso punto, annoda e taglia il filo.",
+      "Abbottona: il bottone deve entrare nell'asola senza tirare il tessuto."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Il segno è in linea con l'asola e con gli altri bottoni?",
+       "fix": "Chiudi il capo come se fosse abbottonato e infila uno spillo dritto al centro dell'asola: quello è il punto."
+      },
+      "7": {
+       "q": "Il bottone si chiude senza tirare il tessuto?",
+       "fix": "Se tira, rifallo con un distanziale più spesso, uno stuzzicadenti. Se balla, aggiungi qualche passata."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Per i cappotti usa filo più robusto e un fiammifero come distanziale: il gambo viene più lungo.",
+      "Bottone con l'occhiello sotto: niente distanziale, passa 6-8 volte nell'occhiello e fissa.",
+      "Passa il filo su una candela di cera: si attorciglia meno e resiste di più."
+     ]
+    },
+    "en": {
+     "title": "Sew on a button",
+     "intro": "Lost a button? Sew it back on in ten minutes, with a shank so it fastens properly.",
+     "tools": [
+      "Sewing needle",
+      "Scissors",
+      "Pin",
+      "Tailor's chalk"
+     ],
+     "mats": [
+      "Matching thread",
+      "Button"
+     ],
+     "steps": [
+      "Cut about [[60 cm]] of thread, pass it through the needle, bring the two ends together and knot them.",
+      "Find the spot from the old thread holes or by closing the buttonhole over the fabric, and mark it with chalk.",
+      "Come up from the back right on the mark and make a tiny stitch to anchor the thread.",
+      "Place the button on the mark and lay a pin across the top, between the holes: it's your spacer.",
+      "Sew from hole to hole over the pin 4-6 times. With 4 holes, make two parallel lines or a cross, like the others.",
+      "Pull out the pin, lift the button and wind the thread 5-6 times round the stitches underneath: that's the shank.",
+      "Push the needle to the back, make 2-3 tiny stitches in the same spot, knot and cut the thread.",
+      "Do it up: the button should slip through the buttonhole without pulling the fabric."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Does the mark line up with the buttonhole and the other buttons?",
+       "fix": "Close the garment as if buttoned and push a pin straight through the middle of the buttonhole: that's the spot."
+      },
+      "7": {
+       "q": "Does the button fasten without pulling the fabric?",
+       "fix": "If it pulls, redo it with a thicker spacer, like a toothpick. If it wobbles, add a few more passes."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "For coats, use stronger thread and a matchstick as the spacer: you get a longer shank.",
+      "Button with a loop underneath: no spacer needed, just sew 6-8 times through the loop and finish off.",
+      "Run the thread over a wax candle: it tangles less and holds better."
+     ]
+    },
+    "fr": {
+     "title": "Recoudre un bouton",
+     "intro": "Bouton tombé ? Tu le recouds en dix minutes, avec une tige pour qu'il se ferme bien.",
+     "tools": [
+      "Aiguille à coudre",
+      "Ciseaux",
+      "Épingle",
+      "Craie de tailleur"
+     ],
+     "mats": [
+      "Fil de la même couleur",
+      "Bouton"
+     ],
+     "steps": [
+      "Coupe environ [[60 cm]] de fil, enfile l'aiguille, réunis les deux bouts et fais un nœud.",
+      "Repère l'endroit grâce aux trous de l'ancien fil ou en fermant la boutonnière sur le tissu, et marque à la craie.",
+      "Pique depuis l'envers, ressors sur la marque et fais un petit point pour fixer le fil.",
+      "Pose le bouton sur la marque et place une épingle en travers dessus, entre les trous : c'est ta cale.",
+      "Passe d'un trou à l'autre par-dessus l'épingle 4 à 6 fois. Avec 4 trous, fais deux lignes parallèles ou une croix.",
+      "Retire l'épingle, soulève le bouton et enroule le fil 5 à 6 fois autour des points dessous : c'est la tige.",
+      "Passe l'aiguille sur l'envers, fais 2 ou 3 petits points au même endroit, noue et coupe le fil.",
+      "Boutonne : le bouton doit passer dans la boutonnière sans tirer le tissu."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "La marque est-elle alignée avec la boutonnière et les autres boutons ?",
+       "fix": "Ferme le vêtement comme s'il était boutonné et pique une épingle au milieu de la boutonnière : c'est là."
+      },
+      "7": {
+       "q": "Le bouton se ferme-t-il sans tirer le tissu ?",
+       "fix": "S'il tire, refais-le avec une cale plus épaisse, un cure-dent. S'il bouge, ajoute quelques passages."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Pour un manteau, prends du fil plus solide et une allumette comme cale : la tige sera plus longue.",
+      "Bouton à queue (anneau dessous) : pas de cale, passe 6 à 8 fois dans l'anneau et arrête le fil.",
+      "Passe le fil sur une bougie : il s'emmêle moins et résiste mieux."
+     ]
+    },
+    "es": {
+     "title": "Coser un botón",
+     "intro": "¿Se te ha caído un botón? Lo coses en diez minutos, con un pie para que abroche bien.",
+     "tools": [
+      "Aguja de coser",
+      "Tijeras",
+      "Alfiler",
+      "Jaboncillo de sastre"
+     ],
+     "mats": [
+      "Hilo del mismo color",
+      "Botón"
+     ],
+     "steps": [
+      "Corta unos [[60 cm]] de hilo, enhébralo, junta los dos extremos y haz un nudo.",
+      "Busca el sitio por los agujeritos del hilo viejo o cerrando el ojal sobre la tela, y márcalo con jaboncillo.",
+      "Entra por el revés, sal justo en la marca y da una puntada pequeña para fijar el hilo.",
+      "Pon el botón sobre la marca y coloca un alfiler cruzado encima, entre los agujeros: hace de separador.",
+      "Pasa de un agujero a otro por encima del alfiler 4-6 veces. Con 4 agujeros, haz dos líneas paralelas o una cruz.",
+      "Quita el alfiler, levanta el botón y enrolla el hilo 5-6 veces alrededor de las puntadas de debajo: es el pie.",
+      "Pasa la aguja al revés, da 2-3 puntadas pequeñas en el mismo punto, anuda y corta el hilo.",
+      "Abrocha: el botón debe entrar en el ojal sin tirar de la tela."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "¿La marca está alineada con el ojal y con los otros botones?",
+       "fix": "Cierra la prenda como si estuviera abrochada y clava un alfiler recto en el centro del ojal: ese es el sitio."
+      },
+      "7": {
+       "q": "¿El botón abrocha sin tirar de la tela?",
+       "fix": "Si tira, repítelo con un separador más grueso, como un palillo. Si baila, añade unas pasadas más."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Para abrigos, usa hilo más fuerte y una cerilla como separador: el pie sale más largo.",
+      "Botón con argolla debajo: sin separador, pasa 6-8 veces por la argolla y remata.",
+      "Pasa el hilo por una vela de cera: se enreda menos y aguanta más."
+     ]
+    },
+    "de": {
+     "title": "Knopf annähen",
+     "intro": "Knopf ab? In zehn Minuten ist er wieder dran, mit einem Stiel, damit er gut zugeht.",
+     "tools": [
+      "Nähnadel",
+      "Schere",
+      "Stecknadel",
+      "Schneiderkreide"
+     ],
+     "mats": [
+      "Nähgarn in passender Farbe",
+      "Knopf"
+     ],
+     "steps": [
+      "Schneid etwa [[60 cm]] Garn ab, fädle es ein, leg beide Enden zusammen und mach einen Knoten.",
+      "Find die Stelle an den alten Fadenlöchern oder indem du das Knopfloch auflegst, und markier sie mit Kreide.",
+      "Stich von links ein, komm genau auf der Markierung raus und mach einen kleinen Stich zum Sichern.",
+      "Leg den Knopf auf die Markierung und eine Stecknadel quer darüber, zwischen die Löcher: Sie hält Abstand.",
+      "Näh 4-6 Mal von Loch zu Loch über die Nadel. Bei 4 Löchern zwei parallele Linien oder ein Kreuz, wie bei den anderen.",
+      "Zieh die Nadel raus, heb den Knopf an und wickel den Faden 5-6 Mal um die Stiche darunter: Das ist der Stiel.",
+      "Stich auf die linke Seite, mach 2-3 kleine Stiche an derselben Stelle, verknote und schneid den Faden ab.",
+      "Knöpf zu: Der Knopf muss durchs Knopfloch gehen, ohne am Stoff zu ziehen."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "1": {
+       "q": "Liegt die Markierung in Linie mit Knopfloch und anderen Knöpfen?",
+       "fix": "Schließ das Teil wie zugeknöpft und stich eine Nadel gerade durch die Mitte des Knopflochs: Da ist die Stelle."
+      },
+      "7": {
+       "q": "Geht der Knopf zu, ohne am Stoff zu ziehen?",
+       "fix": "Zieht es, näh ihn mit dickerem Abstandhalter neu, etwa einem Zahnstocher. Wackelt er, ein paar Stiche mehr."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Bei Mänteln stärkeres Garn und ein Streichholz als Abstandhalter nehmen: Der Stiel wird länger.",
+      "Knopf mit Öse unten: kein Abstandhalter nötig, 6-8 Mal durch die Öse nähen und vernähen.",
+      "Zieh den Faden über eine Wachskerze: Er verheddert sich weniger und hält besser."
+     ]
+    }
+   }
+  },
+  {
+   "id": "orlo-a-mano",
+   "cat": "cucito",
+   "diff": 2,
+   "active": 60,
+   "total": 60,
+   "risk": 0,
+   "topic": null,
+   "allow": {},
+   "ppe": [],
+   "tags": [],
+   "months": [],
+   "tools": [
+    {
+     "k": "pins",
+     "own": true
+    },
+    {
+     "k": "sewing-needle",
+     "own": true
+    },
+    {
+     "k": "fabric-scissors"
+    },
+    {
+     "k": "tape-measure"
+    },
+    {
+     "k": "tailors-chalk"
+    },
+    {
+     "k": "iron",
+     "own": true
+    }
+   ],
+   "mats": [
+    {
+     "k": "sewing-thread",
+     "q": null,
+     "u": "",
+     "own": true
+    }
+   ],
+   "steps": [
+    {
+     "ic": "hand"
+    },
+    {
+     "ic": "measure"
+    },
+    {
+     "ic": "measure",
+     "check": true
+    },
+    {
+     "ic": "hand"
+    },
+    {
+     "ic": "pencil"
+    },
+    {
+     "ic": "scissors"
+    },
+    {
+     "ic": "hand"
+    },
+    {
+     "ic": "needle"
+    },
+    {
+     "ic": "needle"
+    },
+    {
+     "ic": "look",
+     "check": true
+    },
+    {
+     "ic": "needle"
+    },
+    {
+     "ic": "hand"
+    }
+   ],
+   "tips": 3,
+   "i18n": {
+    "it": {
+     "title": "Fare l'orlo a mano",
+     "intro": "Pantaloni o gonna troppo lunghi? Fai l'orlo a mano con il punto invisibile, che fuori non si vede.",
+     "tools": [
+      "Spilli",
+      "Ago da cucito",
+      "Forbici da sarta",
+      "Metro da sarta",
+      "Gessetto da sarta",
+      "Ferro da stiro"
+     ],
+     "mats": [
+      "Filo dello stesso colore"
+     ],
+     "steps": [
+      "Indossa il capo con le scarpe che userai, ripiega l'orlo all'interno alla lunghezza giusta e fissalo con uno spillo davanti.",
+      "Toglilo, stendilo e appunta la piega tutto intorno. Riporta la stessa misura sull'altra gamba col metro.",
+      "Misura le due gambe dalla cucitura del cavallo alla piega, o la gonna in più punti dalla vita: devono coincidere.",
+      "Stira la piega con il ferro: il segno ti fa da riferimento per tutto il lavoro.",
+      "Apri la piega e traccia col gessetto una riga [[3-4 cm]] sotto il segno della stiratura.",
+      "Taglia la stoffa in eccesso lungo la riga, con forbici ben affilate.",
+      "Ripiega verso l'interno il bordo tagliato di [[1 cm]], richiudi l'orlo sulla piega stirata e appunta.",
+      "Infila un filo singolo di circa [[60 cm]], fai un nodo e nascondilo dentro la piega.",
+      "Punto invisibile: prendi 1-2 fili della stoffa esterna, poi fai scorrere l'ago [[1 cm]] dentro la piega. Ripeti.",
+      "Guarda il dritto: i punti devono essere minuscoli e la stoffa non deve arricciarsi.",
+      "A fine giro fai 2-3 puntini dentro la piega, annoda e taglia il filo.",
+      "Stira l'orlo dal rovescio. Sui tessuti scuri metti un panno umido in mezzo, così non diventano lucidi."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Le due gambe hanno la stessa lunghezza?",
+       "fix": "Sposta gli spilli della gamba più lunga finché le misure coincidono, poi riprova il capo."
+      },
+      "9": {
+       "q": "Dal dritto i punti si vedono appena e la stoffa resta liscia?",
+       "fix": "Prendi meno fili sul dritto e non tirare il filo: deve restare morbido."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Usa un filo appena più scuro della stoffa: sul dritto si nasconde meglio di uno più chiaro.",
+      "Se non sei sicuro della lunghezza, non tagliare: fai l'orlo con tutta la stoffa ripiegata dentro.",
+      "Jeans e tessuti molto spessi vengono meglio a macchina o da una sarta: a mano è una fatica."
+     ]
+    },
+    "en": {
+     "title": "Hand-sew a hem",
+     "intro": "Trousers or skirt too long? Hem them by hand with a blind stitch that barely shows outside.",
+     "tools": [
+      "Pins",
+      "Sewing needle",
+      "Fabric scissors",
+      "Tape measure",
+      "Tailor's chalk",
+      "Iron"
+     ],
+     "mats": [
+      "Matching thread"
+     ],
+     "steps": [
+      "Put the garment on with the shoes you'll wear, fold the hem inside to the right length and pin it at the front.",
+      "Take it off, lay it flat and pin the fold all the way round. Copy the same measurement onto the other leg.",
+      "Measure both legs from the crotch seam to the fold, or a skirt from the waist at several points: they must match.",
+      "Press the fold with the iron: the crease is your guide for the whole job.",
+      "Open the fold and draw a chalk line [[3-4 cm]] below the pressed crease.",
+      "Cut off the extra fabric along the line with sharp scissors.",
+      "Turn the cut edge under by [[1 cm]], fold the hem back up on the crease and pin it.",
+      "Thread a single strand of about [[60 cm]], knot it and hide the knot inside the fold.",
+      "Blind stitch: pick up 1-2 threads of the outer fabric, then slide the needle [[1 cm]] inside the fold. Repeat.",
+      "Check the right side: the stitches should be tiny and the fabric shouldn't pucker.",
+      "At the end, make 2-3 tiny stitches inside the fold, knot and cut the thread.",
+      "Press the hem from the inside. On dark fabric, put a damp cloth in between so it doesn't go shiny."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Are both legs the same length?",
+       "fix": "Move the pins on the longer leg until the measurements match, then try the garment on again."
+      },
+      "9": {
+       "q": "Do the stitches barely show on the right side, with the fabric flat?",
+       "fix": "Pick up fewer threads on the outside and don't pull the thread tight: keep it relaxed."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Use thread a shade darker than the fabric: it hides better on the right side than a lighter one.",
+      "Not sure about the length? Don't cut: hem it with all the fabric folded inside.",
+      "Jeans and very thick fabrics are better done by machine or by a tailor: by hand it's hard work."
+     ]
+    },
+    "fr": {
+     "title": "Faire un ourlet à la main",
+     "intro": "Pantalon ou jupe trop long ? Fais l'ourlet à la main au point invisible, qui se voit à peine.",
+     "tools": [
+      "Épingles",
+      "Aiguille à coudre",
+      "Ciseaux de couture",
+      "Mètre ruban",
+      "Craie de tailleur",
+      "Fer à repasser"
+     ],
+     "mats": [
+      "Fil de la même couleur"
+     ],
+     "steps": [
+      "Enfile le vêtement avec les chaussures que tu porteras, replie l'ourlet dedans à la bonne longueur et épingle devant.",
+      "Enlève-le, pose-le à plat et épingle le pli sur tout le tour. Reporte la même mesure sur l'autre jambe.",
+      "Mesure les deux jambes de la couture d'entrejambe au pli, ou la jupe depuis la taille en plusieurs points : ça doit coïncider.",
+      "Repasse le pli au fer : la marque te sert de repère pour tout le travail.",
+      "Déplie et trace à la craie une ligne [[3-4 cm]] sous la marque du fer.",
+      "Coupe le tissu en trop le long de la ligne, avec des ciseaux bien aiguisés.",
+      "Replie le bord coupé de [[1 cm]], remonte l'ourlet sur le pli repassé et épingle.",
+      "Enfile un fil simple d'environ [[60 cm]], fais un nœud et cache-le dans le pli.",
+      "Point invisible : prends 1 ou 2 fils du tissu extérieur, puis glisse l'aiguille [[1 cm]] dans le pli. Recommence.",
+      "Regarde l'endroit : les points doivent être minuscules et le tissu ne doit pas froncer.",
+      "En fin de tour, fais 2 ou 3 petits points dans le pli, noue et coupe le fil.",
+      "Repasse l'ourlet sur l'envers. Sur un tissu foncé, mets une pattemouille pour qu'il ne brille pas."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Les deux jambes ont-elles la même longueur ?",
+       "fix": "Déplace les épingles de la jambe la plus longue jusqu'à avoir la même mesure, puis réessaie le vêtement."
+      },
+      "9": {
+       "q": "Les points se voient-ils à peine sur l'endroit, tissu bien à plat ?",
+       "fix": "Prends moins de fils sur l'endroit et ne tire pas le fil : il doit rester souple."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Prends un fil un ton plus foncé que le tissu : sur l'endroit, il se cache mieux qu'un fil plus clair.",
+      "Pas sûr de la longueur ? Ne coupe pas : fais l'ourlet en repliant tout le tissu à l'intérieur.",
+      "Jean et tissus très épais se font mieux à la machine ou chez une couturière : à la main, c'est dur."
+     ]
+    },
+    "es": {
+     "title": "Coger un bajo a mano",
+     "intro": "¿Pantalón o falda demasiado largos? Coge el bajo a mano con punto invisible, que apenas se ve.",
+     "tools": [
+      "Alfileres",
+      "Aguja de coser",
+      "Tijeras de costura",
+      "Cinta métrica",
+      "Jaboncillo de sastre",
+      "Plancha"
+     ],
+     "mats": [
+      "Hilo del mismo color"
+     ],
+     "steps": [
+      "Ponte la prenda con los zapatos que vayas a llevar, dobla el bajo hacia dentro al largo justo y prende un alfiler delante.",
+      "Quítatela, extiéndela y prende el doblez con alfileres todo alrededor. Pasa la misma medida a la otra pernera.",
+      "Mide las perneras desde la costura de la entrepierna hasta el doblez, o la falda desde la cintura en varios puntos: iguales.",
+      "Plancha el doblez: la marca te sirve de guía para todo el trabajo.",
+      "Abre el doblez y traza con jaboncillo una línea [[3-4 cm]] por debajo de la marca de plancha.",
+      "Corta la tela sobrante por la línea con unas tijeras bien afiladas.",
+      "Dobla hacia dentro [[1 cm]] el borde cortado, vuelve a subir el bajo por la marca y prende con alfileres.",
+      "Enhebra un hilo sencillo de unos [[60 cm]], haz un nudo y escóndelo dentro del doblez.",
+      "Punto invisible: coge 1-2 hilos de la tela de fuera y desliza la aguja [[1 cm]] por dentro del doblez. Repite.",
+      "Mira por el derecho: las puntadas deben ser diminutas y la tela no debe fruncirse.",
+      "Al terminar la vuelta, da 2-3 puntadas pequeñas dentro del doblez, anuda y corta el hilo.",
+      "Plancha el bajo por el revés. En telas oscuras pon un trapo húmedo entre medias para que no brillen."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "¿Las dos perneras tienen el mismo largo?",
+       "fix": "Mueve los alfileres de la pernera más larga hasta que las medidas coincidan y vuelve a probarte la prenda."
+      },
+      "9": {
+       "q": "¿Por el derecho apenas se ven las puntadas y la tela queda lisa?",
+       "fix": "Coge menos hilos por fuera y no tires del hilo: debe quedar flojo."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Usa un hilo un tono más oscuro que la tela: por el derecho se disimula mejor que uno más claro.",
+      "¿No tienes claro el largo? No cortes: coge el bajo con toda la tela doblada hacia dentro.",
+      "Vaqueros y telas muy gruesas salen mejor a máquina o en una modista: a mano cuesta mucho."
+     ]
+    },
+    "de": {
+     "title": "Saum von Hand nähen",
+     "intro": "Hose oder Rock zu lang? Näh den Saum von Hand mit Blindstich, der außen kaum zu sehen ist.",
+     "tools": [
+      "Stecknadeln",
+      "Nähnadel",
+      "Stoffschere",
+      "Maßband",
+      "Schneiderkreide",
+      "Bügeleisen"
+     ],
+     "mats": [
+      "Nähgarn in passender Farbe"
+     ],
+     "steps": [
+      "Zieh das Teil mit den passenden Schuhen an, schlag den Saum auf die richtige Länge nach innen und steck ihn vorne fest.",
+      "Zieh es aus, leg es flach hin und steck den Umschlag rundum fest. Übertrag das Maß aufs andere Hosenbein.",
+      "Miss beide Beine von der Schrittnaht bis zur Kante, beim Rock an mehreren Stellen ab Bund: Die Maße müssen gleich sein.",
+      "Bügel den Umschlag: Die Kante ist deine Orientierung für die ganze Arbeit.",
+      "Klapp ihn auf und zieh mit Kreide eine Linie [[3-4 cm]] unter der Bügelkante.",
+      "Schneid den überschüssigen Stoff entlang der Linie mit einer scharfen Schere ab.",
+      "Schlag die Schnittkante [[1 cm]] nach innen ein, leg den Saum an der Bügelkante wieder hoch und steck ihn fest.",
+      "Fädle einen einfachen Faden von etwa [[60 cm]] ein, mach einen Knoten und versteck ihn im Umschlag.",
+      "Blindstich: 1-2 Fäden vom Oberstoff aufnehmen, dann die Nadel [[1 cm]] im Umschlag weiterführen. Wiederholen.",
+      "Schau auf die rechte Seite: Die Stiche müssen winzig sein und der Stoff darf sich nicht kräuseln.",
+      "Am Ende 2-3 kleine Stiche im Umschlag machen, verknoten und den Faden abschneiden.",
+      "Bügel den Saum von links. Bei dunklem Stoff ein feuchtes Tuch dazwischen, damit er nicht glänzt."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "checks": {
+      "2": {
+       "q": "Sind beide Beine gleich lang?",
+       "fix": "Steck das längere Bein um, bis die Maße passen, und probier das Teil nochmal an."
+      },
+      "9": {
+       "q": "Sind die Stiche außen kaum sichtbar und liegt der Stoff glatt?",
+       "fix": "Nimm außen weniger Fäden auf und zieh den Faden nicht straff: Er soll locker bleiben."
+      }
+     },
+     "warns": {},
+     "tips": [
+      "Nimm Garn einen Ton dunkler als den Stoff: Außen fällt es weniger auf als helleres.",
+      "Unsicher bei der Länge? Nicht abschneiden: Säum mit dem ganzen Stoff nach innen geschlagen.",
+      "Jeans und sehr dicke Stoffe gehen besser mit der Maschine oder bei der Schneiderin: Von Hand ist es mühsam."
+     ]
+    }
+   }
+  }
+ ]
+}

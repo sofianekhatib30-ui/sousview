@@ -1,0 +1,1380 @@
+{"group": "E", "guides": [
+{
+  "id": "filtro-lavatrice",
+  "cat": "elettrodomestici",
+  "diff": 1, "active": 20, "total": 40,
+  "risk": 1, "topic": "water",
+  "allow": {},
+  "ppe": ["gloves"],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "flat-screwdriver", "own": true}],
+  "mats": [{"k": "old-towel", "q": 2, "u": "", "own": true}, {"k": "shallow-tray", "q": 1, "u": "", "own": true}, {"k": "cloth", "q": 1, "u": "", "own": true}],
+  "steps": [
+    {"ic": "power-off", "warn": 2},
+    {"ic": "bucket"},
+    {"ic": "screwdriver"},
+    {"ic": "drop", "timer": 300, "check": true},
+    {"ic": "loosen"},
+    {"ic": "clean"},
+    {"ic": "look", "check": true},
+    {"ic": "tighten"},
+    {"ic": "washer", "timer": 900, "check": true}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Pulire il filtro della lavatrice",
+      "intro": "Se la lavatrice non scarica o puzza, il filtro è pieno: lo pulisci in mezz'ora.",
+      "tools": ["Cacciavite piatto"],
+      "mats": ["Asciugamani vecchi", "Teglia o vassoio basso", "Panno"],
+      "steps": [
+        "Spegni la lavatrice, stacca la spina e chiudi il rubinetto dell'acqua.",
+        "Stendi gli asciugamani a terra e metti la teglia bassa sotto lo sportellino in basso.",
+        "Apri lo sportellino in basso sul davanti: di solito si fa leva con un cacciavite o una moneta.",
+        "Tira fuori il tubicino di scarico, togli il tappo e lascia uscire l'acqua nella teglia. Svuotala quando è piena.",
+        "Svita il filtro piano in senso antiorario, poco alla volta: esce ancora un po' d'acqua.",
+        "Togli pelucchi, monete e capelli dal filtro e sciacqualo sotto il rubinetto finché è pulito.",
+        "Guarda nel foro e gira la girante della pompa con un dito: deve girare, anche a scatti.",
+        "Rimetti il filtro e avvitalo in senso orario fino in fondo, ben stretto. Chiudi il tappo del tubicino.",
+        "Riattacca la spina, apri l'acqua e fai un risciacquo breve guardando lo sportellino."
+      ],
+      "labels": ["", "", "", "Scarico", "", "", "", "", "Risciacquo"],
+      "checks": {
+        "3": {"q": "L'acqua ha smesso di uscire?", "fix": "Se esce ancora, svuota la teglia e aspetta. Se non c'è il tubicino, svita il filtro piano e fai uscire l'acqua a poco a poco."},
+        "6": {"q": "La girante gira libera?", "fix": "Se è bloccata, cerca una forcina o una moneta incastrata. Se resta bloccata o è rotta, serve un tecnico."},
+        "8": {"q": "Il filtro resta asciutto, senza gocce?", "fix": "Se gocciola, stacca la spina, svita il filtro, controlla che la guarnizione sia al suo posto e riavvitalo più stretto."}
+      },
+      "warns": {"0": "Stacca la spina prima di aprire. Se hai appena lavato a caldo, aspetta: l'acqua scotta."},
+      "tips": ["Puliscilo ogni 3 mesi, o subito se la lavatrice non scarica o dà un errore di scarico.", "Svuota sempre le tasche: monete e forcine sono la causa più comune di pompa bloccata."]
+    },
+    "en": {
+      "title": "Clean the washing machine filter",
+      "intro": "Not draining or smelly? The pump filter is clogged: clean it in half an hour.",
+      "tools": ["Flat screwdriver"],
+      "mats": ["Old towels", "Baking tray or shallow tray", "Cloth"],
+      "steps": [
+        "Switch the machine off, unplug it and turn off the water tap.",
+        "Lay the towels on the floor and slide the shallow tray under the small flap at the bottom.",
+        "Open the flap at the bottom front: usually you prise it open with a screwdriver or a coin.",
+        "Pull out the small drain hose, remove its cap and let the water run into the tray. Empty it when full.",
+        "Unscrew the filter anticlockwise slowly, a bit at a time: more water will come out.",
+        "Pick lint, coins and hair off the filter and rinse it under the tap until it's clean.",
+        "Look into the hole and turn the pump impeller with a finger: it should turn, even if jerkily.",
+        "Refit the filter and screw it clockwise all the way, firmly. Put the hose cap back on.",
+        "Plug in, turn the water on and run a short rinse while you watch the flap."
+      ],
+      "labels": ["", "", "", "Draining", "", "", "", "", "Rinse"],
+      "checks": {
+        "3": {"q": "Has the water stopped coming out?", "fix": "If it's still flowing, empty the tray and wait. No drain hose? Unscrew the filter slowly and let the water out bit by bit."},
+        "6": {"q": "Does the impeller turn freely?", "fix": "If it's stuck, look for a hairpin or coin jammed in it. If it stays stuck or is broken, call a technician."},
+        "8": {"q": "Does the filter stay dry, no drips?", "fix": "If it drips, unplug, unscrew the filter, check the seal is seated and screw it back in tighter."}
+      },
+      "warns": {"0": "Unplug before opening. If you've just run a hot wash, wait: the water can scald."},
+      "tips": ["Clean it every 3 months, or right away if the machine won't drain or shows a drain error.", "Always empty pockets: coins and hairpins are the most common cause of a jammed pump."]
+    },
+    "fr": {
+      "title": "Nettoyer le filtre du lave-linge",
+      "intro": "Ta machine ne vidange plus ou sent mauvais ? Le filtre est bouché : 30 min suffisent.",
+      "tools": ["Tournevis plat"],
+      "mats": ["Vieilles serviettes", "Plat ou bac peu profond", "Chiffon"],
+      "steps": [
+        "Éteins la machine, débranche-la et ferme le robinet d'arrivée d'eau.",
+        "Étale les serviettes au sol et glisse le bac peu profond sous la trappe du bas.",
+        "Ouvre la trappe en bas de la façade : en général, on la soulève avec un tournevis ou une pièce.",
+        "Sors le petit tuyau de vidange, retire son bouchon et laisse l'eau couler dans le bac. Vide-le quand il est plein.",
+        "Dévisse le filtre doucement vers la gauche, petit à petit : il reste encore de l'eau.",
+        "Retire peluches, pièces et cheveux du filtre et rince-le sous le robinet jusqu'à ce qu'il soit propre.",
+        "Regarde dans l'orifice et fais tourner l'hélice de la pompe du doigt : elle doit tourner, même par à-coups.",
+        "Remets le filtre et visse-le vers la droite jusqu'au bout, bien serré. Remets le bouchon du tuyau.",
+        "Rebranche, rouvre l'eau et lance un rinçage court en surveillant la trappe."
+      ],
+      "labels": ["", "", "", "Vidange", "", "", "", "", "Rinçage"],
+      "checks": {
+        "3": {"q": "L'eau a-t-elle fini de couler ?", "fix": "Si ça coule encore, vide le bac et attends. Pas de petit tuyau ? Dévisse le filtre doucement pour laisser sortir l'eau peu à peu."},
+        "6": {"q": "L'hélice tourne-t-elle librement ?", "fix": "Si elle bloque, cherche une épingle ou une pièce coincée. Si elle reste bloquée ou cassée, appelle un réparateur."},
+        "8": {"q": "Le filtre reste-t-il sec, sans goutte ?", "fix": "S'il goutte, débranche, dévisse le filtre, vérifie que le joint est bien en place et revisse plus fort."}
+      },
+      "warns": {"0": "Débranche avant d'ouvrir. Si tu viens de laver à chaud, attends : l'eau peut brûler."},
+      "tips": ["Nettoie-le tous les 3 mois, ou tout de suite si la machine ne vidange plus ou affiche une erreur.", "Vide toujours les poches : pièces et épingles sont la cause n°1 d'une pompe bloquée."]
+    },
+    "es": {
+      "title": "Limpiar el filtro de la lavadora",
+      "intro": "¿No desagua o huele mal? El filtro de la bomba está atascado: lo limpias en media hora.",
+      "tools": ["Destornillador plano"],
+      "mats": ["Toallas viejas", "Bandeja baja", "Trapo"],
+      "steps": [
+        "Apaga la lavadora, desenchúfala y cierra el grifo del agua.",
+        "Extiende las toallas en el suelo y pon la bandeja baja debajo de la tapita inferior.",
+        "Abre la tapita de abajo en el frontal: normalmente se hace palanca con un destornillador o una moneda.",
+        "Saca el tubito de desagüe, quítale el tapón y deja que el agua caiga en la bandeja. Vacíala cuando se llene.",
+        "Desenrosca el filtro despacio hacia la izquierda, poco a poco: aún saldrá algo de agua.",
+        "Quita pelusa, monedas y pelos del filtro y acláralo bajo el grifo hasta que quede limpio.",
+        "Mira dentro del hueco y gira la turbina de la bomba con un dedo: debe girar, aunque sea a saltos.",
+        "Vuelve a poner el filtro y enróscalo a la derecha hasta el fondo, bien apretado. Pon el tapón del tubito.",
+        "Enchufa, abre el agua y pon un aclarado corto mirando la tapita."
+      ],
+      "labels": ["", "", "", "Vaciado", "", "", "", "", "Aclarado"],
+      "checks": {
+        "3": {"q": "¿Ha dejado de salir agua?", "fix": "Si sigue saliendo, vacía la bandeja y espera. ¿No hay tubito? Desenrosca el filtro despacio y deja salir el agua poco a poco."},
+        "6": {"q": "¿La turbina gira libre?", "fix": "Si está bloqueada, busca una horquilla o una moneda atascada. Si sigue bloqueada o rota, llama a un técnico."},
+        "8": {"q": "¿El filtro sigue seco, sin gotas?", "fix": "Si gotea, desenchufa, desenrosca el filtro, comprueba que la junta esté en su sitio y enróscalo más fuerte."}
+      },
+      "warns": {"0": "Desenchufa antes de abrir. Si acabas de lavar en caliente, espera: el agua puede quemar."},
+      "tips": ["Límpialo cada 3 meses, o enseguida si la lavadora no desagua o da error de desagüe.", "Vacía siempre los bolsillos: monedas y horquillas son lo que más atasca la bomba."]
+    },
+    "de": {
+      "title": "Flusensieb der Waschmaschine reinigen",
+      "intro": "Pumpt nicht ab oder riecht? Das Flusensieb ist voll: in einer halben Stunde sauber.",
+      "tools": ["Schlitzschraubendreher"],
+      "mats": ["Alte Handtücher", "Flache Schale oder Backblech", "Lappen"],
+      "steps": [
+        "Schalte die Maschine aus, zieh den Stecker und dreh den Wasserhahn zu.",
+        "Leg die Handtücher auf den Boden und stell die flache Schale unter die Klappe unten.",
+        "Öffne die Serviceklappe unten an der Front: meist mit Schraubendreher oder Münze aufhebeln.",
+        "Zieh den Notentleerungsschlauch raus, nimm den Stopfen ab und lass das Wasser in die Schale laufen. Volle Schale leeren.",
+        "Dreh das Flusensieb langsam gegen den Uhrzeigersinn raus, Stück für Stück: Es kommt noch Wasser.",
+        "Entferne Flusen, Münzen und Haare und spül das Sieb unter dem Wasserhahn sauber.",
+        "Schau in die Öffnung und dreh das Pumpenrad mit dem Finger: Es muss sich drehen, auch ruckelig.",
+        "Setz das Sieb ein und dreh es im Uhrzeigersinn fest bis zum Anschlag. Stopfen zurück auf den Schlauch.",
+        "Stecker rein, Wasser auf und ein kurzes Spülprogramm starten, dabei die Klappe beobachten."
+      ],
+      "labels": ["", "", "", "Ablaufen", "", "", "", "", "Spülen"],
+      "checks": {
+        "3": {"q": "Läuft kein Wasser mehr nach?", "fix": "Läuft noch was, Schale leeren und warten. Kein Schlauch? Sieb ganz langsam aufdrehen und das Wasser nach und nach ablassen."},
+        "6": {"q": "Dreht sich das Pumpenrad frei?", "fix": "Klemmt es, such nach Haarnadel oder Münze. Bleibt es blockiert oder ist es kaputt, ruf den Kundendienst."},
+        "8": {"q": "Bleibt das Sieb trocken, ohne Tropfen?", "fix": "Tropft es, Stecker ziehen, Sieb raus, Dichtung prüfen und das Sieb fester eindrehen."}
+      },
+      "warns": {"0": "Erst Stecker ziehen. Nach einer heißen Wäsche warten: Das Wasser kann verbrühen."},
+      "tips": ["Alle 3 Monate reinigen, oder sofort, wenn die Maschine nicht abpumpt oder einen Fehler zeigt.", "Immer die Taschen leeren: Münzen und Haarnadeln blockieren die Pumpe am häufigsten."]
+    }
+  }
+},
+{
+  "id": "filtro-lavastoviglie",
+  "cat": "elettrodomestici",
+  "diff": 1, "active": 20, "total": 20,
+  "risk": 0, "topic": null,
+  "allow": {},
+  "ppe": ["gloves"],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "old-toothbrush", "own": true}],
+  "mats": [{"k": "wooden-toothpick", "q": 2, "u": "", "own": true}, {"k": "dish-soap", "q": null, "u": "", "own": true}],
+  "steps": [
+    {"ic": "power-off"},
+    {"ic": "pull"},
+    {"ic": "loosen"},
+    {"ic": "clean"},
+    {"ic": "look", "warn": 1},
+    {"ic": "lift"},
+    {"ic": "clean"},
+    {"ic": "tighten", "check": true},
+    {"ic": "tighten", "check": true},
+    {"ic": "push"}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Pulire il filtro della lavastoviglie",
+      "intro": "Piatti opachi o cattivo odore? Pulisci filtro e bracci e torna a lavare bene.",
+      "tools": ["Spazzolino vecchio"],
+      "mats": ["Stuzzicadenti di legno", "Detersivo per piatti"],
+      "steps": [
+        "Spegni la lavastoviglie. Se ha appena finito un lavaggio, aspetta che si raffreddi.",
+        "Sfila completamente il cestello inferiore e appoggialo da parte.",
+        "Gira il filtro cilindrico sul fondo in senso antiorario e sollevalo, poi togli la rete piatta sotto.",
+        "Sciacqua i filtri sotto l'acqua calda e strofinali con lo spazzolino e una goccia di detersivo.",
+        "Pulisci il pozzetto dove sta il filtro e togli i residui rimasti sul fondo.",
+        "Sfila il braccio irroratore inferiore: di solito si solleva verso l'alto. Per quello superiore guarda il manuale.",
+        "Libera ogni forellino del braccio con lo stuzzicadenti, poi sciacqualo e scuotilo finché non esce più nulla.",
+        "Rimonta i bracci finché scattano e falli girare con la mano.",
+        "Rimetti la rete piatta, inserisci il filtro cilindrico e giralo in senso orario finché si blocca.",
+        "Rimetti il cestello inferiore e fai partire un lavaggio come al solito."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "7": {"q": "I bracci girano liberi senza toccare nulla?", "fix": "Se sfregano, toglili e rimontali finché senti lo scatto. Controlla che nessuna stoviglia li blocchi."},
+        "8": {"q": "Il filtro è bloccato e non si solleva?", "fix": "Sollevalo e giralo di nuovo finché senti lo scatto o i segni combaciano: un filtro lento manda sporco nella pompa."}
+      },
+      "warns": {"4": "Sul fondo possono esserci schegge di vetro: raccoglile con i guanti o con carta da cucina."},
+      "tips": ["Puliscilo una volta al mese; se i piatti escono con granelli o puzzano, fallo subito.", "Butta gli avanzi nella spazzatura prima di caricare: il filtro resta pulito molto più a lungo."]
+    },
+    "en": {
+      "title": "Clean the dishwasher filter",
+      "intro": "Cloudy dishes or a bad smell? Clean the filter and spray arms to get it washing well again.",
+      "tools": ["Old toothbrush"],
+      "mats": ["Wooden toothpicks", "Washing-up liquid (dish soap)"],
+      "steps": [
+        "Switch the dishwasher off. If it has just finished a cycle, let it cool down.",
+        "Pull the bottom rack all the way out and set it aside.",
+        "Twist the round filter at the bottom anticlockwise and lift it out, then lift out the flat mesh under it.",
+        "Rinse the filters under hot water and scrub them with the toothbrush and a drop of washing-up liquid.",
+        "Wipe out the well where the filter sits and pick out any bits left at the bottom.",
+        "Take off the lower spray arm: it usually lifts straight up. For the upper one, check the manual.",
+        "Clear every hole in the arm with a toothpick, then rinse and shake it until nothing more comes out.",
+        "Refit the spray arms until they click and spin them by hand.",
+        "Lay the flat mesh back, insert the round filter and twist it clockwise until it locks.",
+        "Slide the bottom rack back in and run a normal cycle."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "7": {"q": "Do the arms spin freely without touching anything?", "fix": "If they rub, take them off and refit them until they click. Check nothing in the racks is blocking them."},
+        "8": {"q": "Is the filter locked so it won't lift?", "fix": "Lift it and twist again until it clicks or the marks line up: a loose filter lets dirt into the pump."}
+      },
+      "warns": {"4": "There may be glass shards at the bottom: pick them up with gloves or kitchen paper."},
+      "tips": ["Clean it once a month; if dishes come out gritty or smelly, do it now.", "Scrape food into the bin before loading: the filter stays clean much longer."]
+    },
+    "fr": {
+      "title": "Nettoyer le filtre du lave-vaisselle",
+      "intro": "Vaisselle terne ou mauvaise odeur ? Nettoie filtre et bras de lavage, ça relave bien.",
+      "tools": ["Vieille brosse à dents"],
+      "mats": ["Cure-dents en bois", "Liquide vaisselle"],
+      "steps": [
+        "Éteins le lave-vaisselle. S'il vient de finir un cycle, laisse-le refroidir.",
+        "Sors complètement le panier du bas et pose-le à côté.",
+        "Tourne le filtre cylindrique du fond vers la gauche et soulève-le, puis retire le tamis plat dessous.",
+        "Rince les filtres à l'eau chaude et frotte-les avec la brosse à dents et une goutte de liquide vaisselle.",
+        "Essuie le puits où se loge le filtre et retire les déchets restés au fond.",
+        "Enlève le bras de lavage du bas : en général, il se soulève vers le haut. Pour celui du haut, vois la notice.",
+        "Débouche chaque trou du bras avec un cure-dent, puis rince-le et secoue-le jusqu'à ce que rien ne sorte.",
+        "Remets les bras jusqu'au clic et fais-les tourner à la main.",
+        "Remets le tamis plat, insère le filtre cylindrique et tourne-le vers la droite jusqu'au blocage.",
+        "Remets le panier du bas et lance un cycle normal."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "7": {"q": "Les bras tournent-ils librement sans rien toucher ?", "fix": "S'ils frottent, enlève-les et remets-les jusqu'au clic. Vérifie qu'aucune vaisselle ne les gêne."},
+        "8": {"q": "Le filtre est-il bloqué, sans se soulever ?", "fix": "Soulève-le et tourne-le à nouveau jusqu'au clic ou aux repères alignés : mal fixé, il laisse passer la saleté vers la pompe."}
+      },
+      "warns": {"4": "Il peut y avoir des éclats de verre au fond : ramasse-les avec des gants ou de l'essuie-tout."},
+      "tips": ["Nettoie-le une fois par mois ; si la vaisselle sort avec des grains ou sent mauvais, fais-le tout de suite.", "Racle les assiettes à la poubelle avant de charger : le filtre reste propre bien plus longtemps."]
+    },
+    "es": {
+      "title": "Limpiar el filtro del lavavajillas",
+      "intro": "¿Platos opacos o mal olor? Limpia el filtro y los brazos y volverá a lavar bien.",
+      "tools": ["Cepillo de dientes viejo"],
+      "mats": ["Palillos de madera", "Jabón lavavajillas a mano"],
+      "steps": [
+        "Apaga el lavavajillas. Si acaba de terminar un lavado, deja que se enfríe.",
+        "Saca del todo la cesta de abajo y déjala a un lado.",
+        "Gira el filtro cilíndrico del fondo hacia la izquierda y levántalo; luego saca la malla plana de debajo.",
+        "Aclara los filtros con agua caliente y frótalos con el cepillo y una gota de jabón.",
+        "Limpia el hueco donde va el filtro y quita los restos que queden en el fondo.",
+        "Quita el brazo aspersor de abajo: suele salir tirando hacia arriba. Para el de arriba, mira el manual.",
+        "Desatasca cada agujero del brazo con un palillo, luego acláralo y sacúdelo hasta que no salga nada.",
+        "Vuelve a montar los brazos hasta que hagan clic y gíralos con la mano.",
+        "Coloca la malla plana, mete el filtro cilíndrico y gíralo a la derecha hasta que quede bloqueado.",
+        "Vuelve a meter la cesta de abajo y pon un lavado normal."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "7": {"q": "¿Los brazos giran libres sin rozar nada?", "fix": "Si rozan, quítalos y móntalos hasta oír el clic. Comprueba que ningún plato los frene."},
+        "8": {"q": "¿El filtro está bloqueado y no se levanta?", "fix": "Levántalo y gíralo otra vez hasta el clic o hasta que coincidan las marcas: un filtro suelto deja pasar suciedad a la bomba."}
+      },
+      "warns": {"4": "En el fondo puede haber trozos de cristal: recógelos con guantes o papel de cocina."},
+      "tips": ["Límpialo una vez al mes; si los platos salen con arenilla o huelen, hazlo ya.", "Tira los restos a la basura antes de cargar: el filtro aguanta limpio mucho más."]
+    },
+    "de": {
+      "title": "Spülmaschinensieb reinigen",
+      "intro": "Trübes Geschirr oder Gestank? Sieb und Sprüharme reinigen, dann spült sie wieder sauber.",
+      "tools": ["Alte Zahnbürste"],
+      "mats": ["Holzzahnstocher", "Spülmittel"],
+      "steps": [
+        "Schalte die Spülmaschine aus. Ist gerade ein Programm fertig, lass sie abkühlen.",
+        "Zieh den unteren Korb ganz heraus und stell ihn beiseite.",
+        "Dreh das runde Sieb am Boden gegen den Uhrzeigersinn und heb es raus, dann das flache Sieb darunter.",
+        "Spül die Siebe unter heißem Wasser ab und schrubb sie mit Zahnbürste und einem Tropfen Spülmittel.",
+        "Wisch die Mulde aus, in der das Sieb sitzt, und nimm Reste vom Boden raus.",
+        "Nimm den unteren Sprüharm ab: meist einfach nach oben ziehen. Für den oberen schau in die Anleitung.",
+        "Mach jedes Loch im Arm mit einem Zahnstocher frei, dann ausspülen und schütteln, bis nichts mehr rauskommt.",
+        "Setz die Sprüharme ein, bis sie einrasten, und dreh sie mit der Hand.",
+        "Leg das flache Sieb ein, setz das runde Sieb drauf und dreh es im Uhrzeigersinn, bis es einrastet.",
+        "Schieb den unteren Korb wieder rein und starte ein normales Programm."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "7": {"q": "Drehen sich die Arme frei, ohne irgendwo anzustoßen?", "fix": "Schleifen sie, abnehmen und neu einsetzen, bis sie einrasten. Prüf, ob Geschirr im Weg ist."},
+        "8": {"q": "Sitzt das Sieb fest und lässt sich nicht anheben?", "fix": "Raus und neu eindrehen, bis es klickt oder die Markierungen passen: Ein loses Sieb lässt Schmutz in die Pumpe."}
+      },
+      "warns": {"4": "Am Boden können Glassplitter liegen: mit Handschuhen oder Küchenpapier aufsammeln."},
+      "tips": ["Einmal im Monat reinigen; kommt das Geschirr sandig raus oder riecht es, gleich jetzt.", "Speisereste vor dem Einräumen in den Müll: Das Sieb bleibt viel länger sauber."]
+    }
+  }
+},
+{
+  "id": "sbrinare-freezer",
+  "cat": "elettrodomestici",
+  "diff": 1, "active": 40, "total": 220,
+  "risk": 1, "topic": "water",
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "cool-box"}, {"k": "heatproof-bowl", "own": true}, {"k": "plastic-spatula", "own": true}],
+  "mats": [{"k": "old-towel", "q": 4, "u": "", "own": true}, {"k": "cloth", "q": 2, "u": "", "own": true}, {"k": "baking-soda", "q": 20, "u": "g", "own": true}],
+  "steps": [
+    {"ic": "box"},
+    {"ic": "power-off", "warn": 2},
+    {"ic": "bucket"},
+    {"ic": "wait", "timer": 3600},
+    {"ic": "hand", "warn": 1, "check": true},
+    {"ic": "clean"},
+    {"ic": "clean", "check": true},
+    {"ic": "socket"},
+    {"ic": "wait", "timer": 7200},
+    {"ic": "box"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Sbrinare il freezer",
+      "intro": "Ghiaccio spesso sulle pareti? Sbrina il freezer: consuma meno e torna a chiudere bene.",
+      "tools": ["Borsa frigo", "Ciotole resistenti al calore", "Spatola di plastica"],
+      "mats": ["Asciugamani vecchi", "Panni", "Bicarbonato"],
+      "steps": [
+        "Sposta il cibo nella borsa frigo con le siberine e tienila chiusa.",
+        "Stacca la spina del freezer, o del frigo-congelatore se ha una sola spina.",
+        "Togli cassetti e ripiani e metti gli asciugamani sul fondo e a terra davanti.",
+        "Metti dentro ciotole di acqua calda, non bollente, e chiudi lo sportello. Cambia l'acqua ogni 20 minuti.",
+        "Stacca a mano o con la spatola di plastica i pezzi di ghiaccio che si muovono, senza forzare.",
+        "Lava l'interno con acqua tiepida e un cucchiaio di bicarbonato, poi passa un panno pulito.",
+        "Asciuga tutto bene con un panno, compresa la guarnizione dello sportello.",
+        "Rimetti cassetti e ripiani, riattacca la spina e imposta il termostato come prima.",
+        "Aspetta a sportello chiuso che torni alla temperatura solita prima di rimettere il cibo.",
+        "Rimetti il cibo in fretta e chiudi subito lo sportello."
+      ],
+      "labels": ["", "", "", "Sbrinamento", "", "", "", "", "Raffreddamento", ""],
+      "checks": {
+        "4": {"q": "Il ghiaccio si è staccato da tutte le pareti?", "fix": "Se ne resta, rimetti una ciotola di acqua calda e aspetta altri 15 minuti. Non forzarlo mai."},
+        "6": {"q": "È tutto asciutto, guarnizione compresa?", "fix": "Ripassa il panno: l'acqua che resta diventa subito ghiaccio nuovo."}
+      },
+      "warns": {
+        "1": "Stacca la spina prima di iniziare: lavorerai con acqua intorno all'apparecchio.",
+        "4": "Mai coltelli o cacciaviti sul ghiaccio: puoi bucare il circuito del refrigerante e rompere il freezer."
+      },
+      "tips": ["Sbrina quando il ghiaccio supera [[5 mm]]: più è spesso, più corrente consuma.", "Il cibo scongelato del tutto non va ricongelato crudo: cucinalo o consumalo presto.", "Un congelatore No Frost non va sbrinato: basta pulirlo ogni tanto."]
+    },
+    "en": {
+      "title": "Defrost a freezer",
+      "intro": "Thick ice on the walls? Defrost it: it uses less power and the door seals properly again.",
+      "tools": ["Cool box", "Heatproof bowls", "Plastic spatula"],
+      "mats": ["Old towels", "Cloths", "Baking soda (bicarbonate)"],
+      "steps": [
+        "Move the food into the cool box with ice packs and keep the lid shut.",
+        "Unplug the freezer, or the fridge-freezer if it has a single plug.",
+        "Take out drawers and shelves and lay towels in the bottom and on the floor in front.",
+        "Put bowls of hot, not boiling, water inside and close the door. Change the water every 20 minutes.",
+        "Lift out loose chunks of ice by hand or with the plastic spatula, without forcing them.",
+        "Wash the inside with warm water and a spoonful of baking soda, then wipe with a clean cloth.",
+        "Dry everything thoroughly with a cloth, door seal included.",
+        "Put drawers and shelves back, plug in and set the thermostat as before.",
+        "Keep the door shut and wait for it to reach its usual temperature before reloading.",
+        "Put the food back quickly and close the door straight away."
+      ],
+      "labels": ["", "", "", "Defrosting", "", "", "", "", "Cooling", ""],
+      "checks": {
+        "4": {"q": "Has the ice come away from all the walls?", "fix": "If some is left, put in a fresh bowl of hot water and wait another 15 minutes. Never force it."},
+        "6": {"q": "Is everything dry, seal included?", "fix": "Wipe again: any water left turns into new ice straight away."}
+      },
+      "warns": {
+        "1": "Unplug before you start: you'll be working with water around the appliance.",
+        "4": "Never use knives or screwdrivers on the ice: you can pierce the refrigerant circuit and ruin the freezer."
+      },
+      "tips": ["Defrost when the ice is over [[5 mm]] thick: the thicker it is, the more power it uses.", "Food that has fully thawed shouldn't be refrozen raw: cook it or eat it soon.", "A frost-free freezer doesn't need defrosting: just give it a clean now and then."]
+    },
+    "fr": {
+      "title": "Dégivrer le congélateur",
+      "intro": "Une couche de glace sur les parois ? Dégivre : il consomme moins et la porte ferme bien.",
+      "tools": ["Glacière", "Bols résistant à la chaleur", "Spatule en plastique"],
+      "mats": ["Vieilles serviettes", "Chiffons", "Bicarbonate de soude"],
+      "steps": [
+        "Mets les aliments dans la glacière avec des pains de glace et garde-la fermée.",
+        "Débranche le congélateur, ou le réfrigérateur-congélateur s'il n'a qu'une prise.",
+        "Sors tiroirs et clayettes et pose des serviettes au fond et au sol devant.",
+        "Place des bols d'eau chaude, pas bouillante, à l'intérieur et ferme la porte. Change l'eau toutes les 20 minutes.",
+        "Retire à la main ou à la spatule en plastique les blocs de glace qui se détachent, sans forcer.",
+        "Lave l'intérieur à l'eau tiède avec une cuillère de bicarbonate, puis passe un chiffon propre.",
+        "Sèche bien tout avec un chiffon, joint de porte compris.",
+        "Remets tiroirs et clayettes, rebranche et règle le thermostat comme avant.",
+        "Porte fermée, attends qu'il revienne à sa température habituelle avant de remettre les aliments.",
+        "Remets les aliments rapidement et referme la porte tout de suite."
+      ],
+      "labels": ["", "", "", "Dégivrage", "", "", "", "", "Mise en froid", ""],
+      "checks": {
+        "4": {"q": "La glace s'est-elle détachée de toutes les parois ?", "fix": "S'il en reste, remets un bol d'eau chaude et attends encore 15 minutes. Ne force jamais."},
+        "6": {"q": "Tout est-il sec, joint compris ?", "fix": "Repasse le chiffon : l'eau qui reste se transforme aussitôt en glace."}
+      },
+      "warns": {
+        "1": "Débranche avant de commencer : tu vas travailler avec de l'eau autour de l'appareil.",
+        "4": "Jamais de couteau ni de tournevis sur la glace : tu peux percer le circuit de gaz réfrigérant."
+      },
+      "tips": ["Dégivre dès que la glace dépasse [[5 mm]] : plus elle est épaisse, plus il consomme.", "Un aliment complètement décongelé ne se recongèle pas cru : cuisine-le ou mange-le vite.", "Un congélateur No Frost n'a pas besoin de dégivrage : un nettoyage de temps en temps suffit."]
+    },
+    "es": {
+      "title": "Descongelar el congelador",
+      "intro": "¿Hielo grueso en las paredes? Descongélalo: gastará menos y la puerta cerrará bien.",
+      "tools": ["Nevera portátil", "Cuencos resistentes al calor", "Espátula de plástico"],
+      "mats": ["Toallas viejas", "Trapos", "Bicarbonato"],
+      "steps": [
+        "Pasa la comida a la nevera portátil con acumuladores de frío y mantenla cerrada.",
+        "Desenchufa el congelador, o el frigorífico combi si tiene un solo enchufe.",
+        "Saca cajones y bandejas y pon toallas en el fondo y en el suelo delante.",
+        "Mete cuencos con agua caliente, no hirviendo, y cierra la puerta. Cambia el agua cada 20 minutos.",
+        "Quita con la mano o con la espátula de plástico los trozos de hielo que se suelten, sin forzar.",
+        "Lava el interior con agua tibia y una cucharada de bicarbonato y pasa un trapo limpio.",
+        "Seca todo bien con un trapo, incluida la goma de la puerta.",
+        "Vuelve a poner cajones y bandejas, enchufa y pon el termostato como antes.",
+        "Con la puerta cerrada, espera a que vuelva a su temperatura normal antes de meter la comida.",
+        "Mete la comida rápido y cierra la puerta enseguida."
+      ],
+      "labels": ["", "", "", "Descongelado", "", "", "", "", "Enfriado", ""],
+      "checks": {
+        "4": {"q": "¿El hielo se ha despegado de todas las paredes?", "fix": "Si queda, pon otro cuenco de agua caliente y espera 15 minutos más. No lo fuerces nunca."},
+        "6": {"q": "¿Está todo seco, goma incluida?", "fix": "Vuelve a pasar el trapo: el agua que quede se convierte enseguida en hielo nuevo."}
+      },
+      "warns": {
+        "1": "Desenchufa antes de empezar: vas a trabajar con agua alrededor del aparato.",
+        "4": "Nunca cuchillos ni destornilladores en el hielo: puedes perforar el circuito de gas y romperlo."
+      },
+      "tips": ["Descongélalo cuando el hielo pase de [[5 mm]]: cuanto más grueso, más consume.", "La comida descongelada del todo no se vuelve a congelar cruda: cocínala o cómetela pronto.", "Un congelador No Frost no necesita descongelarse: basta con limpiarlo de vez en cuando."]
+    },
+    "de": {
+      "title": "Gefrierschrank abtauen",
+      "intro": "Dicke Eisschicht? Abtauen: Er verbraucht weniger Strom und die Tür schließt wieder dicht.",
+      "tools": ["Kühlbox", "Hitzefeste Schüsseln", "Kunststoffspachtel"],
+      "mats": ["Alte Handtücher", "Lappen", "Natron"],
+      "steps": [
+        "Pack das Gefriergut mit Kühlakkus in die Kühlbox und lass sie zu.",
+        "Zieh den Stecker des Gefrierschranks, bzw. der Kühl-Gefrier-Kombi, wenn sie nur einen Stecker hat.",
+        "Nimm Schubladen und Böden raus und leg Handtücher hinein und davor auf den Boden.",
+        "Stell Schüsseln mit heißem, nicht kochendem Wasser hinein und schließ die Tür. Alle 20 Minuten Wasser wechseln.",
+        "Nimm lose Eisstücke mit der Hand oder dem Kunststoffspachtel raus, ohne Gewalt.",
+        "Wisch innen mit lauwarmem Wasser und einem Löffel Natron aus, dann mit sauberem Lappen nach.",
+        "Trockne alles gründlich ab, auch die Türdichtung.",
+        "Setz Schubladen und Böden ein, Stecker rein und Thermostat wie vorher einstellen.",
+        "Lass die Tür zu und warte, bis er seine übliche Temperatur erreicht hat, bevor du einräumst.",
+        "Räum das Gefriergut zügig ein und mach die Tür gleich wieder zu."
+      ],
+      "labels": ["", "", "", "Abtauen", "", "", "", "", "Runterkühlen", ""],
+      "checks": {
+        "4": {"q": "Hat sich das Eis von allen Wänden gelöst?", "fix": "Ist noch Eis da, frische Schüssel heißes Wasser rein und 15 Minuten warten. Nie mit Gewalt."},
+        "6": {"q": "Ist alles trocken, auch die Dichtung?", "fix": "Nochmal nachwischen: Restwasser wird sofort zu neuem Eis."}
+      },
+      "warns": {
+        "1": "Vorher Stecker ziehen: Du arbeitest mit Wasser rund ums Gerät.",
+        "4": "Nie Messer oder Schraubendreher aufs Eis: Du kannst den Kältemittelkreislauf durchstechen."
+      },
+      "tips": ["Abtauen, sobald das Eis dicker als [[5 mm]] ist: Je dicker, desto mehr Strom.", "Ganz aufgetaute Lebensmittel nicht roh wieder einfrieren: kochen oder bald essen.", "No-Frost-Geräte musst du nicht abtauen: Ab und zu auswischen reicht."]
+    }
+  }
+},
+{
+  "id": "filtri-condizionatore",
+  "cat": "elettrodomestici",
+  "diff": 1, "active": 25, "total": 85,
+  "risk": 1, "topic": null,
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [4, 5, 6],
+  "tools": [{"k": "step-ladder"}, {"k": "vacuum-cleaner", "own": true}],
+  "mats": [{"k": "cloth", "q": 1, "u": "", "own": true}, {"k": "dish-soap", "q": null, "u": "", "own": true}],
+  "steps": [
+    {"ic": "power-off", "warn": 2},
+    {"ic": "ladder"},
+    {"ic": "lift"},
+    {"ic": "pull"},
+    {"ic": "clean"},
+    {"ic": "drop"},
+    {"ic": "wait", "timer": 3600, "bg": true},
+    {"ic": "clean"},
+    {"ic": "hand", "check": true},
+    {"ic": "push", "check": true},
+    {"ic": "fan"}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Pulire i filtri del condizionatore",
+      "intro": "Prima dell'estate pulisci i filtri dello split: aria più fresca, meno odori e consumi.",
+      "tools": ["Scaletta", "Aspirapolvere"],
+      "mats": ["Panno", "Detersivo per piatti"],
+      "steps": [
+        "Spegni lo split col telecomando, poi stacca la spina o abbassa il suo interruttore nel quadro.",
+        "Metti una scaletta stabile davanti allo split. Niente sedie.",
+        "Solleva il pannello frontale dal bordo inferiore finché resta aperto da solo.",
+        "Sfila i filtri a rete: spingili un po' in su e tirali verso il basso, piano.",
+        "Aspira la polvere dai filtri sul lato sporco, meglio fuori o sopra un sacco.",
+        "Lavali con acqua tiepida, massimo [[30 °C]], e una goccia di detersivo. Sciacqua dal retro.",
+        "Scuotili e lasciali asciugare all'ombra. Niente sole né phon: si deformano.",
+        "Intanto passa un panno appena umido su pannello e alette, sempre a split spento.",
+        "Tocca i filtri: devono essere asciutti del tutto prima di rimontarli.",
+        "Infila i filtri nelle guide dal verso giusto fino in fondo e richiudi il pannello.",
+        "Ridai corrente e accendi qualche minuto in raffreddamento: l'aria deve uscire bene, senza rumori."
+      ],
+      "labels": ["", "", "", "", "", "", "Asciugatura", "", "", "", ""],
+      "checks": {
+        "8": {"q": "I filtri sono asciutti del tutto?", "fix": "Se sono umidi, aspetta ancora: filtri bagnati fanno muffa e cattivo odore."},
+        "9": {"q": "I filtri sono dentro le guide e il pannello è chiuso?", "fix": "Sfilali e reinfilali seguendo le guide: un filtro storto fa entrare la polvere nello split."}
+      },
+      "warns": {"0": "Togli corrente, non basta il telecomando: la ventola può partire con le dita dentro."},
+      "tips": ["Se lo usi tanto, puliscili ogni 2 settimane d'estate: raffredda meglio e consuma meno.", "Se puzza di muffa anche con i filtri puliti, la batteria interna va sanificata da un tecnico."]
+    },
+    "en": {
+      "title": "Clean air conditioner filters",
+      "intro": "Before summer, clean your split unit's filters: cooler air, fewer smells, lower bills.",
+      "tools": ["Step ladder", "Vacuum cleaner"],
+      "mats": ["Cloth", "Washing-up liquid (dish soap)"],
+      "steps": [
+        "Switch the unit off with the remote, then unplug it or switch off its breaker.",
+        "Set a sturdy step ladder in front of the indoor unit. No chairs.",
+        "Lift the front panel from its bottom edge until it stays open on its own.",
+        "Slide out the mesh filters: push them up slightly and pull them down, gently.",
+        "Vacuum the dust off the dirty side of the filters, ideally outdoors or over a bin bag.",
+        "Wash them in lukewarm water, [[30 °C]] max, with a drop of washing-up liquid. Rinse from the back.",
+        "Shake them and leave them to dry in the shade. No sun, no hair dryer: they warp.",
+        "Meanwhile, wipe the panel and the louvres with a barely damp cloth, unit still off.",
+        "Feel the filters: they must be completely dry before you refit them.",
+        "Slide the filters into their guides the right way round, all the way, and close the panel.",
+        "Turn the power back on and run it on cooling for a few minutes: air should flow well, no rattling."
+      ],
+      "labels": ["", "", "", "", "", "", "Drying", "", "", "", ""],
+      "checks": {
+        "8": {"q": "Are the filters completely dry?", "fix": "If they're damp, wait longer: wet filters grow mould and smell."},
+        "9": {"q": "Are the filters in their guides and the panel shut?", "fix": "Pull them out and slide them in along the guides: a crooked filter lets dust straight into the unit."}
+      },
+      "warns": {"0": "Cut the power, not just the remote: the fan can start while your fingers are inside."},
+      "tips": ["If you use it a lot, clean them every 2 weeks in summer: it cools better and uses less.", "Musty smell even with clean filters? The inside coil needs sanitising by a technician."]
+    },
+    "fr": {
+      "title": "Nettoyer les filtres de la clim",
+      "intro": "Avant l'été, nettoie les filtres du split : air plus frais, moins d'odeurs, moins de conso.",
+      "tools": ["Escabeau", "Aspirateur"],
+      "mats": ["Chiffon", "Liquide vaisselle"],
+      "steps": [
+        "Éteins la clim avec la télécommande, puis débranche-la ou coupe son disjoncteur.",
+        "Place un escabeau stable devant l'unité intérieure. Pas de chaise.",
+        "Soulève le panneau avant par le bord inférieur jusqu'à ce qu'il reste ouvert tout seul.",
+        "Fais glisser les filtres : pousse-les un peu vers le haut puis tire-les vers le bas, doucement.",
+        "Aspire la poussière côté sale, de préférence dehors ou au-dessus d'un sac poubelle.",
+        "Lave-les à l'eau tiède, [[30 °C]] maximum, avec une goutte de liquide vaisselle. Rince par l'arrière.",
+        "Secoue-les et laisse-les sécher à l'ombre. Ni soleil ni sèche-cheveux : ils se déforment.",
+        "Pendant ce temps, passe un chiffon à peine humide sur le panneau et les volets, clim éteinte.",
+        "Touche les filtres : ils doivent être parfaitement secs avant de les remonter.",
+        "Glisse les filtres dans leurs rails dans le bon sens, jusqu'au bout, et referme le panneau.",
+        "Remets le courant et lance quelques minutes en froid : l'air doit bien sortir, sans bruit."
+      ],
+      "labels": ["", "", "", "", "", "", "Séchage", "", "", "", ""],
+      "checks": {
+        "8": {"q": "Les filtres sont-ils complètement secs ?", "fix": "S'ils sont humides, attends encore : un filtre mouillé moisit et sent mauvais."},
+        "9": {"q": "Les filtres sont-ils dans les rails et le panneau fermé ?", "fix": "Ressors-les et remets-les en suivant les rails : un filtre de travers laisse entrer la poussière."}
+      },
+      "warns": {"0": "Coupe le courant, la télécommande ne suffit pas : le ventilateur peut démarrer doigts dedans."},
+      "tips": ["Si tu t'en sers beaucoup, nettoie-les toutes les 2 semaines l'été : elle refroidit mieux et consomme moins.", "Odeur de moisi même filtres propres ? L'échangeur intérieur doit être désinfecté par un pro."]
+    },
+    "es": {
+      "title": "Limpiar filtros del aire acondicionado",
+      "intro": "Antes del verano limpia los filtros del split: aire más fresco, menos olores y consumo.",
+      "tools": ["Escalera de mano", "Aspiradora"],
+      "mats": ["Trapo", "Jabón lavavajillas a mano"],
+      "steps": [
+        "Apaga el aparato con el mando y luego desenchúfalo o baja su interruptor en el cuadro.",
+        "Pon una escalera de mano estable delante del split. Nada de sillas.",
+        "Levanta el panel frontal desde el borde inferior hasta que se quede abierto solo.",
+        "Saca los filtros de malla: empújalos un poco hacia arriba y tira hacia abajo, con cuidado.",
+        "Aspira el polvo de los filtros por el lado sucio, mejor fuera o sobre una bolsa de basura.",
+        "Lávalos con agua tibia, máximo [[30 °C]], y una gota de jabón. Aclara desde atrás.",
+        "Sacúdelos y déjalos secar a la sombra. Ni sol ni secador: se deforman.",
+        "Mientras tanto, pasa un trapo apenas húmedo por el panel y las lamas, con el aparato apagado.",
+        "Toca los filtros: tienen que estar del todo secos antes de montarlos.",
+        "Mete los filtros por sus guías del lado correcto, hasta el fondo, y cierra el panel.",
+        "Da la corriente y ponlo unos minutos en frío: el aire debe salir bien, sin ruidos."
+      ],
+      "labels": ["", "", "", "", "", "", "Secado", "", "", "", ""],
+      "checks": {
+        "8": {"q": "¿Los filtros están del todo secos?", "fix": "Si siguen húmedos, espera más: un filtro mojado coge moho y huele mal."},
+        "9": {"q": "¿Los filtros están en sus guías y el panel cerrado?", "fix": "Sácalos y vuelve a meterlos siguiendo las guías: un filtro torcido deja pasar el polvo al aparato."}
+      },
+      "warns": {"0": "Corta la corriente, no basta el mando: el ventilador puede arrancar con los dedos dentro."},
+      "tips": ["Si lo usas mucho, límpialos cada 2 semanas en verano: enfría mejor y gasta menos.", "¿Huele a humedad con los filtros limpios? La batería interior la tiene que higienizar un técnico."]
+    },
+    "de": {
+      "title": "Klimaanlage: Filter reinigen",
+      "intro": "Vor dem Sommer die Filter vom Split-Gerät reinigen: kühlere Luft, weniger Geruch und Strom.",
+      "tools": ["Trittleiter", "Staubsauger"],
+      "mats": ["Lappen", "Spülmittel"],
+      "steps": [
+        "Schalte das Gerät per Fernbedienung aus, dann Stecker ziehen oder die Sicherung ausschalten.",
+        "Stell eine stabile Trittleiter vor das Innengerät. Keinen Stuhl.",
+        "Heb die Frontabdeckung an der Unterkante an, bis sie von allein offen bleibt.",
+        "Zieh die Filtermatten raus: leicht nach oben schieben, dann vorsichtig nach unten ziehen.",
+        "Saug den Staub von der schmutzigen Seite ab, am besten draußen oder über einem Müllsack.",
+        "Wasch sie in lauwarmem Wasser, höchstens [[30 °C]], mit einem Tropfen Spülmittel. Von hinten ausspülen.",
+        "Ausschütteln und im Schatten trocknen lassen. Keine Sonne, kein Föhn: Sie verziehen sich.",
+        "Wisch in der Zwischenzeit Abdeckung und Lamellen mit einem kaum feuchten Lappen ab, Gerät aus.",
+        "Fühl die Filter: Sie müssen ganz trocken sein, bevor sie wieder rein dürfen.",
+        "Schieb die Filter richtig herum bis zum Anschlag in die Führungen und schließ die Abdeckung.",
+        "Strom wieder an und ein paar Minuten kühlen lassen: Die Luft muss gut kommen, ohne Klappern."
+      ],
+      "labels": ["", "", "", "", "", "", "Trocknen", "", "", "", ""],
+      "checks": {
+        "8": {"q": "Sind die Filter ganz trocken?", "fix": "Sind sie noch feucht, länger warten: Nasse Filter schimmeln und riechen."},
+        "9": {"q": "Sitzen die Filter in den Führungen und ist die Abdeckung zu?", "fix": "Rausziehen und entlang der Führungen neu einschieben: Ein schiefer Filter lässt Staub ins Gerät."}
+      },
+      "warns": {"0": "Strom wirklich trennen, Fernbedienung reicht nicht: Der Lüfter kann anlaufen, Finger drin."},
+      "tips": ["Bei viel Nutzung im Sommer alle 2 Wochen reinigen: kühlt besser und braucht weniger Strom.", "Riecht es trotz sauberer Filter muffig? Dann muss ein Fachbetrieb den Wärmetauscher reinigen."]
+    }
+  }
+},
+{
+  "id": "pulire-porta-ricarica",
+  "cat": "elettronica",
+  "diff": 1, "active": 10, "total": 10,
+  "risk": 0, "topic": null,
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "torch", "own": true}],
+  "mats": [{"k": "wooden-toothpick", "q": 2, "u": "", "own": true}, {"k": "compressed-air", "q": 1, "u": ""}],
+  "steps": [
+    {"ic": "power-off"},
+    {"ic": "look"},
+    {"ic": "clean", "warn": 1},
+    {"ic": "pull"},
+    {"ic": "air"},
+    {"ic": "look", "check": true},
+    {"ic": "phone", "check": true}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Pulire la porta di ricarica del telefono",
+      "intro": "Il cavo entra lento o non carica? Spesso sono pelucchi nella porta: via in 10 minuti.",
+      "tools": ["Torcia"],
+      "mats": ["Stuzzicadenti di legno", "Bomboletta di aria compressa"],
+      "steps": [
+        "Spegni il telefono e stacca il cavo.",
+        "Punta la torcia dentro la porta e cerca i pelucchi pressati sul fondo.",
+        "Infila lo stuzzicadenti piatto lungo la parete di fondo e gratta piano verso l'esterno.",
+        "Tira fuori i pelucchi un po' alla volta. Con USB-C gira intorno alla linguetta centrale, senza fare leva.",
+        "Dai brevi soffi di aria compressa con la bomboletta dritta, a circa [[3 cm]] dalla porta.",
+        "Guarda di nuovo con la torcia: il fondo deve essere pulito, senza grumi.",
+        "Accendi il telefono e inserisci il cavo: deve fare clic e caricare senza muoverlo."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "Il fondo della porta è pulito?", "fix": "Ripeti piano con lo stuzzicadenti. Se vedi ossido verde o contatti piegati, fermati e portalo in assistenza."},
+        "6": {"q": "Il cavo fa clic e carica senza muoverlo?", "fix": "Prova un altro cavo. Se resta lento, la porta è usurata: serve un centro riparazioni."}
+      },
+      "warns": {"2": "Mai spilli, aghi o graffette: il metallo può piegare i contatti o fare corto."},
+      "tips": ["Prima prova un altro cavo: se quello tiene, è la spina del vecchio cavo a essere consumata.", "Non soffiare con la bocca: l'umidità fa ossidare i contatti. Usa solo aria compressa."]
+    },
+    "en": {
+      "title": "Clean a phone charging port",
+      "intro": "Cable loose or not charging? Usually it's lint in the port: clear it in 10 minutes.",
+      "tools": ["Torch (flashlight)"],
+      "mats": ["Wooden toothpicks", "Can of compressed air"],
+      "steps": [
+        "Turn the phone off and unplug the cable.",
+        "Shine the torch into the port and look for lint packed at the bottom.",
+        "Slide the toothpick in flat along the back wall and gently scrape outwards.",
+        "Ease the lint out a bit at a time. With USB-C, work around the centre tab and never lever on it.",
+        "Give short bursts of compressed air, can upright, about [[3 cm]] from the port.",
+        "Look again with the torch: the bottom should be clean, with no clumps.",
+        "Turn the phone on and plug in the cable: it should click and charge without wiggling."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "Is the bottom of the port clean?", "fix": "Go over it gently again with the toothpick. If you see green corrosion or bent pins, stop and take it to a repair shop."},
+        "6": {"q": "Does the cable click in and charge without wiggling?", "fix": "Try another cable. If it's still loose, the port is worn: take it to a repair shop."}
+      },
+      "warns": {"2": "Never use pins, needles or paper clips: metal can bend the contacts or short them."},
+      "tips": ["Try another cable first: if that one holds, it's the old cable's plug that's worn.", "Don't blow into it: moisture corrodes the contacts. Stick to compressed air."]
+    },
+    "fr": {
+      "title": "Nettoyer le port de charge du téléphone",
+      "intro": "Le câble tient mal ou ne charge pas ? Souvent des peluches dans le port : 10 min suffisent.",
+      "tools": ["Lampe torche"],
+      "mats": ["Cure-dents en bois", "Bombe d'air sec"],
+      "steps": [
+        "Éteins le téléphone et débranche le câble.",
+        "Éclaire l'intérieur du port avec la lampe et cherche les peluches tassées au fond.",
+        "Glisse le cure-dent à plat le long de la paroi du fond et gratte doucement vers l'extérieur.",
+        "Sors les peluches petit à petit. En USB-C, contourne la languette centrale sans jamais faire levier.",
+        "Envoie de courtes bouffées d'air sec, bombe bien droite, à environ [[3 cm]] du port.",
+        "Regarde à nouveau avec la lampe : le fond doit être propre, sans amas.",
+        "Rallume le téléphone et branche le câble : il doit faire clic et charger sans bouger."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "Le fond du port est-il propre ?", "fix": "Repasse doucement le cure-dent. Si tu vois de l'oxydation verte ou des contacts tordus, arrête et va chez un réparateur."},
+        "6": {"q": "Le câble clique-t-il et charge-t-il sans bouger ?", "fix": "Essaie un autre câble. S'il reste lâche, le port est usé : passe chez un réparateur."}
+      },
+      "warns": {"2": "Jamais d'épingle, d'aiguille ou de trombone : le métal tord les contacts ou fait court-circuit."},
+      "tips": ["Essaie d'abord un autre câble : s'il tient, c'est la prise de l'ancien câble qui est usée.", "Ne souffle pas dedans : l'humidité oxyde les contacts. Utilise seulement l'air sec."]
+    },
+    "es": {
+      "title": "Limpiar el puerto de carga del móvil",
+      "intro": "¿El cable queda flojo o no carga? Suele ser pelusa en el puerto: se quita en 10 minutos.",
+      "tools": ["Linterna"],
+      "mats": ["Palillos de madera", "Bote de aire comprimido"],
+      "steps": [
+        "Apaga el móvil y desconecta el cable.",
+        "Alumbra dentro del puerto con la linterna y busca pelusa apretada en el fondo.",
+        "Mete el palillo plano a lo largo de la pared del fondo y rasca suave hacia fuera.",
+        "Saca la pelusa poco a poco. En USB-C, rodea la lengüeta central y nunca hagas palanca en ella.",
+        "Da soplidos cortos de aire comprimido, con el bote derecho, a unos [[3 cm]] del puerto.",
+        "Vuelve a mirar con la linterna: el fondo debe estar limpio, sin grumos.",
+        "Enciende el móvil y conecta el cable: debe hacer clic y cargar sin moverlo."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "¿El fondo del puerto está limpio?", "fix": "Repasa con cuidado con el palillo. Si ves óxido verde o pines doblados, para y llévalo a reparar."},
+        "6": {"q": "¿El cable hace clic y carga sin moverlo?", "fix": "Prueba otro cable. Si sigue flojo, el puerto está gastado: llévalo a un servicio técnico."}
+      },
+      "warns": {"2": "Nunca alfileres, agujas ni clips: el metal puede doblar los contactos o hacer cortocircuito."},
+      "tips": ["Prueba primero otro cable: si ese sí aguanta, lo gastado es el conector del cable viejo.", "No soples con la boca: la humedad oxida los contactos. Usa solo aire comprimido."]
+    },
+    "de": {
+      "title": "Ladebuchse am Handy reinigen",
+      "intro": "Kabel wackelt oder lädt nicht? Meist Flusen in der Buchse: in 10 Minuten wieder frei.",
+      "tools": ["Taschenlampe"],
+      "mats": ["Holzzahnstocher", "Druckluftspray"],
+      "steps": [
+        "Schalte das Handy aus und zieh das Kabel ab.",
+        "Leuchte mit der Taschenlampe in die Buchse und such nach festgedrückten Flusen am Boden.",
+        "Schieb den Zahnstocher flach an der hinteren Wand entlang und kratz sanft nach außen.",
+        "Hol die Flusen Stück für Stück raus. Bei USB-C um die Mittelzunge herum, nie daran hebeln.",
+        "Gib kurze Stöße Druckluft, Dose aufrecht, etwa [[3 cm]] vor der Buchse.",
+        "Leuchte nochmal hinein: Der Boden muss sauber sein, ohne Klumpen.",
+        "Handy einschalten und Kabel einstecken: Es muss einrasten und ohne Wackeln laden."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "5": {"q": "Ist der Boden der Buchse sauber?", "fix": "Nochmal vorsichtig mit dem Zahnstocher. Siehst du grünen Belag oder verbogene Kontakte, hör auf und geh zur Reparatur."},
+        "6": {"q": "Rastet das Kabel ein und lädt ohne Wackeln?", "fix": "Probier ein anderes Kabel. Bleibt es locker, ist die Buchse verschlissen: ab in die Handywerkstatt."}
+      },
+      "warns": {"2": "Nie Nadeln, Stecknadeln oder Büroklammern: Metall verbiegt die Kontakte oder macht Kurzschluss."},
+      "tips": ["Probier zuerst ein anderes Kabel: Hält das, ist der Stecker des alten Kabels ausgeleiert.", "Nicht reinpusten: Feuchtigkeit lässt die Kontakte oxidieren. Nur Druckluft nehmen."]
+    }
+  }
+},
+{
+  "id": "casa-pronta-inverno",
+  "cat": "stagionale",
+  "diff": 1, "active": 90, "total": 90,
+  "risk": 1, "topic": null,
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [10, 11],
+  "tools": [{"k": "radiator-key"}, {"k": "torch", "own": true}],
+  "mats": [{"k": "weather-strip", "q": 5, "u": "m"}, {"k": "outdoor-tap-cover", "q": 1, "u": ""}, {"k": "alarm-battery", "q": null, "u": ""}],
+  "steps": [
+    {"ic": "drop", "check": true},
+    {"ic": "air"},
+    {"ic": "tape"},
+    {"ic": "water-off"},
+    {"ic": "valve"},
+    {"ic": "leaf"},
+    {"ic": "check", "check": true},
+    {"ic": "look", "check": true},
+    {"ic": "measure"},
+    {"ic": "valve"}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Preparare la casa per l'inverno",
+      "intro": "Una lista di controlli da fare in autunno per arrivare all'inverno senza sorprese.",
+      "tools": ["Chiavetta per termosifoni", "Torcia"],
+      "mats": ["Guarnizione adesiva per infissi", "Copertura isolante per rubinetto", "Batterie per rilevatori"],
+      "steps": [
+        "Accendi il riscaldamento e tocca i termosifoni: se sono freddi in alto, spurgali (vedi la guida Spurgare un termosifone).",
+        "Cerca gli spifferi: passa il dorso della mano lungo finestre e porte, in una giornata di vento.",
+        "Dove senti aria, pulisci il telaio e incolla la guarnizione adesiva. Sotto la porta, un paraspifferi.",
+        "Chiudi la valvola interna del rubinetto esterno, se c'è, e apri il rubinetto fuori per svuotarlo.",
+        "Copri il rubinetto esterno con la copertura isolante e scollega la gomma da giardino.",
+        "Guarda le grondaie da terra: foglie, piante o acqua che trabocca. Se vanno pulite, fatti aiutare o chiama qualcuno.",
+        "Premi il tasto di prova di ogni rilevatore di fumo e di monossido finché suona.",
+        "Cerca la data dell'ultima manutenzione della caldaia sul libretto o sull'etichetta.",
+        "Controlla la pressione della caldaia: di solito tra [[1-1.5 bar]] a impianto freddo.",
+        "Trova il rubinetto generale dell'acqua e prova che giri: se si rompe un tubo ti serve subito."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "0": {"q": "Tutti i termosifoni sono caldi da cima a fondo?", "fix": "Spurga quelli freddi in alto (vedi la guida Spurgare un termosifone) e poi ricontrolla la pressione."},
+        "6": {"q": "Ogni rilevatore ha suonato forte?", "fix": "Cambia la batteria e riprova. Se resta muto o ha superato la data di sostituzione sull'etichetta, cambialo."},
+        "7": {"q": "La caldaia ha avuto la manutenzione negli ultimi 12 mesi?", "fix": "Prenota un tecnico abilitato prima del freddo. Ogni quanto farla dipende dal modello e dalle regole locali."}
+      },
+      "warns": {},
+      "tips": ["Fallo a ottobre, prima delle gelate: a dicembre i tecnici sono pieni.", "Tubi in garage, cantina o soffitta non riscaldati? Rivestili con guaine isolanti in schiuma: costano poco."]
+    },
+    "en": {
+      "title": "Get your home ready for winter",
+      "intro": "An autumn checklist to get through winter without nasty surprises.",
+      "tools": ["Radiator key", "Torch (flashlight)"],
+      "mats": ["Self-adhesive draught strip", "Outdoor tap cover", "Alarm batteries"],
+      "steps": [
+        "Turn the heating on and feel each radiator: if it's cold at the top, bleed it (see the bleed-a-radiator guide).",
+        "Hunt for draughts: run the back of your hand along windows and doors on a windy day.",
+        "Where you feel air, clean the frame and stick on draught strip. Under the door, use a draught excluder.",
+        "Close the indoor valve for the outside tap if there is one, then open the tap outside to drain it.",
+        "Fit the insulating cover over the outside tap and disconnect the garden hose.",
+        "Check the gutters from the ground: leaves, plants or overflowing water. If they need clearing, get help or call someone.",
+        "Press the test button on every smoke and CO alarm until it sounds.",
+        "Find the date of the boiler's last service in its logbook or on the label.",
+        "Check the boiler pressure: usually [[1-1.5 bar]] with the system cold.",
+        "Find the main water stopcock and check it turns: you'll need it fast if a pipe bursts."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "0": {"q": "Are all radiators warm from top to bottom?", "fix": "Bleed the ones that are cold at the top (see the bleed-a-radiator guide), then recheck the boiler pressure."},
+        "6": {"q": "Did every alarm sound loudly?", "fix": "Change the battery and test again. If it stays silent or is past the replace-by date on its label, replace it."},
+        "7": {"q": "Was the boiler serviced in the last 12 months?", "fix": "Book a qualified engineer before the cold sets in. How often depends on the model and local rules."}
+      },
+      "warns": {},
+      "tips": ["Do it in October, before the frosts: by December engineers are fully booked.", "Pipes in an unheated garage, cellar or loft? Wrap them in foam pipe lagging: it's cheap."]
+    },
+    "fr": {
+      "title": "Préparer la maison pour l'hiver",
+      "intro": "Une liste de contrôles à faire à l'automne pour passer l'hiver sans mauvaise surprise.",
+      "tools": ["Clé de purge", "Lampe torche"],
+      "mats": ["Joint isolant adhésif", "Housse isolante pour robinet", "Piles pour détecteurs"],
+      "steps": [
+        "Allume le chauffage et touche chaque radiateur : s'il est froid en haut, purge-le (voir le guide Purger un radiateur).",
+        "Traque les courants d'air : passe le dos de la main le long des fenêtres et portes, un jour de vent.",
+        "Là où ça souffle, nettoie le cadre et colle le joint adhésif. Sous la porte, un boudin de porte.",
+        "Ferme la vanne intérieure du robinet extérieur s'il y en a une, puis ouvre le robinet dehors pour le vider.",
+        "Mets la housse isolante sur le robinet extérieur et débranche le tuyau d'arrosage.",
+        "Regarde les gouttières depuis le sol : feuilles, plantes ou eau qui déborde. À nettoyer ? Fais-toi aider ou appelle quelqu'un.",
+        "Appuie sur le bouton test de chaque détecteur de fumée et de CO jusqu'à ce qu'il sonne.",
+        "Trouve la date du dernier entretien de la chaudière sur le carnet ou l'étiquette.",
+        "Vérifie la pression de la chaudière : en général [[1-1.5 bar]] à froid.",
+        "Repère le robinet d'arrêt général d'eau et vérifie qu'il tourne : en cas de fuite, il te le faut vite."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "0": {"q": "Tous les radiateurs sont-ils chauds de haut en bas ?", "fix": "Purge ceux qui sont froids en haut (voir le guide Purger un radiateur), puis revérifie la pression."},
+        "6": {"q": "Chaque détecteur a-t-il sonné fort ?", "fix": "Change la pile et refais le test. S'il reste muet ou a dépassé la date sur l'étiquette, remplace-le."},
+        "7": {"q": "La chaudière a-t-elle été entretenue ces 12 derniers mois ?", "fix": "Prends rendez-vous avec un chauffagiste qualifié avant le froid : en France, l'entretien annuel est obligatoire."}
+      },
+      "warns": {},
+      "tips": ["Fais-le en octobre, avant les gelées : en décembre, les chauffagistes sont débordés.", "Des tuyaux dans un garage, une cave ou des combles non chauffés ? Gaine-les de mousse isolante, ça coûte peu."]
+    },
+    "es": {
+      "title": "Preparar la casa para el invierno",
+      "intro": "Una lista de comprobaciones de otoño para pasar el invierno sin sustos.",
+      "tools": ["Llave de purga", "Linterna"],
+      "mats": ["Burlete adhesivo", "Funda aislante para grifo", "Pilas para detectores"],
+      "steps": [
+        "Enciende la calefacción y toca cada radiador: si está frío arriba, púrgalo (mira la guía Purgar un radiador).",
+        "Busca corrientes de aire: pasa el dorso de la mano por ventanas y puertas en un día de viento.",
+        "Donde notes aire, limpia el marco y pega el burlete. Debajo de la puerta, un burlete bajo puerta.",
+        "Cierra la llave interior del grifo exterior si la hay y abre el grifo de fuera para vaciarlo.",
+        "Pon la funda aislante en el grifo exterior y desconecta la manguera.",
+        "Mira los canalones desde el suelo: hojas, plantas o agua que rebosa. Si hay que limpiarlos, pide ayuda o llama a alguien.",
+        "Pulsa el botón de prueba de cada detector de humo y de CO hasta que suene.",
+        "Busca la fecha de la última revisión de la caldera en el libro o en la etiqueta.",
+        "Mira la presión de la caldera: suele estar entre [[1-1.5 bar]] en frío.",
+        "Localiza la llave de paso general del agua y comprueba que gira: si revienta un tubo, la necesitarás ya."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "0": {"q": "¿Todos los radiadores están calientes de arriba abajo?", "fix": "Purga los que estén fríos arriba (mira la guía Purgar un radiador) y vuelve a mirar la presión."},
+        "6": {"q": "¿Ha sonado fuerte cada detector?", "fix": "Cambia la pila y prueba otra vez. Si sigue mudo o ha pasado la fecha de la etiqueta, cámbialo."},
+        "7": {"q": "¿La caldera tuvo revisión en los últimos 12 meses?", "fix": "Pide cita a un técnico autorizado antes del frío. La frecuencia depende del modelo y de la normativa local."}
+      },
+      "warns": {},
+      "tips": ["Hazlo en octubre, antes de las heladas: en diciembre los técnicos no dan abasto.", "¿Tuberías en garaje, trastero o desván sin calefacción? Fórralas con coquilla aislante: es barata."]
+    },
+    "de": {
+      "title": "Haus winterfest machen",
+      "intro": "Eine Herbst-Checkliste, damit du ohne böse Überraschungen durch den Winter kommst.",
+      "tools": ["Entlüftungsschlüssel", "Taschenlampe"],
+      "mats": ["Selbstklebende Fensterdichtung", "Frostschutzhaube für Außenhahn", "Batterien für Melder"],
+      "steps": [
+        "Heizung an und jeden Heizkörper anfassen: Oben kalt? Entlüften (siehe Anleitung Heizkörper entlüften).",
+        "Such Zugluft: Fahr an einem windigen Tag mit dem Handrücken an Fenstern und Türen entlang.",
+        "Wo es zieht, Rahmen säubern und Dichtband aufkleben. Unter der Tür hilft ein Zugluftstopper.",
+        "Schließ innen das Absperrventil der Außenleitung, falls vorhanden, und öffne den Außenhahn zum Entleeren.",
+        "Zieh die Frostschutzhaube über den Außenhahn und nimm den Gartenschlauch ab.",
+        "Schau dir die Dachrinnen vom Boden an: Laub, Pflanzen, überlaufendes Wasser? Zum Reinigen Hilfe holen oder jemanden rufen.",
+        "Drück bei jedem Rauch- und CO-Melder die Testtaste, bis er piept.",
+        "Such das Datum der letzten Heizungswartung im Wartungsheft oder auf dem Aufkleber.",
+        "Prüf den Anlagendruck: meist [[1-1.5 bar]] bei kalter Anlage.",
+        "Such den Hauptwasserhahn und prüf, ob er sich drehen lässt: Bei Rohrbruch brauchst du ihn sofort."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "0": {"q": "Sind alle Heizkörper von oben bis unten warm?", "fix": "Entlüfte die oben kalten (siehe Anleitung Heizkörper entlüften) und prüf danach den Druck."},
+        "6": {"q": "Hat jeder Melder laut gepiept?", "fix": "Batterie tauschen und nochmal testen. Bleibt er stumm oder ist das Austauschdatum vorbei, neuen Melder kaufen."},
+        "7": {"q": "Wurde die Heizung in den letzten 12 Monaten gewartet?", "fix": "Vereinbar vor der Kälte einen Termin beim Fachbetrieb. Wie oft, hängt vom Gerät und den Vorschriften ab."}
+      },
+      "warns": {},
+      "tips": ["Mach es im Oktober, vor dem ersten Frost: Im Dezember sind Heizungsbauer ausgebucht.", "Rohre in unbeheizter Garage, Keller oder Dachboden? Mit Schaumstoff-Rohrisolierung ummanteln: kostet wenig."]
+    }
+  }
+},
+{
+  "id": "pulire-grondaie",
+  "cat": "stagionale",
+  "diff": 2, "active": 60, "total": 60,
+  "risk": 2, "topic": "height",
+  "allow": {},
+  "ppe": ["gloves", "glasses"],
+  "tags": [],
+  "months": [10, 11, 12],
+  "tools": [{"k": "extension-ladder"}, {"k": "gutter-scoop"}, {"k": "bucket", "own": true}, {"k": "s-hook"}, {"k": "garden-hose", "own": true}],
+  "mats": [{"k": "bin-bag", "q": 3, "u": "", "own": true}],
+  "steps": [
+    {"ic": "look", "warn": 1},
+    {"ic": "ladder"},
+    {"ic": "measure", "check": true},
+    {"ic": "ladder", "warn": 2},
+    {"ic": "hand", "warn": 1},
+    {"ic": "leaf"},
+    {"ic": "trash"},
+    {"ic": "drop"},
+    {"ic": "check", "check": true},
+    {"ic": "look"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Pulire le grondaie",
+      "intro": "Grondaie piene di foglie fanno colare l'acqua sui muri: le svuoti con scala e secchio.",
+      "tools": ["Scala a sfilo", "Paletta per grondaie", "Secchio", "Gancio a S", "Tubo da giardino"],
+      "mats": ["Sacchi della spazzatura"],
+      "steps": [
+        "Da terra guarda dove la grondaia è piena e controlla che non passino fili elettrici vicino.",
+        "Appoggia la scala su terreno solido e in piano. Su terra morbida, metti una tavola sotto i piedi.",
+        "Inclinala giusta: per ogni [[4 m]] di altezza, il piede sta a [[1 m]] dal muro.",
+        "Fatti tenere la scala da qualcuno, aggancia il secchio col gancio a S e sali tenendoti sempre con una mano.",
+        "Lavora solo a portata di braccio, con la pancia tra i montanti. Più in là: scendi e sposta la scala.",
+        "Con i guanti raccogli foglie e fango con la paletta, tirandoli verso di te, e mettili nel secchio.",
+        "Scendi, svuota il secchio nel sacco, sposta la scala e ripeti lungo tutta la grondaia.",
+        "Sciacqua la grondaia col tubo partendo dal lato opposto al pluviale: l'acqua deve correre verso lo scarico.",
+        "Guarda in basso: l'acqua deve uscire dal pluviale con un getto pieno.",
+        "Cerca gocciolii alle giunzioni e staffe piegate: vanno riparati."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Il piede è a circa [[1 m]] dal muro ogni [[4 m]] di altezza?", "fix": "Sposta il piede finché lo è. Se i piedi scivolano o la scala balla, non salire."},
+        "8": {"q": "L'acqua esce dal pluviale in basso, senza ristagni?", "fix": "Se ristagna, il pluviale è intasato: prova col tubo dallo sbocco in basso. Se non si libera, chiama un professionista."}
+      },
+      "warns": {
+        "0": "Tieni la scala lontana dai fili elettrici aerei: è pericoloso anche senza toccarli.",
+        "3": "Sali solo con qualcuno che tiene la scala, e tieni sempre due piedi e una mano sulla scala.",
+        "4": "Non sporgerti mai di lato: è così che le scale scivolano."
+      },
+      "tips": ["Se la grondaia è più in alto del primo piano, chiama un professionista: non salire così in alto.", "Dopo la pulizia monta una rete parafoglie: entrano molte meno foglie.", "Scegli una giornata asciutta e senza vento, dopo che sono cadute le ultime foglie."],
+      "gate": ["C'è qualcuno con me che tiene la scala"]
+    },
+    "en": {
+      "title": "Clean the gutters",
+      "intro": "Leaf-clogged gutters spill water down your walls: clear them with a ladder and a bucket.",
+      "tools": ["Extension ladder", "Gutter scoop", "Bucket", "S-hook", "Garden hose"],
+      "mats": ["Bin bags"],
+      "steps": [
+        "From the ground, see where the gutter is blocked and check there are no power lines nearby.",
+        "Stand the ladder on firm, level ground. On soft soil, put a board under the feet.",
+        "Set the angle: for every [[4 m]] of height, the foot goes [[1 m]] out from the wall.",
+        "Have someone hold the ladder, hang the bucket on the S-hook and climb, always holding on with one hand.",
+        "Only work within arm's reach, belly between the rails. Any further: climb down and move the ladder.",
+        "Wearing gloves, scoop leaves and sludge towards you and drop them into the bucket.",
+        "Climb down, empty the bucket into a bag, move the ladder and repeat along the whole gutter.",
+        "Flush the gutter with the hose from the end farthest from the downpipe: water should run to the outlet.",
+        "Look down: water should gush out of the bottom of the downpipe.",
+        "Look for drips at the joints and bent brackets: they need repairing."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Is the foot about [[1 m]] out for every [[4 m]] of height?", "fix": "Move the foot until it is. If the feet slip or the ladder wobbles, don't climb."},
+        "8": {"q": "Does water flow out of the bottom of the downpipe, not back up?", "fix": "If it backs up, the downpipe is blocked: try flushing it from the bottom. If it won't clear, call a pro."}
+      },
+      "warns": {
+        "0": "Keep the ladder well away from overhead power lines: it's dangerous even without touching them.",
+        "3": "Only climb with someone holding the ladder, and keep two feet and one hand on it at all times.",
+        "4": "Never lean out sideways: that's how ladders slide."
+      },
+      "tips": ["Gutters higher than the first floor? Call a professional instead of climbing that high.", "Fit a mesh gutter guard after cleaning: far fewer leaves get in.", "Pick a dry, calm day after the last leaves have fallen."],
+      "gate": ["Someone is with me to hold the ladder"]
+    },
+    "fr": {
+      "title": "Nettoyer les gouttières",
+      "intro": "Des gouttières bouchées font couler l'eau sur les murs : vide-les avec échelle et seau.",
+      "tools": ["Échelle coulissante", "Pelle à gouttière", "Seau", "Crochet en S", "Tuyau d'arrosage"],
+      "mats": ["Sacs poubelle"],
+      "steps": [
+        "Depuis le sol, repère où la gouttière est bouchée et vérifie qu'aucune ligne électrique ne passe près.",
+        "Pose l'échelle sur un sol ferme et plat. Sur terre meuble, mets une planche sous les pieds.",
+        "Règle l'angle : pour [[4 m]] de hauteur, le pied est à [[1 m]] du mur.",
+        "Fais tenir l'échelle par quelqu'un, accroche le seau au crochet en S et monte en te tenant toujours d'une main.",
+        "Travaille seulement à portée de bras, le ventre entre les montants. Plus loin : descends et déplace l'échelle.",
+        "Avec les gants, ramasse feuilles et boue à la pelle en les tirant vers toi, et mets-les dans le seau.",
+        "Descends, vide le seau dans un sac, déplace l'échelle et recommence sur toute la longueur.",
+        "Rince la gouttière au tuyau depuis le bout opposé à la descente : l'eau doit couler vers l'évacuation.",
+        "Regarde en bas : l'eau doit sortir franchement en bas du tuyau de descente.",
+        "Cherche les fuites aux jonctions et les crochets tordus : à faire réparer."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Le pied est-il à environ [[1 m]] du mur pour [[4 m]] de hauteur ?", "fix": "Déplace le pied jusqu'à y être. Si les pieds glissent ou si l'échelle bouge, ne monte pas."},
+        "8": {"q": "L'eau sort-elle en bas de la descente, sans refouler ?", "fix": "Si elle refoule, la descente est bouchée : rince-la par le bas au tuyau. Si ça ne passe pas, appelle un pro."}
+      },
+      "warns": {
+        "0": "Tiens l'échelle loin des lignes électriques aériennes : c'est dangereux même sans les toucher.",
+        "3": "Ne monte qu'avec quelqu'un qui tient l'échelle, toujours deux pieds et une main dessus.",
+        "4": "Ne te penche jamais sur le côté : c'est comme ça que les échelles glissent."
+      },
+      "tips": ["Gouttières plus hautes que le premier étage ? Appelle un professionnel au lieu de monter si haut.", "Pose une grille pare-feuilles après le nettoyage : beaucoup moins de feuilles entrent.", "Choisis un jour sec et sans vent, une fois les dernières feuilles tombées."],
+      "gate": ["Quelqu'un est avec moi pour tenir l'échelle"]
+    },
+    "es": {
+      "title": "Limpiar los canalones",
+      "intro": "Canalones llenos de hojas hacen que el agua caiga por la fachada: límpialos con escalera.",
+      "tools": ["Escalera extensible", "Pala para canalones", "Cubo", "Gancho en S", "Manguera"],
+      "mats": ["Bolsas de basura"],
+      "steps": [
+        "Desde el suelo, mira dónde está atascado el canalón y comprueba que no haya cables eléctricos cerca.",
+        "Apoya la escalera en suelo firme y nivelado. Si la tierra está blanda, pon una tabla bajo las patas.",
+        "Ajusta la inclinación: por cada [[4 m]] de altura, la base va a [[1 m]] de la pared.",
+        "Que alguien te sujete la escalera, cuelga el cubo del gancho en S y sube agarrado siempre con una mano.",
+        "Trabaja solo hasta donde llegue el brazo, con la tripa entre los largueros. Más allá: baja y mueve la escalera.",
+        "Con guantes, saca hojas y barro con la pala tirando hacia ti y échalos al cubo.",
+        "Baja, vacía el cubo en una bolsa, mueve la escalera y repite por todo el canalón.",
+        "Echa agua con la manguera desde el extremo opuesto a la bajante: el agua debe correr hacia el desagüe.",
+        "Mira abajo: el agua debe salir con fuerza por el final de la bajante.",
+        "Busca goteos en las uniones y soportes doblados: hay que repararlos."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "¿La base está a cerca de [[1 m]] de la pared por cada [[4 m]] de altura?", "fix": "Mueve la base hasta conseguirlo. Si las patas resbalan o la escalera baila, no subas."},
+        "8": {"q": "¿Sale el agua por abajo de la bajante, sin rebosar?", "fix": "Si rebosa, la bajante está atascada: prueba con la manguera desde abajo. Si no se libera, llama a un profesional."}
+      },
+      "warns": {
+        "0": "Mantén la escalera lejos de los cables eléctricos aéreos: es peligroso aunque no los toques.",
+        "3": "Sube solo si alguien sujeta la escalera, y mantén siempre dos pies y una mano en ella.",
+        "4": "Nunca te asomes hacia un lado: así es como resbalan las escaleras."
+      },
+      "tips": ["¿Canalones por encima del primer piso? Llama a un profesional en vez de subir tan alto.", "Pon una rejilla antihojas después de limpiar: entran muchas menos hojas.", "Elige un día seco y sin viento, cuando ya hayan caído las últimas hojas."],
+      "gate": ["Hay alguien conmigo para sujetar la escalera"]
+    },
+    "de": {
+      "title": "Dachrinne reinigen",
+      "intro": "Verstopfte Dachrinnen lassen Wasser an der Fassade runterlaufen: mit Leiter und Eimer frei.",
+      "tools": ["Schiebeleiter", "Dachrinnenschaufel", "Eimer", "S-Haken", "Gartenschlauch"],
+      "mats": ["Müllsäcke"],
+      "steps": [
+        "Schau vom Boden, wo die Rinne verstopft ist, und prüf, dass keine Stromleitungen in der Nähe sind.",
+        "Stell die Leiter auf festen, ebenen Boden. Auf weicher Erde ein Brett unter die Füße.",
+        "Richtig anstellen: pro [[4 m]] Höhe steht der Fuß [[1 m]] von der Wand weg.",
+        "Lass die Leiter von jemandem halten, häng den Eimer an den S-Haken und steig auf, immer mit einer Hand fest.",
+        "Arbeite nur in Armreichweite, Bauch zwischen den Holmen. Weiter weg: runter und Leiter umstellen.",
+        "Schaufle mit Handschuhen Laub und Schlamm zu dir her und wirf es in den Eimer.",
+        "Steig ab, leer den Eimer in den Sack, stell die Leiter um und mach weiter bis zum Ende.",
+        "Spül die Rinne mit dem Schlauch vom Ende gegenüber dem Fallrohr: Das Wasser muss zum Ablauf fließen.",
+        "Schau nach unten: Unten aus dem Fallrohr muss das Wasser kräftig rauskommen.",
+        "Achte auf tropfende Verbindungen und verbogene Halter: Die müssen repariert werden."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "2": {"q": "Steht der Fuß etwa [[1 m]] weg pro [[4 m]] Höhe?", "fix": "Fuß versetzen, bis es passt. Rutschen die Füße oder wackelt die Leiter, nicht hochsteigen."},
+        "8": {"q": "Läuft das Wasser unten aus dem Fallrohr, ohne sich zu stauen?", "fix": "Staut es sich, ist das Fallrohr verstopft: von unten mit dem Schlauch spülen. Geht es nicht frei, Fachbetrieb rufen."}
+      },
+      "warns": {
+        "0": "Halt die Leiter weit weg von Freileitungen: gefährlich auch ohne Berührung.",
+        "3": "Nur hochsteigen, wenn jemand die Leiter hält, und immer zwei Füße und eine Hand an der Leiter.",
+        "4": "Lehn dich nie zur Seite raus: So rutschen Leitern weg."
+      },
+      "tips": ["Rinne höher als das erste Stockwerk? Ruf einen Fachbetrieb, statt so hoch zu steigen.", "Nach dem Reinigen ein Laubschutzgitter einlegen: Es kommt viel weniger Laub rein.", "Nimm einen trockenen, windstillen Tag, wenn das letzte Laub gefallen ist."],
+      "gate": ["Jemand ist bei mir und hält die Leiter"]
+    }
+  }
+},
+{
+  "id": "odore-di-gas",
+  "cat": "stagionale",
+  "diff": 1, "active": 5, "total": 5,
+  "risk": 1, "topic": "gas",
+  "allow": {},
+  "ppe": [],
+  "tags": ["emergency"],
+  "months": [],
+  "tools": [],
+  "mats": [],
+  "steps": [
+    {"ic": "hand", "warn": 1},
+    {"ic": "socket", "warn": 1},
+    {"ic": "air"},
+    {"ic": "valve"},
+    {"ic": "door", "check": true},
+    {"ic": "phone"},
+    {"ic": "hand"}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Odore di gas in casa: cosa fare",
+      "intro": "Senti puzza di gas? Pochi gesti, nell'ordine giusto, per mettere tutti al sicuro.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Niente fiamme: non accendere fornelli, accendini o fiammiferi e non fumare.",
+        "Non toccare interruttori, prese o campanelli: lascia acceso ciò che è acceso e spento ciò che è spento.",
+        "Apri subito porte e finestre per far entrare aria.",
+        "Chiudi la valvola del gas al contatore solo se è vicina e raggiungibile senza rischi: leva di traverso al tubo.",
+        "Esci e fai uscire tutti, animali compresi. Lascia la porta aperta.",
+        "Solo quando sei fuori, lontano da casa, chiama il 112. Non telefonare da dentro.",
+        "Non rientrare finché i vigili del fuoco o il tecnico del gas non dicono che è sicuro."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Sono usciti tutti?", "fix": "Chiamali da fuori. Non rientrare a cercarli: dillo subito ai soccorsi."}
+      },
+      "warns": {
+        "0": "Basta una scintilla o una fiamma per incendiare il gas.",
+        "1": "Anche spegnere un interruttore può fare una scintilla: non toccare niente di elettrico."
+      },
+      "tips": ["Se l'odore è leggero e non sei sicuro, esci e chiama lo stesso: decide l'operatore.", "Installa un rilevatore di gas certificato vicino a caldaia e cucina: ti avvisa prima che tu lo senta."]
+    },
+    "en": {
+      "title": "Smell gas at home: what to do",
+      "intro": "Smell gas? A few actions, in the right order, to get everyone safe.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "No flames: don't light the hob, lighters or matches, and don't smoke.",
+        "Don't touch switches, plugs or doorbells: leave on what's on and off what's off.",
+        "Open doors and windows wide straight away.",
+        "Close the gas valve at the meter only if it's close and safe to reach: turn the lever across the pipe.",
+        "Get out and get everyone out, pets too. Leave the door open.",
+        "Only once you're outside, away from the house, call 999 in the UK, 911 in the US, 112 in the EU.",
+        "Don't go back in until the fire service or the gas engineer says it's safe."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Is everyone out?", "fix": "Call them from outside. Don't go back in to look for them: tell the emergency services straight away."}
+      },
+      "warns": {
+        "0": "A single spark or flame can ignite the gas.",
+        "1": "Even switching something off can make a spark: don't touch anything electrical."
+      },
+      "tips": ["If the smell is faint and you're not sure, get out and call anyway: let the operator decide.", "Fit a certified gas detector near the boiler and cooker: it warns you before you can smell it."]
+    },
+    "fr": {
+      "title": "Odeur de gaz : que faire",
+      "intro": "Ça sent le gaz ? Quelques gestes, dans le bon ordre, pour mettre tout le monde à l'abri.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Aucune flamme : n'allume ni gazinière, ni briquet, ni allumette, et ne fume pas.",
+        "Ne touche ni interrupteurs, ni prises, ni sonnette : laisse allumé ce qui est allumé, éteint ce qui est éteint.",
+        "Ouvre tout de suite grand les portes et les fenêtres.",
+        "Ferme le robinet de gaz au compteur seulement s'il est proche et accessible sans risque : manette en travers du tuyau.",
+        "Sors et fais sortir tout le monde, animaux compris. Laisse la porte ouverte.",
+        "Une fois dehors seulement, loin de la maison, appelle le 112. Ne téléphone pas de l'intérieur.",
+        "Ne rentre pas tant que les pompiers ou le technicien du gaz n'ont pas dit que c'est sûr."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Tout le monde est-il sorti ?", "fix": "Appelle-les depuis dehors. Ne rentre pas les chercher : préviens tout de suite les secours."}
+      },
+      "warns": {
+        "0": "Une seule étincelle ou flamme peut enflammer le gaz.",
+        "1": "Même éteindre un interrupteur peut faire une étincelle : ne touche à rien d'électrique."
+      },
+      "tips": ["Si l'odeur est faible et que tu as un doute, sors et appelle quand même : l'opérateur décidera.", "Installe un détecteur de gaz certifié près de la chaudière et de la cuisine : il prévient avant ton nez."]
+    },
+    "es": {
+      "title": "Olor a gas en casa: qué hacer",
+      "intro": "¿Huele a gas? Unos pocos pasos, en el orden correcto, para poner a todos a salvo.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Nada de llamas: no enciendas fuegos, mecheros ni cerillas, y no fumes.",
+        "No toques interruptores, enchufes ni timbres: deja encendido lo que está encendido y apagado lo apagado.",
+        "Abre enseguida puertas y ventanas de par en par.",
+        "Cierra la llave del gas en el contador solo si está cerca y llegas sin riesgo: palanca cruzada al tubo.",
+        "Sal y saca a todos, mascotas incluidas. Deja la puerta abierta.",
+        "Solo cuando estés fuera, lejos de casa, llama al 112. No llames desde dentro.",
+        "No vuelvas a entrar hasta que los bomberos o el técnico del gas digan que es seguro."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "¿Han salido todos?", "fix": "Llámalos desde fuera. No vuelvas a entrar a buscarlos: díselo enseguida a emergencias."}
+      },
+      "warns": {
+        "0": "Una sola chispa o llama puede inflamar el gas.",
+        "1": "Incluso apagar un interruptor puede hacer chispa: no toques nada eléctrico."
+      },
+      "tips": ["Si el olor es leve y dudas, sal y llama igual: que decida el operador.", "Pon un detector de gas homologado cerca de la caldera y la cocina: avisa antes de que lo huelas."]
+    },
+    "de": {
+      "title": "Gasgeruch in der Wohnung: was tun",
+      "intro": "Es riecht nach Gas? Wenige Schritte in der richtigen Reihenfolge bringen alle in Sicherheit.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Kein offenes Feuer: Herd, Feuerzeug und Streichhölzer nicht anzünden, nicht rauchen.",
+        "Keine Schalter, Stecker oder Klingeln anfassen: Was an ist, bleibt an, was aus ist, bleibt aus.",
+        "Reiß sofort Türen und Fenster weit auf.",
+        "Schließ den Gashahn am Zähler nur, wenn er nah und gefahrlos erreichbar ist: Hebel quer zum Rohr.",
+        "Geh raus und hol alle raus, auch Haustiere. Lass die Tür offen.",
+        "Erst draußen, weg vom Haus, die 112 anrufen. Nicht drinnen telefonieren.",
+        "Geh erst wieder rein, wenn Feuerwehr oder Gasversorger sagen, dass es sicher ist."
+      ],
+      "labels": ["", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Sind alle draußen?", "fix": "Ruf sie von draußen. Geh nicht rein, um sie zu suchen: Sag es sofort den Rettungskräften."}
+      },
+      "warns": {
+        "0": "Ein einziger Funke oder eine Flamme kann das Gas entzünden.",
+        "1": "Auch Ausschalten kann Funken erzeugen: Fass nichts Elektrisches an."
+      },
+      "tips": ["Riecht es nur schwach und du bist unsicher, geh trotzdem raus und ruf an: Die Leitstelle entscheidet.", "Installier einen geprüften Gasmelder nahe Heizung und Herd: Er warnt, bevor du es riechst."]
+    }
+  }
+},
+{
+  "id": "caldaia-gas-pro",
+  "cat": "stagionale",
+  "pro": true,
+  "diff": 1, "active": 10, "total": 10,
+  "risk": 3, "topic": "gas",
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [],
+  "mats": [],
+  "steps": [
+    {"ic": "check"},
+    {"ic": "measure", "check": true},
+    {"ic": "push", "warn": 1},
+    {"ic": "pencil"},
+    {"ic": "phone", "warn": 1}
+  ],
+  "tips": 2,
+  "i18n": {
+    "it": {
+      "title": "Caldaia non funziona: cosa fare",
+      "intro": "La caldaia è in blocco o non scalda? Ecco cosa puoi controllare da solo e chi chiamare.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Controlla termostato e corrente: alza il termostato, verifica le pile e guarda se il display della caldaia è acceso.",
+        "Leggi il manometro: a impianto freddo di solito sta tra [[1-1.5 bar]].",
+        "Premi il tasto di sblocco (reset) una sola volta, come dice il manuale. Se va di nuovo in blocco, fermati.",
+        "Annota il codice di errore, marca e modello dall'etichetta: fai una foto.",
+        "Non aprire mai il mantello: chiama un tecnico abilitato o il centro assistenza della marca."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {
+        "1": {"q": "La pressione è nella zona giusta?", "fix": "Se è bassa e il manuale spiega come ricaricare, fallo. Altrimenti comunica il valore al tecnico."}
+      },
+      "warns": {
+        "2": "Sblocca una volta sola: reset ripetuti su una caldaia che va in blocco possono essere pericolosi.",
+        "4": "Dentro ci sono gas, fumi di scarico e corrente: il mantello lo apre solo il tecnico."
+      },
+      "tips": ["Se senti odore di gas o suona il rilevatore di monossido, esci e chiama il 112: vedi la guida Odore di gas.", "Prenota la manutenzione in autunno: molti guasti saltano fuori il primo giorno freddo."],
+      "why": "La caldaia brucia gas e scarica fumi: un errore può causare fughe o monossido. Ci lavorano solo tecnici abilitati."
+    },
+    "en": {
+      "title": "Boiler not working: what to do",
+      "intro": "Boiler locked out or no heat? What you can check yourself and who to call.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Check the thermostat and power: turn the thermostat up, check its batteries and see if the boiler display is on.",
+        "Read the pressure gauge: with the system cold it's usually [[1-1.5 bar]].",
+        "Press the reset button once only, as the manual says. If it locks out again, stop.",
+        "Write down the error code, plus the make and model from the label: take a photo.",
+        "Never open the casing: call a Gas Safe registered engineer in the UK, or a licensed technician."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Is the pressure in the right range?", "fix": "If it's low and the manual shows how to top it up, do it. Otherwise tell the engineer the reading."}
+      },
+      "warns": {
+        "2": "Reset only once: repeated resets on a boiler that keeps locking out can be dangerous.",
+        "4": "Inside are gas, flue gases and mains power: only the engineer opens the casing."
+      },
+      "tips": ["Smell gas or the CO alarm goes off? Get out and call for help: see the Smell gas guide.", "Book the service in autumn: lots of faults show up on the first cold day."],
+      "why": "A boiler burns gas and vents fumes: a wrong fix can cause leaks or carbon monoxide. Only certified engineers may work on it."
+    },
+    "fr": {
+      "title": "Chaudière en panne : que faire",
+      "intro": "Chaudière en sécurité ou plus de chauffage ? Ce que tu peux vérifier et qui appeler.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Vérifie thermostat et courant : monte le thermostat, contrôle ses piles et regarde si l'écran de la chaudière est allumé.",
+        "Lis le manomètre : à froid, il indique en général [[1-1.5 bar]].",
+        "Appuie une seule fois sur le bouton de réarmement (reset), comme le dit la notice. Si elle se remet en sécurité, arrête.",
+        "Note le code d'erreur, la marque et le modèle sur l'étiquette : prends une photo.",
+        "N'ouvre jamais le capot : appelle un chauffagiste qualifié (RGE/PG) ou le SAV de la marque."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {
+        "1": {"q": "La pression est-elle dans la bonne zone ?", "fix": "Si elle est basse et que la notice explique le remplissage, fais-le. Sinon, donne la valeur au chauffagiste."}
+      },
+      "warns": {
+        "2": "Un seul réarmement : des resets répétés sur une chaudière qui se bloque peuvent être dangereux.",
+        "4": "Dedans, il y a du gaz, des fumées et du courant : seul le chauffagiste ouvre le capot."
+      },
+      "tips": ["Odeur de gaz ou alarme CO ? Sors et appelle le 112 : vois le guide Odeur de gaz.", "Fais l'entretien à l'automne : beaucoup de pannes apparaissent le premier jour de froid."],
+      "why": "Une chaudière brûle du gaz et rejette des fumées : une erreur peut causer une fuite ou du monoxyde. Réservé aux pros qualifiés."
+    },
+    "es": {
+      "title": "La caldera no funciona: qué hacer",
+      "intro": "¿Caldera bloqueada o sin calefacción? Lo que puedes revisar tú y a quién llamar.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Revisa termostato y corriente: sube el termostato, mira sus pilas y comprueba que la pantalla de la caldera esté encendida.",
+        "Mira el manómetro: en frío suele marcar entre [[1-1.5 bar]].",
+        "Pulsa el botón de rearme (reset) una sola vez, como dice el manual. Si vuelve a bloquearse, para.",
+        "Apunta el código de error, la marca y el modelo de la etiqueta: hazle una foto.",
+        "No abras nunca la carcasa: llama a un técnico autorizado o al servicio técnico de la marca."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {
+        "1": {"q": "¿La presión está en la zona correcta?", "fix": "Si está baja y el manual explica cómo llenarla, hazlo. Si no, dile el valor al técnico."}
+      },
+      "warns": {
+        "2": "Rearma solo una vez: reinicios repetidos en una caldera que se bloquea pueden ser peligrosos.",
+        "4": "Dentro hay gas, humos y corriente: la carcasa solo la abre el técnico."
+      },
+      "tips": ["¿Huele a gas o suena el detector de CO? Sal y llama al 112: mira la guía Olor a gas.", "Pide la revisión en otoño: muchas averías salen el primer día de frío."],
+      "why": "La caldera quema gas y expulsa humos: un error puede provocar fugas o monóxido. Solo pueden tocarla técnicos autorizados."
+    },
+    "de": {
+      "title": "Heizung geht nicht: was tun",
+      "intro": "Therme auf Störung oder keine Wärme? Was du selbst prüfen kannst und wen du rufst.",
+      "tools": [],
+      "mats": [],
+      "steps": [
+        "Prüf Thermostat und Strom: Thermostat hochdrehen, Batterien checken, schauen, ob das Display der Therme an ist.",
+        "Lies das Manometer ab: bei kalter Anlage meist [[1-1.5 bar]].",
+        "Drück die Entstörtaste (Reset) nur einmal, wie in der Anleitung. Geht sie wieder auf Störung, hör auf.",
+        "Notier den Fehlercode sowie Marke und Modell vom Typenschild: Mach ein Foto.",
+        "Öffne nie die Verkleidung: Ruf einen Fachbetrieb bzw. Heizungsbauer oder den Kundendienst des Herstellers."
+      ],
+      "labels": ["", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Liegt der Druck im richtigen Bereich?", "fix": "Ist er niedrig und die Anleitung erklärt das Nachfüllen, mach es. Sonst nenn dem Fachbetrieb den Wert."}
+      },
+      "warns": {
+        "2": "Nur einmal entstören: Ständige Resets an einer Therme, die immer wieder ausfällt, sind gefährlich.",
+        "4": "Drinnen sind Gas, Abgase und Strom: Die Verkleidung öffnet nur der Fachbetrieb."
+      },
+      "tips": ["Gasgeruch oder CO-Melder piept? Raus und 112 anrufen: siehe Anleitung Gasgeruch.", "Wartung im Herbst machen lassen: Viele Störungen zeigen sich am ersten kalten Tag."],
+      "why": "Eine Therme verbrennt Gas und führt Abgase ab: Fehler können Gaslecks oder Kohlenmonoxid verursachen. Nur für Fachbetriebe."
+    }
+  }
+}
+]}

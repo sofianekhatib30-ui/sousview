@@ -1,0 +1,1400 @@
+{"group": "C", "guides": [
+{
+  "id": "stuccare-buco-parete",
+  "cat": "pareti",
+  "diff": 1, "active": 25, "total": 150,
+  "risk": 0, "topic": null,
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "putty-knife"}, {"k": "utility-knife"}, {"k": "paintbrush"}, {"k": "sanding-block"}],
+  "mats": [{"k": "wall-filler", "q": 1, "u": ""}, {"k": "sandpaper", "q": 1, "u": ""}, {"k": "primer", "q": 250, "u": "ml"}, {"k": "sponge", "q": 1, "u": "", "own": true}, {"k": "cloth", "q": 1, "u": "", "own": true}],
+  "steps": [
+    {"ic": "knife"},
+    {"ic": "clean"},
+    {"ic": "hand"},
+    {"ic": "wait", "timer": 3600},
+    {"ic": "hand"},
+    {"ic": "wait", "timer": 3600},
+    {"ic": "sand", "check": true},
+    {"ic": "clean"},
+    {"ic": "brush"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Stuccare un buco o una crepa nel muro",
+      "intro": "Buchi di tasselli e crepe su intonaco o cartongesso: muro liscio e pronto da pitturare.",
+      "tools": ["Spatola", "Cutter", "Pennello", "Tampone per carteggiare"],
+      "mats": ["Stucco in pasta per muri", "Carta abrasiva grana 120", "Fissativo o primer", "Spugna", "Panno"],
+      "steps": [
+        "Togli viti e tasselli, poi gratta via con il cutter tutto ciò che si sbriciola. Le crepe aprile a V, appena più larghe.",
+        "Spolvera il buco con il pennello e inumidisci appena i bordi con la spugna strizzata: lo stucco attacca meglio.",
+        "Premi lo stucco nel buco con la spatola, passando a croce, e lascialo un filo in rilievo rispetto al muro.",
+        "Lascia asciugare: lo stucco è pronto quando è diventato tutto chiaro e uniforme, anche al centro.",
+        "Lo stucco cala asciugando: stendi una seconda mano sottile, più larga del buco, tirandola a zero sui bordi.",
+        "Lascia asciugare la seconda mano. Nei buchi profondi ci vuole di più: tocca il centro, deve essere duro.",
+        "Carteggia con movimenti circolari leggeri finché, passando la mano, non senti più gradini tra stucco e muro.",
+        "Togli tutta la polvere con il panno appena umido e aspetta che la superficie torni asciutta.",
+        "Passa il fissativo sulla zona stuccata, sbordando un po': così sotto la pittura non vedrai la macchia opaca."
+      ],
+      "labels": ["", "", "", "Asciugatura", "", "Asciugatura", "", "", ""],
+      "checks": {
+        "6": {"q": "Lo stucco è a filo del muro, liscio e senza avvallamenti?", "fix": "Se c'è ancora un incavo, passa una mano sottilissima e lasciala asciugare; se sporge, carteggia ancora."}
+      },
+      "warns": {},
+      "tips": [
+        "Buchi profondi oltre [[1 cm]]: riempili a strati sottili, lasciando asciugare ogni strato prima del successivo.",
+        "Nel cartongesso, sopra [[5 cm]] serve una toppa: rete adesiva o pezzo di lastra, poi lo stucco sopra.",
+        "Se una crepa si riapre o si allarga col tempo, può essere un movimento della struttura: falla vedere a un tecnico."
+      ]
+    },
+    "en": {
+      "title": "Fill a hole or crack in a wall",
+      "intro": "Plug holes, cracks or dents in plaster or plasterboard: a smooth wall ready to paint.",
+      "tools": ["Filling knife", "Utility knife", "Paintbrush", "Sanding block"],
+      "mats": ["Ready-mixed wall filler", "Sandpaper, 120 grit", "Primer", "Sponge", "Cloth"],
+      "steps": [
+        "Remove screws and wall plugs, then scrape out anything crumbly with the knife. Open cracks into a slight V.",
+        "Brush the dust out and dampen the edges lightly with a wrung-out sponge: the filler grips better.",
+        "Press filler into the hole with the filling knife, criss-cross, leaving it slightly proud of the wall.",
+        "Let it dry: the filler is ready when it has turned evenly pale, centre included.",
+        "Filler shrinks as it dries: spread a thin second coat, wider than the hole, feathering it out at the edges.",
+        "Let the second coat dry. Deep holes take longer: press the centre, it should feel hard.",
+        "Sand with light circular strokes until you can't feel a ridge between filler and wall when you run your hand over it.",
+        "Wipe off all the dust with a barely damp cloth and wait until the surface is dry again.",
+        "Prime the filled patch, going a little beyond it: otherwise a dull patch will show through the paint."
+      ],
+      "labels": ["", "", "", "Drying", "", "Drying", "", "", ""],
+      "checks": {
+        "6": {"q": "Is the filler flush with the wall, smooth and with no dip?", "fix": "If there's still a dip, add a very thin skim and let it dry; if it sticks out, sand some more."}
+      },
+      "warns": {},
+      "tips": [
+        "Holes deeper than [[1 cm]]: fill in thin layers and let each one dry before the next.",
+        "In plasterboard, holes over [[5 cm]] need a patch first: self-adhesive mesh or a piece of board, then filler.",
+        "If a crack keeps reopening or getting wider, the building may be moving: have a surveyor look at it."
+      ]
+    },
+    "fr": {
+      "title": "Reboucher un trou ou une fissure",
+      "intro": "Trous de chevilles, fissures ou petits dégâts sur plâtre ou placo : un mur lisse, prêt à peindre.",
+      "tools": ["Couteau à enduire", "Cutter", "Pinceau", "Cale à poncer"],
+      "mats": ["Enduit de rebouchage en pâte", "Papier abrasif grain 120", "Sous-couche", "Éponge", "Chiffon"],
+      "steps": [
+        "Retire vis et chevilles, puis gratte au cutter tout ce qui s'effrite. Ouvre les fissures en V, un peu plus larges.",
+        "Dépoussière le trou au pinceau et humidifie à peine les bords avec l'éponge essorée : l'enduit accroche mieux.",
+        "Presse l'enduit dans le trou au couteau, en croisant les passes, et laisse-le un peu en surépaisseur.",
+        "Laisse sécher : l'enduit est prêt quand il est devenu clair et uniforme, même au centre.",
+        "L'enduit se rétracte en séchant : passe une deuxième couche fine, plus large que le trou, lissée à zéro sur les bords.",
+        "Laisse sécher la deuxième couche. Pour un trou profond, c'est plus long : appuie au centre, ça doit être dur.",
+        "Ponce en petits cercles légers jusqu'à ne plus sentir de marche entre l'enduit et le mur sous la main.",
+        "Enlève toute la poussière avec un chiffon à peine humide et attends que la surface soit sèche.",
+        "Passe la sous-couche sur la zone rebouchée en débordant un peu : sinon une tache mate se verra sous la peinture."
+      ],
+      "labels": ["", "", "", "Séchage", "", "Séchage", "", "", ""],
+      "checks": {
+        "6": {"q": "L'enduit est-il au ras du mur, lisse et sans creux ?", "fix": "S'il reste un creux, passe une couche très fine et laisse sécher ; s'il dépasse, ponce encore."}
+      },
+      "warns": {},
+      "tips": [
+        "Trou de plus de [[1 cm]] de profondeur : rebouche en couches fines, en laissant sécher chacune.",
+        "Dans le placo, au-delà de [[5 cm]] il faut une pièce : treillis adhésif ou morceau de plaque, puis l'enduit.",
+        "Si une fissure se rouvre ou s'élargit avec le temps, la structure bouge peut-être : fais-la voir par un pro."
+      ]
+    },
+    "es": {
+      "title": "Tapar un agujero o grieta en la pared",
+      "intro": "Agujeros de tacos, grietas o pequeños golpes en yeso o pladur: pared lisa y lista para pintar.",
+      "tools": ["Espátula", "Cúter", "Brocha", "Taco de lijar"],
+      "mats": ["Masilla en pasta para paredes", "Lija de grano 120", "Imprimación", "Esponja", "Trapo"],
+      "steps": [
+        "Quita tornillos y tacos y rasca con el cúter todo lo que se desmorone. Abre las grietas en V, un poco más anchas.",
+        "Quita el polvo con la brocha y humedece apenas los bordes con la esponja escurrida: la masilla agarra mejor.",
+        "Aprieta la masilla en el agujero con la espátula, en pasadas cruzadas, y déjala un poco por encima de la pared.",
+        "Deja secar: la masilla está lista cuando se ha vuelto clara y uniforme, también en el centro.",
+        "La masilla merma al secar: da una segunda capa fina, más ancha que el agujero, apurando a cero en los bordes.",
+        "Deja secar la segunda capa. En agujeros profundos tarda más: aprieta el centro, tiene que estar duro.",
+        "Lija con círculos suaves hasta que, al pasar la mano, no notes ningún escalón entre masilla y pared.",
+        "Quita todo el polvo con un trapo apenas húmedo y espera a que la superficie vuelva a estar seca.",
+        "Da imprimación en la zona tapada, pasándote un poco: si no, se verá una mancha mate bajo la pintura."
+      ],
+      "labels": ["", "", "", "Secado", "", "Secado", "", "", ""],
+      "checks": {
+        "6": {"q": "¿La masilla queda a ras de la pared, lisa y sin hundidos?", "fix": "Si aún hay un hundido, da una capa muy fina y deja secar; si sobresale, lija un poco más."}
+      },
+      "warns": {},
+      "tips": [
+        "Agujeros de más de [[1 cm]] de fondo: rellénalos en capas finas y deja secar cada una antes de la siguiente.",
+        "En pladur, a partir de [[5 cm]] hace falta un parche: malla adhesiva o un trozo de placa, y encima masilla.",
+        "Si una grieta se vuelve a abrir o se ensancha, puede que se mueva la estructura: que la vea un técnico."
+      ]
+    },
+    "de": {
+      "title": "Loch oder Riss in der Wand spachteln",
+      "intro": "Dübellöcher, Risse oder kleine Macken in Putz oder Gipskarton: glatte Wand, bereit zum Streichen.",
+      "tools": ["Spachtel", "Cuttermesser", "Pinsel", "Schleifklotz"],
+      "mats": ["Fertigspachtel für Wände", "Schleifpapier, Körnung 120", "Grundierung", "Schwamm", "Lappen"],
+      "steps": [
+        "Schrauben und Dübel raus, dann alles Bröselige mit dem Cutter auskratzen. Risse leicht V-förmig aufweiten.",
+        "Staub mit dem Pinsel rausbürsten und die Ränder mit dem ausgedrückten Schwamm leicht anfeuchten: So hält der Spachtel besser.",
+        "Drück die Spachtelmasse über Kreuz ins Loch und lass sie leicht über der Wandfläche stehen.",
+        "Trocknen lassen: Die Masse ist fertig, wenn sie überall gleichmäßig hell ist, auch in der Mitte.",
+        "Spachtel schwindet beim Trocknen: Zieh eine zweite dünne Schicht breiter als das Loch und lass sie zu den Rändern auslaufen.",
+        "Lass die zweite Schicht trocknen. Tiefe Löcher brauchen länger: Drück auf die Mitte, sie muss hart sein.",
+        "Schleif mit leichten Kreisen, bis du mit der Hand keine Kante mehr zwischen Spachtel und Wand spürst.",
+        "Wisch den ganzen Staub mit einem kaum feuchten Lappen ab und warte, bis die Fläche wieder trocken ist.",
+        "Grundier die gespachtelte Stelle etwas großzügiger: Sonst zeichnet sich ein matter Fleck unter der Farbe ab."
+      ],
+      "labels": ["", "", "", "Trocknen", "", "Trocknen", "", "", ""],
+      "checks": {
+        "6": {"q": "Ist die Stelle bündig mit der Wand, glatt und ohne Mulde?", "fix": "Bleibt eine Mulde, zieh eine hauchdünne Schicht nach und lass sie trocknen; steht es über, weiter schleifen."}
+      },
+      "warns": {},
+      "tips": [
+        "Löcher tiefer als [[1 cm]]: in dünnen Schichten füllen und jede Schicht vorher trocknen lassen.",
+        "Im Gipskarton braucht es ab [[5 cm]] einen Flicken: Gewebe-Pad oder Plattenstück, dann drüber spachteln.",
+        "Geht ein Riss immer wieder auf oder wird breiter, arbeitet vielleicht das Gebäude: Lass es von Fachleuten ansehen."
+      ]
+    }
+  }
+},
+{
+  "id": "dipingere-parete",
+  "cat": "pareti",
+  "diff": 2, "active": 150, "total": 510,
+  "risk": 1, "topic": "height",
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "paint-roller"}, {"k": "paint-tray"}, {"k": "paintbrush"}, {"k": "stepladder"}],
+  "mats": [{"k": "wall-paint", "q": 2.5, "u": "l"}, {"k": "masking-tape", "q": 1, "u": ""}, {"k": "drop-cloth", "q": 1, "u": ""}, {"k": "primer", "q": null, "u": ""}, {"k": "wall-filler", "q": null, "u": ""}],
+  "steps": [
+    {"ic": "box"},
+    {"ic": "tape"},
+    {"ic": "sand"},
+    {"ic": "brush", "timer": 7200},
+    {"ic": "bucket"},
+    {"ic": "brush", "warn": 1},
+    {"ic": "roller"},
+    {"ic": "roller", "check": true},
+    {"ic": "wait", "timer": 14400},
+    {"ic": "roller"},
+    {"ic": "look", "check": true},
+    {"ic": "pull"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Imbiancare una parete",
+      "intro": "Rinfreschi o cambi colore a un muro con un risultato uniforme, senza macchie né bordi sporchi.",
+      "tools": ["Rullo per pareti", "Vaschetta con griglia", "Pennello", "Scala"],
+      "mats": ["Idropittura per interni", "Nastro di carta", "Telo di protezione", "Fissativo (se serve)", "Stucco per muri (se serve)"],
+      "steps": [
+        "Sposta i mobili al centro della stanza e copri il pavimento lungo la parete con il telo, fissandolo con il nastro.",
+        "Metti il nastro di carta su battiscopa, cornici, prese e bordo del soffitto; schiaccialo bene con l'unghia.",
+        "Stucca buchi e crepe, carteggia quando lo stucco è asciutto e spolvera la parete con una scopa morbida.",
+        "Muro nuovo, macchiato o che sfarina? Dai una mano di fissativo e lascialo asciugare. Altrimenti salta questo passo.",
+        "Mescola bene la pittura dal fondo. Diluiscila con acqua come dice la latta, di solito un po' di più sulla prima mano.",
+        "Con il pennello fai una striscia di circa [[5 cm]] lungo il nastro, negli angoli e sotto il soffitto.",
+        "Carica il rullo, scaricalo sulla griglia e stendi a W in riquadri di circa [[1 m2]], poi riempi senza staccarlo.",
+        "Ripassa ogni riquadro dall'alto in basso col rullo scarico, in passate parallele che si sovrappongono un po'.",
+        "Lascia asciugare la prima mano con la finestra socchiusa: deve essere asciutta al tatto e di colore uniforme.",
+        "Seconda mano: rifai prima i bordi a pennello, poi il rullo a W, sempre ripassando dall'alto in basso.",
+        "Guarda la parete di sbieco, verso la luce della finestra, per cercare zone più chiare o aloni.",
+        "Togli il nastro adesso, con la pittura ancora fresca: tiralo piano, inclinato verso l'esterno."
+      ],
+      "labels": ["", "", "", "Fissativo", "", "", "", "", "Asciugatura", "", "", ""],
+      "checks": {
+        "7": {"q": "La pittura è stesa senza colature né gocce?", "fix": "Ripassa subito con il rullo scarico finché è fresca; se ha già fatto la pelle, lascia asciugare e carteggia."},
+        "10": {"q": "Il colore è uniforme, senza zone più chiare o segni del rullo?", "fix": "Ritocca le zone chiare con il rullo quasi scarico; se è a chiazze ovunque, dai una terza mano dopo l'asciugatura."}
+      },
+      "warns": {"5": "Sulla scala non sporgerti di lato: scendi e spostala. Non salire sugli ultimi due gradini."},
+      "tips": [
+        "Non pitturare sotto [[10 °C]] o con il sole diretto sul muro: la pittura asciuga male e lascia segni.",
+        "Pausa pranzo? Avvolgi rullo e pennello in un sacchetto di plastica: restano morbidi per ore.",
+        "Finisci sempre una parete intera senza fermarti a metà: il punto di ripresa si vedrebbe."
+      ]
+    },
+    "en": {
+      "title": "Paint a wall",
+      "intro": "Refresh a wall or change its colour with an even finish, no patchy areas and clean edges.",
+      "tools": ["Paint roller", "Roller tray", "Paintbrush", "Stepladder"],
+      "mats": ["Interior wall paint", "Masking tape", "Dust sheet", "Primer (if needed)", "Wall filler (if needed)"],
+      "steps": [
+        "Move the furniture to the middle of the room and lay the dust sheet along the wall, taping it down.",
+        "Tape the skirting or baseboards, frames, sockets and the ceiling edge; press the tape down firmly with a fingernail.",
+        "Fill holes and cracks, sand once the filler is dry, then dust the wall down with a soft broom.",
+        "New plaster, stains or a chalky surface? Apply primer and let it dry. Otherwise skip this step.",
+        "Stir the paint well from the bottom. Thin it with water as the tin says, usually a bit more for the first coat.",
+        "With the brush, cut in a strip about [[5 cm]] wide along the tape, in the corners and under the ceiling.",
+        "Load the roller, roll off the excess on the tray and paint a W in patches of about [[1 m2]], then fill in without lifting off.",
+        "Lay off each patch top to bottom with a nearly dry roller, in parallel strokes that overlap slightly.",
+        "Let the first coat dry with a window ajar: it should be dry to the touch and even in colour.",
+        "Second coat: cut in the edges with the brush first, then roll in a W, laying off top to bottom.",
+        "Look along the wall at an angle, towards the window light, for pale patches or streaks.",
+        "Pull the tape off now, while the paint is still wet: slowly, at an angle away from the paint."
+      ],
+      "labels": ["", "", "", "Primer", "", "", "", "", "Drying", "", "", ""],
+      "checks": {
+        "7": {"q": "Is the paint on with no runs or drips?", "fix": "Roll over them straight away with a dry roller while wet; if a skin has formed, let it dry and sand."},
+        "10": {"q": "Is the colour even, with no pale areas or roller marks?", "fix": "Touch up pale spots with a nearly dry roller; if it's patchy all over, add a third coat once dry."}
+      },
+      "warns": {"5": "On the ladder, don't lean out sideways: climb down and move it. Keep off the top two steps."},
+      "tips": [
+        "Don't paint below [[10 °C]] or with direct sun on the wall: the paint dries badly and shows marks.",
+        "Taking a break? Wrap the roller and brush in a plastic bag: they stay wet for hours.",
+        "Always finish a whole wall without stopping halfway: the join would show."
+      ]
+    },
+    "fr": {
+      "title": "Peindre un mur",
+      "intro": "Rafraîchir un mur ou changer de couleur avec un rendu uniforme, sans traces ni bords bavés.",
+      "tools": ["Rouleau à peinture", "Bac à peinture avec grille", "Pinceau à rechampir", "Escabeau"],
+      "mats": ["Peinture murale intérieure", "Ruban de masquage", "Bâche de protection", "Sous-couche (si besoin)", "Enduit de rebouchage (si besoin)"],
+      "steps": [
+        "Pousse les meubles au centre de la pièce et étale la bâche le long du mur, fixée avec du ruban.",
+        "Pose le ruban de masquage sur plinthes, encadrements, prises et bord du plafond ; écrase-le bien avec l'ongle.",
+        "Rebouche trous et fissures, ponce quand l'enduit est sec, puis dépoussière le mur avec un balai doux.",
+        "Plâtre neuf, taches ou mur qui farine ? Passe une sous-couche et laisse sécher. Sinon, saute cette étape.",
+        "Mélange bien la peinture en raclant le fond. Dilue selon le pot, en général un peu plus pour la première couche.",
+        "Au pinceau, peins une bande d'environ [[5 cm]] le long du ruban, dans les angles et sous le plafond.",
+        "Charge le rouleau, essore-le sur la grille et peins en W par carrés d'environ [[1 m2]], puis remplis sans le décoller.",
+        "Lisse chaque carré de haut en bas avec le rouleau presque vide, en bandes parallèles qui se chevauchent un peu.",
+        "Laisse sécher la première couche, fenêtre entrouverte : elle doit être sèche au toucher et de teinte uniforme.",
+        "Deuxième couche : refais d'abord les bords au pinceau, puis le rouleau en W, en lissant toujours de haut en bas.",
+        "Regarde le mur en biais, face à la lumière de la fenêtre, pour repérer les zones claires ou les traces.",
+        "Retire le ruban maintenant, peinture encore fraîche : tire doucement, en biais, vers l'extérieur."
+      ],
+      "labels": ["", "", "", "Sous-couche", "", "", "", "", "Séchage", "", "", ""],
+      "checks": {
+        "7": {"q": "La peinture est-elle posée sans coulures ni gouttes ?", "fix": "Repasse tout de suite avec le rouleau essoré tant que c'est frais ; si ça a déjà tiré, laisse sécher et ponce."},
+        "10": {"q": "La teinte est-elle uniforme, sans zones claires ni traces de rouleau ?", "fix": "Retouche les zones claires au rouleau presque vide ; si c'est inégal partout, passe une troisième couche une fois sec."}
+      },
+      "warns": {"5": "Sur l'escabeau, ne te penche pas sur le côté : descends et déplace-le. Évite les deux dernières marches."},
+      "tips": [
+        "Ne peins pas sous [[10 °C]] ni avec le soleil direct sur le mur : la peinture sèche mal et marque.",
+        "Une pause ? Enveloppe rouleau et pinceau dans un sac plastique : ils restent humides des heures.",
+        "Termine toujours un mur entier sans t'arrêter au milieu : la reprise se verrait."
+      ]
+    },
+    "es": {
+      "title": "Pintar una pared",
+      "intro": "Renueva una pared o cambia de color con un acabado uniforme, sin manchas ni bordes sucios.",
+      "tools": ["Rodillo de pintar", "Cubeta con rejilla", "Brocha o paletina", "Escalera de tijera"],
+      "mats": ["Pintura plástica de interior", "Cinta de carrocero", "Plástico protector", "Imprimación (si hace falta)", "Masilla (si hace falta)"],
+      "steps": [
+        "Lleva los muebles al centro de la habitación y extiende el plástico junto a la pared, sujeto con cinta.",
+        "Pon cinta de carrocero en rodapiés, marcos, enchufes y borde del techo; apriétala bien con la uña.",
+        "Tapa agujeros y grietas, lija cuando la masilla esté seca y quita el polvo de la pared con un cepillo suave.",
+        "¿Yeso nuevo, manchas o pared que suelta polvo? Da una mano de imprimación y deja secar. Si no, sáltate este paso.",
+        "Remueve bien la pintura desde el fondo. Dilúyela con agua según el bote, normalmente algo más en la primera mano.",
+        "Con la brocha, pinta una franja de unos [[5 cm]] junto a la cinta, en las esquinas y bajo el techo.",
+        "Carga el rodillo, escúrrelo en la rejilla y pinta en W en tramos de aproximadamente [[1 m2]]; luego rellena sin levantarlo.",
+        "Repasa cada tramo de arriba abajo con el rodillo casi descargado, en pasadas paralelas que se solapen un poco.",
+        "Deja secar la primera mano con la ventana entornada: debe estar seca al tacto y de color uniforme.",
+        "Segunda mano: primero los bordes con la brocha, luego el rodillo en W, repasando siempre de arriba abajo.",
+        "Mira la pared de lado, contra la luz de la ventana, buscando zonas más claras o marcas.",
+        "Quita la cinta ahora, con la pintura aún fresca: tira despacio, inclinada hacia fuera."
+      ],
+      "labels": ["", "", "", "Imprimación", "", "", "", "", "Secado", "", "", ""],
+      "checks": {
+        "7": {"q": "¿La pintura queda sin chorretones ni gotas?", "fix": "Repasa enseguida con el rodillo escurrido mientras esté fresca; si ya ha secado por fuera, deja secar y lija."},
+        "10": {"q": "¿El color es uniforme, sin zonas claras ni marcas de rodillo?", "fix": "Retoca las zonas claras con el rodillo casi seco; si está todo a manchas, da una tercera mano cuando seque."}
+      },
+      "warns": {"5": "En la escalera no te asomes hacia los lados: baja y muévela. No subas a los dos últimos peldaños."},
+      "tips": [
+        "No pintes por debajo de [[10 °C]] ni con sol directo en la pared: la pintura seca mal y deja marcas.",
+        "¿Paras a comer? Envuelve rodillo y brocha en una bolsa de plástico: aguantan húmedos horas.",
+        "Termina siempre una pared entera sin parar a la mitad: se notaría el empalme."
+      ]
+    },
+    "de": {
+      "title": "Wand streichen",
+      "intro": "Wand auffrischen oder neue Farbe: gleichmäßiges Ergebnis ohne Flecken und mit sauberen Kanten.",
+      "tools": ["Farbroller", "Farbwanne mit Abstreifgitter", "Pinsel", "Stehleiter"],
+      "mats": ["Innenwandfarbe (Dispersion)", "Malerkrepp", "Abdeckfolie", "Grundierung (falls nötig)", "Spachtelmasse (falls nötig)"],
+      "steps": [
+        "Rück die Möbel in die Raummitte und leg die Abdeckfolie an der Wand entlang aus, mit Klebeband fixiert.",
+        "Kleb Sockelleisten, Rahmen, Steckdosen und die Deckenkante mit Malerkrepp ab; mit dem Fingernagel fest andrücken.",
+        "Löcher und Risse spachteln, nach dem Trocknen schleifen, dann die Wand mit einem weichen Besen abstauben.",
+        "Neuer Putz, Flecken oder kreidende Wand? Grundieren und trocknen lassen. Sonst überspring diesen Schritt.",
+        "Rühr die Farbe gründlich vom Boden her auf. Verdünn sie laut Eimer, meist etwas mehr beim ersten Anstrich.",
+        "Streich mit dem Pinsel einen etwa [[5 cm]] breiten Streifen am Krepp entlang, in den Ecken und unter der Decke vor.",
+        "Roller eintauchen, am Gitter abstreifen und in Feldern von etwa [[1 m2]] ein W rollen, dann ohne Absetzen auffüllen.",
+        "Roll jedes Feld mit fast leerem Roller von oben nach unten nach, in parallelen Bahnen, die sich leicht überlappen.",
+        "Lass den ersten Anstrich bei gekipptem Fenster trocknen: Er muss grifftrocken und gleichmäßig im Farbton sein.",
+        "Zweiter Anstrich: zuerst die Kanten mit dem Pinsel, dann das W mit dem Roller und immer von oben nach unten nachrollen.",
+        "Schau schräg an der Wand entlang, gegen das Fensterlicht, nach hellen Stellen oder Streifen.",
+        "Zieh das Krepp jetzt ab, solange die Farbe noch nass ist: langsam und schräg von der Farbe weg."
+      ],
+      "labels": ["", "", "", "Grundierung", "", "", "", "", "Trocknen", "", "", ""],
+      "checks": {
+        "7": {"q": "Ist die Farbe ohne Läufer und Tropfen aufgetragen?", "fix": "Sofort mit leerem Roller nachrollen, solange sie nass ist; hat sie schon angezogen, trocknen lassen und schleifen."},
+        "10": {"q": "Ist die Farbe gleichmäßig, ohne helle Stellen oder Rollerspuren?", "fix": "Helle Stellen mit fast leerem Roller nachbessern; ist alles fleckig, nach dem Trocknen ein dritter Anstrich."}
+      },
+      "warns": {"5": "Auf der Leiter nicht seitlich hinauslehnen: absteigen und versetzen. Nicht auf die obersten zwei Stufen."},
+      "tips": [
+        "Nicht unter [[10 °C]] oder bei direkter Sonne auf der Wand streichen: Die Farbe trocknet schlecht und zeichnet.",
+        "Pause? Wickel Roller und Pinsel in eine Plastiktüte: So bleiben sie stundenlang nass.",
+        "Streich eine Wand immer ganz durch, ohne Pause in der Mitte: Den Ansatz sieht man sonst."
+      ]
+    }
+  }
+},
+{
+  "id": "appendere-mensola",
+  "cat": "pareti",
+  "diff": 2, "active": 45, "total": 45,
+  "risk": 1, "topic": "power-tools",
+  "allow": {},
+  "ppe": ["glasses"],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "drill"}, {"k": "masonry-drill-bits"}, {"k": "spirit-level"}, {"k": "tape-measure"}, {"k": "pencil", "own": true}, {"k": "pipe-cable-detector"}, {"k": "phillips-screwdriver", "own": true}],
+  "mats": [{"k": "shelf", "q": 1, "u": ""}, {"k": "shelf-brackets", "q": 2, "u": ""}, {"k": "wall-plugs", "q": 4, "u": ""}, {"k": "screws", "q": 4, "u": ""}, {"k": "masking-tape", "q": 1, "u": ""}],
+  "steps": [
+    {"ic": "hand"},
+    {"ic": "tester", "check": true, "warn": 1},
+    {"ic": "measure"},
+    {"ic": "level", "check": true},
+    {"ic": "drill"},
+    {"ic": "drill", "warn": 1},
+    {"ic": "clean"},
+    {"ic": "push"},
+    {"ic": "screwdriver"},
+    {"ic": "level", "check": true},
+    {"ic": "screw"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Montare una mensola a muro",
+      "intro": "Fissi una mensola dritta e solida, con punta e tassello giusti per il tuo tipo di muro.",
+      "tools": ["Trapano", "Punte da muro", "Livella a bolla", "Metro", "Matita", "Rilevatore di tubi e cavi", "Cacciavite a croce"],
+      "mats": ["Mensola", "Staffe reggimensola", "Tasselli adatti al muro", "Viti", "Nastro di carta"],
+      "steps": [
+        "Bussa sul muro: se suona vuoto è cartongesso; se suona pieno è mattone o cemento. Il mattone forato lo scopri forando.",
+        "Passa il rilevatore dove vuoi forare. Evita le linee verticali e orizzontali che partono da prese e interruttori.",
+        "Decidi l'altezza, segna con la matita il primo foro e appoggia la staffa al segno.",
+        "Metti la livella sopra la mensola o tra le staffe e segna tutti i fori, con la bolla ben al centro.",
+        "Monta una punta da muro del diametro del tassello, di solito [[6 mm]] o [[8 mm]]. Percussione solo su cemento e mattone pieno.",
+        "Segna la profondità sulla punta con il nastro (lunghezza del tassello + [[5 mm]]) e fora dritto, senza forzare.",
+        "Aspira o soffia via la polvere dal foro: in un foro pulito il tassello tiene molto di più.",
+        "Inserisci il tassello giusto: normale nel pieno, lungo nel forato, a espansione metallica o a molla nel cartongesso.",
+        "Avvita le staffe nei tasselli; stringi finché sono ferme, senza esagerare, o il tassello gira a vuoto.",
+        "Appoggia la mensola sulle staffe, mettici sopra la livella e spingila in giù con la mano.",
+        "Fissa la mensola alle staffe da sotto con viti corte, che non escano dal piano."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Il rilevatore non segnala tubi, cavi o metallo nella zona?", "fix": "Sposta la mensola di qualche centimetro e ricontrolla. Nel dubbio, non forare lì."},
+        "3": {"q": "La linea tra i segni è in bolla?", "fix": "Cancella e risegna partendo dal primo foro; la bolla deve stare esattamente tra le due tacche."},
+        "9": {"q": "La mensola è in bolla e non si muove quando spingi?", "fix": "Se un tassello gira o esce, usa un tassello più grande o chimico; se è storta, rifai un foro poco distante."}
+      },
+      "warns": {
+        "1": "Non forare mai sopra o sotto prese e interruttori: lì di solito passano i cavi.",
+        "5": "Tieni il trapano con due mani e gli occhiali addosso: polvere e frammenti schizzano."
+      },
+      "tips": [
+        "Sul cartongesso, per pesi importanti avvita nei montanti metallici o usa tasselli specifici: guarda la portata.",
+        "Per non sporcare, attacca col nastro una busta di carta aperta sotto il foro: raccoglie la polvere.",
+        "Se dal foro esce acqua o la punta tocca metallo, fermati: chiudi l'acqua o stacca la corrente e chiama un tecnico."
+      ]
+    },
+    "en": {
+      "title": "Put up a wall shelf",
+      "intro": "Fix a level, solid shelf, with the right drill bit and wall plug for your type of wall.",
+      "tools": ["Drill", "Masonry drill bits", "Spirit level", "Tape measure", "Pencil", "Pipe and cable detector", "Phillips screwdriver"],
+      "mats": ["Shelf", "Shelf brackets", "Wall plugs to suit the wall", "Screws", "Masking tape"],
+      "steps": [
+        "Knock on the wall: a hollow sound means plasterboard; solid means brick or concrete. Hollow brick shows when you drill.",
+        "Run the detector over where you'll drill. Avoid the vertical and horizontal lines running from sockets and switches.",
+        "Choose the height, mark the first hole in pencil and hold the bracket against the mark.",
+        "Put the level on the shelf or between the brackets and mark all the holes, with the bubble dead centre.",
+        "Fit a masonry bit the same size as the plug, usually [[6 mm]] or [[8 mm]]. Hammer mode only on concrete and solid brick.",
+        "Mark the depth on the bit with tape (plug length + [[5 mm]]) and drill straight in without forcing it.",
+        "Vacuum or blow the dust out of the hole: a clean hole makes the plug hold much better.",
+        "Push in the right plug: standard for solid walls, long for hollow brick, metal cavity or spring toggle for plasterboard.",
+        "Screw the brackets into the plugs; tighten until firm but no more, or the plug will spin.",
+        "Rest the shelf on the brackets, put the level on top and push down on it with your hand.",
+        "Screw the shelf to the brackets from underneath with short screws that won't come through the top."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Does the detector show no pipes, cables or metal in that area?", "fix": "Move the shelf a few centimetres and check again. If in doubt, don't drill there."},
+        "3": {"q": "Is the line between the marks level?", "fix": "Rub out and re-mark from the first hole; the bubble must sit exactly between the two lines."},
+        "9": {"q": "Is the shelf level and solid when you push it?", "fix": "If a plug spins or pulls out, use a bigger or chemical anchor; if it's crooked, redrill a little to one side."}
+      },
+      "warns": {
+        "1": "Never drill straight above or below sockets and switches: that's where cables usually run.",
+        "5": "Hold the drill with both hands and keep your glasses on: dust and chips fly out."
+      },
+      "tips": [
+        "On plasterboard, for heavy loads screw into the metal studs or use rated anchors: check the load on the pack.",
+        "To keep it clean, tape an open paper envelope under the hole: it catches the dust.",
+        "If water comes out or the bit hits metal, stop at once: shut off the water or power and call a pro."
+      ]
+    },
+    "fr": {
+      "title": "Fixer une étagère au mur",
+      "intro": "Une étagère droite et solide, avec le bon foret et la bonne cheville pour ton type de mur.",
+      "tools": ["Perceuse", "Forets béton", "Niveau à bulle", "Mètre", "Crayon", "Détecteur de câbles et tuyaux", "Tournevis cruciforme"],
+      "mats": ["Étagère", "Équerres", "Chevilles adaptées au mur", "Vis", "Ruban de masquage"],
+      "steps": [
+        "Toque le mur : s'il sonne creux, c'est du placo ; s'il sonne plein, brique ou béton. La brique creuse se révèle au perçage.",
+        "Passe le détecteur là où tu veux percer. Évite les lignes verticales et horizontales qui partent des prises et interrupteurs.",
+        "Choisis la hauteur, marque le premier trou au crayon et place l'équerre sur le repère.",
+        "Pose le niveau sur l'étagère ou entre les équerres et marque tous les trous, bulle bien au centre.",
+        "Monte un foret béton du diamètre de la cheville, souvent [[6 mm]] ou [[8 mm]]. Percussion seulement sur béton et brique pleine.",
+        "Marque la profondeur sur le foret avec du ruban (longueur de cheville + [[5 mm]]) et perce bien droit, sans forcer.",
+        "Aspire ou souffle la poussière du trou : dans un trou propre, la cheville tient bien mieux.",
+        "Mets la bonne cheville : classique dans le plein, longue dans la brique creuse, Molly ou à bascule dans le placo.",
+        "Visse les équerres dans les chevilles ; serre jusqu'à ce qu'elles tiennent, pas plus, sinon la cheville tourne.",
+        "Pose l'étagère sur les équerres, mets le niveau dessus et appuie fort avec la main.",
+        "Visse l'étagère sur les équerres par-dessous avec des vis courtes qui ne traversent pas la planche."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Le détecteur ne signale-t-il ni tuyau, ni câble, ni métal dans la zone ?", "fix": "Décale l'étagère de quelques centimètres et revérifie. Dans le doute, ne perce pas là."},
+        "3": {"q": "La ligne entre les repères est-elle de niveau ?", "fix": "Efface et retrace à partir du premier trou ; la bulle doit être pile entre les deux traits."},
+        "9": {"q": "L'étagère est-elle de niveau et ferme quand tu appuies ?", "fix": "Si une cheville tourne ou sort, prends-en une plus grosse ou un scellement chimique ; si c'est de travers, reperce à côté."}
+      },
+      "warns": {
+        "1": "Ne perce jamais juste au-dessus ou en dessous d'une prise ou d'un interrupteur : les câbles y passent.",
+        "5": "Tiens la perceuse à deux mains et garde tes lunettes : poussière et éclats volent."
+      },
+      "tips": [
+        "Sur placo, pour du lourd, visse dans les montants métalliques ou prends des chevilles prévues : vérifie la charge.",
+        "Pour éviter la poussière, scotche une enveloppe ouverte sous le trou : elle récupère tout.",
+        "Si de l'eau sort ou si le foret touche du métal, arrête tout : coupe l'eau ou le courant et appelle un pro."
+      ]
+    },
+    "es": {
+      "title": "Colgar una balda en la pared",
+      "intro": "Una balda recta y firme, con la broca y el taco adecuados para tu tipo de pared.",
+      "tools": ["Taladro", "Brocas para pared", "Nivel de burbuja", "Metro", "Lápiz", "Detector de cables y tuberías", "Destornillador de estrella"],
+      "mats": ["Balda", "Escuadras o soportes", "Tacos según la pared", "Tornillos", "Cinta de carrocero"],
+      "steps": [
+        "Da golpecitos en la pared: si suena hueco es pladur; si suena macizo, ladrillo u hormigón. El ladrillo hueco se nota al taladrar.",
+        "Pasa el detector por donde vas a taladrar. Evita las líneas verticales y horizontales que salen de enchufes e interruptores.",
+        "Decide la altura, marca el primer agujero con el lápiz y apoya la escuadra en la marca.",
+        "Pon el nivel sobre la balda o entre las escuadras y marca todos los agujeros, con la burbuja centrada.",
+        "Pon una broca de pared del diámetro del taco, normalmente [[6 mm]] u [[8 mm]]. Percutor solo en hormigón y ladrillo macizo.",
+        "Marca la profundidad en la broca con cinta (largo del taco + [[5 mm]]) y taladra recto, sin forzar.",
+        "Aspira o sopla el polvo del agujero: en un agujero limpio el taco agarra mucho más.",
+        "Mete el taco adecuado: normal en macizo, largo en ladrillo hueco, metálico de expansión o basculante en pladur.",
+        "Atornilla las escuadras a los tacos; aprieta hasta que queden firmes, sin pasarte, o el taco girará en vacío.",
+        "Apoya la balda en las escuadras, pon el nivel encima y empuja hacia abajo con la mano.",
+        "Atornilla la balda a las escuadras desde abajo con tornillos cortos que no asomen por arriba."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "¿El detector no marca tuberías, cables ni metal en esa zona?", "fix": "Mueve la balda unos centímetros y vuelve a comprobar. Si dudas, no taladres ahí."},
+        "3": {"q": "¿La línea entre las marcas está a nivel?", "fix": "Borra y vuelve a marcar desde el primer agujero; la burbuja debe quedar justo entre las dos rayas."},
+        "9": {"q": "¿La balda está a nivel y no se mueve al empujar?", "fix": "Si un taco gira o se sale, usa uno más grande o un anclaje químico; si está torcida, taladra de nuevo un poco al lado."}
+      },
+      "warns": {
+        "1": "Nunca taladres justo encima o debajo de enchufes e interruptores: por ahí suelen ir los cables.",
+        "5": "Sujeta el taladro con las dos manos y no te quites las gafas: saltan polvo y esquirlas."
+      },
+      "tips": [
+        "En pladur, para mucho peso atornilla a los montantes metálicos o usa tacos específicos: mira la carga en el envase.",
+        "Para no ensuciar, pega con cinta un sobre abierto bajo el agujero: recoge el polvo.",
+        "Si sale agua o la broca toca metal, para enseguida: corta el agua o la luz y llama a un profesional."
+      ]
+    },
+    "de": {
+      "title": "Wandregal anbringen",
+      "intro": "Ein gerades, stabiles Regal, mit dem richtigen Bohrer und Dübel für deine Wandart.",
+      "tools": ["Bohrmaschine", "Steinbohrer", "Wasserwaage", "Maßband", "Bleistift", "Leitungssucher", "Kreuzschlitzschraubendreher"],
+      "mats": ["Regalbrett", "Regalwinkel oder -träger", "Passende Dübel", "Schrauben", "Malerkrepp"],
+      "steps": [
+        "Klopf an die Wand: Klingt sie hohl, ist es Gipskarton; klingt sie voll, Ziegel oder Beton. Hohlziegel merkst du beim Bohren.",
+        "Fahr mit dem Leitungssucher über die Bohrstelle. Meide die senkrechten und waagrechten Linien über Steckdosen und Schaltern.",
+        "Leg die Höhe fest, markier das erste Loch mit Bleistift und halte den Winkel an die Markierung.",
+        "Leg die Wasserwaage aufs Brett oder zwischen die Winkel und markier alle Löcher, Blase genau mittig.",
+        "Spann einen Steinbohrer in Dübelgröße ein, meist [[6 mm]] oder [[8 mm]]. Schlagbohren nur bei Beton und Vollziegel.",
+        "Markier die Tiefe mit Krepp am Bohrer (Dübellänge + [[5 mm]]) und bohr gerade, ohne zu drücken.",
+        "Saug oder blas den Bohrstaub aus dem Loch: Im sauberen Loch hält der Dübel viel besser.",
+        "Setz den passenden Dübel: Standard im Vollmaterial, lang im Hohlziegel, Hohlraum- oder Kippdübel im Gipskarton.",
+        "Schraub die Winkel an; zieh an, bis sie fest sitzen, nicht mehr, sonst dreht der Dübel durch.",
+        "Leg das Brett auf die Winkel, die Wasserwaage obendrauf, und drück mit der Hand kräftig nach unten.",
+        "Schraub das Brett von unten mit kurzen Schrauben an die Winkel, die oben nicht durchkommen."
+      ],
+      "labels": ["", "", "", "", "", "", "", "", "", "", ""],
+      "checks": {
+        "1": {"q": "Zeigt der Leitungssucher keine Rohre, Kabel oder Metall an?", "fix": "Verschieb das Regal um ein paar Zentimeter und prüf noch mal. Im Zweifel nicht dort bohren."},
+        "3": {"q": "Ist die Linie zwischen den Markierungen waagrecht?", "fix": "Wegradieren und vom ersten Loch aus neu anzeichnen; die Blase muss genau zwischen den Strichen stehen."},
+        "9": {"q": "Ist das Regal waagrecht und bleibt beim Drücken fest?", "fix": "Dreht ein Dübel durch, nimm einen größeren oder Injektionsmörtel; ist es schief, daneben neu bohren."}
+      },
+      "warns": {
+        "1": "Nie direkt über oder unter Steckdosen und Schaltern bohren: Dort laufen meist die Leitungen.",
+        "5": "Halte die Bohrmaschine mit beiden Händen und lass die Schutzbrille auf: Staub und Splitter fliegen."
+      },
+      "tips": [
+        "Im Gipskarton für schwere Lasten in die Metallständer schrauben oder passende Dübel nehmen: Traglast prüfen.",
+        "Gegen Staub: Kleb einen offenen Briefumschlag unter das Bohrloch, der fängt alles auf.",
+        "Kommt Wasser raus oder trifft der Bohrer Metall, sofort aufhören: Wasser oder Strom abstellen, Fachleute rufen."
+      ]
+    }
+  }
+},
+{
+  "id": "appendere-quadro",
+  "cat": "pareti",
+  "diff": 1, "active": 15, "total": 75,
+  "risk": 0, "topic": null,
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "tape-measure"}, {"k": "pencil", "own": true}, {"k": "spirit-level"}, {"k": "hammer", "own": true}],
+  "mats": [{"k": "picture-hook", "q": 1, "u": ""}, {"k": "adhesive-picture-strips", "q": 1, "u": ""}, {"k": "isopropyl-alcohol", "q": null, "u": ""}],
+  "steps": [
+    {"ic": "measure"},
+    {"ic": "pencil"},
+    {"ic": "measure"},
+    {"ic": "look"},
+    {"ic": "hammer", "check": true},
+    {"ic": "clean"},
+    {"ic": "hand"},
+    {"ic": "wait", "timer": 3600},
+    {"ic": "hand"},
+    {"ic": "level", "check": true}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Appendere un quadro",
+      "intro": "Quadro dritto e all'altezza giusta, con chiodo e gancio o con strisce adesive se sei in affitto.",
+      "tools": ["Metro", "Matita", "Livella a bolla", "Martello"],
+      "mats": ["Gancio per quadri con chiodino", "Strisce adesive per quadri", "Alcol isopropilico"],
+      "steps": [
+        "Segna sul muro il centro del quadro a [[145-150 cm]] da terra. Sopra un divano, il bordo basso va [[20-25 cm]] sopra lo schienale.",
+        "Misura l'altezza del quadro e segna il bordo alto: metà altezza sopra il segno del centro.",
+        "Sul retro tira il filo verso l'alto e misura quanto resta sotto il bordo: segna il chiodo così sotto il segno alto.",
+        "Scegli il fissaggio: gancio con chiodino su intonaco e mattone, gancio per cartongesso, strisce adesive se non puoi forare.",
+        "Con il gancio: appoggialo al segno e batti il chiodino inclinato a colpi leggeri, finché il gancio aderisce al muro.",
+        "Con le strisce: pulisci con l'alcol il muro e il retro della cornice, poi lascia asciugare un minuto.",
+        "Attacca le strisce alla cornice, premi il quadro sul segno, staccalo e premi ogni striscia sul muro per 30 secondi.",
+        "Aspetta un'ora prima di riattaccare il quadro alle strisce: l'adesivo deve fare presa.",
+        "Appendi il quadro al gancio o riaggancialo alle strisce, premendo bene.",
+        "Metti la livella sul bordo alto del quadro e raddrizzalo finché la bolla è al centro."
+      ],
+      "labels": ["", "", "", "", "", "", "", "Presa adesivo", "", ""],
+      "checks": {
+        "4": {"q": "Il gancio è fermo e non si muove tirandolo?", "fix": "Se il chiodo entra a vuoto o il muro si sbriciola, usa tassello e vite o un gancio per cartongesso."},
+        "9": {"q": "Il quadro è dritto, con la bolla al centro?", "fix": "Con il filo, fallo scorrere sul gancio; con le strisce, sgancialo e riattaccalo dritto."}
+      },
+      "warns": {},
+      "tips": [
+        "Ritaglia una sagoma di carta grande come il quadro e attaccala col nastro: vedi subito se l'altezza ti piace.",
+        "Quadri oltre [[5 kg]]: niente strisce adesive, usa due ganci oppure tassello e vite.",
+        "Più quadri insieme: trattali come un unico blocco e metti il centro del gruppo a [[145-150 cm]]."
+      ]
+    },
+    "en": {
+      "title": "Hang a picture",
+      "intro": "A straight picture at the right height, with a hook and pin or adhesive strips if you rent.",
+      "tools": ["Tape measure", "Pencil", "Spirit level", "Hammer"],
+      "mats": ["Picture hook with pin", "Adhesive picture-hanging strips", "Isopropyl alcohol"],
+      "steps": [
+        "Mark the centre of the picture at [[145-150 cm]] from the floor. Over a sofa, the bottom edge goes [[20-25 cm]] above the back.",
+        "Measure the picture's height and mark the top edge: half the height above the centre mark.",
+        "On the back, pull the wire up taut and measure how far it sits below the top edge: mark the nail that far below the top mark.",
+        "Choose the fixing: hook and pin for plaster and brick, a plasterboard hook, or adhesive strips if you can't drill.",
+        "With a hook: hold it on the mark and tap the angled pin in gently until the hook sits tight against the wall.",
+        "With strips: clean the wall and the back of the frame with alcohol, then let it dry for a minute.",
+        "Stick the strips to the frame, press the picture on the mark, take it off and press each strip on the wall for 30 seconds.",
+        "Wait an hour before putting the picture back on the strips: the adhesive needs to bond.",
+        "Hang the picture on the hook, or clip it back onto the strips, pressing firmly.",
+        "Put the level on the top edge and straighten the picture until the bubble is centred."
+      ],
+      "labels": ["", "", "", "", "", "", "", "Bonding", "", ""],
+      "checks": {
+        "4": {"q": "Is the hook firm when you tug it?", "fix": "If the pin goes in with no grip or the wall crumbles, use a plug and screw or a plasterboard hook."},
+        "9": {"q": "Is the picture straight, with the bubble centred?", "fix": "On a wire, slide it along the hook; with strips, unclip it and press it back on straight."}
+      },
+      "warns": {},
+      "tips": [
+        "Cut a paper template the size of the frame and tape it up first: you'll see at once if the height works.",
+        "Pictures over [[5 kg]]: skip the strips and use two hooks or a plug and screw.",
+        "Hanging a group? Treat it as one block and put the centre of the group at [[145-150 cm]]."
+      ]
+    },
+    "fr": {
+      "title": "Accrocher un tableau",
+      "intro": "Un cadre droit et à la bonne hauteur, avec crochet X ou bandes adhésives si tu es locataire.",
+      "tools": ["Mètre", "Crayon", "Niveau à bulle", "Marteau"],
+      "mats": ["Crochet X avec clou", "Bandes adhésives pour cadres", "Alcool isopropylique"],
+      "steps": [
+        "Marque le centre du tableau à [[145-150 cm]] du sol. Au-dessus d'un canapé, le bas du cadre va [[20-25 cm]] au-dessus du dossier.",
+        "Mesure la hauteur du cadre et marque le bord du haut : une demi-hauteur au-dessus du repère central.",
+        "Au dos, tends le fil vers le haut et mesure l'écart avec le bord : reporte-le sous le repère du haut pour le clou.",
+        "Choisis la fixation : crochet X sur plâtre et brique, crochet spécial placo, ou bandes adhésives si tu ne peux pas percer.",
+        "Avec crochet : place-le sur le repère et enfonce le clou en biais par petits coups, jusqu'à ce qu'il plaque au mur.",
+        "Avec bandes : nettoie le mur et le dos du cadre à l'alcool, puis laisse sécher une minute.",
+        "Colle les bandes au cadre, presse le tableau sur le repère, retire-le et presse chaque bande au mur 30 secondes.",
+        "Attends une heure avant de raccrocher le tableau sur les bandes : l'adhésif doit prendre.",
+        "Accroche le tableau au crochet ou reclipse-le sur les bandes en appuyant bien.",
+        "Pose le niveau sur le bord du haut et redresse le tableau jusqu'à ce que la bulle soit centrée."
+      ],
+      "labels": ["", "", "", "", "", "", "", "Prise adhésif", "", ""],
+      "checks": {
+        "4": {"q": "Le crochet tient-il bien quand tu tires dessus ?", "fix": "Si le clou entre dans le vide ou si le mur s'effrite, prends cheville et vis ou un crochet pour placo."},
+        "9": {"q": "Le tableau est-il droit, bulle au centre ?", "fix": "Avec un fil, fais-le glisser sur le crochet ; avec des bandes, déclipse-le et remets-le bien droit."}
+      },
+      "warns": {},
+      "tips": [
+        "Découpe un gabarit en papier de la taille du cadre et scotche-le : tu vois tout de suite si la hauteur te plaît.",
+        "Cadre de plus de [[5 kg]] : oublie les bandes, utilise deux crochets ou cheville et vis.",
+        "Plusieurs cadres ? Traite-les comme un seul bloc et place le centre de l'ensemble à [[145-150 cm]]."
+      ]
+    },
+    "es": {
+      "title": "Colgar un cuadro",
+      "intro": "Cuadro recto y a la altura justa, con clavo y colgador o tiras adhesivas si vives de alquiler.",
+      "tools": ["Metro", "Lápiz", "Nivel de burbuja", "Martillo"],
+      "mats": ["Colgador de cuadros con clavo", "Tiras adhesivas para cuadros", "Alcohol isopropílico"],
+      "steps": [
+        "Marca el centro del cuadro a [[145-150 cm]] del suelo. Sobre un sofá, el borde inferior va [[20-25 cm]] por encima del respaldo.",
+        "Mide la altura del cuadro y marca el borde superior: media altura por encima de la marca del centro.",
+        "Por detrás, tensa el cable hacia arriba y mide cuánto queda bajo el borde: marca el clavo esa distancia bajo la marca superior.",
+        "Elige la fijación: colgador con clavo en yeso y ladrillo, colgador para pladur o tiras adhesivas si no puedes taladrar.",
+        "Con colgador: apóyalo en la marca y clava el clavito inclinado con golpes suaves, hasta que quede pegado a la pared.",
+        "Con tiras: limpia con alcohol la pared y la trasera del marco, y deja secar un minuto.",
+        "Pega las tiras al marco, aprieta el cuadro en la marca, sepáralo y aprieta cada tira en la pared 30 segundos.",
+        "Espera una hora antes de volver a colocar el cuadro en las tiras: el adhesivo tiene que agarrar.",
+        "Cuelga el cuadro en el colgador o vuelve a encajarlo en las tiras, apretando bien.",
+        "Pon el nivel en el borde superior y endereza el cuadro hasta que la burbuja quede centrada."
+      ],
+      "labels": ["", "", "", "", "", "", "", "Fijado", "", ""],
+      "checks": {
+        "4": {"q": "¿El colgador está firme al tirar de él?", "fix": "Si el clavo entra sin agarre o la pared se desmorona, usa taco y tornillo o un colgador para pladur."},
+        "9": {"q": "¿El cuadro está recto, con la burbuja centrada?", "fix": "Con cable, deslízalo sobre el colgador; con tiras, sepáralo y vuelve a encajarlo recto."}
+      },
+      "warns": {},
+      "tips": [
+        "Recorta una plantilla de papel del tamaño del cuadro y pégala con cinta: verás enseguida si la altura te gusta.",
+        "Cuadros de más de [[5 kg]]: nada de tiras, usa dos colgadores o taco y tornillo.",
+        "¿Varios cuadros juntos? Trátalos como un solo bloque y pon el centro del grupo a [[145-150 cm]]."
+      ]
+    },
+    "de": {
+      "title": "Bild aufhängen",
+      "intro": "Gerade und in richtiger Höhe: mit Haken und Nagel oder mit Klebestreifen in der Mietwohnung.",
+      "tools": ["Maßband", "Bleistift", "Wasserwaage", "Hammer"],
+      "mats": ["Bilderhaken mit Stift", "Klebestreifen für Bilder", "Isopropanol"],
+      "steps": [
+        "Markier die Bildmitte auf [[145-150 cm]] Höhe. Über dem Sofa sitzt die Unterkante [[20-25 cm]] über der Rückenlehne.",
+        "Miss die Höhe des Bildes und markier die Oberkante: eine halbe Bildhöhe über der Mittelmarke.",
+        "Zieh hinten die Schnur straff nach oben und miss den Abstand zur Oberkante: So weit unter der oberen Marke kommt der Nagel hin.",
+        "Wähl die Befestigung: Bilderhaken bei Putz und Ziegel, Haken für Gipskarton oder Klebestreifen, wenn du nicht bohren darfst.",
+        "Mit Haken: an die Marke halten und den schrägen Stift mit leichten Schlägen einschlagen, bis der Haken flach anliegt.",
+        "Mit Klebestreifen: Wand und Rahmenrückseite mit Isopropanol reinigen und eine Minute trocknen lassen.",
+        "Streifen an den Rahmen kleben, Bild an die Marke drücken, abnehmen und jeden Streifen 30 Sekunden an die Wand drücken.",
+        "Warte eine Stunde, bevor du das Bild wieder auf die Streifen setzt: Der Kleber muss anziehen.",
+        "Häng das Bild an den Haken oder drück es wieder fest auf die Streifen.",
+        "Leg die Wasserwaage auf die Oberkante und richte das Bild aus, bis die Blase mittig steht."
+      ],
+      "labels": ["", "", "", "", "", "", "", "Kleber zieht an", "", ""],
+      "checks": {
+        "4": {"q": "Sitzt der Haken fest, wenn du daran ziehst?", "fix": "Greift der Stift nicht oder bröselt die Wand, nimm Dübel und Schraube oder einen Gipskartonhaken."},
+        "9": {"q": "Hängt das Bild gerade, Blase in der Mitte?", "fix": "An der Schnur auf dem Haken verschieben; bei Streifen das Bild lösen und gerade wieder andrücken."}
+      },
+      "warns": {},
+      "tips": [
+        "Schneid eine Papierschablone in Bildgröße aus und kleb sie an: So siehst du sofort, ob die Höhe passt.",
+        "Bilder über [[5 kg]]: keine Klebestreifen, sondern zwei Haken oder Dübel und Schraube.",
+        "Mehrere Bilder? Behandle sie als einen Block und setz dessen Mitte auf [[145-150 cm]]."
+      ]
+    }
+  }
+},
+{
+  "id": "togliere-muffa-parete",
+  "cat": "pareti",
+  "diff": 1, "active": 60, "total": 1760,
+  "risk": 1, "topic": "chem",
+  "allow": {},
+  "ppe": ["gloves", "mask", "glasses"],
+  "tags": [],
+  "months": [11, 12, 1, 2, 3],
+  "tools": [{"k": "spray-bottle"}, {"k": "paint-roller"}, {"k": "paintbrush"}, {"k": "hygrometer"}],
+  "mats": [{"k": "mould-remover", "q": 500, "u": "ml"}, {"k": "anti-mould-paint", "q": 1, "u": "l"}, {"k": "sponge", "q": 1, "u": ""}, {"k": "drop-cloth", "q": 1, "u": ""}, {"k": "bin-bag", "q": 1, "u": "", "own": true}],
+  "steps": [
+    {"ic": "air"},
+    {"ic": "box"},
+    {"ic": "spray", "warn": 1},
+    {"ic": "wait", "timer": 900},
+    {"ic": "clean"},
+    {"ic": "look", "check": true},
+    {"ic": "wait", "timer": 86400},
+    {"ic": "roller"},
+    {"ic": "wait", "timer": 14400},
+    {"ic": "roller"},
+    {"ic": "measure", "check": true}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Togliere la muffa dal muro",
+      "intro": "Macchie nere negli angoli o dietro i mobili: le elimini e proteggi il muro perché non tornino.",
+      "tools": ["Spruzzino", "Rullo", "Pennello", "Igrometro"],
+      "mats": ["Antimuffa spray", "Pittura antimuffa", "Spugna", "Telo di protezione", "Sacco della spazzatura"],
+      "steps": [
+        "Apri bene la finestra e fai uscire bambini e animali dalla stanza. Metti guanti, mascherina e occhiali.",
+        "Allontana i mobili dal muro e copri il pavimento sotto la macchia con il telo.",
+        "Spruzza l'antimuffa su tutta la macchia e [[20 cm]] intorno, senza strofinare a secco. In alternativa: candeggina, 1 parte in 4 d'acqua.",
+        "Lascia agire per il tempo scritto sull'etichetta, di solito 15 minuti. Resta fuori dalla stanza o vicino alla finestra.",
+        "Pulisci con la spugna umida dai bordi verso il centro, sciacquandola spesso. A fine lavoro butta la spugna nel sacco.",
+        "Guarda il muro con una buona luce: le macchie nere devono essere sparite o molto schiarite.",
+        "Lascia asciugare il muro del tutto, con l'aria che gira: di solito ci vuole un giorno.",
+        "Stendi la prima mano di pittura antimuffa con il rullo, a pennello negli angoli, sbordando oltre la zona trattata.",
+        "Lascia asciugare la prima mano come indica la latta, con la finestra socchiusa.",
+        "Dai la seconda mano di pittura antimuffa, uniforme e senza lasciare zone scoperte.",
+        "Metti l'igrometro nella stanza e controlla l'umidità nei giorni seguenti, soprattutto la mattina."
+      ],
+      "labels": ["", "", "", "Posa", "", "", "Asciugatura", "", "Asciugatura", "", ""],
+      "checks": {
+        "5": {"q": "Le macchie sono sparite?", "fix": "Rispruzza, lascia agire ancora e ripulisci. Se restano aloni grigi nell'intonaco, la pittura antimuffa li coprirà."},
+        "10": {"q": "L'umidità resta tra il 40 e il 60%?", "fix": "Arieggia 10 minuti al giorno, usa cappa e aspiratore, stacca i mobili dal muro; se serve, un deumidificatore."}
+      },
+      "warns": {"2": "Mai mescolare la candeggina con anticalcare, aceto o ammoniaca: libera gas tossici."},
+      "tips": [
+        "Muffa che torna sempre lì o muro bagnato al tatto: forse è una perdita o un'infiltrazione. Chiama un tecnico.",
+        "Se carta da parati o cartongesso sono impregnati, la muffa è dentro: quel pezzo va tolto e sostituito.",
+        "Tieni armadi e divani a [[5-10 cm]] dai muri esterni: l'aria che passa dietro evita la condensa."
+      ]
+    },
+    "en": {
+      "title": "Remove mould from a wall",
+      "intro": "Black spots in corners or behind furniture: remove them and protect the wall so they stay away.",
+      "tools": ["Spray bottle", "Paint roller", "Paintbrush", "Hygrometer"],
+      "mats": ["Mould remover spray", "Anti-mould paint", "Sponge", "Dust sheet", "Bin bag"],
+      "steps": [
+        "Open the window wide and keep children and pets out of the room. Put on gloves, mask and glasses.",
+        "Pull the furniture away from the wall and cover the floor under the patch with the dust sheet.",
+        "Spray the mould remover over the whole patch and [[20 cm]] around it; don't scrub it dry. Or use bleach, 1 part to 4 of water.",
+        "Leave it for the time on the label, usually 15 minutes. Stay out of the room or near the open window.",
+        "Wipe with the damp sponge from the edges inwards, rinsing it often. Bin the sponge when you're done.",
+        "Look at the wall in good light: the black spots should be gone or much lighter.",
+        "Let the wall dry completely with air moving through the room: usually about a day.",
+        "Roll on the first coat of anti-mould paint, brushing into the corners and going beyond the treated area.",
+        "Let the first coat dry as the tin says, with the window ajar.",
+        "Apply the second coat of anti-mould paint evenly, with no bare patches.",
+        "Put the hygrometer in the room and check the humidity over the next few days, especially in the morning."
+      ],
+      "labels": ["", "", "", "Contact time", "", "", "Drying", "", "Drying", "", ""],
+      "checks": {
+        "5": {"q": "Have the spots gone?", "fix": "Spray again, leave it and wipe again. If grey shadows stay in the plaster, the anti-mould paint will cover them."},
+        "10": {"q": "Does the humidity stay between 40 and 60%?", "fix": "Air the room 10 minutes a day, use the extractor fans, move furniture off the wall; if needed, get a dehumidifier."}
+      },
+      "warns": {"2": "Never mix bleach with limescale removers, vinegar or ammonia: it releases toxic gas."},
+      "tips": [
+        "Mould that keeps coming back in the same spot, or a wall that's damp to the touch, may mean a leak: call a pro.",
+        "If wallpaper or plasterboard is soaked through, the mould is inside: that piece has to be cut out and replaced.",
+        "Keep wardrobes and sofas [[5-10 cm]] off outside walls: air moving behind them prevents condensation."
+      ]
+    },
+    "fr": {
+      "title": "Enlever la moisissure d'un mur",
+      "intro": "Taches noires dans les coins ou derrière les meubles : tu les élimines et protèges le mur.",
+      "tools": ["Vaporisateur", "Rouleau", "Pinceau", "Hygromètre"],
+      "mats": ["Anti-moisissure en spray", "Peinture anti-moisissure", "Éponge", "Bâche de protection", "Sac poubelle"],
+      "steps": [
+        "Ouvre grand la fenêtre et fais sortir enfants et animaux. Mets gants, masque et lunettes.",
+        "Écarte les meubles du mur et protège le sol sous la tache avec la bâche.",
+        "Pulvérise l'anti-moisissure sur toute la tache et [[20 cm]] autour, sans frotter à sec. Sinon : eau de Javel, 1 volume pour 4 d'eau.",
+        "Laisse agir le temps indiqué sur l'étiquette, en général 15 minutes. Reste hors de la pièce ou près de la fenêtre.",
+        "Essuie à l'éponge humide des bords vers le centre, en la rinçant souvent. Jette l'éponge à la fin.",
+        "Regarde le mur sous une bonne lumière : les taches noires doivent avoir disparu ou bien pâli.",
+        "Laisse sécher le mur complètement, avec de l'air qui circule : compte en général une journée.",
+        "Passe la première couche de peinture anti-moisissure au rouleau, au pinceau dans les angles, en débordant la zone.",
+        "Laisse sécher la première couche selon le pot, fenêtre entrouverte.",
+        "Passe la deuxième couche de peinture anti-moisissure, bien régulière, sans zone oubliée.",
+        "Pose l'hygromètre dans la pièce et surveille l'humidité les jours suivants, surtout le matin."
+      ],
+      "labels": ["", "", "", "Temps de pose", "", "", "Séchage", "", "Séchage", "", ""],
+      "checks": {
+        "5": {"q": "Les taches ont-elles disparu ?", "fix": "Pulvérise encore, laisse agir et essuie. S'il reste des auréoles grises dans le plâtre, la peinture les couvrira."},
+        "10": {"q": "L'humidité reste-t-elle entre 40 et 60 % ?", "fix": "Aère 10 minutes par jour, utilise hotte et VMC, décolle les meubles du mur ; au besoin, un déshumidificateur."}
+      },
+      "warns": {"2": "Ne mélange jamais la Javel avec un anticalcaire, du vinaigre ou de l'ammoniaque : gaz toxique."},
+      "tips": [
+        "Moisissure qui revient toujours au même endroit ou mur humide au toucher : c'est peut-être une fuite. Appelle un pro.",
+        "Si le papier peint ou le placo est imbibé, la moisissure est dedans : il faut découper et remplacer ce morceau.",
+        "Laisse [[5-10 cm]] entre armoires ou canapé et les murs extérieurs : l'air qui passe évite la condensation."
+      ]
+    },
+    "es": {
+      "title": "Quitar el moho de la pared",
+      "intro": "Manchas negras en rincones o tras los muebles: las eliminas y proteges la pared para que no vuelvan.",
+      "tools": ["Pulverizador", "Rodillo", "Brocha", "Higrómetro"],
+      "mats": ["Antimoho en spray", "Pintura antimoho", "Esponja", "Plástico protector", "Bolsa de basura"],
+      "steps": [
+        "Abre bien la ventana y saca a niños y mascotas de la habitación. Ponte guantes, mascarilla y gafas.",
+        "Separa los muebles de la pared y cubre el suelo bajo la mancha con el plástico.",
+        "Pulveriza el antimoho en toda la mancha y [[20 cm]] alrededor, sin frotar en seco. O lejía: 1 parte por 4 de agua.",
+        "Deja actuar el tiempo de la etiqueta, normalmente 15 minutos. Quédate fuera o junto a la ventana.",
+        "Limpia con la esponja húmeda de los bordes hacia el centro, aclarándola a menudo. Tira la esponja al acabar.",
+        "Mira la pared con buena luz: las manchas negras tienen que haber desaparecido o aclarado mucho.",
+        "Deja secar la pared por completo, con el aire circulando: suele hacer falta un día.",
+        "Da la primera mano de pintura antimoho con rodillo, con brocha en las esquinas, pasándote de la zona tratada.",
+        "Deja secar la primera mano según el bote, con la ventana entornada.",
+        "Da la segunda mano de pintura antimoho, uniforme y sin dejar huecos.",
+        "Pon el higrómetro en la habitación y mira la humedad los días siguientes, sobre todo por la mañana."
+      ],
+      "labels": ["", "", "", "Actuar", "", "", "Secado", "", "Secado", "", ""],
+      "checks": {
+        "5": {"q": "¿Han desaparecido las manchas?", "fix": "Vuelve a pulverizar, deja actuar y limpia. Si quedan sombras grises en el yeso, la pintura antimoho las tapará."},
+        "10": {"q": "¿La humedad se queda entre el 40 y el 60%?", "fix": "Ventila 10 minutos al día, usa campana y extractor, separa los muebles de la pared; si hace falta, un deshumidificador."}
+      },
+      "warns": {"2": "Nunca mezcles lejía con antical, vinagre o amoniaco: desprende gases tóxicos."},
+      "tips": [
+        "Moho que vuelve siempre al mismo sitio o pared húmeda al tacto: puede ser una fuga o filtración. Llama a un técnico.",
+        "Si el papel pintado o el pladur están empapados, el moho está dentro: hay que cortar ese trozo y cambiarlo.",
+        "Deja [[5-10 cm]] entre armarios o sofás y las paredes exteriores: el aire que pasa evita la condensación."
+      ]
+    },
+    "de": {
+      "title": "Schimmel an der Wand entfernen",
+      "intro": "Schwarze Flecken in Ecken oder hinter Möbeln: entfernen und die Wand vor neuem Befall schützen.",
+      "tools": ["Sprühflasche", "Farbroller", "Pinsel", "Hygrometer"],
+      "mats": ["Schimmelentferner-Spray", "Anti-Schimmel-Farbe", "Schwamm", "Abdeckfolie", "Müllbeutel"],
+      "steps": [
+        "Öffne das Fenster weit und schick Kinder und Haustiere raus. Zieh Handschuhe, Maske und Schutzbrille an.",
+        "Rück die Möbel von der Wand weg und leg unter dem Fleck die Abdeckfolie aus.",
+        "Sprüh den Schimmelentferner auf den ganzen Fleck und [[20 cm]] drumherum, nicht trocken schrubben. Alternativ: Chlorreiniger 1:4 verdünnt.",
+        "Lass es so lange einwirken wie auf dem Etikett, meist 15 Minuten. Bleib draußen oder am offenen Fenster.",
+        "Wisch mit dem feuchten Schwamm von außen nach innen und spül ihn oft aus. Den Schwamm danach wegwerfen.",
+        "Schau dir die Wand bei gutem Licht an: Die schwarzen Flecken sollten weg oder deutlich heller sein.",
+        "Lass die Wand komplett trocknen, bei guter Durchlüftung: Meist dauert das einen Tag.",
+        "Roll den ersten Anstrich Anti-Schimmel-Farbe auf, Ecken mit dem Pinsel, großzügig über die behandelte Stelle hinaus.",
+        "Lass den ersten Anstrich laut Eimer trocknen, bei gekipptem Fenster.",
+        "Trag den zweiten Anstrich Anti-Schimmel-Farbe gleichmäßig auf, ohne Lücken.",
+        "Stell das Hygrometer in den Raum und prüf die Luftfeuchtigkeit in den nächsten Tagen, vor allem morgens."
+      ],
+      "labels": ["", "", "", "Einwirken", "", "", "Trocknen", "", "Trocknen", "", ""],
+      "checks": {
+        "5": {"q": "Sind die Flecken weg?", "fix": "Noch mal sprühen, einwirken lassen und abwischen. Graue Schatten im Putz deckt die Anti-Schimmel-Farbe ab."},
+        "10": {"q": "Bleibt die Luftfeuchtigkeit zwischen 40 und 60 %?", "fix": "Täglich 10 Minuten stoßlüften, Dunstabzug und Lüfter nutzen, Möbel von der Wand rücken; notfalls ein Luftentfeuchter."}
+      },
+      "warns": {"2": "Chlorreiniger nie mit Entkalker, Essig oder Salmiak mischen: Dabei entsteht giftiges Gas."},
+      "tips": [
+        "Kommt der Schimmel immer wieder an derselben Stelle oder ist die Wand nass, kann es ein Leck sein: Fachleute rufen.",
+        "Ist Tapete oder Gipskarton durchnässt, sitzt der Schimmel innen: Das Stück muss raus und ersetzt werden.",
+        "Halte Schränke und Sofas [[5-10 cm]] von Außenwänden weg: Die Luft dahinter verhindert Kondenswasser."
+      ]
+    }
+  }
+},
+{
+  "id": "rifare-silicone-doccia",
+  "cat": "bagno",
+  "diff": 2, "active": 60, "total": 1680,
+  "risk": 1, "topic": null,
+  "allow": {},
+  "ppe": ["gloves"],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "utility-knife"}, {"k": "plastic-scraper"}, {"k": "caulking-gun"}, {"k": "silicone-smoothing-tool"}],
+  "mats": [{"k": "silicone-sealant", "q": 1, "u": ""}, {"k": "masking-tape", "q": 1, "u": ""}, {"k": "isopropyl-alcohol", "q": 100, "u": "ml"}, {"k": "dish-soap", "q": null, "u": "", "own": true}, {"k": "cloth", "q": 2, "u": "", "own": true}],
+  "steps": [
+    {"ic": "knife", "warn": 1},
+    {"ic": "pull"},
+    {"ic": "clean"},
+    {"ic": "clean"},
+    {"ic": "wait", "timer": 10800, "check": true},
+    {"ic": "tape"},
+    {"ic": "caulk"},
+    {"ic": "hand"},
+    {"ic": "pull"},
+    {"ic": "look", "check": true},
+    {"ic": "wait", "timer": 86400}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Rifare il silicone della doccia",
+      "intro": "Silicone nero o staccato su doccia o vasca: lo togli e rifai una fuga pulita e a tenuta.",
+      "tools": ["Cutter", "Raschietto di plastica", "Pistola per silicone", "Spatolina per silicone"],
+      "mats": ["Silicone sanitario antimuffa", "Nastro di carta", "Alcol isopropilico", "Detersivo per piatti", "Panni"],
+      "steps": [
+        "Incidi il vecchio silicone lungo entrambi i bordi con il cutter, tenendo la lama quasi piatta.",
+        "Afferra un capo del cordone e tiralo via piano, tutto intero se ci riesci.",
+        "Gratta i residui con il raschietto di plastica finché piastrelle e piatto sono lisci al tatto.",
+        "Sgrassa la fuga con un panno e alcol: toglie gli ultimi residui e il sapone, così il nuovo silicone attacca.",
+        "Lascia asciugare tutto con la finestra aperta: la fuga deve essere asciutta anche in fondo.",
+        "Metti il nastro di carta sui due lati della fessura, lasciando circa [[3 mm]] per parte, ben schiacciato.",
+        "Taglia il beccuccio in obliquo, poco più largo della fessura, e stendi un cordone continuo a velocità costante.",
+        "Liscia in una sola passata con la spatolina o il dito bagnato in acqua e sapone, premendo leggermente.",
+        "Togli subito il nastro, con il silicone fresco: tiralo piano, inclinato via dalla fuga.",
+        "Controlla il cordone in tutta la lunghezza, soprattutto negli angoli.",
+        "Lascia indurire il silicone per 24 ore senza usare la doccia, con il bagno arieggiato."
+      ],
+      "labels": ["", "", "", "", "Asciugatura", "", "", "", "", "", "Indurimento"],
+      "checks": {
+        "4": {"q": "La fuga è asciutta, pulita e senza resti di vecchio silicone?", "fix": "Aspetta ancora o asciuga con il phon tiepido: sul bagnato il silicone non attacca e annerisce presto."},
+        "9": {"q": "Il cordone è continuo, senza buchi né punti staccati?", "fix": "Riempi subito con un filo di silicone finché è fresco e liscia di nuovo con il dito insaponato."}
+      },
+      "warns": {"0": "Vai piano su vasche e piatti in acrilico o smaltati: la lama graffia facilmente."},
+      "tips": [
+        "Vasca: riempila d'acqua prima di siliconare e svuotala a indurimento finito, così il cordone non si stacca usandola.",
+        "Usa silicone sanitario con antimuffa; l'odore di aceto mentre indurisce è normale, tieni la finestra aperta.",
+        "Se la fessura è più larga di [[10 mm]], infila prima un cordone di schiuma di riempimento, poi il silicone sopra."
+      ]
+    },
+    "en": {
+      "title": "Reseal a shower or bath",
+      "intro": "Black or peeling sealant around the shower or bath: strip it out and lay a clean, watertight bead.",
+      "tools": ["Utility knife", "Plastic scraper", "Caulking gun", "Sealant smoothing tool"],
+      "mats": ["Sanitary silicone with fungicide", "Masking tape", "Isopropyl alcohol", "Washing-up liquid (dish soap)", "Cloths"],
+      "steps": [
+        "Cut along both edges of the old sealant with the knife, holding the blade almost flat.",
+        "Grab one end of the bead and peel it away slowly, in one piece if you can.",
+        "Scrape off what's left with the plastic scraper until tiles and tray feel smooth.",
+        "Wipe the joint with a cloth and alcohol: it lifts the last residue and soap so the new sealant sticks.",
+        "Let everything dry with the window open: the joint must be dry right to the bottom.",
+        "Tape both sides of the gap, leaving about [[3 mm]] of surface on each side, pressed down firmly.",
+        "Cut the nozzle at an angle, a bit wider than the gap, and run one continuous bead at a steady pace.",
+        "Smooth it in one pass with the tool or a finger dipped in soapy water, pressing lightly.",
+        "Pull the tape off straight away while the sealant is wet: slowly, at an angle away from the joint.",
+        "Check the bead along its whole length, especially in the corners.",
+        "Let the sealant cure for 24 hours without using the shower, with the room aired."
+      ],
+      "labels": ["", "", "", "", "Drying", "", "", "", "", "", "Curing"],
+      "checks": {
+        "4": {"q": "Is the joint dry, clean and free of old sealant?", "fix": "Wait longer or dry it with a hairdryer on low: sealant won't stick to damp and soon turns black."},
+        "9": {"q": "Is the bead continuous, with no holes or gaps?", "fix": "Fill them now with a little sealant while it's wet and smooth again with a soapy finger."}
+      },
+      "warns": {"0": "Go gently on acrylic or enamelled baths and trays: the blade scratches easily."},
+      "tips": [
+        "Bath: fill it with water before sealing and empty it once cured, so the bead doesn't tear when the bath is used.",
+        "Use sanitary silicone with fungicide; a vinegar smell while it cures is normal, so keep the window open.",
+        "If the gap is wider than [[10 mm]], push in a foam backer rod first, then seal over it."
+      ]
+    },
+    "fr": {
+      "title": "Refaire le joint silicone de douche",
+      "intro": "Joint noirci ou décollé sur douche ou baignoire : tu l'enlèves et en refais un net et étanche.",
+      "tools": ["Cutter", "Grattoir en plastique", "Pistolet à silicone", "Spatule de lissage"],
+      "mats": ["Silicone sanitaire anti-moisissure", "Ruban de masquage", "Alcool isopropylique", "Liquide vaisselle", "Chiffons"],
+      "steps": [
+        "Incise l'ancien joint le long des deux bords au cutter, lame presque à plat.",
+        "Attrape une extrémité du cordon et tire-le lentement, d'un seul morceau si possible.",
+        "Gratte les restes au grattoir en plastique jusqu'à ce que carrelage et receveur soient lisses au toucher.",
+        "Dégraisse le joint avec un chiffon et de l'alcool : ça retire les derniers résidus et le savon, le silicone accroche.",
+        "Laisse tout sécher fenêtre ouverte : le joint doit être sec jusqu'au fond.",
+        "Pose le ruban des deux côtés de la fente, en laissant environ [[3 mm]] de chaque côté, bien appuyé.",
+        "Coupe la buse en biais, un peu plus large que la fente, et tire un cordon continu à vitesse régulière.",
+        "Lisse en une seule passe avec la spatule ou le doigt trempé dans de l'eau savonneuse, en appuyant légèrement.",
+        "Retire le ruban tout de suite, silicone encore frais : tire lentement, en biais, à l'opposé du joint.",
+        "Contrôle le cordon sur toute sa longueur, surtout dans les angles.",
+        "Laisse le silicone durcir 24 heures sans utiliser la douche, pièce aérée."
+      ],
+      "labels": ["", "", "", "", "Séchage", "", "", "", "", "", "Durcissement"],
+      "checks": {
+        "4": {"q": "Le joint est-il sec, propre et sans reste d'ancien silicone ?", "fix": "Attends encore ou sèche au sèche-cheveux tiède : sur l'humide, le silicone n'accroche pas et noircit vite."},
+        "9": {"q": "Le cordon est-il continu, sans trou ni décollement ?", "fix": "Comble tout de suite avec un peu de silicone tant que c'est frais et relisse au doigt savonné."}
+      },
+      "warns": {"0": "Vas-y doucement sur l'acrylique et l'émail : la lame raye facilement."},
+      "tips": [
+        "Baignoire : remplis-la d'eau avant de faire le joint et vide-la après durcissement, le joint ne se déchirera pas.",
+        "Prends un silicone sanitaire anti-moisissure ; l'odeur de vinaigre au séchage est normale, garde la fenêtre ouverte.",
+        "Si la fente dépasse [[10 mm]], glisse d'abord un fond de joint en mousse, puis le silicone par-dessus."
+      ]
+    },
+    "es": {
+      "title": "Cambiar la silicona de la ducha",
+      "intro": "Silicona negra o despegada en ducha o bañera: la quitas y haces un cordón limpio y estanco.",
+      "tools": ["Cúter", "Rasqueta de plástico", "Pistola de silicona", "Espátula para alisar silicona"],
+      "mats": ["Silicona sanitaria antimoho", "Cinta de carrocero", "Alcohol isopropílico", "Jabón lavavajillas", "Trapos"],
+      "steps": [
+        "Corta la silicona vieja por los dos bordes con el cúter, con la hoja casi plana.",
+        "Coge un extremo del cordón y tira despacio, entero si puedes.",
+        "Rasca los restos con la rasqueta de plástico hasta que azulejo y plato queden lisos al tacto.",
+        "Desengrasa la junta con un trapo y alcohol: quita los últimos restos y el jabón para que la silicona agarre.",
+        "Deja secar todo con la ventana abierta: la junta tiene que estar seca hasta el fondo.",
+        "Pon cinta a los dos lados de la ranura, dejando unos [[3 mm]] por lado, bien apretada.",
+        "Corta la boquilla en bisel, algo más ancha que la ranura, y echa un cordón continuo a ritmo constante.",
+        "Alisa en una sola pasada con la espátula o el dedo mojado en agua con jabón, apretando un poco.",
+        "Quita la cinta enseguida, con la silicona fresca: tira despacio, inclinada hacia fuera de la junta.",
+        "Revisa el cordón en toda su longitud, sobre todo en las esquinas.",
+        "Deja curar la silicona 24 horas sin usar la ducha y con el baño ventilado."
+      ],
+      "labels": ["", "", "", "", "Secado", "", "", "", "", "", "Curado"],
+      "checks": {
+        "4": {"q": "¿La junta está seca, limpia y sin restos de silicona vieja?", "fix": "Espera más o sécala con el secador templado: sobre húmedo la silicona no agarra y se ennegrece pronto."},
+        "9": {"q": "¿El cordón es continuo, sin huecos ni zonas despegadas?", "fix": "Rellena ya con un poco de silicona mientras está fresca y vuelve a alisar con el dedo enjabonado."}
+      },
+      "warns": {"0": "Ve con cuidado en bañeras y platos acrílicos o esmaltados: la hoja raya con facilidad."},
+      "tips": [
+        "Bañera: llénala de agua antes de sellar y vacíala tras el curado, así el cordón no se rompe al usarla.",
+        "Usa silicona sanitaria antimoho; el olor a vinagre mientras cura es normal, deja la ventana abierta.",
+        "Si la ranura mide más de [[10 mm]], mete antes un cordón de espuma de relleno y sella encima."
+      ]
+    },
+    "de": {
+      "title": "Silikonfuge an Dusche erneuern",
+      "intro": "Schwarze oder lose Silikonfuge an Dusche oder Wanne: entfernen und sauber und dicht neu ziehen.",
+      "tools": ["Cuttermesser", "Kunststoffschaber", "Kartuschenpistole", "Fugenglätter"],
+      "mats": ["Sanitärsilikon mit Fungizid", "Malerkrepp", "Isopropanol", "Spülmittel", "Lappen"],
+      "steps": [
+        "Schneid das alte Silikon mit dem Cutter an beiden Kanten entlang los, die Klinge fast flach.",
+        "Pack ein Ende der Fuge und zieh sie langsam heraus, am besten an einem Stück.",
+        "Kratz die Reste mit dem Kunststoffschaber ab, bis sich Fliesen und Wanne glatt anfühlen.",
+        "Wisch die Fuge mit Lappen und Isopropanol ab: Das löst letzte Reste und Seife, damit das Silikon hält.",
+        "Lass alles bei offenem Fenster trocknen: Die Fuge muss bis zum Grund trocken sein.",
+        "Kleb Krepp an beide Seiten der Fuge, mit etwa [[3 mm]] Abstand je Seite, fest angedrückt.",
+        "Schneid die Tülle schräg an, etwas breiter als die Fuge, und zieh eine durchgehende Raupe in gleichem Tempo.",
+        "Glätte in einem Zug mit dem Fugenglätter oder einem Finger in Spülwasser, mit leichtem Druck.",
+        "Zieh das Krepp sofort ab, solange das Silikon frisch ist: langsam und schräg von der Fuge weg.",
+        "Prüf die Fuge auf ganzer Länge, vor allem in den Ecken.",
+        "Lass das Silikon 24 Stunden aushärten, Dusche nicht benutzen und gut lüften."
+      ],
+      "labels": ["", "", "", "", "Trocknen", "", "", "", "", "", "Aushärten"],
+      "checks": {
+        "4": {"q": "Ist die Fuge trocken, sauber und ohne altes Silikon?", "fix": "Länger warten oder lauwarm föhnen: Auf Feuchtigkeit hält Silikon nicht und wird schnell schwarz."},
+        "9": {"q": "Ist die Fuge durchgehend, ohne Löcher oder offene Stellen?", "fix": "Jetzt, solange alles frisch ist, etwas Silikon nachgeben und mit dem nassen Finger neu glätten."}
+      },
+      "warns": {"0": "Vorsicht bei Acryl- und Emaillewannen: Die Klinge zerkratzt sie leicht."},
+      "tips": [
+        "Wanne: vor dem Verfugen mit Wasser füllen und erst nach dem Aushärten ablassen, dann reißt die Fuge nicht.",
+        "Nimm Sanitärsilikon mit Fungizid; der Essiggeruch beim Aushärten ist normal, Fenster offen lassen.",
+        "Ist die Fuge breiter als [[10 mm]], erst eine Rundschnur aus Schaumstoff einlegen, dann drüber silikonieren."
+      ]
+    }
+  }
+},
+{
+  "id": "pulire-fughe",
+  "cat": "bagno",
+  "diff": 1, "active": 40, "total": 175,
+  "risk": 1, "topic": "chem",
+  "allow": {},
+  "ppe": ["gloves"],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "stiff-brush"}, {"k": "old-toothbrush", "own": true}, {"k": "bucket", "own": true}],
+  "mats": [{"k": "baking-soda", "q": 200, "u": "g"}, {"k": "grout-cleaner", "q": null, "u": ""}, {"k": "sponge", "q": 1, "u": ""}, {"k": "cloth", "q": 1, "u": "", "own": true}, {"k": "grout-pen", "q": 1, "u": ""}],
+  "steps": [
+    {"ic": "air"},
+    {"ic": "bucket", "warn": 1},
+    {"ic": "brush"},
+    {"ic": "wait", "timer": 900},
+    {"ic": "brush"},
+    {"ic": "shower"},
+    {"ic": "look", "check": true},
+    {"ic": "clean"},
+    {"ic": "wait", "timer": 7200},
+    {"ic": "brush"}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Pulire le fughe delle piastrelle",
+      "intro": "Fughe grigie o annerite in bagno: tornano chiare con bicarbonato o un detergente specifico.",
+      "tools": ["Spazzola a setole dure", "Vecchio spazzolino", "Secchio"],
+      "mats": ["Bicarbonato", "Detergente per fughe (in alternativa)", "Spugna", "Panno", "Pennarello o impregnante per fughe"],
+      "steps": [
+        "Apri la finestra e metti i guanti. Se le piastrelle sono bagnate, asciugale prima con un panno.",
+        "Mescola il bicarbonato con poca acqua fino a una pasta densa, come un dentifricio. Oppure usa il detergente per fughe.",
+        "Stendi la pasta sulle fughe con lo spazzolino, ben dentro la linea. Il detergente spray va spruzzato direttamente.",
+        "Lascia agire: la pasta scioglie lo sporco mentre aspetti. Con il detergente, rispetta il tempo dell'etichetta.",
+        "Strofina lungo ogni fuga con la spazzola dura, a colpi corti e decisi, un tratto alla volta.",
+        "Sciacqua con la spugna e acqua pulita, strizzandola spesso, finché non restano aloni bianchi.",
+        "Guarda le fughe con una buona luce: devono essere tornate del loro colore, senza puntini neri.",
+        "Asciuga piastrelle e fughe con il panno.",
+        "Vuoi proteggerle? Lascia asciugare bene le fughe, almeno un paio d'ore. Altrimenti hai finito.",
+        "Passa il pennarello o l'impregnante lungo le fughe e togli subito le sbavature dalle piastrelle."
+      ],
+      "labels": ["", "", "", "Posa", "", "", "", "", "Asciugatura", ""],
+      "checks": {
+        "6": {"q": "Le fughe sono tornate chiare in modo uniforme?", "fix": "Ripeti pasta, posa e spazzola sulle zone scure. Per i puntini neri di muffa usa un antimuffa, da solo."}
+      },
+      "warns": {"1": "Non mescolare mai detergenti diversi, soprattutto candeggina e prodotti acidi: liberano gas tossici."},
+      "tips": [
+        "Su marmo e pietra naturale niente aceto né prodotti acidi: rovinano la superficie. Solo bicarbonato o detergenti neutri.",
+        "Dopo ogni doccia passa il tergivetro su pareti e box: le fughe restano pulite molto più a lungo.",
+        "Se le fughe si sbriciolano o mancano pezzi, pulirle non basta: vanno rifatte con stucco per fughe nuovo."
+      ]
+    },
+    "en": {
+      "title": "Clean tile grout",
+      "intro": "Grey or blackened grout in the bathroom: bring it back with baking soda or a grout cleaner.",
+      "tools": ["Stiff-bristle brush", "Old toothbrush", "Bucket"],
+      "mats": ["Baking soda", "Grout cleaner (alternative)", "Sponge", "Cloth", "Grout pen or sealer"],
+      "steps": [
+        "Open the window and put your gloves on. If the tiles are wet, dry them first with a cloth.",
+        "Mix baking soda with a little water into a thick paste, like toothpaste. Or use a grout cleaner instead.",
+        "Work the paste into the grout lines with the toothbrush. Spray cleaners go straight onto the grout.",
+        "Leave it to work: the paste loosens the dirt while you wait. With a cleaner, follow the time on the label.",
+        "Scrub along each line with the stiff brush in short, firm strokes, one section at a time.",
+        "Rinse with the sponge and clean water, wringing it often, until there's no white residue left.",
+        "Look at the grout in good light: it should be back to its original colour, with no black specks.",
+        "Dry the tiles and grout with the cloth.",
+        "Want to protect it? Let the grout dry properly, at least a couple of hours. Otherwise you're done.",
+        "Run the grout pen or sealer along the lines and wipe any smudges off the tiles straight away."
+      ],
+      "labels": ["", "", "", "Contact time", "", "", "", "", "Drying", ""],
+      "checks": {
+        "6": {"q": "Is the grout evenly light again?", "fix": "Repeat paste, wait and scrub on the dark areas. For black mould specks use a mould remover, on its own."}
+      },
+      "warns": {"1": "Never mix different cleaners, especially bleach with acidic products: it gives off toxic gas."},
+      "tips": [
+        "No vinegar or acid cleaners on marble or natural stone: they etch the surface. Use baking soda or neutral cleaners.",
+        "Squeegee the walls and screen after every shower: the grout stays clean for much longer.",
+        "If the grout is crumbling or missing, cleaning won't fix it: it needs raking out and regrouting."
+      ]
+    },
+    "fr": {
+      "title": "Nettoyer les joints de carrelage",
+      "intro": "Joints gris ou noircis à la salle de bain : ils redeviennent clairs au bicarbonate ou au nettoyant.",
+      "tools": ["Brosse à poils durs", "Vieille brosse à dents", "Seau"],
+      "mats": ["Bicarbonate de soude", "Nettoyant pour joints (au choix)", "Éponge", "Chiffon", "Stylo ou imperméabilisant joints"],
+      "steps": [
+        "Ouvre la fenêtre et mets tes gants. Si le carrelage est mouillé, sèche-le d'abord avec un chiffon.",
+        "Mélange le bicarbonate avec un peu d'eau jusqu'à une pâte épaisse, comme du dentifrice. Ou prends un nettoyant joints.",
+        "Étale la pâte dans les joints avec la brosse à dents. Un nettoyant en spray se pulvérise directement.",
+        "Laisse agir : la pâte décolle la saleté pendant que tu attends. Avec un nettoyant, respecte le temps de l'étiquette.",
+        "Frotte chaque joint à la brosse dure, par petits coups fermes, une portion à la fois.",
+        "Rince à l'éponge et à l'eau claire, en l'essorant souvent, jusqu'à ce qu'il ne reste plus de traces blanches.",
+        "Regarde les joints sous une bonne lumière : ils doivent avoir retrouvé leur couleur, sans points noirs.",
+        "Sèche carrelage et joints avec le chiffon.",
+        "Tu veux les protéger ? Laisse bien sécher les joints, au moins deux heures. Sinon, c'est fini.",
+        "Passe le stylo ou l'imperméabilisant le long des joints et essuie aussitôt les bavures sur le carrelage."
+      ],
+      "labels": ["", "", "", "Temps de pose", "", "", "", "", "Séchage", ""],
+      "checks": {
+        "6": {"q": "Les joints sont-ils redevenus clairs partout ?", "fix": "Recommence pâte, pause et brosse sur les zones foncées. Pour les points noirs de moisissure, un anti-moisissure seul."}
+      },
+      "warns": {"1": "Ne mélange jamais différents produits, surtout Javel et produits acides : ça dégage un gaz toxique."},
+      "tips": [
+        "Sur marbre et pierre naturelle, ni vinaigre ni acide : ça attaque la surface. Seulement bicarbonate ou produit neutre.",
+        "Passe la raclette sur les murs et la paroi après chaque douche : les joints restent propres bien plus longtemps.",
+        "Si les joints s'effritent ou manquent par endroits, nettoyer ne suffit pas : il faut les refaire."
+      ]
+    },
+    "es": {
+      "title": "Limpiar las juntas de los azulejos",
+      "intro": "Juntas grises o negras en el baño: vuelven a estar claras con bicarbonato o un limpiador.",
+      "tools": ["Cepillo de cerdas duras", "Cepillo de dientes viejo", "Cubo"],
+      "mats": ["Bicarbonato", "Limpiador de juntas (alternativa)", "Esponja", "Trapo", "Rotulador o sellador de juntas"],
+      "steps": [
+        "Abre la ventana y ponte los guantes. Si los azulejos están mojados, sécalos antes con un trapo.",
+        "Mezcla el bicarbonato con un poco de agua hasta tener una pasta espesa, como pasta de dientes. O usa limpiador de juntas.",
+        "Extiende la pasta en las juntas con el cepillo de dientes. El limpiador en spray se pulveriza directamente.",
+        "Deja actuar: la pasta ablanda la suciedad mientras esperas. Con limpiador, respeta el tiempo de la etiqueta.",
+        "Frota cada junta con el cepillo duro, con pasadas cortas y firmes, un tramo cada vez.",
+        "Aclara con la esponja y agua limpia, escurriéndola a menudo, hasta que no queden restos blancos.",
+        "Mira las juntas con buena luz: tienen que haber recuperado su color, sin puntos negros.",
+        "Seca azulejos y juntas con el trapo.",
+        "¿Quieres protegerlas? Deja que las juntas sequen bien, al menos un par de horas. Si no, has terminado.",
+        "Pasa el rotulador o el sellador por las juntas y limpia al momento lo que manche el azulejo."
+      ],
+      "labels": ["", "", "", "Actuar", "", "", "", "", "Secado", ""],
+      "checks": {
+        "6": {"q": "¿Las juntas han vuelto a quedar claras por igual?", "fix": "Repite pasta, espera y cepillo en las zonas oscuras. Para puntos negros de moho, usa un antimoho, solo."}
+      },
+      "warns": {"1": "No mezcles nunca productos distintos, sobre todo lejía con ácidos: desprenden gases tóxicos."},
+      "tips": [
+        "En mármol y piedra natural nada de vinagre ni ácidos: dañan la superficie. Solo bicarbonato o productos neutros.",
+        "Pasa la rasqueta por paredes y mampara después de cada ducha: las juntas aguantan limpias mucho más.",
+        "Si las juntas se desmoronan o faltan trozos, limpiar no basta: hay que rejuntar de nuevo."
+      ]
+    },
+    "de": {
+      "title": "Fliesenfugen reinigen",
+      "intro": "Graue oder schwarze Fugen im Bad: Mit Natron oder Fugenreiniger werden sie wieder hell.",
+      "tools": ["Harte Bürste", "Alte Zahnbürste", "Eimer"],
+      "mats": ["Natron", "Fugenreiniger (alternativ)", "Schwamm", "Lappen", "Fugenstift oder Fugenimprägnierung"],
+      "steps": [
+        "Mach das Fenster auf und zieh Handschuhe an. Sind die Fliesen nass, trockne sie vorher mit einem Lappen ab.",
+        "Rühr Natron mit wenig Wasser zu einer dicken Paste an, wie Zahnpasta. Oder nimm einen Fugenreiniger.",
+        "Arbeite die Paste mit der Zahnbürste in die Fugen ein. Sprühreiniger direkt auf die Fugen sprühen.",
+        "Einwirken lassen: Die Paste löst den Schmutz, während du wartest. Bei Reiniger die Zeit vom Etikett einhalten.",
+        "Schrubb jede Fuge mit der harten Bürste, mit kurzen, kräftigen Strichen, Abschnitt für Abschnitt.",
+        "Spül mit Schwamm und klarem Wasser nach, oft auswringen, bis keine weißen Reste mehr da sind.",
+        "Schau dir die Fugen bei gutem Licht an: Sie sollten wieder ihre Farbe haben, ohne schwarze Punkte.",
+        "Trockne Fliesen und Fugen mit dem Lappen ab.",
+        "Willst du sie schützen? Lass die Fugen gut trocknen, mindestens zwei Stunden. Sonst bist du fertig.",
+        "Zieh Fugenstift oder Imprägnierung die Fugen entlang und wisch Kleckse auf den Fliesen sofort weg."
+      ],
+      "labels": ["", "", "", "Einwirken", "", "", "", "", "Trocknen", ""],
+      "checks": {
+        "6": {"q": "Sind die Fugen überall wieder gleichmäßig hell?", "fix": "Paste, Einwirken und Bürsten an dunklen Stellen wiederholen. Schwarze Schimmelpunkte mit Schimmelentferner, allein."}
+      },
+      "warns": {"1": "Mische nie verschiedene Reiniger, vor allem Chlor nicht mit Säure: Dabei entsteht giftiges Gas."},
+      "tips": [
+        "Auf Marmor und Naturstein kein Essig und keine Säure: Sie greifen die Oberfläche an. Nur Natron oder Neutralreiniger.",
+        "Zieh nach jedem Duschen Wände und Glas mit dem Abzieher ab: Die Fugen bleiben viel länger sauber.",
+        "Bröseln die Fugen oder fehlen Stücke, hilft Reinigen nicht: Dann müssen sie neu verfugt werden."
+      ]
+    }
+  }
+},
+{
+  "id": "sostituire-soffione-doccia",
+  "cat": "bagno",
+  "diff": 1, "active": 15, "total": 15,
+  "risk": 0, "topic": null,
+  "allow": {},
+  "ppe": [],
+  "tags": [],
+  "months": [],
+  "tools": [{"k": "adjustable-wrench"}, {"k": "old-toothbrush", "own": true}],
+  "mats": [{"k": "shower-head", "q": 1, "u": ""}, {"k": "shower-hose", "q": 1, "u": ""}, {"k": "rubber-washers", "q": 2, "u": ""}, {"k": "ptfe-tape", "q": 1, "u": ""}, {"k": "cloth", "q": 1, "u": "", "own": true}, {"k": "white-vinegar", "q": null, "u": "", "own": true}],
+  "steps": [
+    {"ic": "water-off"},
+    {"ic": "loosen"},
+    {"ic": "loosen"},
+    {"ic": "clean"},
+    {"ic": "hand", "check": true},
+    {"ic": "tighten"},
+    {"ic": "tighten"},
+    {"ic": "shower", "check": true}
+  ],
+  "tips": 3,
+  "i18n": {
+    "it": {
+      "title": "Cambiare soffione e flessibile doccia",
+      "intro": "Doccetta incrostata o flessibile che perde: li sostituisci in un quarto d'ora, senza idraulico.",
+      "tools": ["Chiave inglese", "Vecchio spazzolino"],
+      "mats": ["Soffione o doccetta nuova", "Flessibile doccia", "Guarnizioni in gomma", "Nastro in teflon", "Panno", "Aceto bianco"],
+      "steps": [
+        "Chiudi bene il miscelatore e stendi un panno sul piatto doccia: protegge lo smalto se cade qualcosa.",
+        "Svita il soffione o la doccetta a mano, in senso antiorario. Se è bloccato, usa la chiave avvolta nel panno.",
+        "Se cambi anche il flessibile, sviralo dal rubinetto o dall'attacco a muro, sempre in senso antiorario.",
+        "Pulisci i filetti con lo spazzolino e un po' d'aceto, togliendo calcare e vecchie guarnizioni rimaste dentro.",
+        "Metti una guarnizione nuova in ogni dado del flessibile, ben piatta in fondo: senza guarnizione perde.",
+        "Avvita al rubinetto l'estremità esagonale del flessibile; quella a cono, di solito, va verso la doccetta.",
+        "Avvita a mano fino in fondo, poi al massimo un quarto di giro con la chiave avvolta nel panno.",
+        "Apri l'acqua e guarda i raccordi per un minuto, prima calda e poi fredda."
+      ],
+      "labels": ["", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "C'è una guarnizione piatta in ogni dado?", "fix": "Spingila in fondo con il dito, ben piatta; se è storta o tagliata, usane una nuova della stessa misura."},
+        "7": {"q": "Nessuna goccia dai raccordi?", "fix": "Stringi ancora di un ottavo di giro. Se gocciola ancora, svita e controlla che la guarnizione sia piatta."}
+      },
+      "warns": {},
+      "tips": [
+        "Contro il calcare, tieni il soffione a bagno in aceto bianco per un'ora, poi strofina gli ugelli in gomma con le dita.",
+        "Soffione fisso senza guarnizione? Avvolgi 4-5 giri di teflon sul filetto, in senso orario, prima di avvitare.",
+        "Gli attacchi sono quasi sempre standard da mezzo pollice: se hai dubbi, porta il vecchio pezzo in negozio."
+      ]
+    },
+    "en": {
+      "title": "Replace a shower head or hose",
+      "intro": "Limescale-clogged shower head or a leaking hose: swap them in a quarter of an hour, no plumber.",
+      "tools": ["Adjustable wrench", "Old toothbrush"],
+      "mats": ["New shower head or handset", "Shower hose", "Rubber washers", "PTFE tape", "Cloth", "White vinegar"],
+      "steps": [
+        "Turn the mixer off firmly and lay a cloth in the shower tray: it protects the finish if something drops.",
+        "Unscrew the shower head or handset anticlockwise by hand. If it's stuck, use the wrench wrapped in the cloth.",
+        "If you're replacing the hose too, unscrew it from the mixer or wall outlet, again anticlockwise.",
+        "Clean the threads with the toothbrush and a little vinegar, removing limescale and any old washers left inside.",
+        "Put a new washer in each nut of the hose, sitting flat at the bottom: without one it will leak.",
+        "Screw the hex-nut end of the hose onto the mixer; the cone end usually goes to the handset.",
+        "Screw it on by hand as far as it goes, then at most a quarter turn with the wrench wrapped in the cloth.",
+        "Turn the water on and watch the joints for a minute, hot first and then cold."
+      ],
+      "labels": ["", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Is there a flat washer in each nut?", "fix": "Push it in flat with a finger; if it's twisted or split, use a new one of the same size."},
+        "7": {"q": "No drips from the joints?", "fix": "Tighten another eighth of a turn. If it still drips, unscrew it and check the washer sits flat."}
+      },
+      "warns": {},
+      "tips": [
+        "For limescale, soak the head in white vinegar for an hour, then rub the rubber nozzles with your fingers.",
+        "Fixed head with no washer? Wrap 4-5 turns of PTFE tape clockwise round the thread before screwing it on.",
+        "Fittings are almost always a standard half-inch: if in doubt, take the old part to the shop."
+      ]
+    },
+    "fr": {
+      "title": "Changer pommeau ou flexible de douche",
+      "intro": "Pommeau entartré ou flexible qui fuit : tu les remplaces en un quart d'heure, sans plombier.",
+      "tools": ["Clé à molette", "Vieille brosse à dents"],
+      "mats": ["Pommeau ou douchette neuve", "Flexible de douche", "Joints en caoutchouc", "Ruban téflon", "Chiffon", "Vinaigre blanc"],
+      "steps": [
+        "Ferme bien le mitigeur et pose un chiffon au fond de la douche : il protège l'émail si quelque chose tombe.",
+        "Dévisse le pommeau ou la douchette à la main, vers la gauche. S'il bloque, prends la clé entourée du chiffon.",
+        "Si tu changes aussi le flexible, dévisse-le du mitigeur ou de la sortie murale, toujours vers la gauche.",
+        "Nettoie les filetages à la brosse à dents et au vinaigre, en retirant le calcaire et les vieux joints restés dedans.",
+        "Mets un joint neuf dans chaque écrou du flexible, bien à plat au fond : sans joint, ça fuit.",
+        "Visse l'embout à écrou hexagonal du flexible sur le mitigeur ; l'embout conique va en général vers la douchette.",
+        "Visse à la main jusqu'en butée, puis au maximum un quart de tour à la clé entourée du chiffon.",
+        "Ouvre l'eau et surveille les raccords une minute, d'abord en chaud puis en froid."
+      ],
+      "labels": ["", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Y a-t-il un joint bien à plat dans chaque écrou ?", "fix": "Enfonce-le à plat avec le doigt ; s'il est tordu ou coupé, prends-en un neuf de la même taille."},
+        "7": {"q": "Aucune goutte aux raccords ?", "fix": "Resserre d'un huitième de tour. Si ça goutte encore, dévisse et vérifie que le joint est bien à plat."}
+      },
+      "warns": {},
+      "tips": [
+        "Contre le calcaire, fais tremper le pommeau une heure dans du vinaigre blanc, puis frotte les buses au doigt.",
+        "Pommeau fixe sans joint ? Enroule 4-5 tours de téflon dans le sens horaire sur le filetage avant de visser.",
+        "Les raccords sont presque toujours au standard 15/21 (demi-pouce) : dans le doute, emporte l'ancien au magasin."
+      ]
+    },
+    "es": {
+      "title": "Cambiar la alcachofa o el flexo de ducha",
+      "intro": "Alcachofa con cal o flexo que gotea: los cambias en un cuarto de hora, sin fontanero.",
+      "tools": ["Llave inglesa", "Cepillo de dientes viejo"],
+      "mats": ["Alcachofa o teléfono de ducha nuevo", "Flexo de ducha", "Juntas de goma", "Cinta de teflón", "Trapo", "Vinagre blanco"],
+      "steps": [
+        "Cierra bien el grifo y pon un trapo en el plato de ducha: protege el esmalte si se cae algo.",
+        "Desenrosca la alcachofa a mano, hacia la izquierda. Si está agarrotada, usa la llave envuelta en el trapo.",
+        "Si cambias también el flexo, desenróscalo del grifo o de la toma de pared, también hacia la izquierda.",
+        "Limpia las roscas con el cepillo y un poco de vinagre, quitando la cal y las juntas viejas que queden dentro.",
+        "Pon una junta nueva en cada tuerca del flexo, bien plana en el fondo: sin junta, gotea.",
+        "Enrosca al grifo el extremo del flexo con tuerca hexagonal; el extremo cónico suele ir hacia la alcachofa.",
+        "Enrosca a mano hasta el fondo y luego, como mucho, un cuarto de vuelta con la llave envuelta en el trapo.",
+        "Abre el agua y vigila los empalmes un minuto, primero con agua caliente y luego fría."
+      ],
+      "labels": ["", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "¿Hay una junta plana en cada tuerca?", "fix": "Empújala plana con el dedo; si está torcida o cortada, pon una nueva de la misma medida."},
+        "7": {"q": "¿Ninguna gota en los empalmes?", "fix": "Aprieta otro octavo de vuelta. Si sigue goteando, desenrosca y mira que la junta esté plana."}
+      },
+      "warns": {},
+      "tips": [
+        "Contra la cal, deja la alcachofa una hora en vinagre blanco y luego frota las boquillas de goma con los dedos.",
+        "¿Alcachofa fija sin junta? Da 4-5 vueltas de teflón a la rosca, en sentido horario, antes de enroscar.",
+        "Las roscas casi siempre son estándar de media pulgada: si dudas, lleva la pieza vieja a la tienda."
+      ]
+    },
+    "de": {
+      "title": "Duschkopf oder Duschschlauch wechseln",
+      "intro": "Verkalkter Duschkopf oder undichter Schlauch: in einer Viertelstunde getauscht, ohne Installateur.",
+      "tools": ["Rollgabelschlüssel", "Alte Zahnbürste"],
+      "mats": ["Neuer Duschkopf oder Handbrause", "Duschschlauch", "Gummidichtungen", "Teflonband", "Lappen", "Essig"],
+      "steps": [
+        "Dreh die Armatur fest zu und leg einen Lappen in die Duschwanne: Er schützt die Oberfläche, falls etwas runterfällt.",
+        "Schraub Duschkopf oder Handbrause per Hand gegen den Uhrzeigersinn ab. Sitzt er fest, nimm den Schlüssel mit Lappen.",
+        "Tauschst du auch den Schlauch, schraub ihn von der Armatur oder dem Wandanschluss ab, ebenfalls gegen den Uhrzeigersinn.",
+        "Reinige die Gewinde mit Zahnbürste und etwas Essig und entferne Kalk und alte Dichtungen, die noch drinstecken.",
+        "Leg in jede Mutter des Schlauchs eine neue Dichtung, flach am Grund: Ohne Dichtung tropft es.",
+        "Schraub das Schlauchende mit Sechskantmutter an die Armatur; das konische Ende kommt meist an die Handbrause.",
+        "Per Hand bis zum Anschlag drehen, dann höchstens eine Vierteldrehung mit dem Schlüssel im Lappen.",
+        "Dreh das Wasser auf und beobachte die Anschlüsse eine Minute lang, erst warm, dann kalt."
+      ],
+      "labels": ["", "", "", "", "", "", "", ""],
+      "checks": {
+        "4": {"q": "Liegt in jeder Mutter eine flache Dichtung?", "fix": "Mit dem Finger flach hineindrücken; ist sie verdreht oder eingerissen, eine neue gleicher Größe nehmen."},
+        "7": {"q": "Tropft an den Anschlüssen nichts?", "fix": "Eine Achteldrehung nachziehen. Tropft es weiter, abschrauben und prüfen, ob die Dichtung flach liegt."}
+      },
+      "warns": {},
+      "tips": [
+        "Gegen Kalk den Duschkopf eine Stunde in Essig legen und danach die Gumminoppen mit den Fingern abreiben.",
+        "Kopfbrause ohne Dichtung? Vor dem Aufschrauben 4-5 Lagen Teflonband im Uhrzeigersinn ums Gewinde wickeln.",
+        "Die Anschlüsse haben fast immer den Standard von einem halben Zoll: Im Zweifel das alte Teil mitnehmen."
+      ]
+    }
+  }
+}
+]}
