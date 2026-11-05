@@ -96,6 +96,27 @@
   button:focus .fig, button:focus .fig .eq { stroke: #000; }
   button:focus .fig .hd { fill: #000; }
 
+  .fig.anim .p1 { animation: pose 2s steps(1) infinite; }
+  .fig.anim .p0 { animation: pose 2s steps(1) infinite reverse; }
+  @keyframes pose { 0% { opacity: 0; } 50% { opacity: 1; } }
+  .howto { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 0.8rem; align-items: start; }
+  .howto svg { inline-size: 9rem; block-size: 9rem; }
+  .howto ol { margin: 0; padding-inline-start: 1.1rem; font-size: 0.86rem; }
+  .howto li { margin-block-end: 0.4rem; }
+  .howto li::marker { color: var(--blue); font-weight: 800; }
+  .mistake { margin-block-start: 0.6rem; border-inline-start: 3px solid var(--red); padding-inline-start: 0.6rem; font-size: 0.8rem; }
+  .mistake b { display: block; color: var(--red); font-size: 0.66rem; }
+  .trainer { margin-block-start: 0.5rem; border-inline-start: 3px solid var(--gold); padding-inline-start: 0.6rem; font-size: 0.8rem; }
+  .trainer b { display: block; color: var(--gold); font-size: 0.66rem; }
+  .ssbadge { color: var(--gold); }
+  .codebox { display: flex; gap: 0.35rem; justify-content: center; margin: 0.4rem 0 0.6rem; }
+  .codebox span { inline-size: 2.4rem; block-size: 3rem; display: grid; place-items: center; border: 2px solid var(--line); border-radius: 0.5rem; font-family: var(--wide); font-weight: 900; font-size: 1.6rem; font-variant-numeric: tabular-nums; }
+  .codebox span.on { border-color: var(--blue); }
+  .keypad { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.35rem; }
+  .keypad button { margin: 0; justify-content: center; font-family: var(--wide); font-weight: 800; font-size: 1.05rem; min-block-size: 2.1rem; padding: 0.2rem; }
+  .yours { font-size: 0.6rem; font-weight: 800; color: var(--gold); border: 1.5px solid var(--gold); border-radius: 2rem; padding: 0 0.4rem; }
+  .row-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem; margin-block-start: 0.45rem; }
+  .row-btns button { margin: 0; }
   /* Schermata della serie */
   .set-h { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; font-size: 0.72rem; font-weight: 800; color: var(--quiet); }
   .set-h .warm { color: var(--gold); }
@@ -119,7 +140,7 @@
 
   /* La firma: il bilanciere con i dischi nei colori da gara. */
   .barbell { display: flex; align-items: center; gap: 0.5rem; margin-block-start: 0.5rem; min-block-size: 2.4rem; }
-  button.mini { min-block-size: 1.8rem; padding-block: 0.2rem; font-size: 0.72rem; margin-block-start: 0.45rem; color: var(--quiet); }
+  button.mini { min-block-size: 1.8rem; padding-block: 0.2rem; font-size: 0.72rem; color: var(--quiet); }
   .barbell svg { flex: none; block-size: 2.4rem; inline-size: auto; max-inline-size: 60%; }
   .barbell .pl { font-size: 0.74rem; font-weight: 700; color: var(--quiet); }
   .barbell .pl b { color: var(--ink); }
@@ -165,7 +186,7 @@
 
   .state { display: grid; justify-items: center; text-align: center; gap: 0.6rem; padding: 1.2rem 0.4rem; color: var(--quiet); font-size: 0.82rem; }
   .state button { inline-size: auto; padding-inline: 1.4rem; justify-content: center; }
-  .toast { position: fixed; inset-inline: 6vmin; inset-block-start: 11vmin; background: #000; border: 2px solid var(--blue); padding: 0.5rem 0.8rem; border-radius: 0.6rem; font-size: 0.8rem; font-weight: 700; opacity: 0; transition: opacity 0.2s; pointer-events: none; }
+  .toast { position: fixed; inset-inline: 6vmin; inset-block-end: 18vmin; background: #000; border: 2px solid var(--blue); padding: 0.5rem 0.8rem; border-radius: 0.6rem; font-size: 0.8rem; font-weight: 700; opacity: 0; transition: opacity 0.2s; pointer-events: none; }
   .toast.show { opacity: 1; }
   .sr { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .tight .big { font-size: 2.2rem; }
@@ -200,6 +221,7 @@
 
   const T = {
     it: {
+      mine: 'Le mie schede', mineSub: (n) => pl(n, '1 scheda caricata', `${n} schede caricate`), importH: 'Carica la tua scheda', importSub: 'Quella del tuo personal trainer, da PDF o foto', importHow: (u) => `Sul telefono o sul computer apri ${u}, carica il PDF o la foto della scheda e controlla che sia giusta. Poi scrivi qui il codice di 6 cifre.`, code: 'Codice', load: 'Carica', fetching: 'Cerco la scheda…', notFound: 'Nessuna scheda con questo codice. Controllalo e riprova.', offline: 'Serve la connessione per scaricare la scheda.', imported: (n) => `Scheda caricata: ${n}`, del: 'Elimina la scheda', delSure: 'Tocca di nuovo per eliminarla', howto: 'Come si fa', mistake: 'Errore comune', trainerNote: 'Nota del trainer', superset: (g) => `Superserie ${g}`, yoursTag: 'tua', builtIn: 'Schede pronte',
       home: 'Pronto ad allenarti?', resume: 'Riprendi l\'allenamento', next: (p, d) => `Prossimo: ${p} · ${d}`, programs: 'Schede', programsSub: (n) => `${n} schede, dalla prima volta al 5×5`,
       tools: 'Strumenti', plates: 'Calcolo dischi', platesSub: 'Quali dischi metti sul bilanciere', restTool: 'Timer di recupero', restToolSub: 'Un recupero al volo', history: 'Storico e record', historySub: (n) => pl(n, '1 allenamento salvato', `${n} allenamenti salvati`),
       settings: 'Impostazioni', settingsSub: 'Lingua, kg o lb, bilanciere, suoni', back: 'Indietro',
@@ -219,6 +241,7 @@
       glassesTip: 'Negli esercizi a terra o a testa in giù tieni ferma la montatura o togli gli occhiali.', loading: 'Carico le schede…', loadError: 'Le schede non si sono caricate. Controlla la connessione.', retry: 'Riprova', timeUpMsg: 'tempo scaduto', dismiss: 'Tocca per chiudere'
     },
     en: {
+      mine: 'My programs', mineSub: (n) => pl(n, '1 program loaded', `${n} programs loaded`), importH: 'Load your own program', importSub: 'Your trainer\'s, from a PDF or a photo', importHow: (u) => `On your phone or computer open ${u}, upload the PDF or photo of the program and check it. Then type the 6-digit code here.`, code: 'Code', load: 'Load', fetching: 'Looking for the program…', notFound: 'No program with this code. Check it and try again.', offline: 'You need a connection to download the program.', imported: (n) => `Program loaded: ${n}`, del: 'Delete program', delSure: 'Tap again to delete it', howto: 'How to do it', mistake: 'Common mistake', trainerNote: 'Trainer\'s note', superset: (g) => `Superset ${g}`, yoursTag: 'yours', builtIn: 'Ready-made programs',
       home: 'Ready to train?', resume: 'Resume workout', next: (p, d) => `Next: ${p} · ${d}`, programs: 'Programs', programsSub: (n) => `${n} programs, from day one to 5×5`,
       tools: 'Tools', plates: 'Plate calculator', platesSub: 'Which plates go on the bar', restTool: 'Rest timer', restToolSub: 'A quick rest', history: 'History and records', historySub: (n) => pl(n, '1 workout saved', `${n} workouts saved`),
       settings: 'Settings', settingsSub: 'Language, kg or lb, bar, sounds', back: 'Back',
@@ -238,6 +261,7 @@
       glassesTip: 'For floor or upside-down moves, hold the frame steady or take the glasses off.', loading: 'Loading programs…', loadError: 'The programs didn\'t load. Check your connection.', retry: 'Try again', timeUpMsg: 'time\'s up', dismiss: 'Tap to close'
     },
     fr: {
+      mine: 'Mes programmes', mineSub: (n) => pl(n, '1 programme chargé', `${n} programmes chargés`), importH: 'Charger ton programme', importSub: 'Celui de ton coach, en PDF ou en photo', importHow: (u) => `Sur ton téléphone ou ordinateur, ouvre ${u}, charge le PDF ou la photo du programme et vérifie-le. Puis tape ici le code à 6 chiffres.`, code: 'Code', load: 'Charger', fetching: 'Recherche du programme…', notFound: 'Aucun programme avec ce code. Vérifie-le et réessaie.', offline: 'Il faut une connexion pour télécharger le programme.', imported: (n) => `Programme chargé : ${n}`, del: 'Supprimer le programme', delSure: 'Touche encore pour le supprimer', howto: 'Comment faire', mistake: 'Erreur fréquente', trainerNote: 'Note du coach', superset: (g) => `Superset ${g}`, yoursTag: 'à toi', builtIn: 'Programmes prêts',
       home: 'Prêt à t\'entraîner ?', resume: 'Reprendre la séance', next: (p, d) => `Prochaine : ${p} · ${d}`, programs: 'Programmes', programsSub: (n) => `${n} programmes, du premier jour au 5×5`,
       tools: 'Outils', plates: 'Calcul des disques', platesSub: 'Quels disques mettre sur la barre', restTool: 'Minuteur de récup', restToolSub: 'Une récup rapide', history: 'Historique et records', historySub: (n) => pl(n, '1 séance enregistrée', `${n} séances enregistrées`),
       settings: 'Réglages', settingsSub: 'Langue, kg ou lb, barre, sons', back: 'Retour',
@@ -257,6 +281,7 @@
       glassesTip: 'Pour les exercices au sol ou tête en bas, tiens la monture ou enlève les lunettes.', loading: 'Chargement des programmes…', loadError: 'Les programmes ne se sont pas chargés. Vérifie la connexion.', retry: 'Réessayer', timeUpMsg: 'temps écoulé', dismiss: 'Touche pour fermer'
     },
     es: {
+      mine: 'Mis rutinas', mineSub: (n) => pl(n, '1 rutina cargada', `${n} rutinas cargadas`), importH: 'Carga tu rutina', importSub: 'La de tu entrenador, en PDF o foto', importHow: (u) => `En el móvil o el ordenador abre ${u}, sube el PDF o la foto de la rutina y revísala. Luego escribe aquí el código de 6 cifras.`, code: 'Código', load: 'Cargar', fetching: 'Buscando la rutina…', notFound: 'No hay ninguna rutina con este código. Revísalo y vuelve a intentarlo.', offline: 'Necesitas conexión para descargar la rutina.', imported: (n) => `Rutina cargada: ${n}`, del: 'Borrar la rutina', delSure: 'Toca otra vez para borrarla', howto: 'Cómo se hace', mistake: 'Error común', trainerNote: 'Nota del entrenador', superset: (g) => `Superserie ${g}`, yoursTag: 'tuya', builtIn: 'Rutinas listas',
       home: '¿Listo para entrenar?', resume: 'Seguir el entrenamiento', next: (p, d) => `Siguiente: ${p} · ${d}`, programs: 'Rutinas', programsSub: (n) => `${n} rutinas, del primer día al 5×5`,
       tools: 'Herramientas', plates: 'Calculadora de discos', platesSub: 'Qué discos pones en la barra', restTool: 'Temporizador de descanso', restToolSub: 'Un descanso rápido', history: 'Historial y récords', historySub: (n) => pl(n, '1 entrenamiento guardado', `${n} entrenamientos guardados`),
       settings: 'Ajustes', settingsSub: 'Idioma, kg o lb, barra, sonidos', back: 'Atrás',
@@ -276,6 +301,7 @@
       glassesTip: 'En ejercicios en el suelo o boca abajo, sujeta la montura o quítate las gafas.', loading: 'Cargando las rutinas…', loadError: 'Las rutinas no se han cargado. Revisa la conexión.', retry: 'Reintentar', timeUpMsg: 'se acabó el tiempo', dismiss: 'Toca para cerrar'
     },
     de: {
+      mine: 'Meine Pläne', mineSub: (n) => pl(n, '1 Plan geladen', `${n} Pläne geladen`), importH: 'Eigenen Plan laden', importSub: 'Den von deinem Trainer, als PDF oder Foto', importHow: (u) => `Öffne auf Handy oder Computer ${u}, lade das PDF oder Foto deines Plans hoch und prüf ihn. Dann gib hier den 6-stelligen Code ein.`, code: 'Code', load: 'Laden', fetching: 'Plan wird gesucht…', notFound: 'Kein Plan mit diesem Code. Prüf ihn und versuch es nochmal.', offline: 'Zum Herunterladen brauchst du eine Verbindung.', imported: (n) => `Plan geladen: ${n}`, del: 'Plan löschen', delSure: 'Nochmal tippen zum Löschen', howto: 'So geht\'s', mistake: 'Typischer Fehler', trainerNote: 'Notiz vom Trainer', superset: (g) => `Supersatz ${g}`, yoursTag: 'deiner', builtIn: 'Fertige Pläne',
       home: 'Bereit fürs Training?', resume: 'Training fortsetzen', next: (p, d) => `Als Nächstes: ${p} · ${d}`, programs: 'Trainingspläne', programsSub: (n) => `${n} Pläne, vom ersten Tag bis 5×5`,
       tools: 'Werkzeuge', plates: 'Scheibenrechner', platesSub: 'Welche Scheiben auf die Stange kommen', restTool: 'Pausentimer', restToolSub: 'Eine schnelle Pause', history: 'Verlauf und Rekorde', historySub: (n) => pl(n, '1 Training gespeichert', `${n} Trainings gespeichert`),
       settings: 'Einstellungen', settingsSub: 'Sprache, kg oder lb, Stange, Töne', back: 'Zurück',
@@ -324,6 +350,7 @@
   let nextDay = store.get('lv_next', {}) || {}; // pid -> day index
   let lastProgram = store.get('lv_last', null);
   let sess = store.get('lv_sess', null);       // allenamento in corso
+  let custom = store.get('lv_custom', []) || []; // schede caricate dall'utente
   const saveEx = () => store.set('lv_ex', ex);
   const saveSess = () => { if (sess) store.set('lv_sess', sess); else store.del('lv_sess'); };
 
@@ -367,28 +394,10 @@
   };
 
   // ---------- Figure (48×48) per schema di movimento ----------
-  const FIG = {
-    squat: '<path class="gr" d="M6 43h36"/><circle class="hd" cx="25" cy="9" r="3.6"/><path d="M24 13l-4 13 10 1-1 15"/><path d="M24 15l-6 1M24 15l5 2"/><path class="eq" d="M12 14h24"/><path class="eq" d="M12 11v6M36 11v6"/>',
-    hinge: '<path class="gr" d="M6 43h36"/><circle class="hd" cx="33" cy="13" r="3.6"/><path d="M29 16L16 23l2 9-1 10"/><path d="M26 18l-1 13"/><path class="eq" d="M14 32h22"/><circle class="eq" cx="13" cy="32" r="5"/><circle class="eq" cx="37" cy="32" r="5"/>',
-    lunge: '<path class="gr" d="M4 43h40"/><circle class="hd" cx="24" cy="8" r="3.6"/><path d="M24 12v14l9 3v13M24 26l-7 9-8 6"/><path d="M24 15l-4 11M24 15l4 11"/><path class="eq" d="M18 27h4M26 27h4"/>',
-    bench: '<path class="gr" d="M8 33h32M12 33v9M36 33v9"/><circle class="hd" cx="37" cy="28" r="3.4"/><path d="M33 30H18l-6 5v7"/><path d="M28 30V18M22 30V18"/><path class="eq" d="M14 17h22"/><path class="eq" d="M14 13v8M36 13v8"/>',
-    pushup: '<path class="gr" d="M4 41h40"/><circle class="hd" cx="38" cy="24" r="3.4"/><path d="M35 27L9 37"/><path d="M31 28l1 13"/><path d="M9 37l-2 4"/>',
-    press: '<path class="gr" d="M8 43h32"/><circle class="hd" cx="24" cy="15" r="3.6"/><path d="M24 19v13l-4 10M24 32l4 10"/><path d="M24 21l-6-6V8M24 21l6-6V8"/><path class="eq" d="M10 7h28"/><path class="eq" d="M10 3v8M38 3v8"/>',
-    pullup: '<path class="eq" d="M6 6h36"/><path d="M17 6l4 9M31 6l-4 9"/><circle class="hd" cx="24" cy="14" r="3.4"/><path d="M24 18v12l-3 6 4 4M24 30l3 6-3 4"/>',
-    row: '<path class="gr" d="M6 43h36"/><circle class="hd" cx="33" cy="13" r="3.6"/><path d="M29 16L16 22l3 9-1 11"/><path d="M26 18l-3 7 4 2"/><path class="eq" d="M16 27h20"/><circle class="eq" cx="15" cy="27" r="4"/><circle class="eq" cx="37" cy="27" r="4"/>',
-    curl: '<path class="gr" d="M8 43h32"/><circle class="hd" cx="24" cy="8" r="3.6"/><path d="M24 12v15l-4 15M24 27l4 15"/><path d="M24 15l-3 9-5-8M24 15l3 10"/><path class="eq" d="M13 15h6M25 26h6"/>',
-    triceps: '<path class="gr" d="M8 43h28M40 4v40"/><circle class="hd" cx="22" cy="9" r="3.6"/><path d="M22 13v15l-4 14M22 28l4 14"/><path d="M22 16l-2 8 3 6M22 16l3 8-1 6"/><path class="eq" d="M40 6L23 30"/>',
-    raise: '<path class="gr" d="M8 43h32"/><circle class="hd" cx="24" cy="9" r="3.6"/><path d="M24 13v15l-4 14M24 28l4 14"/><path d="M24 16H12M24 16h12"/><path class="eq" d="M9 13v6M39 13v6"/>',
-    plank: '<path class="gr" d="M4 40h40"/><circle class="hd" cx="38" cy="27" r="3.4"/><path d="M35 29L9 36"/><path d="M33 30l-1 9h6"/><path d="M9 36l-2 3"/>',
-    crunch: '<path class="gr" d="M4 41h40"/><circle class="hd" cx="12" cy="29" r="3.4"/><path d="M15 31l10 7 7-11 6 13"/><path d="M14 27l-3-4"/>',
-    bridge: '<path class="gr" d="M4 41h40"/><circle class="hd" cx="8" cy="37" r="3.4"/><path d="M12 38l14-9 8 2 3 9"/><path d="M14 38l-1 3"/>',
-    calf: '<path class="eq" d="M15 38h18v5H15z"/><circle class="hd" cx="24" cy="6" r="3.4"/><path d="M24 10v14l-1 12 2 2M24 24l1 12 2 2"/><path d="M24 13l-4 10M24 13l4 10"/>',
-    jump: '<circle class="hd" cx="24" cy="7" r="3.6"/><path d="M24 11v14l-8 13M24 25l8 13"/><path d="M24 14L14 5M24 14l10-9"/><path class="gr" d="M12 43h6M30 43h6"/>',
-    stretch: '<path class="gr" d="M4 43h40"/><circle class="hd" cx="21" cy="8" r="3.6"/><path d="M21 12v14l10 3 1 13M21 26l-6 13-8 3"/><path d="M21 15l5-11M21 15l-4 9"/>',
-    machine: '<path class="eq" d="M34 6h8v36h-8zM34 14h8M34 22h8M34 30h8"/><path class="gr" d="M8 30h16M8 30L6 12"/><circle class="hd" cx="12" cy="10" r="3.4"/><path d="M12 14l2 15 10-1 3 11M13 18l12 3"/>',
-    dip: '<path class="eq" d="M10 20h28M12 20v24M36 20v24"/><circle class="hd" cx="24" cy="11" r="3.4"/><path d="M24 15v14l5 6-4 6"/><path d="M24 17l-6 3M24 17l6 3"/>'
-  };
-  const fig = (pat) => `<svg class="fig" viewBox="0 0 48 48" aria-hidden="true">${FIG[pat] || FIG.squat}</svg>`;
+  const FIGS = /*FIGS*/null;
+  const THUMB0 = new Set(['hinge', 'bench', 'pushup', 'plank', 'stretch']);
+  const fig = (pat) => { const f = FIGS[pat] || FIGS.squat; return `<svg class="fig" viewBox="0 0 48 48" aria-hidden="true">${f[THUMB0.has(pat) ? 0 : 1]}</svg>`; };
+  const figAnim = (pat) => { const f = FIGS[pat] || FIGS.squat; return `<svg class="fig anim" viewBox="0 0 48 48" aria-hidden="true"><g class="p0">${f[0]}</g><g class="p1">${f[1]}</g></svg>`; };
   const P = {
     back: '<path d="M15 5l-7 7 7 7"/>', play: '<path d="M7 4l13 8-13 8z" fill="currentColor" stroke="none"/>', check: '<path d="M4 12.5l5 5L20 6.5"/>',
     list: '<path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01" stroke-width="2.6"/>', plate: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/>',
@@ -427,7 +436,30 @@
   };
 
   // ---------- Dati ----------
-  const D = { st: 'idle', ex: null, programs: null, i18n: {} };
+  const D = { st: 'idle', ex: null, programs: null, builtin: null, i18n: {}, cx: {} };
+  const slug = (s) => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 30) || 'x';
+  const allL = (v) => ({ it: v, en: v, fr: v, es: v, de: v });
+  // Una scheda arrivata dal telefono diventa una scheda come le altre; gli esercizi fuori libreria si registrano a parte.
+  function fromImport(code, prg) {
+    const cx = {};
+    const days = prg.days.map((d) => ({ n: allL(d.name), items: d.items.map((it) => {
+      let id = it.ex;
+      if (!id) { id = 'x-' + slug(it.name); cx[id] = { id, pat: it.pattern, eq: it.equipment, kind: it.kind, uni: false, mus: [], n: it.name }; }
+      const o = { ex: id, sets: it.sets, rest: it.rest_seconds };
+      if (it.kind === 'time') o.sec = it.seconds; else o.reps = [it.reps_min, it.reps_max];
+      if (it.name && it.ex) o.label = it.name;
+      if (it.note) o.note = it.note;
+      if (it.superset) o.group = it.superset;
+      if (it.weight_kg) o.w = { v: it.weight_kg, u: 'kg' };
+      return o;
+    }) }));
+    return { id: 'c' + code, custom: true, type: 'sets', level: 1, perWeek: prg.per_week || days.length, prog: { rule: 'double', inc: 2.5 }, name: allL(prg.name), intro: allL(prg.notes || ''), days, cx, at: Date.now() };
+  }
+  function refreshPrograms() {
+    if (!D.builtin) return;
+    custom.forEach((p) => Object.values(p.cx || {}).forEach((x) => { if (!D.byId.has(x.id)) D.byId.set(x.id, x); }));
+    D.programs = custom.concat(D.builtin);
+  }
   function fetchJSON(url, ms) {
     const ctl = typeof AbortController === 'function' ? new AbortController() : null;
     const tm = setTimeout(() => ctl && ctl.abort(), ms || 12000);
@@ -439,17 +471,19 @@
     if (coreP) return coreP;
     D.st = 'loading';
     coreP = Promise.all([D.ex ? D.ex : fetchJSON('data/exercises.json'), D.programs ? D.programs : fetchJSON('data/programs.json'), D.i18n[lang] ? D.i18n[lang] : fetchJSON(`data/${lang}.json`)]).then(([e, p, i]) => {
-      D.ex = e; D.programs = p; D.i18n[lang] = i; D.byId = new Map(e.map((x) => [x.id, x])); D.st = 'ok'; coreP = null;
+      D.ex = e; D.builtin = p; D.i18n[lang] = i; D.byId = new Map(e.map((x) => [x.id, x])); D.st = 'ok'; coreP = null;
+      refreshPrograms();
     }, (er) => { D.st = 'error'; coreP = null; throw er; });
     return coreP;
   }
-  const exI = (id) => (D.i18n[lang] && D.i18n[lang][id]) || { n: id, al: [], cues: ['', ''], err: '' };
+  const exI = (id) => (D.i18n[lang] && D.i18n[lang][id]) || (D.byId && D.byId.get(id) && D.byId.get(id).n ? { n: D.byId.get(id).n, al: [], cues: [], err: '' } : { n: id, al: [], cues: [], err: '' });
+  const nameOf = (s) => s.label || exI(s.ex).n;
   const exB = (id) => D.byId.get(id);
   const prog = (id) => D.programs.find((p) => p.id === id);
   const pName = (p) => p.name[lang] || p.name.en;
 
   // ---------- Navigazione ----------
-  const SCREENS = ['home', 'programs', 'program', 'day', 'set', 'rest', 'interval', 'done', 'plates', 'resttool', 'history', 'settings', 'welcome'];
+  const SCREENS = ['home', 'programs', 'program', 'day', 'set', 'rest', 'interval', 'done', 'plates', 'resttool', 'history', 'settings', 'welcome', 'howto', 'import'];
   let stack = [{ s: 'home' }];
   let pushed = false, expectPop = false;
   const cur = () => stack[stack.length - 1];
@@ -562,22 +596,50 @@
   function buildPlan(p, dayIdx) {
     const day = p.days[dayIdx];
     const plan = [];
-    day.items.forEach((it, ei) => {
-      const b = exB(it.ex);
-      const w = workingW(it.ex);
-      const goal = goalOf(it.ex, it);
-      if (it.warm && b.eq === 'barbell' && w > barW() * 1.4) {
-        const step = STEP.barbell[unit];
-        const ws = [[0.4, 8], [0.6, 5], [0.8, 3]].map(([f, r]) => [Math.max(barW(), roundTo(w * f, step)), r]).filter((x, i, a) => !i || x[0] !== a[i - 1][0]);
-        ws.forEach(([wv, r], k) => plan.push({ ex: it.ex, ei, warm: true, n: k + 1, of: ws.length, reps: r, goal: r, w: wv, rest: 60 }));
+    const items = day.items;
+    for (let ei = 0; ei < items.length;) {
+      const it = items[ei];
+      // superserie: esercizi consecutivi con la stessa lettera si alternano, recupero solo a fine giro
+      let end = ei + 1;
+      if (it.group) while (end < items.length && items[end].group === it.group) end++;
+      const grp = [];
+      for (let k = ei; k < end; k++) grp.push(k);
+      if (grp.length === 1) {
+        const b = exB(it.ex);
+        const w = workingW(it.ex);
+        if (it.warm && b.eq === 'barbell' && w > barW() * 1.4) {
+          const step = STEP.barbell[unit];
+          const ws = [[0.4, 8], [0.6, 5], [0.8, 3]].map(([f, r]) => [Math.max(barW(), roundTo(w * f, step)), r]).filter((x, i, a) => !i || x[0] !== a[i - 1][0]);
+          ws.forEach(([wv, r], k) => plan.push({ ex: it.ex, ei, warm: true, n: k + 1, of: ws.length, reps: r, goal: r, w: wv, rest: 60, label: it.label }));
+        }
+        for (let n = 1; n <= it.sets; n++) plan.push({ ex: it.ex, ei, n, of: it.sets, reps: it.reps || null, goal: goalOf(it.ex, it), sec: it.sec || null, w, rest: it.rest, label: it.label, note: it.note });
+      } else {
+        const maxSets = Math.max(...grp.map((k) => items[k].sets));
+        for (let n = 1; n <= maxSets; n++) {
+          const round = grp.filter((k) => items[k].sets >= n);
+          round.forEach((k, ri) => {
+            const x = items[k];
+            plan.push({ ex: x.ex, ei: k, n, of: x.sets, reps: x.reps || null, goal: goalOf(x.ex, x), sec: x.sec || null, w: workingW(x.ex), rest: ri === round.length - 1 ? Math.max(...round.map((q) => items[q].rest || 0)) : 0, label: x.label, note: x.note, ss: it.group });
+          });
+        }
       }
-      for (let n = 1; n <= it.sets; n++) plan.push({ ex: it.ex, ei, n, of: it.sets, reps: it.reps || null, goal, sec: it.sec || null, w, rest: it.rest });
-    });
+      ei = end;
+    }
     return plan;
+  }
+  // I pesi scritti dal trainer valgono finché l'utente non ne ha di suoi.
+  function seedWeights(p, dayIdx) {
+    p.days[dayIdx].items.forEach((it) => {
+      if (!it.w) return;
+      const b = exB(it.ex); if (!b || b.kind !== 'load') return;
+      const s = exState(it.ex);
+      if (s.fresh) { s.w = { v: it.w.v, u: it.w.u }; delete s.fresh; }
+    });
   }
   function startWorkout(pid, dayIdx) {
     const p = prog(pid);
     if (p.type === 'interval') { sess = { pid, day: 0, start: Date.now(), type: 'interval', pos: 0, sets: [] }; saveSess(); stack = [stack[0]]; go({ s: 'interval' }); startInterval(); return; }
+    seedWeights(p, dayIdx);
     sess = { pid, day: dayIdx, start: Date.now(), type: 'sets', plan: buildPlan(p, dayIdx), pos: 0, sets: [] };
     saveEx(); saveSess();
     lastProgram = pid; store.set('lv_last', pid);
@@ -591,7 +653,7 @@
     const min = b.eq === 'barbell' ? barW() : 0;
     const nw = Math.max(min, Math.round((s.w + delta * step) * 100) / 100);
     // il nuovo peso vale anche per le serie successive dello stesso esercizio (non per il riscaldamento)
-    for (let i = sess.pos; i < sess.plan.length; i++) { const x = sess.plan[i]; if (x.ex === s.ex && x.ei === s.ei && (x.warm === s.warm)) x.w = nw; }
+    for (let i = sess.pos; i < sess.plan.length; i++) { const x = sess.plan[i]; if (x.ex === s.ex && x.ei === s.ei && (!!x.warm === !!s.warm)) x.w = nw; }
     if (!s.warm) { exState(s.ex).w = { v: nw, u: unit }; saveEx(); }
     saveSess();
   }
@@ -610,7 +672,7 @@
   }
   function skipExercise() {
     const s = curSet(); if (!s) return;
-    while (sess.pos < sess.plan.length && sess.plan[sess.pos].ex === s.ex && sess.plan[sess.pos].ei === s.ei) sess.pos++;
+    sess.plan = sess.plan.filter((x, i) => i < sess.pos || x.ei !== s.ei);
     saveSess();
     if (sess.pos >= sess.plan.length) finishWorkout(); else replaceTop({ s: 'set' });
   }
@@ -744,7 +806,8 @@
       <h1 class="hero">${esc(L.home)}</h1>
       ${sess ? btn('resume', esc(L.resume), esc(pName(prog(sess.pid))), 'primary go', 'play') : ''}
       ${!sess && lp ? btn('next', esc(L.next(pName(lp), lp.type === 'sets' ? lp.days[nd].n[lang] : L.interval)), esc(lp.type === 'sets' ? L.exN(lp.days[nd].items.length) : ''), 'primary', 'play') : ''}
-      ${btn('go-programs', esc(L.programs), esc(L.programsSub(D.programs.length)), '', 'list')}
+      ${btn('go-programs', esc(L.programs), esc(L.programsSub(D.builtin.length)), '', 'list')}
+      ${custom.length ? '' : btn('go-import', esc(L.importH), esc(L.importSub), '', 'list')}
       <h2>${esc(L.tools)}</h2>
       ${btn('go-plates', esc(L.plates), esc(L.platesSub), '', 'plate')}
       ${btn('go-rest', esc(L.restTool), esc(L.restToolSub), '', 'clock')}
@@ -754,6 +817,7 @@
     if (sess) on('resume', () => { go({ s: sess.type === 'interval' ? 'interval' : workTimer() ? 'rest' : 'set' }); if (sess.type === 'interval' && !workTimer()) startInterval(); });
     if (lp) on('next', () => (lp.type === 'sets' ? go({ s: 'day', pid: lp.id, d: nd }) : go({ s: 'program', pid: lp.id })));
     on('go-programs', () => go({ s: 'programs' }));
+    on('go-import', () => go({ s: 'import' }));
     on('go-plates', () => go({ s: 'plates', w: Math.max(barW(), unit === 'kg' ? 60 : 135) }));
     on('go-rest', () => go({ s: 'resttool' }));
     on('go-history', () => go({ s: 'history' }));
@@ -764,28 +828,42 @@
     if (p.type !== 'interval') return null;
     return Math.round(intervalSteps(p).reduce((a, s) => a + s.sec, 0) / 60);
   }
+  function progRow(p) {
+    const L = t();
+    const first = p.type === 'sets' ? p.days[0].items[0].ex : (p.blocks ? p.blocks[0][0] : p.circuit[0]);
+    const meta = p.type === 'sets' ? `<span>${esc(L.perWeek(p.perWeek))}</span><span>${esc(L.days(p.days.length))}</span>` : `<span>${esc(L.interval)}</span><span>${esc(L.minutes(progMinutes(p)))}</span>`;
+    return `<button type="button" id="p-${p.id}"><span class="row-pict">${fig((exB(first) || {}).pat)}</span><span class="grow">${esc(pName(p))}<span class="rm">${p.custom ? `<span class="yours">${esc(L.yoursTag)}</span>` : `${pips(p.level)}<span>${esc(L.levels[p.level - 1])}</span>`}${meta}</span></span></button>`;
+  }
   function renderPrograms() {
     const L = t();
     if (!coreReady()) return null;
-    $content.innerHTML = `<h1>${esc(L.programs)}</h1>` + D.programs.map((p) => {
-      const first = p.type === 'sets' ? p.days[0].items[0].ex : (p.blocks ? p.blocks[0][0] : p.circuit[0]);
-      const meta = p.type === 'sets' ? `<span>${esc(L.perWeek(p.perWeek))}</span><span>${esc(L.days(p.days.length))}</span>` : `<span>${esc(L.interval)}</span><span>${esc(L.minutes(progMinutes(p)))}</span>`;
-      return `<button type="button" id="p-${p.id}"><span class="row-pict">${fig(exB(first).pat)}</span><span class="grow">${esc(pName(p))}<span class="rm">${pips(p.level)}<span>${esc(L.levels[p.level - 1])}</span>${meta}</span></span></button>`;
-    }).join('');
+    const mine = D.programs.filter((p) => p.custom), built = D.programs.filter((p) => !p.custom);
+    $content.innerHTML = `<h1>${esc(L.programs)}</h1>
+      <h2>${esc(L.mine)}</h2>${mine.map(progRow).join('')}${btn('go-import', esc(L.importH), esc(L.importSub), '', 'list')}
+      <h2>${esc(L.builtIn)}</h2>${built.map(progRow).join('')}`;
     D.programs.forEach((p) => on('p-' + p.id, () => go({ s: 'program', pid: p.id })));
+    on('go-import', () => go({ s: 'import' }));
     footerBack();
-    return 'p-' + D.programs[0].id;
+    return mine.length ? 'p-' + mine[0].id : 'p-' + built[0].id;
   }
   function renderProgram() {
     const L = t(), e = cur();
     if (!coreReady()) return null;
     const p = prog(e.pid);
-    let body = `<h1>${esc(pName(p))}</h1><p class="intro">${esc(p.intro[lang])}</p>`;
+    if (!p) { goHome(); return null; }
+    let body = `<h1>${esc(pName(p))}</h1>${p.intro[lang] ? `<p class="intro">${esc(p.intro[lang])}</p>` : ''}`;
     if (p.type === 'sets') {
       const nd = (nextDay[p.id] || 0) % p.days.length;
-      body += p.days.map((d, i) => btn('d-' + i, esc(d.n[lang]), esc(d.items.map((it) => exI(it.ex).n).join(', ')), i === nd ? 'primary' : '', 'list')).join('');
+      body += p.days.map((d, i) => btn('d-' + i, esc(d.n[lang]), esc(d.items.map((it) => it.label || exI(it.ex).n).join(', ')), i === nd ? 'primary' : '', 'list')).join('');
+      if (p.custom) body += btn('del', esc(e.sure ? L.delSure : L.del), '', 'stop mini', 'alert');
       $content.innerHTML = body;
       p.days.forEach((_, i) => on('d-' + i, () => go({ s: 'day', pid: p.id, d: i })));
+      on('del', () => {
+        if (!e.sure) { e.sure = 1; render('del'); return; }
+        custom = custom.filter((x) => x.id !== p.id); store.set('lv_custom', custom); refreshPrograms();
+        if (lastProgram === p.id) { lastProgram = null; store.del('lv_last'); }
+        goBack();
+      });
       footerBack();
       return 'd-' + nd;
     }
@@ -799,14 +877,16 @@
   function renderDay() {
     const L = t(), e = cur();
     if (!coreReady()) return null;
-    const p = prog(e.pid), day = p.days[e.d];
+    const p = prog(e.pid);
+    if (!p || !p.days[e.d]) { goHome(); return null; }
+    const day = p.days[e.d];
     let fresh = false;
     const rows = day.items.map((it) => {
       const b = exB(it.ex), s = exState(it.ex);
-      if (s.fresh) fresh = true;
-      const w = workingW(it.ex);
+      if (s.fresh && !it.w) fresh = true;
+      const w = b.kind === 'load' ? (s.fresh && it.w ? inUnit(it.w, b.eq) : workingW(it.ex)) : null;
       const goal = goalOf(it.ex, it);
-      return `<div class="list-row"><span>${esc(exI(it.ex).n)}</span><b>${esc(L.setsReps(it.sets, it.sec ? L.sec(it.sec) : goal != null && it.reps[0] !== it.reps[1] ? goal : repsTxt(it)))}${w != null ? ' · ' + esc(fmtW(w)) : ''}</b></div>`;
+      return `<div class="list-row"><span>${it.group ? `<span class="ssbadge">${esc(it.group)}</span> ` : ''}${esc(it.label || exI(it.ex).n)}</span><b>${esc(L.setsReps(it.sets, it.sec ? L.sec(it.sec) : goal != null && it.reps[0] !== it.reps[1] ? goal : repsTxt(it)))}${w != null ? ' · ' + esc(fmtW(w)) : ''}</b></div>`;
     }).join('');
     $content.innerHTML = `<h1>${esc(day.n[lang])}</h1><p class="meta">${esc(pName(p))}</p>${rows}${fresh ? `<p class="hint">${esc(L.firstTime)}</p>` : ''}`;
     footerBack(`<button type="button" id="start" class="primary go">${icon('play')}<span>${esc(L.startDay(day.n[lang]))}</span></button>`);
@@ -822,6 +902,7 @@
     if (!s) { finishWorkout(); return null; }
     const b = exB(s.ex), x = exI(s.ex);
     const p = prog(sess.pid), day = p.days[sess.day];
+    const cueTxt = s.note || (x.cues && x.cues[(s.n - 1) % 2]) || '';
     const ht = workTimer();
     const holding = ht && ht.kind === 'hold';
     const dots = Array.from({ length: s.of }, (_, i) => `<i class="${i + 1 < s.n ? 'on' : i + 1 === s.n ? 'cur' : ''}"></i>`).join('');
@@ -840,12 +921,12 @@
     }
     const steppers = s.sec ? '' : `<div class="steppers${s.w == null ? ' two' : ''}">${s.w != null ? `<button type="button" id="w-" aria-label="${esc(L.weight)} −">− ${esc(fmtNum((STEP[b.eq] || STEP.barbell)[unit]))}</button><button type="button" id="w+" aria-label="${esc(L.weight)} +">+ ${esc(fmtNum((STEP[b.eq] || STEP.barbell)[unit]))}</button>` : ''}<button type="button" id="r-" aria-label="${esc(L.reps)} −">− 1</button><button type="button" id="r+" aria-label="${esc(L.reps)} +">+ 1</button></div>`;
     $content.innerHTML = `
-      <div class="set-h"><span class="${s.warm ? 'warm' : ''}">${esc(s.warm ? L.warmup + ' · ' + s.n + '/' + s.of : L.setOf(s.n, s.of))}</span><span>${esc(L.exOf(s.ei + 1, day.items.length))}</span></div>
+      <div class="set-h"><span class="${s.warm ? 'warm' : ''}">${esc(s.warm ? L.warmup + ' · ' + s.n + '/' + s.of : L.setOf(s.n, s.of))}${s.ss ? ` · <span class="ssbadge">${esc(L.superset(s.ss))}</span>` : ''}</span><span>${esc(L.exOf(s.ei + 1, day.items.length))}</span></div>
       <div class="dots" aria-hidden="true">${dots}</div>
-      <div class="exname">${fig(b.pat)}<h1>${esc(x.n)}</h1></div>
-      <p class="cue">${esc(x.cues[(s.n - 1) % 2] || '')}</p>
+      <div class="exname">${fig(b.pat)}<h1>${esc(nameOf(s))}</h1></div>
+      ${cueTxt ? `<p class="cue">${esc(cueTxt)}</p>` : ''}
       ${nums}${plates}${steppers}
-      ${btn('skip-ex', esc(L.skipEx), '', 'mini', 'skip')}`;
+      <div class="row-btns">${btn('howto', esc(L.howto), '', 'mini', 'play')}${btn('skip-ex', esc(L.skipEx), '', 'mini', 'skip')}</div>`;
     const primaryLbl = s.sec ? (holding ? L.pauseT : L.startHold(L.sec(s.sec))) : L.logSet(s.goal, s.w != null ? fmtW(s.w) : '');
     footerBack(`<button type="button" id="log" class="primary go">${icon(s.sec && !holding ? 'play' : 'check')}<span>${esc(primaryLbl)}</span></button>`);
     on('back', () => goHome());
@@ -854,11 +935,12 @@
     on('r-', () => { adjustReps(-1); render('r-'); });
     on('r+', () => { adjustReps(1); render('r+'); });
     on('skip-ex', () => skipExercise());
+    on('howto', () => go({ s: 'howto', ex: s.ex, label: s.label || null, note: s.note || null }));
     on('log', () => {
       if (!s.sec) return logSet();
       if (holding) { ht.paused = !ht.paused; if (!ht.paused) ht.endsAt = Date.now() + ht.remaining * 1000; render('log'); return; }
       const old = workTimer(); if (old) removeTimer(old);
-      startTimer(s.sec, x.n, 'hold', () => { logSet(s.sec); });
+      startTimer(s.sec, nameOf(s), 'hold', () => { logSet(s.sec); });
       render('log');
     });
     fit();
@@ -877,7 +959,7 @@
     const plates = b.eq === 'barbell' && s.w != null ? platesFor(s.w).out : null;
     $content.innerHTML = `<h1>${esc(L.rest)}</h1>
       <div class="rest-wrap">${ringSvg(tm)}
-      <div class="next-card"><span class="meta">${esc(L.nextUp)}</span><b>${esc(exI(s.ex).n)}</b><span class="meta">${esc(s.warm ? L.warmup : L.setOf(s.n, s.of))}</span><div class="w">${esc(nextTxt)}</div>${plates && plates.length ? `<span class="meta">${esc(platesText(plates))} ${esc(L.perSide)}</span>` : ''}</div></div>`;
+      <div class="next-card"><span class="meta">${esc(L.nextUp)}</span><b>${esc(nameOf(s))}</b><span class="meta">${esc(s.warm ? L.warmup : L.setOf(s.n, s.of))}</span><div class="w">${esc(nextTxt)}</div>${plates && plates.length ? `<span class="meta">${esc(platesText(plates))} ${esc(L.perSide)}</span>` : ''}</div></div>`;
     footerBack(`<button type="button" id="add30">${esc(L.add30)}</button><button type="button" id="skiprest" class="primary">${icon('skip')}<span>${esc(L.skipRest)}</span></button>`);
     on('back', () => goHome());
     on('add30', () => { addRest(30); updateLive(); });
@@ -923,6 +1005,61 @@
     on('iskip', () => { intervalSkip(); render('iskip'); });
     fit();
     return 'iskip';
+  }
+
+  function renderHowto() {
+    const L = t(), e = cur();
+    if (!coreReady()) return null;
+    const b = exB(e.ex), x = exI(e.ex);
+    const cues = (x.cues || []).filter(Boolean);
+    $content.innerHTML = `<h1>${esc(e.label || x.n)}</h1>
+      <div class="howto">${figAnim(b.pat)}<div>${cues.length ? `<ol>${cues.map((c) => `<li>${esc(c)}</li>`).join('')}</ol>` : ''}</div></div>
+      ${x.err ? `<div class="mistake"><b>${esc(L.mistake)}</b>${esc(x.err)}</div>` : ''}
+      ${e.note ? `<div class="trainer"><b>${esc(L.trainerNote)}</b>${esc(e.note)}</div>` : ''}`;
+    footerBack();
+    return 'back';
+  }
+  const SITE = 'liftview.vercel.app/carica';
+  function renderImport() {
+    const L = t(), e = cur();
+    e.code = e.code || '';
+    const boxes = Array.from({ length: 6 }, (_, i) => `<span class="${i === e.code.length ? 'on' : ''}">${esc(e.code[i] || '')}</span>`).join('');
+    const keys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'del', '0', 'ok'];
+    $content.innerHTML = `<h1>${esc(L.importH)}</h1><p class="meta">${esc(L.importHow(SITE))}</p>
+      <div class="codebox" aria-label="${esc(L.code)}">${boxes}</div>
+      ${e.msg ? `<p class="hint" role="status">${esc(e.msg)}</p>` : ''}
+      <div class="keypad">${keys.map((k) => `<button type="button" id="k-${k}"${k === 'ok' ? ' class="go"' : ''}>${k === 'del' ? '⌫' : k === 'ok' ? '✓' : k}</button>`).join('')}</div>`;
+    keys.forEach((k) => on('k-' + k, () => {
+      if (k === 'del') e.code = e.code.slice(0, -1);
+      else if (k === 'ok') { if (e.code.length === 6) { importCode(e.code); return; } }
+      else if (e.code.length < 6) e.code += k;
+      delete e.msg; saveStack();
+      render(e.code.length === 6 ? 'k-ok' : 'k-' + k);
+    }));
+    footerBack();
+    return e.code.length === 6 ? 'k-ok' : 'k-1';
+  }
+  async function importCode(code) {
+    const L = t(), e = cur();
+    if (e.s === 'import') { e.msg = L.fetching; render('k-ok'); }
+    try {
+      const r = await fetch('api/scheda?code=' + encodeURIComponent(code));
+      if (r.status === 404 || r.status === 400) throw new Error('nf');
+      if (!r.ok) throw new Error('off');
+      const data = await r.json();
+      await loadCore();
+      const p = fromImport(code, data.program);
+      custom = [p].concat(custom.filter((x) => x.id !== p.id)).slice(0, 20);
+      store.set('lv_custom', custom);
+      refreshPrograms();
+      toast(L.imported(pName(p)));
+      stack = [stack[0]]; go({ s: 'program', pid: p.id });
+      return { ok: true, name: pName(p), days: p.days.map((d) => d.n[lang]) };
+    } catch (er) {
+      const msg = er.message === 'nf' ? L.notFound : L.offline;
+      if (cur().s === 'import') { cur().msg = msg; render('k-ok'); }
+      return { ok: false, error: er.message === 'nf' ? 'not_found' : 'offline' };
+    }
   }
 
   function renderDone() {
@@ -971,7 +1108,7 @@
     const L = t();
     if (!coreReady()) return null;
     const prMap = store.get('lv_pr', {}) || {};
-    const prs = Object.entries(prMap).filter(([id]) => D.byId.has(id)).sort((a, b) => (b[1].at || 0) - (a[1].at || 0)).slice(0, 20);
+    const prs = Object.entries(prMap).filter(([id]) => D.byId.has(id) && D.byId.get(id).kind).sort((a, b) => (b[1].at || 0) - (a[1].at || 0)).slice(0, 20);
     const dfmt = (ts) => { try { return new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'short' }).format(new Date(ts)); } catch (e) { return ''; } };
     $content.innerHTML = `<h1>${esc(L.history)}</h1>${!logs.length ? `<p class="hint">${esc(L.noHistory)}</p>` : ''}
       ${prs.length ? `<h2>${icon('star')}${esc(L.records)}</h2>` + prs.map(([id, v]) => `<div class="list-row gold"><span>${esc(exI(id).n)}</span><b>${v.w ? esc(fmtW(inUnit(v.w, exB(id).eq))) + ' × ' + v.r + ` · 1RM ≈ ${esc(fmtW(inUnit({ v: v.e, u: 'kg' }, 'barbell')))}` : '×' + v.r}</b></div>`).join('') : ''}
@@ -995,8 +1132,8 @@
     on('beep', () => { beepOn = !beepOn; store.set('lv_beep', beepOn); if (beepOn) beep(true); render('beep'); });
     on('erase', () => {
       if (!e.sure) { e.sure = 1; render('erase'); return; }
-      ['lv_ex', 'lv_logs', 'lv_next', 'lv_last', 'lv_sess', 'lv_pr'].forEach((k) => store.del(k));
-      ex = {}; logs = []; nextDay = {}; lastProgram = null; sess = null;
+      ['lv_ex', 'lv_logs', 'lv_next', 'lv_last', 'lv_sess', 'lv_pr', 'lv_custom'].forEach((k) => store.del(k));
+      ex = {}; logs = []; nextDay = {}; lastProgram = null; sess = null; custom = []; refreshPrograms();
       toast(L.erased); goHome();
     });
     footerBack();
@@ -1022,6 +1159,8 @@
       case 'rest': primary = restScreen(); break;
       case 'interval': primary = intervalScreen(); break;
       case 'done': primary = renderDone(); break;
+      case 'howto': primary = renderHowto(); break;
+      case 'import': primary = renderImport(); break;
       case 'plates': primary = renderPlates(); break;
       case 'resttool': primary = renderRestTool(); break;
       case 'history': primary = renderHistory(); break;
@@ -1079,6 +1218,11 @@
         startWorkout(p.id, d);
         return { ...status(), next_action: 'The first set is on screen. Say the exercise and weight in one short sentence. Stop.' };
       }
+    });
+    reg({
+      name: 'program_import', description: 'Loads the user\'s own workout program (for example from their personal trainer) using the 6-digit code shown on liftview.vercel.app/carica after they uploaded a PDF or photo there.',
+      inputSchema: { type: 'object', properties: { code: { type: 'string', description: '6 digits' } }, required: ['code'] },
+      async execute(input) { const c = String((input && input.code) || '').replace(/\D/g, ''); if (c.length !== 6) return { error: 'bad_code', next_action: 'Ask for the 6-digit code. Stop.' }; const r = await importCode(c); return { ...r, next_action: r.ok ? 'Say the program is loaded, in one sentence. Stop.' : 'Say the code was not found or there is no connection. Stop.' }; }
     });
     reg({ name: 'workout_status', description: 'Tells what the user is doing now: exercise, set, weight, target reps, rest time left.', annotations: { readOnlyHint: true }, async execute() { return { ...status(), next_action: 'Answer in one short sentence.' }; } });
     reg({

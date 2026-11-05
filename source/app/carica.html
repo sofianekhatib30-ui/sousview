@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Carica la scheda del tuo personal trainer su LiftView: PDF, foto o testo. La trovi sugli occhiali con un codice.">
+<meta name="theme-color" content="#000000">
+<title>LiftView · Carica la tua scheda</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  :root {
+    --bg: #07090B; --card: #11151A; --line: #262D35; --ink: #F4F6F8; --quiet: #9AA3AD;
+    --blue: #4DA3FF; --red: #FF4D5A; --gold: #FFC93C; --green: #4FD18B;
+    --wide: 'Archivo', 'Arial Black', system-ui, sans-serif;
+    --sans: 'Atkinson Hyperlegible Next', 'Atkinson Hyperlegible', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color-scheme: dark;
+  }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.45; }
+  main { max-inline-size: 760px; margin: 0 auto; padding: 20px 16px 60px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-block-end: 18px; }
+  .brand { display: flex; align-items: center; gap: 8px; font-family: var(--wide); font-variation-settings: 'wdth' 118; font-weight: 900; color: var(--blue); }
+  .brand svg { inline-size: 40px; block-size: 20px; }
+  select, input, textarea, button { font: inherit; color: inherit; }
+  select, input, textarea { background: #0B0E12; border: 1.5px solid var(--line); border-radius: 10px; padding: 9px 11px; inline-size: 100%; min-inline-size: 0; }
+  select:focus, input:focus, textarea:focus { outline: 2px solid var(--blue); outline-offset: 1px; border-color: var(--blue); }
+  h1 { font-family: var(--wide); font-variation-settings: 'wdth' 112; font-weight: 850; font-size: clamp(28px, 7vw, 40px); line-height: 1.02; margin: 0 0 10px; }
+  h2 { font-family: var(--wide); font-variation-settings: 'wdth' 110; font-weight: 800; font-size: 20px; margin: 0 0 10px; }
+  p { margin: 0 0 12px; }
+  .lead { color: var(--quiet); max-inline-size: 60ch; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin-block-end: 16px; }
+  .steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 18px 0; }
+  .steps div { border-block-start: 3px solid var(--line); padding-block-start: 8px; font-size: 13px; color: var(--quiet); }
+  .steps div.on { border-color: var(--blue); color: var(--ink); }
+  .steps b { display: block; font-family: var(--wide); font-size: 15px; }
+  .drop { display: grid; place-items: center; text-align: center; gap: 6px; border: 2px dashed var(--line); border-radius: 14px; padding: 26px 14px; cursor: pointer; }
+  .drop:hover, .drop.over { border-color: var(--blue); }
+  .drop b { font-size: 17px; }
+  .drop span { color: var(--quiet); font-size: 14px; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1.5px solid var(--line); background: #161B21; border-radius: 10px; padding: 10px 16px; font-weight: 700; cursor: pointer; }
+  .btn.primary { background: var(--blue); border-color: var(--blue); color: #000; }
+  .btn.ghost { background: transparent; }
+  .btn.danger { color: var(--red); border-color: transparent; background: transparent; padding-inline: 8px; }
+  .btn:disabled { opacity: 0.5; cursor: default; }
+  .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  textarea { min-block-size: 130px; resize: vertical; }
+  .msg { border-inline-start: 3px solid var(--blue); padding: 6px 0 6px 12px; margin: 12px 0; }
+  .msg.err { border-color: var(--red); }
+  .msg.warn { border-color: var(--gold); }
+  .day { border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin-block-end: 14px; }
+  .day-h { display: flex; gap: 8px; align-items: center; margin-block-end: 10px; }
+  .day-h input { font-weight: 800; }
+  .ex { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 10px; align-items: start; padding: 10px 0; border-block-start: 1px solid var(--line); }
+  .ex:first-of-type { border-block-start: 0; }
+  .fig { inline-size: 44px; block-size: 44px; stroke: var(--ink); fill: none; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; background: #0B0E12; border-radius: 8px; }
+  .fig .eq { stroke: var(--blue); } .fig .gr { stroke: #3a434d; } .fig .hd { fill: var(--ink); stroke: none; }
+  .fields { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; margin-block-start: 8px; }
+  .fields label { font-size: 12px; color: var(--quiet); display: grid; gap: 3px; }
+  .fields input, .fields select { padding: 7px 8px; }
+  .match { font-size: 12px; margin-block-start: 4px; }
+  .match.ok { color: var(--green); }
+  .match.no { color: var(--gold); }
+  .wide2 { grid-column: span 2; }
+  .wide3 { grid-column: span 3; }
+  .wide6 { grid-column: 1 / -1; }
+  .code { font-family: var(--wide); font-variation-settings: 'wdth' 125; font-weight: 900; font-size: clamp(48px, 16vw, 80px); letter-spacing: 0.08em; color: var(--blue); font-variant-numeric: tabular-nums; margin: 6px 0 10px; }
+  ol.how { padding-inline-start: 20px; margin: 0 0 12px; }
+  ol.how li { margin-block-end: 6px; }
+  .say { font-weight: 800; color: var(--gold); }
+  .small { font-size: 13px; color: var(--quiet); }
+  .hidden { display: none !important; }
+  @media (max-width: 560px) {
+    .fields { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .wide3 { grid-column: span 4; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="brand"><svg viewBox="0 0 48 24" aria-hidden="true"><path d="M2 12h44" stroke="#F4F6F8" stroke-width="3" stroke-linecap="round"/><rect x="8" y="2" width="6" height="20" rx="1.5" fill="#FF4D5A"/><rect x="15" y="5" width="4" height="14" rx="1" fill="#4DA3FF"/><rect x="34" y="2" width="6" height="20" rx="1.5" fill="#FF4D5A"/><rect x="29" y="5" width="4" height="14" rx="1" fill="#4DA3FF"/></svg>LiftView</span>
+    <select id="lang" aria-label="Language" style="inline-size:auto"></select>
+  </header>
+  <h1 id="t-title"></h1>
+  <p class="lead" id="t-lead"></p>
+  <div class="steps"><div id="st1" class="on"><b>1</b><span id="t-s1"></span></div><div id="st2"><b>2</b><span id="t-s2"></span></div><div id="st3"><b>3</b><span id="t-s3"></span></div></div>
+
+  <section id="step1" class="card">
+    <h2 id="t-up"></h2>
+    <label class="drop" id="drop" tabindex="0">
+      <b id="t-drop"></b><span id="t-dropsub"></span>
+      <input type="file" id="file" accept="application/pdf,image/*" class="hidden">
+    </label>
+    <p class="small" style="margin-block-start:12px" id="t-or"></p>
+    <textarea id="paste"></textarea>
+    <div class="row" style="margin-block-start:12px">
+      <button class="btn primary" id="read" type="button"></button>
+      <button class="btn ghost" id="manual" type="button"></button>
+    </div>
+    <div id="msg1"></div>
+  </section>
+
+  <section id="step2" class="card hidden">
+    <h2 id="t-check"></h2>
+    <p class="small" id="t-checksub"></p>
+    <div class="fields" style="grid-template-columns:1fr">
+      <label><span id="t-pname"></span><input id="pname" maxlength="34"></label>
+      <label><span id="t-pnotes"></span><input id="pnotes" maxlength="240"></label>
+    </div>
+    <div id="days" style="margin-block-start:14px"></div>
+    <div class="row"><button class="btn ghost" id="addday" type="button"></button></div>
+    <div id="msg2"></div>
+    <div class="row" style="margin-block-start:16px"><button class="btn primary" id="send" type="button"></button><button class="btn ghost" id="restart" type="button"></button></div>
+  </section>
+
+  <section id="step3" class="card hidden">
+    <h2 id="t-done"></h2>
+    <div class="code" id="code"></div>
+    <ol class="how" id="how"></ol>
+    <p id="t-say"></p>
+    <div class="row"><button class="btn ghost" id="again" type="button"></button></div>
+  </section>
+
+  <p class="small" id="t-privacy"></p>
+  <datalist id="exlist"></datalist>
+</main>
+<script>
+(() => {
+  'use strict';
+  const LANGS = [['it', 'Italiano'], ['en', 'English'], ['fr', 'Français'], ['es', 'Español'], ['de', 'Deutsch']];
+  const T = {
+    it: { title: 'Carica la tua scheda', lead: 'La scheda del tuo personal trainer, sugli occhiali. Carica il PDF o una foto, controlla che sia giusta e ricevi un codice da scrivere su LiftView.', s1: 'Carica', s2: 'Controlla', s3: 'Codice', up: 'La tua scheda', drop: 'Scegli un PDF o una foto', dropsub: 'Anche una foto del foglio di carta va bene', or: 'Oppure incolla qui il testo della scheda:', paste: 'Es. Giorno A\nPanca piana 4x8 rec 90"\nLat machine 3x10-12 rec 1\'30"', read: 'Leggi la scheda', manual: 'Scrivila a mano', reading: 'Sto leggendo la scheda…', noKey: 'La lettura automatica non è ancora attiva. Puoi scrivere la scheda a mano qui sotto.', tooBig: 'Il file è troppo grande. Usa un PDF sotto i 4 MB o una foto.', notProg: 'Non ho trovato una scheda di allenamento in questo file. Prova con una foto più nitida o scrivila a mano.', failed: 'La lettura non è riuscita. Riprova o scrivila a mano.', needInput: 'Scegli un file o incolla il testo.',
+      check: 'Controlla la scheda', checksub: 'Correggi quello che serve. Gli esercizi riconosciuti hanno il disegno di come si fanno.', pname: 'Nome della scheda', pnotes: 'Note del trainer (facoltative)', day: 'Giornata', dayName: (n) => `Giorno ${n}`, addday: '+ Aggiungi una giornata', addex: '+ Aggiungi un esercizio', delday: 'Elimina giornata', delex: 'Elimina', exname: 'Esercizio', sets: 'Serie', repsMin: 'Rip. min', repsMax: 'Rip. max', secs: 'Secondi', rest: 'Recupero (s)', weight: 'Peso (kg)', ss: 'Superserie', note: 'Nota', kind: 'Tipo', kinds: { load: 'Con peso', bw: 'Corpo libero', time: 'A tempo' }, pattern: 'Movimento', matched: (n) => `Riconosciuto: ${n}`, unmatched: 'Esercizio nuovo: scegli il movimento più simile per il disegno', send: 'Manda agli occhiali', sending: 'Salvo la scheda…', sendFail: 'Non sono riuscito a salvare la scheda. Riprova.', empty: 'Aggiungi almeno un esercizio.', restart: 'Ricomincia',
+      done: 'Fatto! Il tuo codice', how: ['Sugli occhiali apri LiftView.', 'Vai su Schede → Carica la tua scheda.', 'Scrivi il codice e conferma.'], say: (c) => `Oppure di': «Ehi Meta, carica la scheda ${c}».`, again: 'Carica un\'altra scheda', privacy: 'Il file serve solo a leggere la scheda e non viene conservato. La scheda resta salvata con il suo codice: chi ha il codice può aprirla.',
+      pats: { squat: 'Squat', hinge: 'Stacco / hinge', lunge: 'Affondo', bench: 'Panca', pushup: 'Piegamenti', press: 'Spinta in alto', pullup: 'Trazione in alto', row: 'Rematore', curl: 'Curl', triceps: 'Tricipiti', raise: 'Alzate', plank: 'Plank', crunch: 'Addome', bridge: 'Ponte glutei', calf: 'Polpacci', jump: 'Salti', stretch: 'Stretching', machine: 'Macchina', dip: 'Dip' } },
+    en: { title: 'Load your own program', lead: 'Your personal trainer\'s program, in your glasses. Upload the PDF or a photo, check it, and get a code to type into LiftView.', s1: 'Upload', s2: 'Check', s3: 'Code', up: 'Your program', drop: 'Choose a PDF or a photo', dropsub: 'A photo of the paper sheet works too', or: 'Or paste the program text here:', paste: 'E.g. Day A\nBench press 4x8 rest 90s\nLat pulldown 3x10-12 rest 90s', read: 'Read the program', manual: 'Type it in', reading: 'Reading the program…', noKey: 'Automatic reading isn\'t switched on yet. You can type the program in below.', tooBig: 'The file is too big. Use a PDF under 4 MB or a photo.', notProg: 'I couldn\'t find a workout program in this file. Try a sharper photo or type it in.', failed: 'Reading failed. Try again or type it in.', needInput: 'Choose a file or paste the text.',
+      check: 'Check the program', checksub: 'Fix whatever needs fixing. Recognised exercises come with a drawing of how to do them.', pname: 'Program name', pnotes: 'Trainer\'s notes (optional)', day: 'Day', dayName: (n) => `Day ${n}`, addday: '+ Add a day', addex: '+ Add an exercise', delday: 'Delete day', delex: 'Delete', exname: 'Exercise', sets: 'Sets', repsMin: 'Reps min', repsMax: 'Reps max', secs: 'Seconds', rest: 'Rest (s)', weight: 'Weight (kg)', ss: 'Superset', note: 'Note', kind: 'Type', kinds: { load: 'Weighted', bw: 'Bodyweight', time: 'Timed' }, pattern: 'Movement', matched: (n) => `Recognised: ${n}`, unmatched: 'New exercise: pick the closest movement for the drawing', send: 'Send to my glasses', sending: 'Saving the program…', sendFail: 'Couldn\'t save the program. Try again.', empty: 'Add at least one exercise.', restart: 'Start over',
+      done: 'Done! Your code', how: ['Open LiftView on your glasses.', 'Go to Programs → Load your own program.', 'Type the code and confirm.'], say: (c) => `Or say: "Hey Meta, load program ${c}".`, again: 'Load another program', privacy: 'The file is only used to read the program and isn\'t kept. The program is saved with its code: anyone with the code can open it.',
+      pats: { squat: 'Squat', hinge: 'Hinge / deadlift', lunge: 'Lunge', bench: 'Bench', pushup: 'Push-up', press: 'Overhead press', pullup: 'Pull-down / pull-up', row: 'Row', curl: 'Curl', triceps: 'Triceps', raise: 'Raises', plank: 'Plank', crunch: 'Abs', bridge: 'Glute bridge', calf: 'Calves', jump: 'Jumps', stretch: 'Stretch', machine: 'Machine', dip: 'Dip' } },
+    fr: { title: 'Charge ton programme', lead: 'Le programme de ton coach, dans tes lunettes. Charge le PDF ou une photo, vérifie-le et reçois un code à taper dans LiftView.', s1: 'Charger', s2: 'Vérifier', s3: 'Code', up: 'Ton programme', drop: 'Choisis un PDF ou une photo', dropsub: 'Une photo de la feuille papier marche aussi', or: 'Ou colle ici le texte du programme :', paste: 'Ex. Séance A\nDéveloppé couché 4x8 récup 90"\nTirage vertical 3x10-12 récup 1\'30', read: 'Lire le programme', manual: 'Le saisir à la main', reading: 'Lecture du programme…', noKey: 'La lecture automatique n\'est pas encore active. Tu peux saisir le programme ci-dessous.', tooBig: 'Le fichier est trop lourd. Utilise un PDF de moins de 4 Mo ou une photo.', notProg: 'Je n\'ai pas trouvé de programme dans ce fichier. Essaie une photo plus nette ou saisis-le.', failed: 'La lecture a échoué. Réessaie ou saisis-le.', needInput: 'Choisis un fichier ou colle le texte.',
+      check: 'Vérifie le programme', checksub: 'Corrige ce qu\'il faut. Les exercices reconnus ont un dessin pour montrer le mouvement.', pname: 'Nom du programme', pnotes: 'Notes du coach (facultatif)', day: 'Séance', dayName: (n) => `Séance ${n}`, addday: '+ Ajouter une séance', addex: '+ Ajouter un exercice', delday: 'Supprimer la séance', delex: 'Supprimer', exname: 'Exercice', sets: 'Séries', repsMin: 'Reps min', repsMax: 'Reps max', secs: 'Secondes', rest: 'Récup (s)', weight: 'Charge (kg)', ss: 'Superset', note: 'Note', kind: 'Type', kinds: { load: 'Avec charge', bw: 'Poids du corps', time: 'Au chrono' }, pattern: 'Mouvement', matched: (n) => `Reconnu : ${n}`, unmatched: 'Nouvel exercice : choisis le mouvement le plus proche pour le dessin', send: 'Envoyer aux lunettes', sending: 'Enregistrement…', sendFail: 'Impossible d\'enregistrer le programme. Réessaie.', empty: 'Ajoute au moins un exercice.', restart: 'Recommencer',
+      done: 'C\'est fait ! Ton code', how: ['Ouvre LiftView sur tes lunettes.', 'Va dans Programmes → Charger ton programme.', 'Tape le code et confirme.'], say: (c) => `Ou dis : « Hey Meta, charge le programme ${c} ».`, again: 'Charger un autre programme', privacy: 'Le fichier sert seulement à lire le programme et n\'est pas conservé. Le programme est enregistré avec son code : qui a le code peut l\'ouvrir.',
+      pats: { squat: 'Squat', hinge: 'Soulevé / charnière', lunge: 'Fente', bench: 'Développé', pushup: 'Pompes', press: 'Développé au-dessus', pullup: 'Tirage vertical', row: 'Rowing', curl: 'Curl', triceps: 'Triceps', raise: 'Élévations', plank: 'Gainage', crunch: 'Abdos', bridge: 'Pont fessier', calf: 'Mollets', jump: 'Sauts', stretch: 'Étirement', machine: 'Machine', dip: 'Dips' } },
+    es: { title: 'Carga tu rutina', lead: 'La rutina de tu entrenador, en tus gafas. Sube el PDF o una foto, revísala y recibe un código para escribir en LiftView.', s1: 'Subir', s2: 'Revisar', s3: 'Código', up: 'Tu rutina', drop: 'Elige un PDF o una foto', dropsub: 'También vale una foto de la hoja de papel', or: 'O pega aquí el texto de la rutina:', paste: 'Ej. Día A\nPress de banca 4x8 desc 90"\nJalón al pecho 3x10-12 desc 1\'30', read: 'Leer la rutina', manual: 'Escribirla a mano', reading: 'Leyendo la rutina…', noKey: 'La lectura automática todavía no está activa. Puedes escribir la rutina abajo.', tooBig: 'El archivo pesa demasiado. Usa un PDF de menos de 4 MB o una foto.', notProg: 'No he encontrado una rutina en este archivo. Prueba con una foto más nítida o escríbela.', failed: 'No se ha podido leer. Inténtalo de nuevo o escríbela.', needInput: 'Elige un archivo o pega el texto.',
+      check: 'Revisa la rutina', checksub: 'Corrige lo que haga falta. Los ejercicios reconocidos tienen un dibujo de cómo se hacen.', pname: 'Nombre de la rutina', pnotes: 'Notas del entrenador (opcional)', day: 'Día', dayName: (n) => `Día ${n}`, addday: '+ Añadir un día', addex: '+ Añadir un ejercicio', delday: 'Borrar día', delex: 'Borrar', exname: 'Ejercicio', sets: 'Series', repsMin: 'Rep. mín', repsMax: 'Rep. máx', secs: 'Segundos', rest: 'Descanso (s)', weight: 'Peso (kg)', ss: 'Superserie', note: 'Nota', kind: 'Tipo', kinds: { load: 'Con peso', bw: 'Peso corporal', time: 'Por tiempo' }, pattern: 'Movimiento', matched: (n) => `Reconocido: ${n}`, unmatched: 'Ejercicio nuevo: elige el movimiento más parecido para el dibujo', send: 'Enviar a las gafas', sending: 'Guardando la rutina…', sendFail: 'No se ha podido guardar. Inténtalo de nuevo.', empty: 'Añade al menos un ejercicio.', restart: 'Empezar de nuevo',
+      done: '¡Listo! Tu código', how: ['Abre LiftView en las gafas.', 'Ve a Rutinas → Carga tu rutina.', 'Escribe el código y confirma.'], say: (c) => `O di: «Hey Meta, carga la rutina ${c}».`, again: 'Cargar otra rutina', privacy: 'El archivo solo sirve para leer la rutina y no se guarda. La rutina queda guardada con su código: quien tenga el código puede abrirla.',
+      pats: { squat: 'Sentadilla', hinge: 'Peso muerto / bisagra', lunge: 'Zancada', bench: 'Press banca', pushup: 'Flexiones', press: 'Press por encima', pullup: 'Jalón / dominada', row: 'Remo', curl: 'Curl', triceps: 'Tríceps', raise: 'Elevaciones', plank: 'Plancha', crunch: 'Abdominales', bridge: 'Puente de glúteo', calf: 'Gemelos', jump: 'Saltos', stretch: 'Estiramiento', machine: 'Máquina', dip: 'Fondos' } },
+    de: { title: 'Eigenen Plan laden', lead: 'Der Plan von deinem Trainer, in deiner Brille. Lade das PDF oder ein Foto hoch, prüf ihn und bekomm einen Code für LiftView.', s1: 'Hochladen', s2: 'Prüfen', s3: 'Code', up: 'Dein Plan', drop: 'PDF oder Foto auswählen', dropsub: 'Ein Foto vom Papierplan geht auch', or: 'Oder füg hier den Text des Plans ein:', paste: 'Z. B. Tag A\nBankdrücken 4x8 Pause 90s\nLatzug 3x10-12 Pause 90s', read: 'Plan lesen', manual: 'Selbst eintippen', reading: 'Plan wird gelesen…', noKey: 'Das automatische Lesen ist noch nicht aktiv. Du kannst den Plan unten eintippen.', tooBig: 'Die Datei ist zu groß. Nimm ein PDF unter 4 MB oder ein Foto.', notProg: 'In dieser Datei habe ich keinen Trainingsplan gefunden. Versuch ein schärferes Foto oder tipp ihn ein.', failed: 'Lesen hat nicht geklappt. Versuch es nochmal oder tipp ihn ein.', needInput: 'Wähl eine Datei oder füg den Text ein.',
+      check: 'Plan prüfen', checksub: 'Korrigier, was nötig ist. Erkannte Übungen bekommen eine Zeichnung zur Ausführung.', pname: 'Name des Plans', pnotes: 'Notizen vom Trainer (optional)', day: 'Tag', dayName: (n) => `Tag ${n}`, addday: '+ Tag hinzufügen', addex: '+ Übung hinzufügen', delday: 'Tag löschen', delex: 'Löschen', exname: 'Übung', sets: 'Sätze', repsMin: 'Wdh. min', repsMax: 'Wdh. max', secs: 'Sekunden', rest: 'Pause (s)', weight: 'Gewicht (kg)', ss: 'Supersatz', note: 'Notiz', kind: 'Art', kinds: { load: 'Mit Gewicht', bw: 'Körpergewicht', time: 'Auf Zeit' }, pattern: 'Bewegung', matched: (n) => `Erkannt: ${n}`, unmatched: 'Neue Übung: wähl die ähnlichste Bewegung für die Zeichnung', send: 'An die Brille schicken', sending: 'Plan wird gespeichert…', sendFail: 'Plan konnte nicht gespeichert werden. Versuch es nochmal.', empty: 'Füg mindestens eine Übung hinzu.', restart: 'Neu anfangen',
+      done: 'Fertig! Dein Code', how: ['Öffne LiftView auf der Brille.', 'Geh zu Trainingspläne → Eigenen Plan laden.', 'Gib den Code ein und bestätige.'], say: (c) => `Oder sag: „Hey Meta, lade Plan ${c}“.`, again: 'Weiteren Plan laden', privacy: 'Die Datei dient nur zum Lesen des Plans und wird nicht gespeichert. Der Plan wird mit seinem Code gespeichert: Wer den Code hat, kann ihn öffnen.',
+      pats: { squat: 'Kniebeuge', hinge: 'Kreuzheben / Hüftbeuge', lunge: 'Ausfallschritt', bench: 'Bankdrücken', pushup: 'Liegestütz', press: 'Überkopfdrücken', pullup: 'Latzug / Klimmzug', row: 'Rudern', curl: 'Curl', triceps: 'Trizeps', raise: 'Seitheben', plank: 'Plank', crunch: 'Bauch', bridge: 'Glute Bridge', calf: 'Waden', jump: 'Sprünge', stretch: 'Dehnen', machine: 'Maschine', dip: 'Dips' } }
+  };
+  const FIGS = /*FIGS*/null;
+  const THUMB0 = new Set(['hinge', 'bench', 'pushup', 'plank', 'stretch']);
+  const fig = (pat) => { const f = FIGS[pat] || FIGS.machine; return `<svg class="fig" viewBox="0 0 48 48" aria-hidden="true">${f[THUMB0.has(pat) ? 0 : 1]}</svg>`; };
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ß/g, 'ss').replace(/[^a-z0-9]+/g, ' ').trim();
+  let lang = (() => { try { const s = JSON.parse(localStorage.getItem('lv_lang')); if (T[s]) return s; } catch (e) { /* niente */ } const k = (navigator.language || 'en').slice(0, 2); return T[k] ? k : 'en'; })();
+  const t = () => T[lang];
+  let LIB = [], NAMES = {}, NAME_INDEX = new Map(), prog = null;
+
+  async function loadLib() {
+    const base = await (await fetch('data/exercises.json')).json();
+    LIB = base;
+    const langs = await Promise.all(LANGS.map(([k]) => fetch(`data/${k}.json`).then((r) => r.json())));
+    LANGS.forEach(([k], i) => { NAMES[k] = langs[i]; });
+    NAME_INDEX = new Map();
+    for (const x of base) for (const [k] of LANGS) { const y = NAMES[k][x.id]; if (!y) continue; [y.n].concat(y.al || []).forEach((n) => { const key = norm(n); if (key && !NAME_INDEX.has(key)) NAME_INDEX.set(key, x.id); }); }
+    fillDatalist();
+  }
+  const libById = (id) => LIB.find((x) => x.id === id);
+  const nameIn = (id) => (NAMES[lang] && NAMES[lang][id] ? NAMES[lang][id].n : id);
+  function fillDatalist() { $('exlist').innerHTML = LIB.map((x) => `<option value="${esc(nameIn(x.id))}"></option>`).join(''); }
+  function matchName(name) { return NAME_INDEX.get(norm(name)) || null; }
+
+  function setTexts() {
+    const L = t();
+    document.documentElement.lang = lang;
+    ['title', 'lead', 's1', 's2', 's3', 'up', 'drop', 'dropsub', 'or', 'check', 'checksub', 'pname', 'pnotes', 'done', 'privacy'].forEach((k) => { const el = $('t-' + k); if (el) el.textContent = L[k]; });
+    $('paste').placeholder = L.paste; $('read').textContent = L.read; $('manual').textContent = L.manual; $('addday').textContent = L.addday; $('send').textContent = L.send; $('restart').textContent = L.restart; $('again').textContent = L.again;
+    $('lang').innerHTML = LANGS.map(([k, n]) => `<option value="${k}"${k === lang ? ' selected' : ''}>${n}</option>`).join('');
+    if (prog) renderEditor();
+    if (LIB.length) fillDatalist();
+  }
+  const msg = (box, text, cls) => { $(box).innerHTML = text ? `<div class="msg ${cls || ''}" role="status">${esc(text)}</div>` : ''; };
+  function step(n) { [1, 2, 3].forEach((i) => { $('step' + i).classList.toggle('hidden', i !== n); $('st' + i).classList.toggle('on', i <= n); }); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+  // ---------- Lettura ----------
+  let picked = null;
+  $('file').addEventListener('change', () => { picked = $('file').files[0] || null; if (picked) { $('t-drop').textContent = picked.name; } });
+  const drop = $('drop');
+  drop.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); $('file').click(); } });
+  ['dragover', 'dragenter'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('over'); }));
+  ['dragleave', 'drop'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('over'); }));
+  drop.addEventListener('drop', (e) => { const f = e.dataTransfer.files[0]; if (f) { picked = f; $('t-drop').textContent = f.name; } });
+  const toB64 = (buf) => { let s = ''; const b = new Uint8Array(buf); for (let i = 0; i < b.length; i += 0x8000) s += String.fromCharCode.apply(null, b.subarray(i, i + 0x8000)); return btoa(s); };
+  function imageToJpeg(file) {
+    return new Promise((res, rej) => {
+      const img = new Image();
+      img.onload = () => {
+        const max = 2000, k = Math.min(1, max / Math.max(img.width, img.height));
+        const c = document.createElement('canvas'); c.width = Math.round(img.width * k); c.height = Math.round(img.height * k);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        res(c.toDataURL('image/jpeg', 0.85).split(',')[1]);
+        URL.revokeObjectURL(img.src);
+      };
+      img.onerror = rej;
+      img.src = URL.createObjectURL(file);
+    });
+  }
+  $('read').addEventListener('click', async () => {
+    const L = t();
+    const text = $('paste').value.trim();
+    let body;
+    try {
+      if (picked && picked.type === 'application/pdf') {
+        if (picked.size > 3200000) return msg('msg1', L.tooBig, 'err');
+        body = { kind: 'pdf', data: toB64(await picked.arrayBuffer()) };
+      } else if (picked && /^image\//.test(picked.type)) {
+        body = { kind: 'image', media: 'image/jpeg', data: await imageToJpeg(picked) };
+      } else if (text) body = { kind: 'text', data: text };
+      else return msg('msg1', L.needInput, 'err');
+    } catch (e) { return msg('msg1', L.failed, 'err'); }
+    $('read').disabled = true; msg('msg1', L.reading);
+    try {
+      const r = await fetch('api/leggi', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+      const out = await r.json().catch(() => ({}));
+      if (r.status === 503 && out.error === 'no_key') { msg('msg1', ''); startManual(L.noKey); return; }
+      if (r.status === 413) return msg('msg1', L.tooBig, 'err');
+      if (r.status === 422) return msg('msg1', L.notProg, 'err');
+      if (!r.ok || !out.program) return msg('msg1', L.failed, 'err');
+      msg('msg1', '');
+      prog = out.program;
+      prog.days.forEach((d) => d.items.forEach((it) => { if (!it.ex && it.name) it.ex = matchName(it.name); }));
+      renderEditor(); step(2);
+    } catch (e) { msg('msg1', L.failed, 'err'); }
+    finally { $('read').disabled = false; }
+  });
+  const blankItem = () => ({ ex: null, name: '', pattern: 'machine', equipment: 'dumbbell', kind: 'load', sets: 3, reps_min: 10, reps_max: 10, seconds: null, rest_seconds: 90, weight_kg: null, note: null, superset: null });
+  function startManual(note) {
+    prog = { name: '', notes: null, per_week: 3, days: [{ name: t().dayName('A'), items: [blankItem()] }] };
+    renderEditor(); step(2);
+    if (note) msg('msg2', note, 'warn');
+  }
+  $('manual').addEventListener('click', () => startManual());
+
+  // ---------- Controllo e modifica ----------
+  function renderEditor() {
+    const L = t();
+    $('pname').value = prog.name || ''; $('pnotes').value = prog.notes || '';
+    const pats = Object.keys(L.pats);
+    $('days').innerHTML = prog.days.map((d, di) => `
+      <div class="day">
+        <div class="day-h"><input data-d="${di}" data-f="dname" value="${esc(d.name)}" aria-label="${esc(L.day)}" maxlength="30"><button class="btn danger" type="button" data-del-day="${di}">${esc(L.delday)}</button></div>
+        ${d.items.map((it, ii) => {
+          const lib = it.ex && libById(it.ex);
+          const pat = lib ? lib.pat : it.pattern;
+          const timed = it.kind === 'time';
+          return `<div class="ex">
+            ${fig(pat)}
+            <div>
+              <input list="exlist" data-d="${di}" data-i="${ii}" data-f="name" value="${esc(it.name || (lib ? nameIn(lib.id) : ''))}" placeholder="${esc(L.exname)}" aria-label="${esc(L.exname)}" maxlength="40">
+              <div class="match ${lib ? 'ok' : 'no'}">${lib ? esc(L.matched(nameIn(lib.id))) : esc(L.unmatched)}</div>
+              <div class="fields">
+                <label>${esc(L.sets)}<input type="number" inputmode="numeric" min="1" max="12" data-d="${di}" data-i="${ii}" data-f="sets" value="${it.sets ?? ''}"></label>
+                ${timed ? `<label class="wide2">${esc(L.secs)}<input type="number" inputmode="numeric" min="5" max="600" data-d="${di}" data-i="${ii}" data-f="seconds" value="${it.seconds ?? ''}"></label>` : `<label>${esc(L.repsMin)}<input type="number" inputmode="numeric" min="1" max="100" data-d="${di}" data-i="${ii}" data-f="reps_min" value="${it.reps_min ?? ''}"></label><label>${esc(L.repsMax)}<input type="number" inputmode="numeric" min="1" max="100" data-d="${di}" data-i="${ii}" data-f="reps_max" value="${it.reps_max ?? ''}"></label>`}
+                <label>${esc(L.rest)}<input type="number" inputmode="numeric" min="0" max="600" data-d="${di}" data-i="${ii}" data-f="rest_seconds" value="${it.rest_seconds ?? ''}"></label>
+                <label>${esc(L.weight)}<input type="number" inputmode="decimal" min="0" max="500" step="0.5" data-d="${di}" data-i="${ii}" data-f="weight_kg" value="${it.weight_kg ?? ''}"${it.kind !== 'load' ? ' disabled' : ''}></label>
+                <label>${esc(L.ss)}<input maxlength="2" data-d="${di}" data-i="${ii}" data-f="superset" value="${esc(it.superset || '')}" placeholder="A"></label>
+                <label class="wide3">${esc(L.kind)}<select data-d="${di}" data-i="${ii}" data-f="kind">${Object.entries(L.kinds).map(([k, v]) => `<option value="${k}"${it.kind === k ? ' selected' : ''}>${esc(v)}</option>`).join('')}</select></label>
+                ${lib ? '' : `<label class="wide3">${esc(L.pattern)}<select data-d="${di}" data-i="${ii}" data-f="pattern">${pats.map((k) => `<option value="${k}"${pat === k ? ' selected' : ''}>${esc(L.pats[k])}</option>`).join('')}</select></label>`}
+                <label class="wide6">${esc(L.note)}<input maxlength="90" data-d="${di}" data-i="${ii}" data-f="note" value="${esc(it.note || '')}"></label>
+              </div>
+            </div>
+            <button class="btn danger" type="button" data-del-ex="${di}:${ii}" aria-label="${esc(L.delex)}">✕</button>
+          </div>`;
+        }).join('')}
+        <button class="btn ghost" type="button" data-add-ex="${di}">${esc(L.addex)}</button>
+      </div>`).join('');
+  }
+  $('days').addEventListener('change', (e) => {
+    const el = e.target, f = el.dataset.f;
+    if (!f) return;
+    const d = prog.days[+el.dataset.d];
+    if (f === 'dname') { d.name = el.value.trim(); return; }
+    const it = d.items[+el.dataset.i];
+    const v = el.value.trim();
+    if (f === 'name') {
+      it.name = v; it.ex = matchName(v);
+      if (it.ex) { const lib = libById(it.ex); it.pattern = lib.pat; it.equipment = lib.eq; it.kind = lib.kind; if (lib.kind === 'time' && !it.seconds) it.seconds = 30; }
+      renderEditor(); return;
+    }
+    if (['sets', 'reps_min', 'reps_max', 'seconds', 'rest_seconds'].includes(f)) it[f] = v === '' ? null : Math.round(Number(v));
+    else if (f === 'weight_kg') it[f] = v === '' ? null : Number(v.replace(',', '.'));
+    else if (f === 'superset') it[f] = v ? v.toUpperCase() : null;
+    else if (f === 'kind') { it.kind = v; if (v === 'time' && !it.seconds) it.seconds = 30; if (v !== 'time' && !it.reps_min) { it.reps_min = 10; it.reps_max = 10; } renderEditor(); }
+    else it[f] = v || null;
+  });
+  $('days').addEventListener('click', (e) => {
+    const b = e.target.closest('button'); if (!b) return;
+    if (b.dataset.addEx != null) { prog.days[+b.dataset.addEx].items.push(blankItem()); renderEditor(); }
+    if (b.dataset.delEx) { const [d, i] = b.dataset.delEx.split(':').map(Number); prog.days[d].items.splice(i, 1); renderEditor(); }
+    if (b.dataset.delDay != null) { prog.days.splice(+b.dataset.delDay, 1); if (!prog.days.length) prog.days.push({ name: t().dayName('A'), items: [blankItem()] }); renderEditor(); }
+  });
+  $('addday').addEventListener('click', () => { prog.days.push({ name: t().dayName(String.fromCharCode(65 + prog.days.length)), items: [blankItem()] }); renderEditor(); });
+  $('pname').addEventListener('change', () => { prog.name = $('pname').value.trim(); });
+  $('pnotes').addEventListener('change', () => { prog.notes = $('pnotes').value.trim() || null; });
+  $('restart').addEventListener('click', () => { prog = null; picked = null; $('file').value = ''; $('paste').value = ''; setTexts(); step(1); });
+  $('again').addEventListener('click', () => $('restart').click());
+  $('send').addEventListener('click', async () => {
+    const L = t();
+    prog.name = $('pname').value.trim() || prog.name; prog.notes = $('pnotes').value.trim() || null;
+    const items = prog.days.flatMap((d) => d.items).filter((it) => it.ex || (it.name && it.name.trim()));
+    if (!items.length) return msg('msg2', L.empty, 'err');
+    prog.days.forEach((d) => { d.items = d.items.filter((it) => it.ex || (it.name && it.name.trim())); d.items.forEach((it) => { if (!it.name && it.ex) it.name = nameIn(it.ex); }); });
+    prog.days = prog.days.filter((d) => d.items.length);
+    $('send').disabled = true; msg('msg2', L.sending);
+    try {
+      const r = await fetch('api/scheda', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ program: prog }) });
+      const out = await r.json().catch(() => ({}));
+      if (!r.ok || !out.code) throw new Error('fail');
+      msg('msg2', '');
+      $('code').textContent = out.code;
+      $('how').innerHTML = L.how.map((x) => `<li>${esc(x)}</li>`).join('');
+      $('t-say').innerHTML = `<span class="say">${esc(L.say(out.code))}</span>`;
+      step(3);
+    } catch (e) { msg('msg2', L.sendFail, 'err'); }
+    finally { $('send').disabled = false; }
+  });
+  $('lang').addEventListener('change', () => { lang = $('lang').value; try { localStorage.setItem('lv_lang', JSON.stringify(lang)); } catch (e) { /* niente */ } setTexts(); });
+
+  setTexts();
+  loadLib().catch(() => {});
+})();
+</script>
+</body>
+</html>

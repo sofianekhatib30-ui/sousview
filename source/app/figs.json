@@ -1,0 +1,78 @@
+{
+"squat": [
+"<path class=\"gr\" d=\"M6 43h36\"/><circle class=\"hd\" cx=\"24\" cy=\"6\" r=\"3.6\"/><path d=\"M24 10v14l-3 18M24 24l3 18\"/><path d=\"M24 12l-6 1M24 12l5 1\"/><path class=\"eq\" d=\"M12 11h24\"/><path class=\"eq\" d=\"M12 8v6M36 8v6\"/>",
+"<path class=\"gr\" d=\"M6 43h36\"/><circle class=\"hd\" cx=\"25\" cy=\"9\" r=\"3.6\"/><path d=\"M24 13l-4 13 10 1-1 15\"/><path d=\"M24 15l-6 1M24 15l5 2\"/><path class=\"eq\" d=\"M12 14h24\"/><path class=\"eq\" d=\"M12 11v6M36 11v6\"/>"
+],
+"hinge": [
+"<path class=\"gr\" d=\"M6 43h36\"/><circle class=\"hd\" cx=\"33\" cy=\"13\" r=\"3.6\"/><path d=\"M29 16L16 23l2 9-1 10\"/><path d=\"M26 18l-1 13\"/><path class=\"eq\" d=\"M14 32h22\"/><circle class=\"eq\" cx=\"13\" cy=\"32\" r=\"5\"/><circle class=\"eq\" cx=\"37\" cy=\"32\" r=\"5\"/>",
+"<path class=\"gr\" d=\"M6 43h36\"/><circle class=\"hd\" cx=\"24\" cy=\"6\" r=\"3.6\"/><path d=\"M24 10v14l-2 18M24 24l2 18\"/><path d=\"M24 12l-1 13M24 12l1 13\"/><path class=\"eq\" d=\"M14 26h20\"/><circle class=\"eq\" cx=\"12\" cy=\"26\" r=\"5\"/><circle class=\"eq\" cx=\"36\" cy=\"26\" r=\"5\"/>"
+],
+"lunge": [
+"<path class=\"gr\" d=\"M4 43h40\"/><circle class=\"hd\" cx=\"24\" cy=\"6\" r=\"3.6\"/><path d=\"M24 10v14l3 18M24 24l-3 18\"/><path d=\"M24 13l-4 11M24 13l4 11\"/><path class=\"eq\" d=\"M18 25h4M26 25h4\"/>",
+"<path class=\"gr\" d=\"M4 43h40\"/><circle class=\"hd\" cx=\"24\" cy=\"8\" r=\"3.6\"/><path d=\"M24 12v14l9 3v13M24 26l-7 9-8 6\"/><path d=\"M24 15l-4 11M24 15l4 11\"/><path class=\"eq\" d=\"M18 27h4M26 27h4\"/>"
+],
+"bench": [
+"<path class=\"gr\" d=\"M8 33h32M12 33v9M36 33v9\"/><circle class=\"hd\" cx=\"37\" cy=\"28\" r=\"3.4\"/><path d=\"M33 30H18l-6 5v7\"/><path d=\"M28 30V18M22 30V18\"/><path class=\"eq\" d=\"M14 17h22\"/><path class=\"eq\" d=\"M14 13v8M36 13v8\"/>",
+"<path class=\"gr\" d=\"M8 33h32M12 33v9M36 33v9\"/><circle class=\"hd\" cx=\"37\" cy=\"28\" r=\"3.4\"/><path d=\"M33 30H18l-6 5v7\"/><path d=\"M28 30l-3-3 2-3M22 30l-3-3 2-3\"/><path class=\"eq\" d=\"M14 24h22\"/><path class=\"eq\" d=\"M14 20v8M36 20v8\"/>"
+],
+"pushup": [
+"<path class=\"gr\" d=\"M4 41h40\"/><circle class=\"hd\" cx=\"38\" cy=\"24\" r=\"3.4\"/><path d=\"M35 27L9 37\"/><path d=\"M31 28l1 13\"/><path d=\"M9 37l-2 4\"/>",
+"<path class=\"gr\" d=\"M4 41h40\"/><circle class=\"hd\" cx=\"38\" cy=\"33\" r=\"3.4\"/><path d=\"M35 35L9 39\"/><path d=\"M31 35l-4 3 5 3\"/><path d=\"M9 39l-2 2\"/>"
+],
+"press": [
+"<path class=\"gr\" d=\"M8 43h32\"/><circle class=\"hd\" cx=\"24\" cy=\"15\" r=\"3.6\"/><path d=\"M24 19v13l-4 10M24 32l4 10\"/><path d=\"M24 21l-7 1-1-3M24 21l7 1 1-3\"/><path class=\"eq\" d=\"M10 19h28\"/><path class=\"eq\" d=\"M10 15v8M38 15v8\"/>",
+"<path class=\"gr\" d=\"M8 43h32\"/><circle class=\"hd\" cx=\"24\" cy=\"15\" r=\"3.6\"/><path d=\"M24 19v13l-4 10M24 32l4 10\"/><path d=\"M24 21l-6-6V8M24 21l6-6V8\"/><path class=\"eq\" d=\"M10 7h28\"/><path class=\"eq\" d=\"M10 3v8M38 3v8\"/>"
+],
+"pullup": [
+"<path class=\"eq\" d=\"M6 6h36\"/><path d=\"M18 6l3 14M30 6l-3 14\"/><circle class=\"hd\" cx=\"24\" cy=\"22\" r=\"3.4\"/><path d=\"M24 26v12l-2 5M24 38l2 5\"/>",
+"<path class=\"eq\" d=\"M6 6h36\"/><path d=\"M17 6l4 9M31 6l-4 9\"/><circle class=\"hd\" cx=\"24\" cy=\"14\" r=\"3.4\"/><path d=\"M24 18v12l-3 6 4 4M24 30l3 6-3 4\"/>"
+],
+"row": [
+"<path class=\"gr\" d=\"M6 43h36\"/><circle class=\"hd\" cx=\"33\" cy=\"13\" r=\"3.6\"/><path d=\"M29 16L16 22l3 9-1 11\"/><path d=\"M26 18l-1 13\"/><path class=\"eq\" d=\"M16 32h20\"/><circle class=\"eq\" cx=\"15\" cy=\"32\" r=\"4\"/><circle class=\"eq\" cx=\"37\" cy=\"32\" r=\"4\"/>",
+"<path class=\"gr\" d=\"M6 43h36\"/><circle class=\"hd\" cx=\"33\" cy=\"13\" r=\"3.6\"/><path d=\"M29 16L16 22l3 9-1 11\"/><path d=\"M26 18l-3 7 4 2\"/><path class=\"eq\" d=\"M16 27h20\"/><circle class=\"eq\" cx=\"15\" cy=\"27\" r=\"4\"/><circle class=\"eq\" cx=\"37\" cy=\"27\" r=\"4\"/>"
+],
+"curl": [
+"<path class=\"gr\" d=\"M8 43h32\"/><circle class=\"hd\" cx=\"24\" cy=\"8\" r=\"3.6\"/><path d=\"M24 12v15l-4 15M24 27l4 15\"/><path d=\"M24 15l-3 9 0 8M24 15l3 10\"/><path class=\"eq\" d=\"M18 33h6M25 26h6\"/>",
+"<path class=\"gr\" d=\"M8 43h32\"/><circle class=\"hd\" cx=\"24\" cy=\"8\" r=\"3.6\"/><path d=\"M24 12v15l-4 15M24 27l4 15\"/><path d=\"M24 15l-3 9-5-8M24 15l3 10\"/><path class=\"eq\" d=\"M13 15h6M25 26h6\"/>"
+],
+"triceps": [
+"<path class=\"gr\" d=\"M8 43h28M40 4v40\"/><circle class=\"hd\" cx=\"22\" cy=\"9\" r=\"3.6\"/><path d=\"M22 13v15l-4 14M22 28l4 14\"/><path d=\"M22 16l-2 8 3-2M22 16l3 8-2-2\"/><path class=\"eq\" d=\"M40 6L23 22\"/>",
+"<path class=\"gr\" d=\"M8 43h28M40 4v40\"/><circle class=\"hd\" cx=\"22\" cy=\"9\" r=\"3.6\"/><path d=\"M22 13v15l-4 14M22 28l4 14\"/><path d=\"M22 16l-2 8 3 6M22 16l3 8-1 6\"/><path class=\"eq\" d=\"M40 6L23 30\"/>"
+],
+"raise": [
+"<path class=\"gr\" d=\"M8 43h32\"/><circle class=\"hd\" cx=\"24\" cy=\"9\" r=\"3.6\"/><path d=\"M24 13v15l-4 14M24 28l4 14\"/><path d=\"M24 16l-4 12M24 16l4 12\"/><path class=\"eq\" d=\"M18 29h4M26 29h4\"/>",
+"<path class=\"gr\" d=\"M8 43h32\"/><circle class=\"hd\" cx=\"24\" cy=\"9\" r=\"3.6\"/><path d=\"M24 13v15l-4 14M24 28l4 14\"/><path d=\"M24 16H12M24 16h12\"/><path class=\"eq\" d=\"M9 13v6M39 13v6\"/>"
+],
+"plank": [
+"<path class=\"gr\" d=\"M4 40h40\"/><circle class=\"hd\" cx=\"38\" cy=\"27\" r=\"3.4\"/><path d=\"M35 29L9 36\"/><path d=\"M33 30l-1 9h6\"/><path d=\"M9 36l-2 3\"/>",
+"<path class=\"gr\" d=\"M4 40h40\"/><circle class=\"hd\" cx=\"38\" cy=\"27\" r=\"3.4\"/><path d=\"M35 29L19 33l-4 6M19 33l6 3\"/><path d=\"M33 30l-1 9h6\"/>"
+],
+"crunch": [
+"<path class=\"gr\" d=\"M4 41h40\"/><circle class=\"hd\" cx=\"9\" cy=\"37\" r=\"3.4\"/><path d=\"M13 38l12 1 7-11 6 12\"/><path d=\"M11 35l-3-3\"/>",
+"<path class=\"gr\" d=\"M4 41h40\"/><circle class=\"hd\" cx=\"12\" cy=\"29\" r=\"3.4\"/><path d=\"M15 31l10 7 7-11 6 13\"/><path d=\"M14 27l-3-4\"/>"
+],
+"bridge": [
+"<path class=\"gr\" d=\"M4 41h40\"/><circle class=\"hd\" cx=\"8\" cy=\"37\" r=\"3.4\"/><path d=\"M12 38l14 0 8-7 3 9\"/><path d=\"M14 38l-1 3\"/>",
+"<path class=\"gr\" d=\"M4 41h40\"/><circle class=\"hd\" cx=\"8\" cy=\"37\" r=\"3.4\"/><path d=\"M12 38l14-9 8 2 3 9\"/><path d=\"M14 38l-1 3\"/>"
+],
+"calf": [
+"<path class=\"eq\" d=\"M15 38h18v5H15z\"/><circle class=\"hd\" cx=\"24\" cy=\"8\" r=\"3.4\"/><path d=\"M24 12v14l-1 12 3 0M24 26l1 12 3 0\"/><path d=\"M24 15l-4 10M24 15l4 10\"/>",
+"<path class=\"eq\" d=\"M15 38h18v5H15z\"/><circle class=\"hd\" cx=\"24\" cy=\"6\" r=\"3.4\"/><path d=\"M24 10v14l-1 12 2 2M24 24l1 12 2 2\"/><path d=\"M24 13l-4 10M24 13l4 10\"/>"
+],
+"jump": [
+"<circle class=\"hd\" cx=\"24\" cy=\"12\" r=\"3.6\"/><path d=\"M24 16l-2 12-6 6 2 8M22 28l8 5-1 9\"/><path d=\"M24 18l-6 6M24 18l6 6\"/><path class=\"gr\" d=\"M12 43h24\"/>",
+"<circle class=\"hd\" cx=\"24\" cy=\"7\" r=\"3.6\"/><path d=\"M24 11v14l-8 13M24 25l8 13\"/><path d=\"M24 14L14 5M24 14l10-9\"/><path class=\"gr\" d=\"M12 43h6M30 43h6\"/>"
+],
+"stretch": [
+"<path class=\"gr\" d=\"M4 43h40\"/><circle class=\"hd\" cx=\"21\" cy=\"8\" r=\"3.6\"/><path d=\"M21 12v14l10 3 1 13M21 26l-6 13-8 3\"/><path d=\"M21 15l-4 9M21 15l4 9\"/>",
+"<path class=\"gr\" d=\"M4 43h40\"/><circle class=\"hd\" cx=\"25\" cy=\"9\" r=\"3.6\"/><path d=\"M24 13l-3 13 10 3 1 13M21 26l-6 13-8 3\"/><path d=\"M24 16l6-10M24 16l-4 9\"/>"
+],
+"machine": [
+"<path class=\"eq\" d=\"M34 6h8v36h-8zM34 14h8M34 22h8M34 30h8\"/><path class=\"gr\" d=\"M8 30h16M8 30L6 12\"/><circle class=\"hd\" cx=\"12\" cy=\"10\" r=\"3.4\"/><path d=\"M12 14l2 15 8 1 1 11M13 18l9 3\"/>",
+"<path class=\"eq\" d=\"M34 6h8v36h-8zM34 14h8M34 22h8M34 30h8\"/><path class=\"gr\" d=\"M8 30h16M8 30L6 12\"/><circle class=\"hd\" cx=\"12\" cy=\"10\" r=\"3.4\"/><path d=\"M12 14l2 15 10-1 3 11M13 18l12 3\"/>"
+],
+"dip": [
+"<path class=\"eq\" d=\"M10 20h28M12 20v24M36 20v24\"/><circle class=\"hd\" cx=\"24\" cy=\"18\" r=\"3.4\"/><path d=\"M24 22v12l5 5-4 5\"/><path d=\"M24 24l-6-1-1-3M24 24l6-1 1-3\"/>",
+"<path class=\"eq\" d=\"M10 20h28M12 20v24M36 20v24\"/><circle class=\"hd\" cx=\"24\" cy=\"11\" r=\"3.4\"/><path d=\"M24 15v14l5 6-4 6\"/><path d=\"M24 17l-6 3M24 17l6 3\"/>"
+]
+}
