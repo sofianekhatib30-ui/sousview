@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "CartView",
+  "description": "Look at a shelf tag and know at once if it costs more than last time or less in another shop. Receipts, bills, budget and due dates of your household, hands free. 5 languages.",
+  "appearance": {
+    "theme_color": "#FFC25C",
+    "icon": {
+      "src": "../icon.svg",
+      "type": "monochrome"
+    }
+  }
+}
