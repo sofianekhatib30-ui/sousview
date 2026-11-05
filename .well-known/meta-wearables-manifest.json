@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "GuideView",
+  "description": "Look at a monument and find out what is in front of you. Hands-free walking guide with short and long stories, walking tours and sourced deep dives. No camera. 5 languages.",
+  "appearance": {
+    "theme_color": "#6FD8C2",
+    "icon": {
+      "src": "../icon.svg",
+      "type": "monochrome"
+    }
+  }
+}
