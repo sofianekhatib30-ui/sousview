@@ -1,0 +1,233 @@
+{"group": "A", "exercises": {
+"back-squat": {
+ "it": {"n": "Squat con bilanciere", "al": ["Back squat", "Squat", "Squat dietro"], "cues": ["Bilanciere sui trapezi, piedi larghi come le spalle", "Scendi col petto alto finché le cosce sono parallele"], "err": "Ginocchia che cadono verso l'interno: spingile in fuori"},
+ "en": {"n": "Back squat", "al": ["Barbell squat", "Squat"], "cues": ["Bar on your upper back, feet shoulder-width", "Sit down between your hips, chest up, to parallel"], "err": "Knees caving in: drive them out over your toes"},
+ "fr": {"n": "Squat barre", "al": ["Back squat", "Squat arrière", "Squat"], "cues": ["Barre sur les trapèzes, pieds largeur d'épaules", "Descends poitrine haute jusqu'aux cuisses parallèles"], "err": "Genoux qui rentrent : pousse-les vers l'extérieur"},
+ "es": {"n": "Sentadilla con barra", "al": ["Sentadilla trasera", "Back squat", "Sentadilla"], "cues": ["Barra sobre los trapecios, pies al ancho de hombros", "Baja con el pecho arriba hasta que los muslos estén paralelos"], "err": "Rodillas hacia dentro: empújalas hacia fuera"},
+ "de": {"n": "Kniebeuge", "al": ["Langhantel-Kniebeuge", "Back Squat", "Squat"], "cues": ["Stange auf dem oberen Rücken, Füße schulterbreit", "Brust raus und runter, bis die Oberschenkel parallel sind"], "err": "Knie fallen nach innen: drück sie aktiv nach außen"}
+},
+"front-squat": {
+ "it": {"n": "Front squat", "al": ["Squat frontale", "Squat davanti"], "cues": ["Bilanciere sulle spalle davanti, gomiti alti", "Busto verticale, scendi tra le ginocchia"], "err": "Gomiti che cadono: tienili alti per non perdere il bilanciere"},
+ "en": {"n": "Front squat", "al": ["Barbell front squat"], "cues": ["Bar on your front delts, elbows high", "Keep your torso upright and sit straight down"], "err": "Elbows dropping: lift them up so the bar stays on you"},
+ "fr": {"n": "Squat avant", "al": ["Front squat", "Squat devant"], "cues": ["Barre sur l'avant des épaules, coudes hauts", "Buste bien droit, descends entre tes genoux"], "err": "Coudes qui tombent : remonte-les pour garder la barre"},
+ "es": {"n": "Sentadilla frontal", "al": ["Front squat"], "cues": ["Barra apoyada delante en los hombros, codos altos", "Torso vertical, baja entre las rodillas"], "err": "Codos que caen: súbelos para que la barra no se escape"},
+ "de": {"n": "Frontkniebeuge", "al": ["Front Squat", "Frontsquat"], "cues": ["Stange vorne auf den Schultern, Ellbogen hoch", "Oberkörper aufrecht, senkrecht nach unten setzen"], "err": "Ellbogen sacken ab: hoch damit, sonst rollt die Stange"}
+},
+"goblet-squat": {
+ "it": {"n": "Goblet squat", "al": ["Squat con manubrio", "Squat goblet"], "cues": ["Manubrio al petto, gomiti verso il basso", "Scendi in profondità, gomiti dentro le ginocchia"], "err": "Talloni che si alzano: spingi su tutto il piede"},
+ "en": {"n": "Goblet squat", "al": ["Dumbbell goblet squat", "DB squat"], "cues": ["Hold the dumbbell at your chest, elbows down", "Sit deep, elbows tracking inside your knees"], "err": "Heels lifting: keep your whole foot planted"},
+ "fr": {"n": "Goblet squat", "al": ["Squat gobelet", "Squat haltère"], "cues": ["Haltère contre la poitrine, coudes vers le bas", "Descends bas, coudes à l'intérieur des genoux"], "err": "Talons qui décollent : pousse dans tout le pied"},
+ "es": {"n": "Sentadilla goblet", "al": ["Goblet squat", "Sentadilla con mancuerna"], "cues": ["Mancuerna pegada al pecho, codos hacia abajo", "Baja profundo con los codos por dentro de las rodillas"], "err": "Talones que se levantan: apoya todo el pie"},
+ "de": {"n": "Goblet Squat", "al": ["Kurzhantel-Kniebeuge", "Goblet-Kniebeuge"], "cues": ["Hantel vor der Brust, Ellbogen zeigen nach unten", "Tief runter, Ellbogen innen an den Knien vorbei"], "err": "Fersen heben ab: Druck über den ganzen Fuß"}
+},
+"bodyweight-squat": {
+ "it": {"n": "Squat a corpo libero", "al": ["Air squat", "Squat"], "cues": ["Piedi larghi come le spalle, braccia avanti", "Siediti indietro col petto alto e risali spingendo"], "err": "Schiena che si incurva: guarda avanti e petto in fuori"},
+ "en": {"n": "Bodyweight squat", "al": ["Air squat", "Squat"], "cues": ["Feet shoulder-width, arms out in front", "Sit back, chest up, then drive up through your heels"], "err": "Back rounding: look ahead and keep your chest proud"},
+ "fr": {"n": "Squat au poids du corps", "al": ["Air squat", "Squat"], "cues": ["Pieds largeur d'épaules, bras tendus devant", "Assieds-toi en arrière, poitrine haute, et remonte"], "err": "Dos qui s'arrondit : regarde devant, poitrine sortie"},
+ "es": {"n": "Sentadilla libre", "al": ["Air squat", "Sentadilla sin peso"], "cues": ["Pies al ancho de hombros, brazos al frente", "Siéntate atrás con el pecho alto y sube empujando"], "err": "Espalda redondeada: mira al frente y saca pecho"},
+ "de": {"n": "Kniebeuge ohne Gewicht", "al": ["Air Squat", "Bodyweight Squat"], "cues": ["Füße schulterbreit, Arme nach vorne strecken", "Hüfte nach hinten, Brust hoch, über die Fersen hoch"], "err": "Runder Rücken: Blick nach vorn, Brust raus"}
+},
+"leg-press": {
+ "it": {"n": "Leg press", "al": ["Pressa", "Pressa gambe"], "cues": ["Piedi a metà pedana, larghi come le spalle", "Scendi controllato senza staccare il bacino"], "err": "Bacino che si stacca in basso: riduci l'escursione"},
+ "en": {"n": "Leg press", "al": ["Machine leg press", "Sled press"], "cues": ["Feet mid-platform, shoulder-width apart", "Lower under control, keep your hips on the pad"], "err": "Hips curling off the pad: shorten the range a bit"},
+ "fr": {"n": "Presse à cuisses", "al": ["Leg press", "Presse"], "cues": ["Pieds au milieu de la plateforme, largeur d'épaules", "Descends contrôlé, bassin collé au dossier"], "err": "Bassin qui décolle en bas : réduis l'amplitude"},
+ "es": {"n": "Prensa de piernas", "al": ["Prensa", "Leg press"], "cues": ["Pies en el centro de la plataforma, al ancho de hombros", "Baja controlado sin despegar la cadera del respaldo"], "err": "Cadera que se despega abajo: acorta el recorrido"},
+ "de": {"n": "Beinpresse", "al": ["Leg Press"], "cues": ["Füße mittig auf der Platte, schulterbreit", "Kontrolliert ablassen, Becken bleibt am Polster"], "err": "Becken rollt unten ab: Bewegung etwas kürzer machen"}
+},
+"bulgarian-split-squat": {
+ "it": {"n": "Bulgarian split squat", "al": ["Affondo bulgaro", "Squat bulgaro", "Bulgaro"], "cues": ["Piede dietro sulla panca, peso sulla gamba davanti", "Scendi dritto verso il basso, poi cambia gamba"], "err": "Piede davanti troppo vicino: allontanati dalla panca"},
+ "en": {"n": "Bulgarian split squat", "al": ["Rear-foot elevated split squat", "Bulgarians", "BSS"], "cues": ["Back foot on the bench, weight in your front leg", "Drop straight down, then switch legs"], "err": "Front foot too close: step further from the bench"},
+ "fr": {"n": "Squat bulgare", "al": ["Fente bulgare", "Bulgarian split squat"], "cues": ["Pied arrière sur le banc, poids sur la jambe avant", "Descends à la verticale, puis change de jambe"], "err": "Pied avant trop près : éloigne-toi du banc"},
+ "es": {"n": "Sentadilla búlgara", "al": ["Zancada búlgara", "Bulgarian split squat", "Búlgara"], "cues": ["Pie trasero en el banco, peso en la pierna delantera", "Baja en vertical y luego cambia de pierna"], "err": "Pie delantero muy cerca: sepárate más del banco"},
+ "de": {"n": "Bulgarian Split Squat", "al": ["Bulgarische Kniebeuge", "Bulgarischer Ausfallschritt"], "cues": ["Hinterer Fuß auf der Bank, Gewicht aufs vordere Bein", "Senkrecht nach unten, dann Seite wechseln"], "err": "Vorderer Fuß zu nah: weiter weg von der Bank stellen"}
+},
+"walking-lunge": {
+ "it": {"n": "Affondi camminati", "al": ["Walking lunge", "Affondi in camminata"], "cues": ["Passo lungo, scendi finché il ginocchio sfiora terra", "Spingi col tallone davanti e avanza con l'altra gamba"], "err": "Busto che si piega avanti: resta dritto e addome attivo"},
+ "en": {"n": "Walking lunge", "al": ["Dumbbell walking lunge", "Lunges"], "cues": ["Long step, lower until your back knee nearly touches", "Push through your front heel and step through"], "err": "Leaning forward: stay tall and brace your core"},
+ "fr": {"n": "Fentes marchées", "al": ["Walking lunge", "Fentes avant marchées"], "cues": ["Grand pas, descends jusqu'à frôler le sol du genou", "Pousse sur le talon avant et enchaîne l'autre jambe"], "err": "Buste qui penche en avant : reste droit, gainé"},
+ "es": {"n": "Zancadas caminando", "al": ["Walking lunge", "Zancadas", "Lunges"], "cues": ["Paso largo, baja hasta casi tocar el suelo con la rodilla", "Empuja con el talón delantero y avanza la otra pierna"], "err": "Tronco inclinado hacia delante: mantente erguido"},
+ "de": {"n": "Ausfallschritte gehend", "al": ["Walking Lunges", "Lunges"], "cues": ["Großer Schritt, hinteres Knie fast bis zum Boden", "Über die vordere Ferse hoch und weitergehen"], "err": "Oberkörper kippt nach vorn: aufrecht bleiben, Bauch fest"}
+},
+"reverse-lunge": {
+ "it": {"n": "Affondo indietro", "al": ["Reverse lunge", "Affondi inversi"], "cues": ["Fai un passo indietro e scendi a 90 gradi", "Risali spingendo sul piede davanti, alterna i lati"], "err": "Ginocchio davanti che rientra: tienilo in linea col piede"},
+ "en": {"n": "Reverse lunge", "al": ["Back lunge", "Step-back lunge"], "cues": ["Step back and lower both knees to about 90°", "Drive up through your front foot, alternate sides"], "err": "Front knee caving in: keep it in line with your toes"},
+ "fr": {"n": "Fente arrière", "al": ["Reverse lunge", "Fentes arrière"], "cues": ["Recule d'un pas et descends genoux à 90°", "Remonte en poussant sur le pied avant, alterne"], "err": "Genou avant qui rentre : garde-le dans l'axe du pied"},
+ "es": {"n": "Zancada hacia atrás", "al": ["Zancada inversa", "Reverse lunge"], "cues": ["Da un paso atrás y baja hasta 90° en ambas rodillas", "Sube empujando con el pie delantero y alterna"], "err": "Rodilla delantera hacia dentro: alinéala con el pie"},
+ "de": {"n": "Ausfallschritt rückwärts", "al": ["Reverse Lunge", "Rückwärts-Ausfallschritt"], "cues": ["Schritt nach hinten, beide Knie etwa 90 Grad", "Über den vorderen Fuß hochdrücken, Seiten wechseln"], "err": "Vorderes Knie knickt ein: in Linie mit dem Fuß halten"}
+},
+"step-up": {
+ "it": {"n": "Step up", "al": ["Salita sulla panca", "Step-up con manubri"], "cues": ["Piede intero sul box, spingi con quella gamba", "Scendi lento e controllato, poi cambia lato"], "err": "Spinta con la gamba dietro: lavora solo con quella sul box"},
+ "en": {"n": "Step-up", "al": ["Dumbbell step-up", "Box step-up"], "cues": ["Whole foot on the box, drive up with that leg", "Step down slow and controlled, then switch sides"], "err": "Pushing off the back foot: let the top leg do the work"},
+ "fr": {"n": "Step-up", "al": ["Montée sur banc", "Montée sur box"], "cues": ["Pied entier sur le banc, pousse avec cette jambe", "Redescends lentement, puis change de côté"], "err": "Impulsion du pied arrière : laisse bosser la jambe du haut"},
+ "es": {"n": "Subida al cajón", "al": ["Step-up", "Subida al banco"], "cues": ["Todo el pie en el cajón, empuja con esa pierna", "Baja lento y controlado, luego cambia de lado"], "err": "Impulso con el pie de atrás: que trabaje la pierna de arriba"},
+ "de": {"n": "Step-up", "al": ["Aufsteiger", "Box Step-up"], "cues": ["Ganzer Fuß auf die Box, mit diesem Bein hochdrücken", "Langsam runter, dann Seite wechseln"], "err": "Abdruck vom hinteren Fuß: nur das obere Bein arbeiten lassen"}
+},
+"leg-extension": {
+ "it": {"n": "Leg extension", "al": ["Leg ext", "Estensioni gambe"], "cues": ["Schiena contro lo schienale, rullo sopra le caviglie", "Estendi le gambe, stringi un attimo e scendi lento"], "err": "Slancio col peso: rallenta e controlla la discesa"},
+ "en": {"n": "Leg extension", "al": ["Leg extensions", "Quad extension"], "cues": ["Back against the pad, roller just above your ankles", "Straighten your legs, squeeze, lower slowly"], "err": "Swinging the weight: slow down and control the way down"},
+ "fr": {"n": "Leg extension", "al": ["Extension des jambes", "Leg ext"], "cues": ["Dos contre le dossier, boudin au-dessus des chevilles", "Tends les jambes, serre un instant, redescends lentement"], "err": "Élan avec la charge : ralentis et contrôle la descente"},
+ "es": {"n": "Extensión de cuádriceps", "al": ["Leg extension", "Extensiones de pierna"], "cues": ["Espalda contra el respaldo, rodillo sobre los tobillos", "Estira las piernas, aprieta y baja despacio"], "err": "Usar impulso: ve más lento y controla la bajada"},
+ "de": {"n": "Beinstrecker", "al": ["Leg Extension", "Beinstreckmaschine"], "cues": ["Rücken ans Polster, Rolle knapp über den Knöcheln", "Beine strecken, kurz halten, langsam ablassen"], "err": "Schwung holen: langsamer werden, Absenken kontrollieren"}
+},
+"leg-curl": {
+ "it": {"n": "Leg curl", "al": ["Leg curl sdraiato", "Leg curl seduto", "Curl femorali"], "cues": ["Rullo sopra i talloni, ginocchia allineate al perno", "Piega le gambe fino in fondo e torna giù lento"], "err": "Bacino che si alza: tienilo premuto contro la panca"},
+ "en": {"n": "Leg curl", "al": ["Hamstring curl", "Lying leg curl", "Seated leg curl"], "cues": ["Roller just above your heels, knees by the pivot", "Curl all the way in, then lower slowly"], "err": "Hips lifting off: keep them pressed into the pad"},
+ "fr": {"n": "Leg curl", "al": ["Curl ischios", "Leg curl allongé", "Leg curl assis"], "cues": ["Boudin au-dessus des talons, genoux dans l'axe", "Fléchis à fond et redescends lentement"], "err": "Bassin qui décolle : plaque-le contre le banc"},
+ "es": {"n": "Curl femoral", "al": ["Leg curl", "Curl de isquios", "Curl femoral tumbado"], "cues": ["Rodillo sobre los talones, rodillas alineadas al eje", "Flexiona del todo y baja despacio"], "err": "Cadera que se levanta: pégala al banco"},
+ "de": {"n": "Beinbeuger", "al": ["Leg Curl", "Beincurl"], "cues": ["Rolle knapp über den Fersen, Knie auf Höhe der Achse", "Ganz anbeugen, dann langsam zurück"], "err": "Hüfte hebt ab: Becken fest aufs Polster drücken"}
+},
+"romanian-deadlift": {
+ "it": {"n": "Stacco rumeno", "al": ["Romanian deadlift", "RDL", "Stacco a gambe tese"], "cues": ["Ginocchia morbide, porta il bacino indietro", "Bilanciere vicino alle gambe, schiena neutra"], "err": "Schiena che si arrotonda: scendi solo fin dove resti dritto"},
+ "en": {"n": "Romanian deadlift", "al": ["RDL", "Barbell RDL"], "cues": ["Soft knees, push your hips back", "Keep the bar close to your legs, back flat"], "err": "Rounding your back: only go as low as you stay flat"},
+ "fr": {"n": "Soulevé de terre roumain", "al": ["SDT roumain", "RDL", "Romanian deadlift"], "cues": ["Genoux légèrement fléchis, pousse les hanches en arrière", "Barre près des jambes, dos bien plat"], "err": "Dos qui s'arrondit : descends seulement tant qu'il reste plat"},
+ "es": {"n": "Peso muerto rumano", "al": ["RDL", "Romanian deadlift"], "cues": ["Rodillas algo flexionadas, lleva la cadera atrás", "Barra pegada a las piernas, espalda neutra"], "err": "Espalda redondeada: baja solo hasta donde sigas recto"},
+ "de": {"n": "Rumänisches Kreuzheben", "al": ["RDL", "Romanian Deadlift"], "cues": ["Knie leicht gebeugt, Hüfte nach hinten schieben", "Stange nah an den Beinen, Rücken gerade"], "err": "Rundrücken: nur so tief gehen, wie der Rücken gerade bleibt"}
+},
+"deadlift": {
+ "it": {"n": "Stacco da terra", "al": ["Deadlift", "Stacco"], "cues": ["Bilanciere sopra metà piede, schiena tesa e dritta", "Spingi il pavimento e porta su il bilanciere vicino"], "err": "Bacino che sale per primo: alza petto e bacino insieme"},
+ "en": {"n": "Deadlift", "al": ["Conventional deadlift", "Barbell deadlift"], "cues": ["Bar over mid-foot, back tight and flat", "Push the floor away, keep the bar close"], "err": "Hips shooting up first: lift chest and hips together"},
+ "fr": {"n": "Soulevé de terre", "al": ["SDT", "Deadlift"], "cues": ["Barre au-dessus du milieu du pied, dos gainé et plat", "Pousse le sol et garde la barre contre toi"], "err": "Hanches qui montent en premier : monte poitrine et hanches"},
+ "es": {"n": "Peso muerto", "al": ["Deadlift", "Peso muerto convencional"], "cues": ["Barra sobre el medio del pie, espalda firme y recta", "Empuja el suelo y sube la barra pegada al cuerpo"], "err": "La cadera sube primero: sube pecho y cadera a la vez"},
+ "de": {"n": "Kreuzheben", "al": ["Deadlift", "Klassisches Kreuzheben"], "cues": ["Stange über Fußmitte, Rücken fest und gerade", "Boden wegdrücken, Stange nah am Körper führen"], "err": "Hüfte schießt zuerst hoch: Brust und Hüfte gemeinsam heben"}
+},
+"dumbbell-romanian-deadlift": {
+ "it": {"n": "Stacco rumeno con manubri", "al": ["RDL con manubri", "Dumbbell RDL"], "cues": ["Manubri davanti alle cosce, ginocchia morbide", "Bacino indietro, manubri scivolano lungo le gambe"], "err": "Manubri lontani dal corpo: tienili attaccati alle gambe"},
+ "en": {"n": "Dumbbell RDL", "al": ["Dumbbell Romanian deadlift", "DB RDL"], "cues": ["Dumbbells in front of your thighs, soft knees", "Hips back, slide the weights down your legs"], "err": "Dumbbells drifting away: keep them brushing your legs"},
+ "fr": {"n": "SDT roumain haltères", "al": ["Roumain haltères", "RDL haltères"], "cues": ["Haltères devant les cuisses, genoux souples", "Hanches en arrière, glisse les haltères le long des jambes"], "err": "Haltères qui s'éloignent : garde-les contre les jambes"},
+ "es": {"n": "Peso muerto rumano mancuernas", "al": ["RDL con mancuernas", "Dumbbell RDL"], "cues": ["Mancuernas delante de los muslos, rodillas flexibles", "Cadera atrás, desliza las mancuernas por las piernas"], "err": "Mancuernas lejos del cuerpo: rózate las piernas con ellas"},
+ "de": {"n": "Rumänisches Kreuzheben KH", "al": ["Kurzhantel-RDL", "Dumbbell RDL"], "cues": ["Hanteln vor den Oberschenkeln, Knie leicht gebeugt", "Hüfte nach hinten, Hanteln an den Beinen entlang"], "err": "Hanteln wandern nach vorn: eng an den Beinen führen"}
+},
+"hip-thrust": {
+ "it": {"n": "Hip thrust", "al": ["Hip thrust con bilanciere", "Spinta d'anca"], "cues": ["Scapole sulla panca, piedi sotto le ginocchia", "Spingi coi talloni e stringi i glutei in alto"], "err": "Schiena che si inarca in alto: mento giù, bacino in retroversione"},
+ "en": {"n": "Hip thrust", "al": ["Barbell hip thrust", "Glute thrust"], "cues": ["Shoulder blades on the bench, feet under your knees", "Drive through your heels, squeeze your glutes at the top"], "err": "Arching your low back at the top: tuck chin and pelvis"},
+ "fr": {"n": "Hip thrust", "al": ["Hip thrust barre", "Poussée de hanches"], "cues": ["Omoplates sur le banc, pieds sous les genoux", "Pousse dans les talons, serre les fessiers en haut"], "err": "Dos qui se cambre en haut : rentre le menton et le bassin"},
+ "es": {"n": "Hip thrust", "al": ["Empuje de cadera", "Hip thrust con barra"], "cues": ["Escápulas en el banco, pies bajo las rodillas", "Empuja con los talones y aprieta glúteos arriba"], "err": "Arquear la lumbar arriba: mete barbilla y pelvis"},
+ "de": {"n": "Hip Thrust", "al": ["Langhantel Hip Thrust", "Hüftstoß"], "cues": ["Schulterblätter auf der Bank, Füße unter den Knien", "Über die Fersen hochdrücken, oben Po anspannen"], "err": "Hohlkreuz oben: Kinn zur Brust, Becken einrollen"}
+},
+"glute-bridge": {
+ "it": {"n": "Ponte glutei", "al": ["Glute bridge", "Ponte a terra"], "cues": ["Sdraiato, piedi vicino ai glutei e larghi come le anche", "Alza il bacino, stringi i glutei e scendi lento"], "err": "Spinta con la schiena: lavora coi glutei, costole giù"},
+ "en": {"n": "Glute bridge", "al": ["Bridge", "Hip bridge"], "cues": ["On your back, feet hip-width near your glutes", "Lift your hips, squeeze, lower slowly"], "err": "Pushing with your low back: lead with your glutes, ribs down"},
+ "fr": {"n": "Pont fessier", "al": ["Glute bridge", "Relevé de bassin"], "cues": ["Allongé, pieds proches des fesses, largeur de hanches", "Monte le bassin, serre les fessiers, redescends lentement"], "err": "Tu pousses avec le dos : serre les fessiers, côtes basses"},
+ "es": {"n": "Puente de glúteo", "al": ["Glute bridge", "Puente"], "cues": ["Boca arriba, pies cerca de los glúteos, ancho de cadera", "Sube la cadera, aprieta glúteos y baja despacio"], "err": "Empujar con la lumbar: aprieta glúteos y baja costillas"},
+ "de": {"n": "Glute Bridge", "al": ["Beckenheben", "Brücke"], "cues": ["Rückenlage, Füße hüftbreit nah am Po", "Becken heben, Po anspannen, langsam ablassen"], "err": "Druck aus dem unteren Rücken: Po anspannen, Rippen runter"}
+},
+"calf-raise": {
+ "it": {"n": "Calf raise", "al": ["Polpacci in piedi", "Calf machine", "Sollevamento polpacci"], "cues": ["Avampiedi sul bordo, talloni liberi di scendere", "Sali sulle punte, tieni un attimo e scendi lento"], "err": "Rimbalzo in basso: fermati un secondo in allungamento"},
+ "en": {"n": "Calf raise", "al": ["Standing calf raise", "Calf machine"], "cues": ["Balls of your feet on the edge, heels free", "Rise onto your toes, pause, lower slowly"], "err": "Bouncing at the bottom: pause for a second in the stretch"},
+ "fr": {"n": "Extension mollets", "al": ["Mollets debout", "Calf raise", "Machine à mollets"], "cues": ["Avant des pieds sur le rebord, talons dans le vide", "Monte sur la pointe, marque l'arrêt, redescends lentement"], "err": "Rebond en bas : marque une pause en étirement"},
+ "es": {"n": "Elevación de gemelos", "al": ["Gemelos de pie", "Calf raise", "Gemelos en máquina"], "cues": ["Puntas de los pies en el borde, talones libres", "Sube de puntillas, pausa y baja despacio"], "err": "Rebotar abajo: pausa un segundo en el estiramiento"},
+ "de": {"n": "Wadenheben", "al": ["Wadenmaschine", "Calf Raises"], "cues": ["Fußballen auf der Kante, Fersen frei", "Auf die Zehenspitzen, kurz halten, langsam runter"], "err": "Wippen unten: eine Sekunde in der Dehnung pausieren"}
+},
+"kettlebell-swing": {
+ "it": {"n": "Kettlebell swing", "al": ["Swing", "Swing con kettlebell"], "cues": ["Porta il bacino indietro e la kettlebell tra le gambe", "Spingi con le anche, braccia rilassate fino al petto"], "err": "Sollevi con le braccia: la spinta viene dalle anche"},
+ "en": {"n": "Kettlebell swing", "al": ["KB swing", "Russian swing", "Swing"], "cues": ["Hinge back, hike the bell between your legs", "Snap your hips forward, arms loose, bell to chest height"], "err": "Lifting with your arms: let your hips drive the bell"},
+ "fr": {"n": "Kettlebell swing", "al": ["Swing", "Swing kettlebell"], "cues": ["Hanches en arrière, kettlebell entre les jambes", "Claque les hanches, bras relâchés, cloche à hauteur poitrine"], "err": "Tu montes avec les bras : c'est la hanche qui propulse"},
+ "es": {"n": "Swing con kettlebell", "al": ["Kettlebell swing", "Swing", "Swing con pesa rusa"], "cues": ["Cadera atrás y lleva la kettlebell entre las piernas", "Extiende la cadera con fuerza, brazos sueltos hasta el pecho"], "err": "Subir con los brazos: el impulso sale de la cadera"},
+ "de": {"n": "Kettlebell Swing", "al": ["KB Swing", "Swing"], "cues": ["Hüfte nach hinten, Kettlebell zwischen die Beine", "Hüfte explosiv strecken, Arme locker bis Brusthöhe"], "err": "Mit den Armen hochziehen: der Schwung kommt aus der Hüfte"}
+},
+"bench-press": {
+ "it": {"n": "Panca piana", "al": ["Bench press", "Distensioni su panca", "Panca"], "cues": ["Scapole strette, piedi ben piantati a terra", "Scendi al petto controllato e spingi su in linea"], "err": "Glutei che si staccano: tienili sulla panca"},
+ "en": {"n": "Bench press", "al": ["Barbell bench press", "Flat bench", "Bench"], "cues": ["Squeeze your shoulder blades, feet planted", "Lower to your chest with control, press back up"], "err": "Butt coming off the bench: keep your glutes down"},
+ "fr": {"n": "Développé couché", "al": ["DC", "Bench press", "Développé couché barre"], "cues": ["Omoplates serrées, pieds bien ancrés au sol", "Descends contrôlé sur la poitrine, pousse en ligne"], "err": "Fesses qui décollent : garde-les collées au banc"},
+ "es": {"n": "Press de banca", "al": ["Press banca", "Bench press", "Banca plana"], "cues": ["Escápulas juntas, pies bien firmes en el suelo", "Baja controlado al pecho y empuja hacia arriba"], "err": "Glúteos que se levantan: mantenlos en el banco"},
+ "de": {"n": "Bankdrücken", "al": ["Bench Press", "Flachbankdrücken"], "cues": ["Schulterblätter zusammen, Füße fest am Boden", "Kontrolliert zur Brust, dann kraftvoll hochdrücken"], "err": "Po hebt ab: Gesäß bleibt auf der Bank"}
+},
+"incline-dumbbell-press": {
+ "it": {"n": "Panca inclinata manubri", "al": ["Distensioni inclinate", "Spinte su panca inclinata", "Incline press"], "cues": ["Panca a 30-45 gradi, scapole strette", "Scendi ai lati del petto alto e spingi su"], "err": "Gomiti troppo aperti: tienili a circa 45 gradi dal busto"},
+ "en": {"n": "Incline dumbbell press", "al": ["Incline DB press", "Incline press"], "cues": ["Bench at 30-45°, shoulder blades pinched", "Lower to your upper chest, press up and slightly in"], "err": "Elbows flared wide: keep them about 45° from your body"},
+ "fr": {"n": "Développé incliné haltères", "al": ["DI haltères", "Incliné haltères"], "cues": ["Banc à 30-45°, omoplates serrées", "Descends vers le haut des pecs, pousse vers le haut"], "err": "Coudes trop ouverts : garde-les à 45° environ du buste"},
+ "es": {"n": "Press inclinado mancuernas", "al": ["Press inclinado", "Incline press"], "cues": ["Banco a 30-45°, escápulas juntas", "Baja hacia el pecho alto y empuja hacia arriba"], "err": "Codos muy abiertos: llévalos a unos 45° del torso"},
+ "de": {"n": "Schrägbankdrücken KH", "al": ["Kurzhantel-Schrägbankdrücken", "Schrägbank"], "cues": ["Bank auf 30-45 Grad, Schulterblätter zusammen", "Zur oberen Brust ablassen, dann hochdrücken"], "err": "Ellbogen zu weit offen: etwa 45 Grad zum Körper halten"}
+},
+"dumbbell-bench-press": {
+ "it": {"n": "Panca piana manubri", "al": ["Distensioni con manubri", "Dumbbell press"], "cues": ["Scapole strette, manubri sopra il petto", "Scendi fino ad allungare il petto e risali uniti"], "err": "Manubri che oscillano: scendi più lento e controlla"},
+ "en": {"n": "Dumbbell bench press", "al": ["DB bench", "Dumbbell press", "Flat DB press"], "cues": ["Shoulder blades pinched, dumbbells over your chest", "Lower to a stretch, press up and bring them together"], "err": "Wobbly dumbbells: slow the descent and stay in control"},
+ "fr": {"n": "Développé couché haltères", "al": ["DC haltères", "Dumbbell press"], "cues": ["Omoplates serrées, haltères au-dessus de la poitrine", "Descends en étirement, remonte en rapprochant les haltères"], "err": "Haltères qui tanguent : ralentis la descente"},
+ "es": {"n": "Press banca mancuernas", "al": ["Press con mancuernas", "Dumbbell press"], "cues": ["Escápulas juntas, mancuernas sobre el pecho", "Baja hasta estirar y sube juntando las mancuernas"], "err": "Mancuernas que bailan: baja más lento y con control"},
+ "de": {"n": "Kurzhantel-Bankdrücken", "al": ["KH-Bankdrücken", "Dumbbell Press"], "cues": ["Schulterblätter zusammen, Hanteln über der Brust", "Bis zur Dehnung ablassen, oben zusammenführen"], "err": "Hanteln wackeln: langsamer ablassen, Kontrolle halten"}
+},
+"push-up": {
+ "it": {"n": "Piegamenti", "al": ["Flessioni", "Push up", "Piegamenti sulle braccia"], "cues": ["Mani sotto le spalle, corpo dritto come una tavola", "Scendi col petto quasi a terra e spingi su"], "err": "Bacino che cede: stringi addome e glutei"},
+ "en": {"n": "Push-up", "al": ["Press-up", "Pushups"], "cues": ["Hands under your shoulders, body in a straight line", "Lower your chest near the floor, push back up"], "err": "Hips sagging: squeeze your glutes and brace your abs"},
+ "fr": {"n": "Pompes", "al": ["Push-up", "Pompe"], "cues": ["Mains sous les épaules, corps aligné comme une planche", "Descends la poitrine près du sol, puis pousse"], "err": "Bassin qui s'affaisse : serre les abdos et les fessiers"},
+ "es": {"n": "Flexiones", "al": ["Lagartijas", "Push-up", "Flexiones de brazos"], "cues": ["Manos bajo los hombros, cuerpo recto como una tabla", "Baja el pecho cerca del suelo y empuja"], "err": "Cadera que se hunde: aprieta abdomen y glúteos"},
+ "de": {"n": "Liegestütze", "al": ["Liegestütz", "Push-ups"], "cues": ["Hände unter den Schultern, Körper wie ein Brett", "Brust fast zum Boden, dann hochdrücken"], "err": "Hüfte hängt durch: Bauch und Po fest anspannen"}
+},
+"knee-push-up": {
+ "it": {"n": "Piegamenti sulle ginocchia", "al": ["Flessioni sulle ginocchia", "Push up facilitati"], "cues": ["Ginocchia a terra, linea dritta da ginocchia a testa", "Scendi col petto tra le mani e spingi su"], "err": "Sedere in alto: abbassa il bacino in linea col busto"},
+ "en": {"n": "Knee push-up", "al": ["Kneeling push-up", "Modified push-up"], "cues": ["Knees down, straight line from knees to head", "Lower your chest between your hands, push up"], "err": "Hips piked up: lower them in line with your torso"},
+ "fr": {"n": "Pompes sur les genoux", "al": ["Pompes genoux", "Pompes faciles"], "cues": ["Genoux au sol, corps aligné des genoux à la tête", "Descends la poitrine entre les mains et pousse"], "err": "Fesses trop hautes : aligne le bassin avec le buste"},
+ "es": {"n": "Flexiones de rodillas", "al": ["Flexiones apoyando rodillas", "Lagartijas de rodillas"], "cues": ["Rodillas en el suelo, línea recta de rodillas a cabeza", "Baja el pecho entre las manos y empuja"], "err": "Cadera muy alta: bájala en línea con el tronco"},
+ "de": {"n": "Knieliegestütze", "al": ["Liegestütze auf Knien", "Kniende Liegestütze"], "cues": ["Knie am Boden, gerade Linie von Knie bis Kopf", "Brust zwischen die Hände senken, hochdrücken"], "err": "Po zu hoch: Hüfte in eine Linie mit dem Oberkörper"}
+},
+"overhead-press": {
+ "it": {"n": "Military press", "al": ["Lento avanti", "Overhead press", "Shoulder press"], "cues": ["Bilanciere sulle clavicole, glutei e addome stretti", "Spingi sopra la testa e porta la testa avanti in alto"], "err": "Schiena che si inarca: stringi glutei e addome"},
+ "en": {"n": "Overhead press", "al": ["OHP", "Military press", "Standing press"], "cues": ["Bar on your collarbones, glutes and abs tight", "Press overhead, move your head through at the top"], "err": "Leaning back: squeeze your glutes and brace harder"},
+ "fr": {"n": "Développé militaire", "al": ["Overhead press", "Développé debout", "Military press"], "cues": ["Barre sur les clavicules, fessiers et abdos serrés", "Pousse au-dessus de la tête, passe la tête devant en haut"], "err": "Dos qui se cambre : serre les fessiers et gaine-toi"},
+ "es": {"n": "Press militar", "al": ["Press de hombros", "Overhead press", "Press militar de pie"], "cues": ["Barra sobre las clavículas, glúteos y abdomen firmes", "Empuja por encima de la cabeza y mete la cabeza arriba"], "err": "Arquear la espalda: aprieta glúteos y abdomen"},
+ "de": {"n": "Schulterdrücken", "al": ["Military Press", "Overhead Press", "Stehendes Drücken"], "cues": ["Stange auf den Schlüsselbeinen, Po und Bauch fest", "Über Kopf drücken, oben Kopf unter die Stange"], "err": "Hohlkreuz: Po anspannen und Rumpf fester machen"}
+},
+"dumbbell-shoulder-press": {
+ "it": {"n": "Shoulder press manubri", "al": ["Lento con manubri", "Spinte manubri", "Lento avanti manubri"], "cues": ["Manubri all'altezza delle orecchie, polsi dritti", "Spingi su senza sbattere i manubri in alto"], "err": "Schiena che si stacca dallo schienale: addome stretto"},
+ "en": {"n": "Dumbbell shoulder press", "al": ["DB shoulder press", "Seated dumbbell press"], "cues": ["Dumbbells at ear height, wrists stacked", "Press up without clanging them at the top"], "err": "Arching off the backrest: brace your abs and stay flat"},
+ "fr": {"n": "Développé épaules haltères", "al": ["Développé assis haltères", "Shoulder press"], "cues": ["Haltères à hauteur des oreilles, poignets droits", "Pousse vers le haut sans cogner les haltères"], "err": "Dos qui se décolle du dossier : gaine les abdos"},
+ "es": {"n": "Press hombro mancuernas", "al": ["Press militar mancuernas", "Shoulder press"], "cues": ["Mancuernas a la altura de las orejas, muñecas rectas", "Empuja hacia arriba sin chocar las mancuernas"], "err": "Despegar la espalda del respaldo: aprieta el abdomen"},
+ "de": {"n": "Kurzhantel-Schulterdrücken", "al": ["KH-Schulterdrücken", "Shoulder Press"], "cues": ["Hanteln auf Ohrhöhe, Handgelenke gerade", "Hochdrücken, ohne die Hanteln oben zusammenzuschlagen"], "err": "Rücken löst sich von der Lehne: Bauch fest anspannen"}
+},
+"lateral-raise": {
+ "it": {"n": "Alzate laterali", "al": ["Lateral raise", "Alzate laterali manubri"], "cues": ["Gomiti leggermente piegati, sali di lato", "Fermati all'altezza delle spalle, scendi lento"], "err": "Slancio col busto: usa meno peso e resta fermo"},
+ "en": {"n": "Lateral raise", "al": ["Side raise", "Lateral raises", "Side laterals"], "cues": ["Slight bend in your elbows, raise out to the sides", "Stop at shoulder height, lower slowly"], "err": "Swinging your body: go lighter and stay still"},
+ "fr": {"n": "Élévations latérales", "al": ["Élév. latérales", "Lateral raise"], "cues": ["Coudes légèrement fléchis, monte sur les côtés", "Arrête-toi à hauteur d'épaules, redescends lentement"], "err": "Élan avec le buste : prends plus léger et reste immobile"},
+ "es": {"n": "Elevaciones laterales", "al": ["Laterales", "Lateral raise", "Vuelos laterales"], "cues": ["Codos un poco flexionados, sube hacia los lados", "Para a la altura de los hombros y baja despacio"], "err": "Balancear el cuerpo: usa menos peso y quédate quieto"},
+ "de": {"n": "Seitheben", "al": ["Seitheben mit Kurzhanteln", "Lateral Raise"], "cues": ["Ellbogen leicht gebeugt, seitlich nach oben", "Auf Schulterhöhe stoppen, langsam ablassen"], "err": "Schwung aus dem Oberkörper: leichter nehmen, ruhig bleiben"}
+},
+"pec-deck": {
+ "it": {"n": "Pectoral machine", "al": ["Pec deck", "Butterfly", "Croci alla macchina"], "cues": ["Schiena allo schienale, maniglie all'altezza del petto", "Chiudi abbracciando, stringi il petto e apri lento"], "err": "Spalle che vanno avanti: tienile basse e indietro"},
+ "en": {"n": "Pec deck", "al": ["Machine fly", "Butterfly", "Pec fly"], "cues": ["Back on the pad, handles at chest height", "Hug the handles together, squeeze, open slowly"], "err": "Shoulders rolling forward: keep them down and back"},
+ "fr": {"n": "Pec deck", "al": ["Butterfly", "Écarté machine"], "cues": ["Dos au dossier, poignées à hauteur de poitrine", "Ferme comme pour enlacer, serre, rouvre lentement"], "err": "Épaules qui avancent : garde-les basses et en arrière"},
+ "es": {"n": "Contractor de pecho", "al": ["Pec deck", "Mariposa", "Aperturas en máquina"], "cues": ["Espalda en el respaldo, agarres a la altura del pecho", "Cierra como un abrazo, aprieta y abre despacio"], "err": "Hombros hacia delante: mantenlos abajo y atrás"},
+ "de": {"n": "Butterfly", "al": ["Butterfly-Maschine", "Pec Deck", "Butterflymaschine"], "cues": ["Rücken ans Polster, Griffe auf Brusthöhe", "Wie eine Umarmung schließen, halten, langsam öffnen"], "err": "Schultern rollen nach vorn: tief und hinten halten"}
+},
+"dips": {
+ "it": {"n": "Dip alle parallele", "al": ["Dips", "Parallele", "Dip"], "cues": ["Braccia tese sulle parallele, spalle basse", "Scendi finché le spalle sono all'altezza dei gomiti"], "err": "Spalle che salgono alle orecchie: spingile verso il basso"},
+ "en": {"n": "Dips", "al": ["Parallel bar dips", "Bar dips", "Chest dips"], "cues": ["Arms locked on the bars, shoulders down", "Lower until your shoulders reach elbow height"], "err": "Shoulders shrugging up: press them down away from ears"},
+ "fr": {"n": "Dips", "al": ["Dips barres parallèles", "Dips aux barres"], "cues": ["Bras tendus sur les barres, épaules basses", "Descends jusqu'aux épaules à hauteur des coudes"], "err": "Épaules qui montent aux oreilles : abaisse-les"},
+ "es": {"n": "Fondos en paralelas", "al": ["Dips", "Fondos", "Paralelas"], "cues": ["Brazos estirados en las paralelas, hombros abajo", "Baja hasta que los hombros lleguen a la altura de los codos"], "err": "Hombros hacia las orejas: empújalos hacia abajo"},
+ "de": {"n": "Dips", "al": ["Barrendips", "Dips am Barren"], "cues": ["Arme gestreckt am Barren, Schultern tief", "Runter, bis die Schultern auf Ellbogenhöhe sind"], "err": "Schultern ziehen zu den Ohren: aktiv nach unten drücken"}
+},
+"bench-dip": {
+ "it": {"n": "Dip su panca", "al": ["Dip alla panca", "Bench dip", "Tricipiti alla panca"], "cues": ["Mani sul bordo della panca, sedere vicino alla panca", "Piega i gomiti indietro fino a 90 gradi e risali"], "err": "Sedere lontano dalla panca: scendi sfiorandola con la schiena"},
+ "en": {"n": "Bench dip", "al": ["Triceps bench dip", "Chair dip"], "cues": ["Hands on the bench edge, hips close to the bench", "Bend your elbows back to 90°, push back up"], "err": "Hips drifting away: keep your back brushing the bench"},
+ "fr": {"n": "Dips sur banc", "al": ["Dips banc", "Bench dip"], "cues": ["Mains au bord du banc, fesses près du banc", "Plie les coudes vers l'arrière à 90°, remonte"], "err": "Fesses qui s'éloignent : frôle le banc avec le dos"},
+ "es": {"n": "Fondos en banco", "al": ["Fondos de tríceps", "Bench dip"], "cues": ["Manos en el borde del banco, cadera cerca del banco", "Flexiona los codos hacia atrás a 90° y sube"], "err": "Cadera lejos del banco: baja rozándolo con la espalda"},
+ "de": {"n": "Bank-Dips", "al": ["Dips an der Bank", "Trizeps-Dips"], "cues": ["Hände an der Bankkante, Po nah an der Bank", "Ellbogen nach hinten auf 90 Grad beugen, hochdrücken"], "err": "Po rutscht weg: Rücken bleibt nah an der Bank"}
+},
+"triceps-pushdown": {
+ "it": {"n": "Pushdown tricipiti", "al": ["Push down", "Tricipiti al cavo", "Spinte in basso al cavo"], "cues": ["Gomiti incollati ai fianchi, petto alto", "Spingi giù fino a braccia tese e risali lento"], "err": "Gomiti che si muovono: tienili fermi, muovi solo l'avambraccio"},
+ "en": {"n": "Triceps pushdown", "al": ["Cable pushdown", "Tricep pushdown", "Rope pushdown"], "cues": ["Elbows pinned to your sides, chest up", "Push down to full lockout, let it up slowly"], "err": "Elbows drifting: pin them, only your forearms move"},
+ "fr": {"n": "Extension triceps poulie", "al": ["Pushdown", "Triceps poulie haute", "Push-down"], "cues": ["Coudes collés au corps, poitrine haute", "Pousse jusqu'aux bras tendus, remonte lentement"], "err": "Coudes qui bougent : fixe-les, seuls les avant-bras bougent"},
+ "es": {"n": "Extensión tríceps polea", "al": ["Jalón de tríceps", "Pushdown", "Tríceps en polea"], "cues": ["Codos pegados al cuerpo, pecho arriba", "Empuja abajo hasta estirar y sube despacio"], "err": "Codos que se mueven: fíjalos, solo bajan los antebrazos"},
+ "de": {"n": "Trizepsdrücken am Kabel", "al": ["Pushdown", "Trizeps am Kabelzug", "Seildrücken"], "cues": ["Ellbogen fest am Körper, Brust raus", "Bis zur Streckung runterdrücken, langsam zurück"], "err": "Ellbogen wandern: fixieren, nur die Unterarme bewegen"}
+},
+"overhead-triceps-extension": {
+ "it": {"n": "French press manubrio", "al": ["Estensioni sopra la testa", "Tricipiti sopra la testa", "Overhead extension"], "cues": ["Manubrio sopra la testa, gomiti verso l'alto", "Scendi dietro la nuca e distendi le braccia"], "err": "Gomiti che si aprono: tienili stretti vicino alla testa"},
+ "en": {"n": "Overhead triceps extension", "al": ["Overhead extension", "Dumbbell triceps extension"], "cues": ["Dumbbell overhead, elbows pointing up", "Lower behind your head, then straighten your arms"], "err": "Elbows flaring out: keep them tight by your head"},
+ "fr": {"n": "Extension triceps nuque", "al": ["Extension haltère nuque", "Overhead extension"], "cues": ["Haltère au-dessus de la tête, coudes vers le haut", "Descends derrière la nuque, puis tends les bras"], "err": "Coudes qui s'écartent : garde-les serrés près de la tête"},
+ "es": {"n": "Extensión tríceps tras nuca", "al": ["Extensión sobre la cabeza", "Overhead extension"], "cues": ["Mancuerna sobre la cabeza, codos hacia arriba", "Baja detrás de la nuca y estira los brazos"], "err": "Codos que se abren: mantenlos cerca de la cabeza"},
+ "de": {"n": "Trizepsdrücken über Kopf", "al": ["Overhead Extension", "French Press Kurzhantel"], "cues": ["Hantel über dem Kopf, Ellbogen zeigen nach oben", "Hinter den Kopf absenken, dann Arme strecken"], "err": "Ellbogen gehen auseinander: eng am Kopf halten"}
+},
+"pull-up": {
+ "it": {"n": "Trazioni alla sbarra", "al": ["Trazioni", "Pull up", "Trazioni presa prona"], "cues": ["Presa prona poco più larga delle spalle, braccia tese", "Tira il petto verso la sbarra portando giù i gomiti"], "err": "Mezze ripetizioni: parti a braccia tese ogni volta"},
+ "en": {"n": "Pull-up", "al": ["Pullups", "Wide-grip pull-up"], "cues": ["Overhand grip just outside shoulders, start from a dead hang", "Pull your chest to the bar, drive your elbows down"], "err": "Half reps: start each rep from straight arms"},
+ "fr": {"n": "Tractions", "al": ["Tractions pronation", "Pull-up", "Traction"], "cues": ["Prise pronation un peu plus large que les épaules", "Tire la poitrine vers la barre, coudes vers le bas"], "err": "Demi-répétitions : repars bras tendus à chaque fois"},
+ "es": {"n": "Dominadas", "al": ["Dominadas pronas", "Pull-up"], "cues": ["Agarre prono algo más ancho que los hombros", "Lleva el pecho a la barra bajando los codos"], "err": "Repeticiones a medias: empieza cada una con brazos estirados"},
+ "de": {"n": "Klimmzüge", "al": ["Pull-ups", "Klimmzug Obergriff"], "cues": ["Obergriff etwas breiter als schulterbreit, Arme gestreckt", "Brust zur Stange ziehen, Ellbogen nach unten"], "err": "Halbe Wiederholungen: jedes Mal aus gestreckten Armen starten"}
+},
+"chin-up": {
+ "it": {"n": "Trazioni presa supina", "al": ["Chin up", "Trazioni inverse", "Trazioni supine"], "cues": ["Presa supina larga come le spalle, braccia tese", "Tira finché il mento supera la sbarra"], "err": "Slancio con le gambe: resta compatto, niente oscillazioni"},
+ "en": {"n": "Chin-up", "al": ["Chinups", "Underhand pull-up"], "cues": ["Underhand grip, shoulder-width, from a dead hang", "Pull until your chin clears the bar"], "err": "Kipping with your legs: stay tight, no swinging"},
+ "fr": {"n": "Tractions supination", "al": ["Chin-up", "Tractions prise inversée"], "cues": ["Prise supination largeur d'épaules, bras tendus", "Tire jusqu'à passer le menton au-dessus de la barre"], "err": "Élan avec les jambes : reste gainé, sans balancer"},
+ "es": {"n": "Dominadas supinas", "al": ["Chin-up", "Dominadas agarre supino"], "cues": ["Agarre supino al ancho de hombros, brazos estirados", "Tira hasta que la barbilla pase la barra"], "err": "Impulso con las piernas: mantente firme, sin balanceo"},
+ "de": {"n": "Klimmzüge Untergriff", "al": ["Chin-ups", "Untergriff-Klimmzüge"], "cues": ["Untergriff schulterbreit, aus gestreckten Armen", "Hochziehen, bis das Kinn über der Stange ist"], "err": "Schwung aus den Beinen: Körper fest, nicht schaukeln"}
+}
+}}

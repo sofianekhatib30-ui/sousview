@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "LiftView",
+  "description": "Your gym program in your glasses: sets, reps, weight and rest at a glance, hands on the bar. No camera, data stays on your device. 5 languages.",
+  "appearance": {
+    "theme_color": "#4DA3FF",
+    "icon": {
+      "src": "../icon.svg",
+      "type": "monochrome"
+    }
+  }
+}
