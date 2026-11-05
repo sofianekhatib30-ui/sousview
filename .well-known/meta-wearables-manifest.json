@@ -1,9 +1,9 @@
 {
   "version": 1,
   "name": "LookView",
-  "description": "Look at a product in a shop and find the same one, or similar ones, online with prices side by side. Identical, same model or similar, new or used. No camera, no commissions. 5 languages.",
+  "description": "Look at any product and find where it costs less, anywhere in the world: the same item or close alternatives, cheapest first, with shipping and the saving versus the shop price. No camera, no commissions. 5 languages.",
   "appearance": {
-    "theme_color": "#FF7EB6",
+    "theme_color": "#F4F6F8",
     "icon": {
       "src": "../icon.svg",
       "type": "monochrome"

@@ -24,7 +24,8 @@ export default async function handler(req, res) {
       const cur = (await readBlob(`pair/${code}/saved.json`)) || { items: [] };
       if (body.action === 'save' && body.item) {
         const it = body.item;
-        const item = { title: str(it.title, 120), store: str(it.store, 40), url: str(it.url, 500), price: Number(it.price) || null, currency: str(it.currency, 3), match: ['identical', 'same_model', 'similar'].includes(it.match) ? it.match : 'similar', condition: it.condition === 'used' ? 'used' : 'new', at: Date.now() };
+        const num = (v) => (Number(v) >= 0 && v !== null && v !== '' ? Math.round(Number(v) * 100) / 100 : null);
+        const item = { title: str(it.title, 120), store: str(it.store, 40), host: str(it.host, 80), url: str(it.url, 500), price: num(it.price), currency: str(it.currency, 3), price_local: num(it.price_local), currency_local: str(it.currency_local, 3), shipping_local: num(it.shipping_local), match: ['identical', 'same_model', 'similar'].includes(it.match) ? it.match : 'similar', condition: it.condition === 'used' ? 'used' : 'new', at: Date.now() };
         if (!/^https:\/\//.test(item.url)) return send(res, 400, { error: 'bad_item' });
         cur.items = [item].concat(cur.items.filter((x) => x.url !== item.url)).slice(0, 100);
       } else if (body.action === 'unsave') {

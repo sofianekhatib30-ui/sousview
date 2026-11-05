@@ -1,5 +1,5 @@
 // LookView: prima la rete (prezzi e aggiornamenti freschi), poi la copia salvata se il negozio ha poco segnale.
-const CACHE = 'lookview-v1';
+const CACHE = 'lookview-v2';
 self.addEventListener('install', (e) => { self.skipWaiting(); e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', 'icon.svg']).catch(() => {}))); });
 self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
 self.addEventListener('fetch', (e) => {
