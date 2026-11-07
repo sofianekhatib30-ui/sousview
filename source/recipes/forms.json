@@ -4,6 +4,10 @@
    "albicocca",
    "albicocche"
   ],
+  "albume freschissimo": [
+   "albume freschissimo",
+   "albumi freschissimi"
+  ],
   "albumi": [
    "albume",
    "albumi"
@@ -12,6 +16,10 @@
    "amarena sciroppata",
    "amarene sciroppate"
   ],
+  "ananas": [
+   "ananas",
+   "ananas"
+  ],
   "anice stellato": [
    "anice stellato",
    "anice stellato"
@@ -19,6 +27,10 @@
   "arance": [
    "arancia",
    "arance"
+  ],
+  "arance per servire": [
+   "arancia per servire",
+   "arance per servire"
   ],
   "arancia (scorza)": [
    "arancia (scorza)",
@@ -52,6 +64,14 @@
    "baccello di vaniglia",
    "baccelli di vaniglia"
   ],
+  "bacche di pimento": [
+   "bacca di pimento",
+   "bacche di pimento"
+  ],
+  "baguette": [
+   "baguette",
+   "baguette"
+  ],
   "baguette piccole": [
    "baguette piccola",
    "baguette piccole"
@@ -67,6 +87,26 @@
   "banana matura": [
    "banana matura",
    "banane mature"
+  ],
+  "banane mature": [
+   "banana matura",
+   "banane mature"
+  ],
+  "banane mature ma sode": [
+   "banana matura ma soda",
+   "banane mature ma sode"
+  ],
+  "banane sode appena mature": [
+   "banana soda appena matura",
+   "banane sode appena mature"
+  ],
+  "branzini da 500 g circa, puliti": [
+   "branzino da 500 g circa, pulito",
+   "branzini da 500 g circa, puliti"
+  ],
+  "branzini da 500 g, puliti": [
+   "branzino da 500 g, pulito",
+   "branzini da 500 g, puliti"
   ],
   "branzini interi eviscerati da 400 g": [
    "branzino intero eviscerato da 400 g",
@@ -96,6 +136,22 @@
    "carota",
    "carote"
   ],
+  "cespo di lattuga": [
+   "cespo di lattuga",
+   "cespi di lattuga"
+  ],
+  "cespo di lattuga romana": [
+   "cespo di lattuga romana",
+   "cespi di lattuga romana"
+  ],
+  "cetrioli": [
+   "cetriolo",
+   "cetrioli"
+  ],
+  "cetrioli piccoli": [
+   "cetriolo piccolo",
+   "cetrioli piccoli"
+  ],
   "cetriolo": [
    "cetriolo",
    "cetrioli"
@@ -124,6 +180,10 @@
    "cipolla bianca piccola",
    "cipolle bianche piccole"
   ],
+  "cipolla grande": [
+   "cipolla grande",
+   "cipolle grandi"
+  ],
   "cipolla piccola": [
    "cipolla piccola",
    "cipolle piccole"
@@ -143,6 +203,10 @@
   "cipolle grandi": [
    "cipolla grande",
    "cipolle grandi"
+  ],
+  "cipolle rosse": [
+   "cipolla rossa",
+   "cipolle rosse"
   ],
   "cipollotti": [
    "cipollotto",
@@ -164,6 +228,10 @@
    "costoletta di vitello con l'osso, alta 2 cm",
    "costolette di vitello con l'osso, alte 2 cm"
   ],
+  "cracker salati": [
+   "cracker salato",
+   "cracker salati"
+  ],
   "cubetti di ghiaccio": [
    "cubetto di ghiaccio",
    "cubetti di ghiaccio"
@@ -184,6 +252,10 @@
    "fetta d'arancia",
    "fette d'arancia"
   ],
+  "fetta di limone": [
+   "fetta di limone",
+   "fette di limone"
+  ],
   "fette di bacon": [
    "fetta di bacon",
    "fette di bacon"
@@ -203,6 +275,10 @@
   "fette di pan brioche raffermo (2 cm)": [
    "fetta di pan brioche raffermo (2 cm)",
    "fette di pan brioche raffermo (2 cm)"
+  ],
+  "fette di pane in cassetta": [
+   "fetta di pane in cassetta",
+   "fette di pane in cassetta"
   ],
   "fette di pane toscano": [
    "fetta di pane toscano",
@@ -240,6 +316,14 @@
    "finocchio",
    "finocchi"
   ],
+  "fogli di carta di riso (22 cm)": [
+   "foglio di carta di riso (22 cm)",
+   "fogli di carta di riso (22 cm)"
+  ],
+  "fogli di pasta fillo": [
+   "foglio di pasta fillo",
+   "fogli di pasta fillo"
+  ],
   "foglia d'alloro": [
    "foglia d'alloro",
    "foglie d'alloro"
@@ -260,6 +344,10 @@
    "foglia di basilico",
    "foglie di basilico"
   ],
+  "foglie di lattuga": [
+   "foglia di lattuga",
+   "foglie di lattuga"
+  ],
   "foglie di lime kaffir": [
    "foglia di lime kaffir",
    "foglie di lime kaffir"
@@ -276,9 +364,17 @@
    "foglio di alga nori",
    "fogli di alga nori"
   ],
+  "frutti della passione": [
+   "frutto della passione",
+   "frutti della passione"
+  ],
   "funghi shiitake secchi": [
    "fungo shiitake secco",
    "funghi shiitake secchi"
+  ],
+  "gamberi crudi grandi": [
+   "gambero crudo grande",
+   "gamberi crudi grandi"
   ],
   "gambi di citronella": [
    "gambo di citronella",
@@ -287,6 +383,10 @@
   "gambo di sedano": [
    "gambo di sedano",
    "gambi di sedano"
+  ],
+  "gocce di Angostura": [
+   "goccia di Angostura",
+   "gocce di Angostura"
   ],
   "gocce di Tabasco": [
    "goccia di Tabasco",
@@ -303,6 +403,10 @@
   "lime": [
    "lime",
    "lime"
+  ],
+  "lime per le cipolle": [
+   "lime per le cipolle",
+   "lime per le cipolle"
   ],
   "limone": [
    "limone",
@@ -323,6 +427,14 @@
   "limone non trattato": [
    "limone non trattato",
    "limoni non trattati"
+  ],
+  "limone non trattato (scorza)": [
+   "limone non trattato (scorza)",
+   "limoni non trattati (scorza)"
+  ],
+  "limone per la toum": [
+   "limone per la toum",
+   "limoni per la toum"
   ],
   "limoni": [
    "limone",
@@ -356,6 +468,10 @@
    "mela verde",
    "mele verdi"
   ],
+  "melagrana": [
+   "melagrana",
+   "melagrane"
+  ],
   "melanzana": [
    "melanzana",
    "melanzane"
@@ -363,6 +479,10 @@
   "melanzane": [
    "melanzana",
    "melanzane"
+  ],
+  "melanzane lunghe": [
+   "melanzana lunga",
+   "melanzane lunghe"
   ],
   "mele": [
    "mela",
@@ -384,6 +504,10 @@
    "oliva verde (facoltativa)",
    "olive verdi (facoltative)"
   ],
+  "olive nere": [
+   "oliva nera",
+   "olive nere"
+  ],
   "olive verdi giganti denocciolate": [
    "oliva verde gigante denocciolata",
    "olive verdi giganti denocciolate"
@@ -404,9 +528,41 @@
    "panino per hamburger",
    "panini per hamburger"
   ],
+  "pannocchie di mais": [
+   "pannocchia di mais",
+   "pannocchie di mais"
+  ],
+  "patata": [
+   "patata",
+   "patate"
+  ],
   "patata media": [
    "patata media",
    "patate medie"
+  ],
+  "patate dolci": [
+   "patata dolce",
+   "patate dolci"
+  ],
+  "patate medie": [
+   "patata media",
+   "patate medie"
+  ],
+  "peperoncini ancho secchi": [
+   "peperoncino ancho secco",
+   "peperoncini ancho secchi"
+  ],
+  "peperoncini freschi": [
+   "peperoncino fresco",
+   "peperoncini freschi"
+  ],
+  "peperoncini guajillo secchi": [
+   "peperoncino guajillo secco",
+   "peperoncini guajillo secchi"
+  ],
+  "peperoncini pasilla secchi": [
+   "peperoncino pasilla secco",
+   "peperoncini pasilla secchi"
   ],
   "peperoncini rossi freschi": [
    "peperoncino rosso fresco",
@@ -420,6 +576,10 @@
    "peperoncino thai",
    "peperoncini thai"
   ],
+  "peperoncini verdi": [
+   "peperoncino verde",
+   "peperoncini verdi"
+  ],
   "peperoncino": [
    "peperoncino",
    "peperoncini"
@@ -427,6 +587,10 @@
   "peperoncino fresco": [
    "peperoncino fresco",
    "peperoncini freschi"
+  ],
+  "peperoncino fresco piccante": [
+   "peperoncino fresco piccante",
+   "peperoncini freschi piccanti"
   ],
   "peperoncino jalapeño": [
    "peperoncino jalapeño",
@@ -440,6 +604,10 @@
    "peperoncino rosso fresco",
    "peperoncini rossi freschi"
   ],
+  "peperoncino rosso lungo": [
+   "peperoncino rosso lungo",
+   "peperoncini rossi lunghi"
+  ],
   "peperoncino secco": [
    "peperoncino secco",
    "peperoncini secchi"
@@ -447,6 +615,10 @@
   "peperoncino verde": [
    "peperoncino verde",
    "peperoncini verdi"
+  ],
+  "peperoncino verde fresco": [
+   "peperoncino verde fresco",
+   "peperoncini verdi freschi"
   ],
   "peperone giallo": [
    "peperone giallo",
@@ -472,13 +644,29 @@
    "peperone rosso o giallo",
    "peperoni rossi e gialli"
   ],
+  "peperoni verdi grandi": [
+   "peperone verde grande",
+   "peperoni verdi grandi"
+  ],
   "peperoni verdi lunghi": [
    "peperone verde lungo",
    "peperoni verdi lunghi"
   ],
+  "pera": [
+   "pera",
+   "pere"
+  ],
+  "pere mature ma sode (Williams)": [
+   "pera matura ma soda (Williams)",
+   "pere mature ma sode (Williams)"
+  ],
   "pere sode (Kaiser o Martin Sec)": [
    "pera soda (Kaiser o Martin Sec)",
    "pere sode (Kaiser o Martin Sec)"
+  ],
+  "pesca": [
+   "pesca",
+   "pesche"
   ],
   "pesche": [
    "pesca",
@@ -511,6 +699,14 @@
   "pomodori maturi": [
    "pomodoro maturo",
    "pomodori maturi"
+  ],
+  "pomodori sodi": [
+   "pomodoro sodo",
+   "pomodori sodi"
+  ],
+  "pomodori sodi e maturi": [
+   "pomodoro sodo e maturo",
+   "pomodori sodi e maturi"
   ],
   "pomodoro": [
    "pomodoro",
@@ -564,9 +760,17 @@
    "rapa bianca",
    "rape bianche"
   ],
+  "ravanelli": [
+   "ravanello",
+   "ravanelli"
+  ],
   "rondelle di lime": [
    "rondella di lime",
    "rondelle di lime"
+  ],
+  "scalogni": [
+   "scalogno",
+   "scalogni"
   ],
   "scalogno": [
    "scalogno",
@@ -587,6 +791,10 @@
   "spicchi d'aglio in camicia": [
    "spicchio d'aglio in camicia",
    "spicchi d'aglio in camicia"
+  ],
+  "spicchi d'aglio per la toum": [
+   "spicchio d'aglio per la toum",
+   "spicchi d'aglio per la toum"
   ],
   "spicchi d'aglio schiacciati": [
    "spicchio d'aglio schiacciato",
@@ -640,6 +848,14 @@
    "striscia di scorza di limone",
    "strisce di scorza di limone"
   ],
+  "tortilla di mais rafferma": [
+   "tortilla di mais rafferma",
+   "tortillas di mais rafferme"
+  ],
+  "tortillas di mais": [
+   "tortilla di mais",
+   "tortillas di mais"
+  ],
   "tuorli": [
    "tuorlo",
    "tuorli"
@@ -680,9 +896,17 @@
    "uovo freschissimo",
    "uova freschissime"
   ],
+  "uovo grande": [
+   "uovo grande",
+   "uova grandi"
+  ],
   "uovo intero": [
    "uovo intero",
    "uova intere"
+  ],
+  "uovo per spennellare": [
+   "uovo per spennellare",
+   "uova per spennellare"
   ],
   "zolletta di zucchero": [
    "zolletta di zucchero",
@@ -717,6 +941,14 @@
   "Thai bird's eye chillies": [
    "Thai bird's eye chilli",
    "Thai bird's eye chillies"
+  ],
+  "Thai chilies": [
+   "Thai chili",
+   "Thai chilies"
+  ],
+  "allspice berries": [
+   "allspice berry",
+   "allspice berries"
   ],
   "amarena cherry in syrup": [
    "amarena cherry in syrup",
@@ -754,6 +986,10 @@
    "bacon slice",
    "bacon slices"
   ],
+  "baguette": [
+   "baguette",
+   "baguettes"
+  ],
   "banana": [
    "banana",
    "bananas"
@@ -769,6 +1005,10 @@
   "bay leaves": [
    "bay leaf",
    "bay leaves"
+  ],
+  "black olives": [
+   "black olive",
+   "black olives"
   ],
   "black peppercorns": [
    "black peppercorn",
@@ -842,6 +1082,14 @@
    "coffee bean",
    "coffee beans"
   ],
+  "corn cobs": [
+   "corn cob",
+   "corn cobs"
+  ],
+  "corn tortillas": [
+   "corn tortilla",
+   "corn tortillas"
+  ],
   "courgette": [
    "courgette",
    "courgettes"
@@ -858,9 +1106,17 @@
    "cucumber",
    "cucumbers"
   ],
+  "cucumbers": [
+   "cucumber",
+   "cucumbers"
+  ],
   "dashes Angostura bitters": [
    "dash Angostura bitters",
    "dashes Angostura bitters"
+  ],
+  "dried ancho chilies": [
+   "dried ancho chili",
+   "dried ancho chilies"
   ],
   "dried chili": [
    "dried chili",
@@ -878,9 +1134,25 @@
    "dried chilli",
    "dried chillies"
   ],
+  "dried guajillo chilies": [
+   "dried guajillo chili",
+   "dried guajillo chilies"
+  ],
+  "dried pasilla chilies": [
+   "dried pasilla chili",
+   "dried pasilla chilies"
+  ],
+  "dried red chillies": [
+   "dried red chilli",
+   "dried red chillies"
+  ],
   "dried shiitake mushrooms": [
    "dried shiitake mushroom",
    "dried shiitake mushrooms"
+  ],
+  "drops of Angostura bitters": [
+   "drop of Angostura bitters",
+   "drops of Angostura bitters"
   ],
   "egg": [
    "egg",
@@ -901,6 +1173,10 @@
   "egg yolks": [
    "egg yolk",
    "egg yolks"
+  ],
+  "egg, for brushing": [
+   "egg, for brushing",
+   "eggs, for brushing"
   ],
   "eggplant": [
    "eggplant",
@@ -930,9 +1206,37 @@
    "firm pear (Bosc or Conference)",
    "firm pears (Bosc or Conference)"
   ],
+  "firm ripe tomatoes": [
+   "firm ripe tomato",
+   "firm ripe tomatoes"
+  ],
+  "firm tomatoes": [
+   "firm tomato",
+   "firm tomatoes"
+  ],
+  "firm, just-ripe bananas": [
+   "firm, just-ripe banana",
+   "firm, just-ripe bananas"
+  ],
+  "fresh chili": [
+   "fresh chili",
+   "fresh chilies"
+  ],
+  "fresh chilies": [
+   "fresh chili",
+   "fresh chilies"
+  ],
   "fresh chilli": [
    "fresh chilli",
    "fresh chillies"
+  ],
+  "fresh green chilli": [
+   "fresh green chilli",
+   "fresh green chillies"
+  ],
+  "fresh red chilies": [
+   "fresh red chili",
+   "fresh red chilies"
   ],
   "fresh red chilli": [
    "fresh red chilli",
@@ -958,6 +1262,10 @@
    "garlic clove (ideally giant aglione)",
    "garlic cloves (ideally giant aglione)"
   ],
+  "garlic cloves for the toum": [
+   "garlic clove for the toum",
+   "garlic cloves for the toum"
+  ],
   "garlic cloves, crushed": [
    "garlic clove, crushed",
    "garlic cloves, crushed"
@@ -978,6 +1286,10 @@
    "green chili",
    "green chilies"
   ],
+  "green chilies": [
+   "green chili",
+   "green chilies"
+  ],
   "green chilli": [
    "green chilli",
    "green chillies"
@@ -986,9 +1298,25 @@
    "green olive (optional)",
    "green olives (optional)"
   ],
+  "green pepper": [
+   "green pepper",
+   "green peppers"
+  ],
   "gyoza wrappers": [
    "gyoza wrapper",
    "gyoza wrappers"
+  ],
+  "head of lettuce": [
+   "head of lettuce",
+   "heads of lettuce"
+  ],
+  "head of romaine lettuce": [
+   "head of romaine lettuce",
+   "heads of romaine lettuce"
+  ],
+  "hot fresh chili": [
+   "hot fresh chili",
+   "hot fresh chilies"
   ],
   "ice cubes": [
    "ice cube",
@@ -1010,9 +1338,21 @@
    "large beefsteak tomato",
    "large beefsteak tomatoes"
   ],
+  "large egg": [
+   "large egg",
+   "large eggs"
+  ],
+  "large green peppers": [
+   "large green pepper",
+   "large green peppers"
+  ],
   "large ice cube": [
    "large ice cube",
    "large ice cubes"
+  ],
+  "large onion": [
+   "large onion",
+   "large onions"
   ],
   "large onions": [
    "large onion",
@@ -1021,6 +1361,10 @@
   "large pitted green olives": [
    "large pitted green olive",
    "large pitted green olives"
+  ],
+  "large raw prawns": [
+   "large raw prawn",
+   "large raw prawns"
   ],
   "large ripe avocado": [
    "large ripe avocado",
@@ -1058,6 +1402,14 @@
    "lemon (zest)",
    "lemons (zest)"
   ],
+  "lemon for the toum": [
+   "lemon for the toum",
+   "lemons for the toum"
+  ],
+  "lemon slice": [
+   "lemon slice",
+   "lemon slices"
+  ],
   "lemongrass stalks": [
    "lemongrass stalk",
    "lemongrass stalks"
@@ -1065,6 +1417,10 @@
   "lemons": [
    "lemon",
    "lemons"
+  ],
+  "lettuce leaves": [
+   "lettuce leaf",
+   "lettuce leaves"
   ],
   "lime": [
    "lime",
@@ -1082,15 +1438,31 @@
    "lime",
    "limes"
   ],
+  "limes for the onions": [
+   "lime for the onions",
+   "limes for the onions"
+  ],
+  "long aubergines": [
+   "long aubergine",
+   "long aubergines"
+  ],
   "long green peppers": [
    "long green pepper",
    "long green peppers"
+  ],
+  "long red chili": [
+   "long red chili",
+   "long red chilies"
   ],
   "makrut lime leaves": [
    "makrut lime leaf",
    "makrut lime leaves"
   ],
   "medium potato": [
+   "medium potato",
+   "medium potatoes"
+  ],
+  "medium potatoes": [
    "medium potato",
    "medium potatoes"
   ],
@@ -1101,6 +1473,10 @@
   "mint sprig": [
    "mint sprig",
    "mint sprigs"
+  ],
+  "nori sheet": [
+   "nori sheet",
+   "nori sheets"
   ],
   "onion": [
    "onion",
@@ -1126,17 +1502,37 @@
    "orange",
    "oranges"
   ],
+  "oranges, to serve": [
+   "orange, to serve",
+   "oranges, to serve"
+  ],
   "parsley sprigs": [
    "parsley sprig",
    "parsley sprigs"
+  ],
+  "passion fruits": [
+   "passion fruit",
+   "passion fruits"
+  ],
+  "peach": [
+   "peach",
+   "peaches"
   ],
   "peaches": [
    "peach",
    "peaches"
   ],
+  "pear": [
+   "pear",
+   "pears"
+  ],
   "piadina flatbreads": [
    "piadina flatbread",
    "piadina flatbreads"
+  ],
+  "pineapple": [
+   "pineapple",
+   "pineapples"
   ],
   "pineapple wedge": [
    "pineapple wedge",
@@ -1149,6 +1545,18 @@
   "pita breads": [
    "pita bread",
    "pita breads"
+  ],
+  "pomegranate": [
+   "pomegranate",
+   "pomegranates"
+  ],
+  "potato": [
+   "potato",
+   "potatoes"
+  ],
+  "radishes": [
+   "radish",
+   "radishes"
   ],
   "red and yellow bell peppers": [
    "red and yellow bell pepper",
@@ -1166,6 +1574,10 @@
    "red onion",
    "red onions"
   ],
+  "red onions": [
+   "red onion",
+   "red onions"
+  ],
   "red pepper": [
    "red pepper",
    "red peppers"
@@ -1173,6 +1585,10 @@
   "red peppers": [
    "red pepper",
    "red peppers"
+  ],
+  "rice paper sheets (22 cm)": [
+   "rice paper sheet (22 cm)",
+   "rice paper sheets (22 cm)"
   ],
   "ripe avocado": [
    "ripe avocado",
@@ -1185,6 +1601,18 @@
   "ripe banana": [
    "ripe banana",
    "ripe bananas"
+  ],
+  "ripe bananas": [
+   "ripe banana",
+   "ripe bananas"
+  ],
+  "ripe but firm bananas": [
+   "ripe but firm banana",
+   "ripe but firm bananas"
+  ],
+  "ripe but firm pears (Williams or Bartlett)": [
+   "ripe but firm pear (Williams or Bartlett)",
+   "ripe but firm pears (Williams or Bartlett)"
   ],
   "ripe mango": [
    "ripe mango",
@@ -1226,6 +1654,10 @@
    "sage leaf",
    "sage leaves"
   ],
+  "saltine crackers": [
+   "saltine cracker",
+   "saltine crackers"
+  ],
   "scallion": [
    "scallion",
    "scallions"
@@ -1234,13 +1666,25 @@
    "scallion",
    "scallions"
   ],
+  "sea bass, about 500 g each, gutted": [
+   "sea bass, about 500 g, gutted",
+   "sea bass, about 500 g each, gutted"
+  ],
   "shallot": [
+   "shallot",
+   "shallots"
+  ],
+  "shallots": [
    "shallot",
    "shallots"
   ],
   "sheet of nori": [
    "sheet of nori",
    "sheets of nori"
+  ],
+  "sheets of filo pastry": [
+   "sheet of filo pastry",
+   "sheets of filo pastry"
   ],
   "slices of baguette": [
    "slice of baguette",
@@ -1258,6 +1702,10 @@
    "slice of rustic bread",
    "slices of rustic bread"
   ],
+  "slices of sandwich bread": [
+   "slice of sandwich bread",
+   "slices of sandwich bread"
+  ],
   "slim leeks": [
    "slim leek",
    "slim leeks"
@@ -1269,6 +1717,10 @@
   "small carrot": [
    "small carrot",
    "small carrots"
+  ],
+  "small cucumbers": [
+   "small cucumber",
+   "small cucumbers"
   ],
   "small onion": [
    "small onion",
@@ -1306,9 +1758,21 @@
    "spring onion",
    "spring onions"
   ],
+  "stale corn tortilla": [
+   "stale corn tortilla",
+   "stale corn tortillas"
+  ],
   "star anise": [
    "star anise",
    "star anise"
+  ],
+  "star anise pod": [
+   "star anise pod",
+   "star anise pods"
+  ],
+  "star anise pods": [
+   "star anise pod",
+   "star anise pods"
   ],
   "strip of lemon peel": [
    "strip of lemon peel",
@@ -1321,6 +1785,10 @@
   "sugar cube": [
    "sugar cube",
    "sugar cubes"
+  ],
+  "sweet potatoes": [
+   "sweet potato",
+   "sweet potatoes"
   ],
   "thick slices of sourdough bread": [
    "thick slice of sourdough bread",
@@ -1354,6 +1822,10 @@
    "unwaxed lemon",
    "unwaxed lemons"
   ],
+  "unwaxed lemon (peel)": [
+   "unwaxed lemon (peel)",
+   "unwaxed lemons (peel)"
+  ],
   "unwaxed lemons": [
    "unwaxed lemon",
    "unwaxed lemons"
@@ -1373,6 +1845,10 @@
   "very fresh egg": [
    "very fresh egg",
    "very fresh eggs"
+  ],
+  "very fresh egg white": [
+   "very fresh egg white",
+   "very fresh egg whites"
   ],
   "very fresh egg yolks": [
    "very fresh egg yolk",
@@ -1405,6 +1881,10 @@
   "whole jalapeño or serrano chilli": [
    "whole jalapeño or serrano chilli",
    "whole jalapeño or serrano chillies"
+  ],
+  "whole sea bass, about 500 g each, cleaned": [
+   "whole sea bass, about 500 g each, cleaned",
+   "whole sea bass, about 500 g each, cleaned"
   ],
   "whole sea bass, gutted, about 400 g each": [
    "whole sea bass, gutted, about 400 g each",
@@ -1440,6 +1920,10 @@
    "amande grillée",
    "amandes grillées"
   ],
+  "ananas": [
+   "ananas",
+   "ananas"
+  ],
   "anis étoilé": [
    "anis étoilé",
    "anis étoilé"
@@ -1456,6 +1940,10 @@
    "aubergine",
    "aubergines"
   ],
+  "aubergines longues": [
+   "aubergine longue",
+   "aubergines longues"
+  ],
   "avocat bien mûr": [
    "avocat bien mûr",
    "avocats bien mûrs"
@@ -1463,6 +1951,18 @@
   "avocats bien mûrs": [
    "avocat bien mûr",
    "avocats bien mûrs"
+  ],
+  "avocats mûrs": [
+   "avocat mûr",
+   "avocats mûrs"
+  ],
+  "baguette": [
+   "baguette",
+   "baguettes"
+  ],
+  "baies de piment de la Jamaïque": [
+   "baie de piment de la Jamaïque",
+   "baies de piment de la Jamaïque"
   ],
   "banane": [
    "banane",
@@ -1476,9 +1976,33 @@
    "banane mûre",
    "bananes mûres"
   ],
+  "bananes fermes juste mûres": [
+   "banane ferme juste mûre",
+   "bananes fermes juste mûres"
+  ],
+  "bananes mûres": [
+   "banane mûre",
+   "bananes mûres"
+  ],
+  "bananes mûres mais fermes": [
+   "banane mûre mais ferme",
+   "bananes mûres mais fermes"
+  ],
+  "bars de 500 g environ, vidés": [
+   "bar de 500 g environ, vidé",
+   "bars de 500 g environ, vidés"
+  ],
+  "bars entiers d'environ 500 g, vidés": [
+   "bar entier d'environ 500 g, vidé",
+   "bars entiers d'environ 500 g, vidés"
+  ],
   "bars entiers vidés d'environ 400 g": [
    "bar entier vidé d'environ 400 g",
    "bars entiers vidés d'environ 400 g"
+  ],
+  "blanc d'œuf très frais": [
+   "blanc d'œuf très frais",
+   "blancs d'œufs très frais"
   ],
   "blancs d'œufs": [
    "blanc d'œuf",
@@ -1520,6 +2044,10 @@
    "brin de thym",
    "brins de thym"
   ],
+  "brochettes en bois": [
+   "brochette en bois",
+   "brochettes en bois"
+  ],
   "bulbes de fenouil": [
    "bulbe de fenouil",
    "bulbes de fenouil"
@@ -1548,6 +2076,10 @@
    "champignon shiitaké séché",
    "champignons shiitaké séchés"
   ],
+  "champignons shiitakés séchés": [
+   "champignon shiitaké séché",
+   "champignons shiitakés séchés"
+  ],
   "citron": [
    "citron",
    "citrons"
@@ -1563,6 +2095,14 @@
   "citron non traité": [
    "citron non traité",
    "citrons non traités"
+  ],
+  "citron non traité (zeste)": [
+   "citron non traité (zeste)",
+   "citrons non traités (zeste)"
+  ],
+  "citron pour la toum": [
+   "citron pour la toum",
+   "citrons pour la toum"
   ],
   "citron vert": [
    "citron vert",
@@ -1580,11 +2120,19 @@
    "citron vert",
    "citrons verts"
   ],
+  "citrons verts pour les oignons": [
+   "citron vert pour les oignons",
+   "citrons verts pour les oignons"
+  ],
   "clous de girofle": [
    "clou de girofle",
    "clous de girofle"
   ],
   "concombre": [
+   "concombre",
+   "concombres"
+  ],
+  "concombres": [
    "concombre",
    "concombres"
   ],
@@ -1596,9 +2144,17 @@
    "courgette",
    "courgettes"
   ],
+  "crackers salés": [
+   "cracker salé",
+   "crackers salés"
+  ],
   "côtes de veau avec l'os, de 2 cm": [
    "côte de veau avec l'os, de 2 cm",
    "côtes de veau avec l'os, de 2 cm"
+  ],
+  "cœur de laitue romaine": [
+   "cœur de laitue romaine",
+   "cœurs de laitue romaine"
   ],
   "dattes Medjool": [
    "datte Medjool",
@@ -1624,6 +2180,10 @@
    "feuille de combava",
    "feuilles de combava"
   ],
+  "feuilles de laitue": [
+   "feuille de laitue",
+   "feuilles de laitue"
+  ],
   "feuilles de laurier": [
    "feuille de laurier",
    "feuilles de laurier"
@@ -1631,6 +2191,10 @@
   "feuilles de menthe": [
    "feuille de menthe",
    "feuilles de menthe"
+  ],
+  "feuilles de pâte filo": [
+   "feuille de pâte filo",
+   "feuilles de pâte filo"
   ],
   "feuilles de sauge": [
    "feuille de sauge",
@@ -1656,6 +2220,14 @@
    "filet d’anchois à l’huile",
    "filets d’anchois à l’huile"
   ],
+  "fruits de la passion": [
+   "fruit de la passion",
+   "fruits de la passion"
+  ],
+  "galettes de riz (22 cm)": [
+   "galette de riz (22 cm)",
+   "galettes de riz (22 cm)"
+  ],
   "glaçons": [
    "glaçon",
    "glaçons"
@@ -1680,6 +2252,10 @@
    "gousse d'ail en chemise",
    "gousses d'ail en chemise"
   ],
+  "gousses d'ail pour la toum": [
+   "gousse d'ail pour la toum",
+   "gousses d'ail pour la toum"
+  ],
   "gousses d'ail écrasées": [
    "gousse d'ail écrasée",
    "gousses d'ail écrasées"
@@ -1696,6 +2272,10 @@
    "gousse d’ail (idéalement aglione)",
    "gousses d’ail (idéalement aglione)"
   ],
+  "gouttes d'Angostura": [
+   "goutte d'Angostura",
+   "gouttes d'Angostura"
+  ],
   "gouttes de Tabasco": [
    "goutte de Tabasco",
    "gouttes de Tabasco"
@@ -1707,6 +2287,10 @@
   "grains de poivre noir": [
    "grain de poivre noir",
    "grains de poivre noir"
+  ],
+  "grenade": [
+   "grenade",
+   "grenades"
   ],
   "gros avocat bien mûr": [
    "gros avocat bien mûr",
@@ -1720,6 +2304,10 @@
    "gros glaçon",
    "gros glaçons"
   ],
+  "gros oignon": [
+   "gros oignon",
+   "gros oignons"
+  ],
   "gros oignons": [
    "gros oignon",
    "gros oignons"
@@ -1728,9 +2316,21 @@
    "gros oignon jaune",
    "gros oignons jaunes"
   ],
+  "gros poivrons verts": [
+   "gros poivron vert",
+   "gros poivrons verts"
+  ],
+  "gros œuf": [
+   "gros œuf",
+   "gros œufs"
+  ],
   "grosse mangue mûre": [
    "grosse mangue mûre",
    "grosses mangues mûres"
+  ],
+  "grosses crevettes crues": [
+   "grosse crevette crue",
+   "grosses crevettes crues"
   ],
   "grosses olives vertes dénoyautées": [
    "grosse olive verte dénoyautée",
@@ -1780,6 +2380,18 @@
    "kiwi",
    "kiwis"
   ],
+  "laitue": [
+   "laitue",
+   "laitues"
+  ],
+  "laitue romaine": [
+   "laitue romaine",
+   "laitues romaines"
+  ],
+  "long piment rouge": [
+   "long piment rouge",
+   "longs piments rouges"
+  ],
   "mangue bien mûre": [
    "mangue bien mûre",
    "mangues bien mûres"
@@ -1824,9 +2436,17 @@
    "oignon nouveau",
    "oignons nouveaux"
   ],
+  "oignons rouges": [
+   "oignon rouge",
+   "oignons rouges"
+  ],
   "olive verte (facultatif)": [
    "olive verte (facultatif)",
    "olives vertes (facultatif)"
+  ],
+  "olives noires": [
+   "olive noire",
+   "olives noires"
   ],
   "orange (zeste)": [
    "orange (zeste)",
@@ -1844,6 +2464,10 @@
    "orange",
    "oranges"
   ],
+  "oranges pour servir": [
+   "orange pour servir",
+   "oranges pour servir"
+  ],
   "pains pita": [
    "pain pita",
    "pains pita"
@@ -1855,6 +2479,10 @@
   "pamplemousse rose": [
    "pamplemousse rose",
    "pamplemousses roses"
+  ],
+  "patates douces": [
+   "patate douce",
+   "patates douces"
   ],
   "petit oignon": [
    "petit oignon",
@@ -1876,6 +2504,10 @@
    "petite baguette",
    "petites baguettes"
   ],
+  "petits concombres": [
+   "petit concombre",
+   "petits concombres"
+  ],
   "petits pains au sésame": [
    "petit pain au sésame",
    "petits pains au sésame"
@@ -1895,6 +2527,10 @@
   "piment frais": [
    "piment frais",
    "piments frais"
+  ],
+  "piment frais fort": [
+   "piment frais fort",
+   "piments frais forts"
   ],
   "piment jalapeño": [
    "piment jalapeño",
@@ -1916,9 +2552,33 @@
    "piment vert",
    "piments verts"
   ],
+  "piment vert frais": [
+   "piment vert frais",
+   "piments verts frais"
+  ],
+  "piments ancho séchés": [
+   "piment ancho séché",
+   "piments ancho séchés"
+  ],
+  "piments frais": [
+   "piment frais",
+   "piments frais"
+  ],
+  "piments guajillo séchés": [
+   "piment guajillo séché",
+   "piments guajillo séchés"
+  ],
   "piments oiseau": [
    "piment oiseau",
    "piments oiseau"
+  ],
+  "piments oiseaux": [
+   "piment oiseau",
+   "piments oiseaux"
+  ],
+  "piments pasilla séchés": [
+   "piment pasilla séché",
+   "piments pasilla séchés"
   ],
   "piments rouges frais": [
    "piment rouge frais",
@@ -1928,9 +2588,17 @@
    "piment séché",
    "piments séchés"
   ],
+  "piments verts": [
+   "piment vert",
+   "piments verts"
+  ],
   "piques en bois": [
    "pique en bois",
    "piques en bois"
+  ],
+  "poire": [
+   "poire",
+   "poires"
   ],
   "poireau": [
    "poireau",
@@ -1943,6 +2611,10 @@
   "poires fermes (Conférence ou Bosc)": [
    "poire ferme (Conférence ou Bosc)",
    "poires fermes (Conférence ou Bosc)"
+  ],
+  "poires williams mûres mais fermes": [
+   "poire williams mûre mais ferme",
+   "poires williams mûres mais fermes"
   ],
   "poivre noir en grains": [
    "poivre noir en grains",
@@ -1976,6 +2648,10 @@
    "pomme",
    "pommes"
   ],
+  "pomme de terre": [
+   "pomme de terre",
+   "pommes de terre"
+  ],
   "pomme de terre moyenne": [
    "pomme de terre moyenne",
    "pommes de terre moyennes"
@@ -1988,6 +2664,10 @@
    "pomme",
    "pommes"
   ],
+  "pommes de terre moyennes": [
+   "pomme de terre moyenne",
+   "pommes de terre moyennes"
+  ],
   "pommes fermes (reinette ou Golden)": [
    "pomme ferme (reinette ou Golden)",
    "pommes fermes (reinette ou Golden)"
@@ -1995,6 +2675,10 @@
   "poulet entier d'environ 1,6 kg": [
    "poulet entier d'environ 1,6 kg",
    "poulets entiers d'environ 1,6 kg"
+  ],
+  "pêche": [
+   "pêche",
+   "pêches"
   ],
   "pêches": [
    "pêche",
@@ -2012,9 +2696,17 @@
    "quartier de citron vert",
    "quartiers de citron vert"
   ],
+  "radis": [
+   "radis",
+   "radis"
+  ],
   "rondelle d'orange": [
    "rondelle d'orange",
    "rondelles d'orange"
+  ],
+  "rondelle de citron": [
+   "rondelle de citron",
+   "rondelles de citron"
   ],
   "rondelles de citron vert": [
    "rondelle de citron vert",
@@ -2052,9 +2744,25 @@
    "tomate",
    "tomates"
   ],
+  "tomates fermes": [
+   "tomate ferme",
+   "tomates fermes"
+  ],
   "tomates mûres": [
    "tomate mûre",
    "tomates mûres"
+  ],
+  "tomates mûres et fermes": [
+   "tomate mûre et ferme",
+   "tomates mûres et fermes"
+  ],
+  "tortilla de maïs rassise": [
+   "tortilla de maïs rassise",
+   "tortillas de maïs rassises"
+  ],
+  "tortillas de maïs": [
+   "tortilla de maïs",
+   "tortillas de maïs"
   ],
   "traits d'Angostura": [
    "trait d'Angostura",
@@ -2088,6 +2796,10 @@
    "tranche de pain de campagne",
    "tranches de pain de campagne"
   ],
+  "tranches de pain de mie": [
+   "tranche de pain de mie",
+   "tranches de pain de mie"
+  ],
   "tranches épaisses de pain au levain": [
    "tranche épaisse de pain au levain",
    "tranches épaisses de pain au levain"
@@ -2104,6 +2816,18 @@
    "échalote",
    "échalotes"
   ],
+  "échalotes": [
+   "échalote",
+   "échalotes"
+  ],
+  "épis de maïs": [
+   "épi de maïs",
+   "épis de maïs"
+  ],
+  "étoile de badiane": [
+   "étoile de badiane",
+   "étoiles de badiane"
+  ],
   "étoiles de badiane": [
    "étoile de badiane",
    "étoiles de badiane"
@@ -2119,6 +2843,10 @@
   "œuf extra-frais": [
    "œuf extra-frais",
    "œufs extra-frais"
+  ],
+  "œuf pour dorer": [
+   "œuf pour dorer",
+   "œufs pour dorer"
   ],
   "œufs": [
    "œuf",
@@ -2138,6 +2866,10 @@
    "aceituna verde (opcional)",
    "aceitunas verdes (opcional)"
   ],
+  "aceitunas negras": [
+   "aceituna negra",
+   "aceitunas negras"
+  ],
   "aceitunas verdes grandes sin hueso": [
    "aceituna verde grande sin hueso",
    "aceitunas verdes grandes sin hueso"
@@ -2153,6 +2885,10 @@
   "aguacates maduros": [
    "aguacate maduro",
    "aguacates maduros"
+  ],
+  "ají fresco": [
+   "ají fresco",
+   "ajíes frescos"
   ],
   "albaricoques": [
    "albaricoque",
@@ -2174,6 +2910,10 @@
    "baguette pequeña",
    "baguettes pequeñas"
   ],
+  "barra de pan (baguette)": [
+   "barra de pan (baguette)",
+   "barras de pan (baguette)"
+  ],
   "berenjena": [
    "berenjena",
    "berenjenas"
@@ -2181,6 +2921,10 @@
   "berenjenas": [
    "berenjena",
    "berenjenas"
+  ],
+  "berenjenas alargadas": [
+   "berenjena alargada",
+   "berenjenas alargadas"
   ],
   "bolsitas de té negro": [
    "bolsita de té negro",
@@ -2202,6 +2946,10 @@
    "calabacín",
    "calabacines"
   ],
+  "camotes": [
+   "camote",
+   "camotes"
+  ],
   "caquis muy maduros": [
    "caqui muy maduro",
    "caquis muy maduros"
@@ -2218,6 +2966,10 @@
    "cebolla blanca pequeña",
    "cebollas blancas pequeñas"
   ],
+  "cebolla grande": [
+   "cebolla grande",
+   "cebollas grandes"
+  ],
   "cebolla morada": [
    "cebolla morada",
    "cebollas moradas"
@@ -2230,9 +2982,17 @@
    "cebolla",
    "cebollas"
   ],
+  "cebollas chinas": [
+   "cebolla china",
+   "cebollas chinas"
+  ],
   "cebollas grandes": [
    "cebolla grande",
    "cebollas grandes"
+  ],
+  "cebollas moradas": [
+   "cebolla morada",
+   "cebollas moradas"
   ],
   "cebolleta": [
    "cebolleta",
@@ -2254,6 +3014,10 @@
    "chalota pequeña",
    "chalotas pequeñas"
   ],
+  "chalotas": [
+   "chalota",
+   "chalotas"
+  ],
   "champiñones grandes": [
    "champiñón grande",
    "champiñones grandes"
@@ -2261,6 +3025,10 @@
   "chile dulce (pimiento rojo)": [
    "chile dulce (pimiento rojo)",
    "chiles dulces (pimiento rojo)"
+  ],
+  "chile fresco picante": [
+   "chile fresco picante",
+   "chiles frescos picantes"
   ],
   "chile jalapeño": [
    "chile jalapeño",
@@ -2270,6 +3038,18 @@
    "chile serrano o jalapeño entero",
    "chiles serranos o jalapeños enteros"
   ],
+  "chiles anchos secos": [
+   "chile ancho seco",
+   "chiles anchos secos"
+  ],
+  "chiles guajillo secos": [
+   "chile guajillo seco",
+   "chiles guajillo secos"
+  ],
+  "chiles pasilla secos": [
+   "chile pasilla seco",
+   "chiles pasilla secos"
+  ],
   "chiles rojos frescos": [
    "chile rojo fresco",
    "chiles rojos frescos"
@@ -2278,13 +3058,29 @@
    "chile tailandés",
    "chiles tailandeses"
   ],
+  "choclos": [
+   "choclo",
+   "choclos"
+  ],
   "chuletas de ternera con hueso, de 2 cm": [
    "chuleta de ternera con hueso, de 2 cm",
    "chuletas de ternera con hueso, de 2 cm"
   ],
+  "clara de huevo muy fresca": [
+   "clara de huevo muy fresca",
+   "claras de huevo muy frescas"
+  ],
+  "claras": [
+   "clara",
+   "claras"
+  ],
   "claras de huevo": [
    "clara de huevo",
    "claras de huevo"
+  ],
+  "clavos": [
+   "clavo",
+   "clavos"
   ],
   "clavos de olor": [
    "clavo de olor",
@@ -2314,13 +3110,25 @@
    "diente de ajo con piel",
    "dientes de ajo con piel"
   ],
+  "dientes de ajo en camisa": [
+   "diente de ajo en camisa",
+   "dientes de ajo en camisa"
+  ],
   "dientes de ajo machacados": [
    "diente de ajo machacado",
    "dientes de ajo machacados"
   ],
+  "dientes de ajo para la toum": [
+   "diente de ajo para la toum",
+   "dientes de ajo para la toum"
+  ],
   "dátiles Medjool": [
    "dátil Medjool",
    "dátiles Medjool"
+  ],
+  "estrella de anís": [
+   "estrella de anís",
+   "estrellas de anís"
   ],
   "estrellas de anís": [
    "estrella de anís",
@@ -2342,6 +3150,14 @@
    "gajo de piña",
    "gajos de piña"
   ],
+  "galletas de soda": [
+   "galleta de soda",
+   "galletas de soda"
+  ],
+  "gambas crudas grandes": [
+   "gamba cruda grande",
+   "gambas crudas grandes"
+  ],
   "golpes de Angostura": [
    "golpe de Angostura",
    "golpes de Angostura"
@@ -2350,9 +3166,21 @@
    "gota de Tabasco",
    "gotas de Tabasco"
   ],
+  "gotas de amargo de Angostura": [
+   "gota de amargo de Angostura",
+   "gotas de amargo de Angostura"
+  ],
+  "granada": [
+   "granada",
+   "granadas"
+  ],
   "granos de café": [
    "grano de café",
    "granos de café"
+  ],
+  "granos de pimienta de Jamaica": [
+   "grano de pimienta de Jamaica",
+   "granos de pimienta de Jamaica"
   ],
   "granos de pimienta negra": [
    "grano de pimienta negra",
@@ -2370,6 +3198,10 @@
    "guindilla roja fresca",
    "guindillas rojas frescas"
   ],
+  "guindilla roja larga": [
+   "guindilla roja larga",
+   "guindillas rojas largas"
+  ],
   "guindilla seca": [
    "guindilla seca",
    "guindillas secas"
@@ -2378,9 +3210,29 @@
    "guindilla verde",
    "guindillas verdes"
   ],
+  "guindilla verde fresca": [
+   "guindilla verde fresca",
+   "guindillas verdes frescas"
+  ],
+  "guindillas frescas": [
+   "guindilla fresca",
+   "guindillas frescas"
+  ],
+  "guindillas rojas frescas": [
+   "guindilla roja fresca",
+   "guindillas rojas frescas"
+  ],
   "guindillas secas": [
    "guindilla seca",
    "guindillas secas"
+  ],
+  "guindillas tailandesas": [
+   "guindilla tailandesa",
+   "guindillas tailandesas"
+  ],
+  "guindillas verdes": [
+   "guindilla verde",
+   "guindillas verdes"
   ],
   "hoja de alga nori": [
    "hoja de alga nori",
@@ -2402,9 +3254,25 @@
    "hoja de laurel",
    "hojas de laurel"
   ],
+  "hojas de lechuga": [
+   "hoja de lechuga",
+   "hojas de lechuga"
+  ],
   "hojas de lima kaffir": [
    "hoja de lima kaffir",
    "hojas de lima kaffir"
+  ],
+  "hojas de menta": [
+   "hoja de menta",
+   "hojas de menta"
+  ],
+  "hojas de papel de arroz (22 cm)": [
+   "hoja de papel de arroz (22 cm)",
+   "hojas de papel de arroz (22 cm)"
+  ],
+  "hojas de pasta filo": [
+   "hoja de pasta filo",
+   "hojas de pasta filo"
   ],
   "hojas de salvia": [
    "hoja de salvia",
@@ -2418,9 +3286,17 @@
    "huevo entero",
    "huevos enteros"
   ],
+  "huevo grande": [
+   "huevo grande",
+   "huevos grandes"
+  ],
   "huevo muy fresco": [
    "huevo muy fresco",
    "huevos muy frescos"
+  ],
+  "huevo para pintar": [
+   "huevo para pintar",
+   "huevos para pintar"
   ],
   "huevos": [
    "huevo",
@@ -2438,6 +3314,14 @@
    "kiwi",
    "kiwis"
   ],
+  "lechuga": [
+   "lechuga",
+   "lechugas"
+  ],
+  "lechuga romana": [
+   "lechuga romana",
+   "lechugas romanas"
+  ],
   "lenguados enteros sin piel de 300 g": [
    "lenguado entero sin piel de 300 g",
    "lenguados enteros sin piel de 300 g"
@@ -2449,6 +3333,10 @@
   "limas": [
    "lima",
    "limas"
+  ],
+  "limas para la cebolla": [
+   "lima para la cebolla",
+   "limas para la cebolla"
   ],
   "limones": [
    "limón",
@@ -2474,9 +3362,17 @@
    "limón (zumo)",
    "limones (zumo)"
   ],
+  "limón para la toum": [
+   "limón para la toum",
+   "limones para la toum"
+  ],
   "limón sin tratar": [
    "limón sin tratar",
    "limones sin tratar"
+  ],
+  "limón sin tratar (piel)": [
+   "limón sin tratar (piel)",
+   "limones sin tratar (piel)"
   ],
   "lonchas de bacon": [
    "loncha de bacon",
@@ -2493,6 +3389,14 @@
   "lonchas de jamón curado italiano": [
    "loncha de jamón curado italiano",
    "lonchas de jamón curado italiano"
+  ],
+  "lubinas de unos 500 g, limpias": [
+   "lubina de unos 500 g, limpia",
+   "lubinas de unos 500 g, limpias"
+  ],
+  "lubinas enteras de unos 500 g, limpias": [
+   "lubina entera de unos 500 g, limpia",
+   "lubinas enteras de unos 500 g, limpias"
   ],
   "lubinas enteras limpias de 400 g": [
    "lubina entera limpia de 400 g",
@@ -2530,6 +3434,10 @@
    "manzana grande (Golden o reineta)",
    "manzanas grandes (Golden o reineta)"
   ],
+  "maracuyás": [
+   "maracuyá",
+   "maracuyás"
+  ],
   "melocotones": [
    "melocotón",
    "melocotones"
@@ -2537,6 +3445,10 @@
   "melocotones maduros": [
    "melocotón maduro",
    "melocotones maduros"
+  ],
+  "melocotón": [
+   "melocotón",
+   "melocotones"
   ],
   "muffins ingleses": [
    "muffin inglés",
@@ -2566,6 +3478,10 @@
    "naranja",
    "naranjas"
   ],
+  "naranjas para servir": [
+   "naranja para servir",
+   "naranjas para servir"
+  ],
   "obleas para gyozas": [
    "oblea para gyozas",
    "obleas para gyozas"
@@ -2573,6 +3489,14 @@
   "pak choi pequeños": [
    "pak choi pequeño",
    "pak choi pequeños"
+  ],
+  "palitos de brocheta": [
+   "palito de brocheta",
+   "palitos de brocheta"
+  ],
+  "paltas maduras": [
+   "palta madura",
+   "paltas maduras"
   ],
   "panecillos con sésamo": [
    "panecillo con sésamo",
@@ -2586,7 +3510,15 @@
    "pan de pita",
    "panes de pita"
   ],
+  "patata": [
+   "patata",
+   "patatas"
+  ],
   "patata mediana": [
+   "patata mediana",
+   "patatas medianas"
+  ],
+  "patatas medianas": [
    "patata mediana",
    "patatas medianas"
   ],
@@ -2594,9 +3526,25 @@
    "pepino",
    "pepinos"
   ],
+  "pepinos": [
+   "pepino",
+   "pepinos"
+  ],
+  "pepinos pequeños": [
+   "pepino pequeño",
+   "pepinos pequeños"
+  ],
+  "pera": [
+   "pera",
+   "peras"
+  ],
   "peras firmes (conferencia o ercolini)": [
    "pera firme (conferencia o ercolini)",
    "peras firmes (conferencia o ercolini)"
+  ],
+  "peras maduras pero firmes (Williams)": [
+   "pera madura pero firme (Williams)",
+   "peras maduras pero firmes (Williams)"
   ],
   "piadinas": [
    "piadina",
@@ -2630,9 +3578,21 @@
    "pimiento rojo y amarillo",
    "pimientos rojos y amarillos"
   ],
+  "pimientos verdes alargados": [
+   "pimiento verde alargado",
+   "pimientos verdes alargados"
+  ],
+  "pimientos verdes grandes": [
+   "pimiento verde grande",
+   "pimientos verdes grandes"
+  ],
   "pimientos verdes italianos": [
    "pimiento verde italiano",
    "pimientos verdes italianos"
+  ],
+  "piña": [
+   "piña",
+   "piñas"
   ],
   "plátano": [
    "plátano",
@@ -2645,6 +3605,18 @@
   "plátano maduro": [
    "plátano maduro",
    "plátanos maduros"
+  ],
+  "plátanos firmes recién maduros": [
+   "plátano firme recién maduro",
+   "plátanos firmes recién maduros"
+  ],
+  "plátanos maduros": [
+   "plátano maduro",
+   "plátanos maduros"
+  ],
+  "plátanos maduros pero firmes": [
+   "plátano maduro pero firme",
+   "plátanos maduros pero firmes"
   ],
   "pollo entero de 1,6 kg": [
    "pollo entero de 1,6 kg",
@@ -2661,6 +3633,10 @@
   "puerros finos": [
    "puerro fino",
    "puerros finos"
+  ],
+  "rabanitos": [
+   "rabanito",
+   "rabanitos"
   ],
   "rama de apio": [
    "rama de apio",
@@ -2681,6 +3657,10 @@
   "ramita de hierbabuena": [
    "ramita de hierbabuena",
    "ramitas de hierbabuena"
+  ],
+  "ramita de menta": [
+   "ramita de menta",
+   "ramitas de menta"
   ],
   "ramita de romero": [
    "ramita de romero",
@@ -2710,6 +3690,10 @@
    "rebanada de brioche del día anterior (2 cm)",
    "rebanadas de brioche del día anterior (2 cm)"
   ],
+  "rebanadas de pan de molde": [
+   "rebanada de pan de molde",
+   "rebanadas de pan de molde"
+  ],
   "rebanadas de pan rústico": [
    "rebanada de pan rústico",
    "rebanadas de pan rústico"
@@ -2718,6 +3702,10 @@
    "rebanada gruesa de pan de masa madre",
    "rebanadas gruesas de pan de masa madre"
   ],
+  "rodaja de limón": [
+   "rodaja de limón",
+   "rodajas de limón"
+  ],
   "rodaja de naranja": [
    "rodaja de naranja",
    "rodajas de naranja"
@@ -2725,6 +3713,10 @@
   "rodajas de lima": [
    "rodaja de lima",
    "rodajas de lima"
+  ],
+  "rábanos": [
+   "rábano",
+   "rábanos"
   ],
   "setas shiitake secas": [
    "seta shiitake seca",
@@ -2737,6 +3729,10 @@
   "tallos de citronela (hierba limón)": [
    "tallo de citronela (hierba limón)",
    "tallos de citronela (hierba limón)"
+  ],
+  "tallos de hierba limón": [
+   "tallo de hierba limón",
+   "tallos de hierba limón"
   ],
   "tallos de limoncillo": [
    "tallo de limoncillo",
@@ -2770,6 +3766,10 @@
    "tomate",
    "tomates"
   ],
+  "tomates firmes": [
+   "tomate firme",
+   "tomates firmes"
+  ],
   "tomates grandes para rellenar": [
    "tomate grande para rellenar",
    "tomates grandes para rellenar"
@@ -2777,6 +3777,18 @@
   "tomates maduros": [
    "tomate maduro",
    "tomates maduros"
+  ],
+  "tomates maduros y firmes": [
+   "tomate maduro y firme",
+   "tomates maduros y firmes"
+  ],
+  "tortilla de maíz dura": [
+   "tortilla de maíz dura",
+   "tortillas de maíz duras"
+  ],
+  "tortillas de maíz": [
+   "tortilla de maíz",
+   "tortillas de maíz"
   ],
   "vaina de vainilla": [
    "vaina de vainilla",
@@ -2824,6 +3836,10 @@
    "Amarenakirsche in Sirup",
    "Amarenakirschen in Sirup"
   ],
+  "Ananas": [
+   "Ananas",
+   "Ananas"
+  ],
   "Ananasspalte": [
    "Ananasspalte",
    "Ananasspalten"
@@ -2848,6 +3864,10 @@
    "Aubergine",
    "Auberginen"
   ],
+  "Baguette": [
+   "Baguette",
+   "Baguettes"
+  ],
   "Banane": [
    "Banane",
    "Bananen"
@@ -2863,6 +3883,10 @@
   "Bio-Zitrone": [
    "Bio-Zitrone",
    "Bio-Zitronen"
+  ],
+  "Birne": [
+   "Birne",
+   "Birnen"
   ],
   "Blutorange": [
    "Blutorange",
@@ -2887,6 +3911,10 @@
   "Ei": [
    "Ei",
    "Eier"
+  ],
+  "Ei zum Bestreichen": [
+   "Ei zum Bestreichen",
+   "Eier zum Bestreichen"
   ],
   "Eier": [
    "Ei",
@@ -2916,6 +3944,10 @@
    "Fenchelknolle",
    "Fenchelknollen"
   ],
+  "Filoteigblätter": [
+   "Filoteigblatt",
+   "Filoteigblätter"
+  ],
   "Frühlingszwiebel": [
    "Frühlingszwiebel",
    "Frühlingszwiebeln"
@@ -2928,7 +3960,15 @@
    "Gewürznelke",
    "Gewürznelken"
   ],
+  "Granatapfel": [
+   "Granatapfel",
+   "Granatäpfel"
+  ],
   "Gurke": [
+   "Gurke",
+   "Gurken"
+  ],
+  "Gurken": [
    "Gurke",
    "Gurken"
   ],
@@ -2972,6 +4012,10 @@
    "Karotte",
    "Karotten"
   ],
+  "Kartoffel": [
+   "Kartoffel",
+   "Kartoffeln"
+  ],
   "Kiwis": [
    "Kiwi",
    "Kiwis"
@@ -2988,9 +4032,21 @@
    "Knoblauchzehe (am besten Aglione)",
    "Knoblauchzehen (am besten Aglione)"
   ],
+  "Knoblauchzehen für die Toum": [
+   "Knoblauchzehe für die Toum",
+   "Knoblauchzehen für die Toum"
+  ],
   "Knoblauchzehen, zerdrückt": [
    "Knoblauchzehe, zerdrückt",
    "Knoblauchzehen, zerdrückt"
+  ],
+  "Kopf Romanasalat": [
+   "Kopf Romanasalat",
+   "Köpfe Romanasalat"
+  ],
+  "Kopfsalat": [
+   "Kopfsalat",
+   "Kopfsalate"
   ],
   "Limette": [
    "Limette",
@@ -2999,6 +4055,10 @@
   "Limetten": [
    "Limette",
    "Limetten"
+  ],
+  "Limetten für die Zwiebeln": [
+   "Limette für die Zwiebeln",
+   "Limetten für die Zwiebeln"
   ],
   "Limettenscheiben": [
    "Limettenscheibe",
@@ -3015,6 +4075,14 @@
   "Lorbeerblätter": [
    "Lorbeerblatt",
    "Lorbeerblätter"
+  ],
+  "Maiskolben": [
+   "Maiskolben",
+   "Maiskolben"
+  ],
+  "Maistortillas": [
+   "Maistortilla",
+   "Maistortillas"
   ],
   "Medjool-Datteln": [
    "Medjool-Dattel",
@@ -3048,13 +4116,25 @@
    "Orange",
    "Orangen"
   ],
+  "Orangen zum Servieren": [
+   "Orange zum Servieren",
+   "Orangen zum Servieren"
+  ],
   "Orangenscheibe": [
    "Orangenscheibe",
    "Orangenscheiben"
   ],
+  "Passionsfrüchte": [
+   "Passionsfrucht",
+   "Passionsfrüchte"
+  ],
   "Petersilienzweige": [
    "Petersilienzweig",
    "Petersilienzweige"
+  ],
+  "Pfirsich": [
+   "Pfirsich",
+   "Pfirsiche"
   ],
   "Pfirsiche": [
    "Pfirsich",
@@ -3064,21 +4144,45 @@
    "Piadina (italienischer Fladen)",
    "Piadine (italienische Fladen)"
   ],
+  "Pimentkörner": [
+   "Pimentkorn",
+   "Pimentkörner"
+  ],
   "Pitabrote": [
    "Pitabrot",
    "Pitabrote"
+  ],
+  "Radieschen": [
+   "Radieschen",
+   "Radieschen"
+  ],
+  "Reispapierblätter (22 cm)": [
+   "Reispapierblatt (22 cm)",
+   "Reispapierblätter (22 cm)"
   ],
   "Rosmarinzweig": [
    "Rosmarinzweig",
    "Rosmarinzweige"
   ],
+  "Salatblätter": [
+   "Salatblatt",
+   "Salatblätter"
+  ],
   "Salatgurke": [
+   "Salatgurke",
+   "Salatgurken"
+  ],
+  "Salatgurken": [
    "Salatgurke",
    "Salatgurken"
   ],
   "Salbeiblätter": [
    "Salbeiblatt",
    "Salbeiblätter"
+  ],
+  "Salzcracker": [
+   "Salzcracker",
+   "Salzcracker"
   ],
   "Sardellenfilets": [
    "Sardellenfilet",
@@ -3089,6 +4193,10 @@
    "Sardellenfilets in Öl"
   ],
   "Schalotte": [
+   "Schalotte",
+   "Schalotten"
+  ],
+  "Schalotten": [
    "Schalotte",
    "Schalotten"
   ],
@@ -3112,11 +4220,19 @@
    "Scheibe Parmaschinken",
    "Scheiben Parmaschinken"
   ],
+  "Scheiben Toastbrot": [
+   "Scheibe Toastbrot",
+   "Scheiben Toastbrot"
+  ],
   "Scheiben altbackene Brioche (2 cm)": [
    "Scheibe altbackene Brioche (2 cm)",
    "Scheiben altbackene Brioche (2 cm)"
   ],
   "Selleriestange": [
+   "Selleriestange",
+   "Selleriestangen"
+  ],
+  "Selleriestangen": [
    "Selleriestange",
    "Selleriestangen"
   ],
@@ -3160,6 +4276,10 @@
    "Stängel Zitronengras",
    "Stängel Zitronengras"
   ],
+  "Süßkartoffeln": [
+   "Süßkartoffel",
+   "Süßkartoffeln"
+  ],
   "Thai-Chilis": [
    "Thai-Chili",
    "Thai-Chilis"
@@ -3176,9 +4296,17 @@
    "Tomate",
    "Tomaten"
   ],
+  "Tropfen Angostura": [
+   "Tropfen Angostura",
+   "Tropfen Angostura"
+  ],
   "Vanilleschote": [
    "Vanilleschote",
    "Vanilleschoten"
+  ],
+  "Wolfsbarsche à 500 g, ausgenommen": [
+   "Wolfsbarsch à 500 g, ausgenommen",
+   "Wolfsbarsche à 500 g, ausgenommen"
   ],
   "Würfelzucker": [
    "Würfelzucker",
@@ -3204,9 +4332,17 @@
    "Zitrone (Schale)",
    "Zitronen (Schale)"
   ],
+  "Zitrone für die Toum": [
+   "Zitrone für die Toum",
+   "Zitronen für die Toum"
+  ],
   "Zitronen": [
    "Zitrone",
    "Zitronen"
+  ],
+  "Zitronenscheibe": [
+   "Zitronenscheibe",
+   "Zitronenscheiben"
   ],
   "Zucchini": [
    "Zucchini",
@@ -3236,6 +4372,10 @@
    "Zwiebel",
    "Zwiebeln"
   ],
+  "altbackene Maistortilla": [
+   "altbackene Maistortilla",
+   "altbackene Maistortillas"
+  ],
   "dicke Scheiben Sauerteigbrot": [
    "dicke Scheibe Sauerteigbrot",
    "dicke Scheiben Sauerteigbrot"
@@ -3248,13 +4388,29 @@
    "feste Birne (Kaiser Alexander oder Conference)",
    "feste Birnen (Kaiser Alexander oder Conference)"
   ],
+  "feste Tomaten": [
+   "feste Tomate",
+   "feste Tomaten"
+  ],
   "feste Äpfel (Renette oder Boskop)": [
    "fester Apfel (Renette oder Boskop)",
    "feste Äpfel (Renette oder Boskop)"
   ],
+  "feste, gerade reife Bananen": [
+   "feste, gerade reife Banane",
+   "feste, gerade reife Bananen"
+  ],
   "frische Chilischote": [
    "frische Chilischote",
    "frische Chilischoten"
+  ],
+  "frische Chilischoten": [
+   "frische Chilischote",
+   "frische Chilischoten"
+  ],
+  "frische grüne Chili": [
+   "frische grüne Chili",
+   "frische grüne Chilis"
   ],
   "frische rote Chili": [
    "frische rote Chili",
@@ -3271,6 +4427,10 @@
   "ganze Seezungen, abgezogen, à 300 g": [
    "ganze Seezunge, abgezogen, à 300 g",
    "ganze Seezungen, abgezogen, à 300 g"
+  ],
+  "ganze Wolfsbarsche à ca. 500 g, ausgenommen": [
+   "ganzer Wolfsbarsch à ca. 500 g, ausgenommen",
+   "ganze Wolfsbarsche à ca. 500 g, ausgenommen"
   ],
   "ganze Wolfsbarsche, ausgenommen, à 400 g": [
    "ganzer Wolfsbarsch, ausgenommen, à 400 g",
@@ -3292,9 +4452,17 @@
    "gelbe Paprika",
    "gelbe Paprika"
   ],
+  "gelbe Paprikaschote": [
+   "gelbe Paprikaschote",
+   "gelbe Paprikaschoten"
+  ],
   "geröstete Mandeln": [
    "geröstete Mandel",
    "geröstete Mandeln"
+  ],
+  "getrocknete Ancho-Chilis": [
+   "getrocknete Ancho-Chili",
+   "getrocknete Ancho-Chilis"
   ],
   "getrocknete Chili": [
    "getrocknete Chili",
@@ -3307,6 +4475,14 @@
   "getrocknete Chilischoten": [
    "getrocknete Chilischote",
    "getrocknete Chilischoten"
+  ],
+  "getrocknete Guajillo-Chilis": [
+   "getrocknete Guajillo-Chili",
+   "getrocknete Guajillo-Chilis"
+  ],
+  "getrocknete Pasilla-Chilis": [
+   "getrocknete Pasilla-Chili",
+   "getrocknete Pasilla-Chilis"
   ],
   "getrocknete Shiitake-Pilze": [
    "getrockneter Shiitake-Pilz",
@@ -3324,6 +4500,10 @@
    "große Gemüsezwiebel",
    "große Gemüsezwiebeln"
   ],
+  "große Zwiebel": [
+   "große Zwiebel",
+   "große Zwiebeln"
+  ],
   "große Zwiebeln": [
    "große Zwiebel",
    "große Zwiebeln"
@@ -3331,6 +4511,10 @@
   "große grüne Oliven ohne Stein": [
    "große grüne Olive ohne Stein",
    "große grüne Oliven ohne Stein"
+  ],
+  "große grüne Paprikaschoten": [
+   "große grüne Paprikaschote",
+   "große grüne Paprikaschoten"
   ],
   "große reife Avocado": [
    "große reife Avocado",
@@ -3340,6 +4524,10 @@
    "große reife Mango",
    "große reife Mangos"
   ],
+  "große rohe Garnelen": [
+   "große rohe Garnele",
+   "große rohe Garnelen"
+  ],
   "große Äpfel (Golden Delicious oder Renette)": [
    "großer Apfel (Golden Delicious oder Renette)",
    "große Äpfel (Golden Delicious oder Renette)"
@@ -3348,11 +4536,19 @@
    "großer Eiswürfel",
    "große Eiswürfel"
   ],
+  "großes Ei": [
+   "großes Ei",
+   "große Eier"
+  ],
   "grüne Chili": [
    "grüne Chili",
    "grüne Chilis"
   ],
   "grüne Chilischote": [
+   "grüne Chilischote",
+   "grüne Chilischoten"
+  ],
+  "grüne Chilischoten": [
    "grüne Chilischote",
    "grüne Chilischoten"
   ],
@@ -3363,6 +4559,10 @@
   "grüne Paprika": [
    "grüne Paprika",
    "grüne Paprika"
+  ],
+  "grüne Paprikaschote": [
+   "grüne Paprikaschote",
+   "grüne Paprikaschoten"
   ],
   "grüne Spitzpaprika": [
    "grüne Spitzpaprika",
@@ -3375,6 +4575,10 @@
   "kleine Baguettes": [
    "kleines Baguette",
    "kleine Baguettes"
+  ],
+  "kleine Gurken": [
+   "kleine Gurke",
+   "kleine Gurken"
   ],
   "kleine Möhre": [
    "kleine Möhre",
@@ -3396,7 +4600,19 @@
    "kleine weiße Zwiebel",
    "kleine weiße Zwiebeln"
   ],
+  "lange Auberginen": [
+   "lange Aubergine",
+   "lange Auberginen"
+  ],
+  "lange rote Chili": [
+   "lange rote Chili",
+   "lange rote Chilis"
+  ],
   "mittelgroße Kartoffel": [
+   "mittelgroße Kartoffel",
+   "mittelgroße Kartoffeln"
+  ],
+  "mittelgroße Kartoffeln": [
    "mittelgroße Kartoffel",
    "mittelgroße Kartoffeln"
   ],
@@ -3409,6 +4625,10 @@
    "reife Avocados"
   ],
   "reife Banane": [
+   "reife Banane",
+   "reife Bananen"
+  ],
+  "reife Bananen": [
    "reife Banane",
    "reife Bananen"
   ],
@@ -3436,6 +4656,18 @@
    "reife Tomate",
    "reife Tomaten"
   ],
+  "reife, aber feste Bananen": [
+   "reife, aber feste Banane",
+   "reife, aber feste Bananen"
+  ],
+  "reife, aber feste Birnen (Williams)": [
+   "reife, aber feste Birne (Williams)",
+   "reife, aber feste Birnen (Williams)"
+  ],
+  "reife, feste Tomaten": [
+   "reife, feste Tomate",
+   "reife, feste Tomaten"
+  ],
   "rosa Grapefruit": [
    "rosa Grapefruit",
    "rosa Grapefruits"
@@ -3444,13 +4676,29 @@
    "rote Paprika",
    "rote Paprika"
   ],
+  "rote Paprikaschote": [
+   "rote Paprikaschote",
+   "rote Paprikaschoten"
+  ],
   "rote Zwiebel": [
+   "rote Zwiebel",
+   "rote Zwiebeln"
+  ],
+  "rote Zwiebeln": [
    "rote Zwiebel",
    "rote Zwiebeln"
   ],
   "rote und gelbe Paprika": [
    "rote und gelbe Paprika",
    "rote und gelbe Paprika"
+  ],
+  "scharfe frische Chili": [
+   "scharfe frische Chili",
+   "scharfe frische Chilis"
+  ],
+  "schwarze Oliven": [
+   "schwarze Olive",
+   "schwarze Oliven"
   ],
   "schwarze Pfefferkörner": [
    "schwarzes Pfefferkorn",
@@ -3468,6 +4716,10 @@
    "sehr frisches Eigelb",
    "sehr frisches Eigelb"
   ],
+  "sehr frisches Eiweiß": [
+   "sehr frisches Eiweiß",
+   "sehr frisches Eiweiß"
+  ],
   "sehr reife Kakis": [
    "sehr reife Kaki",
    "sehr reife Kakis"
@@ -3479,6 +4731,10 @@
   "unbehandelte Zitrone": [
    "unbehandelte Zitrone",
    "unbehandelte Zitronen"
+  ],
+  "unbehandelte Zitrone (Schale)": [
+   "unbehandelte Zitrone (Schale)",
+   "unbehandelte Zitronen (Schale)"
   ],
   "unbehandelte Zitronen": [
    "unbehandelte Zitrone",

@@ -1,0 +1,5590 @@
+{
+ "group": "W3",
+ "recipes": [
+  {
+   "id": "kibbeh-bil-sayniyeh",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 6,
+   "minutes": 100,
+   "diff": 3,
+   "kcal": 560,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "festive",
+    "party"
+   ],
+   "months": [],
+   "origin": "LB",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 200,
+     "u": "g",
+     "k": "fine-bulgur"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "ground-beef"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 1.5,
+     "u": "tsp",
+     "k": "ground-allspice"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "water"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "ground-beef"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "pine-nuts"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 80,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 900,
+     "bg": true
+    },
+    {
+     "timer": 480
+    },
+    {
+     "timer": 480
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 2100
+    },
+    {
+     "timer": 600
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "fattoush"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Kibbeh bil sayniyeh, kibbeh al forno",
+     "intro": "Guscio di carne e bulgur con un cuore di macinato, cipolla e pinoli, cotto in teglia.",
+     "ing": [
+      "bulgur fine",
+      "macinato di manzo magro",
+      "cipolla",
+      "pimento (pepe della Giamaica) in polvere",
+      "cannella in polvere",
+      "acqua ghiacciata",
+      "macinato di manzo",
+      "cipolle",
+      "pinoli",
+      "olio extravergine d'oliva",
+      "olio extravergine per la superficie",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Sciacqua il bulgur e coprilo d'acqua fredda per 15 minuti, poi strizzalo bene tra le mani.",
+      "Intanto, per il ripieno, dora i pinoli nell'olio e toglili. Nella stessa padella appassisci le cipolle tritate finché sono morbide.",
+      "Aggiungi il macinato, metà delle spezie, sale e pepe e rosola sgranando finché è ben cotto. Unisci i pinoli e fai raffreddare.",
+      "Per il guscio frulla la cipolla con il resto delle spezie e il sale, poi unisci carne magra, bulgur e acqua ghiacciata fino a una pasta liscia.",
+      "Scalda il forno a 200 °C. Ungi una teglia tonda di 28 cm e premi metà del guscio in uno strato di 1 cm, con le mani bagnate.",
+      "Stendi il ripieno e coprilo con il guscio rimasto, schiacciato a dischetti tra le mani bagnate e unito. Liscia la superficie.",
+      "Incidi a rombi fino al ripieno, fai un foro al centro e versa sopra l'olio.",
+      "Inforna a 200 °C per 35 minuti, finché è ben bruna e croccante ai bordi.",
+      "Lascia riposare 10 minuti, poi taglia lungo le incisioni. Servi con yogurt e un'insalata."
+     ],
+     "labels": [
+      "Bulgur",
+      "Cipolle",
+      "Ripieno",
+      "",
+      "",
+      "",
+      "",
+      "Forno",
+      "Riposo"
+     ],
+     "tips": [
+      "Tieni carne e acqua ben fredde e usa carne magrissima: il guscio resta compatto e non si crepa.",
+      "In Libano si usa spesso agnello magro: il sapore è più intenso.",
+      "Accompagnala con yogurt e cetrioli alla menta o con il fattoush."
+     ]
+    },
+    "en": {
+     "title": "Kibbeh bil sayniyeh (baked kibbeh)",
+     "intro": "A bulgur and meat shell around minced meat, onion and pine nuts, baked in a tray.",
+     "ing": [
+      "fine bulgur",
+      "lean ground beef",
+      "onion",
+      "ground allspice",
+      "ground cinnamon",
+      "ice water",
+      "ground beef",
+      "onions",
+      "pine nuts",
+      "extra virgin olive oil",
+      "extra virgin olive oil for the top",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Rinse the bulgur, cover with cold water for 15 minutes, then squeeze it dry between your hands.",
+      "Meanwhile, for the filling, toast the pine nuts in the oil until golden and lift out. In the same pan soften the chopped onions.",
+      "Add the ground beef, half the spices, salt and pepper and brown, breaking it up, until cooked. Stir in the pine nuts and let cool.",
+      "For the shell, blitz the onion with the rest of the spices and salt, then add the lean beef, bulgur and ice water to a smooth paste.",
+      "Heat the oven to 200 °C. Oil a 28 cm round tray and press half the shell into a 1 cm layer with wet hands.",
+      "Spread over the filling and cover with the remaining shell, flattened into patties between wet hands and joined. Smooth the top.",
+      "Score a diamond pattern down to the filling, make a hole in the centre and pour over the oil.",
+      "Bake at 200 °C for 35 minutes, until deep brown and crisp at the edges.",
+      "Rest for 10 minutes, then cut along the scored lines. Serve with yogurt and a salad."
+     ],
+     "labels": [
+      "Bulgur",
+      "Onions",
+      "Filling",
+      "",
+      "",
+      "",
+      "",
+      "Oven",
+      "Rest"
+     ],
+     "tips": [
+      "Keep the meat and water very cold and use very lean meat: the shell stays firm and won't crack.",
+      "In Lebanon it's often made with lean lamb, which tastes richer.",
+      "Serve with yogurt and cucumber with mint, or with fattoush."
+     ]
+    },
+    "fr": {
+     "title": "Kebbé bil sayniyeh, kebbé au four",
+     "intro": "Une coque de viande et boulgour autour d'une farce à l'oignon et aux pignons, au four.",
+     "ing": [
+      "boulgour fin",
+      "bœuf haché maigre",
+      "oignon",
+      "piment de la Jamaïque moulu",
+      "cannelle moulue",
+      "eau glacée",
+      "bœuf haché",
+      "oignons",
+      "pignons de pin",
+      "huile d'olive vierge extra",
+      "huile d'olive pour le dessus",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Rince le boulgour, couvre-le d'eau froide 15 minutes, puis essore-le bien entre tes mains.",
+      "Pendant ce temps, pour la farce, dore les pignons dans l'huile et retire-les. Dans la même poêle, fais fondre les oignons hachés.",
+      "Ajoute la viande hachée, la moitié des épices, sel et poivre et fais revenir en émiettant jusqu'à cuisson. Ajoute les pignons, laisse refroidir.",
+      "Pour la coque, mixe l'oignon avec le reste des épices et le sel, puis ajoute bœuf maigre, boulgour et eau glacée jusqu'à une pâte lisse.",
+      "Préchauffe le four à 200 °C. Huile un plat rond de 28 cm et presse la moitié de la coque en une couche de 1 cm, les mains mouillées.",
+      "Étale la farce et couvre avec le reste de la coque, aplatie en galettes entre tes mains mouillées et raccordée. Lisse le dessus.",
+      "Trace des losanges jusqu'à la farce, fais un trou au centre et verse l'huile dessus.",
+      "Enfourne à 200 °C pendant 35 minutes, jusqu'à ce qu'il soit bien brun et croustillant sur les bords.",
+      "Laisse reposer 10 minutes, puis coupe en suivant les losanges. Sers avec du yaourt et une salade."
+     ],
+     "labels": [
+      "Boulgour",
+      "Oignons",
+      "Farce",
+      "",
+      "",
+      "",
+      "",
+      "Four",
+      "Repos"
+     ],
+     "tips": [
+      "Garde viande et eau bien froides et prends une viande très maigre : la coque reste ferme et ne se fend pas.",
+      "Au Liban, on utilise souvent de l'agneau maigre, au goût plus prononcé.",
+      "Sers-le avec un yaourt au concombre et à la menthe, ou avec le fattouche."
+     ]
+    },
+    "es": {
+     "title": "Kibbeh bil sayniyeh, kibbeh al horno",
+     "intro": "Una capa de carne y bulgur que envuelve carne picada, cebolla y piñones, al horno.",
+     "ing": [
+      "bulgur fino",
+      "carne picada de ternera magra",
+      "cebolla",
+      "pimienta de Jamaica molida",
+      "canela molida",
+      "agua helada",
+      "carne picada de ternera",
+      "cebollas",
+      "piñones",
+      "aceite de oliva virgen extra",
+      "aceite de oliva para la superficie",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Enjuaga el bulgur, cúbrelo con agua fría 15 minutos y luego escúrrelo bien apretándolo con las manos.",
+      "Mientras tanto, para el relleno, dora los piñones en el aceite y sácalos. En la misma sartén pocha la cebolla picada hasta que esté tierna.",
+      "Añade la carne, la mitad de las especias, sal y pimienta y dórala desmenuzándola hasta que esté hecha. Agrega los piñones y deja enfriar.",
+      "Para la masa, tritura la cebolla con el resto de especias y la sal, y añade la carne magra, el bulgur y el agua helada hasta una pasta lisa.",
+      "Precalienta el horno a 200 °C. Engrasa una bandeja redonda de 28 cm y presiona la mitad de la masa en una capa de 1 cm, con las manos mojadas.",
+      "Extiende el relleno y cúbrelo con el resto de la masa, aplanada en discos entre las manos mojadas y unida. Alisa la superficie.",
+      "Marca rombos hasta el relleno, haz un agujero en el centro y riega con el aceite.",
+      "Hornea a 200 °C durante 35 minutos, hasta que esté bien tostado y crujiente por los bordes.",
+      "Deja reposar 10 minutos y corta siguiendo las marcas. Sirve con yogur y una ensalada."
+     ],
+     "labels": [
+      "Bulgur",
+      "Cebolla",
+      "Relleno",
+      "",
+      "",
+      "",
+      "",
+      "Horno",
+      "Reposo"
+     ],
+     "tips": [
+      "Mantén la carne y el agua muy frías y usa carne muy magra: la masa queda compacta y no se agrieta.",
+      "En Líbano se hace a menudo con cordero magro, de sabor más intenso.",
+      "Acompáñalo con yogur con pepino y menta, o con fattoush."
+     ]
+    },
+    "de": {
+     "title": "Kibbeh bil sayniyeh vom Blech",
+     "intro": "Eine Hülle aus Fleisch und Bulgur um Hack, Zwiebeln und Pinienkerne, im Ofen gebacken.",
+     "ing": [
+      "feiner Bulgur",
+      "mageres Rinderhack",
+      "Zwiebel",
+      "gemahlener Piment",
+      "gemahlener Zimt",
+      "Eiswasser",
+      "Rinderhack",
+      "Zwiebeln",
+      "Pinienkerne",
+      "natives Olivenöl extra",
+      "Olivenöl für die Oberfläche",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Spül den Bulgur ab, bedeck ihn 15 Minuten mit kaltem Wasser und drück ihn dann mit den Händen gut aus.",
+      "Röste inzwischen für die Füllung die Pinienkerne im Öl goldbraun und nimm sie heraus. Dünste in derselben Pfanne die gehackten Zwiebeln weich.",
+      "Gib das Hack, die Hälfte der Gewürze, Salz und Pfeffer dazu und brat es krümelig durch. Pinienkerne untermischen und abkühlen lassen.",
+      "Für die Hülle die Zwiebel mit den restlichen Gewürzen und Salz pürieren, dann mageres Hack, Bulgur und Eiswasser zu einer glatten Masse mixen.",
+      "Heiz den Ofen auf 200 °C vor. Öl eine runde 28-cm-Form und drück die Hälfte der Hülle mit nassen Händen 1 cm dick hinein.",
+      "Verteil die Füllung und deck sie mit dem Rest der Hülle ab, zwischen nassen Händen zu Fladen gedrückt und verbunden. Glatt streichen.",
+      "Schneide ein Rautenmuster bis zur Füllung ein, mach in der Mitte ein Loch und gieß das Öl darüber.",
+      "Back das Kibbeh bei 200 °C 35 Minuten, bis es tief braun und am Rand knusprig ist.",
+      "Lass es 10 Minuten ruhen und schneide es entlang der Rauten. Mit Joghurt und Salat servieren."
+     ],
+     "labels": [
+      "Bulgur",
+      "Zwiebeln",
+      "Füllung",
+      "",
+      "",
+      "",
+      "",
+      "Ofen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Halte Fleisch und Wasser eiskalt und nimm sehr mageres Fleisch: Die Hülle bleibt fest und reißt nicht.",
+      "Im Libanon nimmt man oft mageres Lamm, das kräftiger schmeckt.",
+      "Dazu passen Joghurt mit Gurke und Minze oder Fattoush."
+     ]
+    }
+   }
+  },
+  {
+   "id": "shish-tawouk-toum",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 150,
+   "diff": 2,
+   "kcal": 560,
+   "diet": [],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "LB",
+   "alcohol": false,
+   "methods": [
+    "grill",
+    "bbq",
+    "oven"
+   ],
+   "ingredients": [
+    {
+     "q": 700,
+     "u": "g",
+     "k": "chicken-breast"
+    },
+    {
+     "q": 125,
+     "u": "g",
+     "k": "plain-yogurt"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-allspice"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "pita-breads"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "pickles"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "wooden-skewers"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 7200,
+     "bg": true
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 720,
+     "alt": {
+      "bbq": {
+       "timer": 600
+      },
+      "oven": {
+       "timer": 1080
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    },
+    {
+     "k": "pair",
+     "link": "fattoush"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Shish tawouk con toum",
+     "intro": "Spiedini di pollo marinati in yogurt, limone e aglio, con la crema d'aglio libanese.",
+     "ing": [
+      "petto di pollo",
+      "yogurt bianco",
+      "limone",
+      "spicchi d'aglio",
+      "concentrato di pomodoro",
+      "paprika dolce",
+      "pimento (pepe della Giamaica) in polvere",
+      "olio extravergine d'oliva",
+      "spicchi d'aglio per la toum",
+      "olio di semi di girasole",
+      "limone per la toum",
+      "acqua ghiacciata",
+      "sale",
+      "pepe nero",
+      "pite",
+      "sottaceti (cetrioli e rape)",
+      "spiedini di legno"
+     ],
+     "steps": [
+      "Mescola yogurt, succo di limone, i 3 spicchi d'aglio grattugiati, concentrato, paprika, pimento, olio, sale e pepe.",
+      "Taglia il pollo a cubi di 3 cm, mescolalo alla marinata, copri e lascia in frigo almeno 2 ore (meglio una notte).",
+      "Intanto prepara la toum: frulla gli spicchi d'aglio senza germoglio con un pizzico di sale per 1 minuto, fino a una pasta.",
+      "Con il mixer acceso versa l'olio a filo sottile, alternandolo a limone e acqua ghiacciata, finché è una crema bianca e soda.",
+      "Infila il pollo negli spiedini (se di legno, tenuti 30 minuti in acqua), senza stringere troppo i pezzi.",
+      "Cuoci su una piastra rovente per 12 minuti, girando spesso, finché è dorato e cotto dentro, senza parti rosate.",
+      "Servi con la toum, il pane pita caldo e i sottaceti."
+     ],
+     "labels": [
+      "",
+      "Marinata",
+      "",
+      "",
+      "",
+      "Spiedini",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Cuoci sulla brace viva per 10 minuti, girando spesso, finché è dorato e cotto dentro, senza parti rosate.",
+       "oven": "Cuoci in forno a 220 °C con il grill per 18 minuti, girando a metà, finché è dorato e cotto dentro."
+      }
+     },
+     "tips": [
+      "Togli il germoglio all'aglio e versa l'olio lentissimo: la toum monta senza impazzire.",
+      "La toum avanzata si conserva 2 settimane in frigo in un barattolo chiuso.",
+      "Con fattoush e batata harra diventa una cena libanese completa."
+     ]
+    },
+    "en": {
+     "title": "Shish tawouk with toum",
+     "intro": "Chicken skewers marinated in yogurt, lemon and garlic, with Lebanese garlic sauce.",
+     "ing": [
+      "chicken breast",
+      "plain yogurt",
+      "lemon",
+      "garlic cloves",
+      "tomato paste",
+      "sweet paprika",
+      "ground allspice",
+      "extra virgin olive oil",
+      "garlic cloves for the toum",
+      "sunflower oil",
+      "lemon for the toum",
+      "ice water",
+      "salt",
+      "black pepper",
+      "pita breads",
+      "pickles (cucumber and turnip)",
+      "wooden skewers"
+     ],
+     "steps": [
+      "Mix the yogurt, lemon juice, the 3 grated garlic cloves, tomato paste, paprika, allspice, oil, salt and pepper.",
+      "Cut the chicken into 3 cm cubes, toss in the marinade, cover and refrigerate for at least 2 hours (overnight is best).",
+      "Meanwhile make the toum: blend the garlic cloves, germ removed, with a pinch of salt for 1 minute to a paste.",
+      "With the motor running, add the oil in a thin stream, alternating with lemon juice and ice water, until white, thick and fluffy.",
+      "Thread the chicken onto the skewers (if wooden, soaked in water for 30 minutes) without packing the pieces too tightly.",
+      "Cook on a very hot grill pan for 12 minutes, turning often, until golden and cooked through with no pink inside.",
+      "Serve with the toum, warm pita and pickles."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "",
+      "",
+      "Skewers",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Cook over hot coals for 10 minutes, turning often, until golden and cooked through with no pink inside.",
+       "oven": "Cook under the oven grill at 220 °C for 18 minutes, turning halfway, until golden and cooked through."
+      }
+     },
+     "tips": [
+      "Remove the garlic germ and add the oil very slowly: the toum emulsifies without splitting.",
+      "Leftover toum keeps for 2 weeks in a closed jar in the fridge.",
+      "With fattoush and batata harra it becomes a full Lebanese dinner."
+     ]
+    },
+    "fr": {
+     "title": "Chich taouk et toum",
+     "intro": "Brochettes de poulet marinées au yaourt, citron et ail, avec la crème d'ail libanaise.",
+     "ing": [
+      "blanc de poulet",
+      "yaourt nature",
+      "citron",
+      "gousses d'ail",
+      "concentré de tomate",
+      "paprika doux",
+      "piment de la Jamaïque moulu",
+      "huile d'olive vierge extra",
+      "gousses d'ail pour la toum",
+      "huile de tournesol",
+      "citron pour la toum",
+      "eau glacée",
+      "sel",
+      "poivre noir",
+      "pains pita",
+      "pickles (concombre et navet)",
+      "brochettes en bois"
+     ],
+     "steps": [
+      "Mélange le yaourt, le jus de citron, les 3 gousses d'ail râpées, le concentré, le paprika, le piment de la Jamaïque, l'huile, sel et poivre.",
+      "Coupe le poulet en cubes de 3 cm, enrobe-les de marinade, couvre et laisse au frigo au moins 2 heures (idéalement une nuit).",
+      "Pendant ce temps, prépare la toum : mixe les gousses d'ail dégermées avec une pincée de sel 1 minute, jusqu'à obtenir une pâte.",
+      "Moteur en marche, verse l'huile en mince filet, en alternant avec le citron et l'eau glacée, jusqu'à une crème blanche et ferme.",
+      "Enfile le poulet sur les brochettes (en bois, trempées 30 minutes dans l'eau) sans trop serrer les morceaux.",
+      "Cuis sur une plancha brûlante 12 minutes en retournant souvent, jusqu'à ce qu'il soit doré et cuit à cœur, sans rose.",
+      "Sers avec la toum, du pain pita chaud et les pickles."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "",
+      "",
+      "Brochettes",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Cuis sur les braises 10 minutes en retournant souvent, jusqu'à ce qu'il soit doré et cuit à cœur, sans rose.",
+       "oven": "Cuis au four en mode gril à 220 °C pendant 18 minutes, en retournant à mi-cuisson, jusqu'à ce qu'il soit doré et cuit."
+      }
+     },
+     "tips": [
+      "Dégerme l'ail et verse l'huile très lentement : la toum monte sans trancher.",
+      "Le reste de toum se garde 2 semaines au frigo dans un bocal fermé.",
+      "Avec le fattouche et la batata harra, c'est un vrai dîner libanais."
+     ]
+    },
+    "es": {
+     "title": "Shish tawouk con toum",
+     "intro": "Brochetas de pollo marinadas en yogur, limón y ajo, con la crema de ajo libanesa.",
+     "ing": [
+      "pechuga de pollo",
+      "yogur natural",
+      "limón",
+      "dientes de ajo",
+      "concentrado de tomate",
+      "pimentón dulce",
+      "pimienta de Jamaica molida",
+      "aceite de oliva virgen extra",
+      "dientes de ajo para la toum",
+      "aceite de girasol",
+      "limón para la toum",
+      "agua helada",
+      "sal",
+      "pimienta negra",
+      "panes de pita",
+      "encurtidos (pepino y nabo)",
+      "brochetas de madera"
+     ],
+     "steps": [
+      "Mezcla el yogur, el zumo de limón, los 3 dientes de ajo rallados, el concentrado, el pimentón, la pimienta de Jamaica, el aceite, sal y pimienta.",
+      "Corta el pollo en dados de 3 cm, mézclalo con el adobo, tapa y deja en la nevera al menos 2 horas (mejor toda la noche).",
+      "Mientras tanto, prepara la toum: tritura los ajos sin el germen con una pizca de sal 1 minuto, hasta hacer una pasta.",
+      "Con el motor en marcha, añade el aceite en hilo fino, alternando con el limón y el agua helada, hasta lograr una crema blanca y firme.",
+      "Ensarta el pollo en las brochetas (si son de madera, remojadas 30 minutos en agua) sin apretar demasiado los trozos.",
+      "Cocina en una plancha muy caliente 12 minutos, girando a menudo, hasta que esté dorado y bien hecho por dentro, sin partes rosadas.",
+      "Sirve con la toum, pan de pita caliente y los encurtidos."
+     ],
+     "labels": [
+      "",
+      "Adobo",
+      "",
+      "",
+      "",
+      "Brochetas",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Ásalo sobre las brasas 10 minutos, girando a menudo, hasta que esté dorado y bien hecho por dentro, sin partes rosadas.",
+       "oven": "Ásalo en el horno con el grill a 220 °C durante 18 minutos, girando a mitad, hasta que esté dorado y bien hecho."
+      }
+     },
+     "tips": [
+      "Quita el germen al ajo y echa el aceite muy despacio: la toum monta sin cortarse.",
+      "La toum que sobre aguanta 2 semanas en la nevera en un tarro cerrado.",
+      "Con fattoush y batata harra tienes una cena libanesa completa."
+     ]
+    },
+    "de": {
+     "title": "Shish Tawouk mit Toum",
+     "intro": "Hähnchenspieße in Joghurt-Zitronen-Marinade, dazu libanesische Knoblauchcreme.",
+     "ing": [
+      "Hähnchenbrust",
+      "Naturjoghurt",
+      "Zitrone",
+      "Knoblauchzehen",
+      "Tomatenmark",
+      "edelsüßes Paprikapulver",
+      "gemahlener Piment",
+      "natives Olivenöl extra",
+      "Knoblauchzehen für die Toum",
+      "Sonnenblumenöl",
+      "Zitrone für die Toum",
+      "Eiswasser",
+      "Salz",
+      "schwarzer Pfeffer",
+      "Pitabrote",
+      "eingelegtes Gemüse (Gurke, Rübe)",
+      "Holzspieße"
+     ],
+     "steps": [
+      "Verrühr Joghurt, Zitronensaft, die 3 geriebenen Knoblauchzehen, Tomatenmark, Paprika, Piment, Öl, Salz und Pfeffer.",
+      "Schneide das Hähnchen in 3 cm große Würfel, wende sie in der Marinade und lass sie zugedeckt mindestens 2 Stunden (besser über Nacht) kühl ziehen.",
+      "Mach inzwischen die Toum: Knoblauchzehen ohne Keim mit einer Prise Salz 1 Minute zu einer Paste mixen.",
+      "Gieß bei laufendem Mixer das Öl in dünnem Strahl dazu, abwechselnd mit Zitronensaft und Eiswasser, bis eine weiße, feste Creme entsteht.",
+      "Steck das Hähnchen auf die Spieße (Holzspieße vorher 30 Minuten wässern), ohne die Stücke zu fest zu drücken.",
+      "Brat die Spieße in einer sehr heißen Grillpfanne 12 Minuten unter häufigem Wenden, bis sie goldbraun und innen ganz durch sind.",
+      "Mit Toum, warmem Pitabrot und eingelegtem Gemüse servieren."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "",
+      "",
+      "",
+      "Spieße",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Über heißer Glut 10 Minuten unter häufigem Wenden grillen, bis sie goldbraun und innen ganz durch sind.",
+       "oven": "Unter dem Backofengrill bei 220 °C 18 Minuten garen, nach der Hälfte wenden, bis sie goldbraun und durch sind."
+      }
+     },
+     "tips": [
+      "Entferne den Keim aus dem Knoblauch und gieß das Öl ganz langsam zu: So gerinnt die Toum nicht.",
+      "Übrige Toum hält sich im geschlossenen Glas 2 Wochen im Kühlschrank.",
+      "Mit Fattoush und Batata harra wird daraus ein komplettes libanesisches Abendessen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "samkeh-harra",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 2,
+   "kcal": 430,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "LB",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 2,
+     "u": "",
+     "k": "whole-sea-bass"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 5,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "tahini"
+    },
+    {
+     "q": 120,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "walnuts"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 420
+    },
+    {
+     "timer": 150
+    },
+    {
+     "timer": 480
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Samkeh harra, pesce piccante al tahini",
+     "intro": "Branzino al forno coperto di salsa di tahina, coriandolo, peperoncino e noci.",
+     "ing": [
+      "branzini da 500 g circa, puliti",
+      "limoni",
+      "olio extravergine d'oliva",
+      "cumino in polvere",
+      "tahina",
+      "acqua fredda",
+      "cipolla",
+      "spicchi d'aglio",
+      "peperoncini freschi",
+      "coriandolo fresco",
+      "gherigli di noce",
+      "sale"
+     ],
+     "steps": [
+      "Scalda il forno a 220 °C. Incidi i branzini 2 o 3 volte per lato e condiscili dentro e fuori con sale, cumino, olio e succo di mezzo limone.",
+      "Mettili in una teglia unta e inforna a 220 °C per 20 minuti, finché la polpa vicino alla lisca è bianca.",
+      "Intanto sbatti la tahina con il succo di un limone, l'acqua e un pizzico di sale, fino a una salsa liscia come panna densa.",
+      "In una padella rosola la cipolla affettata in 2 cucchiai d'olio finché è dorata, poi unisci aglio, peperoncino e metà del coriandolo tritati.",
+      "Versa la salsa di tahina e mescola a fuoco basso finché si addensa appena. Non farla bollire.",
+      "Versa la salsa sul pesce, cospargi di noci tritate e rimetti in forno per 8 minuti, finché bolle ai bordi.",
+      "Completa con il coriandolo rimasto e servi caldo o a temperatura ambiente, con spicchi di limone."
+     ],
+     "labels": [
+      "",
+      "Forno",
+      "",
+      "Soffritto",
+      "Salsa",
+      "Gratinare",
+      ""
+     ],
+     "tips": [
+      "Con 4 filetti di orata o merluzzo bastano 12 minuti di forno prima della salsa.",
+      "Se la salsa di tahina si addensa troppo o granisce, allungala con un goccio d'acqua calda.",
+      "In Libano si usano anche pinoli tostati al posto delle noci, o insieme."
+     ]
+    },
+    "en": {
+     "title": "Samkeh harra, spicy tahini fish",
+     "intro": "Baked sea bass smothered in tahini sauce with cilantro, chili and walnuts.",
+     "ing": [
+      "whole sea bass, about 500 g each, cleaned",
+      "lemons",
+      "extra virgin olive oil",
+      "ground cumin",
+      "tahini",
+      "cold water",
+      "onion",
+      "garlic cloves",
+      "fresh chilies",
+      "fresh cilantro",
+      "walnut halves",
+      "salt"
+     ],
+     "steps": [
+      "Heat the oven to 220 °C. Score the fish 2 or 3 times on each side and season inside and out with salt, cumin, oil and half a lemon's juice.",
+      "Lay them in an oiled tray and bake at 220 °C for 20 minutes, until the flesh by the bone is white.",
+      "Meanwhile whisk the tahini with the juice of one lemon, the water and a pinch of salt into a sauce as smooth as thick cream.",
+      "In a pan fry the sliced onion in 2 tbsp oil until golden, then add the chopped garlic, chili and half the cilantro.",
+      "Pour in the tahini sauce and stir over low heat until it just thickens. Don't let it boil.",
+      "Spoon the sauce over the fish, scatter with chopped walnuts and return to the oven for 8 minutes, until bubbling at the edges.",
+      "Finish with the remaining cilantro and serve hot or at room temperature, with lemon wedges."
+     ],
+     "labels": [
+      "",
+      "Oven",
+      "",
+      "Onion",
+      "Sauce",
+      "Bake",
+      ""
+     ],
+     "tips": [
+      "With 4 sea bream or cod fillets, 12 minutes in the oven before the sauce is enough.",
+      "If the tahini sauce gets too thick or grainy, loosen it with a splash of hot water.",
+      "In Lebanon toasted pine nuts are also used instead of, or with, the walnuts."
+     ]
+    },
+    "fr": {
+     "title": "Samké harra, poisson épicé au tahini",
+     "intro": "Bar au four nappé de sauce tahini à la coriandre, au piment et aux noix.",
+     "ing": [
+      "bars entiers d'environ 500 g, vidés",
+      "citrons",
+      "huile d'olive vierge extra",
+      "cumin en poudre",
+      "tahini (crème de sésame)",
+      "eau froide",
+      "oignon",
+      "gousses d'ail",
+      "piments frais",
+      "coriandre fraîche",
+      "cerneaux de noix",
+      "sel"
+     ],
+     "steps": [
+      "Préchauffe le four à 220 °C. Entaille les bars 2 ou 3 fois de chaque côté et assaisonne dedans et dehors de sel, cumin, huile et jus d'un demi-citron.",
+      "Pose-les dans un plat huilé et enfourne à 220 °C pendant 20 minutes, jusqu'à ce que la chair près de l'arête soit blanche.",
+      "Pendant ce temps, fouette le tahini avec le jus d'un citron, l'eau et une pincée de sel, jusqu'à une sauce lisse comme une crème épaisse.",
+      "Dans une poêle, fais dorer l'oignon émincé dans 2 c. à soupe d'huile, puis ajoute l'ail, le piment et la moitié de la coriandre hachés.",
+      "Verse la sauce tahini et remue à feu doux jusqu'à ce qu'elle épaississe à peine. Ne la fais pas bouillir.",
+      "Nappe le poisson de sauce, parsème de noix concassées et remets au four 8 minutes, jusqu'à ce que ça bouillonne sur les bords.",
+      "Termine avec le reste de coriandre et sers chaud ou tiède, avec des quartiers de citron."
+     ],
+     "labels": [
+      "",
+      "Four",
+      "",
+      "Oignon",
+      "Sauce",
+      "Gratiner",
+      ""
+     ],
+     "tips": [
+      "Avec 4 filets de dorade ou de cabillaud, 12 minutes de four avant la sauce suffisent.",
+      "Si la sauce tahini épaissit trop ou graine, détends-la avec un peu d'eau chaude.",
+      "Au Liban, on met aussi des pignons grillés à la place des noix, ou avec."
+     ]
+    },
+    "es": {
+     "title": "Samkeh harra, pescado al tahini picante",
+     "intro": "Lubina al horno cubierta de salsa de tahini con cilantro, guindilla y nueces.",
+     "ing": [
+      "lubinas enteras de unos 500 g, limpias",
+      "limones",
+      "aceite de oliva virgen extra",
+      "comino molido",
+      "tahini",
+      "agua fría",
+      "cebolla",
+      "dientes de ajo",
+      "guindillas frescas",
+      "cilantro fresco",
+      "nueces peladas",
+      "sal"
+     ],
+     "steps": [
+      "Precalienta el horno a 220 °C. Haz 2 o 3 cortes por lado a las lubinas y sazónalas por dentro y por fuera con sal, comino, aceite y medio limón.",
+      "Ponlas en una bandeja engrasada y hornea a 220 °C durante 20 minutos, hasta que la carne junto a la espina esté blanca.",
+      "Mientras tanto, bate el tahini con el zumo de un limón, el agua y una pizca de sal hasta una salsa lisa como nata espesa.",
+      "En una sartén dora la cebolla en juliana con 2 cucharadas de aceite y añade el ajo, la guindilla y la mitad del cilantro picados.",
+      "Vierte la salsa de tahini y remueve a fuego bajo hasta que espese apenas. No dejes que hierva.",
+      "Cubre el pescado con la salsa, esparce las nueces picadas y hornea 8 minutos más, hasta que burbujee por los bordes.",
+      "Termina con el resto del cilantro y sirve caliente o a temperatura ambiente, con gajos de limón."
+     ],
+     "labels": [
+      "",
+      "Horno",
+      "",
+      "Sofrito",
+      "Salsa",
+      "Gratinar",
+      ""
+     ],
+     "tips": [
+      "Con 4 filetes de dorada o bacalao fresco bastan 12 minutos de horno antes de la salsa.",
+      "Si la salsa de tahini espesa demasiado o se corta, alárgala con un chorrito de agua caliente.",
+      "En Líbano también se usan piñones tostados en lugar de las nueces, o junto a ellas."
+     ]
+    },
+    "de": {
+     "title": "Samkeh harra, scharfer Tahini-Fisch",
+     "intro": "Wolfsbarsch aus dem Ofen unter Tahinisauce mit Koriander, Chili und Walnüssen.",
+     "ing": [
+      "ganze Wolfsbarsche à ca. 500 g, ausgenommen",
+      "Zitronen",
+      "natives Olivenöl extra",
+      "gemahlener Kreuzkümmel",
+      "Tahin",
+      "kaltes Wasser",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "frische Chilischoten",
+      "frischer Koriander",
+      "Walnusskerne",
+      "Salz"
+     ],
+     "steps": [
+      "Heiz den Ofen auf 220 °C vor. Schneide die Fische pro Seite 2 bis 3 Mal ein, würz sie innen und außen mit Salz, Kreuzkümmel, Öl und halber Zitrone.",
+      "Leg sie in eine geölte Form und back sie bei 220 °C 20 Minuten, bis das Fleisch an der Gräte weiß ist.",
+      "Schlag inzwischen Tahin mit dem Saft einer Zitrone, dem Wasser und einer Prise Salz zu einer Sauce, so glatt wie dicke Sahne.",
+      "Brat in einer Pfanne die Zwiebelringe in 2 EL Öl goldbraun, dann gehackten Knoblauch, Chili und die Hälfte des Korianders dazugeben.",
+      "Gieß die Tahinisauce dazu und rühr bei schwacher Hitze, bis sie leicht eindickt. Nicht kochen lassen.",
+      "Verteil die Sauce über den Fisch, streu gehackte Walnüsse darüber und back alles noch 8 Minuten, bis es am Rand blubbert.",
+      "Mit dem restlichen Koriander bestreuen und heiß oder zimmerwarm mit Zitronenspalten servieren."
+     ],
+     "labels": [
+      "",
+      "Ofen",
+      "",
+      "Zwiebeln",
+      "Sauce",
+      "Überbacken",
+      ""
+     ],
+     "tips": [
+      "Mit 4 Dorade- oder Kabeljaufilets reichen 12 Minuten im Ofen vor der Sauce.",
+      "Wird die Tahinisauce zu dick oder grieselig, mit einem Schuss heißem Wasser glatt rühren.",
+      "Im Libanon nimmt man statt oder neben den Walnüssen auch geröstete Pinienkerne."
+     ]
+    }
+   }
+  },
+  {
+   "id": "fattoush",
+   "cat": "contorni",
+   "sub": "insalate",
+   "servings": 4,
+   "minutes": 25,
+   "diff": 1,
+   "kcal": 270,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "LB",
+   "alcohol": false,
+   "methods": [
+    "oven",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 2,
+     "u": "",
+     "k": "pita-breads"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "romaine-lettuce"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "cucumbers"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "radishes"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-bell-peppers"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "mint"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "pomegranate-molasses"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sumac"
+    },
+    {
+     "q": 7,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "alt": {
+      "airfryer": {}
+     }
+    },
+    {
+     "timer": 480,
+     "bg": true,
+     "alt": {
+      "airfryer": {
+       "timer": 300
+      }
+     }
+    },
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "spice"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Fattoush, insalata libanese con pane",
+     "intro": "Verdure croccanti, erbe e pane pita tostato con sumac e melassa di melograno.",
+     "ing": [
+      "pite",
+      "cespo di lattuga romana",
+      "pomodori maturi",
+      "cetrioli piccoli",
+      "ravanelli",
+      "cipollotti",
+      "peperone verde",
+      "prezzemolo",
+      "menta fresca",
+      "limone",
+      "spicchio d'aglio",
+      "melassa di melograno",
+      "sumac",
+      "olio extravergine d'oliva",
+      "sale"
+     ],
+     "steps": [
+      "Scalda il forno a 200 °C. Spezza le pite a pezzetti e condiscile con 2 cucchiai d'olio e un pizzico di sumac.",
+      "Inforna a 200 °C per 8 minuti, finché sono dorate e croccanti.",
+      "Intanto taglia a pezzi lattuga, pomodori, cetrioli, ravanelli e peperone; affetta i cipollotti e trita prezzemolo e menta.",
+      "Sbatti succo di limone, aglio schiacciato, melassa di melograno, sumac, sale e l'olio rimasto.",
+      "All'ultimo momento condisci le verdure, aggiungi il pane croccante, mescola e spolvera ancora di sumac."
+     ],
+     "labels": [
+      "",
+      "Pita",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "airfryer": "Spezza le pite a pezzetti e condiscile con 2 cucchiai d'olio e un pizzico di sumac."
+      },
+      "1": {
+       "airfryer": "Cuocile in friggitrice ad aria a 180 °C per 5 minuti, scuotendo a metà, finché sono dorate."
+      }
+     },
+     "tips": [
+      "In estate aggiungi una manciata di portulaca (porcellana): in Libano nel fattoush non manca mai.",
+      "Aggiungi il pane solo all'ultimo, o tienine metà sopra: deve restare croccante.",
+      "Un pizzico di menta secca nel condimento rende il fattoush ancora più profumato."
+     ]
+    },
+    "en": {
+     "title": "Fattoush, Lebanese bread salad",
+     "intro": "Crisp vegetables, herbs and toasted pita with sumac and pomegranate molasses.",
+     "ing": [
+      "pita breads",
+      "head of romaine lettuce",
+      "ripe tomatoes",
+      "small cucumbers",
+      "radishes",
+      "scallions",
+      "green bell pepper",
+      "flat-leaf parsley",
+      "fresh mint",
+      "lemon",
+      "garlic clove",
+      "pomegranate molasses",
+      "sumac",
+      "extra virgin olive oil",
+      "salt"
+     ],
+     "steps": [
+      "Heat the oven to 200 °C. Tear the pitas into small pieces and toss with 2 tbsp oil and a pinch of sumac.",
+      "Bake at 200 °C for 8 minutes, until golden and crisp.",
+      "Meanwhile chop the lettuce, tomatoes, cucumbers, radishes and pepper; slice the scallions and chop the parsley and mint.",
+      "Whisk the lemon juice, crushed garlic, pomegranate molasses, sumac, salt and the rest of the oil.",
+      "At the last moment dress the vegetables, add the crisp bread, toss and sprinkle with more sumac."
+     ],
+     "labels": [
+      "",
+      "Pita",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "airfryer": "Tear the pitas into small pieces and toss with 2 tbsp oil and a pinch of sumac."
+      },
+      "1": {
+       "airfryer": "Air-fry at 180 °C for 5 minutes, shaking halfway, until golden."
+      }
+     },
+     "tips": [
+      "In summer add a handful of purslane: in Lebanon fattoush is never without it.",
+      "Add the bread only at the end, or keep half on top: it must stay crunchy.",
+      "A pinch of dried mint in the dressing makes it even more fragrant."
+     ]
+    },
+    "fr": {
+     "title": "Fattouche, salade libanaise au pain",
+     "intro": "Légumes croquants, herbes et pain pita grillé au sumac et à la mélasse de grenade.",
+     "ing": [
+      "pains pita",
+      "laitue romaine",
+      "tomates mûres",
+      "petits concombres",
+      "radis",
+      "oignons nouveaux",
+      "poivron vert",
+      "persil plat",
+      "menthe fraîche",
+      "citron",
+      "gousse d'ail",
+      "mélasse de grenade",
+      "sumac",
+      "huile d'olive vierge extra",
+      "sel"
+     ],
+     "steps": [
+      "Préchauffe le four à 200 °C. Déchire les pitas en petits morceaux et mélange-les avec 2 c. à soupe d'huile et une pincée de sumac.",
+      "Enfourne à 200 °C pendant 8 minutes, jusqu'à ce qu'ils soient dorés et croustillants.",
+      "Pendant ce temps, coupe laitue, tomates, concombres, radis et poivron en morceaux ; émince les oignons, hache persil et menthe.",
+      "Fouette le jus de citron, l'ail écrasé, la mélasse de grenade, le sumac, le sel et le reste de l'huile.",
+      "Au dernier moment, assaisonne les légumes, ajoute le pain croustillant, mélange et saupoudre encore de sumac."
+     ],
+     "labels": [
+      "",
+      "Pita",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "airfryer": "Déchire les pitas en petits morceaux et mélange-les avec 2 c. à soupe d'huile et une pincée de sumac."
+      },
+      "1": {
+       "airfryer": "Cuis-les à la friteuse à air à 180 °C pendant 5 minutes, en secouant à mi-cuisson, jusqu'à ce qu'ils dorent."
+      }
+     },
+     "tips": [
+      "En été, ajoute une poignée de pourpier : au Liban, il ne manque jamais dans le fattouche.",
+      "Ajoute le pain au dernier moment, ou gardes-en la moitié dessus : il doit rester croquant.",
+      "Une pincée de menthe séchée dans la vinaigrette le rend encore plus parfumé."
+     ]
+    },
+    "es": {
+     "title": "Fattoush, ensalada libanesa con pan",
+     "intro": "Verduras crujientes, hierbas y pan de pita tostado con zumaque y melaza de granada.",
+     "ing": [
+      "panes de pita",
+      "lechuga romana",
+      "tomates maduros",
+      "pepinos pequeños",
+      "rabanitos",
+      "cebolletas",
+      "pimiento verde",
+      "perejil",
+      "menta fresca",
+      "limón",
+      "diente de ajo",
+      "melaza de granada",
+      "zumaque",
+      "aceite de oliva virgen extra",
+      "sal"
+     ],
+     "steps": [
+      "Precalienta el horno a 200 °C. Trocea las pitas y mézclalas con 2 cucharadas de aceite y una pizca de zumaque.",
+      "Hornea a 200 °C durante 8 minutos, hasta que estén doradas y crujientes.",
+      "Mientras tanto, trocea la lechuga, los tomates, los pepinos, los rabanitos y el pimiento; corta las cebolletas y pica perejil y menta.",
+      "Bate el zumo de limón, el ajo machacado, la melaza de granada, el zumaque, la sal y el resto del aceite.",
+      "En el último momento aliña las verduras, añade el pan crujiente, mezcla y espolvorea más zumaque."
+     ],
+     "labels": [
+      "",
+      "Pita",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "airfryer": "Trocea las pitas y mézclalas con 2 cucharadas de aceite y una pizca de zumaque."
+      },
+      "1": {
+       "airfryer": "Cuécelas en la freidora de aire a 180 °C durante 5 minutos, agitando a mitad, hasta que se doren."
+      }
+     },
+     "tips": [
+      "En verano añade un puñado de verdolaga: en Líbano nunca falta en el fattoush.",
+      "Añade el pan en el último momento, o deja la mitad encima: tiene que seguir crujiente.",
+      "Una pizca de menta seca en el aliño lo hace aún más aromático."
+     ]
+    },
+    "de": {
+     "title": "Fattoush, libanesischer Brotsalat",
+     "intro": "Knackiges Gemüse, Kräuter und geröstetes Pitabrot mit Sumach und Granatapfelsirup.",
+     "ing": [
+      "Pitabrote",
+      "Kopf Romanasalat",
+      "reife Tomaten",
+      "kleine Gurken",
+      "Radieschen",
+      "Frühlingszwiebeln",
+      "grüne Paprikaschote",
+      "glatte Petersilie",
+      "frische Minze",
+      "Zitrone",
+      "Knoblauchzehe",
+      "Granatapfelsirup",
+      "Sumach",
+      "natives Olivenöl extra",
+      "Salz"
+     ],
+     "steps": [
+      "Heiz den Ofen auf 200 °C vor. Reiß die Pitas in kleine Stücke und misch sie mit 2 EL Öl und einer Prise Sumach.",
+      "Back sie bei 200 °C 8 Minuten, bis sie goldbraun und knusprig sind.",
+      "Schneide inzwischen Salat, Tomaten, Gurken, Radieschen und Paprika in Stücke, die Frühlingszwiebeln in Ringe und hack Petersilie und Minze.",
+      "Verquirl Zitronensaft, zerdrückten Knoblauch, Granatapfelsirup, Sumach, Salz und das restliche Öl.",
+      "Misch erst kurz vor dem Servieren das Gemüse mit dem Dressing, gib das knusprige Brot dazu und streu noch Sumach darüber."
+     ],
+     "labels": [
+      "",
+      "Pita",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "airfryer": "Reiß die Pitas in kleine Stücke und misch sie mit 2 EL Öl und einer Prise Sumach."
+      },
+      "1": {
+       "airfryer": "In der Heißluftfritteuse bei 180 °C 5 Minuten rösten, nach der Hälfte schütteln, bis sie goldbraun sind."
+      }
+     },
+     "tips": [
+      "Im Sommer eine Handvoll Portulak dazugeben: Im Libanon fehlt er im Fattoush nie.",
+      "Gib das Brot erst ganz zum Schluss dazu oder leg die Hälfte obenauf: Es soll knusprig bleiben.",
+      "Eine Prise getrocknete Minze im Dressing macht ihn noch aromatischer."
+     ]
+    }
+   }
+  },
+  {
+   "id": "loubieh-bi-zeit",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 65,
+   "diff": 1,
+   "kcal": 210,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "LB",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "green-beans"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 80,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-allspice"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 540
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 2100,
+     "alt": {
+      "pressure": {
+       "timer": 480
+      }
+     }
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Loubieh bi zeit, fagiolini all'olio",
+     "intro": "Fagiolini stufati piano in olio e pomodoro, da mangiare a temperatura ambiente.",
+     "ing": [
+      "fagiolini",
+      "cipolla",
+      "spicchi d'aglio",
+      "pomodori maturi",
+      "olio extravergine d'oliva",
+      "pimento (pepe della Giamaica) in polvere",
+      "acqua",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Spunta i fagiolini e tagliali a pezzi di 4-5 cm; trita la cipolla e affetta l'aglio.",
+      "In una casseruola scalda l'olio e cuoci la cipolla a fuoco medio finché è morbida e dorata; aggiungi l'aglio nell'ultimo minuto.",
+      "Unisci i fagiolini e mescola finché diventano verde brillante e lucidi d'olio.",
+      "Aggiungi i pomodori tritati, pimento, sale, pepe e l'acqua. Copri e cuoci a fuoco basso finché i fagiolini sono tenerissimi.",
+      "Scoperchia e fai restringere il sugo per 5 minuti, se è ancora acquoso.",
+      "Lascia intiepidire e servi a temperatura ambiente, con pane pita."
+     ],
+     "labels": [
+      "",
+      "Cipolla",
+      "Fagiolini",
+      "Stufato",
+      "Restringere",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Aggiungi pomodori, pimento, sale, pepe e acqua, chiudi la pentola a pressione e cuoci 8 minuti dal fischio."
+      }
+     },
+     "tips": [
+      "In Libano si usano fagiolini piatti, come i taccoli o i fagiolini romani: sono ancora più saporiti.",
+      "Non risparmiare sull'olio: è lui, insieme al pomodoro, a fare la salsa.",
+      "Come tutti i piatti bi zeit è più buono il giorno dopo: si conserva 3 giorni in frigo."
+     ]
+    },
+    "en": {
+     "title": "Loubieh bi zeit, beans in olive oil",
+     "intro": "Green beans slowly braised in olive oil and tomato, eaten at room temperature.",
+     "ing": [
+      "green beans",
+      "onion",
+      "garlic cloves",
+      "ripe tomatoes",
+      "extra virgin olive oil",
+      "ground allspice",
+      "water",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Trim the beans and cut them into 4-5 cm pieces; chop the onion and slice the garlic.",
+      "Heat the oil in a saucepan and cook the onion over medium heat until soft and golden, adding the garlic for the last minute.",
+      "Add the beans and stir until bright green and glossy with oil.",
+      "Add the chopped tomatoes, allspice, salt, pepper and water. Cover and cook over low heat until the beans are very tender.",
+      "Uncover and reduce the sauce for 5 minutes if it's still watery.",
+      "Let it cool slightly and serve at room temperature, with pita."
+     ],
+     "labels": [
+      "",
+      "Onion",
+      "Beans",
+      "Braise",
+      "Reduce",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Add tomatoes, allspice, salt, pepper and water, close the pressure cooker and cook 8 minutes once at pressure."
+      }
+     },
+     "tips": [
+      "In Lebanon flat runner beans are used: if you find them, they're even tastier.",
+      "Don't skimp on the oil: together with the tomato, it makes the sauce.",
+      "Like all bi zeit dishes it's better the next day and keeps 3 days in the fridge."
+     ]
+    },
+    "fr": {
+     "title": "Loubié bi zeit, haricots à l'huile",
+     "intro": "Haricots verts mijotés doucement à l'huile d'olive et à la tomate, servis tièdes.",
+     "ing": [
+      "haricots verts",
+      "oignon",
+      "gousses d'ail",
+      "tomates mûres",
+      "huile d'olive vierge extra",
+      "piment de la Jamaïque moulu",
+      "eau",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Équeute les haricots et coupe-les en tronçons de 4-5 cm ; hache l'oignon et émince l'ail.",
+      "Chauffe l'huile dans une cocotte et fais fondre l'oignon à feu moyen jusqu'à ce qu'il soit doré ; ajoute l'ail la dernière minute.",
+      "Ajoute les haricots et remue jusqu'à ce qu'ils soient vert vif et brillants d'huile.",
+      "Ajoute les tomates hachées, le piment de la Jamaïque, sel, poivre et l'eau. Couvre et cuis à feu doux jusqu'à ce qu'ils soient très tendres.",
+      "Découvre et fais réduire la sauce 5 minutes si elle est encore liquide.",
+      "Laisse tiédir et sers à température ambiante, avec du pain pita."
+     ],
+     "labels": [
+      "",
+      "Oignon",
+      "Haricots",
+      "Mijotage",
+      "Réduire",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Ajoute tomates, piment de la Jamaïque, sel, poivre et eau, ferme l'autocuiseur et compte 8 minutes après la mise en pression."
+      }
+     },
+     "tips": [
+      "Au Liban, on prend des haricots plats (cocos plats) : encore plus savoureux.",
+      "N'économise pas l'huile : avec la tomate, c'est elle qui fait la sauce.",
+      "Comme tous les plats bi zeit, c'est meilleur le lendemain : 3 jours au frigo."
+     ]
+    },
+    "es": {
+     "title": "Loubieh bi zeit, judías en aceite",
+     "intro": "Judías verdes guisadas despacio en aceite de oliva y tomate, servidas templadas.",
+     "ing": [
+      "judías verdes",
+      "cebolla",
+      "dientes de ajo",
+      "tomates maduros",
+      "aceite de oliva virgen extra",
+      "pimienta de Jamaica molida",
+      "agua",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Despunta las judías y córtalas en trozos de 4-5 cm; pica la cebolla y lamina el ajo.",
+      "Calienta el aceite en una cazuela y pocha la cebolla a fuego medio hasta que esté blanda y dorada; añade el ajo el último minuto.",
+      "Incorpora las judías y remueve hasta que estén de un verde vivo y brillantes de aceite.",
+      "Añade el tomate picado, la pimienta de Jamaica, sal, pimienta y el agua. Tapa y cuece a fuego bajo hasta que estén muy tiernas.",
+      "Destapa y reduce la salsa 5 minutos si aún está aguada.",
+      "Deja templar y sirve a temperatura ambiente, con pan de pita."
+     ],
+     "labels": [
+      "",
+      "Cebolla",
+      "Judías",
+      "Guiso",
+      "Reducir",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Añade tomate, pimienta de Jamaica, sal, pimienta y agua, cierra la olla a presión y cuece 8 minutos desde que suba la válvula."
+      }
+     },
+     "tips": [
+      "En Líbano se usan judías planas, como las judías perona: quedan aún más sabrosas.",
+      "No escatimes el aceite: junto con el tomate, es lo que hace la salsa.",
+      "Como todos los platos bi zeit, está mejor al día siguiente: aguanta 3 días en la nevera."
+     ]
+    },
+    "de": {
+     "title": "Loubieh bi zeit, Bohnen in Olivenöl",
+     "intro": "Grüne Bohnen, langsam in Olivenöl und Tomaten geschmort, zimmerwarm gegessen.",
+     "ing": [
+      "grüne Bohnen",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "reife Tomaten",
+      "natives Olivenöl extra",
+      "gemahlener Piment",
+      "Wasser",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Putz die Bohnen und schneide sie in 4-5 cm lange Stücke; hack die Zwiebel und schneide den Knoblauch in Scheiben.",
+      "Erhitz das Öl in einem Topf und dünste die Zwiebel bei mittlerer Hitze weich und goldgelb; den Knoblauch in der letzten Minute dazugeben.",
+      "Gib die Bohnen dazu und rühr, bis sie leuchtend grün sind und vom Öl glänzen.",
+      "Gib gehackte Tomaten, Piment, Salz, Pfeffer und Wasser dazu. Zugedeckt bei schwacher Hitze schmoren, bis die Bohnen ganz weich sind.",
+      "Nimm den Deckel ab und lass die Sauce 5 Minuten einkochen, falls sie noch wässrig ist.",
+      "Etwas abkühlen lassen und zimmerwarm mit Pitabrot servieren."
+     ],
+     "labels": [
+      "",
+      "Zwiebel",
+      "Bohnen",
+      "Schmoren",
+      "Einkochen",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Tomaten, Piment, Salz, Pfeffer und Wasser zugeben, den Schnellkochtopf schließen und 8 Minuten unter Druck garen."
+      }
+     },
+     "tips": [
+      "Im Libanon nimmt man flache Stangenbohnen: Wenn du sie findest, schmeckt es noch besser.",
+      "Spar nicht am Öl: Zusammen mit den Tomaten macht es die Sauce.",
+      "Wie alle Bi-zeit-Gerichte schmeckt es am nächsten Tag besser und hält 3 Tage im Kühlschrank."
+     ]
+    }
+   }
+  },
+  {
+   "id": "batata-harra",
+   "cat": "contorni",
+   "sub": "patate",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 300,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "LB",
+   "alcohol": false,
+   "methods": [
+    "fry",
+    "oven",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 5,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "aleppo-pepper"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 600,
+     "alt": {
+      "oven": {
+       "timer": 2100
+      },
+      "airfryer": {
+       "timer": 1200
+      }
+     }
+    },
+    {
+     "timer": 60
+    },
+    {
+     "timer": 120
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "shish-tawouk-toum"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Batata harra, patate piccanti",
+     "intro": "Patate croccanti saltate con aglio, coriandolo, peperoncino e limone.",
+     "ing": [
+      "patate",
+      "olio di semi per friggere",
+      "olio extravergine d'oliva",
+      "spicchi d'aglio",
+      "peperoncino fresco",
+      "coriandolo fresco",
+      "peperoncino di Aleppo",
+      "limone",
+      "sale"
+     ],
+     "steps": [
+      "Pela le patate, tagliale a cubi di 2 cm, sciacquale e asciugale benissimo con un canovaccio.",
+      "Friggile in olio a 170 °C, in due volte, finché sono dorate e croccanti; scolale su carta e salale.",
+      "In una padella larga scalda l'olio extravergine con aglio schiacciato, peperoncino e metà del coriandolo tritati, finché profuma senza scurire.",
+      "Aggiungi le patate e il peperoncino di Aleppo e saltale finché sono ben condite.",
+      "Spegni, unisci il succo di limone e il coriandolo rimasto, regola di sale e servi subito."
+     ],
+     "labels": [
+      "",
+      "Patate",
+      "Aglio",
+      "Saltare",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "oven": "Condiscile con 2 cucchiai d'olio di semi e sale e cuocile in forno a 220 °C per 35 minuti, girandole a metà, finché dorate.",
+       "airfryer": "Condiscile con 1 cucchiaio d'olio di semi e cuocile in friggitrice ad aria a 200 °C per 20 minuti, scuotendo, finché dorate."
+      }
+     },
+     "tips": [
+      "Asciuga bene le patate prima di cuocerle: solo così diventano croccanti fuori.",
+      "Senza peperoncino di Aleppo usa paprika dolce e un pizzico di peperoncino in fiocchi.",
+      "Perfette accanto agli spiedini di shish tawouk con la toum."
+     ]
+    },
+    "en": {
+     "title": "Batata harra, spicy potatoes",
+     "intro": "Crisp potatoes tossed with garlic, cilantro, chili and lemon.",
+     "ing": [
+      "potatoes",
+      "sunflower oil for frying",
+      "extra virgin olive oil",
+      "garlic cloves",
+      "fresh chili",
+      "fresh cilantro",
+      "Aleppo pepper",
+      "lemon",
+      "salt"
+     ],
+     "steps": [
+      "Peel the potatoes, cut them into 2 cm cubes, rinse and dry them very well with a tea towel.",
+      "Fry in oil at 170 °C, in two batches, until golden and crisp; drain on paper and salt.",
+      "In a wide pan warm the olive oil with crushed garlic, chopped chili and half the chopped cilantro until fragrant but not browned.",
+      "Add the potatoes and Aleppo pepper and toss until well coated.",
+      "Turn off the heat, add the lemon juice and the rest of the cilantro, season with salt and serve at once."
+     ],
+     "labels": [
+      "",
+      "Potatoes",
+      "Garlic",
+      "Toss",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "oven": "Toss with 2 tbsp sunflower oil and salt and roast at 220 °C for 35 minutes, turning halfway, until golden.",
+       "airfryer": "Toss with 1 tbsp sunflower oil and air-fry at 200 °C for 20 minutes, shaking, until golden."
+      }
+     },
+     "tips": [
+      "Dry the potatoes well before cooking: it's the only way they get crisp outside.",
+      "No Aleppo pepper? Use sweet paprika and a pinch of chili flakes.",
+      "Perfect next to shish tawouk skewers and toum."
+     ]
+    },
+    "fr": {
+     "title": "Batata harra, pommes de terre épicées",
+     "intro": "Pommes de terre croustillantes sautées à l'ail, à la coriandre, au piment et au citron.",
+     "ing": [
+      "pommes de terre",
+      "huile de tournesol pour la friture",
+      "huile d'olive vierge extra",
+      "gousses d'ail",
+      "piment frais",
+      "coriandre fraîche",
+      "piment d'Alep",
+      "citron",
+      "sel"
+     ],
+     "steps": [
+      "Pèle les pommes de terre, coupe-les en cubes de 2 cm, rince-les et sèche-les très bien dans un torchon.",
+      "Fais-les frire à 170 °C, en deux fois, jusqu'à ce qu'elles soient dorées et croustillantes ; égoutte-les et sale.",
+      "Dans une grande poêle, chauffe l'huile d'olive avec l'ail écrasé, le piment et la moitié de la coriandre hachés, sans laisser colorer.",
+      "Ajoute les pommes de terre et le piment d'Alep et fais-les sauter pour bien les enrober.",
+      "Hors du feu, ajoute le jus de citron et le reste de coriandre, rectifie le sel et sers aussitôt."
+     ],
+     "labels": [
+      "",
+      "Pommes de terre",
+      "Ail",
+      "Sauter",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "oven": "Mélange-les avec 2 c. à soupe d'huile de tournesol et du sel et enfourne à 220 °C 35 minutes, en les retournant, jusqu'à ce qu'elles dorent.",
+       "airfryer": "Mélange-les avec 1 c. à soupe d'huile et cuis-les à la friteuse à air à 200 °C 20 minutes, en secouant, jusqu'à ce qu'elles dorent."
+      }
+     },
+     "tips": [
+      "Sèche bien les pommes de terre avant cuisson : c'est la seule façon d'avoir une croûte croustillante.",
+      "Sans piment d'Alep, prends du paprika doux et une pincée de piment en flocons.",
+      "Parfaites à côté des brochettes de chich taouk et de la toum."
+     ]
+    },
+    "es": {
+     "title": "Batata harra, patatas picantes",
+     "intro": "Patatas crujientes salteadas con ajo, cilantro, guindilla y limón.",
+     "ing": [
+      "patatas",
+      "aceite de girasol para freír",
+      "aceite de oliva virgen extra",
+      "dientes de ajo",
+      "guindilla fresca",
+      "cilantro fresco",
+      "pimienta de Alepo",
+      "limón",
+      "sal"
+     ],
+     "steps": [
+      "Pela las patatas, córtalas en dados de 2 cm, lávalas y sécalas muy bien con un paño.",
+      "Fríelas en aceite a 170 °C, en dos tandas, hasta que estén doradas y crujientes; escúrrelas en papel y sálalas.",
+      "En una sartén amplia calienta el aceite de oliva con el ajo machacado, la guindilla y la mitad del cilantro picados, sin que se dore.",
+      "Añade las patatas y la pimienta de Alepo y saltéalas hasta que queden bien impregnadas.",
+      "Apaga el fuego, añade el zumo de limón y el resto del cilantro, ajusta de sal y sirve enseguida."
+     ],
+     "labels": [
+      "",
+      "Patatas",
+      "Ajo",
+      "Saltear",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "oven": "Mézclalas con 2 cucharadas de aceite de girasol y sal y hornéalas a 220 °C 35 minutos, dándoles la vuelta, hasta que se doren.",
+       "airfryer": "Mézclalas con 1 cucharada de aceite y cuécelas en la freidora de aire a 200 °C 20 minutos, agitando, hasta que se doren."
+      }
+     },
+     "tips": [
+      "Seca bien las patatas antes de cocinarlas: solo así quedan crujientes por fuera.",
+      "Sin pimienta de Alepo, usa pimentón dulce y una pizca de guindilla en copos.",
+      "Perfectas junto a las brochetas de shish tawouk con toum."
+     ]
+    },
+    "de": {
+     "title": "Batata harra, scharfe Kartoffeln",
+     "intro": "Knusprige Kartoffeln, geschwenkt mit Knoblauch, Koriander, Chili und Zitrone.",
+     "ing": [
+      "Kartoffeln",
+      "Sonnenblumenöl zum Frittieren",
+      "natives Olivenöl extra",
+      "Knoblauchzehen",
+      "frische Chilischote",
+      "frischer Koriander",
+      "Aleppo-Pfeffer",
+      "Zitrone",
+      "Salz"
+     ],
+     "steps": [
+      "Schäl die Kartoffeln, schneide sie in 2 cm große Würfel, spül sie ab und trockne sie mit einem Tuch sehr gut.",
+      "Frittier sie bei 170 °C in zwei Portionen goldbraun und knusprig; auf Küchenpapier abtropfen lassen und salzen.",
+      "Erhitz in einer weiten Pfanne das Olivenöl mit zerdrücktem Knoblauch, Chili und der Hälfte des Korianders, bis es duftet, ohne zu bräunen.",
+      "Gib die Kartoffeln und den Aleppo-Pfeffer dazu und schwenk alles, bis es gut überzogen ist.",
+      "Vom Herd nehmen, Zitronensaft und restlichen Koriander dazugeben, salzen und sofort servieren."
+     ],
+     "labels": [
+      "",
+      "Kartoffeln",
+      "Knoblauch",
+      "Schwenken",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "oven": "Mit 2 EL Sonnenblumenöl und Salz mischen und bei 220 °C 35 Minuten rösten, nach der Hälfte wenden, bis sie goldbraun sind.",
+       "airfryer": "Mit 1 EL Sonnenblumenöl mischen und in der Heißluftfritteuse bei 200 °C 20 Minuten garen, dabei schütteln."
+      }
+     },
+     "tips": [
+      "Trockne die Kartoffeln gut ab: Nur so werden sie außen knusprig.",
+      "Ohne Aleppo-Pfeffer nimm edelsüßes Paprikapulver und eine Prise Chiliflocken.",
+      "Passt perfekt zu Shish-Tawouk-Spießen mit Toum."
+     ]
+    }
+   }
+  },
+  {
+   "id": "maamoul-datteri",
+   "cat": "dolci",
+   "sub": "biscotti",
+   "servings": 10,
+   "minutes": 300,
+   "diff": 2,
+   "kcal": 370,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "festive"
+   ],
+   "months": [],
+   "origin": "LB",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 350,
+     "u": "g",
+     "k": "semolina"
+    },
+    {
+     "q": 170,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "salt"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "orange-blossom-water"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "rose-water"
+    },
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "medjool-dates"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "powdered-sugar"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 10800,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 900
+    },
+    {},
+    {},
+    {
+     "timer": 960
+    },
+    {
+     "timer": 1200
+    }
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Ma'amoul ai datteri",
+     "intro": "Biscotti di semola friabili, profumati ai fiori d'arancio, con un cuore di datteri.",
+     "ing": [
+      "semola di grano duro",
+      "burro fuso",
+      "zucchero",
+      "sale",
+      "acqua di fiori d'arancio",
+      "acqua di rose",
+      "latte",
+      "datteri morbidi denocciolati",
+      "burro per il ripieno",
+      "cannella in polvere",
+      "zucchero a velo"
+     ],
+     "steps": [
+      "Versa il burro fuso sulla semola e sfregala tra le mani per 3-4 minuti, finché sembra sabbia umida.",
+      "Copri la ciotola e lascia riposare a temperatura ambiente almeno 3 ore, meglio una notte.",
+      "Intanto schiaccia i datteri con il burro e la cannella fino a una pasta e forma 20 palline da 15 g.",
+      "Unisci alla semola zucchero, sale, acqua di fiori d'arancio, acqua di rose e latte; impasta appena, finché stringendolo si compatta.",
+      "Lascia riposare l'impasto 15 minuti e intanto scalda il forno a 180 °C.",
+      "Prendi 30 g d'impasto, appiattiscilo nel palmo, metti al centro una pallina di datteri, chiudi e arrotonda.",
+      "Premilo nello stampo per ma'amoul e sformalo con un colpo deciso; senza stampo decoralo con una forchetta o una pinzetta.",
+      "Inforna su carta da forno a 180 °C per 16 minuti, finché sono dorati sotto ma ancora chiari sopra.",
+      "Lasciali raffreddare del tutto sulla teglia, perché da caldi si rompono, poi spolverali di zucchero a velo."
+     ],
+     "labels": [
+      "",
+      "Riposo",
+      "",
+      "",
+      "Impasto",
+      "",
+      "",
+      "Forno",
+      "Raffreddare"
+     ],
+     "tips": [
+      "Ripieno di noci: 150 g di noci tritate con 2 cucchiai di zucchero e 1 di acqua di rose.",
+      "Il riposo lungo fa assorbire il burro alla semola: i ma'amoul diventano friabili e si sciolgono in bocca.",
+      "In una scatola di latta si conservano 2 settimane."
+     ]
+    },
+    "en": {
+     "title": "Date ma'amoul",
+     "intro": "Crumbly semolina cookies scented with orange blossom, with a soft date centre.",
+     "ing": [
+      "durum wheat semolina",
+      "melted butter",
+      "sugar",
+      "salt",
+      "orange blossom water",
+      "rose water",
+      "milk",
+      "soft pitted dates",
+      "butter for the filling",
+      "ground cinnamon",
+      "powdered sugar"
+     ],
+     "steps": [
+      "Pour the melted butter over the semolina and rub it between your hands for 3-4 minutes, until it looks like damp sand.",
+      "Cover the bowl and leave it at room temperature for at least 3 hours, overnight if you can.",
+      "Meanwhile mash the dates with the butter and cinnamon to a paste and roll into 20 balls of 15 g.",
+      "Add the sugar, salt, orange blossom water, rose water and milk to the semolina; knead just until it holds when squeezed.",
+      "Rest the dough for 15 minutes and heat the oven to 180 °C.",
+      "Take 30 g of dough, flatten it in your palm, put a date ball in the centre, close and roll smooth.",
+      "Press it into a ma'amoul mould and knock it out sharply; without a mould, decorate with a fork or pastry tweezers.",
+      "Bake on parchment at 180 °C for 16 minutes, until golden underneath but still pale on top.",
+      "Let them cool completely on the tray, as they break when hot, then dust with powdered sugar."
+     ],
+     "labels": [
+      "",
+      "Rest",
+      "",
+      "",
+      "Dough",
+      "",
+      "",
+      "Oven",
+      "Cool"
+     ],
+     "tips": [
+      "Walnut filling: 150 g chopped walnuts with 2 tbsp sugar and 1 tbsp rose water.",
+      "The long rest lets the semolina absorb the butter: the cookies turn crumbly and melt in the mouth.",
+      "They keep for 2 weeks in a tin."
+     ]
+    },
+    "fr": {
+     "title": "Maamoul aux dattes",
+     "intro": "Biscuits sablés à la semoule, parfumés à la fleur d'oranger, avec un cœur de dattes.",
+     "ing": [
+      "semoule de blé dur",
+      "beurre fondu",
+      "sucre",
+      "sel",
+      "eau de fleur d'oranger",
+      "eau de rose",
+      "lait",
+      "dattes moelleuses dénoyautées",
+      "beurre pour la farce",
+      "cannelle moulue",
+      "sucre glace"
+     ],
+     "steps": [
+      "Verse le beurre fondu sur la semoule et frotte-la entre tes mains 3-4 minutes, jusqu'à ce qu'elle ressemble à du sable mouillé.",
+      "Couvre le saladier et laisse reposer à température ambiante au moins 3 heures, idéalement une nuit.",
+      "Pendant ce temps, écrase les dattes avec le beurre et la cannelle en pâte et forme 20 boulettes de 15 g.",
+      "Ajoute à la semoule sucre, sel, eau de fleur d'oranger, eau de rose et lait ; pétris à peine, jusqu'à ce que la pâte se tienne.",
+      "Laisse reposer la pâte 15 minutes et préchauffe le four à 180 °C.",
+      "Prends 30 g de pâte, aplatis-la dans ta paume, mets une boulette de dattes au centre, referme et roule en boule lisse.",
+      "Presse-la dans le moule à maamoul et démoule d'un coup sec ; sans moule, décore avec une fourchette ou une pince à pâtisserie.",
+      "Enfourne sur papier cuisson à 180 °C pendant 16 minutes, jusqu'à ce qu'ils soient dorés dessous mais encore clairs dessus.",
+      "Laisse-les refroidir complètement sur la plaque, car chauds ils cassent, puis saupoudre de sucre glace."
+     ],
+     "labels": [
+      "",
+      "Repos",
+      "",
+      "",
+      "Pâte",
+      "",
+      "",
+      "Four",
+      "Refroidir"
+     ],
+     "tips": [
+      "Farce aux noix : 150 g de noix hachées, 2 c. à soupe de sucre et 1 c. à soupe d'eau de rose.",
+      "Le long repos fait absorber le beurre à la semoule : les maamoul deviennent sablés et fondants.",
+      "Ils se gardent 2 semaines dans une boîte en fer."
+     ]
+    },
+    "es": {
+     "title": "Maamoul de dátiles",
+     "intro": "Galletas de sémola que se deshacen, perfumadas con azahar y rellenas de dátil.",
+     "ing": [
+      "sémola de trigo duro",
+      "mantequilla derretida",
+      "azúcar",
+      "sal",
+      "agua de azahar",
+      "agua de rosas",
+      "leche",
+      "dátiles tiernos sin hueso",
+      "mantequilla para el relleno",
+      "canela molida",
+      "azúcar glas"
+     ],
+     "steps": [
+      "Vierte la mantequilla derretida sobre la sémola y frótala entre las manos 3-4 minutos, hasta que parezca arena húmeda.",
+      "Tapa el bol y deja reposar a temperatura ambiente al menos 3 horas, mejor toda la noche.",
+      "Mientras tanto, aplasta los dátiles con la mantequilla y la canela hasta una pasta y forma 20 bolitas de 15 g.",
+      "Añade a la sémola el azúcar, la sal, el agua de azahar, el agua de rosas y la leche; amasa lo justo, hasta que al apretarla se compacte.",
+      "Deja reposar la masa 15 minutos y precalienta el horno a 180 °C.",
+      "Coge 30 g de masa, aplánala en la palma, pon una bolita de dátil en el centro, ciérrala y redondéala.",
+      "Presiónala en el molde de maamoul y desmolda con un golpe seco; sin molde, decórala con un tenedor o unas pinzas.",
+      "Hornea sobre papel a 180 °C durante 16 minutos, hasta que estén doradas por debajo pero aún claras por arriba.",
+      "Déjalas enfriar del todo en la bandeja, porque en caliente se rompen, y espolvorea azúcar glas."
+     ],
+     "labels": [
+      "",
+      "Reposo",
+      "",
+      "",
+      "Masa",
+      "",
+      "",
+      "Horno",
+      "Enfriar"
+     ],
+     "tips": [
+      "Relleno de nueces: 150 g de nueces picadas con 2 cucharadas de azúcar y 1 de agua de rosas.",
+      "El reposo largo hace que la sémola absorba la mantequilla: las galletas quedan arenosas y se deshacen en la boca.",
+      "En una lata se conservan 2 semanas."
+     ]
+    },
+    "de": {
+     "title": "Ma'amoul mit Datteln",
+     "intro": "Mürbe Grießplätzchen mit Orangenblütenduft und einem weichen Dattelkern.",
+     "ing": [
+      "Hartweizengrieß",
+      "geschmolzene Butter",
+      "Zucker",
+      "Salz",
+      "Orangenblütenwasser",
+      "Rosenwasser",
+      "Milch",
+      "weiche entsteinte Datteln",
+      "Butter für die Füllung",
+      "gemahlener Zimt",
+      "Puderzucker"
+     ],
+     "steps": [
+      "Gieß die geschmolzene Butter über den Grieß und reib ihn 3-4 Minuten zwischen den Händen, bis er wie feuchter Sand aussieht.",
+      "Deck die Schüssel ab und lass sie mindestens 3 Stunden, am besten über Nacht, bei Zimmertemperatur ruhen.",
+      "Zerdrück inzwischen die Datteln mit Butter und Zimt zu einer Paste und form 20 Kugeln à 15 g.",
+      "Gib Zucker, Salz, Orangenblütenwasser, Rosenwasser und Milch zum Grieß; knete nur kurz, bis der Teig beim Drücken zusammenhält.",
+      "Lass den Teig 15 Minuten ruhen und heiz den Ofen auf 180 °C vor.",
+      "Nimm 30 g Teig, drück ihn in der Handfläche flach, leg eine Dattelkugel in die Mitte, schließ ihn und roll ihn glatt.",
+      "Drück ihn in die Ma'amoul-Form und klopf ihn kräftig heraus; ohne Form mit Gabel oder Teigzange verzieren.",
+      "Back sie auf Backpapier bei 180 °C 16 Minuten, bis sie unten goldbraun, oben aber noch hell sind.",
+      "Lass sie auf dem Blech ganz abkühlen, warm zerbrechen sie, und bestäub sie dann mit Puderzucker."
+     ],
+     "labels": [
+      "",
+      "Ruhen",
+      "",
+      "",
+      "Teig",
+      "",
+      "",
+      "Ofen",
+      "Abkühlen"
+     ],
+     "tips": [
+      "Walnussfüllung: 150 g gehackte Walnüsse mit 2 EL Zucker und 1 EL Rosenwasser.",
+      "Durch die lange Ruhe saugt der Grieß die Butter auf: Die Plätzchen werden mürbe und zergehen im Mund.",
+      "In einer Blechdose halten sie sich 2 Wochen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "jallab",
+   "cat": "bevande",
+   "sub": "fresche",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 190,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "LB",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 160,
+     "u": "ml",
+     "k": "jallab-syrup"
+    },
+    {
+     "q": 800,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "pine-nuts"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "raisins"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800
+    },
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Jallab, bibita di datteri e uva",
+     "intro": "Sciroppo di datteri, uva e acqua di rose sul ghiaccio, con pinoli e uvetta.",
+     "ing": [
+      "sciroppo di jallab",
+      "acqua fredda",
+      "ghiaccio tritato",
+      "pinoli",
+      "uvetta bionda"
+     ],
+     "steps": [
+      "Metti pinoli e uvetta in una ciotola d'acqua fredda e lasciali in ammollo per 30 minuti, finché sono gonfi.",
+      "In una caraffa mescola lo sciroppo di jallab con l'acqua fredda; assaggia e regola la dolcezza.",
+      "Riempi quattro bicchieri alti di ghiaccio tritato e versa il jallab.",
+      "Scola pinoli e uvetta, distribuiscili sopra e servi con un cucchiaino lungo."
+     ],
+     "labels": [
+      "Ammollo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Senza sciroppo di jallab: 3 parti di sciroppo di datteri, 1 di saba (mosto cotto) e qualche goccia d'acqua di rose.",
+      "Il ghiaccio tritato è d'obbligo: in Libano il jallab si beve gelato, quasi come una granita."
+     ]
+    },
+    "en": {
+     "title": "Jallab, date and grape drink",
+     "intro": "Date, grape and rose water syrup over ice, topped with pine nuts and raisins.",
+     "ing": [
+      "jallab syrup",
+      "cold water",
+      "crushed ice",
+      "pine nuts",
+      "golden raisins"
+     ],
+     "steps": [
+      "Put the pine nuts and raisins in a bowl of cold water and soak for 30 minutes, until plump.",
+      "In a jug stir the jallab syrup into the cold water; taste and adjust the sweetness.",
+      "Fill four tall glasses with crushed ice and pour in the jallab.",
+      "Drain the pine nuts and raisins, spoon them on top and serve with a long spoon."
+     ],
+     "labels": [
+      "Soak",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "No jallab syrup? Mix 3 parts date syrup, 1 part grape molasses and a few drops of rose water.",
+      "Crushed ice is a must: in Lebanon jallab is drunk ice-cold, almost like a slush."
+     ]
+    },
+    "fr": {
+     "title": "Jallab, boisson aux dattes et raisin",
+     "intro": "Sirop de dattes, raisin et eau de rose sur glace pilée, avec pignons et raisins secs.",
+     "ing": [
+      "sirop de jallab",
+      "eau froide",
+      "glace pilée",
+      "pignons de pin",
+      "raisins secs blonds"
+     ],
+     "steps": [
+      "Mets les pignons et les raisins secs dans un bol d'eau froide et laisse-les tremper 30 minutes, jusqu'à ce qu'ils gonflent.",
+      "Dans une carafe, mélange le sirop de jallab avec l'eau froide ; goûte et ajuste le sucre.",
+      "Remplis quatre grands verres de glace pilée et verse le jallab.",
+      "Égoutte pignons et raisins, répartis-les dessus et sers avec une longue cuillère."
+     ],
+     "labels": [
+      "Trempage",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sans sirop de jallab : 3 parts de sirop de dattes, 1 de mélasse de raisin et quelques gouttes d'eau de rose.",
+      "La glace pilée est indispensable : au Liban, le jallab se boit glacé, presque comme un granité."
+     ]
+    },
+    "es": {
+     "title": "Jallab, bebida de dátiles y uva",
+     "intro": "Sirope de dátiles, uva y agua de rosas sobre hielo, con piñones y pasas.",
+     "ing": [
+      "sirope de jallab",
+      "agua fría",
+      "hielo picado",
+      "piñones",
+      "pasas sultanas"
+     ],
+     "steps": [
+      "Pon los piñones y las pasas en un cuenco con agua fría y déjalos en remojo 30 minutos, hasta que se hinchen.",
+      "En una jarra mezcla el sirope de jallab con el agua fría; prueba y ajusta el dulzor.",
+      "Llena cuatro vasos altos de hielo picado y vierte el jallab.",
+      "Escurre los piñones y las pasas, repártelos por encima y sirve con una cucharilla larga."
+     ],
+     "labels": [
+      "Remojo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sin sirope de jallab: 3 partes de sirope de dátil, 1 de arrope de uva y unas gotas de agua de rosas.",
+      "El hielo picado es obligatorio: en Líbano el jallab se toma helado, casi como un granizado."
+     ]
+    },
+    "de": {
+     "title": "Jallab, Dattel-Trauben-Getränk",
+     "intro": "Sirup aus Datteln, Trauben und Rosenwasser auf Eis, mit Pinienkernen und Rosinen.",
+     "ing": [
+      "Jallab-Sirup",
+      "kaltes Wasser",
+      "Crushed Ice",
+      "Pinienkerne",
+      "helle Rosinen"
+     ],
+     "steps": [
+      "Leg Pinienkerne und Rosinen in eine Schale mit kaltem Wasser und lass sie 30 Minuten quellen, bis sie prall sind.",
+      "Verrühr in einem Krug den Jallab-Sirup mit dem kalten Wasser; abschmecken und die Süße anpassen.",
+      "Füll vier hohe Gläser mit Crushed Ice und gieß den Jallab darüber.",
+      "Gieß Pinienkerne und Rosinen ab, verteil sie obenauf und serviere mit einem langen Löffel."
+     ],
+     "labels": [
+      "Quellen",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ohne Jallab-Sirup: 3 Teile Dattelsirup, 1 Teil Traubendicksaft und ein paar Tropfen Rosenwasser.",
+      "Crushed Ice ist Pflicht: Im Libanon trinkt man Jallab eiskalt, fast wie eine Granita."
+     ]
+    }
+   }
+  },
+  {
+   "id": "harira",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 90,
+   "diff": 2,
+   "kcal": 390,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort",
+    "festive"
+   ],
+   "months": [],
+   "origin": "MA",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "lamb-shoulder"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "celery"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "lentils"
+    },
+    {
+     "q": 240,
+     "u": "g",
+     "k": "canned-chickpeas"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-ginger"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-turmeric"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "black-pepper"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "vermicelli"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 1500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 250,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 300
+    },
+    {
+     "timer": 2700,
+     "alt": {
+      "pressure": {
+       "timer": 1200
+      }
+     }
+    },
+    {
+     "timer": 480,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Harira, zuppa marocchina",
+     "intro": "Agnello, lenticchie e ceci in brodo di pomodoro vellutato: la zuppa del Ramadan.",
+     "ing": [
+      "spalla d'agnello a cubetti",
+      "cipolla",
+      "coste di sedano",
+      "coriandolo fresco",
+      "prezzemolo",
+      "lenticchie verdi o marroni",
+      "ceci cotti, scolati",
+      "pomodori maturi",
+      "concentrato di pomodoro",
+      "zenzero in polvere",
+      "curcuma",
+      "cannella in polvere",
+      "pepe nero macinato",
+      "olio extravergine d'oliva",
+      "vermicelli o capellini spezzati",
+      "farina 00",
+      "acqua",
+      "acqua fredda",
+      "limone",
+      "sale"
+     ],
+     "steps": [
+      "Trita cipolla e sedano. In una pentola grande rosola l'agnello con l'olio, la cipolla, il sedano e le spezie per 5 minuti.",
+      "Aggiungi lenticchie sciacquate, pomodori grattugiati, concentrato, metà delle erbe tritate e 1,5 l d'acqua. Copri e cuoci piano finché è tenero.",
+      "Unisci i ceci e i vermicelli e cuoci 8 minuti, mescolando ogni tanto.",
+      "Intanto stempera la farina nell'acqua fredda con una frusta, finché non ci sono grumi.",
+      "Versa la pastella a filo mescolando e cuoci 10 minuti, finché la zuppa diventa vellutata e densa.",
+      "Spegni, aggiungi le erbe rimaste e il succo di mezzo limone e regola di sale. Servi con spicchi di limone e datteri."
+     ],
+     "labels": [
+      "Rosolare",
+      "Zuppa",
+      "Vermicelli",
+      "",
+      "Addensare",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "pressure": "In pentola a pressione aggiungi lenticchie, pomodori, concentrato, metà delle erbe e 1,5 l d'acqua; cuoci 20 minuti dal fischio."
+      }
+     },
+     "tips": [
+      "Senza agnello diventa vegana: aggiungi 50 g di lenticchie in più perché resti corposa.",
+      "A Ramadan si accompagna con datteri, uova sode e chebakia, i dolcetti al miele e sesamo.",
+      "Riposando si addensa: il giorno dopo allungala con un goccio d'acqua calda."
+     ]
+    },
+    "en": {
+     "title": "Harira, Moroccan lamb and lentil soup",
+     "intro": "Lamb, lentils and chickpeas in a velvety tomato broth: Morocco's Ramadan soup.",
+     "ing": [
+      "lamb shoulder, diced",
+      "onion",
+      "celery stalks",
+      "fresh cilantro",
+      "flat-leaf parsley",
+      "green or brown lentils",
+      "cooked chickpeas, drained",
+      "ripe tomatoes",
+      "tomato paste",
+      "ground ginger",
+      "ground turmeric",
+      "ground cinnamon",
+      "ground black pepper",
+      "extra virgin olive oil",
+      "vermicelli or broken angel hair",
+      "all-purpose flour",
+      "water",
+      "cold water",
+      "lemon",
+      "salt"
+     ],
+     "steps": [
+      "Chop the onion and celery. In a large pot brown the lamb with the oil, onion, celery and spices for 5 minutes.",
+      "Add the rinsed lentils, grated tomatoes, tomato paste, half the chopped herbs and 1.5 l water. Cover and simmer gently until tender.",
+      "Stir in the chickpeas and vermicelli and cook for 8 minutes, stirring now and then.",
+      "Meanwhile whisk the flour into the cold water until there are no lumps.",
+      "Pour the batter in slowly while stirring and cook for 10 minutes, until the soup turns velvety and thick.",
+      "Turn off the heat, add the rest of the herbs and the juice of half the lemon, and salt to taste. Serve with lemon wedges and dates."
+     ],
+     "labels": [
+      "Brown",
+      "Soup",
+      "Vermicelli",
+      "",
+      "Thicken",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "pressure": "In a pressure cooker add lentils, tomatoes, tomato paste, half the herbs and 1.5 l water; cook 20 minutes once at pressure."
+      }
+     },
+     "tips": [
+      "Leave out the lamb and it's vegan: add an extra 50 g of lentils so it stays hearty.",
+      "During Ramadan it comes with dates, hard-boiled eggs and chebakia, honey and sesame pastries.",
+      "It thickens as it sits: loosen it the next day with a splash of hot water."
+     ]
+    },
+    "fr": {
+     "title": "Harira, soupe marocaine",
+     "intro": "Agneau, lentilles et pois chiches dans un bouillon tomaté velouté : la soupe du ftour.",
+     "ing": [
+      "épaule d'agneau en dés",
+      "oignon",
+      "branches de céleri",
+      "coriandre fraîche",
+      "persil plat",
+      "lentilles vertes ou blondes",
+      "pois chiches cuits égouttés",
+      "tomates mûres",
+      "concentré de tomate",
+      "gingembre moulu",
+      "curcuma",
+      "cannelle moulue",
+      "poivre noir moulu",
+      "huile d'olive vierge extra",
+      "vermicelles",
+      "farine de blé",
+      "eau",
+      "eau froide",
+      "citron",
+      "sel"
+     ],
+     "steps": [
+      "Hache l'oignon et le céleri. Dans un grand faitout, fais revenir l'agneau 5 minutes avec l'huile, l'oignon, le céleri et les épices.",
+      "Ajoute lentilles rincées, tomates râpées, concentré, la moitié des herbes hachées et 1,5 l d'eau. Couvre et laisse mijoter jusqu'à tendreté.",
+      "Ajoute les pois chiches et les vermicelles et cuis 8 minutes en remuant de temps en temps.",
+      "Pendant ce temps, délaye la farine dans l'eau froide au fouet, sans laisser de grumeaux.",
+      "Verse ce mélange en filet sans cesser de remuer et cuis 10 minutes, jusqu'à ce que la soupe soit veloutée et épaisse.",
+      "Hors du feu, ajoute le reste des herbes et le jus d'un demi-citron, rectifie le sel. Sers avec des quartiers de citron et des dattes."
+     ],
+     "labels": [
+      "Revenir",
+      "Soupe",
+      "Vermicelles",
+      "",
+      "Liaison",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "pressure": "À l'autocuiseur, ajoute lentilles, tomates, concentré, moitié des herbes et 1,5 l d'eau ; 20 minutes après la mise en pression."
+      }
+     },
+     "tips": [
+      "Sans agneau, elle est végane : ajoute 50 g de lentilles en plus pour qu'elle reste consistante.",
+      "Pendant le ramadan, on la sert avec des dattes, des œufs durs et des chebakia au miel et sésame.",
+      "Elle épaissit en refroidissant : le lendemain, détends-la avec un peu d'eau chaude."
+     ]
+    },
+    "es": {
+     "title": "Harira, sopa marroquí",
+     "intro": "Cordero, lentejas y garbanzos en un caldo de tomate aterciopelado: la sopa del Ramadán.",
+     "ing": [
+      "paletilla de cordero en dados",
+      "cebolla",
+      "ramas de apio",
+      "cilantro fresco",
+      "perejil",
+      "lentejas pardinas",
+      "garbanzos cocidos escurridos",
+      "tomates maduros",
+      "concentrado de tomate",
+      "jengibre molido",
+      "cúrcuma",
+      "canela molida",
+      "pimienta negra molida",
+      "aceite de oliva virgen extra",
+      "fideos finos",
+      "harina de trigo",
+      "agua",
+      "agua fría",
+      "limón",
+      "sal"
+     ],
+     "steps": [
+      "Pica la cebolla y el apio. En una olla grande dora el cordero con el aceite, la cebolla, el apio y las especias durante 5 minutos.",
+      "Añade lentejas lavadas, tomate rallado, concentrado, la mitad de las hierbas y 1,5 l de agua. Tapa y cuece a fuego lento hasta que esté tierna.",
+      "Incorpora los garbanzos y los fideos y cuece 8 minutos, removiendo de vez en cuando.",
+      "Mientras tanto, disuelve la harina en el agua fría con unas varillas, sin grumos.",
+      "Viértela en hilo sin dejar de remover y cuece 10 minutos, hasta que la sopa quede aterciopelada y espesa.",
+      "Apaga el fuego, añade el resto de hierbas y el zumo de medio limón y ajusta de sal. Sirve con gajos de limón y dátiles."
+     ],
+     "labels": [
+      "Dorar",
+      "Sopa",
+      "Fideos",
+      "",
+      "Espesar",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "pressure": "En olla a presión añade lentejas, tomate, concentrado, la mitad de las hierbas y 1,5 l de agua; cuece 20 minutos desde que suba la válvula."
+      }
+     },
+     "tips": [
+      "Sin cordero es vegana: añade 50 g más de lentejas para que tenga cuerpo.",
+      "En Ramadán se acompaña con dátiles, huevos duros y chebakia, dulces de miel y sésamo.",
+      "Espesa al reposar: al día siguiente alárgala con un chorrito de agua caliente."
+     ]
+    },
+    "de": {
+     "title": "Harira, marokkanische Suppe",
+     "intro": "Lamm, Linsen und Kichererbsen in samtiger Tomatenbrühe: die Suppe zum Fastenbrechen.",
+     "ing": [
+      "Lammschulter in Würfeln",
+      "Zwiebel",
+      "Selleriestangen",
+      "frischer Koriander",
+      "glatte Petersilie",
+      "grüne oder braune Linsen",
+      "gekochte Kichererbsen, abgetropft",
+      "reife Tomaten",
+      "Tomatenmark",
+      "gemahlener Ingwer",
+      "Kurkuma",
+      "gemahlener Zimt",
+      "gemahlener schwarzer Pfeffer",
+      "natives Olivenöl extra",
+      "Fadennudeln",
+      "Weizenmehl",
+      "Wasser",
+      "kaltes Wasser",
+      "Zitrone",
+      "Salz"
+     ],
+     "steps": [
+      "Hack Zwiebel und Sellerie. Brat das Lamm in einem großen Topf mit Öl, Zwiebel, Sellerie und Gewürzen 5 Minuten an.",
+      "Gib gespülte Linsen, geriebene Tomaten, Tomatenmark, die Hälfte der Kräuter und 1,5 l Wasser dazu. Zugedeckt sanft köcheln, bis alles weich ist.",
+      "Rühr Kichererbsen und Fadennudeln ein und koch alles 8 Minuten, dabei ab und zu umrühren.",
+      "Verquirl inzwischen das Mehl mit dem kalten Wasser, bis keine Klümpchen mehr da sind.",
+      "Gieß die Mischung unter Rühren langsam ein und koch 10 Minuten weiter, bis die Suppe samtig und sämig ist.",
+      "Nimm den Topf vom Herd, rühr die restlichen Kräuter und den Saft einer halben Zitrone ein und salze. Mit Zitronenspalten und Datteln servieren."
+     ],
+     "labels": [
+      "Anbraten",
+      "Suppe",
+      "Nudeln",
+      "",
+      "Binden",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Im Schnellkochtopf Linsen, Tomaten, Tomatenmark, die Hälfte der Kräuter und 1,5 l Wasser zugeben; 20 Minuten unter Druck garen."
+      }
+     },
+     "tips": [
+      "Ohne Lamm ist sie vegan: nimm 50 g Linsen mehr, damit sie sämig bleibt.",
+      "Im Ramadan gibt es dazu Datteln, hart gekochte Eier und Chebakia, Honig-Sesam-Gebäck.",
+      "Sie dickt beim Stehen nach: am nächsten Tag mit etwas heißem Wasser verdünnen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "zaalouk",
+   "cat": "antipasti",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 1,
+   "kcal": 150,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "party",
+    "budget"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "MA",
+   "alcohol": false,
+   "methods": [
+    "steam",
+    "oven"
+   ],
+   "ingredients": [
+    {
+     "q": 700,
+     "u": "g",
+     "k": "eggplants"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "cayenne-pepper"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "alt": {
+      "oven": {}
+     }
+    },
+    {
+     "timer": 900,
+     "bg": true,
+     "alt": {
+      "oven": {
+       "timer": 2400
+      }
+     }
+    },
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 900
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "pair",
+     "link": "khobz-marocchino"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Zaalouk, insalata di melanzane",
+     "intro": "Melanzane e pomodoro cotti a lungo con cumino e paprika: si mangia col pane.",
+     "ing": [
+      "melanzane",
+      "pomodori maturi",
+      "spicchi d'aglio",
+      "olio extravergine d'oliva",
+      "paprika dolce",
+      "cumino in polvere",
+      "peperoncino in polvere",
+      "coriandolo fresco",
+      "prezzemolo",
+      "limone",
+      "sale"
+     ],
+     "steps": [
+      "Pela le melanzane a strisce alterne e tagliale a cubi di 2 cm.",
+      "Cuocile a vapore per 15 minuti, finché sono morbidissime.",
+      "Intanto taglia a metà i pomodori e grattugiali sulla grattugia a fori grossi, scartando la buccia.",
+      "Scalda l'olio in una padella larga, unisci pomodori, aglio schiacciato, spezie e sale e cuoci finché il sugo si addensa.",
+      "Aggiungi le melanzane, schiacciale con una forchetta e cuoci mescolando finché l'olio affiora e il composto è denso.",
+      "Spegni, unisci coriandolo e prezzemolo tritati e il succo di limone. Servi tiepido o freddo con un filo d'olio."
+     ],
+     "labels": [
+      "",
+      "Melanzane",
+      "",
+      "Sugo",
+      "Zaalouk",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "oven": "Scalda il forno a 220 °C, bucherella le melanzane intere con una forchetta e mettile su una teglia."
+      },
+      "1": {
+       "oven": "Arrostiscile in forno a 220 °C per 40 minuti, finché sono afflosciate; poi aprile e preleva la polpa."
+      }
+     },
+     "tips": [
+      "Si mangia raccogliendolo con il khobz, il pane marocchino, come tutte le insalate cotte.",
+      "Non avere fretta: è pronto quando l'olio si separa ai bordi e sembra quasi una marmellata.",
+      "Il giorno dopo è ancora più buono: in frigo si conserva 3 giorni."
+     ]
+    },
+    "en": {
+     "title": "Zaalouk, eggplant and tomato salad",
+     "intro": "Eggplant and tomato slow-cooked with cumin and paprika, scooped up with bread.",
+     "ing": [
+      "eggplants",
+      "ripe tomatoes",
+      "garlic cloves",
+      "extra virgin olive oil",
+      "sweet paprika",
+      "ground cumin",
+      "chili powder",
+      "fresh cilantro",
+      "flat-leaf parsley",
+      "lemon",
+      "salt"
+     ],
+     "steps": [
+      "Peel the eggplants in alternate stripes and cut them into 2 cm cubes.",
+      "Steam them for 15 minutes, until very soft.",
+      "Meanwhile halve the tomatoes and grate them on the coarse side of a box grater, discarding the skins.",
+      "Heat the oil in a wide pan, add the tomatoes, crushed garlic, spices and salt and cook until the sauce thickens.",
+      "Add the eggplant, mash it with a fork and cook, stirring, until the oil rises and the mixture is thick.",
+      "Turn off the heat and stir in the chopped cilantro, parsley and lemon juice. Serve warm or cold with a drizzle of oil."
+     ],
+     "labels": [
+      "",
+      "Eggplant",
+      "",
+      "Sauce",
+      "Zaalouk",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "oven": "Heat the oven to 220 °C, prick the whole eggplants with a fork and set them on a baking tray."
+      },
+      "1": {
+       "oven": "Roast at 220 °C for 40 minutes, until collapsed; then split them and scoop out the flesh."
+      }
+     },
+     "tips": [
+      "Scoop it up with khobz, Moroccan bread, as with all the cooked salads.",
+      "Don't rush it: it's ready when the oil separates at the edges and it looks almost like jam.",
+      "It's even better the next day and keeps 3 days in the fridge."
+     ]
+    },
+    "fr": {
+     "title": "Zaalouk, salade d'aubergines",
+     "intro": "Aubergines et tomates longuement mijotées au cumin et au paprika, à saucer de pain.",
+     "ing": [
+      "aubergines",
+      "tomates mûres",
+      "gousses d'ail",
+      "huile d'olive vierge extra",
+      "paprika doux",
+      "cumin en poudre",
+      "piment en poudre",
+      "coriandre fraîche",
+      "persil plat",
+      "citron",
+      "sel"
+     ],
+     "steps": [
+      "Pèle les aubergines une bande sur deux et coupe-les en cubes de 2 cm.",
+      "Fais-les cuire à la vapeur 15 minutes, jusqu'à ce qu'elles soient très tendres.",
+      "Pendant ce temps, coupe les tomates en deux et râpe-les sur la grosse râpe en jetant la peau.",
+      "Chauffe l'huile dans une grande poêle, ajoute tomates, ail écrasé, épices et sel et cuis jusqu'à ce que la sauce épaississe.",
+      "Ajoute les aubergines, écrase-les à la fourchette et cuis en remuant jusqu'à ce que l'huile remonte et que ce soit épais.",
+      "Hors du feu, ajoute la coriandre, le persil hachés et le jus de citron. Sers tiède ou froid avec un filet d'huile."
+     ],
+     "labels": [
+      "",
+      "Aubergines",
+      "",
+      "Sauce",
+      "Zaalouk",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "oven": "Préchauffe le four à 220 °C, pique les aubergines entières à la fourchette et pose-les sur une plaque."
+      },
+      "1": {
+       "oven": "Rôtis-les au four à 220 °C pendant 40 minutes, jusqu'à ce qu'elles s'affaissent, puis ouvre-les et prélève la chair."
+      }
+     },
+     "tips": [
+      "On le mange avec du khobz, le pain marocain, comme toutes les salades cuites.",
+      "Prends ton temps : c'est prêt quand l'huile se sépare sur les bords et que ça ressemble à une confiture.",
+      "Encore meilleur le lendemain : il se garde 3 jours au frigo."
+     ]
+    },
+    "es": {
+     "title": "Zaalouk, ensalada de berenjena",
+     "intro": "Berenjena y tomate guisados despacio con comino y pimentón, para mojar pan.",
+     "ing": [
+      "berenjenas",
+      "tomates maduros",
+      "dientes de ajo",
+      "aceite de oliva virgen extra",
+      "pimentón dulce",
+      "comino molido",
+      "guindilla molida",
+      "cilantro fresco",
+      "perejil",
+      "limón",
+      "sal"
+     ],
+     "steps": [
+      "Pela las berenjenas a tiras alternas y córtalas en dados de 2 cm.",
+      "Cuécelas al vapor 15 minutos, hasta que estén muy tiernas.",
+      "Mientras tanto, parte los tomates por la mitad y rállalos por la parte gruesa del rallador, desechando la piel.",
+      "Calienta el aceite en una sartén amplia, añade tomate, ajo machacado, especias y sal y cuece hasta que la salsa espese.",
+      "Añade la berenjena, aplástala con un tenedor y cuece removiendo hasta que el aceite aflore y quede espeso.",
+      "Apaga el fuego y añade el cilantro, el perejil picados y el zumo de limón. Sirve templado o frío con un hilo de aceite."
+     ],
+     "labels": [
+      "",
+      "Berenjenas",
+      "",
+      "Salsa",
+      "Zaalouk",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "oven": "Precalienta el horno a 220 °C, pincha las berenjenas enteras con un tenedor y ponlas en una bandeja."
+      },
+      "1": {
+       "oven": "Ásalas en el horno a 220 °C durante 40 minutos, hasta que se hundan; luego ábrelas y saca la pulpa."
+      }
+     },
+     "tips": [
+      "Se come cogiéndolo con khobz, el pan marroquí, como todas las ensaladas cocidas.",
+      "Sin prisa: está listo cuando el aceite se separa en los bordes y parece casi una mermelada.",
+      "Al día siguiente está aún mejor: en la nevera aguanta 3 días."
+     ]
+    },
+    "de": {
+     "title": "Zaalouk, Auberginen-Tomaten-Salat",
+     "intro": "Auberginen und Tomaten, lange geschmort mit Kreuzkümmel und Paprika, zum Dippen.",
+     "ing": [
+      "Auberginen",
+      "reife Tomaten",
+      "Knoblauchzehen",
+      "natives Olivenöl extra",
+      "edelsüßes Paprikapulver",
+      "gemahlener Kreuzkümmel",
+      "Chilipulver",
+      "frischer Koriander",
+      "glatte Petersilie",
+      "Zitrone",
+      "Salz"
+     ],
+     "steps": [
+      "Schäl die Auberginen streifenweise und schneide sie in 2 cm große Würfel.",
+      "Gare sie 15 Minuten über Dampf, bis sie ganz weich sind.",
+      "Halbier inzwischen die Tomaten und reib sie auf der groben Reibe, die Haut wegwerfen.",
+      "Erhitz das Öl in einer weiten Pfanne, gib Tomaten, zerdrückten Knoblauch, Gewürze und Salz dazu und koch, bis die Sauce eindickt.",
+      "Gib die Auberginen dazu, zerdrück sie mit der Gabel und koch unter Rühren, bis das Öl austritt und alles dick ist.",
+      "Vom Herd nehmen, gehackten Koriander, Petersilie und Zitronensaft unterrühren. Lauwarm oder kalt mit etwas Öl servieren."
+     ],
+     "labels": [
+      "",
+      "Auberginen",
+      "",
+      "Sauce",
+      "Zaalouk",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "oven": "Heiz den Ofen auf 220 °C vor, stich die ganzen Auberginen mit der Gabel ein und leg sie auf ein Blech."
+      },
+      "1": {
+       "oven": "Röste sie bei 220 °C 40 Minuten, bis sie zusammenfallen; dann aufschneiden und das Fruchtfleisch auslöffeln."
+      }
+     },
+     "tips": [
+      "Man isst ihn mit Khobz, dem marokkanischen Brot, wie alle gekochten Salate.",
+      "Lass dir Zeit: Er ist fertig, wenn sich am Rand das Öl absetzt und er fast wie Marmelade aussieht.",
+      "Am nächsten Tag schmeckt er noch besser und hält im Kühlschrank 3 Tage."
+     ]
+    }
+   }
+  },
+  {
+   "id": "bastila-pollo",
+   "cat": "unici",
+   "sub": "torte",
+   "servings": 6,
+   "minutes": 130,
+   "diff": 3,
+   "kcal": 780,
+   "diet": [],
+   "tags": [
+    "festive",
+    "party"
+   ],
+   "months": [],
+   "origin": "MA",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 1000,
+     "u": "g",
+     "k": "chicken-thighs"
+    },
+    {
+     "q": 600,
+     "u": "g",
+     "k": "onions"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "saffron"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-ginger"
+    },
+    {
+     "q": 2.5,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-turmeric"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "almonds"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "powdered-sugar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "orange-blossom-water"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "filo-pastry"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 2700,
+     "bg": true,
+     "alt": {
+      "pressure": {
+       "timer": 1200
+      }
+     }
+    },
+    {
+     "timer": 480
+    },
+    {},
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 180
+    },
+    {},
+    {},
+    {
+     "timer": 1800
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pastilla di pollo e mandorle",
+     "intro": "Sfoglia croccante, pollo speziato, uova e mandorle con zucchero e cannella.",
+     "ing": [
+      "cosce di pollo con osso",
+      "cipolle",
+      "burro",
+      "zafferano in pistilli",
+      "zenzero in polvere",
+      "cannella in polvere",
+      "curcuma",
+      "coriandolo fresco",
+      "prezzemolo",
+      "acqua",
+      "uova",
+      "mandorle pelate",
+      "zucchero a velo",
+      "acqua di fiori d'arancio",
+      "fogli di pasta fillo",
+      "burro fuso per spennellare",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "In una pentola metti pollo, cipolle grattugiate, 50 g di burro, zafferano, zenzero, curcuma, 1 cucchiaino di cannella, erbe, sale, pepe e acqua.",
+      "Intanto tosta le mandorle in forno a 180 °C per 8 minuti, finché sono dorate, e lasciale raffreddare.",
+      "Tritale grossolanamente con lo zucchero a velo (tienine 2 cucchiai), 1 cucchiaino di cannella e l'acqua di fiori d'arancio.",
+      "Togli il pollo, ormai tenero, e sfilaccialo eliminando pelle e ossa.",
+      "Fai restringere il sugo di cipolle scoperto, mescolando, finché resta quasi asciutto.",
+      "Versa le uova sbattute e mescola a fuoco basso finché rapprendono morbide, come strapazzate. Fai intiepidire.",
+      "Scalda il forno a 180 °C. Imburra una tortiera di 28 cm e stendi 5 fogli di fillo sovrapposti e imburrati, lasciandoli strabordare.",
+      "Fai strati di uova, pollo e mandorle. Ripiega i lembi, copri con gli ultimi 3 fogli imburrati e rimbocca i bordi sotto.",
+      "Inforna a 180 °C per 30 minuti, finché la superficie è ben dorata e croccante.",
+      "Lascia riposare 5 minuti, spolvera con lo zucchero a velo rimasto e righe di cannella e servi calda."
+     ],
+     "labels": [
+      "Pollo",
+      "Mandorle",
+      "",
+      "",
+      "Sugo",
+      "Uova",
+      "",
+      "",
+      "Forno",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "pressure": "In pentola a pressione con gli stessi ingredienti cuoci 20 minuti dal fischio, finché il pollo si stacca dall'osso."
+      }
+     },
+     "tips": [
+      "Con la vera warqa dei negozi marocchini, al posto della fillo, la sfoglia è più sottile e friabile.",
+      "Asciuga bene il composto di uova e cipolle: se è umido, il fondo della pastilla si inzuppa.",
+      "Avanzata, scaldala in forno a 160 °C per 15 minuti: la sfoglia torna croccante."
+     ]
+    },
+    "en": {
+     "title": "Chicken bastilla",
+     "intro": "Crisp pastry over spiced chicken, eggs and almonds, dusted with sugar and cinnamon.",
+     "ing": [
+      "bone-in chicken thighs",
+      "onions",
+      "butter",
+      "saffron threads",
+      "ground ginger",
+      "ground cinnamon",
+      "ground turmeric",
+      "fresh cilantro",
+      "flat-leaf parsley",
+      "water",
+      "eggs",
+      "blanched almonds",
+      "powdered sugar",
+      "orange blossom water",
+      "sheets of filo pastry",
+      "melted butter for brushing",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Put the chicken in a pot with the grated onions, 50 g butter, saffron, ginger, turmeric, 1 tsp cinnamon, herbs, salt, pepper and water. Cover.",
+      "Meanwhile toast the almonds in the oven at 180 °C for 8 minutes, until golden, and let them cool.",
+      "Chop them coarsely with the powdered sugar (keep back 2 tbsp), 1 tsp cinnamon and the orange blossom water.",
+      "Lift out the chicken, now tender, and shred it, discarding skin and bones.",
+      "Reduce the onion sauce uncovered, stirring, until almost dry.",
+      "Pour in the beaten eggs and stir over low heat until softly set, like scrambled eggs. Let cool slightly.",
+      "Heat the oven to 180 °C. Butter a 28 cm pie dish and lay in 5 buttered filo sheets, overlapping and hanging over the edge.",
+      "Layer the eggs, chicken and almonds. Fold the overhang in, top with the last 3 buttered sheets and tuck the edges under.",
+      "Bake at 180 °C for 30 minutes, until deep golden and crisp.",
+      "Rest for 5 minutes, dust with the remaining sugar, add lines of cinnamon and serve hot."
+     ],
+     "labels": [
+      "Chicken",
+      "Almonds",
+      "",
+      "",
+      "Sauce",
+      "Eggs",
+      "",
+      "",
+      "Oven",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "pressure": "In a pressure cooker with the same ingredients, cook 20 minutes at pressure, until the chicken falls off the bone."
+      }
+     },
+     "tips": [
+      "Real warqa from Moroccan shops, instead of filo, gives an even thinner, flakier crust.",
+      "Cook the egg and onion mix until dry: if it's wet, the base of the bastilla goes soggy.",
+      "Reheat leftovers at 160 °C for 15 minutes and the pastry crisps up again."
+     ]
+    },
+    "fr": {
+     "title": "Pastilla au poulet",
+     "intro": "Feuilles croustillantes, poulet épicé, œufs et amandes au sucre et à la cannelle.",
+     "ing": [
+      "cuisses de poulet avec os",
+      "oignons",
+      "beurre",
+      "pistils de safran",
+      "gingembre moulu",
+      "cannelle moulue",
+      "curcuma",
+      "coriandre fraîche",
+      "persil plat",
+      "eau",
+      "œufs",
+      "amandes émondées",
+      "sucre glace",
+      "eau de fleur d'oranger",
+      "feuilles de pâte filo",
+      "beurre fondu pour badigeonner",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Mets dans un faitout poulet, oignons râpés, 50 g de beurre, safran, gingembre, curcuma, 1 c. à café de cannelle, herbes, sel, poivre et eau.",
+      "Pendant ce temps, fais dorer les amandes au four à 180 °C pendant 8 minutes et laisse-les refroidir.",
+      "Concasse-les avec le sucre glace (garde-en 2 cuillères), 1 c. à café de cannelle et l'eau de fleur d'oranger.",
+      "Retire le poulet, désormais tendre, et effiloche-le sans peau ni os.",
+      "Fais réduire la sauce aux oignons à découvert, en remuant, jusqu'à ce qu'elle soit presque sèche.",
+      "Verse les œufs battus et remue à feu doux jusqu'à ce qu'ils prennent, comme des œufs brouillés. Laisse tiédir.",
+      "Préchauffe le four à 180 °C. Beurre un moule de 28 cm et étale 5 feuilles de filo beurrées, qui se chevauchent et débordent.",
+      "Superpose œufs, poulet et amandes. Rabats les bords, couvre des 3 dernières feuilles beurrées et rentre-les dessous.",
+      "Enfourne à 180 °C pendant 30 minutes, jusqu'à ce que le dessus soit bien doré et croustillant.",
+      "Laisse reposer 5 minutes, saupoudre du reste de sucre glace, trace des lignes de cannelle et sers chaud."
+     ],
+     "labels": [
+      "Poulet",
+      "Amandes",
+      "",
+      "",
+      "Sauce",
+      "Œufs",
+      "",
+      "",
+      "Four",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "pressure": "À l'autocuiseur avec les mêmes ingrédients, compte 20 minutes après la mise en pression, jusqu'à ce que la chair se détache."
+      }
+     },
+     "tips": [
+      "Avec de la vraie warqa des épiceries marocaines à la place de la filo, la pâte est encore plus fine.",
+      "Fais bien sécher le mélange œufs-oignons : s'il est humide, le fond de la pastilla détrempe.",
+      "Les restes se réchauffent 15 minutes au four à 160 °C : la pâte redevient croustillante."
+     ]
+    },
+    "es": {
+     "title": "Pastela de pollo",
+     "intro": "Hojaldre crujiente con pollo especiado, huevo y almendras con azúcar y canela.",
+     "ing": [
+      "muslos de pollo con hueso",
+      "cebollas",
+      "mantequilla",
+      "hebras de azafrán",
+      "jengibre molido",
+      "canela molida",
+      "cúrcuma",
+      "cilantro fresco",
+      "perejil",
+      "agua",
+      "huevos",
+      "almendras peladas",
+      "azúcar glas",
+      "agua de azahar",
+      "hojas de pasta filo",
+      "mantequilla derretida para pintar",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "En una olla pon pollo, cebolla rallada, 50 g de mantequilla, azafrán, jengibre, cúrcuma, 1 cucharadita de canela, hierbas, sal, pimienta y agua.",
+      "Mientras tanto, tuesta las almendras en el horno a 180 °C durante 8 minutos, hasta que estén doradas, y déjalas enfriar.",
+      "Pícalas groseramente con el azúcar glas (reserva 2 cucharadas), 1 cucharadita de canela y el agua de azahar.",
+      "Saca el pollo, ya tierno, y desmígalo quitando piel y huesos.",
+      "Reduce la salsa de cebolla sin tapar, removiendo, hasta que quede casi seca.",
+      "Vierte los huevos batidos y remueve a fuego bajo hasta que cuajen blandos, como un revuelto. Deja templar.",
+      "Precalienta el horno a 180 °C. Unta un molde de 28 cm y pon 5 hojas de filo untadas de mantequilla, solapadas y sobresaliendo.",
+      "Haz capas de huevo, pollo y almendras. Dobla los bordes, cubre con las 3 últimas hojas untadas y remete los bordes por debajo.",
+      "Hornea a 180 °C durante 30 minutos, hasta que la superficie esté bien dorada y crujiente.",
+      "Deja reposar 5 minutos, espolvorea el azúcar restante, dibuja líneas de canela y sirve caliente."
+     ],
+     "labels": [
+      "Pollo",
+      "Almendras",
+      "",
+      "",
+      "Salsa",
+      "Huevos",
+      "",
+      "",
+      "Horno",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "pressure": "En olla a presión con los mismos ingredientes, cuece 20 minutos desde que suba la válvula, hasta que el pollo se desprenda."
+      }
+     },
+     "tips": [
+      "Con la auténtica warqa de las tiendas marroquíes, en vez de filo, la masa queda más fina y crujiente.",
+      "Seca bien el relleno de huevo y cebolla: si queda húmedo, la base de la pastela se empapa.",
+      "Si sobra, caliéntala 15 minutos en el horno a 160 °C: la masa vuelve a quedar crujiente."
+     ]
+    },
+    "de": {
+     "title": "Pastilla mit Hähnchen",
+     "intro": "Knusprige Teigblätter, würziges Hähnchen, Ei und Mandeln mit Zucker und Zimt.",
+     "ing": [
+      "Hähnchenschenkel mit Knochen",
+      "Zwiebeln",
+      "Butter",
+      "Safranfäden",
+      "gemahlener Ingwer",
+      "gemahlener Zimt",
+      "Kurkuma",
+      "frischer Koriander",
+      "glatte Petersilie",
+      "Wasser",
+      "Eier",
+      "blanchierte Mandeln",
+      "Puderzucker",
+      "Orangenblütenwasser",
+      "Filoteigblätter",
+      "geschmolzene Butter zum Bestreichen",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Gib Hähnchen, geriebene Zwiebeln, 50 g Butter, Safran, Ingwer, Kurkuma, 1 TL Zimt, Kräuter, Salz, Pfeffer und Wasser in einen Topf. Deckel drauf.",
+      "Röste inzwischen die Mandeln 8 Minuten bei 180 °C im Ofen goldbraun und lass sie abkühlen.",
+      "Hack sie grob mit dem Puderzucker (2 EL beiseitelegen), 1 TL Zimt und dem Orangenblütenwasser.",
+      "Nimm das nun zarte Hähnchen heraus und zupf das Fleisch ohne Haut und Knochen klein.",
+      "Lass die Zwiebelsauce offen unter Rühren einkochen, bis sie fast trocken ist.",
+      "Gieß die verquirlten Eier dazu und rühr bei schwacher Hitze, bis sie cremig stocken wie Rührei. Etwas abkühlen lassen.",
+      "Heiz den Ofen auf 180 °C vor. Fette eine 28-cm-Form und leg 5 gebutterte Filoblätter überlappend hinein, mit Überstand.",
+      "Schichte Ei, Hähnchen und Mandeln ein. Schlag den Rand ein, deck mit den letzten 3 gebutterten Blättern ab und steck sie unten fest.",
+      "Back die Pastilla bei 180 °C 30 Minuten, bis sie tief goldbraun und knusprig ist.",
+      "Lass sie 5 Minuten ruhen, bestäub sie mit dem restlichen Puderzucker, zieh Zimtlinien und serviere sie heiß."
+     ],
+     "labels": [
+      "Hähnchen",
+      "Mandeln",
+      "",
+      "",
+      "Sauce",
+      "Eier",
+      "",
+      "",
+      "Ofen",
+      ""
+     ],
+     "alt": {
+      "0": {
+       "pressure": "Im Schnellkochtopf mit denselben Zutaten 20 Minuten unter Druck garen, bis das Fleisch vom Knochen fällt."
+      }
+     },
+     "tips": [
+      "Mit echter Warqa aus dem marokkanischen Laden statt Filo wird die Hülle noch dünner und blättriger.",
+      "Lass die Ei-Zwiebel-Masse gut trocknen: Ist sie feucht, weicht der Boden der Pastilla durch.",
+      "Reste bei 160 °C 15 Minuten im Ofen aufwärmen, dann wird der Teig wieder knusprig."
+     ]
+    }
+   }
+  },
+  {
+   "id": "tajine-pesce-chermoula",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 80,
+   "diff": 2,
+   "kcal": 390,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [],
+   "origin": "MA",
+   "alcohol": false,
+   "methods": [
+    "pan",
+    "oven"
+   ],
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "white-fish-fillets"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "cayenne-pepper"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 7,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-bell-peppers"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-bell-peppers"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 80,
+     "u": "g",
+     "k": "green-olives"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 1200,
+     "alt": {
+      "oven": {
+       "timer": 1500
+      }
+     }
+    },
+    {
+     "timer": 900,
+     "alt": {
+      "oven": {
+       "timer": 1200
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "khobz-marocchino"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tajine di pesce alla chermoula",
+     "intro": "Pesce marinato in erbe e spezie, cotto piano su patate, peperoni e olive.",
+     "ing": [
+      "filetti di nasello o merluzzo",
+      "coriandolo fresco",
+      "prezzemolo",
+      "spicchi d'aglio",
+      "paprika dolce",
+      "cumino in polvere",
+      "peperoncino in polvere",
+      "limone",
+      "olio extravergine d'oliva",
+      "patate",
+      "peperone rosso",
+      "peperone verde",
+      "pomodori maturi",
+      "olive verdi",
+      "limone non trattato",
+      "acqua",
+      "sale"
+     ],
+     "steps": [
+      "Chermoula: trita finemente coriandolo, prezzemolo e aglio e mescolali con paprika, cumino, peperoncino, succo di limone, 6 cucchiai d'olio e sale.",
+      "Spalma metà della chermoula sul pesce e lascialo marinare in frigo per 30 minuti.",
+      "Intanto affetta le patate a 5 mm, taglia i peperoni a strisce, i pomodori e il limone non trattato a fette sottili.",
+      "In una padella larga con coperchio stendi le patate, condiscile con la chermoula rimasta, unisci peperoni e acqua. Copri e cuoci a fuoco dolce.",
+      "Adagia il pesce sulle patate quasi tenere, coprilo con pomodori, olive e limone, irrora con l'olio rimasto. Copri e cuoci finché si sfalda.",
+      "Spegni, lascia riposare 5 minuti, cospargi di coriandolo e servi nella padella con il pane."
+     ],
+     "labels": [
+      "",
+      "Marinata",
+      "",
+      "Patate",
+      "Pesce",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "In una pirofila stendi patate, chermoula rimasta, peperoni e acqua; copri con alluminio e cuoci in forno a 200 °C per 25 minuti."
+      },
+      "4": {
+       "oven": "Adagia sopra pesce, pomodori, olive e limone, irrora d'olio e rimetti in forno coperto a 200 °C per 20 minuti."
+      }
+     },
+     "tips": [
+      "Non serve il tajine: basta una padella larga con coperchio, e le patate sotto proteggono il pesce.",
+      "Con il limone confit dei negozi marocchini, a spicchi, il sugo prende il profumo tipico.",
+      "Servilo con il khobz per raccogliere il sugo di chermoula."
+     ]
+    },
+    "en": {
+     "title": "Fish tagine with chermoula",
+     "intro": "Fish marinated in herbs and spices, gently cooked over potatoes, peppers and olives.",
+     "ing": [
+      "hake or cod fillets",
+      "fresh cilantro",
+      "flat-leaf parsley",
+      "garlic cloves",
+      "sweet paprika",
+      "ground cumin",
+      "chili powder",
+      "lemon",
+      "extra virgin olive oil",
+      "potatoes",
+      "red bell pepper",
+      "green bell pepper",
+      "ripe tomatoes",
+      "green olives",
+      "unwaxed lemon",
+      "water",
+      "salt"
+     ],
+     "steps": [
+      "Make the chermoula: finely chop the cilantro, parsley and garlic and mix with paprika, cumin, chili, lemon juice, 6 tbsp oil and salt.",
+      "Spread half the chermoula over the fish and marinate in the fridge for 30 minutes.",
+      "Meanwhile slice the potatoes 5 mm thick, cut the peppers into strips, and thinly slice the tomatoes and the unwaxed lemon.",
+      "Spread the potatoes in a wide lidded pan, toss with the rest of the chermoula, add peppers and water. Cover and cook over medium-low heat.",
+      "Lay the fish on the nearly tender potatoes, cover with tomatoes, olives and lemon and drizzle with the last oil. Cover and cook until it flakes.",
+      "Turn off the heat, rest for 5 minutes, scatter with cilantro and serve in the pan with bread."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "Potatoes",
+      "Fish",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Spread potatoes, remaining chermoula, peppers and water in a baking dish; cover with foil and bake at 200 °C for 25 minutes."
+      },
+      "4": {
+       "oven": "Top with the fish, tomatoes, olives and lemon, drizzle with oil and bake covered at 200 °C for 20 minutes."
+      }
+     },
+     "tips": [
+      "No tagine needed: a wide pan with a lid works, and the potatoes underneath protect the fish.",
+      "Wedges of preserved lemon from Moroccan shops give the sauce its classic perfume.",
+      "Serve with khobz to mop up the chermoula sauce."
+     ]
+    },
+    "fr": {
+     "title": "Tajine de poisson à la chermoula",
+     "intro": "Poisson mariné aux herbes et épices, cuit doucement sur pommes de terre et poivrons.",
+     "ing": [
+      "filets de merlu ou de cabillaud",
+      "coriandre fraîche",
+      "persil plat",
+      "gousses d'ail",
+      "paprika doux",
+      "cumin en poudre",
+      "piment en poudre",
+      "citron",
+      "huile d'olive vierge extra",
+      "pommes de terre",
+      "poivron rouge",
+      "poivron vert",
+      "tomates mûres",
+      "olives vertes",
+      "citron non traité",
+      "eau",
+      "sel"
+     ],
+     "steps": [
+      "Prépare la chermoula : hache finement coriandre, persil et ail, puis mélange avec paprika, cumin, piment, jus de citron, 6 c. à soupe d'huile et sel.",
+      "Étale la moitié de la chermoula sur le poisson et laisse mariner 30 minutes au frigo.",
+      "Pendant ce temps, coupe les pommes de terre en rondelles de 5 mm, les poivrons en lanières, les tomates et le citron non traité en tranches fines.",
+      "Dans une grande poêle avec couvercle, étale les pommes de terre, mêle-les au reste de chermoula, ajoute poivrons et eau. Couvre, feu moyen-doux.",
+      "Pose le poisson sur les pommes de terre presque cuites, ajoute tomates, olives et citron, arrose d'huile. Couvre et cuis jusqu'à ce qu'il s'effeuille.",
+      "Éteins le feu, laisse reposer 5 minutes, parsème de coriandre et sers dans la poêle avec du pain."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "Pommes de terre",
+      "Poisson",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Dans un plat, étale pommes de terre, reste de chermoula, poivrons et eau ; couvre d'alu et enfourne à 200 °C pendant 25 minutes."
+      },
+      "4": {
+       "oven": "Ajoute poisson, tomates, olives et citron, arrose d'huile et remets au four couvert à 200 °C pendant 20 minutes."
+      }
+     },
+     "tips": [
+      "Pas besoin de tajine : une grande poêle avec couvercle suffit, les pommes de terre protègent le poisson.",
+      "Avec des quartiers de citron confit des épiceries marocaines, la sauce prend son parfum typique.",
+      "Sers-le avec du khobz pour saucer la chermoula."
+     ]
+    },
+    "es": {
+     "title": "Tajín de pescado con chermoula",
+     "intro": "Pescado marinado en hierbas y especias, cocinado despacio sobre patatas y pimientos.",
+     "ing": [
+      "filetes de merluza o bacalao fresco",
+      "cilantro fresco",
+      "perejil",
+      "dientes de ajo",
+      "pimentón dulce",
+      "comino molido",
+      "guindilla molida",
+      "limón",
+      "aceite de oliva virgen extra",
+      "patatas",
+      "pimiento rojo",
+      "pimiento verde",
+      "tomates maduros",
+      "aceitunas verdes",
+      "limón sin tratar",
+      "agua",
+      "sal"
+     ],
+     "steps": [
+      "Prepara la chermoula: pica fino cilantro, perejil y ajo y mézclalos con pimentón, comino, guindilla, zumo de limón, 6 cucharadas de aceite y sal.",
+      "Unta el pescado con la mitad de la chermoula y déjalo marinar en la nevera 30 minutos.",
+      "Mientras tanto, corta las patatas en rodajas de 5 mm, los pimientos en tiras y el tomate y el limón sin tratar en rodajas finas.",
+      "En una sartén amplia con tapa extiende las patatas, mézclalas con el resto de chermoula, añade pimientos y agua. Tapa y cuece a fuego medio-bajo.",
+      "Pon el pescado sobre las patatas casi tiernas, cúbrelo con tomate, aceitunas y limón y riega con el aceite. Tapa y cuece hasta que se desmigue.",
+      "Apaga, deja reposar 5 minutos, espolvorea cilantro y sirve en la misma sartén con pan."
+     ],
+     "labels": [
+      "",
+      "Marinado",
+      "",
+      "Patatas",
+      "Pescado",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "En una fuente extiende patatas, chermoula restante, pimientos y agua; tapa con papel de aluminio y hornea a 200 °C 25 minutos."
+      },
+      "4": {
+       "oven": "Coloca encima pescado, tomate, aceitunas y limón, riega con aceite y hornea tapado a 200 °C 20 minutos."
+      }
+     },
+     "tips": [
+      "No hace falta tajín: basta una sartén amplia con tapa, y las patatas de abajo protegen el pescado.",
+      "Con limón encurtido de las tiendas marroquíes, en gajos, la salsa toma su aroma típico.",
+      "Sírvelo con khobz para mojar la salsa de chermoula."
+     ]
+    },
+    "de": {
+     "title": "Fisch-Tajine mit Chermoula",
+     "intro": "Fisch in Kräuter-Gewürz-Marinade, sanft gegart auf Kartoffeln, Paprika und Oliven.",
+     "ing": [
+      "Seehecht- oder Kabeljaufilets",
+      "frischer Koriander",
+      "glatte Petersilie",
+      "Knoblauchzehen",
+      "edelsüßes Paprikapulver",
+      "gemahlener Kreuzkümmel",
+      "Chilipulver",
+      "Zitrone",
+      "natives Olivenöl extra",
+      "Kartoffeln",
+      "rote Paprikaschote",
+      "grüne Paprikaschote",
+      "reife Tomaten",
+      "grüne Oliven",
+      "unbehandelte Zitrone",
+      "Wasser",
+      "Salz"
+     ],
+     "steps": [
+      "Mach die Chermoula: Koriander, Petersilie und Knoblauch fein hacken und mit Paprika, Kreuzkümmel, Chili, Zitronensaft, 6 EL Öl und Salz mischen.",
+      "Bestreich den Fisch mit der Hälfte der Chermoula und lass ihn 30 Minuten im Kühlschrank marinieren.",
+      "Schneide inzwischen die Kartoffeln in 5 mm dicke Scheiben, die Paprika in Streifen, Tomaten und unbehandelte Zitrone in dünne Scheiben.",
+      "Verteil die Kartoffeln in einer weiten Pfanne mit Deckel, misch sie mit der restlichen Chermoula, gib Paprika und Wasser dazu. Zugedeckt sanft garen.",
+      "Leg den Fisch auf die fast weichen Kartoffeln, bedeck ihn mit Tomaten, Oliven und Zitrone, beträufle ihn mit Öl. Zugedeckt garen, bis er zerfällt.",
+      "Vom Herd nehmen, 5 Minuten ruhen lassen, mit Koriander bestreuen und in der Pfanne mit Brot servieren."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "Kartoffeln",
+      "Fisch",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Kartoffeln, restliche Chermoula, Paprika und Wasser in eine Auflaufform geben, mit Alufolie abdecken, bei 200 °C 25 Minuten backen."
+      },
+      "4": {
+       "oven": "Fisch, Tomaten, Oliven und Zitrone darauflegen, mit Öl beträufeln und abgedeckt bei 200 °C 20 Minuten garen."
+      }
+     },
+     "tips": [
+      "Eine Tajine braucht es nicht: Eine weite Pfanne mit Deckel reicht, die Kartoffeln schützen den Fisch.",
+      "Mit Salzzitronen aus dem marokkanischen Laden, in Spalten, bekommt die Sauce ihr typisches Aroma.",
+      "Mit Khobz servieren, um die Chermoula-Sauce aufzutunken."
+     ]
+    }
+   }
+  },
+  {
+   "id": "kefta-mqawra",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 1,
+   "kcal": 470,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "MA",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "ground-beef"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "cayenne-pepper"
+    },
+    {
+     "q": 800,
+     "u": "g",
+     "k": "canned-tomatoes"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 180
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 360
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "khobz-marocchino"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tajine di kefta, polpette e uova",
+     "intro": "Polpettine speziate nel sugo di pomodoro, con uova cotte sopra: si mangia col pane.",
+     "ing": [
+      "carne macinata di manzo",
+      "cipolla",
+      "prezzemolo",
+      "coriandolo fresco",
+      "cumino in polvere",
+      "paprika dolce",
+      "peperoncino in polvere",
+      "pomodori pelati",
+      "spicchi d'aglio",
+      "olio extravergine d'oliva",
+      "uova",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Grattugia la cipolla. Impasta la carne con metà cipolla, metà delle erbe tritate, 1 cucchiaino di cumino e uno di paprika, sale e pepe.",
+      "Con le mani bagnate forma polpettine grandi come una noce, circa 30.",
+      "In una padella larga con coperchio scalda l'olio con la cipolla rimasta e l'aglio tritato, finché si ammorbidiscono.",
+      "Aggiungi i pelati schiacciati, il resto delle spezie, il peperoncino e il sale e cuoci finché il sugo si addensa.",
+      "Adagia le polpette nel sugo in un solo strato, copri e cuoci, scuotendo ogni tanto la padella.",
+      "Fai 4 incavi, rompi un uovo in ciascuno, copri e cuoci finché l'albume è rappreso e il tuorlo ancora morbido.",
+      "Cospargi con le erbe rimaste e un pizzico di cumino e servi nella padella, con pane per raccogliere il sugo."
+     ],
+     "labels": [
+      "",
+      "",
+      "Soffritto",
+      "Sugo",
+      "Kefta",
+      "Uova",
+      ""
+     ],
+     "tips": [
+      "Bagna spesso le mani in acqua fredda mentre formi le kefta: restano lisce e non si attaccano.",
+      "Con metà manzo e metà agnello il sapore diventa ancora più marocchino.",
+      "In Marocco si mangia senza posate, raccogliendo sugo e uova con il khobz."
+     ]
+    },
+    "en": {
+     "title": "Kefta tagine with eggs",
+     "intro": "Spiced little meatballs in tomato sauce with eggs cooked on top, eaten with bread.",
+     "ing": [
+      "ground beef",
+      "onion",
+      "flat-leaf parsley",
+      "fresh cilantro",
+      "ground cumin",
+      "sweet paprika",
+      "chili powder",
+      "canned peeled tomatoes",
+      "garlic cloves",
+      "extra virgin olive oil",
+      "eggs",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Grate the onion. Knead the meat with half the onion, half the chopped herbs, 1 tsp cumin, 1 tsp paprika, salt and pepper.",
+      "With wet hands roll walnut-sized meatballs, about 30.",
+      "In a wide lidded pan warm the oil with the rest of the onion and the chopped garlic until soft.",
+      "Add the crushed tomatoes, the remaining spices, chili and salt and cook until the sauce thickens.",
+      "Lay the meatballs in the sauce in a single layer, cover and cook, shaking the pan now and then.",
+      "Make 4 hollows, crack an egg into each, cover and cook until the whites are set and the yolks still soft.",
+      "Scatter with the remaining herbs and a pinch of cumin and serve in the pan, with bread to scoop up the sauce."
+     ],
+     "labels": [
+      "",
+      "",
+      "Soften",
+      "Sauce",
+      "Kefta",
+      "Eggs",
+      ""
+     ],
+     "tips": [
+      "Keep wetting your hands with cold water as you shape the kefta: they stay smooth and don't stick.",
+      "Half beef, half lamb makes it taste even more Moroccan.",
+      "In Morocco it's eaten without cutlery, scooping up sauce and egg with khobz."
+     ]
+    },
+    "fr": {
+     "title": "Tajine de kefta aux œufs",
+     "intro": "Boulettes épicées dans une sauce tomate, avec des œufs cuits dessus, à manger au pain.",
+     "ing": [
+      "viande de bœuf hachée",
+      "oignon",
+      "persil plat",
+      "coriandre fraîche",
+      "cumin en poudre",
+      "paprika doux",
+      "piment en poudre",
+      "tomates pelées en boîte",
+      "gousses d'ail",
+      "huile d'olive vierge extra",
+      "œufs",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Râpe l'oignon. Malaxe la viande avec la moitié de l'oignon, la moitié des herbes hachées, 1 c. à café de cumin et de paprika, sel et poivre.",
+      "Les mains mouillées, forme une trentaine de boulettes de la taille d'une noix.",
+      "Dans une grande poêle avec couvercle, chauffe l'huile avec le reste de l'oignon et l'ail haché, jusqu'à ce qu'ils soient tendres.",
+      "Ajoute les tomates écrasées, le reste des épices, le piment et le sel et cuis jusqu'à ce que la sauce épaississe.",
+      "Dépose les boulettes dans la sauce en une seule couche, couvre et cuis en secouant la poêle de temps en temps.",
+      "Creuse 4 puits, casse un œuf dans chacun, couvre et cuis jusqu'à ce que le blanc soit pris et le jaune encore coulant.",
+      "Parsème du reste des herbes et d'une pincée de cumin et sers dans la poêle, avec du pain pour saucer."
+     ],
+     "labels": [
+      "",
+      "",
+      "Revenir",
+      "Sauce",
+      "Kefta",
+      "Œufs",
+      ""
+     ],
+     "tips": [
+      "Mouille souvent tes mains à l'eau froide en façonnant les kefta : elles restent lisses et ne collent pas.",
+      "Moitié bœuf, moitié agneau, le goût est encore plus marocain.",
+      "Au Maroc, on le mange sans couverts, en sauçant sauce et œufs avec le khobz."
+     ]
+    },
+    "es": {
+     "title": "Tajín de kefta con huevos",
+     "intro": "Albondiguillas especiadas en salsa de tomate con huevos cuajados encima, para mojar pan.",
+     "ing": [
+      "carne picada de ternera",
+      "cebolla",
+      "perejil",
+      "cilantro fresco",
+      "comino molido",
+      "pimentón dulce",
+      "guindilla molida",
+      "tomate pelado en conserva",
+      "dientes de ajo",
+      "aceite de oliva virgen extra",
+      "huevos",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Ralla la cebolla. Amasa la carne con media cebolla, la mitad de las hierbas picadas, 1 cucharadita de comino y otra de pimentón, sal y pimienta.",
+      "Con las manos mojadas forma unas 30 albondiguillas del tamaño de una nuez.",
+      "En una sartén amplia con tapa calienta el aceite con el resto de la cebolla y el ajo picado, hasta que se ablanden.",
+      "Añade el tomate aplastado, el resto de las especias, la guindilla y la sal y cuece hasta que la salsa espese.",
+      "Coloca las albóndigas en la salsa en una sola capa, tapa y cuece, sacudiendo la sartén de vez en cuando.",
+      "Haz 4 huecos, casca un huevo en cada uno, tapa y cuece hasta que la clara cuaje y la yema siga blanda.",
+      "Espolvorea el resto de las hierbas y una pizca de comino y sirve en la sartén, con pan para mojar la salsa."
+     ],
+     "labels": [
+      "",
+      "",
+      "Sofrito",
+      "Salsa",
+      "Kefta",
+      "Huevos",
+      ""
+     ],
+     "tips": [
+      "Mójate a menudo las manos con agua fría al formar la kefta: quedan lisas y no se pegan.",
+      "Con mitad ternera y mitad cordero el sabor es aún más marroquí.",
+      "En Marruecos se come sin cubiertos, cogiendo salsa y huevo con khobz."
+     ]
+    },
+    "de": {
+     "title": "Kefta-Tajine mit Eiern",
+     "intro": "Würzige Hackbällchen in Tomatensauce, mit darin gegarten Eiern, zum Tunken mit Brot.",
+     "ing": [
+      "Rinderhackfleisch",
+      "Zwiebel",
+      "glatte Petersilie",
+      "frischer Koriander",
+      "gemahlener Kreuzkümmel",
+      "edelsüßes Paprikapulver",
+      "Chilipulver",
+      "geschälte Tomaten aus der Dose",
+      "Knoblauchzehen",
+      "natives Olivenöl extra",
+      "Eier",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Reib die Zwiebel. Knete das Hack mit der Hälfte der Zwiebel, der Hälfte der Kräuter, je 1 TL Kreuzkümmel und Paprika, Salz und Pfeffer.",
+      "Form mit nassen Händen etwa 30 walnussgroße Bällchen.",
+      "Erhitz in einer weiten Pfanne mit Deckel das Öl mit der restlichen Zwiebel und gehacktem Knoblauch, bis beides weich ist.",
+      "Gib die zerdrückten Tomaten, die restlichen Gewürze, Chili und Salz dazu und koch, bis die Sauce eindickt.",
+      "Leg die Bällchen in einer Schicht in die Sauce, deck sie zu und gare sie, dabei die Pfanne ab und zu rütteln.",
+      "Drück 4 Mulden hinein, schlag in jede ein Ei, deck zu und gare, bis das Eiweiß gestockt und das Eigelb noch weich ist.",
+      "Mit den restlichen Kräutern und etwas Kreuzkümmel bestreuen und in der Pfanne servieren, dazu Brot zum Tunken."
+     ],
+     "labels": [
+      "",
+      "",
+      "Andünsten",
+      "Sauce",
+      "Kefta",
+      "Eier",
+      ""
+     ],
+     "tips": [
+      "Mach die Hände beim Formen immer wieder mit kaltem Wasser nass: Die Kefta bleiben glatt und kleben nicht.",
+      "Halb Rind, halb Lamm schmeckt noch marokkanischer.",
+      "In Marokko isst man ohne Besteck und nimmt Sauce und Ei mit Khobz auf."
+     ]
+    }
+   }
+  },
+  {
+   "id": "briouats-formaggio",
+   "cat": "antipasti",
+   "sub": "finger",
+   "servings": 4,
+   "minutes": 45,
+   "diff": 2,
+   "kcal": 360,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "MA",
+   "alcohol": false,
+   "methods": [
+    "fry",
+    "oven",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 6,
+     "u": "",
+     "k": "filo-pastry"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "feta"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "ricotta"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "sunflower-oil"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 180,
+     "alt": {
+      "oven": {
+       "timer": 900
+      },
+      "airfryer": {
+       "timer": 480
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Briouat al formaggio",
+     "intro": "Triangoli di sfoglia croccante ripieni di formaggio ed erbe fresche.",
+     "ing": [
+      "fogli di pasta fillo",
+      "feta",
+      "ricotta",
+      "uovo",
+      "prezzemolo",
+      "coriandolo fresco",
+      "pepe nero",
+      "burro fuso",
+      "olio di semi per friggere"
+     ],
+     "steps": [
+      "Schiaccia feta e ricotta con una forchetta, unisci l'uovo sbattuto, prezzemolo e coriandolo tritati e una macinata di pepe.",
+      "Taglia ogni foglio di fillo in 4 strisce larghe circa 8 cm e tienile coperte con un canovaccio umido.",
+      "Spennella una striscia di burro, metti un cucchiaino di ripieno in fondo e ripiega a triangolo fino alla fine. Sigilla con il burro.",
+      "Friggi i briouat in olio a 170 °C, pochi alla volta, finché sono dorati; scolali su carta da cucina.",
+      "Servili caldi o tiepidi, insieme alle insalate cotte."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Cottura",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Spennellali di burro e cuocili in forno a 200 °C per 15 minuti, girandoli a metà, finché sono dorati.",
+       "airfryer": "Spennellali di burro e cuocili in friggitrice ad aria a 180 °C per 8 minuti, finché sono dorati."
+      }
+     },
+     "tips": [
+      "Versione di carne: 300 g di macinato cotto con cipolla, cumino, cannella e prezzemolo, legato con 1 uovo.",
+      "Tieni sempre la fillo sotto un canovaccio umido: all'aria secca in pochi minuti e si spezza.",
+      "Con la warqa dei negozi marocchini, al posto della fillo, sono ancora più sottili e croccanti."
+     ]
+    },
+    "en": {
+     "title": "Cheese briouats",
+     "intro": "Crisp pastry triangles filled with cheese and fresh herbs.",
+     "ing": [
+      "sheets of filo pastry",
+      "feta",
+      "ricotta",
+      "egg",
+      "flat-leaf parsley",
+      "fresh cilantro",
+      "black pepper",
+      "melted butter",
+      "sunflower oil for frying"
+     ],
+     "steps": [
+      "Mash the feta and ricotta with a fork, then mix in the beaten egg, chopped parsley and cilantro and some black pepper.",
+      "Cut each filo sheet into 4 strips about 8 cm wide and keep them covered with a damp towel.",
+      "Brush a strip with butter, put a teaspoon of filling at one end and fold into triangles to the end. Seal with butter.",
+      "Fry the briouats in oil at 170 °C, a few at a time, until golden; drain on paper towels.",
+      "Serve hot or warm, alongside the cooked salads."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Cook",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Brush with butter and bake at 200 °C for 15 minutes, turning halfway, until golden.",
+       "airfryer": "Brush with butter and air-fry at 180 °C for 8 minutes, until golden."
+      }
+     },
+     "tips": [
+      "Meat version: 300 g ground beef cooked with onion, cumin, cinnamon and parsley, bound with 1 egg.",
+      "Always keep the filo under a damp towel: in the open air it dries out in minutes and cracks.",
+      "With warqa from Moroccan shops instead of filo they're even thinner and crisper."
+     ]
+    },
+    "fr": {
+     "title": "Briouates au fromage",
+     "intro": "Triangles de pâte croustillante farcis de fromage et d'herbes fraîches.",
+     "ing": [
+      "feuilles de pâte filo",
+      "feta",
+      "ricotta",
+      "œuf",
+      "persil plat",
+      "coriandre fraîche",
+      "poivre noir",
+      "beurre fondu",
+      "huile de tournesol pour la friture"
+     ],
+     "steps": [
+      "Écrase la feta et la ricotta à la fourchette, ajoute l'œuf battu, le persil et la coriandre hachés et un tour de poivre.",
+      "Coupe chaque feuille de filo en 4 bandes d'environ 8 cm et garde-les sous un torchon humide.",
+      "Beurre une bande, pose une cuillère à café de farce en bas et plie en triangle jusqu'au bout. Soude avec du beurre.",
+      "Fais frire les briouates dans l'huile à 170 °C, quelques-unes à la fois, jusqu'à ce qu'elles soient dorées ; égoutte-les.",
+      "Sers-les chaudes ou tièdes, avec les salades cuites."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Cuisson",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Badigeonne-les de beurre et enfourne à 200 °C pendant 15 minutes, en les retournant à mi-cuisson, jusqu'à ce qu'elles dorent.",
+       "airfryer": "Badigeonne-les de beurre et cuis-les à la friteuse à air à 180 °C pendant 8 minutes, jusqu'à ce qu'elles dorent."
+      }
+     },
+     "tips": [
+      "Version viande : 300 g de viande hachée cuite avec oignon, cumin, cannelle et persil, liée avec 1 œuf.",
+      "Garde toujours la filo sous un torchon humide : à l'air, elle sèche en quelques minutes et casse.",
+      "Avec de la warqa des épiceries marocaines au lieu de la filo, elles sont encore plus fines."
+     ]
+    },
+    "es": {
+     "title": "Briouats de queso",
+     "intro": "Triángulos de masa crujiente rellenos de queso y hierbas frescas.",
+     "ing": [
+      "hojas de pasta filo",
+      "queso feta",
+      "ricota",
+      "huevo",
+      "perejil",
+      "cilantro fresco",
+      "pimienta negra",
+      "mantequilla derretida",
+      "aceite de girasol para freír"
+     ],
+     "steps": [
+      "Aplasta el feta y la ricota con un tenedor y añade el huevo batido, el perejil y el cilantro picados y un poco de pimienta.",
+      "Corta cada hoja de filo en 4 tiras de unos 8 cm de ancho y tenlas tapadas con un paño húmedo.",
+      "Pinta una tira con mantequilla, pon una cucharadita de relleno en un extremo y dobla en triángulo hasta el final. Sella con mantequilla.",
+      "Fríe los briouats en aceite a 170 °C, pocos cada vez, hasta que estén dorados; escúrrelos en papel.",
+      "Sírvelos calientes o templados, junto a las ensaladas cocidas."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Cocción",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Píntalos con mantequilla y hornéalos a 200 °C durante 15 minutos, dándoles la vuelta a mitad, hasta que se doren.",
+       "airfryer": "Píntalos con mantequilla y cuécelos en la freidora de aire a 180 °C durante 8 minutos, hasta que se doren."
+      }
+     },
+     "tips": [
+      "Versión de carne: 300 g de carne picada guisada con cebolla, comino, canela y perejil, ligada con 1 huevo.",
+      "Ten siempre la filo bajo un paño húmedo: al aire se seca en minutos y se rompe.",
+      "Con warqa de las tiendas marroquíes en vez de filo quedan aún más finos y crujientes."
+     ]
+    },
+    "de": {
+     "title": "Briouats mit Käse",
+     "intro": "Knusprige Teigdreiecke mit einer Füllung aus Käse und frischen Kräutern.",
+     "ing": [
+      "Filoteigblätter",
+      "Feta",
+      "Ricotta",
+      "Ei",
+      "glatte Petersilie",
+      "frischer Koriander",
+      "schwarzer Pfeffer",
+      "geschmolzene Butter",
+      "Sonnenblumenöl zum Frittieren"
+     ],
+     "steps": [
+      "Zerdrück Feta und Ricotta mit der Gabel und misch das verquirlte Ei, gehackte Petersilie, Koriander und etwas Pfeffer unter.",
+      "Schneide jedes Filoblatt in 4 etwa 8 cm breite Streifen und halte sie unter einem feuchten Tuch.",
+      "Bestreich einen Streifen mit Butter, setz 1 TL Füllung ans Ende und falte ihn bis zum Schluss zu Dreiecken. Mit Butter verschließen.",
+      "Frittier die Briouats bei 170 °C portionsweise goldbraun und lass sie auf Küchenpapier abtropfen.",
+      "Heiß oder lauwarm servieren, zusammen mit den gekochten Salaten."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Garen",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "oven": "Mit Butter bestreichen und bei 200 °C 15 Minuten backen, nach der Hälfte wenden, bis sie goldbraun sind.",
+       "airfryer": "Mit Butter bestreichen und in der Heißluftfritteuse bei 180 °C 8 Minuten goldbraun garen."
+      }
+     },
+     "tips": [
+      "Mit Fleisch: 300 g Hack mit Zwiebel, Kreuzkümmel, Zimt und Petersilie braten und mit 1 Ei binden.",
+      "Halte den Filoteig immer unter einem feuchten Tuch: An der Luft trocknet er in Minuten und bricht.",
+      "Mit Warqa aus dem marokkanischen Laden statt Filo werden sie noch dünner und knuspriger."
+     ]
+    }
+   }
+  },
+  {
+   "id": "khobz-marocchino",
+   "cat": "forno",
+   "sub": "pane",
+   "servings": 8,
+   "minutes": 115,
+   "diff": 2,
+   "kcal": 240,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [],
+   "origin": "MA",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 350,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "semolina"
+    },
+    {
+     "q": 7,
+     "u": "g",
+     "k": "dry-yeast"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "salt"
+    },
+    {
+     "q": 320,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "anise-seeds"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sesame-seeds"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "semolina"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 3600,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 1200
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "pair",
+     "link": "zaalouk"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Khobz, pane marocchino",
+     "intro": "Pane tondo e basso con semola e anice, morbido dentro: si spezza con le mani.",
+     "ing": [
+      "farina 00",
+      "semola rimacinata di grano duro",
+      "lievito di birra secco",
+      "zucchero",
+      "sale",
+      "acqua tiepida",
+      "olio extravergine d'oliva",
+      "semi di anice",
+      "semi di sesamo",
+      "semola per lo spolvero"
+     ],
+     "steps": [
+      "Mescola farina, semola, lievito, zucchero, anice e sale. Aggiungi acqua e olio e impasta 10 minuti, finché è liscio e morbido.",
+      "Dividi l'impasto in 2 palline, coprile e lasciale riposare.",
+      "Schiaccia ogni pallina in un disco di 20 cm alto 2 cm, su una teglia spolverata di semola. Copri e lascia lievitare finché si gonfia.",
+      "Intanto scalda il forno a 220 °C.",
+      "Bucherella i pani con una forchetta, spennellali d'acqua e cospargili di sesamo.",
+      "Inforna a 220 °C per 20 minuti, finché sono dorati e, battuti sotto, suonano vuoti.",
+      "Lasciali raffreddare avvolti in un canovaccio, così la crosta resta morbida."
+     ],
+     "labels": [
+      "",
+      "Riposo",
+      "Lievitazione",
+      "",
+      "",
+      "Forno",
+      ""
+     ],
+     "tips": [
+      "Taglialo a spicchi e usalo per raccogliere zaalouk e sughi dei tajine.",
+      "La semola dà la mollica compatta e il profumo tipico: non sostituirla con altra farina.",
+      "Avanzato, tostalo in padella e servilo a colazione con olio d'oliva e miele."
+     ]
+    },
+    "en": {
+     "title": "Khobz, Moroccan bread",
+     "intro": "Flat round loaf with semolina and anise, soft inside, torn by hand at the table.",
+     "ing": [
+      "all-purpose flour",
+      "fine durum wheat semolina",
+      "instant dry yeast",
+      "sugar",
+      "salt",
+      "lukewarm water",
+      "extra virgin olive oil",
+      "anise seeds",
+      "sesame seeds",
+      "semolina for dusting"
+     ],
+     "steps": [
+      "Mix the flour, semolina, yeast, sugar, anise and salt. Add the water and oil and knead for 10 minutes, until smooth and soft.",
+      "Divide the dough into 2 balls, cover and let them rest.",
+      "Flatten each ball into a 20 cm disc, 2 cm thick, on a tray dusted with semolina. Cover and let rise until puffy.",
+      "Meanwhile heat the oven to 220 °C.",
+      "Prick the loaves with a fork, brush with water and sprinkle with sesame seeds.",
+      "Bake at 220 °C for 20 minutes, until golden and hollow-sounding when tapped underneath.",
+      "Cool wrapped in a tea towel so the crust stays soft."
+     ],
+     "labels": [
+      "",
+      "Rest",
+      "Rise",
+      "",
+      "",
+      "Oven",
+      ""
+     ],
+     "tips": [
+      "Cut it into wedges and use it to scoop up zaalouk and tagine sauces.",
+      "Semolina gives the dense crumb and typical aroma: don't swap it for another flour.",
+      "Toast leftovers in a pan and serve for breakfast with olive oil and honey."
+     ]
+    },
+    "fr": {
+     "title": "Khobz, pain marocain",
+     "intro": "Pain rond et plat à la semoule et à l'anis, moelleux, qu'on rompt à la main.",
+     "ing": [
+      "farine de blé T55",
+      "semoule fine de blé dur",
+      "levure de boulanger sèche",
+      "sucre",
+      "sel",
+      "eau tiède",
+      "huile d'olive vierge extra",
+      "graines d'anis",
+      "graines de sésame",
+      "semoule pour fleurer"
+     ],
+     "steps": [
+      "Mélange farine, semoule, levure, sucre, anis et sel. Ajoute l'eau et l'huile et pétris 10 minutes, jusqu'à obtenir une pâte lisse et souple.",
+      "Divise la pâte en 2 boules, couvre-les et laisse reposer.",
+      "Aplatis chaque boule en un disque de 20 cm et 2 cm d'épaisseur sur une plaque semoulée. Couvre et laisse lever jusqu'à ce qu'il gonfle.",
+      "Pendant ce temps, préchauffe le four à 220 °C.",
+      "Pique les pains à la fourchette, badigeonne-les d'eau et parsème de sésame.",
+      "Enfourne à 220 °C pendant 20 minutes, jusqu'à ce qu'ils soient dorés et sonnent creux dessous.",
+      "Laisse-les refroidir enveloppés dans un torchon, pour que la croûte reste tendre."
+     ],
+     "labels": [
+      "",
+      "Repos",
+      "Levée",
+      "",
+      "",
+      "Four",
+      ""
+     ],
+     "tips": [
+      "Coupe-le en quartiers pour saucer le zaalouk et les sauces des tajines.",
+      "La semoule donne la mie serrée et le parfum typique : ne la remplace pas par une autre farine.",
+      "Les restes, toastés à la poêle, se servent au petit-déjeuner avec huile d'olive et miel."
+     ]
+    },
+    "es": {
+     "title": "Khobz, pan marroquí",
+     "intro": "Pan redondo y plano con sémola y anís, tierno por dentro, para partir con las manos.",
+     "ing": [
+      "harina de trigo",
+      "sémola fina de trigo duro",
+      "levadura seca de panadería",
+      "azúcar",
+      "sal",
+      "agua tibia",
+      "aceite de oliva virgen extra",
+      "matalahúva (anís en grano)",
+      "semillas de sésamo",
+      "sémola para espolvorear"
+     ],
+     "steps": [
+      "Mezcla harina, sémola, levadura, azúcar, anís y sal. Añade el agua y el aceite y amasa 10 minutos, hasta que esté lisa y suave.",
+      "Divide la masa en 2 bolas, tápalas y déjalas reposar.",
+      "Aplasta cada bola en un disco de 20 cm y 2 cm de grosor sobre una bandeja con sémola. Tapa y deja levar hasta que se hinche.",
+      "Mientras tanto, precalienta el horno a 220 °C.",
+      "Pincha los panes con un tenedor, píntalos con agua y espolvorea sésamo.",
+      "Hornea a 220 °C durante 20 minutos, hasta que estén dorados y suenen huecos al golpear la base.",
+      "Déjalos enfriar envueltos en un paño, así la corteza queda tierna."
+     ],
+     "labels": [
+      "",
+      "Reposo",
+      "Levado",
+      "",
+      "",
+      "Horno",
+      ""
+     ],
+     "tips": [
+      "Córtalo en cuñas y úsalo para coger el zaalouk y las salsas de los tajines.",
+      "La sémola da la miga densa y el aroma típico: no la cambies por otra harina.",
+      "Si sobra, tuéstalo en la sartén y sírvelo en el desayuno con aceite de oliva y miel."
+     ]
+    },
+    "de": {
+     "title": "Khobz, marokkanisches Brot",
+     "intro": "Flaches Rundbrot mit Hartweizengrieß und Anis, innen weich, wird mit der Hand gebrochen.",
+     "ing": [
+      "Weizenmehl Type 405",
+      "feiner Hartweizengrieß",
+      "Trockenhefe",
+      "Zucker",
+      "Salz",
+      "lauwarmes Wasser",
+      "natives Olivenöl extra",
+      "Anissamen",
+      "Sesam",
+      "Grieß zum Bestreuen"
+     ],
+     "steps": [
+      "Misch Mehl, Grieß, Hefe, Zucker, Anis und Salz. Gib Wasser und Öl dazu und knete 10 Minuten, bis der Teig glatt und weich ist.",
+      "Teil den Teig in 2 Kugeln, deck sie zu und lass sie ruhen.",
+      "Drück jede Kugel auf einem mit Grieß bestreuten Blech zu einem Fladen von 20 cm und 2 cm Dicke. Abgedeckt gehen lassen, bis er aufgeht.",
+      "Heiz inzwischen den Ofen auf 220 °C vor.",
+      "Stich die Brote mit der Gabel ein, bestreich sie mit Wasser und bestreu sie mit Sesam.",
+      "Back sie bei 220 °C 20 Minuten, bis sie goldbraun sind und beim Klopfen auf den Boden hohl klingen.",
+      "Lass sie in ein Tuch gewickelt abkühlen, so bleibt die Kruste weich."
+     ],
+     "labels": [
+      "",
+      "Ruhen",
+      "Gehen",
+      "",
+      "",
+      "Ofen",
+      ""
+     ],
+     "tips": [
+      "In Stücke schneiden und damit Zaalouk und Tajine-Saucen aufnehmen.",
+      "Der Grieß sorgt für die dichte Krume und das typische Aroma: nicht durch anderes Mehl ersetzen.",
+      "Reste in der Pfanne rösten und zum Frühstück mit Olivenöl und Honig servieren."
+     ]
+    }
+   }
+  },
+  {
+   "id": "arance-alla-cannella",
+   "cat": "dolci",
+   "sub": "frutta",
+   "servings": 4,
+   "minutes": 40,
+   "diff": 1,
+   "kcal": 90,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "origin": "MA",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 4,
+     "u": "",
+     "k": "oranges"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "orange-blossom-water"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "powdered-sugar"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "mint"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 1800
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "te-alla-menta-marocchino"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Arance alla cannella",
+     "intro": "Arance a rondelle con fiori d'arancio e cannella: il dessert fresco dopo il tajine.",
+     "ing": [
+      "arance",
+      "acqua di fiori d'arancio",
+      "zucchero a velo",
+      "cannella in polvere",
+      "foglioline di menta"
+     ],
+     "steps": [
+      "Pela le arance a vivo con un coltello affilato, togliendo tutta la parte bianca.",
+      "Tagliale a rondelle di 5 mm, elimina i semi e disponile sovrapposte su un piatto da portata, con il loro succo.",
+      "Irrorale con l'acqua di fiori d'arancio e spolverale di zucchero a velo.",
+      "Copri e metti in frigo per 30 minuti, finché sono ben fredde.",
+      "Al momento di servire spolvera di cannella e completa con le foglioline di menta."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Spolvera la cannella solo all'ultimo: sul succo si inumidisce e perde profumo.",
+      "Con datteri a pezzetti e mandorle tostate tritate diventa un dessert più ricco.",
+      "Chiudi la cena con un bicchiere di tè alla menta bollente."
+     ]
+    },
+    "en": {
+     "title": "Cinnamon oranges, Moroccan style",
+     "intro": "Sliced oranges with orange blossom and cinnamon: the fresh finish after a tagine.",
+     "ing": [
+      "oranges",
+      "orange blossom water",
+      "powdered sugar",
+      "ground cinnamon",
+      "small mint leaves"
+     ],
+     "steps": [
+      "Peel the oranges with a sharp knife, cutting away all the white pith.",
+      "Slice them into 5 mm rounds, remove the seeds and overlap them on a serving plate with their juice.",
+      "Sprinkle with the orange blossom water and dust with powdered sugar.",
+      "Cover and chill for 30 minutes, until nicely cold.",
+      "Just before serving, dust with cinnamon and scatter with the mint leaves."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Chill",
+      ""
+     ],
+     "tips": [
+      "Add the cinnamon at the last moment: on the juice it turns damp and loses its scent.",
+      "Chopped dates and toasted almonds make it a richer dessert.",
+      "End the meal with a glass of hot mint tea."
+     ]
+    },
+    "fr": {
+     "title": "Oranges à la cannelle",
+     "intro": "Oranges en rondelles, fleur d'oranger et cannelle : le dessert frais après le tajine.",
+     "ing": [
+      "oranges",
+      "eau de fleur d'oranger",
+      "sucre glace",
+      "cannelle moulue",
+      "petites feuilles de menthe"
+     ],
+     "steps": [
+      "Pèle les oranges à vif avec un couteau bien aiguisé, en retirant toute la peau blanche.",
+      "Coupe-les en rondelles de 5 mm, ôte les pépins et dispose-les en rosace sur un plat avec leur jus.",
+      "Arrose-les d'eau de fleur d'oranger et saupoudre de sucre glace.",
+      "Couvre et mets au frais 30 minutes, jusqu'à ce qu'elles soient bien froides.",
+      "Au moment de servir, saupoudre de cannelle et ajoute les feuilles de menthe."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Mets la cannelle au dernier moment : sur le jus, elle s'humidifie et perd son parfum.",
+      "Avec des dattes en morceaux et des amandes grillées concassées, le dessert est plus riche.",
+      "Termine le repas avec un verre de thé à la menthe brûlant."
+     ]
+    },
+    "es": {
+     "title": "Naranjas con canela",
+     "intro": "Naranjas en rodajas con agua de azahar y canela: el postre fresco tras el tajín.",
+     "ing": [
+      "naranjas",
+      "agua de azahar",
+      "azúcar glas",
+      "canela molida",
+      "hojitas de menta"
+     ],
+     "steps": [
+      "Pela las naranjas a lo vivo con un cuchillo afilado, quitando toda la parte blanca.",
+      "Córtalas en rodajas de 5 mm, quita las pepitas y colócalas solapadas en una fuente con su zumo.",
+      "Riégalas con el agua de azahar y espolvorea el azúcar glas.",
+      "Tapa y refrigera 30 minutos, hasta que estén bien frías.",
+      "Al servir, espolvorea la canela y reparte las hojitas de menta."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Nevera",
+      ""
+     ],
+     "tips": [
+      "Pon la canela en el último momento: sobre el zumo se humedece y pierde aroma.",
+      "Con dátiles troceados y almendras tostadas picadas se convierte en un postre más rico.",
+      "Termina la cena con un vaso de té a la menta bien caliente."
+     ]
+    },
+    "de": {
+     "title": "Orangen mit Zimt",
+     "intro": "Orangenscheiben mit Orangenblütenwasser und Zimt: das frische Ende nach der Tajine.",
+     "ing": [
+      "Orangen",
+      "Orangenblütenwasser",
+      "Puderzucker",
+      "gemahlener Zimt",
+      "kleine Minzblätter"
+     ],
+     "steps": [
+      "Schäl die Orangen mit einem scharfen Messer so, dass die weiße Haut ganz entfernt ist.",
+      "Schneide sie in 5 mm dicke Scheiben, entferne die Kerne und leg sie überlappend mit ihrem Saft auf eine Platte.",
+      "Beträufle sie mit Orangenblütenwasser und bestäub sie mit Puderzucker.",
+      "Abgedeckt 30 Minuten kühl stellen, bis sie richtig kalt sind.",
+      "Kurz vor dem Servieren mit Zimt bestäuben und mit den Minzblättern bestreuen."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Kühlen",
+      ""
+     ],
+     "tips": [
+      "Den Zimt erst ganz zum Schluss darüber: Auf dem Saft wird er feucht und verliert sein Aroma.",
+      "Mit Datteln und gehackten gerösteten Mandeln wird daraus ein reichhaltigeres Dessert.",
+      "Zum Abschluss ein Glas heißer Minztee."
+     ]
+    }
+   }
+  },
+  {
+   "id": "te-alla-menta-marocchino",
+   "cat": "bevande",
+   "sub": "calde",
+   "servings": 4,
+   "minutes": 10,
+   "diff": 1,
+   "kcal": 50,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "MA",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "gunpowder-green-tea"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "mint"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 800,
+     "u": "ml",
+     "k": "water"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 240
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tè alla menta marocchino",
+     "intro": "Tè verde, menta fresca e zucchero, versato dall'alto con la sua schiuma.",
+     "ing": [
+      "tè verde gunpowder",
+      "menta fresca",
+      "zucchero",
+      "acqua"
+     ],
+     "steps": [
+      "Porta a bollore l'acqua. Metti il tè nella teiera, versa 100 ml d'acqua bollente, fai roteare 20 secondi e buttala.",
+      "Aggiungi la menta lavata, con i gambi, e lo zucchero, poi versa il resto dell'acqua bollente.",
+      "Lascia in infusione 4 minuti, sul fuoco bassissimo o coperta.",
+      "Versa un bicchiere e rimettilo nella teiera, 2 o 3 volte, per sciogliere e mescolare lo zucchero.",
+      "Servi versando dall'alto, a 30 cm dal bicchiere, così si forma la schiuma."
+     ],
+     "labels": [
+      "",
+      "",
+      "Infusione",
+      "",
+      ""
+     ],
+     "tips": [
+      "Il primo risciacquo toglie l'amaro e la polvere del tè verde: non saltarlo.",
+      "In inverno in Marocco si aggiunge alla menta un rametto di assenzio (chiba) o di salvia."
+     ]
+    },
+    "en": {
+     "title": "Moroccan mint tea",
+     "intro": "Green tea, fresh mint and sugar, poured from a height to raise a foam.",
+     "ing": [
+      "gunpowder green tea",
+      "fresh mint",
+      "sugar",
+      "water"
+     ],
+     "steps": [
+      "Bring the water to a boil. Put the tea in the teapot, add 100 ml boiling water, swirl for 20 seconds and pour it away.",
+      "Add the washed mint, stems and all, and the sugar, then pour in the rest of the boiling water.",
+      "Steep for 4 minutes over the lowest heat or covered.",
+      "Pour out a glass and tip it back into the pot 2 or 3 times to dissolve and mix the sugar.",
+      "Serve by pouring from a height, 30 cm above the glass, so a foam forms."
+     ],
+     "labels": [
+      "",
+      "",
+      "Steep",
+      "",
+      ""
+     ],
+     "tips": [
+      "The first rinse removes the bitterness and dust from the green tea: don't skip it.",
+      "In winter Moroccans add a sprig of wormwood (chiba) or sage to the mint."
+     ]
+    },
+    "fr": {
+     "title": "Thé à la menthe",
+     "intro": "Thé vert, menthe fraîche et sucre, versé de haut pour faire la mousse.",
+     "ing": [
+      "thé vert gunpowder",
+      "menthe fraîche",
+      "sucre",
+      "eau"
+     ],
+     "steps": [
+      "Porte l'eau à ébullition. Mets le thé dans la théière, verse 100 ml d'eau bouillante, fais tourner 20 secondes et jette-la.",
+      "Ajoute la menthe lavée, avec les tiges, et le sucre, puis verse le reste de l'eau bouillante.",
+      "Laisse infuser 4 minutes sur feu très doux ou à couvert.",
+      "Verse un verre et reverse-le dans la théière 2 ou 3 fois pour dissoudre et mélanger le sucre.",
+      "Sers en versant de haut, à 30 cm du verre, pour former la mousse."
+     ],
+     "labels": [
+      "",
+      "",
+      "Infusion",
+      "",
+      ""
+     ],
+     "tips": [
+      "Le premier rinçage enlève l'amertume et la poussière du thé vert : ne le saute pas.",
+      "En hiver, au Maroc, on ajoute à la menthe un brin d'absinthe (chiba) ou de sauge."
+     ]
+    },
+    "es": {
+     "title": "Té marroquí a la menta",
+     "intro": "Té verde, hierbabuena fresca y azúcar, servido desde lo alto con su espuma.",
+     "ing": [
+      "té verde gunpowder",
+      "hierbabuena fresca",
+      "azúcar",
+      "agua"
+     ],
+     "steps": [
+      "Lleva el agua a ebullición. Pon el té en la tetera, echa 100 ml de agua hirviendo, gira 20 segundos y tírala.",
+      "Añade la hierbabuena lavada, con los tallos, y el azúcar, y vierte el resto del agua hirviendo.",
+      "Deja infusionar 4 minutos a fuego mínimo o tapada.",
+      "Sirve un vaso y devuélvelo a la tetera 2 o 3 veces para disolver y mezclar el azúcar.",
+      "Sirve vertiendo desde lo alto, a 30 cm del vaso, para que se forme espuma."
+     ],
+     "labels": [
+      "",
+      "",
+      "Infusión",
+      "",
+      ""
+     ],
+     "tips": [
+      "El primer enjuague quita el amargor y el polvo del té verde: no te lo saltes.",
+      "En invierno, en Marruecos se añade a la hierbabuena una ramita de ajenjo (chiba) o de salvia."
+     ]
+    },
+    "de": {
+     "title": "Marokkanischer Minztee",
+     "intro": "Grüner Tee, frische Minze und Zucker, aus der Höhe eingeschenkt, damit er schäumt.",
+     "ing": [
+      "Gunpowder-Grüntee",
+      "frische Minze",
+      "Zucker",
+      "Wasser"
+     ],
+     "steps": [
+      "Bring das Wasser zum Kochen. Gib den Tee in die Kanne, gieß 100 ml kochendes Wasser auf, 20 Sekunden schwenken und weggießen.",
+      "Gib die gewaschene Minze samt Stielen und den Zucker dazu und gieß das restliche kochende Wasser auf.",
+      "Lass ihn 4 Minuten auf kleinster Flamme oder zugedeckt ziehen.",
+      "Gieß ein Glas ein und schütte es 2 bis 3 Mal zurück in die Kanne, damit sich der Zucker löst und verteilt.",
+      "Aus 30 cm Höhe in die Gläser gießen, damit sich Schaum bildet."
+     ],
+     "labels": [
+      "",
+      "",
+      "Ziehen",
+      "",
+      ""
+     ],
+     "tips": [
+      "Das erste Spülen nimmt dem grünen Tee Bitterkeit und Staub: nicht auslassen.",
+      "Im Winter gibt man in Marokko einen Zweig Wermut (Chiba) oder Salbei zur Minze."
+     ]
+    }
+   }
+  }
+ ]
+}

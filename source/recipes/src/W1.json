@@ -1,0 +1,6259 @@
+{
+ "group": "W1",
+ "recipes": [
+  {
+   "id": "cebiche-peruano",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 2,
+   "kcal": 330,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "party"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "white-fish-fillets"
+    },
+    {
+     "q": 10,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "sweet-potatoes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "corn-on-the-cob"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 2100,
+     "bg": true
+    },
+    {
+     "timer": 600
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 120
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "pisco-sour"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cebiche, pesce marinato al lime",
+     "intro": "Pesce crudo marinato pochi minuti nel lime, con cipolla rossa, patata dolce e mais.",
+     "ing": [
+      "pesce bianco freschissimo (spigola, orata)",
+      "lime",
+      "cipolla rossa",
+      "peperoncino fresco",
+      "spicchio d'aglio",
+      "coriandolo fresco",
+      "patate dolci",
+      "pannocchie di mais",
+      "cubetti di ghiaccio",
+      "sale"
+     ],
+     "steps": [
+      "Il pesce deve essere freschissimo e abbattuto: se lo congeli in casa, tienilo almeno 96 ore a -18 °C e scongelalo in frigo.",
+      "Lessa le patate dolci intere con la buccia in acqua salata finché la lama entra senza resistenza.",
+      "Intanto cuoci le pannocchie in acqua bollente (se precotte bastano 3 minuti), poi tagliale a rondelle spesse.",
+      "Affetta la cipolla rossa a piume sottilissime e mettila in acqua e ghiaccio: perde l'asprezza e resta croccante.",
+      "Taglia il pesce a cubi di 2 cm, mettilo in una ciotola fredda e tienilo in frigo. Togli i semi al peperoncino e tritalo fine.",
+      "Spremi i lime a mano, senza insistere troppo, e filtra il succo.",
+      "Sala il pesce, unisci aglio grattugiato e peperoncino, copri col succo di lime e 2 cubetti di ghiaccio; mescola piano.",
+      "Togli il ghiaccio, aggiungi la cipolla scolata e il coriandolo tritato e assaggia di sale: il pesce è opaco fuori e crudo dentro.",
+      "Pela le patate dolci, tagliale a fette e servi subito il cebiche con patate e mais, versando sopra la leche de tigre."
+     ],
+     "labels": [
+      "",
+      "Patate dolci",
+      "Mais",
+      "",
+      "",
+      "",
+      "Marinatura",
+      "",
+      ""
+     ],
+     "tips": [
+      "Marina solo 2 minuti: il lime cuoce il pesce in fretta e, se aspetti, diventa gommoso.",
+      "Con ají limo o rocoto dei negozi latini al posto del peperoncino il piccante è quello vero del Perù.",
+      "Accompagnalo con un pisco sour ben freddo, come nelle cevicherie di Lima."
+     ]
+    },
+    "en": {
+     "title": "Peruvian ceviche",
+     "intro": "Raw fish cured for minutes in lime, with red onion, sweet potato and corn.",
+     "ing": [
+      "very fresh white fish (sea bass, bream)",
+      "limes",
+      "red onion",
+      "fresh chili",
+      "garlic clove",
+      "fresh cilantro",
+      "sweet potatoes",
+      "corn cobs",
+      "ice cubes",
+      "salt"
+     ],
+     "steps": [
+      "The fish must be very fresh and blast-frozen: at home, freeze it for at least 96 hours at -18 °C and thaw it in the fridge.",
+      "Boil the whole sweet potatoes in their skins in salted water until a knife slides in easily.",
+      "Meanwhile boil the corn cobs (3 minutes is enough if pre-cooked), then cut them into thick rounds.",
+      "Slice the red onion paper-thin and drop it into iced water: it loses its harshness and stays crisp.",
+      "Cut the fish into 2 cm cubes, put them in a cold bowl and keep in the fridge. Seed the chili and chop it finely.",
+      "Squeeze the limes by hand without pressing too hard, and strain the juice.",
+      "Salt the fish, add grated garlic and the chili, cover with the lime juice and 2 ice cubes, and stir gently.",
+      "Remove the ice, add the drained onion and chopped cilantro and check the salt: the fish should be opaque outside, raw inside.",
+      "Peel and slice the sweet potatoes and serve the ceviche at once with them and the corn, spooning over the leche de tigre."
+     ],
+     "labels": [
+      "",
+      "Sweet potatoes",
+      "Corn",
+      "",
+      "",
+      "",
+      "Marinate",
+      "",
+      ""
+     ],
+     "tips": [
+      "Marinate for just 2 minutes: lime cures fish fast, and if you wait it turns rubbery.",
+      "Use ají limo or rocoto from a Latin shop instead of the chili for true Peruvian heat.",
+      "Serve it with an ice-cold pisco sour, as in Lima's cevicherías."
+     ]
+    },
+    "fr": {
+     "title": "Ceviche péruvien",
+     "intro": "Poisson cru mariné quelques minutes au citron vert, oignon rouge, patate douce et maïs.",
+     "ing": [
+      "poisson blanc très frais (bar, daurade)",
+      "citrons verts",
+      "oignon rouge",
+      "piment frais",
+      "gousse d'ail",
+      "coriandre fraîche",
+      "patates douces",
+      "épis de maïs",
+      "glaçons",
+      "sel"
+     ],
+     "steps": [
+      "Le poisson doit être très frais et surgelé : chez toi, congèle-le au moins 96 heures à -18 °C, puis décongèle-le au frigo.",
+      "Fais cuire les patates douces entières avec la peau dans l'eau salée, jusqu'à ce que la lame entre sans résistance.",
+      "Pendant ce temps, cuis les épis dans l'eau bouillante (3 minutes s'ils sont précuits), puis coupe-les en tronçons.",
+      "Émince l'oignon rouge très finement et plonge-le dans de l'eau glacée : il perd son âcreté et reste croquant.",
+      "Coupe le poisson en dés de 2 cm, mets-le dans un bol froid au frigo. Épépine le piment et hache-le finement.",
+      "Presse les citrons verts à la main, sans trop insister, et filtre le jus.",
+      "Sale le poisson, ajoute l'ail râpé et le piment, couvre de jus de citron vert et 2 glaçons, mélange doucement.",
+      "Retire les glaçons, ajoute l'oignon égoutté et la coriandre hachée, rectifie le sel : le poisson est nacré dehors, cru dedans.",
+      "Pèle et tranche les patates douces, sers aussitôt le ceviche avec elles et le maïs, nappé de leche de tigre."
+     ],
+     "labels": [
+      "",
+      "Patates douces",
+      "Maïs",
+      "",
+      "",
+      "",
+      "Marinade",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ne marine que 2 minutes : le citron vert cuit vite le poisson, qui devient caoutchouteux si tu attends.",
+      "Avec de l'ají limo ou du rocoto des épiceries latines à la place du piment, tu as le vrai piquant péruvien.",
+      "Sers-le avec un pisco sour bien frais, comme dans les cevicherías de Lima."
+     ]
+    },
+    "es": {
+     "title": "Cebiche de pescado",
+     "intro": "Pescado crudo marinado unos minutos en lima, con cebolla morada, camote y choclo.",
+     "ing": [
+      "pescado blanco muy fresco (corvina, lubina)",
+      "limas",
+      "cebolla morada",
+      "ají fresco",
+      "diente de ajo",
+      "culantro fresco",
+      "camotes",
+      "choclos",
+      "cubitos de hielo",
+      "sal"
+     ],
+     "steps": [
+      "El pescado debe ser muy fresco y ultracongelado: en casa, congélalo al menos 96 horas a -18 °C y descongélalo en la nevera.",
+      "Cuece los camotes enteros con piel en agua con sal hasta que el cuchillo entre sin resistencia.",
+      "Mientras, cuece los choclos en agua hirviendo (si vienen precocidos, 3 minutos) y córtalos en rodajas gruesas.",
+      "Corta la cebolla morada a pluma muy fina y ponla en agua con hielo: pierde el picor y queda crujiente.",
+      "Corta el pescado en dados de 2 cm, ponlo en un bol frío y guárdalo en la nevera. Despepita el ají y pícalo fino.",
+      "Exprime las limas a mano, sin apretar demasiado, y cuela el jugo.",
+      "Sala el pescado, añade el ajo rallado y el ají, cubre con el jugo de lima y 2 cubitos de hielo; mezcla suave.",
+      "Retira el hielo, añade la cebolla escurrida y el culantro picado y prueba de sal: el pescado queda opaco fuera y crudo dentro.",
+      "Pela y corta los camotes y sirve enseguida el cebiche con camote y choclo, bañado con su leche de tigre."
+     ],
+     "labels": [
+      "",
+      "Camotes",
+      "Choclo",
+      "",
+      "",
+      "",
+      "Marinado",
+      "",
+      ""
+     ],
+     "tips": [
+      "Marina solo 2 minutos: la lima cocina rápido el pescado y, si esperas, se pone gomoso.",
+      "Si encuentras ají limo o rocoto en una tienda latina, el picante será el auténtico.",
+      "Acompáñalo con un pisco sour bien frío, como en las cebicherías de Lima."
+     ]
+    },
+    "de": {
+     "title": "Peruanisches Ceviche",
+     "intro": "Roher Fisch, kurz in Limette mariniert, mit roter Zwiebel, Süßkartoffel und Mais.",
+     "ing": [
+      "sehr frischer weißer Fisch (Wolfsbarsch, Dorade)",
+      "Limetten",
+      "rote Zwiebel",
+      "frische Chilischote",
+      "Knoblauchzehe",
+      "frischer Koriander",
+      "Süßkartoffeln",
+      "Maiskolben",
+      "Eiswürfel",
+      "Salz"
+     ],
+     "steps": [
+      "Der Fisch muss sehr frisch und schockgefrostet sein: Zu Hause mind. 96 Stunden bei -18 °C einfrieren, im Kühlschrank auftauen.",
+      "Koch die Süßkartoffeln ungeschält in Salzwasser, bis ein Messer ohne Widerstand hineingleitet.",
+      "Koch inzwischen die Maiskolben in kochendem Wasser (vorgegarte 3 Minuten) und schneid sie in dicke Scheiben.",
+      "Schneid die rote Zwiebel in hauchdünne Streifen und leg sie in Eiswasser: So verliert sie die Schärfe und bleibt knackig.",
+      "Schneid den Fisch in 2-cm-Würfel, gib ihn in eine kalte Schüssel in den Kühlschrank. Entkern die Chili und hack sie fein.",
+      "Press die Limetten von Hand aus, ohne zu fest zu drücken, und sieb den Saft ab.",
+      "Salz den Fisch, gib geriebenen Knoblauch und Chili dazu, bedeck ihn mit Limettensaft und 2 Eiswürfeln, sanft rühren.",
+      "Nimm das Eis heraus, gib die abgetropfte Zwiebel und gehackten Koriander dazu, abschmecken: außen weiß, innen roh.",
+      "Schäl die Süßkartoffeln, schneid sie in Scheiben und servier das Ceviche sofort damit und mit Mais, mit Leche de Tigre übergossen."
+     ],
+     "labels": [
+      "",
+      "Süßkartoffeln",
+      "Mais",
+      "",
+      "",
+      "",
+      "Marinieren",
+      "",
+      ""
+     ],
+     "tips": [
+      "Nur 2 Minuten marinieren: Limette gart den Fisch schnell, wartest du länger, wird er gummiartig.",
+      "Mit Ají Limo oder Rocoto aus dem Latino-Laden statt Chili schmeckt es wirklich peruanisch.",
+      "Dazu ein eiskalter Pisco Sour, wie in den Cevicherías von Lima."
+     ]
+    }
+   }
+  },
+  {
+   "id": "lomo-saltado",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 2,
+   "kcal": 780,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "methods": [
+    "fry",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "beef-sirloin"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "red-wine-vinegar"
+    },
+    {
+     "q": 700,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 800,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "long-grain-rice"
+    },
+    {
+     "q": 450,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1080,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 480,
+     "alt": {
+      "airfryer": {
+       "timer": 1200
+      }
+     }
+    },
+    {},
+    {},
+    {
+     "timer": 180
+    },
+    {
+     "timer": 90
+    },
+    {
+     "timer": 60
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "chicha-morada"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Lomo saltado, manzo saltato al wok",
+     "intro": "Manzo, cipolla e pomodoro saltati al wok con soia e aceto, con patatine e riso.",
+     "ing": [
+      "controfiletto di manzo",
+      "cipolle rosse",
+      "pomodori sodi",
+      "peperoncino fresco",
+      "spicchi d'aglio",
+      "cumino in polvere",
+      "salsa di soia",
+      "aceto di vino rosso",
+      "patate",
+      "olio di semi per friggere",
+      "olio di semi",
+      "riso a chicco lungo",
+      "acqua per il riso",
+      "coriandolo fresco",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Sciacqua il riso, mettilo in pentola con l'acqua, un pizzico di sale e un filo d'olio; cuoci coperto a fuoco minimo.",
+      "Intanto pela le patate, tagliale a bastoncini di 1 cm, sciacquale e asciugale benissimo.",
+      "Friggi le patate nell'olio a 170 °C, in due volte, finché sono dorate; scolale su carta e salale.",
+      "Taglia la carne a listarelle di 1 x 5 cm e condiscila con sale, pepe, cumino e l'aglio tritato.",
+      "Taglia le cipolle a spicchi spessi, i pomodori a spicchi senza semi e il peperoncino a listarelle.",
+      "Scalda il wok al massimo con 2 cucchiai d'olio e salta la carne in due volte finché è rosolata fuori; tienila da parte.",
+      "Nel wok aggiungi l'olio rimasto, salta cipolla e peperoncino 1 minuto, poi i pomodori per 30 secondi.",
+      "Rimetti la carne, versa aceto e salsa di soia lungo i bordi caldi e salta 1 minuto: deve restare un fondo sugoso.",
+      "Spegni, unisci le patatine e il coriandolo tritato, mescola una volta e servi subito con il riso."
+     ],
+     "labels": [
+      "Riso",
+      "",
+      "Patatine",
+      "",
+      "",
+      "Carne",
+      "Verdure",
+      "Salsa",
+      ""
+     ],
+     "tips": [
+      "Wok rovente e carne in due volte: se lo riempi troppo la carne bolle invece di rosolare.",
+      "Con 1 cucchiaio di pasta di ají amarillo dei negozi latini al posto del peperoncino è più fruttato.",
+      "In Perù si beve con una chicha morada fresca o una birra chiara."
+     ],
+     "alt": {
+      "2": {
+       "airfryer": "Condisci le patate con 1 cucchiaio d'olio e cuocile in friggitrice ad aria a 200 °C per 20 minuti, scuotendo."
+      }
+     }
+    },
+    "en": {
+     "title": "Lomo saltado, Peruvian beef stir-fry",
+     "intro": "Beef, onion and tomato tossed in a wok with soy and vinegar, with fries and rice.",
+     "ing": [
+      "beef sirloin",
+      "red onions",
+      "firm tomatoes",
+      "fresh chili",
+      "garlic cloves",
+      "ground cumin",
+      "soy sauce",
+      "red wine vinegar",
+      "potatoes",
+      "oil for frying",
+      "vegetable oil",
+      "long-grain rice",
+      "water for the rice",
+      "fresh cilantro",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Rinse the rice, put it in a pot with the water, a pinch of salt and a drizzle of oil; cook covered on the lowest heat.",
+      "Meanwhile peel the potatoes, cut into 1 cm batons, rinse and dry them very well.",
+      "Fry the potatoes in the oil at 170 °C in two batches until golden; drain on paper and salt them.",
+      "Cut the beef into 1 x 5 cm strips and season with salt, pepper, cumin and the chopped garlic.",
+      "Cut the onions into thick wedges, the tomatoes into seeded wedges and the chili into strips.",
+      "Heat the wok until smoking with 2 tbsp oil and sear the beef in two batches until browned outside; set aside.",
+      "Add the remaining oil to the wok, toss the onion and chili for 1 minute, then the tomatoes for 30 seconds.",
+      "Return the beef, pour the vinegar and soy sauce down the hot sides and toss for 1 minute: there should be some juice.",
+      "Turn off the heat, add the fries and chopped cilantro, toss once and serve at once with the rice."
+     ],
+     "labels": [
+      "Rice",
+      "",
+      "Fries",
+      "",
+      "",
+      "Beef",
+      "Vegetables",
+      "Sauce",
+      ""
+     ],
+     "tips": [
+      "Smoking-hot wok and beef in two batches: crowd it and the meat stews instead of searing.",
+      "Swap the chili for 1 tbsp ají amarillo paste from a Latin shop for a fruitier flavor.",
+      "In Peru it's washed down with cold chicha morada or a light beer."
+     ],
+     "alt": {
+      "2": {
+       "airfryer": "Toss the potatoes with 1 tbsp oil and air-fry at 200 °C for 20 minutes, shaking the basket now and then."
+      }
+     }
+    },
+    "fr": {
+     "title": "Lomo saltado, bœuf sauté péruvien",
+     "intro": "Bœuf, oignon et tomate sautés au wok, soja et vinaigre, avec frites et riz.",
+     "ing": [
+      "faux-filet de bœuf",
+      "oignons rouges",
+      "tomates fermes",
+      "piment frais",
+      "gousses d'ail",
+      "cumin moulu",
+      "sauce soja",
+      "vinaigre de vin rouge",
+      "pommes de terre",
+      "huile de friture",
+      "huile neutre",
+      "riz long",
+      "eau pour le riz",
+      "coriandre fraîche",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Rince le riz, mets-le dans une casserole avec l'eau, une pincée de sel et un filet d'huile ; cuis à couvert à feu très doux.",
+      "Pendant ce temps, épluche les pommes de terre, coupe-les en bâtonnets de 1 cm, rince-les et sèche-les bien.",
+      "Fais frire les pommes de terre à 170 °C en deux fois jusqu'à ce qu'elles soient dorées ; égoutte et sale.",
+      "Coupe la viande en lanières de 1 x 5 cm et assaisonne-la de sel, poivre, cumin et ail haché.",
+      "Coupe les oignons en gros quartiers, les tomates épépinées en quartiers et le piment en lanières.",
+      "Chauffe le wok à fond avec 2 c. à s. d'huile et saisis la viande en deux fois jusqu'à ce qu'elle dore ; réserve.",
+      "Ajoute le reste d'huile dans le wok, saute l'oignon et le piment 1 minute, puis les tomates 30 secondes.",
+      "Remets la viande, verse vinaigre et sauce soja sur les bords chauds et saute 1 minute : il doit rester du jus.",
+      "Éteins, ajoute les frites et la coriandre hachée, mélange une fois et sers aussitôt avec le riz."
+     ],
+     "labels": [
+      "Riz",
+      "",
+      "Frites",
+      "",
+      "",
+      "Viande",
+      "Légumes",
+      "Sauce",
+      ""
+     ],
+     "tips": [
+      "Wok fumant et viande en deux fois : trop chargé, il fait bouillir la viande au lieu de la saisir.",
+      "Remplace le piment par 1 c. à s. de pâte d'ají amarillo des épiceries latines : c'est plus fruité.",
+      "Au Pérou, on le boit avec une chicha morada fraîche ou une bière blonde."
+     ],
+     "alt": {
+      "2": {
+       "airfryer": "Mélange les pommes de terre avec 1 c. à s. d'huile et cuis-les à la friteuse à air à 200 °C 20 minutes, en secouant."
+      }
+     }
+    },
+    "es": {
+     "title": "Lomo saltado",
+     "intro": "Carne, cebolla y tomate salteados al wok con sillao y vinagre, con papas fritas y arroz.",
+     "ing": [
+      "lomo fino de res",
+      "cebollas moradas",
+      "tomates firmes",
+      "ají fresco",
+      "dientes de ajo",
+      "comino molido",
+      "sillao (salsa de soja)",
+      "vinagre de vino tinto",
+      "papas",
+      "aceite para freír",
+      "aceite vegetal",
+      "arroz de grano largo",
+      "agua para el arroz",
+      "culantro fresco",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Lava el arroz y ponlo en una olla con el agua, una pizca de sal y un chorrito de aceite; cuécelo tapado a fuego mínimo.",
+      "Mientras, pela las papas, córtalas en bastones de 1 cm, lávalas y sécalas muy bien.",
+      "Fríe las papas en el aceite a 170 °C, en dos tandas, hasta que estén doradas; escúrrelas en papel y sálalas.",
+      "Corta la carne en tiras de 1 x 5 cm y sazónala con sal, pimienta, comino y el ajo picado.",
+      "Corta las cebollas en gajos gruesos, los tomates en gajos sin pepitas y el ají en tiras.",
+      "Calienta el wok al máximo con 2 cucharadas de aceite y saltea la carne en dos tandas hasta que se dore; resérvala.",
+      "Añade el resto del aceite al wok, saltea la cebolla y el ají 1 minuto y luego el tomate 30 segundos.",
+      "Vuelve a poner la carne, echa el vinagre y el sillao por los bordes calientes y saltea 1 minuto: debe quedar jugoso.",
+      "Apaga, añade las papas fritas y el culantro picado, mezcla una vez y sirve enseguida con el arroz."
+     ],
+     "labels": [
+      "Arroz",
+      "",
+      "Papas fritas",
+      "",
+      "",
+      "Carne",
+      "Verduras",
+      "Salsa",
+      ""
+     ],
+     "tips": [
+      "Wok humeante y carne en dos tandas: si lo llenas, la carne se cuece en vez de dorarse.",
+      "Si tienes ají amarillo, usa una tira fresca o 1 cucharada de pasta: queda más frutado.",
+      "En Perú va con una chicha morada fresca o una cerveza bien helada."
+     ],
+     "alt": {
+      "2": {
+       "airfryer": "Mezcla las papas con 1 cucharada de aceite y hazlas en la freidora de aire a 200 °C 20 minutos, sacudiendo."
+      }
+     }
+    },
+    "de": {
+     "title": "Lomo saltado, Rind aus dem Wok",
+     "intro": "Rind, Zwiebel und Tomate im Wok mit Soja und Essig, dazu Pommes und Reis.",
+     "ing": [
+      "Rinderlende",
+      "rote Zwiebeln",
+      "feste Tomaten",
+      "frische Chilischote",
+      "Knoblauchzehen",
+      "gemahlener Kreuzkümmel",
+      "Sojasauce",
+      "Rotweinessig",
+      "Kartoffeln",
+      "Öl zum Frittieren",
+      "neutrales Öl",
+      "Langkornreis",
+      "Wasser für den Reis",
+      "frischer Koriander",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Wasch den Reis, gib ihn mit dem Wasser, einer Prise Salz und etwas Öl in einen Topf; zugedeckt auf kleinster Stufe garen.",
+      "Schäl inzwischen die Kartoffeln, schneid sie in 1 cm dicke Stifte, wasch sie und trockne sie gründlich.",
+      "Frittier die Kartoffeln bei 170 °C in zwei Portionen goldbraun; auf Küchenpapier abtropfen lassen und salzen.",
+      "Schneid das Fleisch in 1 x 5 cm große Streifen und würz es mit Salz, Pfeffer, Kreuzkümmel und gehacktem Knoblauch.",
+      "Schneid die Zwiebeln in dicke Spalten, die Tomaten entkernt in Spalten und die Chili in Streifen.",
+      "Erhitz den Wok mit 2 EL Öl stark und brate das Fleisch in zwei Portionen scharf an, bis es braun ist; beiseitestellen.",
+      "Gib das restliche Öl in den Wok, brat Zwiebel und Chili 1 Minute, dann die Tomaten 30 Sekunden.",
+      "Gib das Fleisch zurück, gieß Essig und Sojasauce am heißen Rand entlang und schwenk 1 Minute: Es soll saftig bleiben.",
+      "Herd aus, Pommes und gehackten Koriander unterheben und sofort mit dem Reis servieren."
+     ],
+     "labels": [
+      "Reis",
+      "",
+      "Pommes",
+      "",
+      "",
+      "Fleisch",
+      "Gemüse",
+      "Sauce",
+      ""
+     ],
+     "tips": [
+      "Rauchend heißer Wok, Fleisch in zwei Portionen: Ist er zu voll, kocht das Fleisch statt zu bräunen.",
+      "Statt Chili 1 EL Ají-Amarillo-Paste aus dem Latino-Laden: Das schmeckt fruchtiger.",
+      "In Peru trinkt man dazu kalte Chicha morada oder ein helles Bier."
+     ],
+     "alt": {
+      "2": {
+       "airfryer": "Misch die Kartoffeln mit 1 EL Öl und gare sie in der Heißluftfritteuse bei 200 °C 20 Minuten, ab und zu schütteln."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "aji-de-gallina",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 80,
+   "diff": 2,
+   "kcal": 640,
+   "diet": [],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "chicken-breast"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 1000,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "yellow-bell-peppers"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-turmeric"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "bread"
+    },
+    {
+     "q": 170,
+     "u": "ml",
+     "k": "evaporated-milk"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "walnuts"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "parmigiano-reggiano"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 600,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "black-olives"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {
+     "timer": 1500,
+     "bg": true
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Ají de gallina, pollo in crema piccante",
+     "intro": "Pollo sfilacciato in una crema gialla di peperoncino, pane, noci e parmigiano.",
+     "ing": [
+      "petto di pollo",
+      "carota",
+      "acqua",
+      "cipolle",
+      "spicchi d'aglio",
+      "peperone giallo",
+      "peperoncino fresco",
+      "curcuma in polvere",
+      "cumino in polvere",
+      "fette di pane in cassetta",
+      "latte evaporato",
+      "gherigli di noce",
+      "parmigiano grattugiato",
+      "olio di semi",
+      "patate",
+      "uova",
+      "olive nere",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Metti pollo e carota nell'acqua fredda salata, porta a bollore e cuoci a fuoco basso finché il pollo è cotto. Tieni il brodo.",
+      "Intanto lessa le patate con la buccia in un'altra pentola; negli ultimi 9 minuti aggiungi le uova.",
+      "Ammolla il pane senza crosta nel latte evaporato e frullalo con le noci fino a una crema liscia.",
+      "Frulla a parte peperone e peperoncino senza semi con 50 ml di brodo, fino a una purea gialla.",
+      "Scola il pollo, lascialo intiepidire e sfilaccialo a mano in fili sottili.",
+      "In una casseruola cuoci le cipolle tritate fini nell'olio a fuoco basso, finché sono morbide e dorate.",
+      "Aggiungi aglio tritato, purea di peperone, curcuma e cumino e cuoci mescolando finché si addensa.",
+      "Unisci la crema di pane e 250 ml di brodo e cuoci a fuoco basso, mescolando spesso, finché è densa e vellutata.",
+      "Aggiungi pollo e parmigiano e scalda 5 minuti; se è troppo densa allunga col brodo. Regola di sale e pepe.",
+      "Servi sulle patate pelate a fette, con mezzo uovo sodo e qualche oliva nera."
+     ],
+     "labels": [
+      "Pollo",
+      "Patate",
+      "",
+      "",
+      "",
+      "Soffritto",
+      "Purea",
+      "Crema",
+      "Pollo",
+      ""
+     ],
+     "tips": [
+      "Con 3 cucchiai di vera pasta di ají amarillo al posto di peperone, peperoncino e curcuma il colore è più acceso.",
+      "In Perù si serve anche con riso bianco accanto alle patate.",
+      "In frigo si tiene 2 giorni: raffreddando si rassoda, scaldalo con un goccio di brodo."
+     ]
+    },
+    "en": {
+     "title": "Ají de gallina, creamy chili chicken",
+     "intro": "Shredded chicken in a golden cream of chili, bread, walnuts and parmesan.",
+     "ing": [
+      "chicken breast",
+      "carrot",
+      "water",
+      "onions",
+      "garlic cloves",
+      "yellow bell pepper",
+      "fresh chili",
+      "ground turmeric",
+      "ground cumin",
+      "slices of sandwich bread",
+      "evaporated milk",
+      "walnuts",
+      "grated parmesan",
+      "vegetable oil",
+      "potatoes",
+      "eggs",
+      "black olives",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Put the chicken and carrot in the cold salted water, bring to a boil and simmer until cooked through. Keep the stock.",
+      "Meanwhile boil the potatoes in their skins in another pot; add the eggs for the last 9 minutes.",
+      "Soak the crustless bread in the evaporated milk and blend it with the walnuts to a smooth cream.",
+      "Separately blend the seeded pepper and chili with 50 ml of the stock to a yellow purée.",
+      "Lift out the chicken, let it cool slightly and shred it finely by hand.",
+      "In a saucepan cook the finely chopped onions in the oil over low heat until soft and golden.",
+      "Add the chopped garlic, pepper purée, turmeric and cumin and cook, stirring, until it thickens.",
+      "Stir in the bread cream and 250 ml of stock and cook on low, stirring often, until thick and velvety.",
+      "Add the chicken and parmesan and heat for 5 minutes, loosening with stock if too thick. Season with salt and pepper.",
+      "Serve over the peeled, sliced potatoes with half a hard-boiled egg and a few black olives."
+     ],
+     "labels": [
+      "Chicken",
+      "Potatoes",
+      "",
+      "",
+      "",
+      "Onions",
+      "Pepper",
+      "Sauce",
+      "Chicken",
+      ""
+     ],
+     "tips": [
+      "With 3 tbsp real ají amarillo paste instead of the pepper, chili and turmeric, the color is brighter.",
+      "In Peru it also comes with white rice alongside the potatoes.",
+      "It keeps 2 days in the fridge; it firms up as it cools, so reheat with a splash of stock."
+     ]
+    },
+    "fr": {
+     "title": "Ají de gallina, poulet crème de piment",
+     "intro": "Poulet effiloché dans une crème dorée de piment, pain, noix et parmesan.",
+     "ing": [
+      "blanc de poulet",
+      "carotte",
+      "eau",
+      "oignons",
+      "gousses d'ail",
+      "poivron jaune",
+      "piment frais",
+      "curcuma en poudre",
+      "cumin moulu",
+      "tranches de pain de mie",
+      "lait concentré non sucré",
+      "cerneaux de noix",
+      "parmesan râpé",
+      "huile neutre",
+      "pommes de terre",
+      "œufs",
+      "olives noires",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Mets le poulet et la carotte dans l'eau froide salée, porte à ébullition et laisse frémir jusqu'à cuisson. Garde le bouillon.",
+      "Pendant ce temps, cuis les pommes de terre avec la peau dans une autre casserole ; ajoute les œufs les 9 dernières minutes.",
+      "Fais tremper le pain sans croûte dans le lait concentré et mixe-le avec les noix jusqu'à obtenir une crème lisse.",
+      "Mixe à part le poivron et le piment épépinés avec 50 ml de bouillon, jusqu'à une purée jaune.",
+      "Égoutte le poulet, laisse-le tiédir et effiloche-le finement à la main.",
+      "Dans une sauteuse, fais fondre les oignons hachés fin dans l'huile à feu doux jusqu'à ce qu'ils soient dorés.",
+      "Ajoute l'ail haché, la purée de poivron, le curcuma et le cumin, et cuis en remuant jusqu'à ce que ça épaississe.",
+      "Incorpore la crème de pain et 250 ml de bouillon, cuis à feu doux en remuant souvent, jusqu'à ce que ce soit épais et velouté.",
+      "Ajoute le poulet et le parmesan, chauffe 5 minutes, détends avec du bouillon si c'est trop épais. Sale et poivre.",
+      "Sers sur les pommes de terre pelées en rondelles, avec un demi-œuf dur et quelques olives noires."
+     ],
+     "labels": [
+      "Poulet",
+      "Pommes de terre",
+      "",
+      "",
+      "",
+      "Oignons",
+      "Poivron",
+      "Crème",
+      "Poulet",
+      ""
+     ],
+     "tips": [
+      "Avec 3 c. à s. de vraie pâte d'ají amarillo à la place du poivron, du piment et du curcuma, la couleur est plus vive.",
+      "Au Pérou, on le sert aussi avec du riz blanc à côté des pommes de terre.",
+      "Il se garde 2 jours au frigo ; il épaissit en refroidissant, réchauffe-le avec un peu de bouillon."
+     ]
+    },
+    "es": {
+     "title": "Ají de gallina",
+     "intro": "Pollo deshilachado en una crema de ají con pan, nueces y parmesano.",
+     "ing": [
+      "pechuga de pollo",
+      "zanahoria",
+      "agua",
+      "cebollas",
+      "dientes de ajo",
+      "pimiento amarillo",
+      "ají fresco",
+      "cúrcuma molida",
+      "comino molido",
+      "rebanadas de pan de molde",
+      "leche evaporada",
+      "nueces",
+      "parmesano rallado",
+      "aceite vegetal",
+      "papas",
+      "huevos",
+      "aceitunas negras",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Pon el pollo y la zanahoria en el agua fría con sal, lleva a ebullición y cuece a fuego suave hasta que esté hecho. Guarda el caldo.",
+      "Mientras, cuece las papas con piel en otra olla; añade los huevos en los últimos 9 minutos.",
+      "Remoja el pan sin corteza en la leche evaporada y licúalo con las nueces hasta tener una crema lisa.",
+      "Licúa aparte el pimiento y el ají sin pepitas con 50 ml de caldo hasta tener un puré amarillo.",
+      "Saca el pollo, deja que se entibie y deshiláchalo fino con las manos.",
+      "En una cacerola sofríe las cebollas picadas finas en el aceite a fuego bajo hasta que estén tiernas y doradas.",
+      "Añade el ajo picado, el puré de pimiento, la cúrcuma y el comino y cocina removiendo hasta que espese.",
+      "Incorpora la crema de pan y 250 ml de caldo y cocina a fuego bajo, removiendo a menudo, hasta que quede espesa y sedosa.",
+      "Añade el pollo y el parmesano y calienta 5 minutos; si está muy espeso, aligera con caldo. Salpimienta.",
+      "Sirve sobre las papas peladas en rodajas, con medio huevo duro y unas aceitunas negras."
+     ],
+     "labels": [
+      "Pollo",
+      "Papas",
+      "",
+      "",
+      "",
+      "Aderezo",
+      "Ají",
+      "Crema",
+      "Pollo",
+      ""
+     ],
+     "tips": [
+      "Con 3 cucharadas de pasta de ají amarillo en lugar del pimiento, el ají y la cúrcuma, queda como en Lima.",
+      "En Perú se acompaña también con arroz blanco, además de las papas.",
+      "Aguanta 2 días en la nevera; al enfriarse espesa, así que caliéntalo con un chorrito de caldo."
+     ]
+    },
+    "de": {
+     "title": "Ají de gallina, Huhn in Chilicreme",
+     "intro": "Gezupftes Huhn in goldener Creme aus Chili, Brot, Walnüssen und Parmesan.",
+     "ing": [
+      "Hähnchenbrust",
+      "Karotte",
+      "Wasser",
+      "Zwiebeln",
+      "Knoblauchzehen",
+      "gelbe Paprikaschote",
+      "frische Chilischote",
+      "gemahlene Kurkuma",
+      "gemahlener Kreuzkümmel",
+      "Scheiben Toastbrot",
+      "ungesüßte Kondensmilch",
+      "Walnusskerne",
+      "geriebener Parmesan",
+      "neutrales Öl",
+      "Kartoffeln",
+      "Eier",
+      "schwarze Oliven",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Gib Hähnchen und Karotte in kaltes Salzwasser, aufkochen und sanft köcheln, bis es durchgegart ist. Brühe aufheben.",
+      "Koch inzwischen die Kartoffeln in der Schale in einem zweiten Topf; die Eier für die letzten 9 Minuten dazugeben.",
+      "Weich das entrindete Brot in der Kondensmilch ein und püriere es mit den Walnüssen zu einer glatten Creme.",
+      "Püriere separat Paprika und entkernte Chili mit 50 ml Brühe zu einem gelben Mus.",
+      "Nimm das Hähnchen heraus, lass es etwas abkühlen und zupf es mit den Händen fein.",
+      "Dünste die fein gehackten Zwiebeln in einem Topf im Öl bei kleiner Hitze weich und goldgelb.",
+      "Gib gehackten Knoblauch, Paprikamus, Kurkuma und Kreuzkümmel dazu und rühr, bis es eindickt.",
+      "Rühr die Brotcreme und 250 ml Brühe ein und lass alles bei kleiner Hitze unter Rühren dick und samtig werden.",
+      "Gib Hähnchen und Parmesan dazu, 5 Minuten erhitzen, bei Bedarf mit Brühe verdünnen. Mit Salz und Pfeffer abschmecken.",
+      "Servier es auf den geschälten Kartoffelscheiben mit einem halben harten Ei und ein paar schwarzen Oliven."
+     ],
+     "labels": [
+      "Hähnchen",
+      "Kartoffeln",
+      "",
+      "",
+      "",
+      "Zwiebeln",
+      "Paprika",
+      "Creme",
+      "Hähnchen",
+      ""
+     ],
+     "tips": [
+      "Mit 3 EL echter Ají-Amarillo-Paste statt Paprika, Chili und Kurkuma wird die Farbe kräftiger.",
+      "In Peru gibt es neben den Kartoffeln auch weißen Reis dazu.",
+      "Hält sich 2 Tage im Kühlschrank; es dickt beim Abkühlen ein, mit etwas Brühe aufwärmen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "causa-limena",
+   "cat": "antipasti",
+   "sub": "finger",
+   "servings": 4,
+   "minutes": 130,
+   "diff": 2,
+   "kcal": 520,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1000,
+     "u": "g",
+     "k": "floury-potatoes"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 0.25,
+     "u": "tsp",
+     "k": "ground-turmeric"
+    },
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 240,
+     "u": "g",
+     "k": "canned-tuna"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "mayonnaise",
+     "make": "maionese"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "avocados"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "black-olives"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {
+     "timer": 540
+    },
+    {},
+    {},
+    {
+     "timer": 900
+    },
+    {},
+    {},
+    {
+     "timer": 3600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Causa limeña, sformato freddo di patate",
+     "intro": "Purè al lime e peperoncino a strati con tonno, maionese e avocado, servito freddo.",
+     "ing": [
+      "patate a pasta gialla farinose",
+      "lime",
+      "peperoncino fresco",
+      "curcuma in polvere",
+      "olio di semi",
+      "tonno sott'olio sgocciolato",
+      "maionese",
+      "cipolla rossa",
+      "avocado maturi",
+      "uova",
+      "olive nere",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Lessa le patate intere con la buccia in acqua salata finché sono tenere ma non sfatte.",
+      "Intanto rassoda le uova: 9 minuti in acqua bollente, poi in acqua fredda.",
+      "Mescola il tonno con la cipolla tritata finissima, la maionese (anche pronta), sale e pepe.",
+      "Frulla il peperoncino senza semi con l'olio e la curcuma fino a un olio giallo e liscio.",
+      "Pela le patate ancora calde, passale allo schiacciapatate e lascia intiepidire il purè.",
+      "Impasta il purè a mano con il succo dei lime, l'olio al peperoncino e sale: deve essere liscio, acidulo e piccante.",
+      "In uno stampo foderato di pellicola stendi metà purè, poi avocado a fette salato, il tonno e il purè rimasto.",
+      "Pressa leggermente, copri e metti in frigo almeno 1 ora perché si compatti.",
+      "Sforma, taglia a porzioni con un coltello bagnato e decora con spicchi di uovo sodo e olive."
+     ],
+     "labels": [
+      "Patate",
+      "Uova",
+      "",
+      "",
+      "Raffreddare",
+      "",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Con 2 cucchiai di pasta di ají amarillo al posto di peperoncino e curcuma è giallo intenso, come a Lima.",
+      "Causa de pollo: al posto del tonno usa 300 g di petto di pollo lessato e sfilacciato.",
+      "Schiaccia con lo schiacciapatate e impasta a mano: il frullatore rende il purè colloso."
+     ]
+    },
+    "en": {
+     "title": "Causa limeña, layered potato terrine",
+     "intro": "Lime and chili potato layered with tuna mayo and avocado, served cold.",
+     "ing": [
+      "floury yellow potatoes",
+      "limes",
+      "fresh chili",
+      "ground turmeric",
+      "vegetable oil",
+      "drained canned tuna",
+      "mayonnaise",
+      "red onion",
+      "ripe avocados",
+      "eggs",
+      "black olives",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Boil the whole potatoes in their skins in salted water until tender but not falling apart.",
+      "Meanwhile hard-boil the eggs: 9 minutes in boiling water, then into cold water.",
+      "Mix the tuna with the very finely chopped onion, the mayonnaise (store-bought is fine), salt and pepper.",
+      "Blend the seeded chili with the oil and turmeric until smooth and yellow.",
+      "Peel the potatoes while still hot, press them through a ricer and let the mash cool.",
+      "Knead the mash by hand with the lime juice, chili oil and salt: it should be smooth, tangy and spicy.",
+      "In a film-lined mold, spread half the mash, then salted avocado slices, the tuna and the remaining mash.",
+      "Press lightly, cover and chill for at least 1 hour so it sets.",
+      "Unmold, cut into portions with a wet knife and top with egg wedges and olives."
+     ],
+     "labels": [
+      "Potatoes",
+      "Eggs",
+      "",
+      "",
+      "Cool",
+      "",
+      "",
+      "Chill",
+      ""
+     ],
+     "tips": [
+      "Use 2 tbsp ají amarillo paste instead of the chili and turmeric for Lima's deep yellow.",
+      "For causa de pollo, use 300 g poached, shredded chicken breast instead of tuna.",
+      "Use a ricer and your hands: a blender turns the potato gluey."
+     ]
+    },
+    "fr": {
+     "title": "Causa limeña, terrine de pommes de terre",
+     "intro": "Purée au citron vert et piment en couches avec thon, mayonnaise et avocat, servie froide.",
+     "ing": [
+      "pommes de terre farineuses",
+      "citrons verts",
+      "piment frais",
+      "curcuma en poudre",
+      "huile neutre",
+      "thon en boîte égoutté",
+      "mayonnaise",
+      "oignon rouge",
+      "avocats mûrs",
+      "œufs",
+      "olives noires",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Cuis les pommes de terre entières avec la peau dans l'eau salée, jusqu'à ce qu'elles soient tendres sans se défaire.",
+      "Pendant ce temps, fais durcir les œufs : 9 minutes dans l'eau bouillante, puis dans l'eau froide.",
+      "Mélange le thon avec l'oignon haché très fin, la mayonnaise (même toute prête), sel et poivre.",
+      "Mixe le piment épépiné avec l'huile et le curcuma jusqu'à obtenir une huile jaune et lisse.",
+      "Pèle les pommes de terre encore chaudes, passe-les au presse-purée et laisse tiédir.",
+      "Pétris la purée à la main avec le jus de citron vert, l'huile pimentée et le sel : lisse, acidulée et relevée.",
+      "Dans un moule chemisé de film, étale la moitié de la purée, puis l'avocat salé en tranches, le thon et le reste de purée.",
+      "Tasse légèrement, couvre et mets au frigo au moins 1 heure pour qu'elle se tienne.",
+      "Démoule, coupe en parts avec un couteau mouillé et décore de quartiers d'œuf dur et d'olives."
+     ],
+     "labels": [
+      "Pommes de terre",
+      "Œufs",
+      "",
+      "",
+      "Refroidir",
+      "",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Avec 2 c. à s. de pâte d'ají amarillo au lieu du piment et du curcuma, elle a le jaune vif de Lima.",
+      "Pour une causa de pollo, remplace le thon par 300 g de blanc de poulet poché et effiloché.",
+      "Presse-purée et mains seulement : au mixeur, la purée devient collante."
+     ]
+    },
+    "es": {
+     "title": "Causa limeña",
+     "intro": "Puré de papa con lima y ají, en capas con atún, mayonesa y palta, servido frío.",
+     "ing": [
+      "papas amarillas",
+      "limas",
+      "ají fresco",
+      "cúrcuma molida",
+      "aceite vegetal",
+      "atún en conserva escurrido",
+      "mayonesa",
+      "cebolla morada",
+      "paltas maduras",
+      "huevos",
+      "aceitunas negras",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Cuece las papas enteras con piel en agua con sal hasta que estén tiernas pero no deshechas.",
+      "Mientras, cuece los huevos: 9 minutos en agua hirviendo y luego a agua fría.",
+      "Mezcla el atún con la cebolla picada muy fina, la mayonesa (vale la comprada), sal y pimienta.",
+      "Licúa el ají sin pepitas con el aceite y la cúrcuma hasta tener un aceite amarillo y liso.",
+      "Pela las papas aún calientes, pásalas por el prensapapas y deja que el puré se entibie.",
+      "Amasa el puré a mano con el jugo de lima, el aceite de ají y sal: debe quedar liso, ácido y picante.",
+      "En un molde forrado con film, extiende la mitad del puré, luego palta en láminas con sal, el atún y el resto del puré.",
+      "Presiona un poco, tapa y refrigera al menos 1 hora para que se asiente.",
+      "Desmolda, corta en porciones con un cuchillo mojado y decora con gajos de huevo duro y aceitunas."
+     ],
+     "labels": [
+      "Papas",
+      "Huevos",
+      "",
+      "",
+      "Enfriar",
+      "",
+      "",
+      "Nevera",
+      ""
+     ],
+     "tips": [
+      "Lo clásico es pasta de ají amarillo: usa 2 cucharadas en lugar del ají fresco y la cúrcuma.",
+      "Para causa de pollo, cambia el atún por 300 g de pechuga cocida y deshilachada.",
+      "Usa prensapapas y las manos: la licuadora deja el puré chicloso."
+     ]
+    },
+    "de": {
+     "title": "Causa limeña, kalte Kartoffelterrine",
+     "intro": "Kartoffelpüree mit Limette und Chili, geschichtet mit Thunfisch-Mayo und Avocado, kalt.",
+     "ing": [
+      "mehligkochende Kartoffeln",
+      "Limetten",
+      "frische Chilischote",
+      "gemahlene Kurkuma",
+      "neutrales Öl",
+      "abgetropfter Dosenthunfisch",
+      "Mayonnaise",
+      "rote Zwiebel",
+      "reife Avocados",
+      "Eier",
+      "schwarze Oliven",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Koch die Kartoffeln ungeschält in Salzwasser weich, aber nicht zerfallen.",
+      "Koch inzwischen die Eier 9 Minuten hart und schreck sie in kaltem Wasser ab.",
+      "Misch den Thunfisch mit der sehr fein gehackten Zwiebel, Mayonnaise (gekaufte geht auch), Salz und Pfeffer.",
+      "Püriere die entkernte Chili mit Öl und Kurkuma zu einem glatten, gelben Öl.",
+      "Schäl die Kartoffeln noch heiß, drück sie durch die Presse und lass das Püree abkühlen.",
+      "Knete das Püree mit Limettensaft, Chiliöl und Salz von Hand: glatt, säuerlich und scharf soll es sein.",
+      "Streich in einer mit Folie ausgelegten Form die Hälfte des Pürees, dann gesalzene Avocadoscheiben, Thunfisch und restliches Püree.",
+      "Drück alles leicht an, deck es ab und stell es mindestens 1 Stunde kalt, damit es fest wird.",
+      "Stürz die Causa, schneid sie mit nassem Messer in Stücke und garnier sie mit Eivierteln und Oliven."
+     ],
+     "labels": [
+      "Kartoffeln",
+      "Eier",
+      "",
+      "",
+      "Abkühlen",
+      "",
+      "",
+      "Kühlen",
+      ""
+     ],
+     "tips": [
+      "Mit 2 EL Ají-Amarillo-Paste statt Chili und Kurkuma wird sie leuchtend gelb wie in Lima.",
+      "Für Causa de pollo statt Thunfisch 300 g gegarte, gezupfte Hähnchenbrust nehmen.",
+      "Nur Presse und Hände: Im Mixer wird das Püree klebrig."
+     ]
+    }
+   }
+  },
+  {
+   "id": "anticuchos",
+   "cat": "antipasti",
+   "sub": "finger",
+   "servings": 4,
+   "minutes": 175,
+   "diff": 2,
+   "kcal": 420,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "methods": [
+    "grill",
+    "bbq"
+   ],
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "beef-sirloin"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "smoked-paprika"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "chili-flakes"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "red-wine-vinegar"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "wooden-skewers"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 7200
+    },
+    {
+     "timer": 1500,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 300,
+     "alt": {
+      "bbq": {
+       "timer": 300
+      }
+     }
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "papa-a-la-huancaina"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Anticuchos, spiedini di manzo piccanti",
+     "intro": "Spiedini di manzo marinati in aceto, aglio e paprika, cotti alla brace come a Lima.",
+     "ing": [
+      "controfiletto di manzo",
+      "spicchi d'aglio",
+      "paprika dolce",
+      "paprika affumicata",
+      "peperoncino in fiocchi",
+      "cumino in polvere",
+      "origano secco",
+      "aceto di vino rosso",
+      "olio di semi",
+      "patate",
+      "spiedini di legno",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Metti gli spiedini a bagno in acqua. Taglia la carne a pezzi di 4 x 3 cm, spessi 1 cm.",
+      "Pesta l'aglio con un pizzico di sale, poi mescolalo con paprike, peperoncino, cumino, origano, aceto, 2 cucchiai d'olio e pepe.",
+      "Massaggia la carne con la marinata, copri e lasciala in frigo almeno 2 ore.",
+      "Lessa le patate con la buccia in acqua salata finché sono tenere.",
+      "Intanto infilza 3 o 4 pezzi di carne su ogni spiedino, ben stretti. Mescola la marinata rimasta con l'olio rimasto.",
+      "Scalda la piastra al massimo e cuoci gli spiedini 2-3 minuti per lato, spennellandoli con la marinata, finché sono bruniti.",
+      "Pela le patate, tagliale a fette spesse e dorale sulla piastra o sulla griglia con un po' di marinata.",
+      "Servi gli anticuchos ben caldi sopra le patate, ancora sugli spiedini."
+     ],
+     "labels": [
+      "",
+      "",
+      "Marinatura",
+      "Patate",
+      "",
+      "Griglia",
+      "Patate",
+      ""
+     ],
+     "tips": [
+      "Gli anticuchos veri sono di cuore di manzo: chiedilo al macellaio, pulito e senza nervi.",
+      "Con 3 cucchiai di pasta di ají panca dei negozi latini al posto delle paprike è più fruttato.",
+      "Accompagnali con la salsa huancaína e una pannocchia lessa."
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Cuocili sulla brace viva, vicinissimi al fuoco, 2-3 minuti per lato, spennellandoli con la marinata."
+      }
+     }
+    },
+    "en": {
+     "title": "Anticuchos, spicy beef skewers",
+     "intro": "Beef skewers marinated in vinegar, garlic and paprika, grilled as on Lima's streets.",
+     "ing": [
+      "beef sirloin",
+      "garlic cloves",
+      "sweet paprika",
+      "smoked paprika",
+      "chili flakes",
+      "ground cumin",
+      "dried oregano",
+      "red wine vinegar",
+      "vegetable oil",
+      "potatoes",
+      "wooden skewers",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Soak the skewers in water. Cut the beef into 4 x 3 cm pieces, 1 cm thick.",
+      "Crush the garlic with a pinch of salt, then mix with the paprikas, chili, cumin, oregano, vinegar, 2 tbsp oil and pepper.",
+      "Rub the marinade into the beef, cover and leave in the fridge for at least 2 hours.",
+      "Boil the potatoes in their skins in salted water until tender.",
+      "Meanwhile thread 3 or 4 pieces of beef tightly onto each skewer. Mix the leftover marinade with the remaining oil.",
+      "Heat the grill pan until very hot and cook the skewers 2-3 minutes per side, brushing with the marinade, until charred.",
+      "Peel the potatoes, slice them thickly and brown them on the grill with a little marinade.",
+      "Serve the anticuchos piping hot, still on their skewers, on top of the potatoes."
+     ],
+     "labels": [
+      "",
+      "",
+      "Marinate",
+      "Potatoes",
+      "",
+      "Grill",
+      "Potatoes",
+      ""
+     ],
+     "tips": [
+      "Real anticuchos are beef heart: ask your butcher for one, trimmed of sinew.",
+      "Use 3 tbsp ají panca paste from a Latin shop instead of the paprikas for a fruitier, smoky taste.",
+      "Serve with huancaína sauce and a boiled corn cob."
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Cook over glowing coals, close to the heat, 2-3 minutes per side, brushing with the marinade."
+      }
+     }
+    },
+    "fr": {
+     "title": "Anticuchos, brochettes de bœuf épicées",
+     "intro": "Brochettes de bœuf marinées vinaigre, ail et paprika, grillées comme à Lima.",
+     "ing": [
+      "faux-filet de bœuf",
+      "gousses d'ail",
+      "paprika doux",
+      "paprika fumé",
+      "piment en flocons",
+      "cumin moulu",
+      "origan séché",
+      "vinaigre de vin rouge",
+      "huile neutre",
+      "pommes de terre",
+      "brochettes en bois",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Fais tremper les brochettes dans l'eau. Coupe la viande en morceaux de 4 x 3 cm, épais de 1 cm.",
+      "Écrase l'ail avec une pincée de sel, mélange avec les paprikas, le piment, le cumin, l'origan, le vinaigre, 2 c. à s. d'huile et du poivre.",
+      "Masse la viande avec la marinade, couvre et laisse au frigo au moins 2 heures.",
+      "Cuis les pommes de terre avec la peau dans l'eau salée jusqu'à ce qu'elles soient tendres.",
+      "Pendant ce temps, enfile 3 ou 4 morceaux de viande bien serrés par brochette. Mélange le reste de marinade et d'huile.",
+      "Chauffe la plancha à fond et cuis les brochettes 2-3 minutes par face en les badigeonnant de marinade, jusqu'à ce qu'elles brunissent.",
+      "Pèle les pommes de terre, coupe-les en grosses rondelles et fais-les dorer sur le gril avec un peu de marinade.",
+      "Sers les anticuchos bien chauds, encore sur leurs brochettes, sur les pommes de terre."
+     ],
+     "labels": [
+      "",
+      "",
+      "Marinade",
+      "Pommes de terre",
+      "",
+      "Cuisson",
+      "Pommes de terre",
+      ""
+     ],
+     "tips": [
+      "Les vrais anticuchos sont au cœur de bœuf : demande-le paré à ton boucher.",
+      "Avec 3 c. à s. de pâte d'ají panca au lieu des paprikas, le goût est plus fruité et fumé.",
+      "Sers-les avec de la sauce huancaína et un épi de maïs cuit."
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Cuis-les sur les braises vives, tout près du feu, 2-3 minutes par face, en badigeonnant de marinade."
+      }
+     }
+    },
+    "es": {
+     "title": "Anticuchos",
+     "intro": "Brochetas de res marinadas en vinagre, ajo y pimentón, a la parrilla como en Lima.",
+     "ing": [
+      "lomo de res",
+      "dientes de ajo",
+      "pimentón dulce",
+      "pimentón ahumado",
+      "ají molido",
+      "comino molido",
+      "orégano seco",
+      "vinagre de vino tinto",
+      "aceite vegetal",
+      "papas",
+      "palitos de brocheta",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Pon los palitos en remojo. Corta la carne en trozos de 4 x 3 cm y 1 cm de grosor.",
+      "Machaca el ajo con una pizca de sal y mézclalo con los pimentones, ají molido, comino, orégano, vinagre, 2 cucharadas de aceite y pimienta.",
+      "Masajea la carne con el aliño, tapa y déjala en la nevera al menos 2 horas.",
+      "Cuece las papas con piel en agua con sal hasta que estén tiernas.",
+      "Mientras, ensarta 3 o 4 trozos de carne bien juntos en cada palito. Mezcla el aliño sobrante con el aceite restante.",
+      "Calienta la plancha al máximo y cocina los anticuchos 2-3 minutos por lado, pincelando con el aliño, hasta que se doren.",
+      "Pela las papas, córtalas en rodajas gruesas y dóralas en la plancha o la parrilla con un poco de aliño.",
+      "Sirve los anticuchos bien calientes, en su palito, sobre las papas."
+     ],
+     "labels": [
+      "",
+      "",
+      "Marinado",
+      "Papas",
+      "",
+      "Parrilla",
+      "Papas",
+      ""
+     ],
+     "tips": [
+      "Los auténticos son de corazón de res: pídelo limpio en la carnicería.",
+      "Lo suyo es ají panca: usa 3 cucharadas de pasta en lugar de los pimentones y el ají molido.",
+      "Acompáñalos con salsa huancaína y un choclo sancochado."
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Ásalos sobre brasa viva, muy cerca del fuego, 2-3 minutos por lado, pincelando con el aliño."
+      }
+     }
+    },
+    "de": {
+     "title": "Anticuchos, würzige Rinderspieße",
+     "intro": "Rinderspieße in Essig, Knoblauch und Paprika mariniert, gegrillt wie in Lima.",
+     "ing": [
+      "Rinderlende",
+      "Knoblauchzehen",
+      "edelsüßes Paprikapulver",
+      "geräuchertes Paprikapulver",
+      "Chiliflocken",
+      "gemahlener Kreuzkümmel",
+      "getrockneter Oregano",
+      "Rotweinessig",
+      "neutrales Öl",
+      "Kartoffeln",
+      "Holzspieße",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Leg die Spieße in Wasser. Schneid das Fleisch in 4 x 3 cm große, 1 cm dicke Stücke.",
+      "Zerdrück den Knoblauch mit etwas Salz und misch ihn mit Paprika, Chili, Kreuzkümmel, Oregano, Essig, 2 EL Öl und Pfeffer.",
+      "Massier die Marinade ins Fleisch, deck es ab und lass es mindestens 2 Stunden im Kühlschrank.",
+      "Koch die Kartoffeln ungeschält in Salzwasser weich.",
+      "Steck inzwischen 3 bis 4 Fleischstücke dicht auf jeden Spieß. Misch die übrige Marinade mit dem restlichen Öl.",
+      "Erhitz die Grillpfanne stark und brate die Spieße 2-3 Minuten pro Seite, dabei mit Marinade bestreichen, bis sie gebräunt sind.",
+      "Schäl die Kartoffeln, schneid sie in dicke Scheiben und brate sie mit etwas Marinade auf dem Grill braun.",
+      "Servier die Anticuchos heiß, noch auf den Spießen, auf den Kartoffeln."
+     ],
+     "labels": [
+      "",
+      "",
+      "Marinieren",
+      "Kartoffeln",
+      "",
+      "Grillen",
+      "Kartoffeln",
+      ""
+     ],
+     "tips": [
+      "Echte Anticuchos sind aus Rinderherz: beim Metzger sauber pariert bestellen.",
+      "Mit 3 EL Ají-Panca-Paste statt Paprika schmeckt es fruchtiger und rauchiger.",
+      "Dazu Huancaína-Sauce und ein gekochter Maiskolben."
+     ],
+     "alt": {
+      "5": {
+       "bbq": "Grill sie über glühender Kohle, nah an der Glut, 2-3 Minuten pro Seite, mit Marinade bestreichen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "papa-a-la-huancaina",
+   "cat": "antipasti",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 1,
+   "kcal": 420,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "yellow-bell-peppers"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 0.25,
+     "u": "tsp",
+     "k": "ground-turmeric"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "primo-sale"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "evaporated-milk"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "crackers"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "black-olives"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "lettuce"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {
+     "timer": 540
+    },
+    {
+     "timer": 480
+    },
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover",
+     "link": "anticuchos"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Papa a la huancaína, patate in salsa",
+     "intro": "Patate lesse sotto una salsa cremosa di formaggio fresco e peperoncino giallo.",
+     "ing": [
+      "patate",
+      "peperone giallo",
+      "peperoncino fresco",
+      "cipolla",
+      "spicchio d'aglio",
+      "curcuma in polvere",
+      "primo sale",
+      "latte evaporato",
+      "cracker salati",
+      "olio di semi",
+      "uova",
+      "olive nere",
+      "foglie di lattuga",
+      "sale"
+     ],
+     "steps": [
+      "Lessa le patate intere con la buccia in acqua salata finché sono tenere ma non sfatte.",
+      "Intanto rassoda le uova: 9 minuti in acqua bollente, poi in acqua fredda.",
+      "Taglia a pezzi peperone e peperoncino senza semi, cipolla e aglio e rosolali in 1 cucchiaio d'olio finché sono morbidi.",
+      "Frulla il soffritto con formaggio, latte evaporato, cracker, curcuma e l'olio rimasto fino a una crema liscia e densa.",
+      "Assaggia e regola di sale: se è troppo liquida aggiungi un cracker, se è troppo densa un goccio di latte.",
+      "Pela le patate tiepide e tagliale a fette spesse.",
+      "Disponi la lattuga nel piatto, sopra le patate, coprile di salsa e decora con mezze uova sode e olive."
+     ],
+     "labels": [
+      "Patate",
+      "Uova",
+      "Soffritto",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con 3 cucchiai di pasta di ají amarillo al posto di peperone, peperoncino e curcuma è quella di Huancayo.",
+      "Il queso fresco andino si trova nei negozi latini; il primo sale è il sostituto più vicino.",
+      "La salsa avanzata dura 2 giorni in frigo: usala con gli anticuchos o sulle uova sode."
+     ]
+    },
+    "en": {
+     "title": "Papa a la huancaína",
+     "intro": "Boiled potatoes under a creamy sauce of fresh cheese and yellow chili.",
+     "ing": [
+      "potatoes",
+      "yellow bell pepper",
+      "fresh chili",
+      "onion",
+      "garlic clove",
+      "ground turmeric",
+      "fresh mild cheese (primo sale)",
+      "evaporated milk",
+      "saltine crackers",
+      "vegetable oil",
+      "eggs",
+      "black olives",
+      "lettuce leaves",
+      "salt"
+     ],
+     "steps": [
+      "Boil the whole potatoes in their skins in salted water until tender but not falling apart.",
+      "Meanwhile hard-boil the eggs: 9 minutes in boiling water, then into cold water.",
+      "Roughly chop the seeded pepper and chili, the onion and garlic, and sauté in 1 tbsp oil until soft.",
+      "Blend with the cheese, evaporated milk, crackers, turmeric and remaining oil to a thick, smooth sauce.",
+      "Taste and add salt: if it's too runny add a cracker, if too thick a splash of milk.",
+      "Peel the warm potatoes and cut them into thick slices.",
+      "Line plates with lettuce, top with the potatoes, cover with sauce and garnish with egg halves and olives."
+     ],
+     "labels": [
+      "Potatoes",
+      "Eggs",
+      "Sauté",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "With 3 tbsp ají amarillo paste instead of the pepper, chili and turmeric, it's the real Huancayo sauce.",
+      "Andean queso fresco is sold in Latin shops; Italian primo sale is the closest swap.",
+      "Leftover sauce keeps 2 days in the fridge: great with anticuchos or boiled eggs."
+     ]
+    },
+    "fr": {
+     "title": "Papa a la huancaína, sauce au fromage",
+     "intro": "Pommes de terre sous une sauce crémeuse au fromage frais et piment jaune.",
+     "ing": [
+      "pommes de terre",
+      "poivron jaune",
+      "piment frais",
+      "oignon",
+      "gousse d'ail",
+      "curcuma en poudre",
+      "fromage frais doux (primo sale)",
+      "lait concentré non sucré",
+      "crackers salés",
+      "huile neutre",
+      "œufs",
+      "olives noires",
+      "feuilles de laitue",
+      "sel"
+     ],
+     "steps": [
+      "Cuis les pommes de terre entières avec la peau dans l'eau salée, jusqu'à ce qu'elles soient tendres sans se défaire.",
+      "Pendant ce temps, fais durcir les œufs : 9 minutes dans l'eau bouillante, puis dans l'eau froide.",
+      "Coupe en morceaux le poivron et le piment épépinés, l'oignon et l'ail, et fais-les revenir dans 1 c. à s. d'huile.",
+      "Mixe avec le fromage, le lait concentré, les crackers, le curcuma et le reste d'huile jusqu'à une crème lisse et épaisse.",
+      "Goûte et sale : trop liquide, ajoute un cracker ; trop épaisse, un trait de lait.",
+      "Pèle les pommes de terre tièdes et coupe-les en rondelles épaisses.",
+      "Dispose la laitue, puis les pommes de terre, nappe de sauce et décore de demi-œufs durs et d'olives."
+     ],
+     "labels": [
+      "Pommes de terre",
+      "Œufs",
+      "Revenir",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Avec 3 c. à s. de pâte d'ají amarillo au lieu du poivron, du piment et du curcuma, c'est la vraie.",
+      "Le queso fresco andin se trouve dans les épiceries latines ; le primo sale est le plus proche.",
+      "La sauce se garde 2 jours au frigo : parfaite avec des anticuchos ou des œufs durs."
+     ]
+    },
+    "es": {
+     "title": "Papa a la huancaína",
+     "intro": "Papas sancochadas bañadas en una crema de queso fresco y ají.",
+     "ing": [
+      "papas",
+      "pimiento amarillo",
+      "ají fresco",
+      "cebolla",
+      "diente de ajo",
+      "cúrcuma molida",
+      "queso fresco",
+      "leche evaporada",
+      "galletas de soda",
+      "aceite vegetal",
+      "huevos",
+      "aceitunas negras",
+      "hojas de lechuga",
+      "sal"
+     ],
+     "steps": [
+      "Cuece las papas enteras con piel en agua con sal hasta que estén tiernas pero no deshechas.",
+      "Mientras, cuece los huevos: 9 minutos en agua hirviendo y luego a agua fría.",
+      "Trocea el pimiento y el ají sin pepitas, la cebolla y el ajo, y sofríelos en 1 cucharada de aceite hasta que estén tiernos.",
+      "Licúa el sofrito con el queso, la leche evaporada, las galletas, la cúrcuma y el aceite restante hasta tener una crema espesa.",
+      "Prueba y sala: si está muy líquida añade una galleta; si está muy espesa, un chorrito de leche.",
+      "Pela las papas tibias y córtalas en rodajas gruesas.",
+      "Pon la lechuga en el plato, encima las papas, cúbrelas con la salsa y decora con medio huevo duro y aceitunas."
+     ],
+     "labels": [
+      "Papas",
+      "Huevos",
+      "Sofrito",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "La original lleva ají amarillo: 3 cucharadas de pasta en lugar del pimiento, el ají y la cúrcuma.",
+      "En Italia, el primo sale es lo más parecido al queso fresco andino.",
+      "La salsa sobrante aguanta 2 días en la nevera: va genial con anticuchos o huevos duros."
+     ]
+    },
+    "de": {
+     "title": "Papa a la huancaína mit Käsesauce",
+     "intro": "Gekochte Kartoffeln unter einer cremigen Sauce aus Frischkäse und gelber Chili.",
+     "ing": [
+      "Kartoffeln",
+      "gelbe Paprikaschote",
+      "frische Chilischote",
+      "Zwiebel",
+      "Knoblauchzehe",
+      "gemahlene Kurkuma",
+      "milder junger Käse (Primo Sale)",
+      "ungesüßte Kondensmilch",
+      "Salzcracker",
+      "neutrales Öl",
+      "Eier",
+      "schwarze Oliven",
+      "Salatblätter",
+      "Salz"
+     ],
+     "steps": [
+      "Koch die Kartoffeln ungeschält in Salzwasser weich, aber nicht zerfallen.",
+      "Koch inzwischen die Eier 9 Minuten hart und schreck sie in kaltem Wasser ab.",
+      "Schneid entkernte Paprika und Chili, Zwiebel und Knoblauch grob und dünste sie in 1 EL Öl weich.",
+      "Püriere alles mit Käse, Kondensmilch, Crackern, Kurkuma und dem übrigen Öl zu einer dicken, glatten Sauce.",
+      "Abschmecken und salzen: Zu flüssig? Noch ein Cracker. Zu dick? Ein Schuss Milch.",
+      "Schäl die lauwarmen Kartoffeln und schneid sie in dicke Scheiben.",
+      "Leg Salatblätter auf die Teller, darauf die Kartoffeln, mit Sauce überziehen und mit Eihälften und Oliven garnieren."
+     ],
+     "labels": [
+      "Kartoffeln",
+      "Eier",
+      "Anbraten",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mit 3 EL Ají-Amarillo-Paste statt Paprika, Chili und Kurkuma wird sie wie in Huancayo.",
+      "Andinen Queso fresco gibt es im Latino-Laden; Primo Sale kommt ihm am nächsten.",
+      "Übrige Sauce hält 2 Tage im Kühlschrank: super zu Anticuchos oder harten Eiern."
+     ]
+    }
+   }
+  },
+  {
+   "id": "solterito-arequipeno",
+   "cat": "contorni",
+   "sub": "insalate",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 300,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    4,
+    5,
+    6
+   ],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "broad-beans"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "corn-on-the-cob"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "primo-sale"
+    },
+    {
+     "q": 12,
+     "u": "",
+     "k": "black-olives"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "white-wine-vinegar"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 180
+    },
+    {
+     "timer": 600
+    },
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Solterito, insalata di fave e formaggio",
+     "intro": "L'insalata di Arequipa: fave, mais, pomodoro, formaggio fresco e olive.",
+     "ing": [
+      "fave fresche sgranate",
+      "pannocchie di mais",
+      "pomodori",
+      "cipolla rossa",
+      "peperoncino fresco",
+      "primo sale",
+      "olive nere",
+      "aceto di vino bianco",
+      "olio extravergine d'oliva",
+      "prezzemolo",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Sbollenta le fave in acqua salata, poi passale in acqua e ghiaccio e togli la pellicina.",
+      "Cuoci le pannocchie in acqua bollente (precotte: 3 minuti), lasciale raffreddare e sgrana i chicchi col coltello.",
+      "Affetta sottile la cipolla rossa, sciacquala in acqua fredda e scolala bene.",
+      "Taglia pomodori e formaggio a dadini di 1 cm; trita il peperoncino senza semi e il prezzemolo.",
+      "Emulsiona aceto, olio, sale e pepe in una ciotola grande.",
+      "Unisci fave, mais, cipolla, pomodori, formaggio, peperoncino, olive e prezzemolo; mescola piano e servi subito."
+     ],
+     "labels": [
+      "Fave",
+      "Mais",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Fuori stagione usa fave surgelate: sbollentale 4 minuti.",
+      "Con il rocoto dei negozi latini, rosso e carnoso, il piccante è quello di Arequipa."
+     ]
+    },
+    "en": {
+     "title": "Solterito, broad bean and cheese salad",
+     "intro": "Arequipa's salad of broad beans, corn, tomato, fresh cheese and olives.",
+     "ing": [
+      "shelled fresh broad beans",
+      "corn cobs",
+      "tomatoes",
+      "red onion",
+      "fresh chili",
+      "fresh mild cheese (primo sale)",
+      "black olives",
+      "white wine vinegar",
+      "extra virgin olive oil",
+      "parsley",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Blanch the broad beans in salted water, then plunge into iced water and slip off their skins.",
+      "Boil the corn cobs (pre-cooked: 3 minutes), let them cool and cut off the kernels with a knife.",
+      "Thinly slice the red onion, rinse it in cold water and drain well.",
+      "Dice the tomatoes and cheese into 1 cm cubes; finely chop the seeded chili and the parsley.",
+      "Whisk the vinegar, oil, salt and pepper in a large bowl.",
+      "Add the beans, corn, onion, tomatoes, cheese, chili, olives and parsley; toss gently and serve straight away."
+     ],
+     "labels": [
+      "Broad beans",
+      "Corn",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Out of season, use frozen broad beans: blanch them for 4 minutes.",
+      "With fleshy red rocoto from a Latin shop, the heat is just like Arequipa's."
+     ]
+    },
+    "fr": {
+     "title": "Solterito, salade de fèves et fromage",
+     "intro": "La salade d'Arequipa : fèves, maïs, tomate, fromage frais et olives.",
+     "ing": [
+      "fèves fraîches écossées",
+      "épis de maïs",
+      "tomates",
+      "oignon rouge",
+      "piment frais",
+      "fromage frais doux (primo sale)",
+      "olives noires",
+      "vinaigre de vin blanc",
+      "huile d'olive vierge extra",
+      "persil",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Blanchis les fèves dans l'eau salée, plonge-les dans l'eau glacée et retire leur peau.",
+      "Cuis les épis dans l'eau bouillante (précuits : 3 minutes), laisse refroidir et égrène-les au couteau.",
+      "Émince finement l'oignon rouge, rince-le à l'eau froide et égoutte-le bien.",
+      "Coupe les tomates et le fromage en dés de 1 cm ; hache le piment épépiné et le persil.",
+      "Émulsionne le vinaigre, l'huile, le sel et le poivre dans un grand saladier.",
+      "Ajoute fèves, maïs, oignon, tomates, fromage, piment, olives et persil ; mélange délicatement et sers aussitôt."
+     ],
+     "labels": [
+      "Fèves",
+      "Maïs",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Hors saison, prends des fèves surgelées : blanchis-les 4 minutes.",
+      "Avec le rocoto rouge et charnu des épiceries latines, le piquant est celui d'Arequipa."
+     ]
+    },
+    "es": {
+     "title": "Solterito arequipeño",
+     "intro": "La ensalada de Arequipa: habas, choclo, tomate, queso fresco y aceitunas.",
+     "ing": [
+      "habas frescas desgranadas",
+      "choclos",
+      "tomates",
+      "cebolla morada",
+      "ají fresco",
+      "queso fresco",
+      "aceitunas negras",
+      "vinagre de vino blanco",
+      "aceite de oliva virgen extra",
+      "perejil",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Escalda las habas en agua con sal, pásalas a agua con hielo y quítales la piel.",
+      "Cuece los choclos en agua hirviendo (precocidos: 3 minutos), deja enfriar y desgrana con un cuchillo.",
+      "Corta la cebolla morada en juliana fina, enjuágala con agua fría y escúrrela bien.",
+      "Corta los tomates y el queso en dados de 1 cm; pica el ají sin pepitas y el perejil.",
+      "Emulsiona el vinagre, el aceite, sal y pimienta en un bol grande.",
+      "Añade habas, choclo, cebolla, tomates, queso, ají, aceitunas y perejil; mezcla con suavidad y sirve enseguida."
+     ],
+     "labels": [
+      "Habas",
+      "Choclo",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Fuera de temporada, usa habas congeladas: escáldalas 4 minutos.",
+      "Con rocoto, si lo encuentras en una tienda latina, pica como en Arequipa."
+     ]
+    },
+    "de": {
+     "title": "Solterito, Salat aus dicken Bohnen",
+     "intro": "Der Salat aus Arequipa: dicke Bohnen, Mais, Tomate, Frischkäse und Oliven.",
+     "ing": [
+      "frische dicke Bohnen, ausgelöst",
+      "Maiskolben",
+      "Tomaten",
+      "rote Zwiebel",
+      "frische Chilischote",
+      "milder junger Käse (Primo Sale)",
+      "schwarze Oliven",
+      "Weißweinessig",
+      "natives Olivenöl extra",
+      "Petersilie",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Blanchier die Bohnen in Salzwasser, schreck sie in Eiswasser ab und drück sie aus der Haut.",
+      "Koch die Maiskolben (vorgegart: 3 Minuten), lass sie abkühlen und schneid die Körner ab.",
+      "Schneid die rote Zwiebel in feine Streifen, spül sie kalt ab und lass sie gut abtropfen.",
+      "Würfle Tomaten und Käse (1 cm); hack die entkernte Chili und die Petersilie fein.",
+      "Verquirl Essig, Öl, Salz und Pfeffer in einer großen Schüssel.",
+      "Gib Bohnen, Mais, Zwiebel, Tomaten, Käse, Chili, Oliven und Petersilie dazu, sanft mischen und gleich servieren."
+     ],
+     "labels": [
+      "Bohnen",
+      "Mais",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Außerhalb der Saison TK-Bohnen nehmen: 4 Minuten blanchieren.",
+      "Mit fleischigem rotem Rocoto aus dem Latino-Laden schmeckt es wie in Arequipa."
+     ]
+    }
+   }
+  },
+  {
+   "id": "tacu-tacu",
+   "cat": "primi",
+   "sub": "riso",
+   "servings": 4,
+   "minutes": 40,
+   "diff": 2,
+   "kcal": 430,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "cooked-rice"
+    },
+    {
+     "q": 480,
+     "u": "g",
+     "k": "canned-cannellini-beans"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 5,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 480
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 180
+    },
+    {},
+    {
+     "timer": 360
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tacu tacu, tortino di riso e fagioli",
+     "intro": "Riso e fagioli avanzati schiacciati e dorati in padella fino a fare la crosticina.",
+     "ing": [
+      "riso bianco cotto del giorno prima",
+      "fagioli cannellini lessati",
+      "cipolla",
+      "spicchi d'aglio",
+      "peperoncino fresco",
+      "origano secco",
+      "olio di semi",
+      "prezzemolo",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "In una padella antiaderente soffriggi cipolla, aglio e peperoncino tritati in 2 cucchiai d'olio finché sono morbidi.",
+      "Aggiungi i fagioli con 3 cucchiai della loro acqua e schiacciali grossolanamente con la forchetta.",
+      "Unisci riso, origano, sale e pepe e mescola schiacciando, finché l'impasto si compatta e si stacca dalla padella.",
+      "Togli dalla padella e dividi in 4 porzioni. Pulisci la padella e scalda 1 cucchiaio d'olio.",
+      "Metti una porzione, dalle con il cucchiaio una forma ovale a cuscino e dorala 3 minuti per lato, finché è croccante.",
+      "Ripeti con le altre porzioni, aggiungendo olio, e servi caldo con prezzemolo tritato."
+     ],
+     "labels": [
+      "Soffritto",
+      "Fagioli",
+      "Impasto",
+      "",
+      "Doratura",
+      ""
+     ],
+     "tips": [
+      "A Lima si serve con una bistecca e un uovo fritto sopra, o con salsa criolla di cipolla e lime.",
+      "Riso e fagioli freddi del giorno prima si compattano meglio e fanno una crosta più croccante.",
+      "Col frijol canario dei negozi latini e 1 cucchiaio di pasta di ají amarillo è quello originale."
+     ]
+    },
+    "en": {
+     "title": "Tacu tacu, rice and bean cake",
+     "intro": "Leftover rice and beans mashed and pan-fried until they form a crisp crust.",
+     "ing": [
+      "day-old cooked white rice",
+      "cooked cannellini beans",
+      "onion",
+      "garlic cloves",
+      "fresh chili",
+      "dried oregano",
+      "vegetable oil",
+      "parsley",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "In a nonstick pan, sauté the chopped onion, garlic and chili in 2 tbsp oil until soft.",
+      "Add the beans with 3 tbsp of their liquid and roughly mash them with a fork.",
+      "Add the rice, oregano, salt and pepper and keep mashing until the mixture holds together and leaves the pan.",
+      "Take it out and divide into 4 portions. Wipe the pan and heat 1 tbsp oil.",
+      "Add one portion, shape it into an oval pillow with a spoon and fry 3 minutes per side until crisp.",
+      "Repeat with the other portions, adding oil as needed, and serve hot with chopped parsley."
+     ],
+     "labels": [
+      "Sauté",
+      "Beans",
+      "Mix",
+      "",
+      "Crisp",
+      ""
+     ],
+     "tips": [
+      "In Lima it's topped with a steak and a fried egg, or with onion and lime salsa criolla.",
+      "Cold, day-old rice and beans bind better and give a crisper crust.",
+      "With canary beans and 1 tbsp ají amarillo paste from a Latin shop it's the original."
+     ]
+    },
+    "fr": {
+     "title": "Tacu tacu, galette de riz et haricots",
+     "intro": "Riz et haricots de la veille écrasés et dorés à la poêle jusqu'à former une croûte.",
+     "ing": [
+      "riz blanc cuit de la veille",
+      "haricots blancs cuits",
+      "oignon",
+      "gousses d'ail",
+      "piment frais",
+      "origan séché",
+      "huile neutre",
+      "persil",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Dans une poêle antiadhésive, fais revenir oignon, ail et piment hachés dans 2 c. à s. d'huile jusqu'à ce qu'ils soient tendres.",
+      "Ajoute les haricots avec 3 c. à s. de leur jus et écrase-les grossièrement à la fourchette.",
+      "Ajoute le riz, l'origan, sel et poivre, et écrase en mélangeant jusqu'à ce que la masse se tienne et se détache.",
+      "Retire et divise en 4 portions. Essuie la poêle et chauffe 1 c. à s. d'huile.",
+      "Mets une portion, façonne un coussin ovale à la cuillère et dore 3 minutes par face, jusqu'à ce qu'il croustille.",
+      "Répète avec les autres portions en ajoutant de l'huile, et sers chaud avec du persil haché."
+     ],
+     "labels": [
+      "Revenir",
+      "Haricots",
+      "Mélange",
+      "",
+      "Dorer",
+      ""
+     ],
+     "tips": [
+      "À Lima, on le sert avec un steak et un œuf au plat, ou une salsa criolla d'oignon et citron vert.",
+      "Riz et haricots froids de la veille se tiennent mieux et donnent une croûte plus croustillante.",
+      "Avec des haricots canario et 1 c. à s. de pâte d'ají amarillo des épiceries latines, c'est l'original."
+     ]
+    },
+    "es": {
+     "title": "Tacu tacu",
+     "intro": "Arroz y frijoles del día anterior aplastados y dorados en sartén hasta hacer costra.",
+     "ing": [
+      "arroz blanco cocido del día anterior",
+      "frijoles blancos cocidos",
+      "cebolla",
+      "dientes de ajo",
+      "ají fresco",
+      "orégano seco",
+      "aceite vegetal",
+      "perejil",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "En una sartén antiadherente sofríe la cebolla, el ajo y el ají picados en 2 cucharadas de aceite hasta que estén tiernos.",
+      "Añade los frijoles con 3 cucharadas de su caldo y aplástalos un poco con un tenedor.",
+      "Añade el arroz, orégano, sal y pimienta y mezcla aplastando hasta que la masa se compacte y se despegue.",
+      "Saca la mezcla y divídela en 4 porciones. Limpia la sartén y calienta 1 cucharada de aceite.",
+      "Pon una porción, dale forma de almohada ovalada con la cuchara y dórala 3 minutos por lado hasta que esté crujiente.",
+      "Repite con las demás porciones, añadiendo aceite, y sirve caliente con perejil picado."
+     ],
+     "labels": [
+      "Aderezo",
+      "Frijoles",
+      "Mezcla",
+      "",
+      "Dorado",
+      ""
+     ],
+     "tips": [
+      "En Lima va con bistec y huevo frito encima, o con salsa criolla de cebolla y limón.",
+      "Arroz y frijoles fríos del día anterior se compactan mejor y hacen más costra.",
+      "Lo clásico: frijol canario y 1 cucharada de pasta de ají amarillo en el aderezo."
+     ]
+    },
+    "de": {
+     "title": "Tacu Tacu, Reis-Bohnen-Taler",
+     "intro": "Reis und Bohnen vom Vortag, zerdrückt und in der Pfanne knusprig gebraten.",
+     "ing": [
+      "gekochter weißer Reis vom Vortag",
+      "gekochte weiße Bohnen",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "frische Chilischote",
+      "getrockneter Oregano",
+      "neutrales Öl",
+      "Petersilie",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Dünste Zwiebel, Knoblauch und Chili, gehackt, in einer beschichteten Pfanne in 2 EL Öl weich.",
+      "Gib die Bohnen mit 3 EL ihrer Flüssigkeit dazu und zerdrück sie grob mit der Gabel.",
+      "Gib Reis, Oregano, Salz und Pfeffer dazu und drück alles, bis die Masse zusammenhält und sich vom Pfannenboden löst.",
+      "Nimm die Masse heraus und teil sie in 4 Portionen. Wisch die Pfanne aus und erhitz 1 EL Öl.",
+      "Gib eine Portion hinein, form mit dem Löffel ein ovales Kissen und brat es 3 Minuten pro Seite knusprig.",
+      "Wiederhol das mit den übrigen Portionen, bei Bedarf mit Öl, und servier heiß mit gehackter Petersilie."
+     ],
+     "labels": [
+      "Anbraten",
+      "Bohnen",
+      "Masse",
+      "",
+      "Bräunen",
+      ""
+     ],
+     "tips": [
+      "In Lima kommen ein Steak und ein Spiegelei darauf, oder Salsa criolla aus Zwiebel und Limette.",
+      "Kalter Reis und Bohnen vom Vortag halten besser zusammen und werden knuspriger.",
+      "Mit Canario-Bohnen und 1 EL Ají-Amarillo-Paste aus dem Latino-Laden wird es original."
+     ]
+    }
+   }
+  },
+  {
+   "id": "arroz-chaufa",
+   "cat": "primi",
+   "sub": "riso",
+   "servings": 4,
+   "minutes": 30,
+   "diff": 1,
+   "kcal": 560,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "cooked-rice"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "chicken-thighs"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "oyster-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "toasted-sesame-oil"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 90
+    },
+    {
+     "timer": 360
+    },
+    {},
+    {
+     "timer": 240
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "chicha-morada"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Arroz chaufa, riso saltato peruviano",
+     "intro": "Il riso saltato delle chifa di Lima: pollo, uovo, cipollotto, zenzero e soia.",
+     "ing": [
+      "riso bianco cotto del giorno prima",
+      "cosce di pollo disossate",
+      "uova",
+      "cipollotti",
+      "zenzero fresco",
+      "spicchi d'aglio",
+      "salsa di soia",
+      "salsa d'ostriche",
+      "olio di sesamo tostato",
+      "olio di semi",
+      "sale"
+     ],
+     "steps": [
+      "Taglia il pollo a dadini di 1,5 cm e condiscilo con 1 cucchiaio di soia e un pizzico di sale.",
+      "Trita aglio e zenzero; trita il bianco dei cipollotti e taglia il verde a rondelle.",
+      "Sbatti le uova con un pizzico di sale e cuocile nel wok con 1 cucchiaio d'olio come una frittatina sottile; arrotolala e tagliala a strisce.",
+      "Scalda il wok al massimo con 2 cucchiai d'olio e salta il pollo finché è dorato e cotto all'interno.",
+      "Aggiungi l'olio rimasto, aglio, zenzero e bianco dei cipollotti e salta 30 secondi.",
+      "Unisci il riso sgranato e saltalo a fuoco vivo, mescolando di continuo, finché i chicchi sono caldi e un po' tostati.",
+      "Versa la soia rimasta e la salsa d'ostriche lungo i bordi caldi, aggiungi l'olio di sesamo e salta ancora.",
+      "Unisci le strisce di frittata e il verde dei cipollotti, mescola e servi subito."
+     ],
+     "labels": [
+      "",
+      "",
+      "Frittatina",
+      "Pollo",
+      "",
+      "Riso",
+      "",
+      ""
+     ],
+     "tips": [
+      "Riso freddo del giorno prima e wok rovente: i chicchi restano sgranati e prendono il gusto di fumo.",
+      "Chaufa de mariscos: al posto del pollo usa 400 g di gamberi e calamari, saltati solo 2 minuti.",
+      "Servilo con chicha morada fresca, come nelle chifa."
+     ]
+    },
+    "en": {
+     "title": "Arroz chaufa, Peruvian fried rice",
+     "intro": "Fried rice from Lima's chifa restaurants: chicken, egg, spring onion, ginger and soy.",
+     "ing": [
+      "day-old cooked white rice",
+      "boneless chicken thighs",
+      "eggs",
+      "spring onions",
+      "fresh ginger",
+      "garlic cloves",
+      "soy sauce",
+      "oyster sauce",
+      "toasted sesame oil",
+      "vegetable oil",
+      "salt"
+     ],
+     "steps": [
+      "Cut the chicken into 1.5 cm dice and season with 1 tbsp soy sauce and a pinch of salt.",
+      "Chop the garlic and ginger; finely chop the spring onion whites and slice the greens.",
+      "Beat the eggs with a pinch of salt and cook in the wok with 1 tbsp oil as a thin omelette; roll it up and cut into strips.",
+      "Heat the wok until smoking with 2 tbsp oil and stir-fry the chicken until golden and cooked through.",
+      "Add the remaining oil, the garlic, ginger and spring onion whites and stir-fry for 30 seconds.",
+      "Add the rice, broken up, and toss over high heat, stirring constantly, until hot and lightly toasted.",
+      "Pour the remaining soy and oyster sauce down the hot sides, add the sesame oil and toss again.",
+      "Add the omelette strips and spring onion greens, toss and serve at once."
+     ],
+     "labels": [
+      "",
+      "",
+      "Omelette",
+      "Chicken",
+      "",
+      "Rice",
+      "",
+      ""
+     ],
+     "tips": [
+      "Cold day-old rice and a smoking wok keep the grains separate and give a smoky flavor.",
+      "For chaufa de mariscos, swap the chicken for 400 g prawns and squid, stir-fried just 2 minutes.",
+      "Serve with cold chicha morada, as in the chifas."
+     ]
+    },
+    "fr": {
+     "title": "Arroz chaufa, riz sauté péruvien",
+     "intro": "Le riz sauté des chifas de Lima : poulet, œuf, oignon nouveau, gingembre et soja.",
+     "ing": [
+      "riz blanc cuit de la veille",
+      "hauts de cuisse de poulet désossés",
+      "œufs",
+      "oignons nouveaux",
+      "gingembre frais",
+      "gousses d'ail",
+      "sauce soja",
+      "sauce d'huître",
+      "huile de sésame grillé",
+      "huile neutre",
+      "sel"
+     ],
+     "steps": [
+      "Coupe le poulet en dés de 1,5 cm et assaisonne-le avec 1 c. à s. de sauce soja et une pincée de sel.",
+      "Hache l'ail et le gingembre ; hache le blanc des oignons nouveaux et coupe le vert en rondelles.",
+      "Bats les œufs avec une pincée de sel et cuis-les au wok dans 1 c. à s. d'huile en omelette fine ; roule-la et coupe en lanières.",
+      "Chauffe le wok à fond avec 2 c. à s. d'huile et saute le poulet jusqu'à ce qu'il soit doré et bien cuit.",
+      "Ajoute le reste d'huile, l'ail, le gingembre et le blanc des oignons, et saute 30 secondes.",
+      "Ajoute le riz égrené et saute-le à feu vif sans cesser de remuer, jusqu'à ce qu'il soit chaud et un peu grillé.",
+      "Verse le reste de soja et la sauce d'huître sur les bords chauds, ajoute l'huile de sésame et saute encore.",
+      "Ajoute les lanières d'omelette et le vert des oignons, mélange et sers aussitôt."
+     ],
+     "labels": [
+      "",
+      "",
+      "Omelette",
+      "Poulet",
+      "",
+      "Riz",
+      "",
+      ""
+     ],
+     "tips": [
+      "Riz froid de la veille et wok fumant : les grains restent séparés et prennent un goût fumé.",
+      "Chaufa de mariscos : remplace le poulet par 400 g de crevettes et calmars, sautés 2 minutes.",
+      "Sers-le avec une chicha morada fraîche, comme dans les chifas."
+     ]
+    },
+    "es": {
+     "title": "Arroz chaufa de pollo",
+     "intro": "El chaufa de las chifas limeñas: pollo, huevo, cebolla china, kion y sillao.",
+     "ing": [
+      "arroz blanco cocido del día anterior",
+      "contramuslos de pollo deshuesados",
+      "huevos",
+      "cebollas chinas",
+      "kion (jengibre fresco)",
+      "dientes de ajo",
+      "sillao (salsa de soja)",
+      "salsa de ostión",
+      "aceite de sésamo tostado",
+      "aceite vegetal",
+      "sal"
+     ],
+     "steps": [
+      "Corta el pollo en dados de 1,5 cm y sazónalo con 1 cucharada de sillao y una pizca de sal.",
+      "Pica el ajo y el kion; pica la parte blanca de la cebolla china y corta la verde en rodajas.",
+      "Bate los huevos con una pizca de sal y cuájalos en el wok con 1 cucharada de aceite como tortilla fina; enróllala y córtala en tiras.",
+      "Calienta el wok al máximo con 2 cucharadas de aceite y saltea el pollo hasta que esté dorado y bien hecho.",
+      "Añade el aceite restante, el ajo, el kion y la parte blanca de la cebolla y saltea 30 segundos.",
+      "Añade el arroz bien suelto y saltéalo a fuego vivo, sin parar, hasta que esté caliente y un poco tostado.",
+      "Echa el resto del sillao y la salsa de ostión por los bordes calientes, añade el aceite de sésamo y saltea.",
+      "Incorpora las tiras de tortilla y la cebolla china verde, mezcla y sirve enseguida."
+     ],
+     "labels": [
+      "",
+      "",
+      "Tortilla",
+      "Pollo",
+      "",
+      "Arroz",
+      "",
+      ""
+     ],
+     "tips": [
+      "Arroz frío del día anterior y wok humeante: el grano queda suelto y con sabor a fuego.",
+      "Chaufa de mariscos: cambia el pollo por 400 g de langostinos y calamar, salteados 2 minutos.",
+      "Acompáñalo con una chicha morada bien fría."
+     ]
+    },
+    "de": {
+     "title": "Arroz chaufa, peruanischer Bratreis",
+     "intro": "Bratreis aus Limas Chifa-Lokalen: Huhn, Ei, Frühlingszwiebel, Ingwer und Soja.",
+     "ing": [
+      "gekochter weißer Reis vom Vortag",
+      "Hähnchenschenkel ohne Knochen",
+      "Eier",
+      "Frühlingszwiebeln",
+      "frischer Ingwer",
+      "Knoblauchzehen",
+      "Sojasauce",
+      "Austernsauce",
+      "geröstetes Sesamöl",
+      "neutrales Öl",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid das Hähnchen in 1,5-cm-Würfel und würz es mit 1 EL Sojasauce und einer Prise Salz.",
+      "Hack Knoblauch und Ingwer; das Weiße der Frühlingszwiebeln fein hacken, das Grüne in Ringe schneiden.",
+      "Verquirl die Eier mit etwas Salz und back sie im Wok mit 1 EL Öl zu einem dünnen Omelett; aufrollen und in Streifen schneiden.",
+      "Erhitz den Wok mit 2 EL Öl stark und brat das Hähnchen, bis es goldbraun und durchgegart ist.",
+      "Gib das restliche Öl, Knoblauch, Ingwer und das Weiße der Frühlingszwiebeln dazu und brat 30 Sekunden.",
+      "Gib den aufgelockerten Reis dazu und brat ihn bei starker Hitze unter Rühren, bis er heiß und leicht geröstet ist.",
+      "Gieß restliche Sojasauce und Austernsauce am heißen Rand entlang, gib Sesamöl dazu und schwenk alles.",
+      "Heb Omelettstreifen und Frühlingszwiebelgrün unter und servier sofort."
+     ],
+     "labels": [
+      "",
+      "",
+      "Omelett",
+      "Hähnchen",
+      "",
+      "Reis",
+      "",
+      ""
+     ],
+     "tips": [
+      "Kalter Reis vom Vortag und rauchend heißer Wok: Die Körner bleiben locker und schmecken rauchig.",
+      "Chaufa de mariscos: statt Huhn 400 g Garnelen und Tintenfisch, nur 2 Minuten braten.",
+      "Dazu kalte Chicha morada, wie im Chifa."
+     ]
+    }
+   }
+  },
+  {
+   "id": "suspiro-a-la-limena",
+   "cat": "dolci",
+   "sub": "cucchiaio",
+   "servings": 6,
+   "minutes": 110,
+   "diff": 2,
+   "kcal": 470,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 397,
+     "u": "g",
+     "k": "sweetened-condensed-milk"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "evaporated-milk"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "vanilla-extract"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "port-wine"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ground-cinnamon"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 3600,
+     "bg": true
+    },
+    {
+     "timer": 360
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Suspiro a la limeña, crema e meringa",
+     "intro": "Crema di latte caramellato coperta da una meringa al Porto e cannella.",
+     "ing": [
+      "latte condensato zuccherato",
+      "latte evaporato",
+      "tuorli",
+      "estratto di vaniglia",
+      "albumi",
+      "zucchero",
+      "vino Porto",
+      "cannella in polvere"
+     ],
+     "steps": [
+      "In una casseruola dal fondo spesso cuoci i due latti a fuoco medio-basso, mescolando sempre, finché diventano un manjar dorato e denso.",
+      "Sbatti i tuorli, stemperali con un mestolo di crema calda, poi versali nella pentola e cuoci 2 minuti a fuoco basso senza bollire.",
+      "Spegni, unisci la vaniglia, distribuisci in 6 coppette, lascia intiepidire e metti in frigo almeno 1 ora.",
+      "Intanto scalda zucchero e Porto in un pentolino fino a 118 °C, quando lo sciroppo cola dal cucchiaio in un filo spesso.",
+      "Monta gli albumi a neve, versa a filo lo sciroppo bollente sempre montando e continua finché la meringa è lucida e tiepida.",
+      "Con una sac à poche a stella copri la crema con la meringa e spolvera di cannella prima di servire."
+     ],
+     "labels": [
+      "Manjar",
+      "Tuorli",
+      "Frigo",
+      "Sciroppo",
+      "Meringa",
+      ""
+     ],
+     "tips": [
+      "Il manjar è pronto quando, passando la spatola, il fondo della pentola resta scoperto per un attimo.",
+      "Senza Porto va bene un vino dolce come il Marsala o un passito.",
+      "Si tiene 2 giorni in frigo: la meringa all'italiana resta gonfia."
+     ]
+    },
+    "en": {
+     "title": "Suspiro a la limeña",
+     "intro": "Milk caramel cream under a port meringue dusted with cinnamon.",
+     "ing": [
+      "sweetened condensed milk",
+      "evaporated milk",
+      "egg yolks",
+      "vanilla extract",
+      "egg whites",
+      "sugar",
+      "port",
+      "ground cinnamon"
+     ],
+     "steps": [
+      "In a heavy saucepan, cook both milks over medium-low heat, stirring constantly, until they turn into a thick golden manjar.",
+      "Beat the yolks, temper them with a ladle of the hot cream, pour back into the pan and cook 2 minutes on low without boiling.",
+      "Off the heat, stir in the vanilla, divide among 6 glasses, cool slightly and chill for at least 1 hour.",
+      "Meanwhile heat the sugar and port in a small pan to 118 °C, when the syrup falls from a spoon in a thick thread.",
+      "Whisk the whites to stiff peaks, pour in the hot syrup in a thin stream while whisking, and keep going until glossy and cool.",
+      "Pipe the meringue over the cream with a star nozzle and dust with cinnamon before serving."
+     ],
+     "labels": [
+      "Manjar",
+      "Yolks",
+      "Chill",
+      "Syrup",
+      "Meringue",
+      ""
+     ],
+     "tips": [
+      "The manjar is ready when a spatula drawn across the pan leaves the bottom bare for a moment.",
+      "No port? A sweet wine such as Marsala works too.",
+      "It keeps 2 days in the fridge; the cooked meringue holds its shape."
+     ]
+    },
+    "fr": {
+     "title": "Suspiro a la limeña, crème meringuée",
+     "intro": "Crème de lait caramélisé sous une meringue au porto et à la cannelle.",
+     "ing": [
+      "lait concentré sucré",
+      "lait concentré non sucré",
+      "jaunes d'œufs",
+      "extrait de vanille",
+      "blancs d'œufs",
+      "sucre",
+      "porto",
+      "cannelle moulue"
+     ],
+     "steps": [
+      "Dans une casserole à fond épais, cuis les deux laits à feu moyen-doux sans cesser de remuer, jusqu'à un manjar doré et épais.",
+      "Bats les jaunes, détends-les avec une louche de crème chaude, reverse dans la casserole et cuis 2 minutes à feu doux sans bouillir.",
+      "Hors du feu, ajoute la vanille, répartis dans 6 coupes, laisse tiédir et mets au frigo au moins 1 heure.",
+      "Pendant ce temps, chauffe le sucre et le porto dans une petite casserole jusqu'à 118 °C : le sirop file en un fil épais.",
+      "Monte les blancs en neige, verse le sirop bouillant en filet sans cesser de fouetter, jusqu'à une meringue brillante et tiède.",
+      "À la poche à douille cannelée, couvre la crème de meringue et saupoudre de cannelle avant de servir."
+     ],
+     "labels": [
+      "Manjar",
+      "Jaunes",
+      "Frigo",
+      "Sirop",
+      "Meringue",
+      ""
+     ],
+     "tips": [
+      "Le manjar est prêt quand la spatule laisse voir le fond de la casserole un instant.",
+      "Pas de porto ? Un vin doux comme le marsala ou un muscat fait l'affaire.",
+      "Il se garde 2 jours au frigo ; la meringue cuite au sirop reste gonflée."
+     ]
+    },
+    "es": {
+     "title": "Suspiro a la limeña",
+     "intro": "Manjar blanco cubierto con merengue al oporto y un toque de canela.",
+     "ing": [
+      "leche condensada",
+      "leche evaporada",
+      "yemas",
+      "esencia de vainilla",
+      "claras",
+      "azúcar",
+      "oporto",
+      "canela molida"
+     ],
+     "steps": [
+      "En una olla de fondo grueso cocina las dos leches a fuego medio-bajo, sin dejar de remover, hasta tener un manjar dorado y espeso.",
+      "Bate las yemas, templa con un cucharón de crema caliente, vuélcalas en la olla y cocina 2 minutos a fuego bajo sin que hierva.",
+      "Fuera del fuego añade la vainilla, reparte en 6 copas, deja templar y refrigera al menos 1 hora.",
+      "Mientras, calienta el azúcar con el oporto en un cazo hasta 118 °C, cuando el almíbar cae de la cuchara en hilo grueso.",
+      "Monta las claras a punto de nieve, añade el almíbar caliente en hilo sin dejar de batir, hasta que el merengue brille y se temple.",
+      "Con manga y boquilla rizada cubre la crema con el merengue y espolvorea canela antes de servir."
+     ],
+     "labels": [
+      "Manjar",
+      "Yemas",
+      "Nevera",
+      "Almíbar",
+      "Merengue",
+      ""
+     ],
+     "tips": [
+      "El manjar está a punto cuando, al pasar la espátula, se ve el fondo de la olla un instante.",
+      "¿Sin oporto? Vale un vino dulce como el marsala o un moscatel.",
+      "Aguanta 2 días en la nevera: el merengue italiano no se baja."
+     ]
+    },
+    "de": {
+     "title": "Suspiro a la limeña, Karamellcreme",
+     "intro": "Milchkaramellcreme unter Portwein-Baiser mit einem Hauch Zimt.",
+     "ing": [
+      "gezuckerte Kondensmilch",
+      "ungesüßte Kondensmilch",
+      "Eigelb",
+      "Vanilleextrakt",
+      "Eiweiß",
+      "Zucker",
+      "Portwein",
+      "Zimtpulver"
+     ],
+     "steps": [
+      "Koch beide Kondensmilchsorten in einem Topf mit dickem Boden unter Rühren bei mittlerer Hitze zu dickem, goldenem Manjar.",
+      "Verquirl das Eigelb mit einer Kelle heißer Creme, gieß es in den Topf und gare alles 2 Minuten bei kleiner Hitze, ohne zu kochen.",
+      "Vom Herd nehmen, Vanille einrühren, auf 6 Gläser verteilen, abkühlen lassen und mindestens 1 Stunde kalt stellen.",
+      "Erhitz inzwischen Zucker und Portwein in einem kleinen Topf auf 118 °C: Der Sirup fließt dann als dicker Faden vom Löffel.",
+      "Schlag das Eiweiß steif, lass den heißen Sirup unter Schlagen einlaufen und schlag weiter, bis das Baiser glänzt und lauwarm ist.",
+      "Spritz das Baiser mit Sterntülle auf die Creme und bestäub es vor dem Servieren mit Zimt."
+     ],
+     "labels": [
+      "Manjar",
+      "Eigelb",
+      "Kühlen",
+      "Sirup",
+      "Baiser",
+      ""
+     ],
+     "tips": [
+      "Das Manjar ist fertig, wenn der Topfboden kurz sichtbar bleibt, wenn du mit dem Spatel durchziehst.",
+      "Kein Portwein? Ein Süßwein wie Marsala geht auch.",
+      "Hält 2 Tage im Kühlschrank; das gekochte Baiser fällt nicht zusammen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "chicha-morada",
+   "cat": "bevande",
+   "sub": "fresche",
+   "servings": 6,
+   "minutes": 180,
+   "diff": 1,
+   "kcal": 130,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party",
+    "kids"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "purple-corn"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "pineapple"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-apples"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 5,
+     "u": "",
+     "k": "cloves"
+    },
+    {
+     "q": 2000,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 2700
+    },
+    {},
+    {
+     "timer": 7200
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Chicha morada, bibita di mais viola",
+     "intro": "La bibita viola del Perù: mais morado bollito con ananas, mela, cannella e chiodi.",
+     "ing": [
+      "mais viola secco (pannocchie)",
+      "ananas",
+      "mela verde",
+      "stecche di cannella",
+      "chiodi di garofano",
+      "acqua",
+      "zucchero",
+      "lime",
+      "ghiaccio"
+     ],
+     "steps": [
+      "Sbuccia ananas e mela tenendo le bucce; taglia a dadini 150 g di ananas. Spezza le pannocchie in 2 o 3 pezzi.",
+      "Metti in pentola mais, bucce e torsolo d'ananas, buccia della mela, cannella, chiodi e acqua; fai sobbollire coperto.",
+      "Filtra il liquido viola scuro, schiacciando bene i solidi, e sciogli lo zucchero finché è caldo.",
+      "Lascia raffreddare e metti in frigo almeno 2 ore.",
+      "Al momento di servire unisci il succo dei lime, l'ananas e la mela a dadini e versa su ghiaccio."
+     ],
+     "labels": [
+      "",
+      "Bollitura",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Aggiungi il lime solo al momento: se cuoce o resta a lungo, la chicha diventa amarognola.",
+      "Il mais morado si trova secco nei negozi latini; esiste anche in polvere, pronto in 15 minuti.",
+      "In frigo, senza lime, si tiene 3 giorni in una bottiglia chiusa."
+     ]
+    },
+    "en": {
+     "title": "Chicha morada, purple corn drink",
+     "intro": "Peru's purple drink: purple corn simmered with pineapple, apple, cinnamon and cloves.",
+     "ing": [
+      "dried purple corn cobs",
+      "pineapple",
+      "green apple",
+      "cinnamon sticks",
+      "cloves",
+      "water",
+      "sugar",
+      "limes",
+      "ice"
+     ],
+     "steps": [
+      "Peel the pineapple and apple, keeping the peels, and dice 150 g of pineapple. Break the corn cobs into 2 or 3 pieces.",
+      "Put the corn, pineapple peel and core, apple peel, cinnamon, cloves and water in a pot; simmer, covered.",
+      "Strain the deep purple liquid, pressing the solids well, and stir in the sugar while it's hot.",
+      "Let it cool, then chill for at least 2 hours.",
+      "Just before serving, stir in the lime juice and the diced pineapple and apple, and pour over ice."
+     ],
+     "labels": [
+      "",
+      "Simmer",
+      "",
+      "Chill",
+      ""
+     ],
+     "tips": [
+      "Add the lime only at the end: cooked or left too long, it makes the chicha bitter.",
+      "Dried purple corn is sold in Latin shops; there's also a powder that's ready in 15 minutes.",
+      "Without the lime, it keeps 3 days in a sealed bottle in the fridge."
+     ]
+    },
+    "fr": {
+     "title": "Chicha morada, boisson au maïs violet",
+     "intro": "La boisson violette du Pérou : maïs violet infusé avec ananas, pomme, cannelle et girofle.",
+     "ing": [
+      "épis de maïs violet séchés",
+      "ananas",
+      "pomme verte",
+      "bâtons de cannelle",
+      "clous de girofle",
+      "eau",
+      "sucre",
+      "citrons verts",
+      "glaçons"
+     ],
+     "steps": [
+      "Épluche l'ananas et la pomme en gardant les peaux, coupe 150 g d'ananas en dés. Casse les épis en 2 ou 3 morceaux.",
+      "Mets dans une marmite le maïs, l'écorce et le cœur d'ananas, la peau de pomme, la cannelle, les clous et l'eau ; laisse frémir à couvert.",
+      "Filtre le liquide violet foncé en pressant bien, et fais-y fondre le sucre tant qu'il est chaud.",
+      "Laisse refroidir puis mets au frigo au moins 2 heures.",
+      "Au moment de servir, ajoute le jus des citrons verts, l'ananas et la pomme en dés, et verse sur des glaçons."
+     ],
+     "labels": [
+      "",
+      "Infusion",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "N'ajoute le citron vert qu'au dernier moment : cuit ou laissé trop longtemps, il rend la chicha amère.",
+      "Le maïs violet séché se trouve en épicerie latine ; il existe aussi en poudre, prêt en 15 minutes.",
+      "Sans le citron vert, elle se garde 3 jours au frigo en bouteille fermée."
+     ]
+    },
+    "es": {
+     "title": "Chicha morada",
+     "intro": "La bebida morada del Perú: maíz morado hervido con piña, manzana, canela y clavo.",
+     "ing": [
+      "maíz morado",
+      "piña",
+      "manzana verde",
+      "ramas de canela",
+      "clavos de olor",
+      "agua",
+      "azúcar",
+      "limas",
+      "hielo"
+     ],
+     "steps": [
+      "Pela la piña y la manzana guardando las cáscaras y corta 150 g de piña en dados. Parte las mazorcas en 2 o 3 trozos.",
+      "Pon en una olla el maíz, la cáscara y el corazón de piña, la cáscara de manzana, canela, clavos y agua; hierve tapado a fuego suave.",
+      "Cuela el líquido morado oscuro apretando bien los sólidos y disuelve el azúcar en caliente.",
+      "Deja enfriar y refrigera al menos 2 horas.",
+      "Al servir, añade el jugo de las limas y la piña y la manzana en dados, y sirve con hielo."
+     ],
+     "labels": [
+      "",
+      "Hervor",
+      "",
+      "Nevera",
+      ""
+     ],
+     "tips": [
+      "Añade la lima solo al final: si hierve o reposa mucho, amarga la chicha.",
+      "El maíz morado seco está en tiendas latinas; también hay en polvo, listo en 15 minutos.",
+      "Sin la lima, aguanta 3 días en la nevera en botella cerrada."
+     ]
+    },
+    "de": {
+     "title": "Chicha morada, Getränk aus lila Mais",
+     "intro": "Perus violettes Getränk: lila Mais mit Ananas, Apfel, Zimt und Nelken gekocht.",
+     "ing": [
+      "getrockneter lila Mais",
+      "Ananas",
+      "grüner Apfel",
+      "Zimtstangen",
+      "Gewürznelken",
+      "Wasser",
+      "Zucker",
+      "Limetten",
+      "Eiswürfel"
+     ],
+     "steps": [
+      "Schäl Ananas und Apfel, heb die Schalen auf und würfle 150 g Ananas. Brich die Maiskolben in 2 bis 3 Stücke.",
+      "Gib Mais, Ananasschale und Strunk, Apfelschale, Zimt, Nelken und Wasser in einen Topf und lass alles zugedeckt köcheln.",
+      "Sieb die dunkelviolette Flüssigkeit ab, drück die Reste gut aus und lös den Zucker darin, solange sie heiß ist.",
+      "Abkühlen lassen und mindestens 2 Stunden kalt stellen.",
+      "Kurz vor dem Servieren Limettensaft, Ananas- und Apfelwürfel unterrühren und auf Eis servieren."
+     ],
+     "labels": [
+      "",
+      "Köcheln",
+      "",
+      "Kühlen",
+      ""
+     ],
+     "tips": [
+      "Limette erst ganz zum Schluss: Mitgekocht oder zu lange gezogen, wird die Chicha bitter.",
+      "Getrockneten lila Mais gibt es im Latino-Laden, auch als Pulver, das in 15 Minuten fertig ist.",
+      "Ohne Limette hält sie sich 3 Tage verschlossen im Kühlschrank."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pisco-sour",
+   "cat": "cocktail",
+   "sub": "classici",
+   "servings": 1,
+   "minutes": 5,
+   "diff": 1,
+   "kcal": 210,
+   "diet": [
+    "veg",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "PE",
+   "alcohol": true,
+   "ingredients": [
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "pisco"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 20,
+     "u": "ml",
+     "k": "simple-syrup"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "angostura-bitters"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pisco sour",
+     "intro": "Pisco, lime e albume shakerati fino a una schiuma soffice, con gocce di Angostura.",
+     "ing": [
+      "pisco",
+      "lime",
+      "sciroppo di zucchero",
+      "albume freschissimo",
+      "gocce di Angostura",
+      "ghiaccio"
+     ],
+     "steps": [
+      "Metti in frigo la coppetta e spremi il lime: servono 30 ml di succo.",
+      "Nello shaker versa pisco, succo di lime, sciroppo e albume e agita forte 15 secondi senza ghiaccio, per montare la schiuma.",
+      "Aggiungi il ghiaccio e agita ancora 15 secondi, finché lo shaker è gelato.",
+      "Filtra nella coppetta fredda e lascia assestare la schiuma qualche secondo.",
+      "Fai cadere 3 gocce di Angostura sulla schiuma e servi subito."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Lo shake a secco, senza ghiaccio, monta l'albume: la schiuma regge fino all'ultimo sorso.",
+      "Senza uovo usa 20 ml di acquafaba, l'acqua dei ceci in scatola: la schiuma viene uguale.",
+      "Chilcano: pisco, succo di mezzo lime e ginger ale su ghiaccio, il long drink di Lima."
+     ]
+    },
+    "en": {
+     "title": "Pisco sour",
+     "intro": "Pisco, lime and egg white shaken to a silky foam, finished with Angostura.",
+     "ing": [
+      "pisco",
+      "lime",
+      "simple syrup",
+      "very fresh egg white",
+      "drops of Angostura bitters",
+      "ice"
+     ],
+     "steps": [
+      "Chill the glass and squeeze the lime: you need 30 ml of juice.",
+      "Pour the pisco, lime juice, syrup and egg white into a shaker and shake hard for 15 seconds without ice to build foam.",
+      "Add ice and shake again for 15 seconds, until the shaker is frosty.",
+      "Strain into the chilled glass and let the foam settle for a few seconds.",
+      "Dot 3 drops of Angostura on the foam and serve immediately."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "The dry shake without ice whips the egg white so the foam lasts to the last sip.",
+      "Egg-free: use 20 ml aquafaba, the liquid from canned chickpeas, for the same foam.",
+      "For a chilcano, top pisco and half a lime's juice with ginger ale over ice."
+     ]
+    },
+    "fr": {
+     "title": "Pisco sour",
+     "intro": "Pisco, citron vert et blanc d'œuf secoués en mousse soyeuse, avec de l'Angostura.",
+     "ing": [
+      "pisco",
+      "citron vert",
+      "sirop de sucre",
+      "blanc d'œuf très frais",
+      "gouttes d'Angostura",
+      "glaçons"
+     ],
+     "steps": [
+      "Mets le verre au frais et presse le citron vert : il faut 30 ml de jus.",
+      "Verse pisco, jus de citron vert, sirop et blanc d'œuf dans le shaker et secoue fort 15 secondes sans glace pour faire mousser.",
+      "Ajoute la glace et secoue encore 15 secondes, jusqu'à ce que le shaker soit glacé.",
+      "Filtre dans le verre glacé et laisse la mousse se poser quelques secondes.",
+      "Dépose 3 gouttes d'Angostura sur la mousse et sers aussitôt."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Le dry shake sans glace monte le blanc : la mousse tient jusqu'à la dernière gorgée.",
+      "Sans œuf : 20 ml d'aquafaba, le jus des pois chiches en boîte, donnent la même mousse.",
+      "Chilcano : pisco, jus d'un demi citron vert et ginger ale sur glace, le long drink de Lima."
+     ]
+    },
+    "es": {
+     "title": "Pisco sour",
+     "intro": "Pisco, lima y clara batidos hasta una espuma sedosa, con gotas de amargo de Angostura.",
+     "ing": [
+      "pisco",
+      "lima",
+      "jarabe de goma",
+      "clara de huevo muy fresca",
+      "gotas de amargo de Angostura",
+      "hielo"
+     ],
+     "steps": [
+      "Enfría la copa y exprime la lima: necesitas 30 ml de jugo.",
+      "Echa pisco, jugo de lima, jarabe y clara en la coctelera y agita fuerte 15 segundos sin hielo para montar la espuma.",
+      "Añade hielo y agita otros 15 segundos, hasta que la coctelera esté helada.",
+      "Cuela en la copa fría y deja que la espuma se asiente unos segundos.",
+      "Deja caer 3 gotas de amargo de Angostura sobre la espuma y sirve enseguida."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "El batido en seco, sin hielo, monta la clara: la espuma dura hasta el último sorbo.",
+      "Sin huevo: 20 ml de aquafaba, el líquido de los garbanzos de bote, dan la misma espuma.",
+      "Chilcano: pisco, jugo de media lima y ginger ale con hielo, el trago largo de Lima."
+     ]
+    },
+    "de": {
+     "title": "Pisco Sour",
+     "intro": "Pisco, Limette und Eiweiß zu seidigem Schaum geschüttelt, mit Angostura.",
+     "ing": [
+      "Pisco",
+      "Limette",
+      "Zuckersirup",
+      "sehr frisches Eiweiß",
+      "Tropfen Angostura",
+      "Eiswürfel"
+     ],
+     "steps": [
+      "Stell das Glas kalt und press die Limette aus: Du brauchst 30 ml Saft.",
+      "Gib Pisco, Limettensaft, Sirup und Eiweiß in den Shaker und schüttle 15 Sekunden kräftig ohne Eis, damit es schäumt.",
+      "Gib Eis dazu und schüttle noch 15 Sekunden, bis der Shaker eiskalt ist.",
+      "Seih alles ins kalte Glas ab und lass den Schaum ein paar Sekunden setzen.",
+      "Träufle 3 Tropfen Angostura auf den Schaum und servier sofort."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Der Dry Shake ohne Eis schlägt das Eiweiß auf: Der Schaum hält bis zum letzten Schluck.",
+      "Ohne Ei: 20 ml Aquafaba, das Wasser aus der Kichererbsendose, ergibt denselben Schaum.",
+      "Chilcano: Pisco, Saft einer halben Limette und Ginger Ale auf Eis, Limas Longdrink."
+     ]
+    }
+   }
+  },
+  {
+   "id": "feijoada",
+   "cat": "unici",
+   "sub": "pentola",
+   "servings": 6,
+   "minutes": 900,
+   "diff": 2,
+   "kcal": 780,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party",
+    "comfort"
+   ],
+   "months": [],
+   "origin": "BR",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "dried-black-beans"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "pork-ribs"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "beef-stew-meat"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "smoked-bacon"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "smoked-sausage"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 5,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 2500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "oranges"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 5400,
+     "alt": {
+      "pressure": {
+       "timer": 2400
+      }
+     }
+    },
+    {
+     "timer": 1800,
+     "alt": {
+      "pressure": {
+       "timer": 900
+      }
+     }
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "couve-a-mineira"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Feijoada, fagioli neri e maiale",
+     "intro": "Lo stufato del sabato brasiliano: fagioli neri cotti a lungo con tagli di maiale.",
+     "ing": [
+      "fagioli neri secchi",
+      "costine di maiale",
+      "spezzatino di manzo",
+      "pancetta affumicata a pezzo",
+      "salsiccia affumicata (tipo linguiça)",
+      "cipolle",
+      "spicchi d'aglio",
+      "foglie di alloro",
+      "olio di semi",
+      "acqua",
+      "arance per servire",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "La sera prima metti i fagioli a bagno in abbondante acqua fredda, per almeno 12 ore; poi scolali e sciacquali.",
+      "Dividi le costine una a una, taglia il manzo a cubi di 4 cm, la pancetta a dadi e la salsiccia a rondelle di 1 cm.",
+      "In una pentola capiente rosola la pancetta nell'olio finché rilascia il grasso, poi aggiungi costine e manzo e dorali bene.",
+      "Aggiungi cipolle e aglio tritati e cuoci mescolando finché sono morbidi.",
+      "Unisci fagioli, alloro e acqua, porta a bollore e cuoci coperto a fuoco basso, mescolando ogni tanto e aggiungendo acqua calda se serve.",
+      "Aggiungi la salsiccia e cuoci senza coperchio finché i fagioli sono cremosi e il brodo si addensa.",
+      "Schiaccia un mestolo di fagioli e rimettilo in pentola per addensare; togli l'alloro e regola di sale e pepe.",
+      "Servi con riso bianco, farofa, couve e fette d'arancia, che sgrassano il palato."
+     ],
+     "labels": [
+      "",
+      "",
+      "Rosolatura",
+      "Soffritto",
+      "Cottura",
+      "Salsiccia",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con carne seca, paio e linguiça dei negozi brasiliani è quella di Rio: dissala la carne seca 24 ore.",
+      "Feijoada completa: riso bianco, farofa, couve à mineira, vinagrete e fette d'arancia.",
+      "Il giorno dopo è ancora più buona: preparala in anticipo e scaldala piano con un goccio d'acqua."
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Unisci fagioli, alloro e acqua, chiudi la pentola a pressione e cuoci 40 minuti dal fischio; lascia sfiatare da sola."
+      },
+      "5": {
+       "pressure": "Apri, aggiungi la salsiccia e cuoci senza coperchio 15 minuti, finché il brodo si addensa."
+      }
+     }
+    },
+    "en": {
+     "title": "Feijoada, black bean and pork stew",
+     "intro": "Brazil's Saturday stew: black beans slow-cooked with pork and smoked meats.",
+     "ing": [
+      "dried black beans",
+      "pork spare ribs",
+      "beef stew meat",
+      "smoked bacon, in one piece",
+      "smoked sausage (linguiça-style)",
+      "onions",
+      "garlic cloves",
+      "bay leaves",
+      "vegetable oil",
+      "water",
+      "oranges, to serve",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "The night before, soak the beans in plenty of cold water for at least 12 hours; then drain and rinse them.",
+      "Separate the ribs, cut the beef into 4 cm cubes, the bacon into chunks and the sausage into 1 cm slices.",
+      "In a large pot, cook the bacon in the oil until the fat runs, then add the ribs and beef and brown them well.",
+      "Add the chopped onions and garlic and cook, stirring, until soft.",
+      "Add the beans, bay leaves and water, bring to a boil and simmer covered, stirring now and then and adding hot water if needed.",
+      "Add the sausage and cook uncovered until the beans are creamy and the broth thickens.",
+      "Mash a ladle of beans and stir back in to thicken; remove the bay leaves and season with salt and pepper.",
+      "Serve with white rice, farofa, couve greens and orange slices to cut the richness."
+     ],
+     "labels": [
+      "",
+      "",
+      "Brown",
+      "Onions",
+      "Simmer",
+      "Sausage",
+      "",
+      ""
+     ],
+     "tips": [
+      "With carne seca, paio and linguiça from a Brazilian shop it's Rio-style: desalt the carne seca 24 hours.",
+      "Feijoada completa: white rice, farofa, couve à mineira, vinagrete and orange slices.",
+      "It's even better the next day: make it ahead and reheat gently with a splash of water."
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Add the beans, bay leaves and water, lock the pressure cooker and cook 40 minutes at pressure; let it release naturally."
+      },
+      "5": {
+       "pressure": "Open, add the sausage and cook uncovered for 15 minutes until the broth thickens."
+      }
+     }
+    },
+    "fr": {
+     "title": "Feijoada, ragoût de haricots noirs",
+     "intro": "Le ragoût du samedi au Brésil : haricots noirs mijotés avec porc et viandes fumées.",
+     "ing": [
+      "haricots noirs secs",
+      "travers de porc",
+      "bœuf à braiser",
+      "lard fumé en morceau",
+      "saucisse fumée (type linguiça)",
+      "oignons",
+      "gousses d'ail",
+      "feuilles de laurier",
+      "huile neutre",
+      "eau",
+      "oranges pour servir",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "La veille, fais tremper les haricots dans beaucoup d'eau froide au moins 12 heures ; égoutte-les et rince-les.",
+      "Sépare les travers, coupe le bœuf en cubes de 4 cm, le lard en dés et la saucisse en rondelles de 1 cm.",
+      "Dans une grande cocotte, fais fondre le lard dans l'huile, puis ajoute travers et bœuf et fais-les bien dorer.",
+      "Ajoute les oignons et l'ail hachés et fais-les fondre en remuant.",
+      "Ajoute haricots, laurier et eau, porte à ébullition et laisse mijoter à couvert, en remuant et en rajoutant de l'eau chaude si besoin.",
+      "Ajoute la saucisse et cuis à découvert jusqu'à ce que les haricots soient fondants et le bouillon épaissi.",
+      "Écrase une louche de haricots et remets-la pour épaissir ; retire le laurier, sale et poivre.",
+      "Sers avec du riz blanc, de la farofa, du chou sauté et des tranches d'orange qui rafraîchissent."
+     ],
+     "labels": [
+      "",
+      "",
+      "Rissoler",
+      "Oignons",
+      "Cuisson",
+      "Saucisse",
+      "",
+      ""
+     ],
+     "tips": [
+      "Avec carne seca, paio et linguiça d'une épicerie brésilienne, c'est celle de Rio : dessale la carne seca 24 h.",
+      "Feijoada completa : riz blanc, farofa, couve à mineira, vinagrete et tranches d'orange.",
+      "Elle est encore meilleure le lendemain : prépare-la à l'avance et réchauffe-la doucement avec un peu d'eau."
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Ajoute haricots, laurier et eau, ferme l'autocuiseur et cuis 40 minutes dès la mise en pression ; laisse retomber seul."
+      },
+      "5": {
+       "pressure": "Ouvre, ajoute la saucisse et cuis 15 minutes à découvert jusqu'à ce que le bouillon épaississe."
+      }
+     }
+    },
+    "es": {
+     "title": "Feijoada brasileña",
+     "intro": "El guiso de los sábados en Brasil: frijoles negros a fuego lento con cerdo y ahumados.",
+     "ing": [
+      "frijoles negros secos",
+      "costillas de cerdo",
+      "carne de res para guisar",
+      "panceta ahumada en trozo",
+      "longaniza ahumada (tipo linguiça)",
+      "cebollas",
+      "dientes de ajo",
+      "hojas de laurel",
+      "aceite vegetal",
+      "agua",
+      "naranjas para servir",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "La noche anterior pon los frijoles en remojo en abundante agua fría al menos 12 horas; luego escúrrelos y enjuágalos.",
+      "Separa las costillas, corta la carne en dados de 4 cm, la panceta en tacos y la longaniza en rodajas de 1 cm.",
+      "En una olla grande dora la panceta en el aceite hasta que suelte la grasa, luego añade costillas y carne y dóralas bien.",
+      "Añade las cebollas y el ajo picados y sofríe removiendo hasta que estén tiernos.",
+      "Añade frijoles, laurel y agua, lleva a ebullición y cuece tapado a fuego suave, removiendo y añadiendo agua caliente si hace falta.",
+      "Añade la longaniza y cuece sin tapa hasta que los frijoles estén cremosos y el caldo espese.",
+      "Aplasta un cucharón de frijoles y devuélvelo a la olla para espesar; retira el laurel y salpimienta.",
+      "Sirve con arroz blanco, farofa, col salteada y rodajas de naranja, que alivian la grasa."
+     ],
+     "labels": [
+      "",
+      "",
+      "Dorar",
+      "Sofrito",
+      "Cocción",
+      "Longaniza",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con carne seca, paio y linguiça de una tienda brasileña es la de Río: desala la carne seca 24 horas.",
+      "Feijoada completa: arroz blanco, farofa, couve à mineira, vinagrete y naranja.",
+      "Al día siguiente está aún mejor: hazla antes y caliéntala despacio con un chorrito de agua."
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Añade frijoles, laurel y agua, cierra la olla a presión y cuece 40 minutos desde que suba; deja que baje sola."
+      },
+      "5": {
+       "pressure": "Abre, añade la longaniza y cuece 15 minutos sin tapa hasta que espese el caldo."
+      }
+     }
+    },
+    "de": {
+     "title": "Feijoada, schwarzer Bohneneintopf",
+     "intro": "Brasiliens Samstagseintopf: schwarze Bohnen, lange geschmort mit Schwein und Geräuchertem.",
+     "ing": [
+      "getrocknete schwarze Bohnen",
+      "Schweinerippchen",
+      "Rindergulasch",
+      "Räucherspeck am Stück",
+      "Räucherwurst (Typ Linguiça)",
+      "Zwiebeln",
+      "Knoblauchzehen",
+      "Lorbeerblätter",
+      "neutrales Öl",
+      "Wasser",
+      "Orangen zum Servieren",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Weich die Bohnen am Vorabend mindestens 12 Stunden in reichlich kaltem Wasser ein; dann abgießen und abspülen.",
+      "Teil die Rippchen einzeln, schneid das Rind in 4-cm-Würfel, den Speck in Stücke und die Wurst in 1-cm-Scheiben.",
+      "Brat den Speck in einem großen Topf im Öl aus, gib dann Rippchen und Rind dazu und brate alles kräftig an.",
+      "Gib gehackte Zwiebeln und Knoblauch dazu und dünste sie unter Rühren weich.",
+      "Gib Bohnen, Lorbeer und Wasser dazu, aufkochen und zugedeckt sanft köcheln, ab und zu rühren, bei Bedarf heißes Wasser nachgießen.",
+      "Gib die Wurst dazu und koch ohne Deckel weiter, bis die Bohnen cremig sind und die Brühe eindickt.",
+      "Zerdrück eine Kelle Bohnen und rühr sie zum Binden zurück; Lorbeer entfernen, mit Salz und Pfeffer abschmecken.",
+      "Servier sie mit weißem Reis, Farofa, gebratenem Kohl und Orangenscheiben, die das Fett ausgleichen."
+     ],
+     "labels": [
+      "",
+      "",
+      "Anbraten",
+      "Zwiebeln",
+      "Garen",
+      "Wurst",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mit Carne seca, Paio und Linguiça aus dem brasilianischen Laden wie in Rio: Carne seca 24 Std. wässern.",
+      "Feijoada completa: weißer Reis, Farofa, Couve à mineira, Vinagrete und Orangenscheiben.",
+      "Am nächsten Tag schmeckt sie noch besser: vorkochen und mit etwas Wasser sanft erwärmen."
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Gib Bohnen, Lorbeer und Wasser dazu, schließ den Schnellkochtopf, 40 Minuten unter Druck garen, von selbst abdampfen lassen."
+      },
+      "5": {
+       "pressure": "Öffne den Topf, gib die Wurst dazu und koch 15 Minuten offen, bis die Brühe eindickt."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "frango-com-quiabo",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 90,
+   "diff": 2,
+   "kcal": 520,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "BR",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 1000,
+     "u": "g",
+     "k": "chicken-pieces"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "okra"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 240
+    },
+    {
+     "timer": 1800,
+     "alt": {
+      "pressure": {
+       "timer": 900
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Frango com quiabo, pollo con okra",
+     "intro": "Pollo in umido con okra rosolata, il piatto di casa del Minas Gerais.",
+     "ing": [
+      "pollo a pezzi (cosce e sovracosce)",
+      "lime",
+      "spicchi d'aglio",
+      "okra fresca o surgelata",
+      "cipolla",
+      "pomodori maturi",
+      "paprika dolce",
+      "olio di semi",
+      "acqua",
+      "cipollotti",
+      "prezzemolo",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Condisci il pollo con il succo del lime, l'aglio schiacciato, sale e pepe e lascialo insaporire.",
+      "Intanto lava l'okra e asciugala benissimo, elimina il picciolo e tagliala a rondelle di 1 cm.",
+      "Salta l'okra in una padella larga con 2 cucchiai d'olio a fuoco vivo, mescolando poco, finché è dorata e non fa più bava.",
+      "In una pentola rosola il pollo sgocciolato nell'olio rimasto, finché è dorato su tutti i lati.",
+      "Aggiungi cipolla tritata e paprika, cuoci 2 minuti, poi i pomodori a dadini e la marinata.",
+      "Versa l'acqua, copri e cuoci a fuoco basso finché il pollo è tenero e cotto fino all'osso.",
+      "Aggiungi l'okra e cuoci senza coperchio finché il sugo si addensa.",
+      "Spegni, cospargi di cipollotto e prezzemolo tritati e servi con polenta morbida o riso."
+     ],
+     "labels": [
+      "Marinatura",
+      "",
+      "Okra",
+      "Rosolatura",
+      "Soffritto",
+      "Cottura",
+      "Okra",
+      ""
+     ],
+     "tips": [
+      "Asciuga bene l'okra e saltala a parte a fuoco vivo: così perde la bava e resta intera.",
+      "Senza okra usa 400 g di fagiolini a pezzi: aggiungili crudi a metà cottura del pollo.",
+      "In Minas si serve con angu, una polenta morbida senza sale, e riso bianco."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Versa l'acqua, chiudi la pentola a pressione e cuoci 15 minuti dal fischio, poi lascia sfiatare."
+      }
+     }
+    },
+    "en": {
+     "title": "Frango com quiabo, chicken with okra",
+     "intro": "Braised chicken with seared okra, a home-cooking classic from Minas Gerais.",
+     "ing": [
+      "chicken pieces (thighs and drumsticks)",
+      "lime",
+      "garlic cloves",
+      "fresh or frozen okra",
+      "onion",
+      "ripe tomatoes",
+      "sweet paprika",
+      "vegetable oil",
+      "water",
+      "spring onions",
+      "parsley",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Season the chicken with the lime juice, crushed garlic, salt and pepper and let it marinate.",
+      "Meanwhile wash the okra, dry it thoroughly, trim the stems and cut into 1 cm rounds.",
+      "Fry the okra in a wide pan with 2 tbsp oil over high heat, stirring little, until browned and no longer slimy.",
+      "In a pot, brown the drained chicken in the remaining oil until golden on all sides.",
+      "Add the chopped onion and paprika, cook 2 minutes, then the diced tomatoes and the marinade.",
+      "Pour in the water, cover and simmer until the chicken is tender and cooked to the bone.",
+      "Add the okra and cook uncovered until the sauce thickens.",
+      "Turn off the heat, scatter with chopped spring onion and parsley and serve with soft polenta or rice."
+     ],
+     "labels": [
+      "Marinate",
+      "",
+      "Okra",
+      "Brown",
+      "Onion",
+      "Simmer",
+      "Okra",
+      ""
+     ],
+     "tips": [
+      "Dry the okra well and sear it separately over high heat: it loses its slime and stays whole.",
+      "No okra? Use 400 g green beans in pieces, added raw halfway through the chicken's cooking.",
+      "In Minas it comes with angu, a soft unsalted polenta, and white rice."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Pour in the water, lock the pressure cooker and cook 15 minutes at pressure, then release."
+      }
+     }
+    },
+    "fr": {
+     "title": "Frango com quiabo, poulet aux gombos",
+     "intro": "Poulet mijoté aux gombos poêlés, un classique familial du Minas Gerais.",
+     "ing": [
+      "morceaux de poulet (cuisses, pilons)",
+      "citron vert",
+      "gousses d'ail",
+      "gombos frais ou surgelés",
+      "oignon",
+      "tomates mûres",
+      "paprika doux",
+      "huile neutre",
+      "eau",
+      "oignons nouveaux",
+      "persil",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Assaisonne le poulet avec le jus du citron vert, l'ail écrasé, sel et poivre, et laisse mariner.",
+      "Pendant ce temps, lave les gombos, sèche-les très bien, ôte le pédoncule et coupe-les en rondelles de 1 cm.",
+      "Fais sauter les gombos dans une grande poêle avec 2 c. à s. d'huile à feu vif, sans trop remuer, jusqu'à ce qu'ils dorent.",
+      "Dans une cocotte, fais dorer le poulet égoutté dans le reste d'huile sur toutes les faces.",
+      "Ajoute l'oignon haché et le paprika, cuis 2 minutes, puis les tomates en dés et la marinade.",
+      "Verse l'eau, couvre et laisse mijoter jusqu'à ce que le poulet soit tendre et cuit à cœur.",
+      "Ajoute les gombos et cuis à découvert jusqu'à ce que la sauce épaississe.",
+      "Éteins, parsème d'oignon nouveau et de persil hachés et sers avec une polenta crémeuse ou du riz."
+     ],
+     "labels": [
+      "Marinade",
+      "",
+      "Gombos",
+      "Rissoler",
+      "Oignon",
+      "Mijoter",
+      "Gombos",
+      ""
+     ],
+     "tips": [
+      "Sèche bien les gombos et saisis-les à part à feu vif : ils ne filent plus et restent entiers.",
+      "Sans gombos, prends 400 g de haricots verts en tronçons, ajoutés crus à mi-cuisson du poulet.",
+      "Dans le Minas, on le sert avec de l'angu, une polenta molle sans sel, et du riz blanc."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Verse l'eau, ferme l'autocuiseur et cuis 15 minutes dès la mise en pression, puis laisse retomber."
+      }
+     }
+    },
+    "es": {
+     "title": "Frango com quiabo, pollo con quimbombó",
+     "intro": "Pollo guisado con quimbombó salteado, plato casero de Minas Gerais.",
+     "ing": [
+      "pollo troceado (muslos y contramuslos)",
+      "lima",
+      "dientes de ajo",
+      "quimbombó fresco o congelado",
+      "cebolla",
+      "tomates maduros",
+      "pimentón dulce",
+      "aceite vegetal",
+      "agua",
+      "cebolletas",
+      "perejil",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Sazona el pollo con el jugo de la lima, el ajo machacado, sal y pimienta y déjalo marinar.",
+      "Mientras, lava el quimbombó, sécalo muy bien, quítale el tallo y córtalo en rodajas de 1 cm.",
+      "Saltea el quimbombó en una sartén amplia con 2 cucharadas de aceite a fuego vivo, removiendo poco, hasta que se dore y no babee.",
+      "En una olla dora el pollo escurrido en el aceite restante hasta que esté dorado por todos lados.",
+      "Añade la cebolla picada y el pimentón, cocina 2 minutos y luego el tomate en dados y la marinada.",
+      "Vierte el agua, tapa y cuece a fuego bajo hasta que el pollo esté tierno y hecho hasta el hueso.",
+      "Añade el quimbombó y cuece sin tapa hasta que la salsa espese.",
+      "Apaga, espolvorea cebolleta y perejil picados y sirve con polenta blanda o arroz."
+     ],
+     "labels": [
+      "Marinado",
+      "",
+      "Quimbombó",
+      "Dorar",
+      "Sofrito",
+      "Cocción",
+      "Quimbombó",
+      ""
+     ],
+     "tips": [
+      "Seca bien el quimbombó y saltéalo aparte a fuego vivo: deja de babear y queda entero.",
+      "Sin quimbombó, usa 400 g de judías verdes en trozos, añadidas crudas a media cocción.",
+      "En Minas se sirve con angu, una polenta blanda sin sal, y arroz blanco."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Vierte el agua, cierra la olla a presión y cuece 15 minutos desde que suba; deja que baje."
+      }
+     }
+    },
+    "de": {
+     "title": "Frango com quiabo, Huhn mit Okra",
+     "intro": "Geschmortes Huhn mit gebratener Okra, Hausmannskost aus Minas Gerais.",
+     "ing": [
+      "Hähnchenteile (Schenkel und Keulen)",
+      "Limette",
+      "Knoblauchzehen",
+      "frische oder TK-Okra",
+      "Zwiebel",
+      "reife Tomaten",
+      "edelsüßes Paprikapulver",
+      "neutrales Öl",
+      "Wasser",
+      "Frühlingszwiebeln",
+      "Petersilie",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Würz das Hähnchen mit Limettensaft, zerdrücktem Knoblauch, Salz und Pfeffer und lass es marinieren.",
+      "Wasch inzwischen die Okra, trockne sie sehr gut, entferne die Stiele und schneid sie in 1-cm-Scheiben.",
+      "Brat die Okra in einer großen Pfanne mit 2 EL Öl bei starker Hitze, wenig rühren, bis sie gebräunt und nicht mehr schleimig ist.",
+      "Brat das abgetropfte Hähnchen im restlichen Öl in einem Topf rundum goldbraun an.",
+      "Gib gehackte Zwiebel und Paprika dazu, 2 Minuten braten, dann Tomatenwürfel und Marinade.",
+      "Gieß das Wasser an, deck zu und schmor das Hähnchen bei kleiner Hitze, bis es zart und bis zum Knochen gar ist.",
+      "Gib die Okra dazu und koch ohne Deckel, bis die Sauce eindickt.",
+      "Herd aus, mit gehackter Frühlingszwiebel und Petersilie bestreuen, mit weicher Polenta oder Reis servieren."
+     ],
+     "labels": [
+      "Marinieren",
+      "",
+      "Okra",
+      "Anbraten",
+      "Zwiebel",
+      "Schmoren",
+      "Okra",
+      ""
+     ],
+     "tips": [
+      "Okra gut trocknen und separat scharf anbraten: So verliert sie den Schleim und bleibt ganz.",
+      "Ohne Okra 400 g grüne Bohnen in Stücken nehmen und roh nach halber Garzeit zugeben.",
+      "In Minas gibt es Angu dazu, eine weiche ungesalzene Polenta, und weißen Reis."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Gieß das Wasser an, schließ den Schnellkochtopf, 15 Minuten unter Druck garen, dann abdampfen lassen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "picanha-na-brasa",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 55,
+   "diff": 2,
+   "kcal": 620,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "BR",
+   "alcohol": false,
+   "methods": [
+    "grill",
+    "bbq",
+    "pan"
+   ],
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "picanha"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "coarse-salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800
+    },
+    {},
+    {},
+    {
+     "timer": 720,
+     "alt": {
+      "bbq": {
+       "timer": 900
+      },
+      "pan": {
+       "timer": 720
+      }
+     }
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "vinagrete"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Picanha, codone di manzo alla brace",
+     "intro": "Il taglio simbolo del churrasco: solo sale grosso e il suo grasso che si scioglie.",
+     "ing": [
+      "picanha (codone di manzo con grasso)",
+      "sale grosso"
+     ],
+     "steps": [
+      "Togli la carne dal frigo 30 minuti prima: deve arrivare a temperatura ambiente.",
+      "Taglia la picanha nel senso delle fibre in 3 bistecche spesse 3-4 cm e incidi il grasso a rombi, senza toccare la carne.",
+      "Appena prima di cuocere, strofina le bistecche con il sale grosso su tutti i lati.",
+      "Scalda la piastra al massimo. Cuoci prima il lato del grasso 4 minuti, poi 4 minuti per lato: al cuore 54 °C per una cottura al sangue.",
+      "Fai riposare le bistecche su un tagliere per 5 minuti.",
+      "Scuoti via il sale in eccesso, affetta sottile contro fibra, ogni fetta con il suo grasso, e servi con farofa e vinagrete."
+     ],
+     "labels": [
+      "Temperatura",
+      "",
+      "",
+      "Cottura",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Taglia le bistecche nel senso delle fibre, poi affetta contro fibra: così resta tenera.",
+      "Servila con vinagrete fresco e farofa, come in ogni churrascaria.",
+      "Alla brasiliana sugli spiedi: taglia fette di 3 cm, piegale a C col grasso fuori e infilzale."
+     ],
+     "alt": {
+      "3": {
+       "bbq": "Sulla brace viva cuoci il lato del grasso 5 minuti, poi 5 minuti per lato, fino a 54 °C al cuore.",
+       "pan": "In una padella di ferro rovente, senza olio, cuoci il lato del grasso 4 minuti, poi 4 per lato, fino a 54 °C."
+      }
+     }
+    },
+    "en": {
+     "title": "Picanha, grilled beef rump cap",
+     "intro": "The star of the churrasco: just coarse salt and its own melting fat.",
+     "ing": [
+      "picanha (beef rump cap with fat)",
+      "coarse salt"
+     ],
+     "steps": [
+      "Take the meat out of the fridge 30 minutes ahead so it reaches room temperature.",
+      "Cut the picanha with the grain into 3 steaks 3-4 cm thick and score the fat in a diamond pattern without cutting the meat.",
+      "Just before cooking, rub the steaks with the coarse salt on all sides.",
+      "Heat the grill pan until very hot. Sear the fat side first for 4 minutes, then 4 minutes per side: 54 °C at the center for medium-rare.",
+      "Rest the steaks on a board for 5 minutes.",
+      "Knock off excess salt, slice thinly against the grain, each slice with its fat, and serve with farofa and vinagrete."
+     ],
+     "labels": [
+      "Temper",
+      "",
+      "",
+      "Cook",
+      "Rest",
+      ""
+     ],
+     "tips": [
+      "Cut the steaks with the grain, then slice against it to serve: that keeps it tender.",
+      "Serve with fresh vinagrete and farofa, as in every churrascaria.",
+      "Churrascaria-style: cut 3 cm slices, bend into a C with fat outside and skewer them."
+     ],
+     "alt": {
+      "3": {
+       "bbq": "Over hot coals, cook the fat side 5 minutes, then 5 minutes per side, to 54 °C at the center.",
+       "pan": "In a smoking-hot cast-iron pan without oil, cook the fat side 4 minutes, then 4 per side, to 54 °C."
+      }
+     }
+    },
+    "fr": {
+     "title": "Picanha, pièce de bœuf grillée",
+     "intro": "La star du churrasco : juste du gros sel et son gras qui fond.",
+     "ing": [
+      "picanha (aiguillette de rumsteck avec gras)",
+      "gros sel"
+     ],
+     "steps": [
+      "Sors la viande du frigo 30 minutes avant pour qu'elle soit à température ambiante.",
+      "Coupe la picanha dans le sens des fibres en 3 steaks de 3-4 cm et quadrille le gras sans entailler la viande.",
+      "Juste avant la cuisson, frotte les steaks de gros sel sur toutes les faces.",
+      "Chauffe la plancha à fond. Saisis d'abord le côté gras 4 minutes, puis 4 minutes par face : 54 °C à cœur pour une cuisson saignante.",
+      "Laisse reposer les steaks 5 minutes sur une planche.",
+      "Secoue l'excès de sel, tranche finement contre les fibres, chaque tranche avec son gras, et sers avec farofa et vinagrete."
+     ],
+     "labels": [
+      "Température",
+      "",
+      "",
+      "Cuisson",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "Coupe les steaks dans le sens des fibres, puis tranche contre les fibres : elle reste tendre.",
+      "Sers-la avec une vinagrete fraîche et de la farofa, comme dans les churrascarias.",
+      "Façon churrascaria : tranches de 3 cm pliées en C, gras à l'extérieur, enfilées sur une broche."
+     ],
+     "alt": {
+      "3": {
+       "bbq": "Sur la braise vive, cuis le côté gras 5 minutes, puis 5 minutes par face, jusqu'à 54 °C à cœur.",
+       "pan": "Dans une poêle en fonte brûlante, sans huile, cuis le côté gras 4 minutes, puis 4 par face, jusqu'à 54 °C."
+      }
+     }
+    },
+    "es": {
+     "title": "Picaña a la brasa",
+     "intro": "La reina del churrasco: solo sal gruesa y su propia grasa fundida.",
+     "ing": [
+      "picaña (tapa de cuadril con grasa)",
+      "sal gruesa"
+     ],
+     "steps": [
+      "Saca la carne de la nevera 30 minutos antes para que esté a temperatura ambiente.",
+      "Corta la picaña a favor de la fibra en 3 filetes de 3-4 cm y marca la grasa en rombos sin llegar a la carne.",
+      "Justo antes de cocinar, frota los filetes con la sal gruesa por todos lados.",
+      "Calienta la plancha al máximo. Cocina primero el lado de la grasa 4 minutos y luego 4 por lado: 54 °C en el centro, jugosa.",
+      "Deja reposar los filetes 5 minutos sobre una tabla.",
+      "Sacude el exceso de sal, corta en lonchas finas contra la fibra, cada una con su grasa, y sirve con farofa y vinagrete."
+     ],
+     "labels": [
+      "Temperatura",
+      "",
+      "",
+      "Cocción",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "Corta los filetes a favor de la fibra y luego en lonchas contra ella: queda tierna.",
+      "Sírvela con vinagrete fresco y farofa, como en cualquier churrasquería.",
+      "Al estilo churrasquería: cortes de 3 cm doblados en C, grasa fuera, en espeto."
+     ],
+     "alt": {
+      "3": {
+       "bbq": "Sobre brasa viva, cocina el lado de la grasa 5 minutos y luego 5 por lado, hasta 54 °C en el centro.",
+       "pan": "En una sartén de hierro muy caliente, sin aceite, cocina el lado de la grasa 4 minutos y luego 4 por lado, hasta 54 °C."
+      }
+     }
+    },
+    "de": {
+     "title": "Picanha vom Grill",
+     "intro": "Der Star beim Churrasco: nur grobes Salz und der eigene, schmelzende Fettdeckel.",
+     "ing": [
+      "Picanha (Tafelspitz mit Fettdeckel)",
+      "grobes Salz"
+     ],
+     "steps": [
+      "Nimm das Fleisch 30 Minuten vorher aus dem Kühlschrank, damit es Zimmertemperatur hat.",
+      "Schneid die Picanha mit der Faser in 3 Steaks von 3-4 cm und ritz den Fettdeckel rautenförmig ein, ohne ins Fleisch zu schneiden.",
+      "Reib die Steaks direkt vor dem Garen rundum mit dem groben Salz ein.",
+      "Erhitz die Grillpfanne stark. Brat zuerst die Fettseite 4 Minuten, dann jede Seite 4 Minuten: 54 °C Kerntemperatur für medium rare.",
+      "Lass die Steaks 5 Minuten auf einem Brett ruhen.",
+      "Klopf überschüssiges Salz ab, schneid quer zur Faser dünne Scheiben mit Fettrand und servier sie mit Farofa und Vinagrete."
+     ],
+     "labels": [
+      "Temperieren",
+      "",
+      "",
+      "Garen",
+      "Ruhen",
+      ""
+     ],
+     "tips": [
+      "Steaks mit der Faser schneiden, zum Servieren quer dazu aufschneiden: So bleibt sie zart.",
+      "Dazu frische Vinagrete und Farofa, wie in jeder Churrascaria.",
+      "Wie in der Churrascaria: 3 cm dicke Scheiben C-förmig mit Fett außen auf Spieße stecken."
+     ],
+     "alt": {
+      "3": {
+       "bbq": "Über heißer Glut erst die Fettseite 5 Minuten, dann 5 Minuten pro Seite, bis 54 °C Kerntemperatur.",
+       "pan": "In einer rauchend heißen Gusseisenpfanne ohne Öl die Fettseite 4 Minuten, dann 4 pro Seite braten, bis 54 °C."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "pao-de-queijo",
+   "cat": "forno",
+   "sub": "pane",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 1,
+   "kcal": 380,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "kids",
+    "party"
+   ],
+   "months": [],
+   "origin": "BR",
+   "alcohol": false,
+   "methods": [
+    "oven",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "tapioca-starch"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "parmigiano-reggiano"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 600
+    },
+    {},
+    {},
+    {
+     "timer": 1500,
+     "alt": {
+      "airfryer": {
+       "timer": 900
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pão de queijo, panini al formaggio",
+     "intro": "Palline di fecola di tapioca e formaggio, croccanti fuori e gommose dentro.",
+     "ing": [
+      "fecola di tapioca",
+      "latte intero",
+      "olio di semi",
+      "sale",
+      "uovo grande",
+      "parmigiano grattugiato"
+     ],
+     "steps": [
+      "Porta a bollore latte, olio e sale in un pentolino.",
+      "Versalo bollente sulla fecola e mescola con un cucchiaio finché forma grumi; lascia intiepidire.",
+      "Aggiungi l'uovo e impasta a mano finché è liscio, poi il formaggio: l'impasto è appiccicoso ma tiene la forma.",
+      "Con le mani unte forma palline di 3 cm e mettile distanziate su una teglia con carta forno. Scalda il forno a 180 °C.",
+      "Cuoci finché sono gonfi e appena dorati: fuori croccanti, dentro morbidi e filanti.",
+      "Servili subito, caldi: è il momento in cui sono più buoni."
+     ],
+     "labels": [
+      "",
+      "Raffreddare",
+      "",
+      "",
+      "Forno",
+      ""
+     ],
+     "tips": [
+      "Con il polvilho azedo dei negozi brasiliani, metà con la fecola, prendono il sapore acidulo originale.",
+      "Congelali crudi su un vassoio e poi in sacchetto: cuocili da surgelati a 180 °C per 30 minuti."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Cuocili in friggitrice ad aria a 170 °C per 15 minuti, in un solo strato e ben distanziati."
+      }
+     }
+    },
+    "en": {
+     "title": "Pão de queijo, cheese bread",
+     "intro": "Tapioca and cheese puffs, crisp outside and chewy inside.",
+     "ing": [
+      "tapioca starch",
+      "whole milk",
+      "vegetable oil",
+      "salt",
+      "large egg",
+      "grated parmesan"
+     ],
+     "steps": [
+      "Bring the milk, oil and salt to a boil in a small pan.",
+      "Pour it boiling over the starch and stir with a spoon until crumbly; let it cool down.",
+      "Add the egg and knead by hand until smooth, then the cheese: the dough is sticky but holds its shape.",
+      "With oiled hands, roll 3 cm balls and space them on a lined baking tray. Heat the oven to 180 °C.",
+      "Bake until puffed and lightly golden: crisp outside, soft and stretchy inside.",
+      "Serve them right away while hot, when they're at their best."
+     ],
+     "labels": [
+      "",
+      "Cool",
+      "",
+      "",
+      "Bake",
+      ""
+     ],
+     "tips": [
+      "Swap half the starch for polvilho azedo from a Brazilian shop for the original tangy flavor.",
+      "Freeze them raw on a tray, then bag them: bake from frozen at 180 °C for 30 minutes."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Air-fry at 170 °C for 15 minutes in a single layer, well spaced."
+      }
+     }
+    },
+    "fr": {
+     "title": "Pão de queijo, petits pains au fromage",
+     "intro": "Boules de tapioca et fromage, croustillantes dehors, moelleuses dedans.",
+     "ing": [
+      "fécule de tapioca",
+      "lait entier",
+      "huile neutre",
+      "sel",
+      "gros œuf",
+      "parmesan râpé"
+     ],
+     "steps": [
+      "Porte le lait, l'huile et le sel à ébullition dans une petite casserole.",
+      "Verse-le bouillant sur la fécule et mélange à la cuillère jusqu'à obtenir des grumeaux ; laisse tiédir.",
+      "Ajoute l'œuf et pétris à la main jusqu'à ce que ce soit lisse, puis le fromage : la pâte colle mais se tient.",
+      "Les mains huilées, forme des boules de 3 cm et espace-les sur une plaque avec papier cuisson. Préchauffe le four à 180 °C.",
+      "Cuis jusqu'à ce qu'ils soient gonflés et à peine dorés : croustillants dehors, moelleux et filants dedans.",
+      "Sers-les tout de suite, bien chauds : c'est là qu'ils sont meilleurs."
+     ],
+     "labels": [
+      "",
+      "Refroidir",
+      "",
+      "",
+      "Four",
+      ""
+     ],
+     "tips": [
+      "Remplace la moitié de la fécule par du polvilho azedo d'épicerie brésilienne pour le goût acidulé.",
+      "Congèle-les crus sur un plateau puis en sachet : cuis-les surgelés à 180 °C 30 minutes."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Cuis-les à la friteuse à air à 170 °C 15 minutes, en une seule couche bien espacée."
+      }
+     }
+    },
+    "es": {
+     "title": "Pão de queijo, panecillos de queso",
+     "intro": "Bolitas de almidón de yuca y queso, crujientes por fuera y elásticas por dentro.",
+     "ing": [
+      "almidón de yuca (polvilho)",
+      "leche entera",
+      "aceite vegetal",
+      "sal",
+      "huevo grande",
+      "parmesano rallado"
+     ],
+     "steps": [
+      "Lleva a ebullición la leche, el aceite y la sal en un cazo.",
+      "Viértelo hirviendo sobre el almidón y mezcla con una cuchara hasta que forme grumos; deja entibiar.",
+      "Añade el huevo y amasa a mano hasta que esté liso, luego el queso: la masa es pegajosa pero mantiene la forma.",
+      "Con las manos untadas de aceite, forma bolitas de 3 cm y colócalas separadas en una bandeja con papel. Precalienta a 180 °C.",
+      "Hornea hasta que estén inflados y apenas dorados: crujientes por fuera, tiernos y elásticos por dentro.",
+      "Sírvelos enseguida, calientes: es cuando están más ricos."
+     ],
+     "labels": [
+      "",
+      "Enfriar",
+      "",
+      "",
+      "Horno",
+      ""
+     ],
+     "tips": [
+      "Cambia la mitad del almidón por polvilho azedo de tienda brasileña: sabor ácido original.",
+      "Congélalos crudos en una bandeja y luego en bolsa: hornéalos congelados a 180 °C 30 minutos."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Hazlos en la freidora de aire a 170 °C 15 minutos, en una capa y bien separados."
+      }
+     }
+    },
+    "de": {
+     "title": "Pão de queijo, Käsebällchen",
+     "intro": "Bällchen aus Tapiokastärke und Käse, außen knusprig, innen zäh und weich.",
+     "ing": [
+      "Tapiokastärke",
+      "Vollmilch",
+      "neutrales Öl",
+      "Salz",
+      "großes Ei",
+      "geriebener Parmesan"
+     ],
+     "steps": [
+      "Bring Milch, Öl und Salz in einem kleinen Topf zum Kochen.",
+      "Gieß es kochend über die Stärke und rühr mit einem Löffel, bis sie krümelig wird; abkühlen lassen.",
+      "Gib das Ei dazu und knete von Hand, bis der Teig glatt ist, dann den Käse: Er klebt, hält aber die Form.",
+      "Form mit geölten Händen 3-cm-Kugeln und setz sie mit Abstand auf ein Blech mit Backpapier. Ofen auf 180 °C vorheizen.",
+      "Back sie, bis sie aufgegangen und leicht golden sind: außen knusprig, innen weich und zäh.",
+      "Servier sie sofort heiß, dann schmecken sie am besten."
+     ],
+     "labels": [
+      "",
+      "Abkühlen",
+      "",
+      "",
+      "Backen",
+      ""
+     ],
+     "tips": [
+      "Ersetz die Hälfte der Stärke durch Polvilho azedo aus dem brasilianischen Laden: original säuerlich.",
+      "Roh auf einem Tablett einfrieren, dann in Beutel: gefroren bei 180 °C 30 Minuten backen."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Gare sie in der Heißluftfritteuse bei 170 °C 15 Minuten, in einer Lage mit Abstand."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "farofa",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 6,
+   "minutes": 20,
+   "diff": 1,
+   "kcal": 260,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [],
+   "origin": "BR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "cassava-flour"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 480
+    },
+    {},
+    {
+     "timer": 480
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "feijoada"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Farofa, farina di manioca tostata",
+     "intro": "Farina di manioca tostata nel burro con cipolla: il crumble salato che va su tutto.",
+     "ing": [
+      "farina di manioca (farinha de mandioca)",
+      "burro",
+      "cipolla",
+      "spicchio d'aglio",
+      "prezzemolo",
+      "sale"
+     ],
+     "steps": [
+      "Sciogli il burro in una padella larga a fuoco medio-basso e cuoci la cipolla tritata finché è dorata.",
+      "Aggiungi l'aglio tritato e cuoci 30 secondi, senza farlo scurire.",
+      "Versa la farina di manioca a pioggia e tostala mescolando di continuo, finché è dorata, sabbiosa e profuma di nocciola.",
+      "Sala, unisci il prezzemolo tritato e servi calda o a temperatura ambiente."
+     ],
+     "labels": [
+      "Cipolla",
+      "",
+      "Tostatura",
+      ""
+     ],
+     "tips": [
+      "Farofa de bacon: rosola 100 g di pancetta affumicata a dadini prima della cipolla.",
+      "Fuoco medio e cucchiaio sempre in movimento: la manioca passa da dorata a bruciata in pochi secondi.",
+      "Spolverala sulla feijoada o servila accanto alla picanha."
+     ]
+    },
+    "en": {
+     "title": "Farofa, toasted cassava flour",
+     "intro": "Cassava flour toasted in butter with onion, the crunchy topping for everything.",
+     "ing": [
+      "cassava flour (farinha de mandioca)",
+      "butter",
+      "onion",
+      "garlic clove",
+      "parsley",
+      "salt"
+     ],
+     "steps": [
+      "Melt the butter in a wide pan over medium-low heat and cook the chopped onion until golden.",
+      "Add the chopped garlic and cook for 30 seconds without letting it brown.",
+      "Sprinkle in the cassava flour and toast it, stirring constantly, until golden, sandy and nutty-smelling.",
+      "Season with salt, stir in the chopped parsley and serve warm or at room temperature."
+     ],
+     "labels": [
+      "Onion",
+      "",
+      "Toast",
+      ""
+     ],
+     "tips": [
+      "Farofa de bacon: crisp 100 g diced smoked bacon before adding the onion.",
+      "Medium heat and keep stirring: cassava flour goes from golden to burnt in seconds.",
+      "Sprinkle it over feijoada or serve next to picanha."
+     ]
+    },
+    "fr": {
+     "title": "Farofa, farine de manioc grillée",
+     "intro": "Farine de manioc grillée au beurre et à l'oignon : le crumble salé qui va sur tout.",
+     "ing": [
+      "farine de manioc",
+      "beurre",
+      "oignon",
+      "gousse d'ail",
+      "persil",
+      "sel"
+     ],
+     "steps": [
+      "Fais fondre le beurre dans une grande poêle à feu moyen-doux et fais dorer l'oignon haché.",
+      "Ajoute l'ail haché et cuis 30 secondes sans le laisser brunir.",
+      "Verse la farine de manioc en pluie et fais-la griller sans cesser de remuer, jusqu'à ce qu'elle soit dorée et sente la noisette.",
+      "Sale, ajoute le persil haché et sers chaud ou à température ambiante."
+     ],
+     "labels": [
+      "Oignon",
+      "",
+      "Torréfier",
+      ""
+     ],
+     "tips": [
+      "Farofa de bacon : fais rissoler 100 g de lardons fumés avant l'oignon.",
+      "Feu moyen et cuillère toujours en mouvement : le manioc passe de doré à brûlé en quelques secondes.",
+      "Parsème-la sur la feijoada ou sers-la avec la picanha."
+     ]
+    },
+    "es": {
+     "title": "Farofa, harina de mandioca tostada",
+     "intro": "Harina de mandioca tostada con mantequilla y cebolla: el crujiente que va con todo.",
+     "ing": [
+      "harina de mandioca",
+      "mantequilla",
+      "cebolla",
+      "diente de ajo",
+      "perejil",
+      "sal"
+     ],
+     "steps": [
+      "Derrite la mantequilla en una sartén amplia a fuego medio-bajo y dora la cebolla picada.",
+      "Añade el ajo picado y cocina 30 segundos sin que se tueste.",
+      "Echa la harina de mandioca en lluvia y tuéstala removiendo sin parar, hasta que esté dorada, arenosa y huela a avellana.",
+      "Sala, añade el perejil picado y sirve caliente o a temperatura ambiente."
+     ],
+     "labels": [
+      "Cebolla",
+      "",
+      "Tostar",
+      ""
+     ],
+     "tips": [
+      "Farofa de bacon: dora 100 g de panceta ahumada en dados antes de la cebolla.",
+      "Fuego medio y sin dejar de remover: la mandioca pasa de dorada a quemada en segundos.",
+      "Espolvoréala sobre la feijoada o sírvela con la picaña."
+     ]
+    },
+    "de": {
+     "title": "Farofa, geröstetes Maniokmehl",
+     "intro": "In Butter geröstetes Maniokmehl mit Zwiebel: die knusprige Beilage zu allem.",
+     "ing": [
+      "Maniokmehl (Farinha de mandioca)",
+      "Butter",
+      "Zwiebel",
+      "Knoblauchzehe",
+      "Petersilie",
+      "Salz"
+     ],
+     "steps": [
+      "Schmilz die Butter in einer großen Pfanne bei mittlerer bis kleiner Hitze und brat die gehackte Zwiebel goldgelb.",
+      "Gib den gehackten Knoblauch dazu und brat ihn 30 Sekunden, ohne dass er braun wird.",
+      "Streu das Maniokmehl ein und röste es unter ständigem Rühren, bis es goldbraun und sandig ist und nussig duftet.",
+      "Salzen, gehackte Petersilie unterrühren und warm oder zimmerwarm servieren."
+     ],
+     "labels": [
+      "Zwiebel",
+      "",
+      "Rösten",
+      ""
+     ],
+     "tips": [
+      "Farofa de bacon: 100 g gewürfelten Räucherspeck vor der Zwiebel knusprig braten.",
+      "Mittlere Hitze und ständig rühren: Maniokmehl wird in Sekunden von golden zu verbrannt.",
+      "Streu sie über Feijoada oder servier sie zur Picanha."
+     ]
+    }
+   }
+  },
+  {
+   "id": "couve-a-mineira",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 15,
+   "diff": 1,
+   "kcal": 90,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "origin": "BR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "cavolo-nero"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 60
+    },
+    {
+     "timer": 180
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "feijoada"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Couve à mineira, cavolo nero saltato",
+     "intro": "Cavolo tagliato a fili sottilissimi e saltato un attimo con l'aglio, alla mineira.",
+     "ing": [
+      "cavolo nero",
+      "spicchi d'aglio",
+      "olio di semi",
+      "sale"
+     ],
+     "steps": [
+      "Lava il cavolo, elimina la costa centrale e asciuga bene le foglie.",
+      "Impila le foglie, arrotolale strette come un sigaro e tagliale a fili sottilissimi, di 2 mm.",
+      "Scalda l'olio con l'aglio tritato in una padella larga finché profuma, senza farlo colorire.",
+      "Aggiungi il cavolo e il sale e salta a fuoco vivo finché è verde brillante e appena appassito, ancora croccante.",
+      "Servila subito, prima che perda il colore."
+     ],
+     "labels": [
+      "",
+      "",
+      "Aglio",
+      "Cavolo",
+      ""
+     ],
+     "tips": [
+      "Più sottili sono i fili, meno deve cuocere: in 3 minuti resta verde e croccante.",
+      "In Minas spesso si rosola prima un po' di pancetta affumicata a dadini.",
+      "È il contorno obbligato della feijoada: il verde alleggerisce i fagioli."
+     ]
+    },
+    "en": {
+     "title": "Couve à mineira, sautéed kale",
+     "intro": "Kale cut into fine ribbons and flash-fried with garlic, Minas Gerais style.",
+     "ing": [
+      "cavolo nero (Tuscan kale)",
+      "garlic cloves",
+      "vegetable oil",
+      "salt"
+     ],
+     "steps": [
+      "Wash the kale, strip out the central rib and dry the leaves well.",
+      "Stack the leaves, roll them tightly like a cigar and slice into very thin 2 mm ribbons.",
+      "Warm the oil with the chopped garlic in a wide pan until fragrant, without letting it color.",
+      "Add the kale and salt and toss over high heat until bright green and just wilted but still crisp.",
+      "Serve straight away, before it loses its color."
+     ],
+     "labels": [
+      "",
+      "",
+      "Garlic",
+      "Kale",
+      ""
+     ],
+     "tips": [
+      "The thinner the ribbons, the less cooking: 3 minutes keeps it green and crisp.",
+      "In Minas they often crisp a little diced smoked bacon first.",
+      "It's the must-have side for feijoada: the greens lighten the beans."
+     ]
+    },
+    "fr": {
+     "title": "Couve à mineira, chou sauté à l'ail",
+     "intro": "Chou taillé en fines lanières et sauté minute à l'ail, à la façon du Minas Gerais.",
+     "ing": [
+      "chou noir (cavolo nero)",
+      "gousses d'ail",
+      "huile neutre",
+      "sel"
+     ],
+     "steps": [
+      "Lave le chou, retire la côte centrale et sèche bien les feuilles.",
+      "Empile les feuilles, roule-les serré comme un cigare et taille-les en fines lanières de 2 mm.",
+      "Chauffe l'huile avec l'ail haché dans une grande poêle jusqu'à ce qu'il embaume, sans coloration.",
+      "Ajoute le chou et le sel et saute à feu vif jusqu'à ce qu'il soit vert vif, juste tombé mais encore croquant.",
+      "Sers aussitôt, avant qu'il ne perde sa couleur."
+     ],
+     "labels": [
+      "",
+      "",
+      "Ail",
+      "Chou",
+      ""
+     ],
+     "tips": [
+      "Plus les lanières sont fines, moins il faut cuire : 3 minutes et il reste vert et croquant.",
+      "Dans le Minas, on fait souvent revenir d'abord quelques lardons fumés.",
+      "C'est l'accompagnement obligé de la feijoada : le vert allège les haricots."
+     ]
+    },
+    "es": {
+     "title": "Couve à mineira, col salteada",
+     "intro": "Col cortada en tiras finísimas y salteada al momento con ajo, al estilo de Minas.",
+     "ing": [
+      "col negra (cavolo nero)",
+      "dientes de ajo",
+      "aceite vegetal",
+      "sal"
+     ],
+     "steps": [
+      "Lava la col, quita el nervio central y seca bien las hojas.",
+      "Apila las hojas, enróllalas como un puro y córtalas en tiras finísimas de 2 mm.",
+      "Calienta el aceite con el ajo picado en una sartén amplia hasta que huela, sin que tome color.",
+      "Añade la col y la sal y saltea a fuego vivo hasta que esté verde brillante, apenas marchita y aún crujiente.",
+      "Sírvela enseguida, antes de que pierda el color."
+     ],
+     "labels": [
+      "",
+      "",
+      "Ajo",
+      "Col",
+      ""
+     ],
+     "tips": [
+      "Cuanto más finas las tiras, menos cocción: en 3 minutos queda verde y crujiente.",
+      "En Minas a menudo se dora antes un poco de panceta ahumada en dados.",
+      "Es la guarnición obligada de la feijoada: el verde aligera los frijoles."
+     ]
+    },
+    "de": {
+     "title": "Couve à mineira, gebratener Kohl",
+     "intro": "Kohl in feinsten Streifen, kurz mit Knoblauch gebraten, nach Art von Minas Gerais.",
+     "ing": [
+      "Schwarzkohl (Cavolo nero)",
+      "Knoblauchzehen",
+      "neutrales Öl",
+      "Salz"
+     ],
+     "steps": [
+      "Wasch den Kohl, entferne die Mittelrippe und trockne die Blätter gut.",
+      "Stapel die Blätter, roll sie fest wie eine Zigarre und schneid sie in hauchdünne 2-mm-Streifen.",
+      "Erhitz das Öl mit gehacktem Knoblauch in einer großen Pfanne, bis es duftet, ohne dass er Farbe nimmt.",
+      "Gib Kohl und Salz dazu und schwenk ihn bei starker Hitze, bis er leuchtend grün, gerade zusammengefallen und noch knackig ist.",
+      "Sofort servieren, bevor er seine Farbe verliert."
+     ],
+     "labels": [
+      "",
+      "",
+      "Knoblauch",
+      "Kohl",
+      ""
+     ],
+     "tips": [
+      "Je dünner die Streifen, desto kürzer die Garzeit: 3 Minuten, und er bleibt grün und knackig.",
+      "In Minas brät man oft zuerst etwas gewürfelten Räucherspeck an.",
+      "Die Pflichtbeilage zur Feijoada: Das Grün macht die Bohnen leichter."
+     ]
+    }
+   }
+  },
+  {
+   "id": "vinagrete",
+   "cat": "basi",
+   "sub": "salse",
+   "servings": 6,
+   "minutes": 30,
+   "diff": 1,
+   "kcal": 70,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "party"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "BR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 3,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "green-bell-peppers"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "parsley"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "white-wine-vinegar"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 1200
+    }
+   ],
+   "tips": [
+    {
+     "k": "pair",
+     "link": "picanha-na-brasa"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Vinagrete, salsa brasiliana di pomodoro",
+     "intro": "Dadini di pomodoro, cipolla e peperone in aceto e olio: la salsa fresca del churrasco.",
+     "ing": [
+      "pomodori sodi",
+      "cipolla",
+      "peperone verde",
+      "prezzemolo",
+      "aceto di vino bianco",
+      "olio extravergine d'oliva",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Taglia i pomodori a metà, togli semi e acqua e riducili a dadini di 5 mm.",
+      "Trita finemente la cipolla e il peperone, della stessa misura dei pomodori.",
+      "Riunisci le verdure in una ciotola con il prezzemolo tritato.",
+      "Condisci con aceto, olio, sale e pepe e mescola bene.",
+      "Lascia riposare in frigo 20 minuti perché i sapori si leghino, poi servi freddo."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Riposo"
+     ],
+     "tips": [
+      "Perfetto su picanha e carni alla brace, ma anche sulla feijoada.",
+      "Per una versione piccante aggiungi un peperoncino fresco tritato fine.",
+      "Va consumata in giornata: col tempo il pomodoro rilascia acqua e perde croccantezza."
+     ]
+    },
+    "en": {
+     "title": "Vinagrete, Brazilian tomato salsa",
+     "intro": "Diced tomato, onion and pepper in vinegar and oil: the fresh salsa of the churrasco.",
+     "ing": [
+      "firm tomatoes",
+      "onion",
+      "green bell pepper",
+      "parsley",
+      "white wine vinegar",
+      "extra virgin olive oil",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Halve the tomatoes, scoop out seeds and juice and cut into 5 mm dice.",
+      "Finely dice the onion and pepper to the same size as the tomatoes.",
+      "Combine the vegetables in a bowl with the chopped parsley.",
+      "Dress with the vinegar, oil, salt and pepper and mix well.",
+      "Let it sit in the fridge for 20 minutes so the flavors meld, then serve cold."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Rest"
+     ],
+     "tips": [
+      "Perfect with picanha and grilled meats, and spooned over feijoada.",
+      "For a hot version, add a finely chopped fresh chili.",
+      "Eat it the same day: over time the tomatoes weep and lose their crunch."
+     ]
+    },
+    "fr": {
+     "title": "Vinagrete, salsa brésilienne",
+     "intro": "Dés de tomate, oignon et poivron au vinaigre et à l'huile : la sauce fraîche du churrasco.",
+     "ing": [
+      "tomates fermes",
+      "oignon",
+      "poivron vert",
+      "persil",
+      "vinaigre de vin blanc",
+      "huile d'olive vierge extra",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Coupe les tomates en deux, retire graines et eau et taille-les en dés de 5 mm.",
+      "Hache finement l'oignon et le poivron, de la même taille que les tomates.",
+      "Réunis les légumes dans un bol avec le persil haché.",
+      "Assaisonne avec le vinaigre, l'huile, sel et poivre, et mélange bien.",
+      "Laisse reposer 20 minutes au frigo pour que les saveurs se mêlent, puis sers frais."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Repos"
+     ],
+     "tips": [
+      "Parfaite avec la picanha et les grillades, et aussi sur la feijoada.",
+      "Pour une version relevée, ajoute un piment frais haché fin.",
+      "À consommer dans la journée : avec le temps, la tomate rend de l'eau et ramollit."
+     ]
+    },
+    "es": {
+     "title": "Vinagrete brasileño",
+     "intro": "Dados de tomate, cebolla y pimiento con vinagre y aceite: la salsa fresca del churrasco.",
+     "ing": [
+      "tomates firmes",
+      "cebolla",
+      "pimiento verde",
+      "perejil",
+      "vinagre de vino blanco",
+      "aceite de oliva virgen extra",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Parte los tomates, quítales las semillas y el agua y córtalos en dados de 5 mm.",
+      "Pica fino la cebolla y el pimiento, del mismo tamaño que el tomate.",
+      "Junta las verduras en un bol con el perejil picado.",
+      "Aliña con el vinagre, el aceite, sal y pimienta y mezcla bien.",
+      "Deja reposar 20 minutos en la nevera para que se integren los sabores y sirve frío."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Reposo"
+     ],
+     "tips": [
+      "Perfecto con picaña y carnes a la brasa, y también sobre la feijoada.",
+      "Para una versión picante, añade un chile fresco picado fino.",
+      "Tómalo en el día: con el tiempo el tomate suelta agua y pierde textura."
+     ]
+    },
+    "de": {
+     "title": "Vinagrete, brasilianische Tomatensalsa",
+     "intro": "Tomaten-, Zwiebel- und Paprikawürfel in Essig und Öl: die frische Salsa zum Churrasco.",
+     "ing": [
+      "feste Tomaten",
+      "Zwiebel",
+      "grüne Paprikaschote",
+      "Petersilie",
+      "Weißweinessig",
+      "natives Olivenöl extra",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Halbier die Tomaten, entfern Kerne und Saft und schneid sie in 5-mm-Würfel.",
+      "Würfle Zwiebel und Paprika fein, so groß wie die Tomaten.",
+      "Gib das Gemüse mit der gehackten Petersilie in eine Schüssel.",
+      "Mach es mit Essig, Öl, Salz und Pfeffer an und misch alles gut.",
+      "Lass es 20 Minuten im Kühlschrank ziehen, damit sich die Aromen verbinden, und servier es kalt."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Ziehen"
+     ],
+     "tips": [
+      "Perfekt zu Picanha und Gegrilltem, auch über der Feijoada.",
+      "Für eine scharfe Variante eine fein gehackte frische Chili dazugeben.",
+      "Am selben Tag essen: Mit der Zeit ziehen die Tomaten Wasser und werden weich."
+     ]
+    }
+   }
+  },
+  {
+   "id": "brigadeiro",
+   "cat": "dolci",
+   "sub": "biscotti",
+   "servings": 8,
+   "minutes": 80,
+   "diff": 1,
+   "kcal": 240,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "party",
+    "kids"
+   ],
+   "months": [],
+   "origin": "BR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 397,
+     "u": "g",
+     "k": "sweetened-condensed-milk"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "cocoa-powder"
+    },
+    {
+     "q": 80,
+     "u": "g",
+     "k": "chocolate-sprinkles"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 660
+    },
+    {
+     "timer": 3600
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Brigadeiro, palline al cioccolato",
+     "intro": "Latte condensato e cacao cotti fino a diventare una pasta morbida, in palline con codette.",
+     "ing": [
+      "latte condensato zuccherato",
+      "burro",
+      "cacao amaro in polvere",
+      "codette di cioccolato"
+     ],
+     "steps": [
+      "In una casseruola dal fondo spesso sciogli il burro, poi unisci latte condensato e cacao setacciato e mescola bene.",
+      "Cuoci a fuoco medio-basso mescolando sempre con la spatola, finché l'impasto si stacca dal fondo in un unico blocco.",
+      "Versalo in un piatto imburrato, lascialo intiepidire e mettilo in frigo finché è sodo e modellabile.",
+      "Con le mani imburrate forma palline da un cucchiaino e rotolale nelle codette.",
+      "Mettile nei pirottini di carta e servile a temperatura ambiente."
+     ],
+     "labels": [
+      "",
+      "Cottura",
+      "Raffreddare",
+      "",
+      ""
+     ],
+     "tips": [
+      "È al punto giusto quando, inclinando la pentola, l'impasto scivola tutto insieme.",
+      "Beijinho: stessa base senza cacao, con 50 g di cocco grattugiato, e rotolati nel cocco."
+     ]
+    },
+    "en": {
+     "title": "Brigadeiros, chocolate fudge balls",
+     "intro": "Condensed milk and cocoa cooked to a soft fudge and rolled in sprinkles.",
+     "ing": [
+      "sweetened condensed milk",
+      "butter",
+      "unsweetened cocoa powder",
+      "chocolate sprinkles"
+     ],
+     "steps": [
+      "In a heavy saucepan melt the butter, then add the condensed milk and sifted cocoa and stir well.",
+      "Cook over medium-low heat, stirring constantly with a spatula, until the mixture pulls away from the bottom in one mass.",
+      "Pour onto a buttered plate, let it cool a little, then chill until firm enough to shape.",
+      "With buttered hands, roll teaspoon-sized balls and coat them in the sprinkles.",
+      "Set them in small paper cases and serve at room temperature."
+     ],
+     "labels": [
+      "",
+      "Cook",
+      "Cool",
+      "",
+      ""
+     ],
+     "tips": [
+      "It's ready when you tilt the pan and the mixture slides as one piece.",
+      "Beijinho: same base without cocoa, with 50 g desiccated coconut, rolled in coconut."
+     ]
+    },
+    "fr": {
+     "title": "Brigadeiros, bouchées au chocolat",
+     "intro": "Lait concentré et cacao cuits en pâte fondante, roulés dans les vermicelles.",
+     "ing": [
+      "lait concentré sucré",
+      "beurre",
+      "cacao non sucré en poudre",
+      "vermicelles au chocolat"
+     ],
+     "steps": [
+      "Dans une casserole à fond épais, fais fondre le beurre, ajoute le lait concentré et le cacao tamisé, mélange bien.",
+      "Cuis à feu moyen-doux en remuant sans cesse à la spatule, jusqu'à ce que la masse se détache du fond d'un seul bloc.",
+      "Verse sur une assiette beurrée, laisse tiédir puis mets au frigo jusqu'à ce que ce soit ferme et façonnable.",
+      "Les mains beurrées, forme des boules d'une cuillère à café et roule-les dans les vermicelles.",
+      "Mets-les dans des caissettes en papier et sers à température ambiante."
+     ],
+     "labels": [
+      "",
+      "Cuisson",
+      "Refroidir",
+      "",
+      ""
+     ],
+     "tips": [
+      "C'est prêt quand, en inclinant la casserole, la masse glisse d'un bloc.",
+      "Beijinho : même base sans cacao, avec 50 g de coco râpée, roulé dans la coco."
+     ]
+    },
+    "es": {
+     "title": "Brigadeiros, bombones de chocolate",
+     "intro": "Leche condensada y cacao cocidos hasta una pasta suave, en bolitas con chocolate.",
+     "ing": [
+      "leche condensada",
+      "mantequilla",
+      "cacao puro en polvo",
+      "fideos de chocolate"
+     ],
+     "steps": [
+      "En una olla de fondo grueso derrite la mantequilla, añade la leche condensada y el cacao tamizado y mezcla bien.",
+      "Cocina a fuego medio-bajo removiendo sin parar con la espátula, hasta que la masa se despegue del fondo en un solo bloque.",
+      "Viértelo en un plato untado con mantequilla, deja templar y refrigera hasta que esté firme y se pueda formar.",
+      "Con las manos untadas de mantequilla, forma bolitas de una cucharadita y rebózalas en los fideos de chocolate.",
+      "Colócalas en cápsulas de papel y sírvelas a temperatura ambiente."
+     ],
+     "labels": [
+      "",
+      "Cocción",
+      "Enfriar",
+      "",
+      ""
+     ],
+     "tips": [
+      "Está a punto cuando, al inclinar la olla, la masa se desliza entera.",
+      "Beijinho: misma base sin cacao, con 50 g de coco rallado, rebozado en coco."
+     ]
+    },
+    "de": {
+     "title": "Brigadeiros, Schokoladenkugeln",
+     "intro": "Kondensmilch und Kakao zu weicher Masse gekocht und in Schokostreuseln gewälzt.",
+     "ing": [
+      "gezuckerte Kondensmilch",
+      "Butter",
+      "Backkakao",
+      "Schokostreusel"
+     ],
+     "steps": [
+      "Schmilz die Butter in einem Topf mit dickem Boden, gib Kondensmilch und gesiebten Kakao dazu und verrühr alles gut.",
+      "Koch alles bei mittlerer bis kleiner Hitze unter ständigem Rühren, bis sich die Masse als Ganzes vom Boden löst.",
+      "Gib die Masse auf einen gebutterten Teller, lass sie abkühlen und stell sie kalt, bis sie fest und formbar ist.",
+      "Form mit gebutterten Händen teelöffelgroße Kugeln und wälz sie in den Schokostreuseln.",
+      "Setz sie in Pralinenförmchen und servier sie bei Zimmertemperatur."
+     ],
+     "labels": [
+      "",
+      "Kochen",
+      "Abkühlen",
+      "",
+      ""
+     ],
+     "tips": [
+      "Fertig ist sie, wenn die Masse beim Kippen des Topfs als Ganzes rutscht.",
+      "Beijinho: gleiche Masse ohne Kakao, mit 50 g Kokosraspeln, in Kokos gewälzt."
+     ]
+    }
+   }
+  },
+  {
+   "id": "suco-de-maracuja",
+   "cat": "bevande",
+   "sub": "fresche",
+   "servings": 4,
+   "minutes": 10,
+   "diff": 1,
+   "kcal": 110,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "kids"
+   ],
+   "months": [],
+   "origin": "BR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 6,
+     "u": "",
+     "k": "passion-fruits"
+    },
+    {
+     "q": 800,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 80,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Suco de maracujá, frutto della passione",
+     "intro": "Polpa di frutto della passione frullata con acqua e zucchero: acidula e dissetante.",
+     "ing": [
+      "frutti della passione",
+      "acqua fredda",
+      "zucchero",
+      "ghiaccio"
+     ],
+     "steps": [
+      "Taglia a metà i frutti della passione e raccogli polpa e semi nel bicchiere del frullatore.",
+      "Aggiungi metà dell'acqua e frulla a impulsi per pochi secondi, solo per staccare la polpa dai semi.",
+      "Filtra con un colino, premendo con un cucchiaio, ed elimina i semi.",
+      "Aggiungi l'acqua rimasta e lo zucchero e mescola finché si scioglie.",
+      "Servi subito ben freddo, nei bicchieri pieni di ghiaccio."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Frulla solo pochi secondi: i semi tritati rendono il succo amaro e torbido.",
+      "Frulla qualche foglia di menta con la polpa, o usa latte al posto di metà acqua per un frappè."
+     ]
+    },
+    "en": {
+     "title": "Suco de maracujá, passion fruit juice",
+     "intro": "Passion fruit pulp blended with water and sugar: tart and thirst-quenching.",
+     "ing": [
+      "passion fruits",
+      "cold water",
+      "sugar",
+      "ice"
+     ],
+     "steps": [
+      "Halve the passion fruits and scoop the pulp and seeds into the blender jug.",
+      "Add half the water and pulse for a few seconds, just to free the pulp from the seeds.",
+      "Strain through a sieve, pressing with a spoon, and discard the seeds.",
+      "Add the rest of the water and the sugar and stir until it dissolves.",
+      "Serve right away, ice-cold, in glasses full of ice."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Blend only a few seconds: crushed seeds make the juice bitter and cloudy.",
+      "Blend a few mint leaves with the pulp, or swap half the water for milk for a shake."
+     ]
+    },
+    "fr": {
+     "title": "Suco de maracujá, jus de passion",
+     "intro": "Pulpe de fruit de la passion mixée avec eau et sucre : acidulée et désaltérante.",
+     "ing": [
+      "fruits de la passion",
+      "eau froide",
+      "sucre",
+      "glaçons"
+     ],
+     "steps": [
+      "Coupe les fruits de la passion en deux et récupère pulpe et graines dans le bol du mixeur.",
+      "Ajoute la moitié de l'eau et mixe par à-coups quelques secondes, juste pour détacher la pulpe des graines.",
+      "Filtre au chinois en pressant avec une cuillère et jette les graines.",
+      "Ajoute le reste d'eau et le sucre et remue jusqu'à dissolution.",
+      "Sers aussitôt bien frais, dans des verres remplis de glaçons."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mixe quelques secondes seulement : les graines broyées rendent le jus amer et trouble.",
+      "Mixe quelques feuilles de menthe avec la pulpe, ou remplace la moitié de l'eau par du lait."
+     ]
+    },
+    "es": {
+     "title": "Jugo de maracuyá",
+     "intro": "Pulpa de maracuyá licuada con agua y azúcar: ácida y refrescante.",
+     "ing": [
+      "maracuyás",
+      "agua fría",
+      "azúcar",
+      "hielo"
+     ],
+     "steps": [
+      "Parte los maracuyás por la mitad y pon la pulpa con las semillas en el vaso de la licuadora.",
+      "Añade la mitad del agua y licúa a golpes unos segundos, solo para separar la pulpa de las semillas.",
+      "Cuela con un colador apretando con una cuchara y desecha las semillas.",
+      "Añade el resto del agua y el azúcar y remueve hasta que se disuelva.",
+      "Sirve enseguida bien frío, en vasos llenos de hielo."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Licúa solo unos segundos: las semillas trituradas lo vuelven amargo y turbio.",
+      "Licúa unas hojas de menta con la pulpa, o cambia la mitad del agua por leche para un batido."
+     ]
+    },
+    "de": {
+     "title": "Suco de maracujá, Maracujasaft",
+     "intro": "Passionsfruchtmark mit Wasser und Zucker gemixt: säuerlich und erfrischend.",
+     "ing": [
+      "Passionsfrüchte",
+      "kaltes Wasser",
+      "Zucker",
+      "Eiswürfel"
+     ],
+     "steps": [
+      "Halbier die Passionsfrüchte und löffel Fruchtfleisch und Kerne in den Mixbecher.",
+      "Gib die Hälfte des Wassers dazu und mix ein paar Sekunden im Intervall, nur bis sich das Mark von den Kernen löst.",
+      "Gieß alles durch ein Sieb, drück mit einem Löffel nach und entsorg die Kerne.",
+      "Gib das restliche Wasser und den Zucker dazu und rühr, bis er sich gelöst hat.",
+      "Servier ihn sofort eiskalt in Gläsern voller Eis."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Nur wenige Sekunden mixen: Zerkleinerte Kerne machen den Saft bitter und trüb.",
+      "Ein paar Minzblätter mitmixen oder die Hälfte des Wassers durch Milch ersetzen."
+     ]
+    }
+   }
+  }
+ ]
+}

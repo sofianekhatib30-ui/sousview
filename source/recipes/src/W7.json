@@ -1,0 +1,3959 @@
+{
+ "group": "W7",
+ "recipes": [
+  {
+   "id": "rogan-josh",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 125,
+   "diff": 2,
+   "kcal": 540,
+   "diet": [
+    "gf"
+   ],
+   "tags": [
+    "comfort",
+    "festive"
+   ],
+   "months": [],
+   "origin": "IN",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 900,
+     "u": "g",
+     "k": "lamb-shoulder"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "plain-yogurt"
+    },
+    {
+     "q": 5,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 5,
+     "u": "",
+     "k": "cardamom-pods"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "cloves"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "asafoetida"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "chili-powder"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "fennel-seeds"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-ginger"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "garam-masala"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 30
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 480
+    },
+    {
+     "timer": 4500,
+     "alt": {
+      "pressure": {
+       "timer": 1500
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "jeera-rice"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Rogan josh, agnello del Kashmir",
+     "intro": "Agnello stufato piano in un sugo rosso di yogurt, finocchio e zenzero, senza cipolla.",
+     "ing": [
+      "spalla d'agnello disossata",
+      "yogurt intero bianco",
+      "olio di semi",
+      "baccelli di cardamomo",
+      "chiodi di garofano",
+      "stecca di cannella",
+      "foglie di alloro",
+      "assafetida",
+      "paprika dolce",
+      "peperoncino in polvere",
+      "semi di finocchio macinati",
+      "zenzero in polvere",
+      "garam masala",
+      "acqua calda",
+      "sale"
+     ],
+     "steps": [
+      "Taglia l'agnello a pezzi di 4 cm, asciugalo bene con carta da cucina e salalo.",
+      "Sbatti lo yogurt con paprika, peperoncino e 100 ml d'acqua finché è liscio e senza grumi.",
+      "Scalda bene l'olio in una pentola dal fondo spesso e friggi cardamomo, chiodi, cannella, alloro e assafetida per 30 secondi.",
+      "Alza la fiamma, aggiungi l'agnello e rosolalo su tutti i lati finché è ben dorato, a due riprese se serve.",
+      "Abbassa la fiamma e versa lo yogurt un cucchiaio alla volta, mescolando, finché l'olio torna a galla.",
+      "Unisci finocchio, zenzero e l'acqua rimasta, copri e cuoci a fuoco basso finché l'agnello è tenerissimo.",
+      "Scoperchia, aggiungi il garam masala e fai restringere finché il sugo è denso e velato d'olio rosso.",
+      "Spegni, lascia riposare qualche minuto e servi con riso basmati o naan."
+     ],
+     "labels": [
+      "",
+      "",
+      "Spezie",
+      "Rosolare",
+      "Yogurt",
+      "Stufato",
+      "Sugo",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "pressure": "In pentola a pressione: chiudi e cuoci 25 minuti dal fischio, poi lascia scendere la pressione da sola."
+      }
+     },
+     "tips": [
+      "Usa lo yogurt a temperatura ambiente e versalo a fuoco basso, poco alla volta: così non si straccia.",
+      "Con peperoncino del Kashmir e olio di senape dei negozi indiani il sugo è più rosso e meno piccante.",
+      "Servilo con il jeera rice al cumino e un naan caldo per raccogliere il sugo."
+     ]
+    },
+    "en": {
+     "title": "Rogan josh, Kashmiri lamb curry",
+     "intro": "Lamb slowly braised in a red sauce of yogurt, fennel and ginger, with no onion at all.",
+     "ing": [
+      "boneless lamb shoulder",
+      "plain whole-milk yogurt",
+      "sunflower oil",
+      "cardamom pods",
+      "cloves",
+      "cinnamon stick",
+      "bay leaves",
+      "asafoetida",
+      "sweet paprika",
+      "chili powder",
+      "ground fennel seeds",
+      "ground ginger",
+      "garam masala",
+      "hot water",
+      "salt"
+     ],
+     "steps": [
+      "Cut the lamb into 4 cm chunks, pat dry with paper towels and season with salt.",
+      "Whisk the yogurt with the paprika, chili powder and 100 ml of the water until smooth.",
+      "Heat the oil well in a heavy pot and fry the cardamom, cloves, cinnamon, bay leaves and asafoetida for 30 seconds.",
+      "Turn up the heat, add the lamb and brown it well on all sides, in two batches if needed.",
+      "Lower the heat and add the yogurt a spoonful at a time, stirring, until the oil rises to the surface.",
+      "Add the fennel, ginger and remaining water, cover and simmer gently until the lamb is very tender.",
+      "Uncover, stir in the garam masala and reduce until the sauce is thick and glossy with red oil.",
+      "Take off the heat, let it rest a few minutes and serve with basmati rice or naan."
+     ],
+     "labels": [
+      "",
+      "",
+      "Spices",
+      "Brown",
+      "Yogurt",
+      "Braise",
+      "Sauce",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "pressure": "In a pressure cooker: seal and cook for 25 minutes at pressure, then let the pressure drop naturally."
+      }
+     },
+     "tips": [
+      "Use room-temperature yogurt and add it slowly over low heat so it doesn't split.",
+      "Kashmiri chili and mustard oil from Indian shops give a redder, milder and more authentic sauce.",
+      "Serve with cumin jeera rice and warm naan to mop up the sauce."
+     ]
+    },
+    "fr": {
+     "title": "Rogan josh, agneau du Cachemire",
+     "intro": "Agneau mijoté dans une sauce rouge au yaourt, fenouil et gingembre, sans oignon.",
+     "ing": [
+      "épaule d'agneau désossée",
+      "yaourt nature entier",
+      "huile de tournesol",
+      "gousses de cardamome",
+      "clous de girofle",
+      "bâton de cannelle",
+      "feuilles de laurier",
+      "asa-fœtida",
+      "paprika doux",
+      "piment en poudre",
+      "graines de fenouil moulues",
+      "gingembre en poudre",
+      "garam masala",
+      "eau chaude",
+      "sel"
+     ],
+     "steps": [
+      "Coupe l'agneau en morceaux de 4 cm, sèche-les bien avec du papier absorbant et sale-les.",
+      "Fouette le yaourt avec le paprika, le piment et 100 ml d'eau jusqu'à ce qu'il soit lisse.",
+      "Chauffe bien l'huile dans une cocotte à fond épais et fais revenir cardamome, girofle, cannelle, laurier et asa-fœtida 30 secondes.",
+      "Monte le feu, ajoute l'agneau et fais-le bien dorer sur toutes les faces, en deux fois si besoin.",
+      "Baisse le feu et ajoute le yaourt cuillerée par cuillerée, en remuant, jusqu'à ce que l'huile remonte.",
+      "Ajoute le fenouil, le gingembre et le reste d'eau, couvre et laisse mijoter jusqu'à ce que l'agneau soit fondant.",
+      "Découvre, ajoute le garam masala et fais réduire jusqu'à une sauce épaisse, nappée d'huile rouge.",
+      "Éteins, laisse reposer quelques minutes et sers avec du riz basmati ou des naans."
+     ],
+     "labels": [
+      "",
+      "",
+      "Épices",
+      "Dorer",
+      "Yaourt",
+      "Mijoter",
+      "Sauce",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "pressure": "À l'autocuiseur : ferme et cuis 25 minutes après la mise en pression, puis laisse la pression retomber seule."
+      }
+     },
+     "tips": [
+      "Prends le yaourt à température ambiante et verse-le peu à peu à feu doux : il ne tranchera pas.",
+      "Avec du piment du Cachemire et de l'huile de moutarde d'épicerie indienne, la sauce est plus rouge et douce.",
+      "Sers-le avec le jeera rice au cumin et un naan chaud pour saucer."
+     ]
+    },
+    "es": {
+     "title": "Rogan josh, cordero de Cachemira",
+     "intro": "Cordero guisado despacio en una salsa roja de yogur, hinojo y jengibre, sin cebolla.",
+     "ing": [
+      "paletilla de cordero deshuesada",
+      "yogur natural entero",
+      "aceite de girasol",
+      "vainas de cardamomo",
+      "clavos de olor",
+      "rama de canela",
+      "hojas de laurel",
+      "asafétida",
+      "pimentón dulce",
+      "guindilla molida",
+      "semillas de hinojo molidas",
+      "jengibre en polvo",
+      "garam masala",
+      "agua caliente",
+      "sal"
+     ],
+     "steps": [
+      "Corta el cordero en trozos de 4 cm, sécalo bien con papel de cocina y sálalo.",
+      "Bate el yogur con el pimentón, la guindilla y 100 ml de agua hasta que quede liso.",
+      "Calienta bien el aceite en una olla de fondo grueso y fríe cardamomo, clavos, canela, laurel y asafétida 30 segundos.",
+      "Sube el fuego, añade el cordero y dóralo bien por todos los lados, en dos tandas si hace falta.",
+      "Baja el fuego y añade el yogur cucharada a cucharada, removiendo, hasta que el aceite suba a la superficie.",
+      "Agrega el hinojo, el jengibre y el resto del agua, tapa y cuece a fuego lento hasta que el cordero esté muy tierno.",
+      "Destapa, añade el garam masala y reduce hasta que la salsa esté espesa y brillante de aceite rojo.",
+      "Apaga, deja reposar unos minutos y sirve con arroz basmati o naan."
+     ],
+     "labels": [
+      "",
+      "",
+      "Especias",
+      "Dorar",
+      "Yogur",
+      "Guiso",
+      "Salsa",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "pressure": "En olla a presión: cierra y cuece 25 minutos desde que suba la válvula, luego deja que baje sola."
+      }
+     },
+     "tips": [
+      "Usa el yogur a temperatura ambiente y añádelo poco a poco a fuego bajo: así no se corta.",
+      "Con guindilla de Cachemira y aceite de mostaza de tiendas indias la salsa sale más roja y suave.",
+      "Sírvelo con el jeera rice al comino y un naan caliente para mojar."
+     ]
+    },
+    "de": {
+     "title": "Rogan Josh, Lamm aus Kaschmir",
+     "intro": "Lamm, langsam in roter Sauce aus Joghurt, Fenchel und Ingwer geschmort, ohne Zwiebeln.",
+     "ing": [
+      "Lammschulter ohne Knochen",
+      "Naturjoghurt (3,5 %)",
+      "Sonnenblumenöl",
+      "Kardamomkapseln",
+      "Gewürznelken",
+      "Zimtstange",
+      "Lorbeerblätter",
+      "Asant (Asafoetida)",
+      "Paprikapulver edelsüß",
+      "Chilipulver",
+      "gemahlene Fenchelsamen",
+      "gemahlener Ingwer",
+      "Garam Masala",
+      "heißes Wasser",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid das Lamm in 4 cm große Stücke, tupf es mit Küchenpapier trocken und salz es.",
+      "Verrühr den Joghurt mit Paprika, Chili und 100 ml Wasser, bis er glatt ist.",
+      "Erhitz das Öl in einem schweren Topf und röste Kardamom, Nelken, Zimt, Lorbeer und Asant 30 Sekunden darin.",
+      "Dreh die Hitze hoch, gib das Lamm dazu und brate es rundum kräftig an, bei Bedarf in zwei Portionen.",
+      "Reduzier die Hitze und rühr den Joghurt löffelweise ein, bis sich das Öl wieder oben absetzt.",
+      "Gib Fenchel, Ingwer und das restliche Wasser dazu, deck den Topf zu und schmor das Lamm bei kleiner Hitze butterweich.",
+      "Nimm den Deckel ab, rühr Garam Masala ein und lass die Sauce dick einkochen, bis rotes Öl glänzt.",
+      "Lass das Curry kurz ruhen und serviere es mit Basmatireis oder Naan."
+     ],
+     "labels": [
+      "",
+      "",
+      "Gewürze",
+      "Anbraten",
+      "Joghurt",
+      "Schmoren",
+      "Sauce",
+      ""
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Im Schnellkochtopf: schließen, 25 Minuten unter Druck garen und den Druck von selbst abbauen lassen."
+      }
+     },
+     "tips": [
+      "Nimm zimmerwarmen Joghurt und rühr ihn bei kleiner Hitze nach und nach ein, dann flockt er nicht.",
+      "Mit Kaschmir-Chili und Senföl aus dem indischen Laden wird die Sauce röter, milder und echter.",
+      "Dazu Jeera Rice mit Kreuzkümmel und warmes Naan zum Tunken."
+     ]
+    }
+   }
+  },
+  {
+   "id": "meen-curry-kerala",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 55,
+   "diff": 2,
+   "kcal": 390,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "IN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "white-fish-fillets"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "coconut-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "black-mustard-seeds"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "fenugreek-seeds"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "curry-leaves"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "green-chilies"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-turmeric"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "chili-powder"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "ground-coriander"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tamarind-paste"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "coconut-milk"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {
+     "timer": 30
+    },
+    {
+     "timer": 480
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 360
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 600
+    }
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Meen curry, pesce al cocco del Kerala",
+     "intro": "Pesce che cuoce piano nel latte di cocco, reso acidulo dal tamarindo e profumato di curry.",
+     "ing": [
+      "filetti di pesce bianco sodo (merluzzo, nasello)",
+      "olio di cocco",
+      "semi di senape nera",
+      "semi di fieno greco",
+      "foglie di curry (negozi indiani)",
+      "cipolla",
+      "spicchi d'aglio",
+      "zenzero fresco",
+      "peperoncini verdi",
+      "pomodoro",
+      "curcuma",
+      "peperoncino in polvere",
+      "coriandolo in polvere",
+      "pasta di tamarindo",
+      "acqua",
+      "latte di cocco",
+      "sale"
+     ],
+     "steps": [
+      "Taglia il pesce a pezzi di 5 cm, strofinalo con sale e un pizzico di curcuma e lascialo insaporire.",
+      "Intanto scalda l'olio di cocco in una padella larga e fai scoppiettare senape e fieno greco, poi aggiungi le foglie di curry.",
+      "Unisci cipolla a fettine, aglio e zenzero tritati e peperoncini spaccati; cuoci finché la cipolla è dorata.",
+      "Abbassa la fiamma, aggiungi curcuma, peperoncino e coriandolo per 1 minuto, poi il pomodoro a pezzi finché si sfalda.",
+      "Sciogli il tamarindo nell'acqua, versalo con metà del latte di cocco, sala e fai sobbollire.",
+      "Adagia il pesce in un solo strato e cuoci a fuoco dolce senza mescolare, scuotendo ogni tanto la padella.",
+      "Versa il resto del latte di cocco e scalda per 2 minuti senza far bollire.",
+      "Spegni e lascia riposare coperto: il pesce assorbe il sugo. Servi con riso bianco."
+     ],
+     "labels": [
+      "Pesce",
+      "Semi",
+      "Soffritto",
+      "Pomodoro",
+      "Sugo",
+      "Cottura",
+      "Cocco",
+      "Riposo"
+     ],
+     "tips": [
+      "In Kerala si usa il kudampuli, tamarindo di Malabar dei negozi indiani: sugo più acidulo e affumicato.",
+      "Muovi la padella invece di girare col cucchiaio: il pesce resta a pezzi interi.",
+      "Il giorno dopo è ancora più buono: riscaldalo piano, senza farlo bollire."
+     ]
+    },
+    "en": {
+     "title": "Meen curry, Kerala fish curry",
+     "intro": "Fish gently cooked in coconut milk, soured with tamarind and fragrant with curry leaves.",
+     "ing": [
+      "firm white fish fillets (cod, hake)",
+      "coconut oil",
+      "black mustard seeds",
+      "fenugreek seeds",
+      "curry leaves (Indian shops)",
+      "onion",
+      "garlic cloves",
+      "fresh ginger",
+      "green chilies",
+      "tomato",
+      "ground turmeric",
+      "chili powder",
+      "ground coriander",
+      "tamarind paste",
+      "water",
+      "coconut milk",
+      "salt"
+     ],
+     "steps": [
+      "Cut the fish into 5 cm pieces, rub with salt and a pinch of turmeric and leave to season.",
+      "Meanwhile heat the coconut oil in a wide pan, let the mustard and fenugreek seeds pop, then add the curry leaves.",
+      "Add the sliced onion, chopped garlic and ginger and split chilies; cook until the onion is golden.",
+      "Lower the heat, stir in turmeric, chili and coriander for 1 minute, then the chopped tomato until it breaks down.",
+      "Dissolve the tamarind in the water, pour it in with half the coconut milk, salt and bring to a simmer.",
+      "Lay the fish in a single layer and cook gently without stirring, shaking the pan now and then.",
+      "Pour in the rest of the coconut milk and heat for 2 minutes without boiling.",
+      "Turn off the heat and let it rest covered so the fish soaks up the sauce. Serve with white rice."
+     ],
+     "labels": [
+      "Fish",
+      "Seeds",
+      "Onion",
+      "Tomato",
+      "Sauce",
+      "Cook",
+      "Coconut",
+      "Rest"
+     ],
+     "tips": [
+      "Kerala cooks use kudampuli, Malabar tamarind from Indian shops, for a sharper, smoky sauce.",
+      "Shake the pan instead of stirring with a spoon so the fish stays in whole pieces.",
+      "It's even better the next day: reheat gently without letting it boil."
+     ]
+    },
+    "fr": {
+     "title": "Meen curry, poisson au coco du Kerala",
+     "intro": "Poisson mijoté au lait de coco, acidulé au tamarin et parfumé aux feuilles de curry.",
+     "ing": [
+      "filets de poisson blanc ferme (cabillaud, merlu)",
+      "huile de coco",
+      "graines de moutarde noire",
+      "graines de fenugrec",
+      "feuilles de curry (épiceries indiennes)",
+      "oignon",
+      "gousses d'ail",
+      "gingembre frais",
+      "piments verts",
+      "tomate",
+      "curcuma",
+      "piment en poudre",
+      "coriandre en poudre",
+      "pâte de tamarin",
+      "eau",
+      "lait de coco",
+      "sel"
+     ],
+     "steps": [
+      "Coupe le poisson en morceaux de 5 cm, frotte-les de sel et d'une pincée de curcuma et laisse reposer.",
+      "Pendant ce temps, chauffe l'huile de coco dans une grande poêle, fais éclater moutarde et fenugrec, puis ajoute le curry.",
+      "Ajoute l'oignon émincé, l'ail et le gingembre hachés et les piments fendus ; cuis jusqu'à ce que l'oignon dore.",
+      "Baisse le feu, ajoute curcuma, piment et coriandre 1 minute, puis la tomate en dés jusqu'à ce qu'elle fonde.",
+      "Délaye le tamarin dans l'eau, verse-le avec la moitié du lait de coco, sale et laisse frémir.",
+      "Pose le poisson en une seule couche et cuis à feu doux sans remuer, en secouant la poêle de temps en temps.",
+      "Verse le reste du lait de coco et chauffe 2 minutes sans faire bouillir.",
+      "Éteins et laisse reposer à couvert : le poisson s'imprègne de sauce. Sers avec du riz blanc."
+     ],
+     "labels": [
+      "Poisson",
+      "Graines",
+      "Oignon",
+      "Tomate",
+      "Sauce",
+      "Cuisson",
+      "Coco",
+      "Repos"
+     ],
+     "tips": [
+      "Au Kerala, on utilise le kudampuli, tamarin de Malabar des épiceries indiennes : sauce plus acide et fumée.",
+      "Secoue la poêle au lieu de remuer à la cuillère : le poisson reste en beaux morceaux.",
+      "Il est encore meilleur le lendemain : réchauffe-le doucement, sans bouillir."
+     ]
+    },
+    "es": {
+     "title": "Meen curry, pescado al coco de Kerala",
+     "intro": "Pescado guisado en leche de coco, ácido de tamarindo y con aroma a hojas de curry.",
+     "ing": [
+      "filetes de pescado blanco firme (bacalao, merluza)",
+      "aceite de coco",
+      "semillas de mostaza negra",
+      "semillas de fenogreco",
+      "hojas de curry (tiendas indias)",
+      "cebolla",
+      "dientes de ajo",
+      "jengibre fresco",
+      "guindillas verdes",
+      "tomate",
+      "cúrcuma",
+      "guindilla molida",
+      "cilantro molido",
+      "pasta de tamarindo",
+      "agua",
+      "leche de coco",
+      "sal"
+     ],
+     "steps": [
+      "Corta el pescado en trozos de 5 cm, frótalo con sal y una pizca de cúrcuma y deja que tome sabor.",
+      "Mientras, calienta el aceite de coco en una sartén amplia, deja que estallen mostaza y fenogreco y añade el curry.",
+      "Agrega la cebolla en juliana, el ajo y el jengibre picados y las guindillas abiertas; cocina hasta que la cebolla se dore.",
+      "Baja el fuego, añade cúrcuma, guindilla y cilantro 1 minuto, y luego el tomate troceado hasta que se deshaga.",
+      "Disuelve el tamarindo en el agua, viértelo con la mitad de la leche de coco, sala y deja que hierva suave.",
+      "Coloca el pescado en una sola capa y cuécelo a fuego suave sin remover, moviendo la sartén de vez en cuando.",
+      "Vierte el resto de la leche de coco y calienta 2 minutos sin que hierva.",
+      "Apaga y deja reposar tapado: el pescado absorbe la salsa. Sirve con arroz blanco."
+     ],
+     "labels": [
+      "Pescado",
+      "Semillas",
+      "Sofrito",
+      "Tomate",
+      "Salsa",
+      "Cocción",
+      "Coco",
+      "Reposo"
+     ],
+     "tips": [
+      "En Kerala usan kudampuli, tamarindo de Malabar de tiendas indias: la salsa queda más ácida y ahumada.",
+      "Mueve la sartén en vez de remover con cuchara: el pescado no se rompe.",
+      "Al día siguiente está aún mejor: recaliéntalo despacio, sin que llegue a hervir."
+     ]
+    },
+    "de": {
+     "title": "Meen Curry, Fischcurry aus Kerala",
+     "intro": "Fisch, sanft in Kokosmilch gegart, mit Tamarinde gesäuert und mit Curryblättern.",
+     "ing": [
+      "feste weiße Fischfilets (Kabeljau, Seehecht)",
+      "Kokosöl",
+      "schwarze Senfsamen",
+      "Bockshornkleesamen",
+      "Curryblätter (Asialaden)",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "frischer Ingwer",
+      "grüne Chilischoten",
+      "Tomate",
+      "Kurkuma",
+      "Chilipulver",
+      "gemahlener Koriander",
+      "Tamarindenpaste",
+      "Wasser",
+      "Kokosmilch",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid den Fisch in 5 cm große Stücke, reib ihn mit Salz und einer Prise Kurkuma ein und lass ihn ziehen.",
+      "Erhitz inzwischen das Kokosöl in einer weiten Pfanne, lass Senf und Bockshornklee springen und gib die Curryblätter dazu.",
+      "Gib Zwiebelstreifen, gehackten Knoblauch und Ingwer und die halbierten Chilis dazu und brate, bis die Zwiebel golden ist.",
+      "Reduzier die Hitze, röste Kurkuma, Chili und Koriander 1 Minute, dann die Tomatenwürfel, bis sie zerfallen.",
+      "Löse die Tamarinde im Wasser auf, gieß sie mit der Hälfte der Kokosmilch an, salz und lass alles köcheln.",
+      "Leg den Fisch in einer Lage hinein und gare ihn sanft, ohne zu rühren; schwenk nur ab und zu die Pfanne.",
+      "Gieß die restliche Kokosmilch an und erwärm alles 2 Minuten, ohne dass es kocht.",
+      "Schalte den Herd aus und lass das Curry zugedeckt ruhen, damit der Fisch Sauce aufnimmt. Mit weißem Reis servieren."
+     ],
+     "labels": [
+      "Fisch",
+      "Samen",
+      "Zwiebel",
+      "Tomate",
+      "Sauce",
+      "Garen",
+      "Kokos",
+      "Ruhen"
+     ],
+     "tips": [
+      "In Kerala nimmt man Kudampuli, Malabar-Tamarinde aus dem indischen Laden: säuerlicher und rauchiger.",
+      "Schwenk die Pfanne statt mit dem Löffel zu rühren, dann bleibt der Fisch in ganzen Stücken.",
+      "Am nächsten Tag schmeckt es noch besser: sanft erwärmen, nicht kochen lassen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "palak-paneer",
+   "cat": "secondi",
+   "sub": "vegetali",
+   "servings": 4,
+   "minutes": 40,
+   "diff": 2,
+   "kcal": 360,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "origin": "IN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "paneer"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "spinach"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-chilies"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "clarified-butter"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "cumin-seeds"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-coriander"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "garam-masala"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "heavy-cream"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 120
+    },
+    {},
+    {
+     "timer": 180
+    },
+    {
+     "timer": 480
+    },
+    {
+     "timer": 240
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 120
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "spice"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Palak paneer, formaggio e spinaci",
+     "intro": "Cubetti di formaggio indiano dorati in una crema di spinaci verde brillante e speziata.",
+     "ing": [
+      "paneer (o halloumi)",
+      "spinaci freschi",
+      "peperoncino verde",
+      "acqua",
+      "ghee o burro chiarificato",
+      "semi di cumino",
+      "cipolla",
+      "spicchi d'aglio",
+      "zenzero fresco",
+      "pomodoro",
+      "coriandolo in polvere",
+      "garam masala",
+      "panna fresca",
+      "sale"
+     ],
+     "steps": [
+      "Lava gli spinaci e sbollentali 2 minuti in acqua salata, poi passali subito in acqua e ghiaccio.",
+      "Scolali, strizzali appena e frullali con il peperoncino e l'acqua fino a una crema liscia.",
+      "Taglia il paneer a cubi di 2 cm e dorali in 1 cucchiaio di ghee, poi tienili in acqua tiepida perché restino morbidi.",
+      "Nella stessa padella scalda il ghee rimasto, fai sfrigolare il cumino e cuoci la cipolla tritata finché è dorata.",
+      "Aggiungi aglio e zenzero grattugiati, poi il pomodoro a pezzi e il coriandolo; cuoci finché il pomodoro si sfalda.",
+      "Versa la crema di spinaci, sala (poco se usi halloumi) e fai sobbollire; allunga con acqua se è troppo densa.",
+      "Unisci il paneer scolato, il garam masala e la panna, scalda 2 minuti e servi con naan o riso."
+     ],
+     "labels": [
+      "Spinaci",
+      "",
+      "Paneer",
+      "Cipolla",
+      "Pomodoro",
+      "Crema",
+      "Finire"
+     ],
+     "tips": [
+      "Il ghiaccio e la cottura breve dopo il frullatore tengono gli spinaci verde brillante.",
+      "Versione vegana: tofu compatto al posto del paneer, olio al posto del ghee e panna di cocco.",
+      "Alla fine sbriciola 1 cucchiaino di kasuri methi, fieno greco secco dei negozi indiani."
+     ]
+    },
+    "en": {
+     "title": "Palak paneer",
+     "intro": "Golden cubes of Indian cheese in a bright green, gently spiced spinach sauce.",
+     "ing": [
+      "paneer (or halloumi)",
+      "fresh spinach",
+      "green chili",
+      "water",
+      "ghee or clarified butter",
+      "cumin seeds",
+      "onion",
+      "garlic cloves",
+      "fresh ginger",
+      "tomato",
+      "ground coriander",
+      "garam masala",
+      "heavy cream",
+      "salt"
+     ],
+     "steps": [
+      "Wash the spinach and blanch it for 2 minutes in salted boiling water, then plunge it into ice water.",
+      "Drain, squeeze lightly and blend with the chili and water to a smooth purée.",
+      "Cut the paneer into 2 cm cubes and brown them in 1 tbsp ghee, then keep them in warm water so they stay soft.",
+      "In the same pan heat the remaining ghee, let the cumin sizzle and cook the chopped onion until golden.",
+      "Add the grated garlic and ginger, then the chopped tomato and coriander; cook until the tomato breaks down.",
+      "Pour in the spinach purée, salt (lightly if using halloumi) and simmer; add water if it's too thick.",
+      "Add the drained paneer, garam masala and cream, heat for 2 minutes and serve with naan or rice."
+     ],
+     "labels": [
+      "Spinach",
+      "",
+      "Paneer",
+      "Onion",
+      "Tomato",
+      "Simmer",
+      "Finish"
+     ],
+     "tips": [
+      "The ice bath and a short simmer after blending keep the spinach bright green.",
+      "Vegan version: firm tofu instead of paneer, oil instead of ghee and coconut cream.",
+      "Crumble 1 tsp kasuri methi, dried fenugreek leaves from Indian shops, over at the end."
+     ]
+    },
+    "fr": {
+     "title": "Palak paneer",
+     "intro": "Dés de fromage indien dorés dans une crème d'épinards vert vif, doucement épicée.",
+     "ing": [
+      "paneer (ou halloumi)",
+      "épinards frais",
+      "piment vert",
+      "eau",
+      "ghee ou beurre clarifié",
+      "graines de cumin",
+      "oignon",
+      "gousses d'ail",
+      "gingembre frais",
+      "tomate",
+      "coriandre en poudre",
+      "garam masala",
+      "crème entière",
+      "sel"
+     ],
+     "steps": [
+      "Lave les épinards et blanchis-les 2 minutes à l'eau bouillante salée, puis plonge-les dans de l'eau glacée.",
+      "Égoutte-les, presse-les légèrement et mixe-les avec le piment et l'eau en une purée lisse.",
+      "Coupe le paneer en dés de 2 cm et dore-les dans 1 c. à soupe de ghee, puis garde-les dans de l'eau tiède pour qu'ils restent moelleux.",
+      "Dans la même poêle, chauffe le reste de ghee, fais grésiller le cumin et cuis l'oignon haché jusqu'à ce qu'il dore.",
+      "Ajoute l'ail et le gingembre râpés, puis la tomate en dés et la coriandre ; cuis jusqu'à ce que la tomate fonde.",
+      "Verse la purée d'épinards, sale (peu avec du halloumi) et laisse frémir ; allonge d'eau si c'est trop épais.",
+      "Ajoute le paneer égoutté, le garam masala et la crème, chauffe 2 minutes et sers avec des naans ou du riz."
+     ],
+     "labels": [
+      "Épinards",
+      "",
+      "Paneer",
+      "Oignon",
+      "Tomate",
+      "Mijoter",
+      "Finition"
+     ],
+     "tips": [
+      "L'eau glacée et une cuisson courte après le mixage gardent les épinards bien verts.",
+      "Version végane : tofu ferme à la place du paneer, huile à la place du ghee et crème de coco.",
+      "À la fin, émiette 1 c. à café de kasuri methi, fenugrec séché des épiceries indiennes."
+     ]
+    },
+    "es": {
+     "title": "Palak paneer",
+     "intro": "Dados de queso indio dorados en una crema de espinacas verde intenso y especiada.",
+     "ing": [
+      "paneer (o halloumi)",
+      "espinacas frescas",
+      "guindilla verde",
+      "agua",
+      "ghee o mantequilla clarificada",
+      "semillas de comino",
+      "cebolla",
+      "dientes de ajo",
+      "jengibre fresco",
+      "tomate",
+      "cilantro molido",
+      "garam masala",
+      "nata para cocinar",
+      "sal"
+     ],
+     "steps": [
+      "Lava las espinacas y escáldalas 2 minutos en agua hirviendo con sal; pásalas enseguida a agua con hielo.",
+      "Escúrrelas, apriétalas un poco y tritúralas con la guindilla y el agua hasta tener una crema fina.",
+      "Corta el paneer en dados de 2 cm y dóralos en 1 cucharada de ghee; luego déjalos en agua tibia para que sigan tiernos.",
+      "En la misma sartén calienta el resto del ghee, deja chisporrotear el comino y sofríe la cebolla picada hasta dorarla.",
+      "Añade el ajo y el jengibre rallados, luego el tomate troceado y el cilantro; cocina hasta que el tomate se deshaga.",
+      "Vierte la crema de espinacas, sala (poco si usas halloumi) y deja hervir suave; aclara con agua si está espesa.",
+      "Añade el paneer escurrido, el garam masala y la nata, calienta 2 minutos y sirve con naan o arroz."
+     ],
+     "labels": [
+      "Espinacas",
+      "",
+      "Paneer",
+      "Cebolla",
+      "Tomate",
+      "Crema",
+      "Terminar"
+     ],
+     "tips": [
+      "El agua con hielo y la cocción corta tras triturar mantienen las espinacas verde intenso.",
+      "Versión vegana: tofu firme en vez de paneer, aceite en vez de ghee y crema de coco.",
+      "Al final desmenuza 1 cucharadita de kasuri methi, fenogreco seco de tiendas indias."
+     ]
+    },
+    "de": {
+     "title": "Palak Paneer",
+     "intro": "Goldbraune Würfel indischen Käses in leuchtend grüner, mild gewürzter Spinatsauce.",
+     "ing": [
+      "Paneer (oder Halloumi)",
+      "frischer Spinat",
+      "grüne Chilischote",
+      "Wasser",
+      "Ghee oder Butterschmalz",
+      "Kreuzkümmelsamen",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "frischer Ingwer",
+      "Tomate",
+      "gemahlener Koriander",
+      "Garam Masala",
+      "Sahne",
+      "Salz"
+     ],
+     "steps": [
+      "Wasch den Spinat, blanchier ihn 2 Minuten in kochendem Salzwasser und schreck ihn sofort in Eiswasser ab.",
+      "Gieß ihn ab, drück ihn leicht aus und püriere ihn mit Chili und Wasser fein.",
+      "Schneid den Paneer in 2 cm große Würfel, brate sie in 1 EL Ghee goldbraun und leg sie in lauwarmes Wasser, damit sie weich bleiben.",
+      "Erhitz in derselben Pfanne das restliche Ghee, lass den Kreuzkümmel brutzeln und brate die gehackte Zwiebel goldbraun.",
+      "Gib geriebenen Knoblauch und Ingwer dazu, dann Tomatenwürfel und Koriander, und koch alles, bis die Tomate zerfällt.",
+      "Gib das Spinatpüree dazu, salz es (wenig bei Halloumi) und lass es köcheln; bei Bedarf mit Wasser verdünnen.",
+      "Rühr den abgetropften Paneer, Garam Masala und Sahne unter, erwärm alles 2 Minuten und serviere mit Naan oder Reis."
+     ],
+     "labels": [
+      "Spinat",
+      "",
+      "Paneer",
+      "Zwiebel",
+      "Tomate",
+      "Köcheln",
+      "Fertig"
+     ],
+     "tips": [
+      "Eiswasser und kurzes Köcheln nach dem Pürieren halten den Spinat leuchtend grün.",
+      "Vegan: fester Tofu statt Paneer, Öl statt Ghee und Kokoscreme statt Sahne.",
+      "Zum Schluss 1 TL Kasuri Methi darüberbröseln, getrockneten Bockshornklee aus dem indischen Laden."
+     ]
+    }
+   }
+  },
+  {
+   "id": "samosa-patate-piselli",
+   "cat": "antipasti",
+   "sub": "finger",
+   "servings": 4,
+   "minutes": 95,
+   "diff": 2,
+   "kcal": 470,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "IN",
+   "alcohol": false,
+   "methods": [
+    "fry",
+    "airfryer",
+    "oven"
+   ],
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 600,
+     "u": "g",
+     "k": "floury-potatoes"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "frozen-peas"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "cumin-seeds"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "coriander-seeds"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "green-chilies"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "garam-masala"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "chili-powder"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "lemons"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    },
+    {
+     "q": 1000,
+     "u": "ml",
+     "k": "peanut-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {
+     "timer": 1500
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 900
+    },
+    {},
+    {},
+    {
+     "timer": 720,
+     "alt": {
+      "airfryer": {
+       "timer": 840
+      },
+      "oven": {
+       "timer": 1500
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "spice"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Samosa di patate e piselli",
+     "intro": "Sfoglia croccante ripiena di patate speziate e piselli: lo snack di strada indiano.",
+     "ing": [
+      "farina 00",
+      "olio di semi (per l'impasto e il ripieno)",
+      "acqua fredda",
+      "patate farinose",
+      "piselli surgelati",
+      "semi di cumino",
+      "semi di coriandolo pestati",
+      "zenzero fresco",
+      "peperoncini verdi",
+      "garam masala",
+      "peperoncino in polvere",
+      "succo di limone",
+      "coriandolo fresco",
+      "olio di semi di arachide per friggere",
+      "sale"
+     ],
+     "steps": [
+      "Mescola farina, 1 cucchiaino di sale e 3 cucchiai d'olio, strofinando con le dita finché, stretta, resta compatta.",
+      "Aggiungi l'acqua poco alla volta e impasta 3 minuti fino a un panetto sodo; coprilo e lascialo riposare.",
+      "Intanto lessa le patate intere in acqua salata finché sono tenere; sbucciale e sbriciolale grossolanamente.",
+      "In padella scalda l'olio rimasto, fai sfrigolare cumino e coriandolo, poi zenzero, peperoncini tritati e piselli.",
+      "Unisci patate, garam masala, peperoncino, limone, sale e coriandolo; mescola e lascia raffreddare del tutto.",
+      "Dividi l'impasto in 6 palline, stendile in ovali sottili di 18 cm e tagliali a metà.",
+      "Forma un cono con ogni mezzaluna sigillando il lato dritto con acqua, riempilo con 2 cucchiai di ripieno e chiudi bene.",
+      "Scalda l'olio solo a 150 °C e friggi i samosa a fuoco basso, girandoli, finché sono dorati e croccanti.",
+      "Scolali su carta assorbente e servili tiepidi con chutney di menta o di tamarindo."
+     ],
+     "labels": [
+      "",
+      "Riposo",
+      "Patate",
+      "Piselli",
+      "Raffreddare",
+      "",
+      "",
+      "Frittura",
+      ""
+     ],
+     "alt": {
+      "7": {
+       "airfryer": "Spennella i samosa d'olio e cuocili in friggitrice ad aria a 180 °C per 14 minuti, girandoli a metà.",
+       "oven": "Spennellali d'olio e cuocili su teglia con carta forno a 200 °C per 25 minuti, girandoli a metà."
+      }
+     },
+     "tips": [
+      "Olio a 150 °C, non di più: la sfoglia si riempie di bollicine minuscole e resta croccante, non unta.",
+      "Per il sapore da bancarella metti ½ cucchiaino di ajwain nell'impasto e amchur al posto del limone.",
+      "Si congelano crudi su un vassoio: friggili ancora surgelati, con 3 minuti in più."
+     ]
+    },
+    "en": {
+     "title": "Potato and pea samosas",
+     "intro": "Crisp pastry triangles filled with spiced potato and peas, India's favourite street snack.",
+     "ing": [
+      "all-purpose flour",
+      "sunflower oil (dough and filling)",
+      "cold water",
+      "floury potatoes",
+      "frozen peas",
+      "cumin seeds",
+      "coriander seeds, crushed",
+      "fresh ginger",
+      "green chilies",
+      "garam masala",
+      "chili powder",
+      "lemon juice",
+      "fresh cilantro",
+      "peanut oil for frying",
+      "salt"
+     ],
+     "steps": [
+      "Mix the flour, 1 tsp salt and 3 tbsp oil, rubbing with your fingertips until it holds together when squeezed.",
+      "Add the water little by little and knead for 3 minutes into a firm dough; cover and let it rest.",
+      "Meanwhile boil the whole potatoes in salted water until tender; peel and crumble them roughly.",
+      "Heat the remaining oil in a pan, let the cumin and coriander sizzle, then add ginger, chopped chilies and peas.",
+      "Add the potatoes, garam masala, chili, lemon juice, salt and cilantro; mix and let it cool completely.",
+      "Divide the dough into 6 balls, roll each into a thin 18 cm oval and cut it in half.",
+      "Shape each half into a cone, sealing the straight edge with water, fill with 2 tbsp filling and press it shut.",
+      "Heat the oil to just 150 °C and fry the samosas over low heat, turning, until golden and crisp.",
+      "Drain on paper towels and serve warm with mint or tamarind chutney."
+     ],
+     "labels": [
+      "",
+      "Rest",
+      "Potatoes",
+      "Peas",
+      "Cool",
+      "",
+      "",
+      "Fry",
+      ""
+     ],
+     "alt": {
+      "7": {
+       "airfryer": "Brush the samosas with oil and air-fry at 180 °C for 14 minutes, turning halfway.",
+       "oven": "Brush with oil and bake on a lined tray at 200 °C for 25 minutes, turning halfway."
+      }
+     },
+     "tips": [
+      "Keep the oil at 150 °C, no hotter: the pastry blisters into tiny bubbles and stays crisp, not greasy.",
+      "For a street-stall flavour, add ½ tsp ajwain to the dough and use amchur instead of lemon.",
+      "Freeze them uncooked on a tray and fry from frozen, adding 3 minutes."
+     ]
+    },
+    "fr": {
+     "title": "Samoussas pommes de terre et petits pois",
+     "intro": "Triangles de pâte croustillante farcis de pommes de terre épicées et de petits pois.",
+     "ing": [
+      "farine T55",
+      "huile de tournesol (pâte et farce)",
+      "eau froide",
+      "pommes de terre farineuses",
+      "petits pois surgelés",
+      "graines de cumin",
+      "graines de coriandre écrasées",
+      "gingembre frais",
+      "piments verts",
+      "garam masala",
+      "piment en poudre",
+      "jus de citron",
+      "coriandre fraîche",
+      "huile d'arachide pour la friture",
+      "sel"
+     ],
+     "steps": [
+      "Mélange la farine, 1 c. à café de sel et 3 c. à soupe d'huile du bout des doigts, jusqu'à ce que ça se tienne en serrant.",
+      "Ajoute l'eau peu à peu et pétris 3 minutes pour obtenir une pâte ferme ; couvre et laisse reposer.",
+      "Pendant ce temps, cuis les pommes de terre entières à l'eau salée jusqu'à ce qu'elles soient tendres ; épluche-les et écrase-les grossièrement.",
+      "Chauffe le reste d'huile dans une poêle, fais grésiller cumin et coriandre, puis ajoute gingembre, piments hachés et petits pois.",
+      "Ajoute pommes de terre, garam masala, piment, citron, sel et coriandre ; mélange et laisse refroidir complètement.",
+      "Divise la pâte en 6 boules, étale chacune en un ovale fin de 18 cm et coupe-le en deux.",
+      "Forme un cône avec chaque demi-ovale en collant le bord droit à l'eau, garnis de 2 c. à soupe de farce et ferme bien.",
+      "Chauffe l'huile à 150 °C seulement et fais frire les samoussas à feu doux, en les retournant, jusqu'à ce qu'ils soient dorés.",
+      "Égoutte-les sur du papier absorbant et sers-les tièdes avec un chutney à la menthe ou au tamarin."
+     ],
+     "labels": [
+      "",
+      "Repos",
+      "Pommes de terre",
+      "Petits pois",
+      "Refroidir",
+      "",
+      "",
+      "Friture",
+      ""
+     ],
+     "alt": {
+      "7": {
+       "airfryer": "Badigeonne les samoussas d'huile et cuis-les à la friteuse à air à 180 °C 14 minutes, en les retournant à mi-cuisson.",
+       "oven": "Badigeonne-les d'huile et enfourne-les sur papier cuisson à 200 °C 25 minutes, en les retournant à mi-cuisson."
+      }
+     },
+     "tips": [
+      "Huile à 150 °C, pas plus : la pâte se couvre de minuscules bulles et reste croustillante, pas grasse.",
+      "Pour le goût des stands de rue, ajoute ½ c. à café d'ajwain à la pâte et de l'amchur au lieu du citron.",
+      "Congèle-les crus sur un plateau et fais-les frire encore surgelés, 3 minutes de plus."
+     ]
+    },
+    "es": {
+     "title": "Samosas de patata y guisantes",
+     "intro": "Masa crujiente rellena de patata especiada y guisantes: el picoteo callejero indio.",
+     "ing": [
+      "harina de trigo",
+      "aceite de girasol (masa y relleno)",
+      "agua fría",
+      "patatas harinosas",
+      "guisantes congelados",
+      "semillas de comino",
+      "semillas de cilantro machacadas",
+      "jengibre fresco",
+      "guindillas verdes",
+      "garam masala",
+      "guindilla molida",
+      "zumo de limón",
+      "cilantro fresco",
+      "aceite de cacahuete para freír",
+      "sal"
+     ],
+     "steps": [
+      "Mezcla la harina, 1 cucharadita de sal y 3 cucharadas de aceite frotando con los dedos hasta que, al apretar, quede compacta.",
+      "Añade el agua poco a poco y amasa 3 minutos hasta tener una masa firme; tápala y déjala reposar.",
+      "Mientras, cuece las patatas enteras en agua con sal hasta que estén tiernas; pélalas y desmenúzalas.",
+      "Calienta el resto del aceite en una sartén, deja chisporrotear comino y cilantro y añade jengibre, guindillas picadas y guisantes.",
+      "Agrega las patatas, garam masala, guindilla, limón, sal y cilantro; mezcla y deja enfriar del todo.",
+      "Divide la masa en 6 bolas, estira cada una en un óvalo fino de 18 cm y córtalo por la mitad.",
+      "Forma un cono con cada mitad sellando el lado recto con agua, rellénalo con 2 cucharadas y ciérralo bien.",
+      "Calienta el aceite solo a 150 °C y fríe las samosas a fuego bajo, dándoles la vuelta, hasta que estén doradas.",
+      "Escúrrelas sobre papel de cocina y sírvelas templadas con chutney de menta o de tamarindo."
+     ],
+     "labels": [
+      "",
+      "Reposo",
+      "Patatas",
+      "Guisantes",
+      "Enfriar",
+      "",
+      "",
+      "Fritura",
+      ""
+     ],
+     "alt": {
+      "7": {
+       "airfryer": "Pinta las samosas con aceite y cocínalas en freidora de aire a 180 °C 14 minutos, girándolas a mitad.",
+       "oven": "Píntalas con aceite y hornéalas sobre papel a 200 °C 25 minutos, dándoles la vuelta a mitad."
+      }
+     },
+     "tips": [
+      "Aceite a 150 °C, no más: la masa se llena de burbujitas y queda crujiente, nada aceitosa.",
+      "Para el sabor de puesto callejero, pon ½ cucharadita de ajwain en la masa y amchur en vez de limón.",
+      "Congélalas crudas en una bandeja y fríelas sin descongelar, 3 minutos más."
+     ]
+    },
+    "de": {
+     "title": "Samosas mit Kartoffeln und Erbsen",
+     "intro": "Knusprige Teigtaschen mit würzigen Kartoffeln und Erbsen, Indiens liebster Straßensnack.",
+     "ing": [
+      "Weizenmehl Type 405",
+      "Sonnenblumenöl (Teig und Füllung)",
+      "kaltes Wasser",
+      "mehligkochende Kartoffeln",
+      "TK-Erbsen",
+      "Kreuzkümmelsamen",
+      "Koriandersamen, zerstoßen",
+      "frischer Ingwer",
+      "grüne Chilischoten",
+      "Garam Masala",
+      "Chilipulver",
+      "Zitronensaft",
+      "frischer Koriander",
+      "Erdnussöl zum Frittieren",
+      "Salz"
+     ],
+     "steps": [
+      "Verreib Mehl, 1 TL Salz und 3 EL Öl mit den Fingerspitzen, bis die Mischung beim Zusammendrücken hält.",
+      "Gib das Wasser nach und nach dazu und knete 3 Minuten einen festen Teig; deck ihn ab und lass ihn ruhen.",
+      "Koch inzwischen die ganzen Kartoffeln in Salzwasser weich, pell sie und zerdrück sie grob.",
+      "Erhitz das restliche Öl in einer Pfanne, lass Kreuzkümmel und Koriander brutzeln und gib Ingwer, gehackte Chilis und Erbsen dazu.",
+      "Misch Kartoffeln, Garam Masala, Chili, Zitronensaft, Salz und Koriander unter und lass alles komplett abkühlen.",
+      "Teil den Teig in 6 Kugeln, roll jede zu einem dünnen Oval von 18 cm aus und halbier es.",
+      "Form aus jeder Hälfte eine Tüte, kleb die gerade Kante mit Wasser zu, füll 2 EL Füllung ein und drück sie fest zu.",
+      "Erhitz das Öl nur auf 150 °C und frittiere die Samosas bei kleiner Hitze unter Wenden goldbraun und knusprig.",
+      "Lass sie auf Küchenpapier abtropfen und serviere sie warm mit Minz- oder Tamarinden-Chutney."
+     ],
+     "labels": [
+      "",
+      "Ruhen",
+      "Kartoffeln",
+      "Erbsen",
+      "Abkühlen",
+      "",
+      "",
+      "Frittieren",
+      ""
+     ],
+     "alt": {
+      "7": {
+       "airfryer": "Bestreich die Samosas mit Öl und gare sie in der Heißluftfritteuse bei 180 °C 14 Minuten, nach der Hälfte wenden.",
+       "oven": "Bestreich sie mit Öl und back sie auf einem Blech mit Backpapier bei 200 °C 25 Minuten, nach der Hälfte wenden."
+      }
+     },
+     "tips": [
+      "Öl auf 150 °C, nicht heißer: Der Teig wirft winzige Bläschen und bleibt knusprig statt fettig.",
+      "Für Garküchen-Geschmack ½ TL Ajwain in den Teig und Amchur statt Zitrone verwenden.",
+      "Roh auf einem Tablett einfrieren und gefroren frittieren, dann 3 Minuten länger."
+     ]
+    }
+   }
+  },
+  {
+   "id": "jeera-rice",
+   "cat": "primi",
+   "sub": "riso",
+   "servings": 4,
+   "minutes": 45,
+   "diff": 1,
+   "kcal": 330,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [],
+   "origin": "IN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 300,
+     "u": "g",
+     "k": "basmati-rice"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "clarified-butter"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "cumin-seeds"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "cardamom-pods"
+    },
+    {
+     "q": 500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 40
+    },
+    {
+     "timer": 120
+    },
+    {},
+    {
+     "timer": 720
+    },
+    {
+     "timer": 300
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "rogan-josh"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Jeera rice, riso basmati al cumino",
+     "intro": "Basmati a chicchi lunghi e separati, profumato di cumino tostato nel ghee.",
+     "ing": [
+      "riso basmati",
+      "ghee o burro chiarificato",
+      "semi di cumino",
+      "foglia di alloro",
+      "baccelli di cardamomo",
+      "acqua bollente",
+      "sale",
+      "coriandolo fresco"
+     ],
+     "steps": [
+      "Sciacqua il riso in più acque finché esce limpida, poi lascialo in ammollo in acqua fredda.",
+      "Scolalo bene. Scalda il ghee in una pentola e fai sfrigolare cumino, alloro e cardamomo finché il cumino scurisce.",
+      "Aggiungi il riso e mescola piano per 2 minuti, finché i chicchi sono lucidi, senza romperli.",
+      "Versa l'acqua bollente e il sale e porta a bollore senza coperchio.",
+      "Copri bene e cuoci al minimo senza mai sollevare il coperchio.",
+      "Spegni e lascia riposare coperto, poi sgrana con una forchetta e completa con coriandolo."
+     ],
+     "labels": [
+      "Ammollo",
+      "Spezie",
+      "Tostare",
+      "",
+      "Cottura",
+      "Riposo"
+     ],
+     "tips": [
+      "Dopo aver chiuso il coperchio non mescolare più: i chicchi restano lunghi e separati.",
+      "Con olio di semi al posto del ghee diventa vegano.",
+      "Accompagna il rogan josh, il dal o qualsiasi curry con molto sugo."
+     ]
+    },
+    "en": {
+     "title": "Jeera rice, cumin basmati",
+     "intro": "Long, separate grains of basmati scented with cumin toasted in ghee.",
+     "ing": [
+      "basmati rice",
+      "ghee or clarified butter",
+      "cumin seeds",
+      "bay leaf",
+      "cardamom pods",
+      "boiling water",
+      "salt",
+      "fresh cilantro"
+     ],
+     "steps": [
+      "Rinse the rice in several changes of water until it runs clear, then soak it in cold water.",
+      "Drain well. Heat the ghee in a pot and let the cumin, bay leaf and cardamom sizzle until the cumin darkens.",
+      "Add the rice and stir gently for 2 minutes until the grains look glossy, without breaking them.",
+      "Pour in the boiling water and salt and bring back to the boil uncovered.",
+      "Cover tightly and cook on the lowest heat without lifting the lid.",
+      "Turn off the heat and let it rest covered, then fluff with a fork and scatter with cilantro."
+     ],
+     "labels": [
+      "Soak",
+      "Spices",
+      "Toast",
+      "",
+      "Cook",
+      "Rest"
+     ],
+     "tips": [
+      "Once the lid is on, don't stir again: the grains stay long and separate.",
+      "Use sunflower oil instead of ghee to make it vegan.",
+      "Serve with rogan josh, dal or any curry with plenty of sauce."
+     ]
+    },
+    "fr": {
+     "title": "Jeera rice, riz basmati au cumin",
+     "intro": "Basmati aux grains longs et détachés, parfumé au cumin grillé dans le ghee.",
+     "ing": [
+      "riz basmati",
+      "ghee ou beurre clarifié",
+      "graines de cumin",
+      "feuille de laurier",
+      "gousses de cardamome",
+      "eau bouillante",
+      "sel",
+      "coriandre fraîche"
+     ],
+     "steps": [
+      "Rince le riz dans plusieurs eaux jusqu'à ce qu'elle soit claire, puis laisse-le tremper dans l'eau froide.",
+      "Égoutte-le bien. Chauffe le ghee dans une casserole et fais grésiller cumin, laurier et cardamome jusqu'à ce que le cumin fonce.",
+      "Ajoute le riz et remue doucement 2 minutes, jusqu'à ce que les grains brillent, sans les casser.",
+      "Verse l'eau bouillante et le sel et porte à ébullition sans couvercle.",
+      "Couvre bien et cuis à feu minimum sans jamais soulever le couvercle.",
+      "Éteins et laisse reposer à couvert, puis égrène à la fourchette et parsème de coriandre."
+     ],
+     "labels": [
+      "Trempage",
+      "Épices",
+      "Nacrer",
+      "",
+      "Cuisson",
+      "Repos"
+     ],
+     "tips": [
+      "Une fois le couvercle posé, ne remue plus : les grains restent longs et détachés.",
+      "Avec de l'huile de tournesol au lieu du ghee, il devient végan.",
+      "Il accompagne le rogan josh, le dal ou tout curry bien en sauce."
+     ]
+    },
+    "es": {
+     "title": "Jeera rice, arroz basmati al comino",
+     "intro": "Basmati de granos largos y sueltos, perfumado con comino tostado en ghee.",
+     "ing": [
+      "arroz basmati",
+      "ghee o mantequilla clarificada",
+      "semillas de comino",
+      "hoja de laurel",
+      "vainas de cardamomo",
+      "agua hirviendo",
+      "sal",
+      "cilantro fresco"
+     ],
+     "steps": [
+      "Lava el arroz en varias aguas hasta que salga clara y déjalo en remojo en agua fría.",
+      "Escúrrelo bien. Calienta el ghee en una olla y deja chisporrotear comino, laurel y cardamomo hasta que el comino se oscurezca.",
+      "Añade el arroz y remueve con suavidad 2 minutos, hasta que los granos brillen, sin romperlos.",
+      "Vierte el agua hirviendo y la sal y lleva a ebullición sin tapa.",
+      "Tapa bien y cuece a fuego mínimo sin levantar nunca la tapa.",
+      "Apaga y deja reposar tapado; luego suelta los granos con un tenedor y añade cilantro."
+     ],
+     "labels": [
+      "Remojo",
+      "Especias",
+      "Nacarar",
+      "",
+      "Cocción",
+      "Reposo"
+     ],
+     "tips": [
+      "Una vez tapado, no remuevas más: los granos quedan largos y sueltos.",
+      "Con aceite de girasol en lugar de ghee es vegano.",
+      "Acompaña el rogan josh, el dal o cualquier curry con mucha salsa."
+     ]
+    },
+    "de": {
+     "title": "Jeera Rice, Basmati mit Kreuzkümmel",
+     "intro": "Lockerer Basmati mit langen Körnern, duftend nach in Ghee geröstetem Kreuzkümmel.",
+     "ing": [
+      "Basmatireis",
+      "Ghee oder Butterschmalz",
+      "Kreuzkümmelsamen",
+      "Lorbeerblatt",
+      "Kardamomkapseln",
+      "kochendes Wasser",
+      "Salz",
+      "frischer Koriander"
+     ],
+     "steps": [
+      "Wasch den Reis in mehreren Wassern, bis es klar bleibt, und weich ihn in kaltem Wasser ein.",
+      "Lass ihn gut abtropfen. Erhitz das Ghee in einem Topf und lass Kreuzkümmel, Lorbeer und Kardamom brutzeln, bis der Kümmel dunkler wird.",
+      "Gib den Reis dazu und rühr ihn 2 Minuten vorsichtig um, bis die Körner glänzen, ohne sie zu brechen.",
+      "Gieß das kochende Wasser an, salz und bring alles ohne Deckel wieder zum Kochen.",
+      "Deck den Topf fest zu und gare den Reis auf kleinster Stufe, ohne den Deckel zu heben.",
+      "Schalte den Herd aus, lass ihn zugedeckt ruhen, lockere ihn mit einer Gabel und streu Koriander darüber."
+     ],
+     "labels": [
+      "Einweichen",
+      "Gewürze",
+      "Anrösten",
+      "",
+      "Garen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Ist der Deckel einmal drauf, nicht mehr rühren: Die Körner bleiben lang und locker.",
+      "Mit Sonnenblumenöl statt Ghee wird er vegan.",
+      "Passt zu Rogan Josh, Dal oder jedem Curry mit viel Sauce."
+     ]
+    }
+   }
+  },
+  {
+   "id": "gulab-jamun",
+   "cat": "dolci",
+   "sub": "cucchiaio",
+   "servings": 6,
+   "minutes": 110,
+   "diff": 2,
+   "kcal": 360,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "festive",
+    "party"
+   ],
+   "months": [],
+   "origin": "IN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 300,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 350,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "cardamom-pods"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "saffron"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "rose-water"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "milk-powder"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "baking-soda"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "clarified-butter"
+    },
+    {
+     "q": 70,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 800,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "pistachios"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 360
+    },
+    {},
+    {},
+    {
+     "timer": 600
+    },
+    {},
+    {
+     "timer": 480
+    },
+    {
+     "timer": 3600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Gulab jamun, palline allo sciroppo",
+     "intro": "Palline di latte fritte piano e lasciate gonfiare in uno sciroppo al cardamomo e rosa.",
+     "ing": [
+      "zucchero",
+      "acqua",
+      "baccelli di cardamomo",
+      "zafferano in pistilli",
+      "acqua di rose",
+      "latte in polvere intero",
+      "farina 00",
+      "bicarbonato",
+      "ghee o burro chiarificato",
+      "latte intero",
+      "olio di semi di girasole per friggere",
+      "pistacchi tritati"
+     ],
+     "steps": [
+      "In un pentolino porta a bollore zucchero, acqua, cardamomo schiacciato e zafferano, poi fai sobbollire finché è appena appiccicoso.",
+      "Spegni, aggiungi l'acqua di rose e tieni lo sciroppo al caldo.",
+      "In una ciotola mescola latte in polvere, farina e bicarbonato, poi strofina dentro il ghee con le dita.",
+      "Aggiungi il latte un cucchiaio alla volta e mescola senza lavorare troppo: deve venire un impasto morbido. Fallo riposare coperto.",
+      "Ungiti le mani e forma circa 20 palline lisce di 2,5 cm, senza crepe.",
+      "Scalda l'olio a 140 °C e friggi le palline a fuoco basso, muovendo l'olio, finché sono marrone scuro uniforme.",
+      "Scolale e mettile subito, calde, nello sciroppo tiepido. Lasciale gonfiare almeno 1 ora.",
+      "Servile tiepide o a temperatura ambiente con un po' di sciroppo e pistacchi tritati."
+     ],
+     "labels": [
+      "Sciroppo",
+      "",
+      "",
+      "Riposo",
+      "",
+      "Frittura",
+      "Ammollo",
+      ""
+     ],
+     "tips": [
+      "Se l'olio è troppo caldo fuori scuriscono e dentro restano crude: devono cuocere piano e gonfiarsi.",
+      "Calde con una pallina di gelato alla vaniglia sono il dessert delle feste indiane.",
+      "In frigo nello sciroppo durano 4 giorni: scaldale 20 secondi al microonde prima di servirle."
+     ]
+    },
+    "en": {
+     "title": "Gulab jamun",
+     "intro": "Milk dough balls fried slowly and left to swell in a cardamom and rose syrup.",
+     "ing": [
+      "sugar",
+      "water",
+      "cardamom pods",
+      "saffron threads",
+      "rose water",
+      "whole milk powder",
+      "all-purpose flour",
+      "baking soda",
+      "ghee or clarified butter",
+      "whole milk",
+      "sunflower oil for frying",
+      "chopped pistachios"
+     ],
+     "steps": [
+      "Bring the sugar, water, crushed cardamom and saffron to the boil in a small pan, then simmer until just slightly sticky.",
+      "Take off the heat, stir in the rose water and keep the syrup warm.",
+      "In a bowl mix the milk powder, flour and baking soda, then rub in the ghee with your fingertips.",
+      "Add the milk a spoonful at a time and mix without overworking into a soft dough. Cover and let it rest.",
+      "Grease your hands and roll about 20 smooth 2.5 cm balls with no cracks.",
+      "Heat the oil to 140 °C and fry the balls over low heat, swirling the oil, until evenly dark brown.",
+      "Drain and drop them, still hot, into the warm syrup. Let them soak and swell for at least 1 hour.",
+      "Serve warm or at room temperature with a little syrup and chopped pistachios."
+     ],
+     "labels": [
+      "Syrup",
+      "",
+      "",
+      "Rest",
+      "",
+      "Fry",
+      "Soak",
+      ""
+     ],
+     "tips": [
+      "If the oil is too hot they darken outside and stay raw inside: they need to cook slowly and puff up.",
+      "Warm with a scoop of vanilla ice cream, they're a classic Indian festive dessert.",
+      "They keep 4 days in the fridge in their syrup: warm for 20 seconds in the microwave."
+     ]
+    },
+    "fr": {
+     "title": "Gulab jamun",
+     "intro": "Boulettes de lait frites doucement puis gonflées dans un sirop cardamome et rose.",
+     "ing": [
+      "sucre",
+      "eau",
+      "gousses de cardamome",
+      "pistils de safran",
+      "eau de rose",
+      "lait entier en poudre",
+      "farine T55",
+      "bicarbonate de soude",
+      "ghee ou beurre clarifié",
+      "lait entier",
+      "huile de tournesol pour la friture",
+      "pistaches concassées"
+     ],
+     "steps": [
+      "Porte à ébullition sucre, eau, cardamome écrasée et safran dans une petite casserole, puis laisse frémir jusqu'à ce que ce soit à peine collant.",
+      "Hors du feu, ajoute l'eau de rose et garde le sirop au chaud.",
+      "Dans un bol, mélange lait en poudre, farine et bicarbonate, puis incorpore le ghee du bout des doigts.",
+      "Ajoute le lait cuillerée par cuillerée et mélange sans trop travailler : la pâte doit être souple. Laisse reposer à couvert.",
+      "Graisse-toi les mains et forme environ 20 boulettes lisses de 2,5 cm, sans fissures.",
+      "Chauffe l'huile à 140 °C et fais frire les boulettes à feu doux, en remuant l'huile, jusqu'à ce qu'elles soient brun foncé.",
+      "Égoutte-les et plonge-les encore chaudes dans le sirop tiède. Laisse-les gonfler au moins 1 heure.",
+      "Sers-les tièdes ou à température ambiante avec un peu de sirop et des pistaches concassées."
+     ],
+     "labels": [
+      "Sirop",
+      "",
+      "",
+      "Repos",
+      "",
+      "Friture",
+      "Trempage",
+      ""
+     ],
+     "tips": [
+      "Si l'huile est trop chaude, elles brunissent dehors et restent crues dedans : elles doivent cuire doucement.",
+      "Tièdes avec une boule de glace vanille, c'est le dessert des fêtes en Inde.",
+      "Elles se gardent 4 jours au frais dans le sirop : réchauffe-les 20 secondes au micro-ondes."
+     ]
+    },
+    "es": {
+     "title": "Gulab jamun",
+     "intro": "Bolitas de leche fritas despacio que se hinchan en un almíbar de cardamomo y rosas.",
+     "ing": [
+      "azúcar",
+      "agua",
+      "vainas de cardamomo",
+      "hebras de azafrán",
+      "agua de rosas",
+      "leche entera en polvo",
+      "harina de trigo",
+      "bicarbonato",
+      "ghee o mantequilla clarificada",
+      "leche entera",
+      "aceite de girasol para freír",
+      "pistachos picados"
+     ],
+     "steps": [
+      "En un cazo lleva a ebullición el azúcar, el agua, el cardamomo machacado y el azafrán, y deja hervir suave hasta que esté apenas pegajoso.",
+      "Retira del fuego, añade el agua de rosas y mantén el almíbar caliente.",
+      "En un bol mezcla la leche en polvo, la harina y el bicarbonato, y frota el ghee con los dedos.",
+      "Añade la leche cucharada a cucharada y mezcla sin amasar de más: debe quedar una masa blanda. Déjala reposar tapada.",
+      "Úntate las manos y forma unas 20 bolitas lisas de 2,5 cm, sin grietas.",
+      "Calienta el aceite a 140 °C y fríe las bolitas a fuego bajo, moviendo el aceite, hasta que estén marrón oscuro.",
+      "Escúrrelas y échalas aún calientes en el almíbar tibio. Déjalas hincharse al menos 1 hora.",
+      "Sírvelas templadas o a temperatura ambiente con un poco de almíbar y pistachos picados."
+     ],
+     "labels": [
+      "Almíbar",
+      "",
+      "",
+      "Reposo",
+      "",
+      "Fritura",
+      "Remojo",
+      ""
+     ],
+     "tips": [
+      "Con el aceite muy caliente se oscurecen fuera y quedan crudas dentro: deben freírse despacio.",
+      "Calientes con una bola de helado de vainilla son el postre de las fiestas indias.",
+      "En la nevera, en su almíbar, duran 4 días: caliéntalas 20 segundos en el microondas."
+     ]
+    },
+    "de": {
+     "title": "Gulab Jamun",
+     "intro": "Milchbällchen, langsam frittiert und in Sirup mit Kardamom und Rosenwasser getränkt.",
+     "ing": [
+      "Zucker",
+      "Wasser",
+      "Kardamomkapseln",
+      "Safranfäden",
+      "Rosenwasser",
+      "Vollmilchpulver",
+      "Weizenmehl Type 405",
+      "Natron",
+      "Ghee oder Butterschmalz",
+      "Vollmilch",
+      "Sonnenblumenöl zum Frittieren",
+      "gehackte Pistazien"
+     ],
+     "steps": [
+      "Bring Zucker, Wasser, zerdrückten Kardamom und Safran in einem kleinen Topf zum Kochen und lass alles köcheln, bis es leicht klebt.",
+      "Nimm den Topf vom Herd, rühr das Rosenwasser ein und halt den Sirup warm.",
+      "Misch Milchpulver, Mehl und Natron in einer Schüssel und verreib das Ghee mit den Fingerspitzen.",
+      "Gib die Milch löffelweise dazu und misch alles, ohne zu kneten, zu einem weichen Teig. Zugedeckt ruhen lassen.",
+      "Fette deine Hände ein und form etwa 20 glatte Kugeln von 2,5 cm ohne Risse.",
+      "Erhitz das Öl auf 140 °C und frittiere die Kugeln bei kleiner Hitze unter Schwenken, bis sie gleichmäßig dunkelbraun sind.",
+      "Lass sie abtropfen und gib sie heiß in den warmen Sirup. Mindestens 1 Stunde quellen lassen.",
+      "Serviere sie lauwarm oder zimmerwarm mit etwas Sirup und gehackten Pistazien."
+     ],
+     "labels": [
+      "Sirup",
+      "",
+      "",
+      "Ruhen",
+      "",
+      "Frittieren",
+      "Ziehen",
+      ""
+     ],
+     "tips": [
+      "Ist das Öl zu heiß, werden sie außen dunkel und bleiben innen roh: langsam garen, damit sie aufgehen.",
+      "Warm mit einer Kugel Vanilleeis sind sie das klassische indische Festdessert.",
+      "Im Sirup halten sie 4 Tage im Kühlschrank: vor dem Servieren 20 Sekunden in die Mikrowelle."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pulpo-a-la-gallega",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 80,
+   "diff": 2,
+   "kcal": 390,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party",
+    "healthy"
+   ],
+   "months": [],
+   "origin": "ES",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 1500,
+     "u": "g",
+     "k": "octopus"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 800,
+     "u": "g",
+     "k": "waxy-potatoes"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "smoked-paprika"
+    },
+    {
+     "q": 6,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "coarse-salt"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 2400,
+     "alt": {
+      "pressure": {
+       "timer": 900
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 1080,
+     "bg": true
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "spice"
+    },
+    {
+     "k": "pair"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pulpo a la gallega, polpo alla galiziana",
+     "intro": "Polpo tenero su patate lesse, con sale grosso, pimentón e un giro abbondante d'olio.",
+     "ing": [
+      "polpo (anche surgelato)",
+      "acqua",
+      "foglia di alloro",
+      "patate a pasta gialla",
+      "pimentón de la Vera dolce (paprika affumicata)",
+      "olio extravergine d'oliva",
+      "sale grosso"
+     ],
+     "steps": [
+      "Se è surgelato, scongela il polpo in frigo per 24 ore. Sciacqualo bene sotto l'acqua corrente.",
+      "Porta a bollore una pentola grande d'acqua con l'alloro, senza sale. Tenendo il polpo per la testa, immergilo 3 volte per 3 secondi.",
+      "Immergilo del tutto e, dal ritorno del bollore, cuoci a fuoco medio finché uno stecchino entra facilmente nella parte spessa.",
+      "Spegni e lascia il polpo nell'acqua ancora 10 minuti, poi toglilo.",
+      "Nella stessa acqua cuoci le patate sbucciate a fette spesse 1,5 cm finché sono tenere.",
+      "Intanto taglia i tentacoli con le forbici a rondelle di 1,5 cm.",
+      "Disponi le patate su un tagliere di legno, il polpo sopra; cospargi di sale grosso e pimentón e condisci con molto olio."
+     ],
+     "labels": [
+      "",
+      "",
+      "Polpo",
+      "Riposo",
+      "Patate",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "pressure": "In pentola a pressione con 1 litro d'acqua: chiudi e cuoci 15 minuti dal fischio, poi sfiata."
+      }
+     },
+     "tips": [
+      "Il polpo surgelato è più tenero: il gelo rompe le fibre come il vecchio sbattere sugli scogli.",
+      "Mescola al pimentón dolce un pizzico di quello piccante, come nelle pulperías della Galizia.",
+      "Servilo su legno con pane e un Albariño freddo delle Rías Baixas."
+     ]
+    },
+    "en": {
+     "title": "Pulpo a la gallega, Galician octopus",
+     "intro": "Tender octopus on boiled potatoes with coarse salt, pimentón and plenty of olive oil.",
+     "ing": [
+      "octopus (frozen is fine)",
+      "water",
+      "bay leaf",
+      "waxy potatoes",
+      "sweet pimentón de la Vera (smoked paprika)",
+      "extra virgin olive oil",
+      "coarse sea salt"
+     ],
+     "steps": [
+      "If frozen, thaw the octopus in the fridge for 24 hours. Rinse it well under running water.",
+      "Bring a large pot of water to the boil with the bay leaf, no salt. Holding the head, dip the octopus in 3 times for 3 seconds.",
+      "Lower it in fully and, once it's back to the boil, cook over medium heat until a skewer slides easily into the thickest part.",
+      "Turn off the heat and leave the octopus in the water for 10 more minutes, then lift it out.",
+      "In the same water cook the peeled potatoes, in 1.5 cm slices, until tender.",
+      "Meanwhile snip the tentacles with scissors into 1.5 cm rounds.",
+      "Lay the potatoes on a wooden board with the octopus on top; sprinkle with coarse salt and pimentón and drizzle generously with oil."
+     ],
+     "labels": [
+      "",
+      "",
+      "Octopus",
+      "Rest",
+      "Potatoes",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "pressure": "In a pressure cooker with 1 litre of water: seal and cook for 15 minutes at pressure, then release."
+      }
+     },
+     "tips": [
+      "Frozen octopus is more tender: freezing breaks the fibres, just like beating it on the rocks used to.",
+      "Mix a pinch of hot pimentón into the sweet one, as Galician pulperías do.",
+      "Serve on a wooden board with bread and a chilled Albariño from Rías Baixas."
+     ]
+    },
+    "fr": {
+     "title": "Pulpo a la gallega, poulpe galicien",
+     "intro": "Poulpe tendre sur pommes de terre à l'eau, gros sel, pimentón et beaucoup d'huile.",
+     "ing": [
+      "poulpe (surgelé possible)",
+      "eau",
+      "feuille de laurier",
+      "pommes de terre à chair ferme",
+      "pimentón de la Vera doux (paprika fumé)",
+      "huile d'olive vierge extra",
+      "gros sel"
+     ],
+     "steps": [
+      "S'il est surgelé, décongèle le poulpe 24 heures au réfrigérateur. Rince-le bien sous l'eau courante.",
+      "Porte à ébullition un grand faitout d'eau avec le laurier, sans sel. En tenant le poulpe par la tête, plonge-le 3 fois 3 secondes.",
+      "Immerge-le entièrement et, dès la reprise de l'ébullition, cuis à feu moyen jusqu'à ce qu'une pique entre facilement.",
+      "Éteins et laisse le poulpe dans l'eau encore 10 minutes, puis sors-le.",
+      "Dans la même eau, cuis les pommes de terre épluchées en rondelles de 1,5 cm jusqu'à ce qu'elles soient tendres.",
+      "Pendant ce temps, coupe les tentacules aux ciseaux en rondelles de 1,5 cm.",
+      "Dispose les pommes de terre sur une planche en bois, le poulpe dessus ; parsème de gros sel et de pimentón et arrose d'huile."
+     ],
+     "labels": [
+      "",
+      "",
+      "Poulpe",
+      "Repos",
+      "Pommes de terre",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "pressure": "À l'autocuiseur avec 1 litre d'eau : ferme et cuis 15 minutes après la mise en pression, puis décompresse."
+      }
+     },
+     "tips": [
+      "Le poulpe surgelé est plus tendre : le froid casse les fibres, comme le battre sur les rochers autrefois.",
+      "Ajoute au pimentón doux une pincée de pimentón piquant, comme dans les pulperías de Galice.",
+      "Sers-le sur une planche avec du pain et un albariño bien frais des Rías Baixas."
+     ]
+    },
+    "es": {
+     "title": "Pulpo a la gallega",
+     "intro": "Pulpo tierno sobre cachelos, con sal gorda, pimentón y un buen chorro de aceite.",
+     "ing": [
+      "pulpo (vale congelado)",
+      "agua",
+      "hoja de laurel",
+      "patatas gallegas o de carne firme",
+      "pimentón de la Vera dulce",
+      "aceite de oliva virgen extra",
+      "sal gorda"
+     ],
+     "steps": [
+      "Si es congelado, descongela el pulpo en la nevera 24 horas. Lávalo bien bajo el grifo.",
+      "Lleva a ebullición una olla grande de agua con el laurel, sin sal. Sujetando el pulpo por la cabeza, asústalo 3 veces durante 3 segundos.",
+      "Sumérgelo entero y, desde que vuelva a hervir, cuécelo a fuego medio hasta que un palillo entre fácil en la parte gruesa.",
+      "Apaga y deja el pulpo en el agua 10 minutos más; luego sácalo.",
+      "En la misma agua cuece las patatas peladas en rodajas de 1,5 cm hasta que estén tiernas.",
+      "Mientras, corta los tentáculos con tijeras en rodajas de 1,5 cm.",
+      "Pon los cachelos en un plato de madera y el pulpo encima; espolvorea sal gorda y pimentón y riega con mucho aceite."
+     ],
+     "labels": [
+      "",
+      "",
+      "Pulpo",
+      "Reposo",
+      "Cachelos",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "pressure": "En olla a presión con 1 litro de agua: cierra y cuece 15 minutos desde que suba la válvula; luego despresuriza."
+      }
+     },
+     "tips": [
+      "El pulpo congelado queda más tierno: el frío rompe las fibras, como cuando se golpeaba contra las rocas.",
+      "Mezcla el pimentón dulce con una pizca de picante, como en las pulperías gallegas.",
+      "Sírvelo en plato de madera con pan y un albariño frío de las Rías Baixas."
+     ]
+    },
+    "de": {
+     "title": "Pulpo a la gallega, Oktopus galicisch",
+     "intro": "Zarter Oktopus auf Salzkartoffeln mit grobem Salz, Pimentón und reichlich Olivenöl.",
+     "ing": [
+      "Oktopus (gern tiefgekühlt)",
+      "Wasser",
+      "Lorbeerblatt",
+      "festkochende Kartoffeln",
+      "Pimentón de la Vera, süß (geräuchertes Paprikapulver)",
+      "natives Olivenöl extra",
+      "grobes Meersalz"
+     ],
+     "steps": [
+      "Tau den Oktopus, falls tiefgekühlt, 24 Stunden im Kühlschrank auf. Spül ihn unter fließendem Wasser gut ab.",
+      "Bring einen großen Topf Wasser mit dem Lorbeer ohne Salz zum Kochen. Halt den Oktopus am Kopf und tauch ihn 3-mal 3 Sekunden ein.",
+      "Leg ihn ganz hinein und gare ihn ab dem erneuten Aufkochen bei mittlerer Hitze, bis ein Spieß leicht in die dickste Stelle gleitet.",
+      "Schalte den Herd aus, lass den Oktopus noch 10 Minuten im Wasser und nimm ihn dann heraus.",
+      "Koch im selben Wasser die geschälten Kartoffeln in 1,5 cm dicken Scheiben weich.",
+      "Schneid inzwischen die Fangarme mit der Schere in 1,5 cm dicke Stücke.",
+      "Leg die Kartoffeln auf ein Holzbrett und den Oktopus darauf; bestreu alles mit Salz und Pimentón und beträufle es mit viel Öl."
+     ],
+     "labels": [
+      "",
+      "",
+      "Oktopus",
+      "Ruhen",
+      "Kartoffeln",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Im Schnellkochtopf mit 1 Liter Wasser: schließen, 15 Minuten unter Druck garen, dann Dampf ablassen."
+      }
+     },
+     "tips": [
+      "Tiefgekühlter Oktopus wird zarter: Die Kälte bricht die Fasern, wie früher das Schlagen auf Felsen.",
+      "Misch unter den süßen Pimentón eine Prise scharfen, wie in den Pulperías Galiciens.",
+      "Auf dem Holzbrett servieren, mit Brot und einem kühlen Albariño aus den Rías Baixas."
+     ]
+    }
+   }
+  },
+  {
+   "id": "salmorejo-cordobes",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 85,
+   "diff": 1,
+   "kcal": 340,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "ES",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1000,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "rustic-bread"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 120,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sherry-vinegar"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "prosciutto-crudo"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {
+     "timer": 600
+    },
+    {},
+    {
+     "timer": 3600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Salmorejo, crema fredda di pomodoro",
+     "intro": "La zuppa fredda di Cordova: pomodoro, pane e olio frullati in una crema densa e vellutata.",
+     "ing": [
+      "pomodori maturi",
+      "spicchio d'aglio",
+      "pane raffermo a mollica compatta",
+      "uova",
+      "olio extravergine d'oliva",
+      "aceto di Jerez",
+      "sale",
+      "jamón serrano o prosciutto crudo"
+     ],
+     "steps": [
+      "Lava i pomodori, tagliali a pezzi e frullali con l'aglio senz'anima finché sono liquidi.",
+      "Passali al colino fine per eliminare bucce e semi.",
+      "Togli la crosta al pane, spezzettalo nel pomodoro e lascialo ammorbidire.",
+      "Intanto rassoda le uova in acqua bollente, poi raffreddale in acqua fredda e sgusciale.",
+      "Frulla pane e pomodoro alla massima velocità versando l'olio a filo, finché la crema è densa e arancio chiaro. Aggiungi sale e aceto.",
+      "Copri e metti in frigo almeno 1 ora: va servito ben freddo.",
+      "Servilo in ciotole con uovo sodo tritato, striscioline di jamón e un filo d'olio."
+     ],
+     "labels": [
+      "",
+      "",
+      "Ammollo",
+      "Uova",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Versa l'olio a filo col frullatore al massimo: emulsiona e diventa una crema che regge il cucchiaio.",
+      "Senza jamón resta vegetariano; a Cordova lo servono anche con tonno o con olive nere.",
+      "Coperto in frigo dura 2 giorni ed è ottimo anche come salsa per patate lesse."
+     ]
+    },
+    "en": {
+     "title": "Salmorejo, chilled tomato cream",
+     "intro": "Córdoba's cold soup: tomatoes, bread and olive oil blended into a thick, velvety cream.",
+     "ing": [
+      "ripe tomatoes",
+      "garlic clove",
+      "stale dense-crumb bread",
+      "eggs",
+      "extra virgin olive oil",
+      "sherry vinegar",
+      "salt",
+      "serrano ham or prosciutto"
+     ],
+     "steps": [
+      "Wash the tomatoes, cut them into chunks and blend with the garlic, germ removed, until liquid.",
+      "Pass through a fine sieve to remove skins and seeds.",
+      "Cut the crust off the bread, tear it into the tomato and let it soften.",
+      "Meanwhile hard-boil the eggs, cool them in cold water and peel.",
+      "Blend the bread and tomato on full speed, pouring in the oil in a thin stream, until thick and pale orange. Add salt and vinegar.",
+      "Cover and chill for at least 1 hour: it must be served very cold.",
+      "Serve in bowls topped with chopped egg, strips of ham and a drizzle of oil."
+     ],
+     "labels": [
+      "",
+      "",
+      "Soak",
+      "Eggs",
+      "",
+      "Chill",
+      ""
+     ],
+     "tips": [
+      "Pour the oil in slowly with the blender on full: it emulsifies into a cream thick enough to hold a spoon.",
+      "Skip the ham for a vegetarian version; in Córdoba it's also topped with tuna or black olives.",
+      "It keeps 2 days covered in the fridge and makes a great sauce for boiled potatoes."
+     ]
+    },
+    "fr": {
+     "title": "Salmorejo, crème froide de tomate",
+     "intro": "La soupe froide de Cordoue : tomates, pain et huile mixés en une crème épaisse.",
+     "ing": [
+      "tomates mûres",
+      "gousse d'ail",
+      "pain rassis à mie serrée",
+      "œufs",
+      "huile d'olive vierge extra",
+      "vinaigre de Xérès",
+      "sel",
+      "jambon serrano ou jambon cru"
+     ],
+     "steps": [
+      "Lave les tomates, coupe-les en morceaux et mixe-les avec l'ail dégermé jusqu'à ce qu'elles soient liquides.",
+      "Passe-les au tamis fin pour retirer peaux et pépins.",
+      "Retire la croûte du pain, émiette-le dans la tomate et laisse-le ramollir.",
+      "Pendant ce temps, fais durcir les œufs à l'eau bouillante, refroidis-les à l'eau froide et écale-les.",
+      "Mixe pain et tomate à pleine vitesse en versant l'huile en filet, jusqu'à une crème épaisse orange pâle. Sale et vinaigre.",
+      "Couvre et mets au frais au moins 1 heure : il se sert bien froid.",
+      "Sers en bols avec l'œuf dur haché, des lanières de jambon et un filet d'huile."
+     ],
+     "labels": [
+      "",
+      "",
+      "Trempage",
+      "Œufs",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Verse l'huile en filet, mixeur à fond : elle émulsionne en une crème qui tient la cuillère.",
+      "Sans jambon, il reste végétarien ; à Cordoue, on le sert aussi avec du thon ou des olives noires.",
+      "Couvert au frais, il se garde 2 jours et fait une très bonne sauce pour pommes de terre."
+     ]
+    },
+    "es": {
+     "title": "Salmorejo cordobés",
+     "intro": "La crema fría de Córdoba: tomate, pan y aceite triturados hasta quedar espesa y sedosa.",
+     "ing": [
+      "tomates maduros",
+      "diente de ajo",
+      "pan del día anterior de miga prieta",
+      "huevos",
+      "aceite de oliva virgen extra",
+      "vinagre de Jerez",
+      "sal",
+      "jamón serrano"
+     ],
+     "steps": [
+      "Lava los tomates, trocéalos y tritúralos con el ajo sin germen hasta que estén líquidos.",
+      "Pásalos por un colador fino para quitar pieles y pepitas.",
+      "Quita la corteza al pan, desmígalo en el tomate y deja que se ablande.",
+      "Mientras, cuece los huevos en agua hirviendo, enfríalos en agua fría y pélalos.",
+      "Tritura pan y tomate a máxima potencia añadiendo el aceite en hilo, hasta una crema espesa y anaranjada. Añade sal y vinagre.",
+      "Tapa y mete en la nevera al menos 1 hora: se sirve muy frío.",
+      "Sírvelo en cuencos con huevo duro picado, tiras de jamón y un hilo de aceite."
+     ],
+     "labels": [
+      "",
+      "",
+      "Remojo",
+      "Huevos",
+      "",
+      "Nevera",
+      ""
+     ],
+     "tips": [
+      "Echa el aceite en hilo con la batidora a tope: emulsiona y queda una crema que sostiene la cuchara.",
+      "Sin jamón es vegetariano; en Córdoba también se sirve con atún o aceitunas negras.",
+      "Tapado en la nevera dura 2 días y es una salsa estupenda para patatas cocidas."
+     ]
+    },
+    "de": {
+     "title": "Salmorejo, kalte Tomatencreme",
+     "intro": "Kalte Suppe aus Córdoba: Tomaten, Brot und Olivenöl, zu dicker Creme gemixt.",
+     "ing": [
+      "reife Tomaten",
+      "Knoblauchzehe",
+      "altbackenes Brot mit fester Krume",
+      "Eier",
+      "natives Olivenöl extra",
+      "Sherryessig",
+      "Salz",
+      "Serranoschinken oder Prosciutto"
+     ],
+     "steps": [
+      "Wasch die Tomaten, schneid sie in Stücke und mix sie mit dem Knoblauch ohne Keim, bis sie flüssig sind.",
+      "Streich sie durch ein feines Sieb, um Haut und Kerne zu entfernen.",
+      "Entferne die Brotrinde, zupf das Brot in die Tomaten und lass es weich werden.",
+      "Koch inzwischen die Eier hart, schreck sie in kaltem Wasser ab und pell sie.",
+      "Mix Brot und Tomaten auf höchster Stufe und gieß das Öl in dünnem Strahl dazu, bis die Creme dick und hellorange ist. Salz und Essig dazu.",
+      "Deck sie ab und stell sie mindestens 1 Stunde kalt: Sie wird eiskalt serviert.",
+      "Serviere sie in Schalen mit gehacktem Ei, Schinkenstreifen und einem Schuss Öl."
+     ],
+     "labels": [
+      "",
+      "",
+      "Einweichen",
+      "Eier",
+      "",
+      "Kühlen",
+      ""
+     ],
+     "tips": [
+      "Gieß das Öl langsam bei voller Mixerstufe dazu: So entsteht eine Creme, in der der Löffel steht.",
+      "Ohne Schinken ist sie vegetarisch; in Córdoba gibt es sie auch mit Thunfisch oder schwarzen Oliven.",
+      "Abgedeckt hält sie 2 Tage im Kühlschrank und passt super als Sauce zu Pellkartoffeln."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pollo-al-ajillo",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 1,
+   "kcal": 520,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort",
+    "budget"
+   ],
+   "months": [],
+   "origin": "ES",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "chicken-pieces"
+    },
+    {
+     "q": 12,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 6,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "dry-white-wine"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "dried-chilies"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 180
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 180
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pollo al ajillo, pollo all'aglio",
+     "intro": "Pollo a pezzi rosolato nell'olio con tanto aglio in camicia, vino bianco e alloro.",
+     "ing": [
+      "pollo a pezzi piccoli (cosce e sovracosce)",
+      "spicchi d'aglio in camicia",
+      "olio extravergine d'oliva",
+      "vino bianco secco",
+      "foglie di alloro",
+      "peperoncino secco",
+      "prezzemolo fresco",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Sala e pepa il pollo e lascialo a temperatura ambiente mentre prepari il resto.",
+      "Schiaccia appena gli spicchi d'aglio con la lama del coltello, lasciando la buccia.",
+      "Scalda l'olio in una casseruola larga e dora l'aglio a fuoco medio, poi toglilo e tienilo da parte.",
+      "Nello stesso olio rosola il pollo dalla parte della pelle, girandolo, finché è dorato su tutti i lati.",
+      "Rimetti l'aglio, aggiungi alloro e peperoncino, sfuma col vino raschiando il fondo e fai evaporare.",
+      "Copri e cuoci a fuoco basso, girando una volta, finché vicino all'osso la carne non è più rosa e il succo è chiaro.",
+      "Scoperchia e alza la fiamma finché il sugo si riduce a un fondo lucido e oleoso.",
+      "Cospargi di prezzemolo tritato e servi con pane per la scarpetta."
+     ],
+     "labels": [
+      "",
+      "",
+      "Aglio",
+      "Rosolare",
+      "Vino",
+      "Cottura",
+      "Ridurre",
+      ""
+     ],
+     "tips": [
+      "Lascia la buccia all'aglio: protegge lo spicchio, che diventa morbido e dolce da spalmare sul pane.",
+      "Al posto del vino usa un fino o una manzanilla di Jerez, come si fa in Andalusia.",
+      "Servilo con patate fritte o patatas bravas e un'insalata verde."
+     ]
+    },
+    "en": {
+     "title": "Pollo al ajillo, Spanish garlic chicken",
+     "intro": "Chicken pieces browned in olive oil with lots of unpeeled garlic, white wine and bay.",
+     "ing": [
+      "small chicken pieces (thighs and drumsticks)",
+      "unpeeled garlic cloves",
+      "extra virgin olive oil",
+      "dry white wine",
+      "bay leaves",
+      "dried chili",
+      "fresh parsley",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Season the chicken with salt and pepper and leave it at room temperature while you prep the rest.",
+      "Lightly crush the garlic cloves with the flat of a knife, leaving the skins on.",
+      "Heat the oil in a wide casserole and fry the garlic over medium heat until golden, then lift it out.",
+      "In the same oil brown the chicken skin side down, turning, until golden on all sides.",
+      "Return the garlic, add the bay and chili, deglaze with the wine, scraping the bottom, and let it bubble off.",
+      "Cover and cook over low heat, turning once, until the meat by the bone is no longer pink and the juices run clear.",
+      "Uncover and turn up the heat until the sauce reduces to a glossy, oily glaze.",
+      "Scatter with chopped parsley and serve with bread to mop up the sauce."
+     ],
+     "labels": [
+      "",
+      "",
+      "Garlic",
+      "Brown",
+      "Wine",
+      "Cook",
+      "Reduce",
+      ""
+     ],
+     "tips": [
+      "Keep the skins on the garlic: they protect the cloves, which turn soft and sweet enough to spread on bread.",
+      "Swap the wine for a dry fino or manzanilla sherry, as they do in Andalusia.",
+      "Serve with fries or patatas bravas and a green salad."
+     ]
+    },
+    "fr": {
+     "title": "Pollo al ajillo, poulet à l'ail",
+     "intro": "Poulet doré à l'huile d'olive avec beaucoup d'ail en chemise, vin blanc et laurier.",
+     "ing": [
+      "petits morceaux de poulet (hauts et pilons)",
+      "gousses d'ail en chemise",
+      "huile d'olive vierge extra",
+      "vin blanc sec",
+      "feuilles de laurier",
+      "piment séché",
+      "persil frais",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Sale et poivre le poulet et laisse-le à température ambiante pendant que tu prépares le reste.",
+      "Écrase légèrement les gousses d'ail avec le plat du couteau, sans les éplucher.",
+      "Chauffe l'huile dans une grande sauteuse et fais dorer l'ail à feu moyen, puis retire-le.",
+      "Dans la même huile, fais dorer le poulet côté peau d'abord, en le retournant, jusqu'à ce qu'il soit doré partout.",
+      "Remets l'ail, ajoute laurier et piment, déglace au vin en grattant le fond et laisse évaporer.",
+      "Couvre et cuis à feu doux en retournant une fois, jusqu'à ce que la chair près de l'os ne soit plus rosée et le jus clair.",
+      "Découvre et monte le feu jusqu'à ce que la sauce réduise en un jus brillant et huileux.",
+      "Parsème de persil haché et sers avec du pain pour saucer."
+     ],
+     "labels": [
+      "",
+      "",
+      "Ail",
+      "Dorer",
+      "Vin",
+      "Cuisson",
+      "Réduire",
+      ""
+     ],
+     "tips": [
+      "Garde la peau de l'ail : elle protège la gousse, qui devient fondante et douce à tartiner sur le pain.",
+      "Remplace le vin par un xérès fino ou une manzanilla, comme en Andalousie.",
+      "Sers-le avec des frites ou des patatas bravas et une salade verte."
+     ]
+    },
+    "es": {
+     "title": "Pollo al ajillo",
+     "intro": "Pollo troceado dorado en aceite con muchos ajos en camisa, vino blanco y laurel.",
+     "ing": [
+      "pollo troceado pequeño (contramuslos y muslos)",
+      "dientes de ajo en camisa",
+      "aceite de oliva virgen extra",
+      "vino blanco seco",
+      "hojas de laurel",
+      "guindilla seca",
+      "perejil fresco",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Salpimienta el pollo y déjalo a temperatura ambiente mientras preparas lo demás.",
+      "Chafa un poco los dientes de ajo con la hoja del cuchillo, sin pelarlos.",
+      "Calienta el aceite en una cazuela amplia y dora los ajos a fuego medio; sácalos y resérvalos.",
+      "En el mismo aceite dora el pollo, primero por el lado de la piel, dándole vueltas hasta que esté dorado por todas partes.",
+      "Vuelve a poner los ajos, añade laurel y guindilla, riega con el vino rascando el fondo y deja evaporar.",
+      "Tapa y cuece a fuego lento, girándolo una vez, hasta que junto al hueso la carne no esté rosada y el jugo salga claro.",
+      "Destapa y sube el fuego hasta que la salsa se reduzca a un jugo brillante y aceitoso.",
+      "Espolvorea perejil picado y sirve con pan para mojar."
+     ],
+     "labels": [
+      "",
+      "",
+      "Ajos",
+      "Dorar",
+      "Vino",
+      "Cocción",
+      "Reducir",
+      ""
+     ],
+     "tips": [
+      "Deja la piel a los ajos: protege el diente, que queda tierno y dulce para untar en pan.",
+      "Cambia el vino por un fino o una manzanilla, como en Andalucía.",
+      "Acompáñalo con patatas fritas o patatas bravas y una ensalada verde."
+     ]
+    },
+    "de": {
+     "title": "Pollo al ajillo, Knoblauchhähnchen",
+     "intro": "Hähnchenteile in Olivenöl gebraten, mit viel ungeschältem Knoblauch, Weißwein und Lorbeer.",
+     "ing": [
+      "kleine Hähnchenteile (Ober- und Unterschenkel)",
+      "ungeschälte Knoblauchzehen",
+      "natives Olivenöl extra",
+      "trockener Weißwein",
+      "Lorbeerblätter",
+      "getrocknete Chilischote",
+      "frische Petersilie",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Salz und pfeffer das Hähnchen und lass es bei Zimmertemperatur liegen, während du den Rest vorbereitest.",
+      "Drück die Knoblauchzehen mit der flachen Messerklinge leicht an, die Schale bleibt dran.",
+      "Erhitz das Öl in einem weiten Schmortopf und brate den Knoblauch bei mittlerer Hitze golden, dann nimm ihn heraus.",
+      "Brate im selben Öl das Hähnchen zuerst auf der Hautseite und dann rundum goldbraun an.",
+      "Gib den Knoblauch zurück, dazu Lorbeer und Chili, lösch mit Wein ab, kratz den Bratensatz los und lass ihn verkochen.",
+      "Deck den Topf zu und gare alles bei kleiner Hitze, einmal wenden, bis das Fleisch am Knochen nicht mehr rosa ist und der Saft klar.",
+      "Nimm den Deckel ab und dreh die Hitze hoch, bis die Sauce zu einem glänzenden, öligen Fond eingekocht ist.",
+      "Streu gehackte Petersilie darüber und serviere Brot zum Tunken dazu."
+     ],
+     "labels": [
+      "",
+      "",
+      "Knoblauch",
+      "Anbraten",
+      "Wein",
+      "Garen",
+      "Einkochen",
+      ""
+     ],
+     "tips": [
+      "Lass die Schale am Knoblauch: Sie schützt die Zehe, die weich und süß wird, perfekt aufs Brot.",
+      "Statt Wein einen trockenen Fino oder Manzanilla-Sherry nehmen, wie in Andalusien.",
+      "Dazu Pommes oder Patatas bravas und ein grüner Salat."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pisto-manchego",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 70,
+   "diff": 1,
+   "kcal": 210,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "ES",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 2,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-bell-peppers"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-bell-peppers"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "zucchini"
+    },
+    {
+     "q": 800,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 6,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 1500
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pisto manchego, verdure stufate",
+     "intro": "Peperoni, zucchine e cipolla cotti piano nel pomodoro finché sono quasi confettura.",
+     "ing": [
+      "cipolle",
+      "spicchi d'aglio",
+      "peperone verde",
+      "peperone rosso",
+      "zucchine",
+      "pomodori maturi",
+      "olio extravergine d'oliva",
+      "zucchero (se i pomodori sono acidi)",
+      "sale"
+     ],
+     "steps": [
+      "Taglia cipolle, peperoni e zucchine a dadini di 1 cm; grattugia i pomodori e butta la buccia.",
+      "Scalda l'olio in una padella larga e cuoci cipolle e aglio tritato a fuoco basso finché sono morbidi e trasparenti.",
+      "Aggiungi i peperoni e cuoci a fuoco medio-basso finché sono teneri.",
+      "Unisci le zucchine e un pizzico di sale e cuoci ancora, mescolando ogni tanto.",
+      "Versa il pomodoro e lo zucchero e cuoci scoperto a fuoco basso, mescolando, finché è denso e senza liquido.",
+      "Assaggia, aggiusta di sale e servi caldo o tiepido."
+     ],
+     "labels": [
+      "",
+      "Cipolla",
+      "Peperoni",
+      "Zucchine",
+      "Pomodoro",
+      ""
+     ],
+     "tips": [
+      "Aggiungi le verdure una alla volta, in quest'ordine: ognuna resta saporita e niente diventa poltiglia.",
+      "Con un uovo fritto sopra e pane è la cena tipica della Mancha.",
+      "Il giorno dopo è ancora più buono; tiepido su una fetta di pane diventa una tapa."
+     ]
+    },
+    "en": {
+     "title": "Pisto manchego, Spanish vegetable stew",
+     "intro": "Peppers, zucchini and onion cooked slowly in tomato until almost jammy.",
+     "ing": [
+      "onions",
+      "garlic cloves",
+      "green bell pepper",
+      "red bell pepper",
+      "zucchini",
+      "ripe tomatoes",
+      "extra virgin olive oil",
+      "sugar (if the tomatoes are acidic)",
+      "salt"
+     ],
+     "steps": [
+      "Cut the onions, peppers and zucchini into 1 cm dice; grate the tomatoes and discard the skins.",
+      "Heat the oil in a wide pan and cook the onions and chopped garlic over low heat until soft and translucent.",
+      "Add the peppers and cook over medium-low heat until tender.",
+      "Add the zucchini and a pinch of salt and keep cooking, stirring now and then.",
+      "Pour in the tomato and sugar and cook uncovered over low heat, stirring, until thick with no liquid left.",
+      "Taste, adjust the salt and serve hot or warm."
+     ],
+     "labels": [
+      "",
+      "Onion",
+      "Peppers",
+      "Zucchini",
+      "Tomato",
+      ""
+     ],
+     "tips": [
+      "Add the vegetables one at a time, in this order: each keeps its flavour and nothing turns to mush.",
+      "Top with a fried egg and serve with bread for a classic supper from La Mancha.",
+      "It's even better the next day; warm on a slice of bread it becomes a tapa."
+     ]
+    },
+    "fr": {
+     "title": "Pisto manchego, légumes mijotés",
+     "intro": "Poivrons, courgettes et oignon mijotés dans la tomate jusqu'à être presque confits.",
+     "ing": [
+      "oignons",
+      "gousses d'ail",
+      "poivron vert",
+      "poivron rouge",
+      "courgettes",
+      "tomates mûres",
+      "huile d'olive vierge extra",
+      "sucre (si les tomates sont acides)",
+      "sel"
+     ],
+     "steps": [
+      "Coupe oignons, poivrons et courgettes en dés de 1 cm ; râpe les tomates et jette la peau.",
+      "Chauffe l'huile dans une grande poêle et cuis oignons et ail haché à feu doux jusqu'à ce qu'ils soient tendres et translucides.",
+      "Ajoute les poivrons et cuis à feu moyen-doux jusqu'à ce qu'ils soient tendres.",
+      "Ajoute les courgettes et une pincée de sel et poursuis la cuisson en remuant de temps en temps.",
+      "Verse la tomate et le sucre et cuis à découvert à feu doux, en remuant, jusqu'à ce que ce soit épais, sans liquide.",
+      "Goûte, rectifie le sel et sers chaud ou tiède."
+     ],
+     "labels": [
+      "",
+      "Oignon",
+      "Poivrons",
+      "Courgettes",
+      "Tomate",
+      ""
+     ],
+     "tips": [
+      "Ajoute les légumes un par un, dans cet ordre : chacun garde son goût et rien ne tourne en bouillie.",
+      "Avec un œuf au plat dessus et du pain, c'est le dîner typique de la Manche.",
+      "Il est encore meilleur le lendemain ; tiède sur une tranche de pain, il devient une tapa."
+     ]
+    },
+    "es": {
+     "title": "Pisto manchego",
+     "intro": "Pimientos, calabacín y cebolla pochados despacio en tomate hasta quedar casi confitados.",
+     "ing": [
+      "cebollas",
+      "dientes de ajo",
+      "pimiento verde",
+      "pimiento rojo",
+      "calabacines",
+      "tomates maduros",
+      "aceite de oliva virgen extra",
+      "azúcar (si el tomate está ácido)",
+      "sal"
+     ],
+     "steps": [
+      "Corta cebollas, pimientos y calabacines en dados de 1 cm; ralla los tomates y desecha la piel.",
+      "Calienta el aceite en una sartén amplia y pocha la cebolla y el ajo picado a fuego lento hasta que estén tiernos y transparentes.",
+      "Añade los pimientos y pocha a fuego medio-bajo hasta que estén blandos.",
+      "Agrega los calabacines y una pizca de sal y sigue cocinando, removiendo de vez en cuando.",
+      "Vierte el tomate y el azúcar y cocina destapado a fuego lento, removiendo, hasta que esté espeso y sin caldo.",
+      "Prueba, rectifica de sal y sirve caliente o templado."
+     ],
+     "labels": [
+      "",
+      "Cebolla",
+      "Pimientos",
+      "Calabacín",
+      "Tomate",
+      ""
+     ],
+     "tips": [
+      "Añade las verduras de una en una, en este orden: cada una conserva su sabor y nada se deshace.",
+      "Con un huevo frito encima y pan es la cena típica de La Mancha.",
+      "Al día siguiente está aún mejor; templado sobre una rebanada de pan es una tapa."
+     ]
+    },
+    "de": {
+     "title": "Pisto manchego, spanisches Gemüse",
+     "intro": "Paprika, Zucchini und Zwiebeln, langsam in Tomaten geschmort, bis alles fast sämig ist.",
+     "ing": [
+      "Zwiebeln",
+      "Knoblauchzehen",
+      "grüne Paprikaschote",
+      "rote Paprikaschote",
+      "Zucchini",
+      "reife Tomaten",
+      "natives Olivenöl extra",
+      "Zucker (falls die Tomaten sauer sind)",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid Zwiebeln, Paprika und Zucchini in 1 cm große Würfel; reib die Tomaten und wirf die Haut weg.",
+      "Erhitz das Öl in einer weiten Pfanne und dünste Zwiebeln und gehackten Knoblauch bei kleiner Hitze weich und glasig.",
+      "Gib die Paprika dazu und gare sie bei mittlerer bis kleiner Hitze weich.",
+      "Gib Zucchini und eine Prise Salz dazu und lass alles weiter garen, ab und zu umrühren.",
+      "Gib Tomaten und Zucker dazu und lass alles offen bei kleiner Hitze unter Rühren dick einkochen, bis keine Flüssigkeit mehr da ist.",
+      "Abschmecken, nachsalzen und heiß oder lauwarm servieren."
+     ],
+     "labels": [
+      "",
+      "Zwiebel",
+      "Paprika",
+      "Zucchini",
+      "Tomate",
+      ""
+     ],
+     "tips": [
+      "Gib das Gemüse nacheinander in dieser Reihenfolge dazu: So behält jedes seinen Geschmack und nichts zerfällt.",
+      "Mit Spiegelei obendrauf und Brot ist es das typische Abendessen der Mancha.",
+      "Am nächsten Tag schmeckt es noch besser; lauwarm auf Brot wird es zur Tapa."
+     ]
+    }
+   }
+  },
+  {
+   "id": "arroz-con-leche",
+   "cat": "dolci",
+   "sub": "cucchiaio",
+   "servings": 6,
+   "minutes": 100,
+   "diff": 1,
+   "kcal": 290,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "comfort",
+    "kids"
+   ],
+   "months": [],
+   "origin": "ES",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1250,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "short-grain-rice"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "salt"
+    },
+    {
+     "q": 110,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ground-cinnamon"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 480
+    },
+    {
+     "timer": 3000
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 1800
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Arroz con leche, riso al latte",
+     "intro": "Riso cotto piano nel latte con scorza di limone e cannella, cremoso e profumato.",
+     "ing": [
+      "latte intero",
+      "limone non trattato (scorza)",
+      "stecca di cannella",
+      "riso a chicco tondo (tipo Originario)",
+      "sale",
+      "zucchero",
+      "cannella in polvere"
+     ],
+     "steps": [
+      "Scalda il latte con la scorza di limone a strisce, senza la parte bianca, e la cannella finché sta per bollire.",
+      "Aggiungi il riso, senza lavarlo, e il sale; cuoci a fuoco basso mescolando spesso finché è cremoso e i chicchi sono morbidissimi.",
+      "Togli scorza e cannella, aggiungi lo zucchero e cuoci ancora mescolando: raffreddando si addensa.",
+      "Versalo in coppette e lascialo intiepidire, oppure mettilo in frigo se lo preferisci freddo.",
+      "Prima di servire spolvera con cannella in polvere."
+     ],
+     "labels": [
+      "Latte",
+      "Riso",
+      "Zucchero",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Non lavare il riso e metti lo zucchero solo alla fine: l'amido lo rende cremoso e i chicchi si ammorbidiscono.",
+      "All'asturiana: copri di zucchero e caramellalo col cannello fino a una crosticina croccante.",
+      "In frigo dura 3 giorni: se si addensa troppo, mescolalo con un goccio di latte."
+     ]
+    },
+    "en": {
+     "title": "Arroz con leche, Spanish rice pudding",
+     "intro": "Rice simmered slowly in milk with lemon peel and cinnamon, creamy and fragrant.",
+     "ing": [
+      "whole milk",
+      "unwaxed lemon (peel)",
+      "cinnamon stick",
+      "short-grain pudding rice",
+      "salt",
+      "sugar",
+      "ground cinnamon"
+     ],
+     "steps": [
+      "Heat the milk with strips of lemon peel, no white pith, and the cinnamon stick until it's about to boil.",
+      "Add the unwashed rice and salt; cook over low heat, stirring often, until creamy and the grains are very soft.",
+      "Remove the peel and cinnamon, add the sugar and cook a little longer, stirring: it thickens as it cools.",
+      "Spoon into bowls and let it cool to warm, or chill it if you prefer it cold.",
+      "Dust with ground cinnamon just before serving."
+     ],
+     "labels": [
+      "Milk",
+      "Rice",
+      "Sugar",
+      "Rest",
+      ""
+     ],
+     "tips": [
+      "Don't rinse the rice and add the sugar only at the end: the starch makes it creamy and the grains soften fully.",
+      "Asturian style: cover with sugar and caramelize it with a blowtorch into a crisp crust.",
+      "It keeps 3 days in the fridge: if it gets too thick, stir in a splash of milk."
+     ]
+    },
+    "fr": {
+     "title": "Arroz con leche, riz au lait espagnol",
+     "intro": "Riz cuit doucement dans le lait avec zeste de citron et cannelle, crémeux et parfumé.",
+     "ing": [
+      "lait entier",
+      "citron non traité (zeste)",
+      "bâton de cannelle",
+      "riz rond",
+      "sel",
+      "sucre",
+      "cannelle en poudre"
+     ],
+     "steps": [
+      "Chauffe le lait avec le zeste de citron en lanières, sans le blanc, et la cannelle jusqu'au frémissement.",
+      "Ajoute le riz, sans le rincer, et le sel ; cuis à feu doux en remuant souvent, jusqu'à ce qu'il soit crémeux et très tendre.",
+      "Retire zeste et cannelle, ajoute le sucre et cuis encore en remuant : il épaissit en refroidissant.",
+      "Verse-le dans des coupelles et laisse-le tiédir, ou mets-le au frais si tu le préfères froid.",
+      "Saupoudre de cannelle en poudre juste avant de servir."
+     ],
+     "labels": [
+      "Lait",
+      "Riz",
+      "Sucre",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "Ne rince pas le riz et ajoute le sucre à la fin : l'amidon le rend crémeux et les grains s'attendrissent.",
+      "À l'asturienne : couvre de sucre et caramélise au chalumeau pour une croûte craquante.",
+      "Il se garde 3 jours au frais : s'il épaissit trop, détends-le avec un peu de lait."
+     ]
+    },
+    "es": {
+     "title": "Arroz con leche",
+     "intro": "Arroz cocido despacio en leche con piel de limón y canela, cremoso y aromático.",
+     "ing": [
+      "leche entera",
+      "limón sin tratar (piel)",
+      "rama de canela",
+      "arroz redondo",
+      "sal",
+      "azúcar",
+      "canela molida"
+     ],
+     "steps": [
+      "Calienta la leche con tiras de piel de limón, sin lo blanco, y la canela hasta que esté a punto de hervir.",
+      "Añade el arroz sin lavar y la sal; cuece a fuego lento removiendo a menudo hasta que esté cremoso y el grano muy tierno.",
+      "Retira la piel y la canela, añade el azúcar y cuece un poco más removiendo: al enfriar espesa.",
+      "Repártelo en cuencos y déjalo templar, o mételo en la nevera si lo prefieres frío.",
+      "Espolvorea canela molida justo antes de servir."
+     ],
+     "labels": [
+      "Leche",
+      "Arroz",
+      "Azúcar",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "No laves el arroz y echa el azúcar al final: el almidón lo hace cremoso y el grano se ablanda del todo.",
+      "A la asturiana: cúbrelo de azúcar y quémalo con soplete hasta tener una costra crujiente.",
+      "En la nevera dura 3 días: si espesa demasiado, remuévelo con un chorrito de leche."
+     ]
+    },
+    "de": {
+     "title": "Arroz con leche, spanischer Milchreis",
+     "intro": "Reis, langsam in Milch mit Zitronenschale und Zimt gegart, cremig und duftend.",
+     "ing": [
+      "Vollmilch",
+      "unbehandelte Zitrone (Schale)",
+      "Zimtstange",
+      "Milchreis (Rundkornreis)",
+      "Salz",
+      "Zucker",
+      "gemahlener Zimt"
+     ],
+     "steps": [
+      "Erhitz die Milch mit Zitronenschalenstreifen ohne das Weiße und der Zimtstange, bis sie fast kocht.",
+      "Gib den ungewaschenen Reis und das Salz dazu und gare ihn bei kleiner Hitze unter häufigem Rühren, bis er cremig und ganz weich ist.",
+      "Nimm Schale und Zimt heraus, rühr den Zucker ein und lass alles noch etwas köcheln: Beim Abkühlen dickt er nach.",
+      "Füll ihn in Schälchen und lass ihn lauwarm abkühlen oder stell ihn kalt, wenn du ihn kalt magst.",
+      "Bestäub ihn kurz vor dem Servieren mit Zimt."
+     ],
+     "labels": [
+      "Milch",
+      "Reis",
+      "Zucker",
+      "Ruhen",
+      ""
+     ],
+     "tips": [
+      "Reis nicht waschen und den Zucker erst am Ende zugeben: Die Stärke macht ihn cremig, die Körner werden ganz weich.",
+      "Asturische Art: mit Zucker bestreuen und mit dem Brenner zu einer knusprigen Kruste karamellisieren.",
+      "Hält 3 Tage im Kühlschrank: Wird er zu fest, einfach einen Schuss Milch unterrühren."
+     ]
+    }
+   }
+  },
+  {
+   "id": "tinto-de-verano",
+   "cat": "cocktail",
+   "sub": "tropicali",
+   "servings": 1,
+   "minutes": 3,
+   "diff": 1,
+   "kcal": 120,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "ES",
+   "alcohol": true,
+   "ingredients": [
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "red-wine"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "lemon-soda"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tinto de verano",
+     "intro": "Vino rosso e gassosa su tanto ghiaccio: l'estate spagnola in un bicchiere, senza fretta.",
+     "ing": [
+      "ghiaccio",
+      "vino rosso giovane",
+      "gassosa ben fredda",
+      "fetta di limone"
+     ],
+     "steps": [
+      "Riempi di ghiaccio fino all'orlo un bicchiere alto.",
+      "Versa il vino rosso fino a metà bicchiere.",
+      "Completa con la gassosa fredda, versandola piano perché non perda le bollicine.",
+      "Mescola una sola volta, aggiungi la fetta di limone e servi subito."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Vino e gassosa devono essere freddissimi: il ghiaccio si scioglie meno e non annacqua.",
+      "Con limonata frizzante al posto della gassosa è il tinto con limón, più dolce e agrumato."
+     ]
+    },
+    "en": {
+     "title": "Tinto de verano",
+     "intro": "Red wine and lemon soda over lots of ice: an easygoing Spanish summer in a glass.",
+     "ing": [
+      "ice",
+      "young red wine",
+      "well-chilled lemon-lime soda",
+      "lemon slice"
+     ],
+     "steps": [
+      "Fill a tall glass to the brim with ice.",
+      "Pour in the red wine until the glass is half full.",
+      "Top up with the cold soda, pouring slowly so it keeps its fizz.",
+      "Stir just once, add the lemon slice and serve straight away."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Wine and soda should be ice-cold so the ice melts slowly and doesn't water it down.",
+      "Use sparkling lemonade instead for tinto con limón, sweeter and more citrusy."
+     ]
+    },
+    "fr": {
+     "title": "Tinto de verano",
+     "intro": "Vin rouge et limonade sur beaucoup de glaçons : l'été espagnol dans un verre, sans façon.",
+     "ing": [
+      "glaçons",
+      "vin rouge jeune",
+      "limonade bien fraîche",
+      "rondelle de citron"
+     ],
+     "steps": [
+      "Remplis un grand verre de glaçons jusqu'en haut.",
+      "Verse le vin rouge jusqu'à mi-hauteur.",
+      "Complète avec la limonade froide, en versant doucement pour garder les bulles.",
+      "Remue une seule fois, ajoute la rondelle de citron et sers aussitôt."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Vin et limonade doivent être très froids : la glace fond moins vite et ne dilue pas.",
+      "Avec un soda au citron plus sucré, c'est le tinto con limón, plus fruité."
+     ]
+    },
+    "es": {
+     "title": "Tinto de verano",
+     "intro": "Vino tinto y gaseosa con mucho hielo: el verano español en un vaso, sin complicaciones.",
+     "ing": [
+      "hielo",
+      "vino tinto joven",
+      "gaseosa bien fría",
+      "rodaja de limón"
+     ],
+     "steps": [
+      "Llena de hielo hasta arriba un vaso alto.",
+      "Echa el vino tinto hasta la mitad del vaso.",
+      "Completa con la gaseosa fría, vertiéndola despacio para que no pierda el gas.",
+      "Remueve una sola vez, añade la rodaja de limón y sirve enseguida."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "El vino y la gaseosa deben estar helados: el hielo se derrite menos y no se agua.",
+      "Con refresco de limón en vez de gaseosa es el tinto con limón, más dulce y cítrico."
+     ]
+    },
+    "de": {
+     "title": "Tinto de verano",
+     "intro": "Rotwein und Zitronenlimo auf viel Eis: spanischer Sommer im Glas, ganz unkompliziert.",
+     "ing": [
+      "Eiswürfel",
+      "junger Rotwein",
+      "gut gekühlte Zitronenlimonade",
+      "Zitronenscheibe"
+     ],
+     "steps": [
+      "Füll ein hohes Glas bis zum Rand mit Eis.",
+      "Gieß den Rotwein bis zur Hälfte ein.",
+      "Füll mit der kalten Limonade auf und gieß langsam, damit sie nicht die Kohlensäure verliert.",
+      "Rühr nur einmal um, gib die Zitronenscheibe dazu und serviere sofort."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Wein und Limo sollten eiskalt sein, dann schmilzt das Eis langsamer und verwässert nicht.",
+      "Mit süßerer Zitronenlimonade wird daraus der Tinto con limón, fruchtiger und zitroniger."
+     ]
+    }
+   }
+  },
+  {
+   "id": "horchata-de-chufa",
+   "cat": "bevande",
+   "sub": "fresche",
+   "servings": 4,
+   "minutes": 915,
+   "diff": 1,
+   "kcal": 210,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "ES",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "tiger-nuts"
+    },
+    {
+     "q": 1000,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "sugar"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 3600
+    },
+    {},
+    {
+     "timer": 7200
+    }
+   ],
+   "tips": [
+    {
+     "k": "spice"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Horchata de chufa, latte di zigoli",
+     "intro": "La bibita fresca di Valencia: latte vegetale di chufa, dolce e nocciolato, servito gelato.",
+     "ing": [
+      "chufas o zigoli dolci (nei negozi bio)",
+      "acqua fredda",
+      "zucchero"
+     ],
+     "steps": [
+      "Il giorno prima sciacqua bene le chufas strofinandole tra le mani per togliere la terra; scarta quelle che galleggiano.",
+      "Coprile con abbondante acqua fredda e lasciale in frigo 12-24 ore, cambiando l'acqua una volta, finché sono gonfie.",
+      "Scolale, sciacquale e frullale con l'acqua fredda per 2-3 minuti, fino a un composto finissimo.",
+      "Lascia riposare il frullato in frigo perché rilasci tutto il sapore.",
+      "Filtralo con un sacchetto per latte vegetale o un telo pulito, strizzando forte per estrarre tutto il liquido.",
+      "Sciogli lo zucchero nell'horchata e mettila in frigo; servila gelata, agitandola perché si separa."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Infusione",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "In molte case di Valencia si aggiunge un pezzetto di cannella e una scorza di limone durante l'infusione.",
+      "Congelane metà e frullala con il resto: è la horchata granizada delle horchaterías.",
+      "Bevila entro 2 giorni perché fermenta in fretta; la polpa avanzata seccata in forno va nei biscotti."
+     ]
+    },
+    "en": {
+     "title": "Horchata de chufa, tiger nut milk",
+     "intro": "Valencia's summer drink: sweet, nutty tiger nut milk served ice-cold.",
+     "ing": [
+      "tiger nuts (from health food shops)",
+      "cold water",
+      "sugar"
+     ],
+     "steps": [
+      "The day before, rinse the tiger nuts well, rubbing them between your hands to remove any soil; discard any that float.",
+      "Cover with plenty of cold water and soak in the fridge for 12 to 24 hours, changing the water once, until plump.",
+      "Drain, rinse and blend with the cold water for 2 to 3 minutes until very fine.",
+      "Let the mixture rest in the fridge so it releases all its flavour.",
+      "Strain through a nut milk bag or clean cloth, squeezing hard to get out all the liquid.",
+      "Dissolve the sugar in the horchata and chill; serve ice-cold, shaking it first as it separates."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Steep",
+      "",
+      "Chill"
+     ],
+     "tips": [
+      "Many Valencian homes add a piece of cinnamon stick and a strip of lemon peel while it steeps.",
+      "Freeze half and blend it with the rest for horchata granizada, as served in horchaterías.",
+      "Drink within 2 days as it ferments quickly; dry the leftover pulp in the oven and bake it into cookies."
+     ]
+    },
+    "fr": {
+     "title": "Horchata de chufa, lait de souchet",
+     "intro": "La boisson fraîche de Valence : lait de souchet doux au goût de noisette, servi glacé.",
+     "ing": [
+      "souchets (chufas, en magasin bio)",
+      "eau froide",
+      "sucre"
+     ],
+     "steps": [
+      "La veille, rince bien les souchets en les frottant entre tes mains pour ôter la terre ; jette ceux qui flottent.",
+      "Couvre-les d'eau froide et laisse-les tremper au frais 12 à 24 heures, en changeant l'eau une fois, jusqu'à ce qu'ils gonflent.",
+      "Égoutte-les, rince-les et mixe-les avec l'eau froide 2 à 3 minutes, jusqu'à obtenir un mélange très fin.",
+      "Laisse reposer le mélange au frais pour qu'il libère tout son goût.",
+      "Filtre-le avec un sac à lait végétal ou un torchon propre, en pressant fort pour extraire tout le liquide.",
+      "Fais fondre le sucre dans l'horchata et mets-la au frais ; sers-la glacée, en la secouant car elle se sépare."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Infusion",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "Dans beaucoup de foyers valenciens, on ajoute un bout de cannelle et un zeste de citron pendant l'infusion.",
+      "Congèle-en la moitié et mixe-la avec le reste : c'est l'horchata granizada des horchaterías.",
+      "Bois-la sous 2 jours, elle fermente vite ; la pulpe séchée au four se met dans des biscuits."
+     ]
+    },
+    "es": {
+     "title": "Horchata de chufa",
+     "intro": "La bebida fresca de Valencia: horchata de chufa dulce y con sabor a avellana, bien helada.",
+     "ing": [
+      "chufas (en herbolarios y tiendas ecológicas)",
+      "agua fría",
+      "azúcar"
+     ],
+     "steps": [
+      "El día antes lava bien las chufas frotándolas entre las manos para quitarles la tierra; descarta las que floten.",
+      "Cúbrelas con abundante agua fría y déjalas en la nevera 12-24 horas, cambiando el agua una vez, hasta que estén hinchadas.",
+      "Escúrrelas, acláralas y tritúralas con el agua fría 2-3 minutos, hasta que quede muy fino.",
+      "Deja reposar la mezcla en la nevera para que suelte todo su sabor.",
+      "Cuélala con una bolsa para leches vegetales o un paño limpio, apretando fuerte para sacar todo el líquido.",
+      "Disuelve el azúcar en la horchata y métela en la nevera; sírvela helada, agitándola porque se separa."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Infusión",
+      "",
+      "Nevera"
+     ],
+     "tips": [
+      "En muchas casas valencianas se añade un trocito de canela y una piel de limón durante el reposo.",
+      "Congela la mitad y tritúrala con el resto: es la horchata granizada de las horchaterías.",
+      "Tómala en 2 días porque fermenta rápido; la pulpa sobrante, secada al horno, sirve para galletas."
+     ]
+    },
+    "de": {
+     "title": "Horchata de chufa, Erdmandelmilch",
+     "intro": "Das Sommergetränk aus Valencia: süße, nussige Erdmandelmilch, eiskalt serviert.",
+     "ing": [
+      "Erdmandeln (aus dem Bioladen)",
+      "kaltes Wasser",
+      "Zucker"
+     ],
+     "steps": [
+      "Wasch die Erdmandeln am Vortag gründlich und reib sie zwischen den Händen, um Erde zu entfernen; schwimmende aussortieren.",
+      "Bedeck sie mit reichlich kaltem Wasser und lass sie 12 bis 24 Stunden im Kühlschrank quellen, Wasser einmal wechseln.",
+      "Gieß sie ab, spül sie und mix sie mit dem kalten Wasser 2 bis 3 Minuten sehr fein.",
+      "Lass die Mischung im Kühlschrank ziehen, damit sie ihr ganzes Aroma abgibt.",
+      "Gieß sie durch einen Nussmilchbeutel oder ein sauberes Tuch und drück kräftig aus, bis alle Flüssigkeit heraus ist.",
+      "Lös den Zucker in der Horchata auf und stell sie kalt; eiskalt servieren und vorher schütteln, weil sie sich absetzt."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Ziehen",
+      "",
+      "Kühlen"
+     ],
+     "tips": [
+      "In vielen Familien in Valencia kommen beim Ziehen ein Stück Zimt und etwas Zitronenschale dazu.",
+      "Die Hälfte einfrieren und mit dem Rest mixen: So gibt es Horchata granizada wie in den Horchaterías.",
+      "Innerhalb von 2 Tagen trinken, sie gärt schnell; den Trester im Ofen trocknen und in Kekse backen."
+     ]
+    }
+   }
+  }
+ ]
+}

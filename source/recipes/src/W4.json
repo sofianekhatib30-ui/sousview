@@ -1,0 +1,4916 @@
+{
+ "group": "W4",
+ "recipes": [
+  {
+   "id": "mapo-tofu",
+   "cat": "secondi",
+   "sub": "vegetali",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 2,
+   "kcal": 340,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "CN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "silken-tofu"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "ground-beef"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "doubanjiang"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "fermented-black-beans"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "chili-flakes"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sichuan-pepper"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "shaoxing-wine"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "cornstarch"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "spice"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 120
+    },
+    {
+     "timer": 60
+    },
+    {
+     "timer": 240
+    },
+    {},
+    {
+     "timer": 300
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Mapo tofu, tofu piccante del Sichuan",
+     "intro": "Tofu morbido e manzo in salsa di fave piccante, col formicolio del pepe di Sichuan.",
+     "ing": [
+      "tofu morbido (silken)",
+      "carne macinata di manzo",
+      "doubanjiang (pasta di fave piccante)",
+      "fagioli neri fermentati (douchi)",
+      "peperoncino in fiocchi",
+      "spicchi d'aglio",
+      "zenzero fresco",
+      "cipollotti",
+      "pepe di Sichuan",
+      "vino di Shaoxing",
+      "salsa di soia",
+      "zucchero",
+      "amido di mais",
+      "acqua",
+      "olio di semi",
+      "sale"
+     ],
+     "steps": [
+      "Taglia il tofu a cubi di 2 cm e fallo sobbollire 2 minuti in acqua salata: si rassoda. Scolalo con delicatezza.",
+      "Tosta il pepe di Sichuan in padella asciutta finché profuma, poi pestalo fine nel mortaio.",
+      "Scalda l'olio nel wok a fuoco vivo e rosola la carne sgranandola finché è scura e croccante.",
+      "Abbassa la fiamma, aggiungi doubanjiang, douchi tritati, peperoncino, aglio e zenzero tritati: soffriggi finché l'olio diventa rosso.",
+      "Versa vino, soia, zucchero e 250 ml d'acqua, porta a bollore e fai scivolare dentro il tofu. Cuoci piano scuotendo il wok, senza mescolare.",
+      "Stempera l'amido nell'acqua rimasta e versalo in due o tre volte, finché la salsa vela il tofu ed è lucida.",
+      "Cospargi con il pepe di Sichuan e i cipollotti affettati e servi subito con riso bianco."
+     ],
+     "labels": [
+      "Tofu",
+      "Pepe",
+      "Manzo",
+      "",
+      "Sobbollire",
+      "",
+      ""
+     ],
+     "tips": [
+      "Scuoti il wok invece di mescolare: il tofu resta a cubi interi e la salsa lo avvolge.",
+      "Versione vegana: sostituisci il manzo con shiitake tritati finemente e rosolati bene.",
+      "Il doubanjiang di Pixian, rosso scuro e con fave intere, dà il sapore più autentico."
+     ]
+    },
+    "en": {
+     "title": "Mapo tofu, Sichuan spicy tofu",
+     "intro": "Silky tofu and beef in a fiery broad bean sauce, with the tingle of Sichuan pepper.",
+     "ing": [
+      "soft silken tofu",
+      "minced beef",
+      "doubanjiang (chilli bean paste)",
+      "fermented black beans (douchi)",
+      "chilli flakes",
+      "garlic cloves",
+      "fresh ginger",
+      "spring onions",
+      "Sichuan peppercorns",
+      "Shaoxing wine",
+      "soy sauce",
+      "sugar",
+      "cornflour",
+      "water",
+      "sunflower oil",
+      "salt"
+     ],
+     "steps": [
+      "Cut the tofu into 2 cm cubes and simmer in salted water for 2 minutes to firm it up. Drain gently.",
+      "Toast the Sichuan pepper in a dry pan until fragrant, then grind it finely in a mortar.",
+      "Heat the oil in a wok over high heat and fry the beef, breaking it up, until dark and crisp.",
+      "Lower the heat, add the doubanjiang, chopped douchi, chilli, minced garlic and ginger; fry until the oil turns red.",
+      "Add the wine, soy, sugar and 250 ml water, bring to the boil and slide in the tofu. Simmer gently, shaking the wok instead of stirring.",
+      "Mix the cornflour with the remaining water and add it in two or three goes until the sauce coats the tofu and turns glossy.",
+      "Sprinkle with the ground Sichuan pepper and sliced spring onions and serve at once with plain rice."
+     ],
+     "labels": [
+      "Tofu",
+      "Pepper",
+      "Beef",
+      "",
+      "Simmer",
+      "",
+      ""
+     ],
+     "tips": [
+      "Shake the wok rather than stirring: the tofu cubes stay whole and the sauce wraps around them.",
+      "For a vegan version, swap the beef for finely chopped shiitake fried until well browned.",
+      "Pixian doubanjiang, dark red with whole broad beans, gives the most authentic flavour."
+     ]
+    },
+    "fr": {
+     "title": "Mapo tofu, tofu épicé du Sichuan",
+     "intro": "Tofu fondant et bœuf en sauce pimentée aux fèves, relevé au poivre du Sichuan.",
+     "ing": [
+      "tofu soyeux",
+      "bœuf haché",
+      "doubanjiang (pâte de fèves pimentée)",
+      "haricots noirs fermentés (douchi)",
+      "piment en flocons",
+      "gousses d'ail",
+      "gingembre frais",
+      "oignons nouveaux",
+      "poivre du Sichuan",
+      "vin de Shaoxing",
+      "sauce soja",
+      "sucre",
+      "fécule de maïs",
+      "eau",
+      "huile de tournesol",
+      "sel"
+     ],
+     "steps": [
+      "Coupe le tofu en cubes de 2 cm et fais-le frémir 2 minutes dans de l'eau salée pour le raffermir. Égoutte-le délicatement.",
+      "Torréfie le poivre du Sichuan à sec dans une poêle jusqu'à ce qu'il embaume, puis pile-le finement.",
+      "Chauffe l'huile dans le wok à feu vif et fais revenir le bœuf en l'émiettant jusqu'à ce qu'il soit brun et croustillant.",
+      "Baisse le feu, ajoute doubanjiang, douchi hachés, piment, ail et gingembre hachés ; fais revenir jusqu'à ce que l'huile rougisse.",
+      "Verse le vin, le soja, le sucre et 250 ml d'eau, porte à ébullition et glisse le tofu. Laisse mijoter en secouant le wok sans remuer.",
+      "Délaye la fécule dans le reste d'eau et verse-la en deux ou trois fois, jusqu'à ce que la sauce nappe le tofu et brille.",
+      "Parsème de poivre du Sichuan et d'oignons nouveaux émincés, et sers aussitôt avec du riz nature."
+     ],
+     "labels": [
+      "Tofu",
+      "Poivre",
+      "Bœuf",
+      "",
+      "Mijoter",
+      "",
+      ""
+     ],
+     "tips": [
+      "Secoue le wok au lieu de remuer : les cubes de tofu restent entiers et la sauce les enrobe.",
+      "Version végane : remplace le bœuf par des shiitakés hachés finement et bien dorés.",
+      "Le doubanjiang de Pixian, rouge sombre avec des fèves entières, donne le goût le plus authentique."
+     ]
+    },
+    "es": {
+     "title": "Mapo tofu, tofu picante de Sichuan",
+     "intro": "Tofu suave y ternera en salsa picante de habas, con el hormigueo de la pimienta Sichuan.",
+     "ing": [
+      "tofu sedoso",
+      "carne picada de ternera",
+      "doubanjiang (pasta de habas picante)",
+      "judías negras fermentadas (douchi)",
+      "copos de guindilla",
+      "dientes de ajo",
+      "jengibre fresco",
+      "cebolletas",
+      "pimienta de Sichuan",
+      "vino de Shaoxing",
+      "salsa de soja",
+      "azúcar",
+      "maicena",
+      "agua",
+      "aceite de girasol",
+      "sal"
+     ],
+     "steps": [
+      "Corta el tofu en dados de 2 cm y cuécelo 2 minutos en agua salada a fuego suave para que se afirme. Escúrrelo con cuidado.",
+      "Tuesta la pimienta de Sichuan en una sartén sin aceite hasta que huela, luego macháquela fina en el mortero.",
+      "Calienta el aceite en el wok a fuego vivo y sofríe la carne desmenuzándola hasta que esté dorada y crujiente.",
+      "Baja el fuego, añade el doubanjiang, el douchi picado, la guindilla, el ajo y el jengibre picados; sofríe hasta que el aceite enrojezca.",
+      "Añade el vino, la soja, el azúcar y 250 ml de agua, lleva a ebullición e incorpora el tofu. Cuece suave moviendo el wok, sin remover.",
+      "Disuelve la maicena en el agua restante y añádela en dos o tres veces, hasta que la salsa envuelva el tofu y brille.",
+      "Espolvorea con la pimienta de Sichuan y la cebolleta en rodajas y sirve enseguida con arroz blanco."
+     ],
+     "labels": [
+      "Tofu",
+      "Pimienta",
+      "Ternera",
+      "",
+      "Hervir",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mueve el wok en lugar de remover: los dados de tofu quedan enteros y la salsa los envuelve.",
+      "Versión vegana: cambia la ternera por shiitake picados finos y bien dorados.",
+      "El doubanjiang de Pixian, rojo oscuro y con habas enteras, da el sabor más auténtico."
+     ]
+    },
+    "de": {
+     "title": "Mapo-Tofu, scharfer Tofu aus Sichuan",
+     "intro": "Zarter Tofu und Rind in scharfer Bohnenpaste, mit dem Kribbeln von Sichuanpfeffer.",
+     "ing": [
+      "Seidentofu",
+      "Rinderhackfleisch",
+      "Doubanjiang (scharfe Bohnenpaste)",
+      "fermentierte schwarze Bohnen (Douchi)",
+      "Chiliflocken",
+      "Knoblauchzehen",
+      "frischer Ingwer",
+      "Frühlingszwiebeln",
+      "Sichuanpfeffer",
+      "Shaoxing-Reiswein",
+      "Sojasoße",
+      "Zucker",
+      "Speisestärke",
+      "Wasser",
+      "Sonnenblumenöl",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid den Tofu in 2-cm-Würfel und lass ihn 2 Minuten in Salzwasser sieden, damit er fester wird. Gieß ihn vorsichtig ab.",
+      "Röste den Sichuanpfeffer in einer trockenen Pfanne, bis er duftet, und mörser ihn dann fein.",
+      "Erhitz das Öl im Wok bei starker Hitze und brat das Hack krümelig, bis es dunkel und knusprig ist.",
+      "Reduzier die Hitze, gib Doubanjiang, gehackte Douchi, Chili, Knoblauch und Ingwer dazu und brat alles, bis das Öl rot wird.",
+      "Gieß Wein, Sojasoße, Zucker und 250 ml Wasser an, lass es aufkochen und den Tofu hineingleiten. Rüttel den Wok beim Köcheln, statt zu rühren.",
+      "Rühr die Stärke mit dem restlichen Wasser an und gib sie in zwei, drei Portionen dazu, bis die Soße den Tofu glänzend umhüllt.",
+      "Bestreu alles mit dem Sichuanpfeffer und den Frühlingszwiebelringen und servier es sofort mit Reis."
+     ],
+     "labels": [
+      "Tofu",
+      "Pfeffer",
+      "Rind",
+      "",
+      "Köcheln",
+      "",
+      ""
+     ],
+     "tips": [
+      "Rüttel den Wok, statt zu rühren: So bleiben die Tofuwürfel ganz und die Soße legt sich darum.",
+      "Vegane Variante: Ersetz das Rind durch fein gehackte, kräftig angebratene Shiitake.",
+      "Doubanjiang aus Pixian, dunkelrot und mit ganzen Bohnen, schmeckt am authentischsten."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pollo-kung-pao",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 2,
+   "kcal": 430,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "CN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "chicken-thighs"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "shaoxing-wine"
+    },
+    {
+     "q": 4,
+     "u": "tsp",
+     "k": "cornstarch"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "black-vinegar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 45,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 10,
+     "u": "",
+     "k": "dried-chilies"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sichuan-pepper"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 80,
+     "u": "g",
+     "k": "roasted-peanuts"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 900,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 30
+    },
+    {
+     "timer": 300
+    },
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pollo kung pao con arachidi",
+     "intro": "Pollo con peperoncini secchi e arachidi in salsa agrodolce, il classico del Sichuan.",
+     "ing": [
+      "sovracosce di pollo disossate",
+      "salsa di soia",
+      "vino di Shaoxing",
+      "amido di mais",
+      "aceto nero cinese (Zhenjiang)",
+      "zucchero",
+      "acqua",
+      "peperoncini secchi",
+      "pepe di Sichuan in grani",
+      "spicchi d'aglio",
+      "zenzero fresco",
+      "cipollotti",
+      "arachidi tostate non salate",
+      "olio di semi"
+     ],
+     "steps": [
+      "Taglia il pollo a cubetti di 1,5 cm e mescolalo con 1 cucchiaio di soia, il vino e 3 cucchiaini di amido. Lascialo insaporire.",
+      "Intanto mescola la soia rimasta con aceto, zucchero, l'ultimo cucchiaino di amido e l'acqua. Spezza i peperoncini e togli i semi.",
+      "Scalda l'olio nel wok a fuoco medio e friggi peperoncini e pepe di Sichuan finché scuriscono appena, senza bruciarli.",
+      "Alza la fiamma, aggiungi il pollo e saltalo finché è dorato e cotto anche al centro.",
+      "Unisci aglio e zenzero a fettine e i cipollotti a tocchetti; salta per 1 minuto.",
+      "Mescola la salsa e versala nel wok: in pochi secondi diventa densa e lucida. Spegni e unisci le arachidi.",
+      "Servi subito con riso bianco; i peperoncini servono a profumare, non si mangiano."
+     ],
+     "labels": [
+      "Marinatura",
+      "",
+      "Peperoncini",
+      "Pollo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Aggiungi le arachidi a fuoco spento: restano croccanti fino in tavola.",
+      "Senza aceto nero usa aceto di riso con mezzo cucchiaino di aceto balsamico."
+     ]
+    },
+    "en": {
+     "title": "Kung pao chicken with peanuts",
+     "intro": "Chicken with dried chillies and peanuts in a sweet-sour sauce, a Sichuan classic.",
+     "ing": [
+      "boneless chicken thighs",
+      "soy sauce",
+      "Shaoxing wine",
+      "cornflour",
+      "Chinkiang black vinegar",
+      "sugar",
+      "water",
+      "dried red chillies",
+      "whole Sichuan peppercorns",
+      "garlic cloves",
+      "fresh ginger",
+      "spring onions",
+      "unsalted roasted peanuts",
+      "sunflower oil"
+     ],
+     "steps": [
+      "Cut the chicken into 1.5 cm cubes and mix with 1 tbsp soy, the wine and 3 tsp cornflour. Leave to marinate.",
+      "Meanwhile mix the rest of the soy with the vinegar, sugar, last tsp of cornflour and water. Snap the chillies and shake out the seeds.",
+      "Heat the oil in the wok over medium heat and fry the chillies and Sichuan pepper until they just darken, without burning.",
+      "Turn up the heat, add the chicken and stir-fry until golden and cooked right through.",
+      "Add the sliced garlic and ginger and the spring onions cut into chunks; stir-fry for 1 minute.",
+      "Stir the sauce and pour it in: within seconds it turns thick and glossy. Turn off the heat and toss in the peanuts.",
+      "Serve straight away with plain rice; the chillies are there for aroma, not for eating."
+     ],
+     "labels": [
+      "Marinate",
+      "",
+      "Chillies",
+      "Chicken",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Add the peanuts off the heat so they stay crunchy all the way to the table.",
+      "No black vinegar? Use rice vinegar with half a teaspoon of balsamic."
+     ]
+    },
+    "fr": {
+     "title": "Poulet kung pao aux cacahuètes",
+     "intro": "Poulet aux piments séchés et cacahuètes, sauce aigre-douce : un classique du Sichuan.",
+     "ing": [
+      "hauts de cuisse de poulet désossés",
+      "sauce soja",
+      "vin de Shaoxing",
+      "fécule de maïs",
+      "vinaigre noir de Zhenjiang",
+      "sucre",
+      "eau",
+      "piments séchés",
+      "poivre du Sichuan en grains",
+      "gousses d'ail",
+      "gingembre frais",
+      "oignons nouveaux",
+      "cacahuètes grillées non salées",
+      "huile de tournesol"
+     ],
+     "steps": [
+      "Coupe le poulet en dés de 1,5 cm et mélange-le avec 1 c. à soupe de soja, le vin et 3 c. à café de fécule. Laisse mariner.",
+      "Mélange le reste de soja avec le vinaigre, le sucre, la dernière c. à café de fécule et l'eau. Casse les piments et ôte les graines.",
+      "Chauffe l'huile dans le wok à feu moyen et fais frire piments et poivre du Sichuan jusqu'à ce qu'ils foncent, sans brûler.",
+      "Monte le feu, ajoute le poulet et saute-le jusqu'à ce qu'il soit doré et bien cuit à cœur.",
+      "Ajoute l'ail et le gingembre émincés et les oignons nouveaux en tronçons ; saute 1 minute.",
+      "Remue la sauce et verse-la : en quelques secondes elle devient épaisse et brillante. Éteins et ajoute les cacahuètes.",
+      "Sers aussitôt avec du riz nature ; les piments parfument mais ne se mangent pas."
+     ],
+     "labels": [
+      "Marinade",
+      "",
+      "Piments",
+      "Poulet",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ajoute les cacahuètes hors du feu : elles restent croquantes jusqu'à table.",
+      "Sans vinaigre noir, prends du vinaigre de riz avec une demi-c. à café de balsamique."
+     ]
+    },
+    "es": {
+     "title": "Pollo kung pao con cacahuetes",
+     "intro": "Pollo con guindillas secas y cacahuetes en salsa agridulce, un clásico de Sichuan.",
+     "ing": [
+      "contramuslos de pollo deshuesados",
+      "salsa de soja",
+      "vino de Shaoxing",
+      "maicena",
+      "vinagre negro chino (Zhenjiang)",
+      "azúcar",
+      "agua",
+      "guindillas secas",
+      "pimienta de Sichuan en grano",
+      "dientes de ajo",
+      "jengibre fresco",
+      "cebolletas",
+      "cacahuetes tostados sin sal",
+      "aceite de girasol"
+     ],
+     "steps": [
+      "Corta el pollo en dados de 1,5 cm y mézclalo con 1 cucharada de soja, el vino y 3 cucharaditas de maicena. Deja marinar.",
+      "Mientras, mezcla el resto de la soja con el vinagre, el azúcar, la última cucharadita de maicena y el agua. Parte las guindillas sin semillas.",
+      "Calienta el aceite en el wok a fuego medio y fríe las guindillas y la pimienta hasta que se oscurezcan un poco, sin quemarse.",
+      "Sube el fuego, añade el pollo y saltéalo hasta que esté dorado y bien hecho por dentro.",
+      "Añade el ajo y el jengibre en láminas y la cebolleta en trozos; saltea 1 minuto.",
+      "Remueve la salsa y viértela: en segundos se vuelve espesa y brillante. Apaga el fuego y añade los cacahuetes.",
+      "Sirve enseguida con arroz blanco; las guindillas perfuman, no se comen."
+     ],
+     "labels": [
+      "Marinado",
+      "",
+      "Guindillas",
+      "Pollo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Añade los cacahuetes con el fuego apagado: llegan crujientes a la mesa.",
+      "Sin vinagre negro, usa vinagre de arroz con media cucharadita de balsámico."
+     ]
+    },
+    "de": {
+     "title": "Kung-Pao-Hähnchen mit Erdnüssen",
+     "intro": "Hähnchen mit getrockneten Chilis und Erdnüssen in süßsaurer Soße, ein Sichuan-Klassiker.",
+     "ing": [
+      "Hähnchenschenkel ohne Knochen",
+      "Sojasoße",
+      "Shaoxing-Reiswein",
+      "Speisestärke",
+      "chinesischer schwarzer Essig",
+      "Zucker",
+      "Wasser",
+      "getrocknete Chilischoten",
+      "ganzer Sichuanpfeffer",
+      "Knoblauchzehen",
+      "frischer Ingwer",
+      "Frühlingszwiebeln",
+      "ungesalzene geröstete Erdnüsse",
+      "Sonnenblumenöl"
+     ],
+     "steps": [
+      "Schneid das Hähnchen in 1,5-cm-Würfel und misch es mit 1 EL Sojasoße, dem Wein und 3 TL Stärke. Lass es marinieren.",
+      "Verrühr inzwischen restliche Sojasoße, Essig, Zucker, den letzten TL Stärke und Wasser. Brich die Chilis auf und entfern die Samen.",
+      "Erhitz das Öl im Wok bei mittlerer Hitze und brat Chilis und Sichuanpfeffer, bis sie leicht dunkeln, ohne zu verbrennen.",
+      "Dreh die Hitze hoch, gib das Hähnchen dazu und brat es, bis es goldbraun und ganz durchgegart ist.",
+      "Gib Knoblauch- und Ingwerscheiben und die Frühlingszwiebeln in Stücken dazu und brat alles 1 Minute.",
+      "Rühr die Soße um und gieß sie an: In Sekunden wird sie dick und glänzend. Schalt den Herd aus und heb die Erdnüsse unter.",
+      "Servier es sofort mit Reis; die Chilis geben Aroma und werden nicht mitgegessen."
+     ],
+     "labels": [
+      "Marinieren",
+      "",
+      "Chilis",
+      "Hähnchen",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Gib die Erdnüsse erst bei ausgeschaltetem Herd dazu, dann bleiben sie knackig.",
+      "Ohne schwarzen Essig: Reisessig mit einem halben TL Balsamico mischen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "hong-shao-rou",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 110,
+   "diff": 2,
+   "kcal": 680,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort",
+    "festive"
+   ],
+   "months": [],
+   "origin": "CN",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "pork-belly"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "shaoxing-wine"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "dark-soy-sauce"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "star-anise"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 600,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 180
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 180
+    },
+    {},
+    {
+     "timer": 4500,
+     "alt": {
+      "pressure": {
+       "timer": 1500
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Hong shao rou, pancia di maiale brasata",
+     "intro": "Pancia di maiale caramellata e brasata con soia e anice finché si scioglie in bocca.",
+     "ing": [
+      "pancia di maiale con cotenna",
+      "zucchero (o zucchero candito)",
+      "vino di Shaoxing",
+      "salsa di soia chiara",
+      "salsa di soia scura",
+      "zenzero fresco",
+      "cipollotti",
+      "anice stellato",
+      "stecca di cannella",
+      "acqua calda",
+      "olio di semi"
+     ],
+     "steps": [
+      "Taglia la pancia a cubi di 3 cm, mettila in acqua fredda, porta a bollore e cuoci 3 minuti. Scola e sciacqua.",
+      "In una casseruola dal fondo spesso scalda olio e zucchero a fuoco basso, mescolando, finché diventa un caramello ambrato.",
+      "Aggiungi la carne ben asciutta e girala finché è lucida e color mogano. Attenzione agli schizzi.",
+      "Unisci zenzero a fette, cipollotti a pezzi, anice e cannella; sfuma con il vino e aggiungi le due salse di soia.",
+      "Copri a filo con l'acqua calda, porta a bollore, poi metti il coperchio e cuoci a fuoco minimo, girando ogni tanto.",
+      "Togli gli aromi, scopri e alza la fiamma: fai restringere girando finché la salsa è sciropposa e glassa la carne.",
+      "Servi caldo con riso bianco e un po' di salsa sopra."
+     ],
+     "labels": [
+      "Sbollentare",
+      "Caramello",
+      "Rosolare",
+      "",
+      "Brasatura",
+      "Ridurre",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "In pentola a pressione copri a filo d'acqua calda, chiudi e cuoci 25 minuti dal fischio, poi sfiata."
+      }
+     },
+     "tips": [
+      "Asciuga bene la carne prima del caramello: schizza meno e prende un colore più uniforme.",
+      "Aggiungi 4 uova sode sgusciate nell'ultima mezz'ora: si colorano e assorbono la salsa.",
+      "Il giorno dopo è ancora più buono: togli il grasso rappreso e scalda piano con un goccio d'acqua."
+     ]
+    },
+    "en": {
+     "title": "Hong shao rou, red-braised pork belly",
+     "intro": "Pork belly caramelised and braised with soy and star anise until it melts in the mouth.",
+     "ing": [
+      "skin-on pork belly",
+      "sugar (or rock sugar)",
+      "Shaoxing wine",
+      "light soy sauce",
+      "dark soy sauce",
+      "fresh ginger",
+      "spring onions",
+      "star anise",
+      "cinnamon stick",
+      "hot water",
+      "sunflower oil"
+     ],
+     "steps": [
+      "Cut the belly into 3 cm cubes, cover with cold water, bring to the boil and cook for 3 minutes. Drain and rinse.",
+      "In a heavy pot heat the oil and sugar over low heat, stirring, until it turns into an amber caramel.",
+      "Add the well-dried pork and turn it until glossy and mahogany-coloured. Watch out for spatters.",
+      "Add the sliced ginger, spring onions in pieces, star anise and cinnamon; splash in the wine and add both soy sauces.",
+      "Pour in hot water to just cover, bring to the boil, then cover and cook on the lowest heat, stirring now and then.",
+      "Remove the aromatics, uncover and turn up the heat: reduce, stirring, until the sauce is syrupy and glazes the pork.",
+      "Serve hot with plain rice and a spoonful of the sauce."
+     ],
+     "labels": [
+      "Blanch",
+      "Caramel",
+      "Brown",
+      "",
+      "Braise",
+      "Reduce",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "In a pressure cooker, just cover with hot water, lock the lid and cook for 25 minutes at pressure, then release."
+      }
+     },
+     "tips": [
+      "Dry the pork well before it goes into the caramel: it spatters less and colours more evenly.",
+      "Add 4 peeled hard-boiled eggs for the last half hour: they take on colour and soak up the sauce.",
+      "It's even better the next day: lift off the set fat and reheat gently with a splash of water."
+     ]
+    },
+    "fr": {
+     "title": "Hong shao rou, poitrine de porc braisée",
+     "intro": "Poitrine de porc caramélisée puis braisée au soja et à l'anis étoilé, fondante à souhait.",
+     "ing": [
+      "poitrine de porc avec la couenne",
+      "sucre (ou sucre candi)",
+      "vin de Shaoxing",
+      "sauce soja claire",
+      "sauce soja foncée",
+      "gingembre frais",
+      "oignons nouveaux",
+      "anis étoilé",
+      "bâton de cannelle",
+      "eau chaude",
+      "huile de tournesol"
+     ],
+     "steps": [
+      "Coupe la poitrine en cubes de 3 cm, couvre d'eau froide, porte à ébullition et cuis 3 minutes. Égoutte et rince.",
+      "Dans une cocotte à fond épais, chauffe l'huile et le sucre à feu doux en remuant jusqu'à obtenir un caramel ambré.",
+      "Ajoute la viande bien séchée et retourne-la jusqu'à ce qu'elle soit brillante et acajou. Attention aux projections.",
+      "Ajoute gingembre en tranches, oignons nouveaux en tronçons, anis et cannelle ; déglace au vin et ajoute les deux sauces soja.",
+      "Couvre juste d'eau chaude, porte à ébullition, puis mets le couvercle et cuis à feu très doux en remuant de temps en temps.",
+      "Retire les aromates, découvre et monte le feu : fais réduire en remuant jusqu'à ce que la sauce soit sirupeuse et laque la viande.",
+      "Sers chaud avec du riz nature et un peu de sauce."
+     ],
+     "labels": [
+      "Blanchir",
+      "Caramel",
+      "Dorer",
+      "",
+      "Braisage",
+      "Réduire",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "À l'autocuiseur, couvre juste d'eau chaude, ferme et cuis 25 minutes après le sifflement, puis décompresse."
+      }
+     },
+     "tips": [
+      "Sèche bien la viande avant le caramel : elle éclabousse moins et colore plus régulièrement.",
+      "Ajoute 4 œufs durs écalés la dernière demi-heure : ils prennent la couleur et la sauce.",
+      "Encore meilleur le lendemain : retire la graisse figée et réchauffe doucement avec un peu d'eau."
+     ]
+    },
+    "es": {
+     "title": "Hong shao rou, panceta de cerdo guisada",
+     "intro": "Panceta de cerdo caramelizada y guisada con soja y anís estrellado hasta deshacerse.",
+     "ing": [
+      "panceta de cerdo con piel",
+      "azúcar (o azúcar cande)",
+      "vino de Shaoxing",
+      "salsa de soja clara",
+      "salsa de soja oscura",
+      "jengibre fresco",
+      "cebolletas",
+      "anís estrellado",
+      "rama de canela",
+      "agua caliente",
+      "aceite de girasol"
+     ],
+     "steps": [
+      "Corta la panceta en dados de 3 cm, cúbrela con agua fría, lleva a ebullición y cuece 3 minutos. Escurre y enjuaga.",
+      "En una cazuela de fondo grueso calienta el aceite y el azúcar a fuego bajo, removiendo, hasta lograr un caramelo ámbar.",
+      "Añade la carne bien seca y dale vueltas hasta que brille y tome color caoba. Cuidado con las salpicaduras.",
+      "Añade el jengibre en rodajas, la cebolleta en trozos, el anís y la canela; riega con el vino y añade las dos salsas de soja.",
+      "Cubre justo con el agua caliente, lleva a ebullición, tapa y cuece a fuego mínimo, removiendo de vez en cuando.",
+      "Retira los aromáticos, destapa y sube el fuego: reduce removiendo hasta que la salsa quede almibarada y glasee la carne.",
+      "Sirve caliente con arroz blanco y un poco de salsa por encima."
+     ],
+     "labels": [
+      "Escaldar",
+      "Caramelo",
+      "Dorar",
+      "",
+      "Guiso",
+      "Reducir",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "En olla a presión, cubre justo con agua caliente, cierra y cuece 25 minutos desde que suba la válvula; luego despresuriza."
+      }
+     },
+     "tips": [
+      "Seca bien la carne antes del caramelo: salpica menos y toma un color más uniforme.",
+      "Añade 4 huevos duros pelados en la última media hora: se tiñen y absorben la salsa.",
+      "Al día siguiente está aún mejor: quita la grasa solidificada y calienta suave con un chorrito de agua."
+     ]
+    },
+    "de": {
+     "title": "Hong Shao Rou, geschmorter Schweinebauch",
+     "intro": "Schweinebauch, karamellisiert und mit Soja und Sternanis geschmort, bis er zerfällt.",
+     "ing": [
+      "Schweinebauch mit Schwarte",
+      "Zucker (oder Kandis)",
+      "Shaoxing-Reiswein",
+      "helle Sojasoße",
+      "dunkle Sojasoße",
+      "frischer Ingwer",
+      "Frühlingszwiebeln",
+      "Sternanis",
+      "Zimtstange",
+      "heißes Wasser",
+      "Sonnenblumenöl"
+     ],
+     "steps": [
+      "Schneid den Bauch in 3-cm-Würfel, setz ihn mit kaltem Wasser auf, lass ihn 3 Minuten kochen, gieß ab und spül ihn ab.",
+      "Erhitz Öl und Zucker in einem schweren Topf bei schwacher Hitze unter Rühren, bis ein bernsteinfarbener Karamell entsteht.",
+      "Gib das gut abgetrocknete Fleisch dazu und wend es, bis es glänzt und mahagonifarben ist. Vorsicht, es spritzt.",
+      "Gib Ingwerscheiben, Frühlingszwiebelstücke, Sternanis und Zimt dazu, lösch mit dem Wein ab und gib beide Sojasoßen dazu.",
+      "Gieß heißes Wasser an, bis alles knapp bedeckt ist, lass es aufkochen und zugedeckt bei kleinster Hitze schmoren; rühr ab und zu um.",
+      "Nimm Gewürze und Deckel ab, dreh die Hitze hoch und koch die Soße unter Rühren ein, bis sie sirupartig das Fleisch glasiert.",
+      "Servier es heiß mit Reis und etwas Soße darüber."
+     ],
+     "labels": [
+      "Blanchieren",
+      "Karamell",
+      "Anbraten",
+      "",
+      "Schmoren",
+      "Einkochen",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Bedeck alles im Schnellkochtopf knapp mit heißem Wasser, schließ ihn, gar 25 Minuten unter Druck und lass dann den Dampf ab."
+      }
+     },
+     "tips": [
+      "Trockne das Fleisch vor dem Karamell gut ab: Es spritzt weniger und bräunt gleichmäßiger.",
+      "Leg in der letzten halben Stunde 4 geschälte hart gekochte Eier dazu: Sie färben sich und saugen Soße auf.",
+      "Am nächsten Tag noch besser: Heb das erstarrte Fett ab und erwärm es sanft mit einem Schuss Wasser."
+     ]
+    }
+   }
+  },
+  {
+   "id": "qing-zheng-yu",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 30,
+   "diff": 2,
+   "kcal": 290,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "festive",
+    "party"
+   ],
+   "months": [],
+   "origin": "CN",
+   "alcohol": false,
+   "methods": [
+    "steam",
+    "oven"
+   ],
+   "ingredients": [
+    {
+     "q": 2,
+     "u": "",
+     "k": "whole-sea-bass"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "shaoxing-wine"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "water"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "peanut-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 540,
+     "bg": true,
+     "alt": {
+      "oven": {
+       "timer": 1080
+      }
+     }
+    },
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Qing zheng yu, branzino al vapore",
+     "intro": "Branzino al vapore con zenzero, cipollotto e olio bollente: delicato, alla cantonese.",
+     "ing": [
+      "branzini da 500 g, puliti",
+      "zenzero fresco",
+      "cipollotti",
+      "vino di Shaoxing",
+      "salsa di soia",
+      "zucchero",
+      "acqua",
+      "olio di arachidi",
+      "coriandolo fresco"
+     ],
+     "steps": [
+      "Asciuga i pesci, incidi 2 o 3 tagli obliqui per lato e strofinali con il vino. Metti metà dello zenzero a fette nella pancia e sotto.",
+      "Taglia a julienne finissima il resto dello zenzero e il verde dei cipollotti; mettili in acqua fredda perché si arriccino.",
+      "Metti i pesci su un piatto e cuocili coperti sul vapore a fuoco vivo, finché la carne vicino alla lisca è bianca e si stacca.",
+      "Intanto scalda soia, zucchero e acqua in un pentolino finché lo zucchero si scioglie.",
+      "Elimina il liquido di cottura e lo zenzero cotto, sposta i pesci su un piatto caldo e coprili con la julienne scolata.",
+      "Scalda l'olio finché fuma e versalo sfrigolante sulla julienne. Versa la salsa intorno ai pesci e completa con il coriandolo."
+     ],
+     "labels": [
+      "",
+      "",
+      "Vapore",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "oven": "Chiudi i pesci in un cartoccio di alluminio con il vino e cuocili in forno a 200 °C per 18 minuti."
+      }
+     },
+     "tips": [
+      "Non salare il pesce prima del vapore: la soia arriva alla fine e la carne resta morbidissima.",
+      "Con salsa tamari al posto della soia il piatto diventa senza glutine."
+     ]
+    },
+    "en": {
+     "title": "Qing zheng yu, steamed sea bass",
+     "intro": "Whole sea bass steamed, then dressed with ginger, spring onion and sizzling oil.",
+     "ing": [
+      "sea bass, about 500 g each, gutted",
+      "fresh ginger",
+      "spring onions",
+      "Shaoxing wine",
+      "soy sauce",
+      "sugar",
+      "water",
+      "groundnut oil",
+      "fresh coriander"
+     ],
+     "steps": [
+      "Pat the fish dry, make 2 or 3 diagonal cuts on each side and rub with the wine. Put half the sliced ginger inside and underneath.",
+      "Cut the rest of the ginger and the green part of the spring onions into very fine strips; soak in cold water so they curl.",
+      "Lay the fish on a plate and steam, covered, over high heat until the flesh near the bone is white and flakes away.",
+      "Meanwhile warm the soy, sugar and water in a small pan until the sugar dissolves.",
+      "Pour off the cooking liquid, discard the cooked ginger, move the fish to a warm platter and top with the drained strips.",
+      "Heat the oil until smoking and pour it, sizzling, over the strips. Pour the sauce around the fish and finish with coriander."
+     ],
+     "labels": [
+      "",
+      "",
+      "Steam",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "oven": "Wrap the fish in a foil parcel with the wine and bake at 200 °C for 18 minutes."
+      }
+     },
+     "tips": [
+      "Don't salt the fish before steaming: the soy goes on at the end and the flesh stays silky.",
+      "Use tamari instead of soy sauce to make the dish gluten-free."
+     ]
+    },
+    "fr": {
+     "title": "Qing zheng yu, bar à la vapeur",
+     "intro": "Bar entier cuit à la vapeur, nappé de gingembre, oignon nouveau et huile grésillante.",
+     "ing": [
+      "bars de 500 g environ, vidés",
+      "gingembre frais",
+      "oignons nouveaux",
+      "vin de Shaoxing",
+      "sauce soja",
+      "sucre",
+      "eau",
+      "huile d'arachide",
+      "coriandre fraîche"
+     ],
+     "steps": [
+      "Sèche les poissons, entaille-les 2 ou 3 fois en biais de chaque côté et frotte-les de vin. Glisse la moitié du gingembre dedans et dessous.",
+      "Taille le reste du gingembre et le vert des oignons nouveaux en julienne très fine ; plonge-les dans l'eau froide pour qu'ils frisent.",
+      "Pose les poissons sur une assiette et cuis-les à couvert à la vapeur vive, jusqu'à ce que la chair près de l'arête soit blanche.",
+      "Pendant ce temps, chauffe soja, sucre et eau dans une petite casserole jusqu'à ce que le sucre fonde.",
+      "Jette le jus de cuisson et le gingembre cuit, dépose les poissons sur un plat chaud et couvre-les de julienne égouttée.",
+      "Chauffe l'huile jusqu'à ce qu'elle fume et verse-la, grésillante, sur la julienne. Verse la sauce autour et ajoute la coriandre."
+     ],
+     "labels": [
+      "",
+      "",
+      "Vapeur",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "oven": "Enferme les poissons dans une papillote d'aluminium avec le vin et enfourne à 200 °C pendant 18 minutes."
+      }
+     },
+     "tips": [
+      "Ne sale pas le poisson avant la vapeur : le soja arrive à la fin et la chair reste fondante.",
+      "Avec du tamari à la place du soja, le plat devient sans gluten."
+     ]
+    },
+    "es": {
+     "title": "Qing zheng yu, lubina al vapor",
+     "intro": "Lubina entera al vapor con jengibre, cebolleta y aceite hirviendo por encima.",
+     "ing": [
+      "lubinas de unos 500 g, limpias",
+      "jengibre fresco",
+      "cebolletas",
+      "vino de Shaoxing",
+      "salsa de soja",
+      "azúcar",
+      "agua",
+      "aceite de cacahuete",
+      "cilantro fresco"
+     ],
+     "steps": [
+      "Seca los pescados, hazles 2 o 3 cortes en diagonal por lado y frótalos con el vino. Pon la mitad del jengibre en lonchas dentro y debajo.",
+      "Corta en juliana muy fina el resto del jengibre y la parte verde de la cebolleta; ponlos en agua fría para que se ricen.",
+      "Pon los pescados en un plato y cuécelos tapados al vapor a fuego vivo, hasta que la carne junto a la espina esté blanca y se separe.",
+      "Mientras, calienta la soja, el azúcar y el agua en un cazo hasta que se disuelva el azúcar.",
+      "Desecha el líquido de cocción y el jengibre cocido, pasa los pescados a una fuente caliente y cúbrelos con la juliana escurrida.",
+      "Calienta el aceite hasta que humee y viértelo chisporroteando sobre la juliana. Echa la salsa alrededor y termina con cilantro."
+     ],
+     "labels": [
+      "",
+      "",
+      "Vapor",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "oven": "Envuelve los pescados en papel de aluminio con el vino y hornéalos a 200 °C durante 18 minutos."
+      }
+     },
+     "tips": [
+      "No sales el pescado antes del vapor: la soja va al final y la carne queda muy jugosa.",
+      "Con tamari en lugar de soja, el plato queda sin gluten."
+     ]
+    },
+    "de": {
+     "title": "Qing Zheng Yu, gedämpfter Wolfsbarsch",
+     "intro": "Ganzer Wolfsbarsch, gedämpft und mit Ingwer, Frühlingszwiebeln und heißem Öl übergossen.",
+     "ing": [
+      "Wolfsbarsche à 500 g, ausgenommen",
+      "frischer Ingwer",
+      "Frühlingszwiebeln",
+      "Shaoxing-Reiswein",
+      "Sojasoße",
+      "Zucker",
+      "Wasser",
+      "Erdnussöl",
+      "frischer Koriander"
+     ],
+     "steps": [
+      "Tupf die Fische trocken, schneid sie je Seite 2-3 Mal schräg ein, reib sie mit Wein ein und leg den halben Ingwer hinein und darunter.",
+      "Schneid den restlichen Ingwer und das Grün der Frühlingszwiebeln in feinste Streifen und leg sie in kaltes Wasser, damit sie sich kringeln.",
+      "Leg die Fische auf einen Teller und dämpf sie zugedeckt bei starker Hitze, bis das Fleisch an der Gräte weiß ist und sich löst.",
+      "Erwärm inzwischen Sojasoße, Zucker und Wasser in einem kleinen Topf, bis sich der Zucker löst.",
+      "Gieß den Garsud ab, entfern den gegarten Ingwer, leg die Fische auf eine warme Platte und verteil die abgetropften Streifen darauf.",
+      "Erhitz das Öl, bis es raucht, und gieß es zischend über die Streifen. Gieß die Soße um die Fische und streu Koriander darüber."
+     ],
+     "labels": [
+      "",
+      "",
+      "Dämpfen",
+      "",
+      "",
+      ""
+     ],
+     "alt": {
+      "2": {
+       "oven": "Wickel die Fische mit dem Wein in Alufolie und gar sie im Ofen bei 200 °C 18 Minuten."
+      }
+     },
+     "tips": [
+      "Salz den Fisch vor dem Dämpfen nicht: Die Sojasoße kommt am Schluss, so bleibt er zart.",
+      "Mit Tamari statt Sojasoße wird das Gericht glutenfrei."
+     ]
+    }
+   }
+  },
+  {
+   "id": "di-san-xian",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 40,
+   "diff": 2,
+   "kcal": 290,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "origin": "CN",
+   "alcohol": false,
+   "methods": [
+    "fry",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggplants"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "potatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-bell-peppers"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "cornstarch"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 500,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 360,
+     "alt": {
+      "airfryer": {
+       "timer": 1080
+      }
+     }
+    },
+    {
+     "timer": 240,
+     "alt": {
+      "airfryer": {
+       "timer": 900
+      }
+     }
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Di san xian, melanzane e patate saltate",
+     "intro": "Melanzane, patate e peperone fritti e saltati in salsa all'aglio, dal nord-est cinese.",
+     "ing": [
+      "melanzane",
+      "patate medie",
+      "peperone verde",
+      "amido di mais",
+      "spicchi d'aglio",
+      "cipollotto",
+      "salsa di soia",
+      "zucchero",
+      "acqua",
+      "olio di semi per friggere",
+      "sale"
+     ],
+     "steps": [
+      "Taglia le melanzane a tocchetti irregolari, cospargile con un pizzico di sale e lasciale riposare.",
+      "Intanto sbuccia le patate e tagliale a spicchi sottili; taglia il peperone a pezzi, trita aglio e cipollotto.",
+      "Mescola soia, zucchero, acqua e 1 cucchiaino di amido. Asciuga le melanzane e infarinale con l'amido rimasto.",
+      "Scalda l'olio a 170 °C e friggi le patate finché sono dorate e tenere. Scolale su carta.",
+      "Friggi le melanzane finché sono dorate e morbide; negli ultimi 20 secondi aggiungi il peperone. Scola.",
+      "Svuota il wok lasciando 1 cucchiaio d'olio, soffriggi aglio e cipollotto, poi unisci verdure e salsa e salta finché tutto è lucido."
+     ],
+     "labels": [
+      "Melanzane",
+      "",
+      "",
+      "Patate",
+      "Melanzane",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Ungi le patate con 1 cucchiaio d'olio e cuocile in friggitrice ad aria a 200 °C per 18 minuti, scuotendo a metà."
+      },
+      "4": {
+       "airfryer": "Ungi melanzane e peperone e cuocili in friggitrice ad aria a 200 °C per 15 minuti, scuotendo a metà."
+      }
+     },
+     "tips": [
+      "L'amido sulle melanzane fa una crosticina sottile: assorbono meno olio e tengono la salsa.",
+      "Con tamari al posto della soia è anche senza glutine."
+     ]
+    },
+    "en": {
+     "title": "Di san xian, aubergine, potato, pepper",
+     "intro": "Fried aubergine, potato and green pepper tossed in garlic sauce, a northeastern classic.",
+     "ing": [
+      "aubergines",
+      "medium potatoes",
+      "green pepper",
+      "cornflour",
+      "garlic cloves",
+      "spring onion",
+      "soy sauce",
+      "sugar",
+      "water",
+      "sunflower oil for frying",
+      "salt"
+     ],
+     "steps": [
+      "Cut the aubergines into irregular chunks, sprinkle with a pinch of salt and leave to stand.",
+      "Meanwhile peel the potatoes and cut into thin wedges; cut the pepper into pieces, chop the garlic and spring onion.",
+      "Mix the soy, sugar, water and 1 tsp cornflour. Pat the aubergine dry and dust with the remaining cornflour.",
+      "Heat the oil to 170 °C and fry the potatoes until golden and tender. Drain on paper.",
+      "Fry the aubergine until golden and soft, adding the pepper for the last 20 seconds. Drain.",
+      "Pour off all but 1 tbsp oil, fry the garlic and spring onion, then add the veg and sauce and toss until everything is glossy."
+     ],
+     "labels": [
+      "Aubergine",
+      "",
+      "",
+      "Potatoes",
+      "Aubergine",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Toss the potatoes in 1 tbsp oil and air-fry at 200 °C for 18 minutes, shaking halfway."
+      },
+      "4": {
+       "airfryer": "Toss the aubergine and pepper in a little oil and air-fry at 200 °C for 15 minutes, shaking halfway."
+      }
+     },
+     "tips": [
+      "The cornflour coating gives the aubergine a thin crust: it soaks up less oil and holds the sauce.",
+      "Swap the soy sauce for tamari and it's gluten-free too."
+     ]
+    },
+    "fr": {
+     "title": "Di san xian, trio de légumes sautés",
+     "intro": "Aubergine, pomme de terre et poivron frits puis sautés à l'ail, un classique du Nord-Est.",
+     "ing": [
+      "aubergines",
+      "pommes de terre moyennes",
+      "poivron vert",
+      "fécule de maïs",
+      "gousses d'ail",
+      "oignon nouveau",
+      "sauce soja",
+      "sucre",
+      "eau",
+      "huile de tournesol pour la friture",
+      "sel"
+     ],
+     "steps": [
+      "Coupe les aubergines en morceaux irréguliers, saupoudre d'une pincée de sel et laisse reposer.",
+      "Pendant ce temps, épluche les pommes de terre et coupe-les en quartiers fins ; coupe le poivron, hache ail et oignon.",
+      "Mélange soja, sucre, eau et 1 c. à café de fécule. Sèche les aubergines et enrobe-les du reste de fécule.",
+      "Chauffe l'huile à 170 °C et fais frire les pommes de terre jusqu'à ce qu'elles soient dorées et tendres. Égoutte.",
+      "Fais frire les aubergines jusqu'à ce qu'elles soient dorées et fondantes, avec le poivron les 20 dernières secondes. Égoutte.",
+      "Vide le wok en gardant 1 c. à soupe d'huile, fais revenir ail et oignon, ajoute légumes et sauce et saute jusqu'à ce que tout brille."
+     ],
+     "labels": [
+      "Aubergines",
+      "",
+      "",
+      "Pommes de terre",
+      "Aubergines",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Enrobe les pommes de terre d'1 c. à soupe d'huile et cuis-les à la friteuse à air à 200 °C 18 minutes, en secouant."
+      },
+      "4": {
+       "airfryer": "Huile aubergines et poivron et cuis-les à la friteuse à air à 200 °C 15 minutes, en secouant à mi-cuisson."
+      }
+     },
+     "tips": [
+      "La fécule forme une fine croûte sur l'aubergine : elle boit moins d'huile et retient la sauce.",
+      "Avec du tamari au lieu du soja, c'est aussi sans gluten."
+     ]
+    },
+    "es": {
+     "title": "Di san xian, salteado de berenjena",
+     "intro": "Berenjena, patata y pimiento fritos y salteados con salsa de ajo, un clásico del noreste.",
+     "ing": [
+      "berenjenas",
+      "patatas medianas",
+      "pimiento verde",
+      "maicena",
+      "dientes de ajo",
+      "cebolleta",
+      "salsa de soja",
+      "azúcar",
+      "agua",
+      "aceite de girasol para freír",
+      "sal"
+     ],
+     "steps": [
+      "Corta las berenjenas en trozos irregulares, espolvorea una pizca de sal y deja reposar.",
+      "Mientras, pela las patatas y córtalas en gajos finos; trocea el pimiento y pica el ajo y la cebolleta.",
+      "Mezcla la soja, el azúcar, el agua y 1 cucharadita de maicena. Seca la berenjena y rebózala con el resto de maicena.",
+      "Calienta el aceite a 170 °C y fríe las patatas hasta que estén doradas y tiernas. Escúrrelas en papel.",
+      "Fríe la berenjena hasta que esté dorada y blanda, añadiendo el pimiento los últimos 20 segundos. Escurre.",
+      "Deja 1 cucharada de aceite en el wok, sofríe el ajo y la cebolleta, añade las verduras y la salsa y saltea hasta que todo brille."
+     ],
+     "labels": [
+      "Berenjenas",
+      "",
+      "",
+      "Patatas",
+      "Berenjenas",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Unta las patatas con 1 cucharada de aceite y cocínalas en freidora de aire a 200 °C 18 minutos, agitando a mitad."
+      },
+      "4": {
+       "airfryer": "Unta la berenjena y el pimiento con aceite y cocínalos en freidora de aire a 200 °C 15 minutos, agitando a mitad."
+      }
+     },
+     "tips": [
+      "La maicena crea una costra fina en la berenjena: absorbe menos aceite y retiene la salsa.",
+      "Con tamari en lugar de soja, también es sin gluten."
+     ]
+    },
+    "de": {
+     "title": "Di San Xian, Aubergine mit Kartoffel",
+     "intro": "Aubergine, Kartoffel und Paprika, frittiert und in Knoblauchsoße geschwenkt.",
+     "ing": [
+      "Auberginen",
+      "mittelgroße Kartoffeln",
+      "grüne Paprikaschote",
+      "Speisestärke",
+      "Knoblauchzehen",
+      "Frühlingszwiebel",
+      "Sojasoße",
+      "Zucker",
+      "Wasser",
+      "Sonnenblumenöl zum Frittieren",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid die Auberginen in unregelmäßige Stücke, bestreu sie mit einer Prise Salz und lass sie ziehen.",
+      "Schäl inzwischen die Kartoffeln und schneid sie in dünne Spalten; schneid die Paprika in Stücke, hack Knoblauch und Zwiebel.",
+      "Verrühr Sojasoße, Zucker, Wasser und 1 TL Stärke. Tupf die Aubergine trocken und bestäub sie mit der restlichen Stärke.",
+      "Erhitz das Öl auf 170 °C und frittier die Kartoffeln goldbraun und weich. Lass sie auf Küchenpapier abtropfen.",
+      "Frittier die Aubergine goldbraun und weich, gib die Paprika für die letzten 20 Sekunden dazu. Lass alles abtropfen.",
+      "Lass nur 1 EL Öl im Wok, brat Knoblauch und Zwiebel kurz an, gib Gemüse und Soße dazu und schwenk alles, bis es glänzt."
+     ],
+     "labels": [
+      "Auberginen",
+      "",
+      "",
+      "Kartoffeln",
+      "Auberginen",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Vermisch die Kartoffeln mit 1 EL Öl und gar sie in der Heißluftfritteuse bei 200 °C 18 Minuten, einmal schütteln."
+      },
+      "4": {
+       "airfryer": "Vermisch Aubergine und Paprika mit etwas Öl und gar sie in der Heißluftfritteuse bei 200 °C 15 Minuten, einmal schütteln."
+      }
+     },
+     "tips": [
+      "Die Stärke bildet eine dünne Kruste: Die Aubergine saugt weniger Öl auf und hält die Soße.",
+      "Mit Tamari statt Sojasoße ist es auch glutenfrei."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pai-huanggua",
+   "cat": "antipasti",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 20,
+   "diff": 1,
+   "kcal": 70,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "CN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 2,
+     "u": "",
+     "k": "cucumbers"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "black-vinegar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "chili-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "toasted-sesame-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 900,
+     "bg": true
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pai huanggua, cetrioli schiacciati",
+     "intro": "Cetrioli schiacciati col coltello e conditi con aglio, aceto nero e olio al peperoncino.",
+     "ing": [
+      "cetrioli",
+      "sale",
+      "spicchi d'aglio",
+      "aceto nero cinese (Zhenjiang)",
+      "salsa di soia",
+      "zucchero",
+      "olio al peperoncino",
+      "olio di sesamo tostato",
+      "coriandolo fresco"
+     ],
+     "steps": [
+      "Appoggia i cetrioli sul tagliere e schiacciali con il lato piatto di un coltello largo finché si spaccano. Tagliali a pezzi di 3 cm.",
+      "Mescolali con il sale in un colino e lasciali perdere acqua.",
+      "Intanto mescola aglio tritato fine, aceto, soia, zucchero, olio al peperoncino e olio di sesamo.",
+      "Scola i cetrioli, condiscili e servi subito, freddi, con foglie di coriandolo."
+     ],
+     "labels": [
+      "",
+      "Sale",
+      "",
+      ""
+     ],
+     "tips": [
+      "Schiacciati invece che tagliati, i cetrioli hanno bordi irregolari che trattengono il condimento.",
+      "Condiscili solo all'ultimo: dopo un'ora perdono croccantezza."
+     ]
+    },
+    "en": {
+     "title": "Pai huanggua, smashed cucumber salad",
+     "intro": "Cucumbers smashed with a cleaver and dressed with garlic, black vinegar and chilli oil.",
+     "ing": [
+      "cucumbers",
+      "salt",
+      "garlic cloves",
+      "Chinkiang black vinegar",
+      "soy sauce",
+      "sugar",
+      "chilli oil",
+      "toasted sesame oil",
+      "fresh coriander"
+     ],
+     "steps": [
+      "Lay the cucumbers on a board and smash them with the flat of a wide knife until they split. Cut into 3 cm pieces.",
+      "Toss with the salt in a colander and leave them to release their water.",
+      "Meanwhile mix the finely minced garlic, vinegar, soy, sugar, chilli oil and sesame oil.",
+      "Drain the cucumbers, toss with the dressing and serve straight away, chilled, with coriander leaves."
+     ],
+     "labels": [
+      "",
+      "Salt",
+      "",
+      ""
+     ],
+     "tips": [
+      "Smashed rather than sliced, the cucumbers have ragged edges that grab the dressing.",
+      "Dress them only at the last minute: after an hour they lose their crunch."
+     ]
+    },
+    "fr": {
+     "title": "Pai huanggua, concombres écrasés",
+     "intro": "Concombres écrasés au couperet, assaisonnés d'ail, vinaigre noir et huile pimentée.",
+     "ing": [
+      "concombres",
+      "sel",
+      "gousses d'ail",
+      "vinaigre noir de Zhenjiang",
+      "sauce soja",
+      "sucre",
+      "huile pimentée",
+      "huile de sésame grillé",
+      "coriandre fraîche"
+     ],
+     "steps": [
+      "Pose les concombres sur une planche et écrase-les du plat d'un large couteau jusqu'à ce qu'ils éclatent. Coupe-les en morceaux de 3 cm.",
+      "Mélange-les avec le sel dans une passoire et laisse-les dégorger.",
+      "Pendant ce temps, mélange ail haché fin, vinaigre, soja, sucre, huile pimentée et huile de sésame.",
+      "Égoutte les concombres, assaisonne et sers aussitôt, bien frais, avec des feuilles de coriandre."
+     ],
+     "labels": [
+      "",
+      "Sel",
+      "",
+      ""
+     ],
+     "tips": [
+      "Écrasés plutôt que tranchés, les concombres ont des bords irréguliers qui retiennent la sauce.",
+      "Assaisonne-les au dernier moment : au bout d'une heure ils ramollissent."
+     ]
+    },
+    "es": {
+     "title": "Pai huanggua, pepinos machacados",
+     "intro": "Pepinos machacados con el cuchillo y aliñados con ajo, vinagre negro y aceite picante.",
+     "ing": [
+      "pepinos",
+      "sal",
+      "dientes de ajo",
+      "vinagre negro chino (Zhenjiang)",
+      "salsa de soja",
+      "azúcar",
+      "aceite de guindilla",
+      "aceite de sésamo tostado",
+      "cilantro fresco"
+     ],
+     "steps": [
+      "Pon los pepinos en la tabla y aplástalos con la hoja plana de un cuchillo ancho hasta que se abran. Córtalos en trozos de 3 cm.",
+      "Mézclalos con la sal en un colador y deja que suelten el agua.",
+      "Mientras, mezcla el ajo muy picado, el vinagre, la soja, el azúcar, el aceite de guindilla y el de sésamo.",
+      "Escurre los pepinos, alíñalos y sírvelos enseguida, fríos, con hojas de cilantro."
+     ],
+     "labels": [
+      "",
+      "Sal",
+      "",
+      ""
+     ],
+     "tips": [
+      "Machacados en vez de cortados, los pepinos tienen bordes irregulares que atrapan el aliño.",
+      "Alíñalos en el último momento: tras una hora pierden lo crujiente."
+     ]
+    },
+    "de": {
+     "title": "Pai Huanggua, zerschlagene Gurken",
+     "intro": "Mit dem Messer zerschlagene Gurken mit Knoblauch, schwarzem Essig und Chiliöl.",
+     "ing": [
+      "Salatgurken",
+      "Salz",
+      "Knoblauchzehen",
+      "chinesischer schwarzer Essig",
+      "Sojasoße",
+      "Zucker",
+      "Chiliöl",
+      "geröstetes Sesamöl",
+      "frischer Koriander"
+     ],
+     "steps": [
+      "Leg die Gurken aufs Brett und schlag mit der flachen Klinge eines breiten Messers darauf, bis sie aufplatzen. Schneid sie in 3-cm-Stücke.",
+      "Misch sie in einem Sieb mit dem Salz und lass sie Wasser ziehen.",
+      "Verrühr inzwischen fein gehackten Knoblauch, Essig, Sojasoße, Zucker, Chiliöl und Sesamöl.",
+      "Gieß die Gurken ab, misch sie mit dem Dressing und servier sie sofort kalt mit Korianderblättern."
+     ],
+     "labels": [
+      "",
+      "Salz",
+      "",
+      ""
+     ],
+     "tips": [
+      "Zerschlagen statt geschnitten, haben die Gurken raue Kanten, an denen das Dressing haftet.",
+      "Mach sie erst kurz vor dem Servieren an: Nach einer Stunde sind sie nicht mehr knackig."
+     ]
+    }
+   }
+  },
+  {
+   "id": "xihongshi-chao-jidan",
+   "cat": "secondi",
+   "sub": "uova",
+   "servings": 4,
+   "minutes": 15,
+   "diff": 1,
+   "kcal": 210,
+   "diet": [
+    "veg",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "kids",
+    "budget"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "CN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 5,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "water"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 60
+    },
+    {
+     "timer": 210
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Uova e pomodoro saltati alla cinese",
+     "intro": "Uova soffici e pomodori in sugo leggermente dolce: il piatto di casa più amato in Cina.",
+     "ing": [
+      "uova",
+      "pomodori maturi",
+      "cipollotti",
+      "zucchero",
+      "sale",
+      "acqua",
+      "olio di semi"
+     ],
+     "steps": [
+      "Sbatti le uova con un pizzico di sale e 1 cucchiaio d'acqua finché sono spumose. Taglia i pomodori a spicchi e affetta i cipollotti.",
+      "Scalda 2 cucchiai d'olio nel wok, versa le uova e spingile piano dai bordi verso il centro. Toglile quando sono ancora umide.",
+      "Aggiungi l'olio rimasto e il bianco dei cipollotti, poi i pomodori: cuoci a fuoco vivo finché si sfaldano in un sugo.",
+      "Condisci con zucchero e il sale rimasto; se il sugo è troppo asciutto aggiungi l'acqua rimasta.",
+      "Rimetti le uova, mescola 30 secondi senza romperle troppo, cospargi con il verde dei cipollotti e servi sul riso."
+     ],
+     "labels": [
+      "",
+      "Uova",
+      "Pomodori",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sbuccia i pomodori dopo 30 secondi in acqua bollente: il sugo viene più vellutato.",
+      "Fuori stagione usa 400 g di pelati ben scolati e un cucchiaio di concentrato."
+     ]
+    },
+    "en": {
+     "title": "Chinese tomato and egg stir-fry",
+     "intro": "Soft eggs and juicy tomatoes in a lightly sweet sauce: China's favourite home dish.",
+     "ing": [
+      "eggs",
+      "ripe tomatoes",
+      "spring onions",
+      "sugar",
+      "salt",
+      "water",
+      "sunflower oil"
+     ],
+     "steps": [
+      "Beat the eggs with a pinch of salt and 1 tbsp water until frothy. Cut the tomatoes into wedges and slice the spring onions.",
+      "Heat 2 tbsp oil in the wok, pour in the eggs and gently push them from the edges to the centre. Take them out while still moist.",
+      "Add the remaining oil and the white of the spring onions, then the tomatoes: cook over high heat until they collapse into a sauce.",
+      "Season with the sugar and remaining salt; if the sauce looks dry, add the rest of the water.",
+      "Return the eggs, fold for 30 seconds without breaking them up too much, scatter with the green onion and serve over rice."
+     ],
+     "labels": [
+      "",
+      "Eggs",
+      "Tomatoes",
+      "",
+      ""
+     ],
+     "tips": [
+      "Peel the tomatoes after 30 seconds in boiling water for a silkier sauce.",
+      "Out of season, use 400 g well-drained canned peeled tomatoes and a spoonful of tomato paste."
+     ]
+    },
+    "fr": {
+     "title": "Œufs sautés à la tomate, à la chinoise",
+     "intro": "Œufs moelleux et tomates fondantes, sauce douce : le plat maison préféré en Chine.",
+     "ing": [
+      "œufs",
+      "tomates mûres",
+      "oignons nouveaux",
+      "sucre",
+      "sel",
+      "eau",
+      "huile de tournesol"
+     ],
+     "steps": [
+      "Bats les œufs avec une pincée de sel et 1 c. à soupe d'eau jusqu'à ce qu'ils moussent. Coupe les tomates en quartiers, émince les oignons.",
+      "Chauffe 2 c. à soupe d'huile dans le wok, verse les œufs et ramène-les doucement des bords vers le centre. Retire-les encore baveux.",
+      "Ajoute le reste d'huile et le blanc des oignons, puis les tomates : cuis à feu vif jusqu'à ce qu'elles fondent en sauce.",
+      "Assaisonne avec le sucre et le reste de sel ; si la sauce est trop sèche, ajoute le reste d'eau.",
+      "Remets les œufs, mélange 30 secondes sans trop les briser, parsème du vert des oignons et sers sur du riz."
+     ],
+     "labels": [
+      "",
+      "Œufs",
+      "Tomates",
+      "",
+      ""
+     ],
+     "tips": [
+      "Pèle les tomates après 30 secondes dans l'eau bouillante : la sauce sera plus veloutée.",
+      "Hors saison, prends 400 g de tomates pelées bien égouttées et une cuillère de concentré."
+     ]
+    },
+    "es": {
+     "title": "Huevos salteados con tomate a la china",
+     "intro": "Huevos jugosos y tomate en salsa ligeramente dulce: el plato casero favorito de China.",
+     "ing": [
+      "huevos",
+      "tomates maduros",
+      "cebolletas",
+      "azúcar",
+      "sal",
+      "agua",
+      "aceite de girasol"
+     ],
+     "steps": [
+      "Bate los huevos con una pizca de sal y 1 cucharada de agua hasta que espumen. Corta los tomates en gajos y la cebolleta en rodajas.",
+      "Calienta 2 cucharadas de aceite en el wok, vierte los huevos y llévalos suavemente de los bordes al centro. Sácalos aún jugosos.",
+      "Añade el resto del aceite y lo blanco de la cebolleta, luego los tomates: cocina a fuego vivo hasta que se deshagan en salsa.",
+      "Sazona con el azúcar y el resto de la sal; si la salsa queda seca, añade el resto del agua.",
+      "Vuelve a poner los huevos, mezcla 30 segundos sin romperlos mucho, esparce lo verde de la cebolleta y sirve sobre arroz."
+     ],
+     "labels": [
+      "",
+      "Huevos",
+      "Tomates",
+      "",
+      ""
+     ],
+     "tips": [
+      "Pela los tomates tras 30 segundos en agua hirviendo: la salsa queda más sedosa.",
+      "Fuera de temporada, usa 400 g de tomate pelado en conserva bien escurrido y una cucharada de concentrado."
+     ]
+    },
+    "de": {
+     "title": "Chinesisches Tomaten-Rührei",
+     "intro": "Lockeres Ei und saftige Tomaten in leicht süßer Soße: Chinas liebstes Alltagsgericht.",
+     "ing": [
+      "Eier",
+      "reife Tomaten",
+      "Frühlingszwiebeln",
+      "Zucker",
+      "Salz",
+      "Wasser",
+      "Sonnenblumenöl"
+     ],
+     "steps": [
+      "Verquirl die Eier mit einer Prise Salz und 1 EL Wasser schaumig. Schneid die Tomaten in Spalten und die Frühlingszwiebeln in Ringe.",
+      "Erhitz 2 EL Öl im Wok, gieß die Eier hinein und schieb sie sanft vom Rand zur Mitte. Nimm sie heraus, solange sie noch feucht sind.",
+      "Gib das restliche Öl und das Weiße der Frühlingszwiebeln dazu, dann die Tomaten, und brat sie bei starker Hitze, bis sie zerfallen.",
+      "Würz mit Zucker und dem restlichen Salz; ist die Soße zu trocken, gib das restliche Wasser dazu.",
+      "Gib die Eier zurück, heb sie 30 Sekunden unter, ohne sie zu zerkleinern, streu das Zwiebelgrün darüber und servier auf Reis."
+     ],
+     "labels": [
+      "",
+      "Eier",
+      "Tomaten",
+      "",
+      ""
+     ],
+     "tips": [
+      "Häute die Tomaten nach 30 Sekunden in kochendem Wasser: Die Soße wird samtiger.",
+      "Außerhalb der Saison: 400 g gut abgetropfte geschälte Dosentomaten und 1 EL Tomatenmark."
+     ]
+    }
+   }
+  },
+  {
+   "id": "suanla-tang",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 2,
+   "kcal": 150,
+   "diet": [
+    "veg",
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "CN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "ml",
+     "k": "vegetable-broth",
+     "make": "brodo-vegetale"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "dried-shiitake"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "dried-wood-ear"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "bamboo-shoots"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "firm-tofu"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "black-vinegar"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "dark-soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "white-pepper"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "cornstarch"
+    },
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "toasted-sesame-oil"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "spice"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800
+    },
+    {},
+    {
+     "timer": 300
+    },
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Suanla tang, zuppa agropiccante",
+     "intro": "Brodo denso con funghi, tofu e nastri d'uovo, aspro di aceto nero e piccante di pepe.",
+     "ing": [
+      "brodo vegetale",
+      "funghi shiitake secchi",
+      "funghi orecchio di Giuda secchi (mu-er)",
+      "germogli di bambù in scatola",
+      "tofu compatto",
+      "uova",
+      "aceto nero cinese (Zhenjiang)",
+      "salsa di soia",
+      "salsa di soia scura",
+      "pepe bianco macinato",
+      "amido di mais",
+      "acqua fredda",
+      "olio di sesamo tostato",
+      "cipollotti",
+      "sale"
+     ],
+     "steps": [
+      "Metti in ammollo shiitake e orecchie di Giuda in acqua calda finché sono morbidi.",
+      "Strizzali, elimina i gambi duri e tagliali a listarelle. Taglia a bastoncini tofu e bambù; filtra 200 ml d'acqua dei funghi.",
+      "Porta a bollore il brodo (anche pronto) con l'acqua dei funghi, aggiungi funghi e bambù e fai sobbollire.",
+      "Unisci tofu e le due salse di soia. Stempera l'amido nell'acqua, versalo mescolando e cuoci 1 minuto finché la zuppa si addensa.",
+      "Abbassa la fiamma, sbatti le uova e versale a filo mescolando piano in un solo senso: si formano nastri sottili.",
+      "Spegni, aggiungi aceto, pepe bianco e olio di sesamo, regola di sale e servi con i cipollotti affettati."
+     ],
+     "labels": [
+      "Ammollo",
+      "",
+      "Brodo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Aceto e pepe vanno aggiunti a fuoco spento: se bollono perdono profumo e spinta.",
+      "Senza uova diventa vegana: aggiungi più tofu e funghi.",
+      "Più piccante? Aggiungi un cucchiaino di olio al peperoncino in ogni ciotola."
+     ]
+    },
+    "en": {
+     "title": "Suanla tang, hot and sour soup",
+     "intro": "Thick broth with mushrooms, tofu and egg ribbons, sharp with vinegar and white pepper.",
+     "ing": [
+      "vegetable stock",
+      "dried shiitake mushrooms",
+      "dried wood ear mushrooms",
+      "canned bamboo shoots",
+      "firm tofu",
+      "eggs",
+      "Chinkiang black vinegar",
+      "soy sauce",
+      "dark soy sauce",
+      "ground white pepper",
+      "cornflour",
+      "cold water",
+      "toasted sesame oil",
+      "spring onions",
+      "salt"
+     ],
+     "steps": [
+      "Soak the shiitake and wood ears in hot water until soft.",
+      "Squeeze them out, remove the tough stems and slice into strips. Cut the tofu and bamboo into matchsticks; strain 200 ml soaking water.",
+      "Bring the stock (shop-bought is fine) and mushroom water to the boil, add the mushrooms and bamboo and simmer.",
+      "Add the tofu and both soy sauces. Mix the cornflour with the water, stir it in and cook for 1 minute until the soup thickens.",
+      "Lower the heat, beat the eggs and drizzle them in a thin stream while stirring gently in one direction: they form fine ribbons.",
+      "Turn off the heat, add the vinegar, white pepper and sesame oil, season with salt and serve topped with sliced spring onions."
+     ],
+     "labels": [
+      "Soak",
+      "",
+      "Broth",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Add the vinegar and pepper off the heat: if they boil they lose their aroma and punch.",
+      "Leave out the eggs and it's vegan: add extra tofu and mushrooms instead.",
+      "Like more heat? Add a teaspoon of chilli oil to each bowl."
+     ]
+    },
+    "fr": {
+     "title": "Suanla tang, soupe aigre-piquante",
+     "intro": "Bouillon épais aux champignons, tofu et rubans d'œuf, acidulé au vinaigre noir et poivré.",
+     "ing": [
+      "bouillon de légumes",
+      "champignons shiitakés séchés",
+      "champignons noirs séchés",
+      "pousses de bambou en conserve",
+      "tofu ferme",
+      "œufs",
+      "vinaigre noir de Zhenjiang",
+      "sauce soja",
+      "sauce soja foncée",
+      "poivre blanc moulu",
+      "fécule de maïs",
+      "eau froide",
+      "huile de sésame grillé",
+      "oignons nouveaux",
+      "sel"
+     ],
+     "steps": [
+      "Fais tremper les shiitakés et les champignons noirs dans de l'eau chaude jusqu'à ce qu'ils soient souples.",
+      "Essore-les, ôte les pieds durs et taille-les en lanières. Coupe tofu et bambou en bâtonnets ; filtre 200 ml d'eau de trempage.",
+      "Porte à ébullition le bouillon (même tout prêt) avec l'eau des champignons, ajoute champignons et bambou et laisse frémir.",
+      "Ajoute le tofu et les deux sauces soja. Délaye la fécule dans l'eau, verse-la en remuant et cuis 1 minute pour épaissir la soupe.",
+      "Baisse le feu, bats les œufs et verse-les en filet en remuant doucement dans un seul sens : ils forment de fins rubans.",
+      "Éteins, ajoute vinaigre, poivre blanc et huile de sésame, sale à ton goût et sers avec les oignons nouveaux émincés."
+     ],
+     "labels": [
+      "Trempage",
+      "",
+      "Bouillon",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Vinaigre et poivre s'ajoutent hors du feu : s'ils bouillent, ils perdent arôme et piquant.",
+      "Sans les œufs, elle devient végane : ajoute plus de tofu et de champignons.",
+      "Tu aimes le piquant ? Ajoute une cuillère à café d'huile pimentée dans chaque bol."
+     ]
+    },
+    "es": {
+     "title": "Suanla tang, sopa agripicante",
+     "intro": "Caldo espeso con setas, tofu y hebras de huevo, ácido de vinagre y picante de pimienta.",
+     "ing": [
+      "caldo de verduras",
+      "setas shiitake secas",
+      "setas oreja de Judas secas",
+      "brotes de bambú en conserva",
+      "tofu firme",
+      "huevos",
+      "vinagre negro chino (Zhenjiang)",
+      "salsa de soja",
+      "salsa de soja oscura",
+      "pimienta blanca molida",
+      "maicena",
+      "agua fría",
+      "aceite de sésamo tostado",
+      "cebolletas",
+      "sal"
+     ],
+     "steps": [
+      "Pon en remojo los shiitake y las orejas de Judas en agua caliente hasta que estén blandos.",
+      "Escúrrelos, quita los tallos duros y córtalos en tiras. Corta el tofu y el bambú en bastoncitos; cuela 200 ml del agua del remojo.",
+      "Lleva a ebullición el caldo (vale el comprado) con el agua de las setas, añade las setas y el bambú y cuece a fuego suave.",
+      "Añade el tofu y las dos salsas de soja. Disuelve la maicena en el agua, viértela removiendo y cuece 1 minuto hasta que espese.",
+      "Baja el fuego, bate los huevos y viértelos en hilo removiendo suave en un solo sentido: se forman hebras finas.",
+      "Apaga, añade el vinagre, la pimienta blanca y el aceite de sésamo, ajusta de sal y sirve con la cebolleta en rodajas."
+     ],
+     "labels": [
+      "Remojo",
+      "",
+      "Caldo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "El vinagre y la pimienta van con el fuego apagado: si hierven pierden aroma y fuerza.",
+      "Sin huevo es vegana: añade más tofu y setas.",
+      "¿Te gusta el picante? Añade una cucharadita de aceite de guindilla en cada cuenco."
+     ]
+    },
+    "de": {
+     "title": "Suanla Tang, sauer-scharfe Suppe",
+     "intro": "Gebundene Brühe mit Pilzen, Tofu und Eierflocken, sauer vom Essig, scharf vom Pfeffer.",
+     "ing": [
+      "Gemüsebrühe",
+      "getrocknete Shiitake-Pilze",
+      "getrocknete Mu-Err-Pilze",
+      "Bambussprossen aus der Dose",
+      "fester Tofu",
+      "Eier",
+      "chinesischer schwarzer Essig",
+      "Sojasoße",
+      "dunkle Sojasoße",
+      "gemahlener weißer Pfeffer",
+      "Speisestärke",
+      "kaltes Wasser",
+      "geröstetes Sesamöl",
+      "Frühlingszwiebeln",
+      "Salz"
+     ],
+     "steps": [
+      "Weich die Shiitake und Mu-Err-Pilze in heißem Wasser ein, bis sie weich sind.",
+      "Drück sie aus, entfern die harten Stiele und schneid sie in Streifen. Schneid Tofu und Bambus in Stifte, seih 200 ml Einweichwasser ab.",
+      "Bring die Brühe (auch fertige) mit dem Pilzwasser zum Kochen, gib Pilze und Bambus dazu und lass alles köcheln.",
+      "Gib Tofu und beide Sojasoßen dazu. Rühr die Stärke mit dem Wasser an, gieß sie unter Rühren ein und koch 1 Minute, bis die Suppe bindet.",
+      "Reduzier die Hitze, verquirl die Eier und gieß sie in dünnem Strahl ein, während du sanft in eine Richtung rührst: So entstehen Flocken.",
+      "Schalt den Herd aus, gib Essig, weißen Pfeffer und Sesamöl dazu, salz nach und servier die Suppe mit Frühlingszwiebelringen."
+     ],
+     "labels": [
+      "Einweichen",
+      "",
+      "Brühe",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Gib Essig und Pfeffer erst bei ausgeschaltetem Herd dazu: Kochen sie mit, verlieren sie Aroma und Biss.",
+      "Ohne Eier wird sie vegan: Gib dafür mehr Tofu und Pilze hinein.",
+      "Mehr Schärfe? Gib in jede Schale 1 TL Chiliöl."
+     ]
+    }
+   }
+  },
+  {
+   "id": "tangyuan-sesamo-nero",
+   "cat": "dolci",
+   "sub": "cucchiaio",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 2,
+   "kcal": 340,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "festive"
+   ],
+   "months": [],
+   "origin": "CN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 60,
+     "u": "g",
+     "k": "black-sesame-seeds"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "lard"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "glutinous-rice-flour"
+    },
+    {
+     "q": 170,
+     "u": "ml",
+     "k": "water"
+    }
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 180
+    },
+    {},
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tangyuan, palline di riso al sesamo nero",
+     "intro": "Palline di riso glutinoso morbide e gommose con un cuore fuso di sesamo nero.",
+     "ing": [
+      "semi di sesamo nero",
+      "zucchero",
+      "strutto (o burro morbido)",
+      "farina di riso glutinoso",
+      "acqua tiepida"
+     ],
+     "steps": [
+      "Tosta il sesamo in padella asciutta a fuoco basso, mescolando, finché scoppietta e profuma.",
+      "Macinalo fine con lo zucchero nel mortaio o nel macinino, poi impasta con lo strutto fino a una crema densa.",
+      "Metti il ripieno in frigo finché è sodo.",
+      "Intanto aggiungi l'acqua alla farina poco per volta e impasta fino a un panetto liscio come plastilina, morbido ma non appiccicoso.",
+      "Forma 20 palline di ripieno e 20 di impasto. Appiattisci l'impasto a coppetta, metti il ripieno, chiudi e rotola fra i palmi.",
+      "Tuffale in abbondante acqua bollente e mescola piano. Quando salgono a galla cuoci ancora 2-3 minuti.",
+      "Servine 5 a testa in ciotoline con un po' della loro acqua calda. Attenzione: il ripieno scotta."
+     ],
+     "labels": [
+      "Sesamo",
+      "",
+      "Frigo",
+      "",
+      "",
+      "Cottura",
+      ""
+     ],
+     "tips": [
+      "Con olio di cocco al posto dello strutto il dolce diventa vegano.",
+      "In Cina si servono anche in un brodo dolce allo zenzero, ottimo d'inverno.",
+      "Crudi si congelano su un vassoio infarinato: cuocili da congelati, 2 minuti in più."
+     ]
+    },
+    "en": {
+     "title": "Tangyuan, black sesame rice balls",
+     "intro": "Soft, chewy glutinous rice balls with a molten black sesame centre.",
+     "ing": [
+      "black sesame seeds",
+      "sugar",
+      "lard (or soft butter)",
+      "glutinous rice flour",
+      "warm water"
+     ],
+     "steps": [
+      "Toast the sesame in a dry pan over low heat, stirring, until it crackles and smells nutty.",
+      "Grind it finely with the sugar in a mortar or spice grinder, then work in the lard to a thick paste.",
+      "Chill the filling until firm.",
+      "Meanwhile add the water to the flour a little at a time and knead to a smooth dough like modelling clay, soft but not sticky.",
+      "Roll 20 balls of filling and 20 of dough. Flatten each piece of dough into a cup, add the filling, seal and roll smooth in your palms.",
+      "Drop them into plenty of boiling water and stir gently. Once they float, cook for 2-3 minutes more.",
+      "Serve 5 each in small bowls with a little of the hot cooking water. Careful: the filling is scalding."
+     ],
+     "labels": [
+      "Sesame",
+      "",
+      "Fridge",
+      "",
+      "",
+      "Cook",
+      ""
+     ],
+     "tips": [
+      "Use coconut oil instead of lard and the dessert is vegan.",
+      "In China they're also served in a sweet ginger syrup, lovely in winter.",
+      "Freeze them uncooked on a floured tray, then boil from frozen for 2 extra minutes."
+     ]
+    },
+    "fr": {
+     "title": "Tangyuan, perles de riz au sésame noir",
+     "intro": "Boulettes de riz gluant tendres et élastiques au cœur coulant de sésame noir.",
+     "ing": [
+      "graines de sésame noir",
+      "sucre",
+      "saindoux (ou beurre mou)",
+      "farine de riz gluant",
+      "eau tiède"
+     ],
+     "steps": [
+      "Torréfie le sésame à sec dans une poêle à feu doux, en remuant, jusqu'à ce qu'il crépite et embaume.",
+      "Mixe-le finement avec le sucre au mortier ou au moulin, puis incorpore le saindoux pour obtenir une pâte épaisse.",
+      "Mets la farce au frigo jusqu'à ce qu'elle soit ferme.",
+      "Ajoute l'eau à la farine petit à petit et pétris jusqu'à une pâte lisse comme de la pâte à modeler, souple mais pas collante.",
+      "Forme 20 billes de farce et 20 de pâte. Aplatis la pâte en coupelle, mets la farce, referme et roule entre tes paumes.",
+      "Plonge-les dans une grande casserole d'eau bouillante et remue doucement. Quand elles remontent, cuis encore 2-3 minutes.",
+      "Sers-en 5 par personne dans des bols avec un peu d'eau de cuisson chaude. Attention, la farce est brûlante."
+     ],
+     "labels": [
+      "Sésame",
+      "",
+      "Frigo",
+      "",
+      "",
+      "Cuisson",
+      ""
+     ],
+     "tips": [
+      "Avec de l'huile de coco à la place du saindoux, le dessert devient végan.",
+      "En Chine, on les sert aussi dans un sirop doux au gingembre, parfait l'hiver.",
+      "Crues, elles se congèlent sur un plateau fariné : cuis-les sans décongeler, 2 minutes de plus."
+     ]
+    },
+    "es": {
+     "title": "Tangyuan, bolitas de sésamo negro",
+     "intro": "Bolitas de arroz glutinoso, tiernas y elásticas, con corazón fundido de sésamo negro.",
+     "ing": [
+      "semillas de sésamo negro",
+      "azúcar",
+      "manteca de cerdo (o mantequilla blanda)",
+      "harina de arroz glutinoso",
+      "agua tibia"
+     ],
+     "steps": [
+      "Tuesta el sésamo en una sartén sin aceite a fuego bajo, removiendo, hasta que chisporrotee y huela.",
+      "Muélelo fino con el azúcar en el mortero o molinillo y mézclalo con la manteca hasta tener una pasta espesa.",
+      "Mete el relleno en la nevera hasta que esté firme.",
+      "Mientras, añade el agua a la harina poco a poco y amasa hasta una masa lisa como plastilina, blanda pero no pegajosa.",
+      "Forma 20 bolitas de relleno y 20 de masa. Aplana la masa en forma de cuenco, pon el relleno, cierra y redondea entre las palmas.",
+      "Échalas en abundante agua hirviendo y remueve suave. Cuando floten, cuécelas 2-3 minutos más.",
+      "Sirve 5 por persona en cuencos con un poco del agua de cocción caliente. Cuidado: el relleno quema."
+     ],
+     "labels": [
+      "Sésamo",
+      "",
+      "Nevera",
+      "",
+      "",
+      "Cocción",
+      ""
+     ],
+     "tips": [
+      "Con aceite de coco en lugar de manteca, el postre es vegano.",
+      "En China también se sirven en un caldo dulce de jengibre, ideal en invierno.",
+      "Crudas se congelan en una bandeja enharinada: cuécelas sin descongelar, 2 minutos más."
+     ]
+    },
+    "de": {
+     "title": "Tangyuan, Reisbällchen mit Sesam",
+     "intro": "Weiche, elastische Klebreisbällchen mit flüssigem Kern aus schwarzem Sesam.",
+     "ing": [
+      "schwarzer Sesam",
+      "Zucker",
+      "Schweineschmalz (oder weiche Butter)",
+      "Klebreismehl",
+      "lauwarmes Wasser"
+     ],
+     "steps": [
+      "Röste den Sesam in einer trockenen Pfanne bei schwacher Hitze unter Rühren, bis er knistert und duftet.",
+      "Mahl ihn mit dem Zucker im Mörser oder in der Mühle fein und knete das Schmalz zu einer dicken Paste unter.",
+      "Stell die Füllung kalt, bis sie fest ist.",
+      "Gib inzwischen das Wasser nach und nach zum Mehl und knete einen glatten Teig wie Knete, weich, aber nicht klebrig.",
+      "Form 20 Kugeln aus Füllung und 20 aus Teig. Drück den Teig zu Schälchen, gib die Füllung hinein, verschließ ihn und roll ihn glatt.",
+      "Gib sie in reichlich kochendes Wasser und rühr sanft um. Sobald sie oben schwimmen, lass sie noch 2-3 Minuten garen.",
+      "Servier je 5 Stück in Schälchen mit etwas heißem Kochwasser. Vorsicht, die Füllung ist sehr heiß."
+     ],
+     "labels": [
+      "Sesam",
+      "",
+      "Kühlschrank",
+      "",
+      "",
+      "Kochen",
+      ""
+     ],
+     "tips": [
+      "Mit Kokosöl statt Schmalz wird das Dessert vegan.",
+      "In China serviert man sie auch in süßem Ingwersud, herrlich im Winter.",
+      "Roh auf einem bemehlten Blech einfrieren und gefroren 2 Minuten länger kochen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "te-al-gelsomino",
+   "cat": "bevande",
+   "sub": "calde",
+   "servings": 4,
+   "minutes": 10,
+   "diff": 1,
+   "kcal": 2,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "CN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 8,
+     "u": "g",
+     "k": "jasmine-tea"
+    },
+    {
+     "q": 900,
+     "u": "ml",
+     "k": "water"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 240
+    },
+    {},
+    {},
+    {
+     "timer": 150
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tè al gelsomino",
+     "intro": "Tè verde profumato ai fiori di gelsomino, infuso piano a 80 °C come si beve in Cina.",
+     "ing": [
+      "tè verde al gelsomino in foglie",
+      "acqua"
+     ],
+     "steps": [
+      "Porta l'acqua a bollore e lasciala riposare 4 minuti: scende a circa 80 °C.",
+      "Scalda teiera e tazze con un po' d'acqua calda, poi svuotale e metti le foglie nella teiera.",
+      "Versa un dito d'acqua sulle foglie, fai girare 5 secondi ed elimina: le foglie si aprono.",
+      "Versa il resto dell'acqua e lascia in infusione, poi travasa tutto il tè in una brocca perché non diventi amaro.",
+      "Servi caldo, senza zucchero. Le stesse foglie reggono altre due infusioni, con 30 secondi in più ogni volta."
+     ],
+     "labels": [
+      "Acqua",
+      "",
+      "",
+      "Infusione",
+      ""
+     ],
+     "tips": [
+      "Mai acqua bollente sul tè verde: brucia le foglie e copre il profumo del gelsomino.",
+      "D'estate lascia 8 g di foglie in 1 litro d'acqua fredda in frigo per 6 ore: tè freddo naturale."
+     ]
+    },
+    "en": {
+     "title": "Jasmine tea",
+     "intro": "Green tea scented with jasmine flowers, brewed gently at 80 °C the Chinese way.",
+     "ing": [
+      "loose-leaf jasmine green tea",
+      "water"
+     ],
+     "steps": [
+      "Bring the water to the boil and let it stand for 4 minutes: it drops to about 80 °C.",
+      "Warm the teapot and cups with a little hot water, empty them and put the leaves in the pot.",
+      "Pour a splash of water over the leaves, swirl for 5 seconds and discard it: this wakes the leaves.",
+      "Pour in the rest of the water and steep, then decant all the tea into a jug so it doesn't turn bitter.",
+      "Serve hot, without sugar. The same leaves give two more brews, adding 30 seconds each time."
+     ],
+     "labels": [
+      "Water",
+      "",
+      "",
+      "Brew",
+      ""
+     ],
+     "tips": [
+      "Never pour boiling water on green tea: it scorches the leaves and masks the jasmine.",
+      "In summer, steep 8 g leaves in 1 litre cold water in the fridge for 6 hours for natural iced tea."
+     ]
+    },
+    "fr": {
+     "title": "Thé au jasmin",
+     "intro": "Thé vert parfumé aux fleurs de jasmin, infusé doucement à 80 °C, à la chinoise.",
+     "ing": [
+      "thé vert au jasmin en vrac",
+      "eau"
+     ],
+     "steps": [
+      "Porte l'eau à ébullition et laisse-la reposer 4 minutes : elle descend à environ 80 °C.",
+      "Réchauffe théière et tasses avec un peu d'eau chaude, vide-les et mets les feuilles dans la théière.",
+      "Verse un fond d'eau sur les feuilles, fais tourner 5 secondes et jette-le : les feuilles s'ouvrent.",
+      "Verse le reste de l'eau et laisse infuser, puis transvase tout le thé dans un pichet pour qu'il ne devienne pas amer.",
+      "Sers chaud, sans sucre. Les mêmes feuilles donnent encore deux infusions, 30 secondes de plus à chaque fois."
+     ],
+     "labels": [
+      "Eau",
+      "",
+      "",
+      "Infusion",
+      ""
+     ],
+     "tips": [
+      "Jamais d'eau bouillante sur le thé vert : elle brûle les feuilles et masque le jasmin.",
+      "L'été, laisse 8 g de feuilles dans 1 litre d'eau froide au frigo 6 heures : thé glacé nature."
+     ]
+    },
+    "es": {
+     "title": "Té de jazmín",
+     "intro": "Té verde perfumado con flores de jazmín, infusionado suave a 80 °C como en China.",
+     "ing": [
+      "té verde de jazmín a granel",
+      "agua"
+     ],
+     "steps": [
+      "Lleva el agua a ebullición y déjala reposar 4 minutos: baja a unos 80 °C.",
+      "Calienta la tetera y las tazas con un poco de agua caliente, vacíalas y pon las hojas en la tetera.",
+      "Vierte un chorrito de agua sobre las hojas, gíralo 5 segundos y deséchalo: las hojas se abren.",
+      "Vierte el resto del agua y deja infusionar, luego pasa todo el té a una jarra para que no amargue.",
+      "Sirve caliente, sin azúcar. Las mismas hojas aguantan dos infusiones más, con 30 segundos extra cada vez."
+     ],
+     "labels": [
+      "Agua",
+      "",
+      "",
+      "Infusión",
+      ""
+     ],
+     "tips": [
+      "Nunca agua hirviendo sobre té verde: quema las hojas y tapa el aroma del jazmín.",
+      "En verano, deja 8 g de hojas en 1 litro de agua fría en la nevera 6 horas: té frío natural."
+     ]
+    },
+    "de": {
+     "title": "Jasmintee",
+     "intro": "Grüner Tee mit Jasminblüten aromatisiert, sanft bei 80 °C aufgegossen wie in China.",
+     "ing": [
+      "loser Jasmin-Grüntee",
+      "Wasser"
+     ],
+     "steps": [
+      "Bring das Wasser zum Kochen und lass es 4 Minuten stehen: Es kühlt auf etwa 80 °C ab.",
+      "Wärm Kanne und Tassen mit etwas heißem Wasser vor, gieß es weg und gib die Blätter in die Kanne.",
+      "Gieß einen Schluck Wasser über die Blätter, schwenk 5 Sekunden und gieß ihn weg: So öffnen sich die Blätter.",
+      "Gieß das restliche Wasser auf, lass den Tee ziehen und gieß ihn dann ganz in eine Kanne um, damit er nicht bitter wird.",
+      "Servier ihn heiß und ohne Zucker. Dieselben Blätter reichen für zwei weitere Aufgüsse, jeweils 30 Sekunden länger."
+     ],
+     "labels": [
+      "Wasser",
+      "",
+      "",
+      "Ziehen",
+      ""
+     ],
+     "tips": [
+      "Nie kochendes Wasser auf Grüntee: Es verbrennt die Blätter und überdeckt den Jasminduft.",
+      "Im Sommer 8 g Blätter mit 1 Liter kaltem Wasser 6 Stunden im Kühlschrank ziehen lassen: Eistee pur."
+     ]
+    }
+   }
+  },
+  {
+   "id": "kimchi-jjigae",
+   "cat": "unici",
+   "sub": "pentola",
+   "servings": 4,
+   "minutes": 45,
+   "diff": 1,
+   "kcal": 420,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "origin": "KR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "kimchi"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "pork-belly"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "firm-tofu"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "gochugaru"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "gochujang"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "toasted-sesame-oil"
+    },
+    {
+     "q": 700,
+     "u": "ml",
+     "k": "water"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 240
+    },
+    {
+     "timer": 240
+    },
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Kimchi jjigae, zuppa di kimchi e maiale",
+     "intro": "Kimchi maturo, maiale e tofu in un brodo rosso piccante, servito bollente in tavola.",
+     "ing": [
+      "kimchi di cavolo ben maturo, con il suo succo",
+      "pancia di maiale",
+      "tofu compatto",
+      "cipolla",
+      "spicchi d'aglio",
+      "cipollotti",
+      "gochugaru (peperoncino coreano)",
+      "gochujang (pasta di peperoncino)",
+      "salsa di soia",
+      "zucchero",
+      "olio di sesamo tostato",
+      "acqua"
+     ],
+     "steps": [
+      "Taglia la pancia a fettine sottili, il kimchi a pezzi di 3 cm, la cipolla a spicchi e il tofu a fette di 1 cm.",
+      "Scalda l'olio di sesamo in una pentola e rosola il maiale a fuoco medio-alto finché sfrigola nel suo grasso.",
+      "Aggiungi kimchi, aglio tritato, gochugaru e zucchero e salta finché il kimchi si ammorbidisce e profuma di tostato.",
+      "Versa acqua, succo del kimchi, gochujang e soia, unisci la cipolla, porta a bollore e cuoci coperto a fuoco medio-basso.",
+      "Adagia il tofu sopra e cuoci ancora finché è caldo e ha preso colore.",
+      "Aggiungi i cipollotti a pezzi, assaggia e regola di sale. Porta in tavola nella pentola, con una ciotola di riso a testa."
+     ],
+     "labels": [
+      "",
+      "Maiale",
+      "Kimchi",
+      "Sobbollire",
+      "Tofu",
+      ""
+     ],
+     "tips": [
+      "Più il kimchi è acido e vecchio, più il jjigae è buono; se è giovane aggiungi un cucchiaino di aceto di riso.",
+      "Al posto del maiale usa una scatoletta di tonno all'olio: è il chamchi kimchi-jjigae.",
+      "Riscaldato il giorno dopo è ancora più saporito; aggiungi un goccio d'acqua."
+     ]
+    },
+    "en": {
+     "title": "Kimchi jjigae, kimchi and pork stew",
+     "intro": "Ripe kimchi, pork and tofu in a spicy red broth, brought bubbling to the table.",
+     "ing": [
+      "well-fermented cabbage kimchi, with its juice",
+      "pork belly",
+      "firm tofu",
+      "onion",
+      "garlic cloves",
+      "spring onions",
+      "gochugaru (Korean chilli flakes)",
+      "gochujang (chilli paste)",
+      "soy sauce",
+      "sugar",
+      "toasted sesame oil",
+      "water"
+     ],
+     "steps": [
+      "Slice the pork belly thinly, cut the kimchi into 3 cm pieces, the onion into wedges and the tofu into 1 cm slices.",
+      "Heat the sesame oil in a pot and fry the pork over medium-high heat until it sizzles in its own fat.",
+      "Add the kimchi, minced garlic, gochugaru and sugar and stir-fry until the kimchi softens and smells toasty.",
+      "Pour in the water, kimchi juice, gochujang and soy, add the onion, bring to the boil and simmer, covered, over medium-low heat.",
+      "Lay the tofu on top and simmer until heated through and tinted red.",
+      "Add the spring onions in pieces, taste and adjust the salt. Bring the pot to the table with a bowl of rice each."
+     ],
+     "labels": [
+      "",
+      "Pork",
+      "Kimchi",
+      "Simmer",
+      "Tofu",
+      ""
+     ],
+     "tips": [
+      "The older and sourer the kimchi, the better the jjigae; if it's young, add a teaspoon of rice vinegar.",
+      "Swap the pork for a can of tuna in oil and you have chamchi kimchi-jjigae.",
+      "Reheated the next day it's even tastier; add a splash of water."
+     ]
+    },
+    "fr": {
+     "title": "Kimchi jjigae, ragoût kimchi et porc",
+     "intro": "Kimchi bien fermenté, porc et tofu dans un bouillon rouge pimenté, servi bouillonnant.",
+     "ing": [
+      "kimchi de chou bien fermenté, avec son jus",
+      "poitrine de porc",
+      "tofu ferme",
+      "oignon",
+      "gousses d'ail",
+      "oignons nouveaux",
+      "gochugaru (piment coréen)",
+      "gochujang (pâte de piment)",
+      "sauce soja",
+      "sucre",
+      "huile de sésame grillé",
+      "eau"
+     ],
+     "steps": [
+      "Taille la poitrine en fines tranches, le kimchi en morceaux de 3 cm, l'oignon en quartiers et le tofu en tranches de 1 cm.",
+      "Chauffe l'huile de sésame dans une cocotte et fais revenir le porc à feu moyen-vif jusqu'à ce qu'il grésille dans sa graisse.",
+      "Ajoute kimchi, ail haché, gochugaru et sucre et fais sauter jusqu'à ce que le kimchi s'attendrisse et sente le grillé.",
+      "Verse l'eau, le jus de kimchi, le gochujang et le soja, ajoute l'oignon, porte à ébullition et laisse mijoter à couvert.",
+      "Dépose le tofu dessus et laisse cuire jusqu'à ce qu'il soit chaud et coloré.",
+      "Ajoute les oignons nouveaux en tronçons, goûte et rectifie le sel. Sers dans la cocotte, avec un bol de riz par personne."
+     ],
+     "labels": [
+      "",
+      "Porc",
+      "Kimchi",
+      "Mijoter",
+      "Tofu",
+      ""
+     ],
+     "tips": [
+      "Plus le kimchi est vieux et acide, meilleur est le jjigae ; s'il est jeune, ajoute 1 c. à café de vinaigre de riz.",
+      "Remplace le porc par une boîte de thon à l'huile : c'est le chamchi kimchi-jjigae.",
+      "Réchauffé le lendemain, il est encore plus savoureux ; ajoute un peu d'eau."
+     ]
+    },
+    "es": {
+     "title": "Kimchi jjigae, guiso de kimchi y cerdo",
+     "intro": "Kimchi bien fermentado, cerdo y tofu en un caldo rojo picante, servido hirviendo.",
+     "ing": [
+      "kimchi de col bien fermentado, con su jugo",
+      "panceta de cerdo",
+      "tofu firme",
+      "cebolla",
+      "dientes de ajo",
+      "cebolletas",
+      "gochugaru (guindilla coreana)",
+      "gochujang (pasta de guindilla)",
+      "salsa de soja",
+      "azúcar",
+      "aceite de sésamo tostado",
+      "agua"
+     ],
+     "steps": [
+      "Corta la panceta en lonchas finas, el kimchi en trozos de 3 cm, la cebolla en gajos y el tofu en lonchas de 1 cm.",
+      "Calienta el aceite de sésamo en una olla y dora el cerdo a fuego medio-alto hasta que chisporrotee en su grasa.",
+      "Añade el kimchi, el ajo picado, el gochugaru y el azúcar y saltea hasta que el kimchi se ablande y huela a tostado.",
+      "Vierte el agua, el jugo del kimchi, el gochujang y la soja, añade la cebolla, lleva a ebullición y cuece tapado a fuego medio-bajo.",
+      "Coloca el tofu encima y cuece hasta que esté caliente y haya tomado color.",
+      "Añade la cebolleta en trozos, prueba y ajusta de sal. Lleva la olla a la mesa con un cuenco de arroz por persona."
+     ],
+     "labels": [
+      "",
+      "Cerdo",
+      "Kimchi",
+      "Hervir",
+      "Tofu",
+      ""
+     ],
+     "tips": [
+      "Cuanto más viejo y ácido el kimchi, mejor el jjigae; si es joven, añade una cucharadita de vinagre de arroz.",
+      "Cambia el cerdo por una lata de atún en aceite: es el chamchi kimchi-jjigae.",
+      "Recalentado al día siguiente está aún más sabroso; añade un chorrito de agua."
+     ]
+    },
+    "de": {
+     "title": "Kimchi-Jjigae mit Schweinebauch",
+     "intro": "Reifer Kimchi, Schweinefleisch und Tofu in scharfer roter Brühe, brodelnd serviert.",
+     "ing": [
+      "gut gereifter Kohl-Kimchi mit Saft",
+      "Schweinebauch",
+      "fester Tofu",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "Frühlingszwiebeln",
+      "Gochugaru (koreanische Chiliflocken)",
+      "Gochujang (Chilipaste)",
+      "Sojasoße",
+      "Zucker",
+      "geröstetes Sesamöl",
+      "Wasser"
+     ],
+     "steps": [
+      "Schneid den Bauch in dünne Scheiben, den Kimchi in 3-cm-Stücke, die Zwiebel in Spalten und den Tofu in 1 cm dicke Scheiben.",
+      "Erhitz das Sesamöl in einem Topf und brat das Fleisch bei mittlerer bis starker Hitze, bis es im eigenen Fett brutzelt.",
+      "Gib Kimchi, gehackten Knoblauch, Gochugaru und Zucker dazu und brat alles, bis der Kimchi weich wird und röstig duftet.",
+      "Gieß Wasser, Kimchi-Saft, Gochujang und Sojasoße an, gib die Zwiebel dazu, bring alles zum Kochen und lass es zugedeckt köcheln.",
+      "Leg den Tofu obenauf und lass ihn mitköcheln, bis er heiß ist und Farbe angenommen hat.",
+      "Gib die Frühlingszwiebeln in Stücken dazu, schmeck mit Salz ab und bring den Topf mit je einer Schale Reis auf den Tisch."
+     ],
+     "labels": [
+      "",
+      "Schwein",
+      "Kimchi",
+      "Köcheln",
+      "Tofu",
+      ""
+     ],
+     "tips": [
+      "Je älter und saurer der Kimchi, desto besser; ist er jung, gib 1 TL Reisessig dazu.",
+      "Nimm statt Schwein eine Dose Thunfisch in Öl: Das ist Chamchi-Kimchi-Jjigae.",
+      "Am nächsten Tag aufgewärmt schmeckt er noch besser; gib einen Schuss Wasser dazu."
+     ]
+    }
+   }
+  },
+  {
+   "id": "doenjang-jjigae",
+   "cat": "unici",
+   "sub": "pentola",
+   "servings": 4,
+   "minutes": 40,
+   "diff": 1,
+   "kcal": 190,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "comfort",
+    "budget"
+   ],
+   "months": [],
+   "origin": "KR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 900,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "kombu"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "miso"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "gochujang"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "potatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "zucchini"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "shiitake-mushrooms"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "firm-tofu"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-chilies"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "spring-onions"
+    }
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 480
+    },
+    {
+     "timer": 360
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Doenjang jjigae, zuppa di pasta di soia",
+     "intro": "Stufato rustico di pasta di soia con tofu, zucchine, patate e funghi, servito bollente.",
+     "ing": [
+      "acqua",
+      "alga kombu",
+      "miso scuro (o doenjang)",
+      "gochujang (pasta di peperoncino)",
+      "spicchi d'aglio",
+      "patata media",
+      "cipolla",
+      "zucchina",
+      "funghi shiitake freschi",
+      "tofu compatto",
+      "peperoncino verde fresco",
+      "cipollotto"
+     ],
+     "steps": [
+      "Metti il kombu nell'acqua fredda in una pentola e scalda piano; toglilo appena compaiono le prime bollicine.",
+      "Intanto taglia patata e zucchina a cubetti di 1,5 cm, la cipolla a pezzi, i funghi a fette e il tofu a dadi di 2 cm.",
+      "Stempera il miso nel brodo passandolo da un colino con un cucchiaio, poi aggiungi gochujang e aglio tritato.",
+      "Aggiungi patata e cipolla e fai sobbollire.",
+      "Unisci zucchina, funghi e tofu e cuoci finché la patata è tenera.",
+      "Aggiungi peperoncino e cipollotto affettati, cuoci 1 minuto e servi bollente con riso."
+     ],
+     "labels": [
+      "Brodo",
+      "",
+      "",
+      "Patate",
+      "Verdure",
+      ""
+     ],
+     "tips": [
+      "Con il vero doenjang dei negozi coreani il gusto è più profondo e rustico che con il miso.",
+      "Molte famiglie fanno il brodo con kombu e acciughe secche: più saporito, ma non più vegano."
+     ]
+    },
+    "en": {
+     "title": "Doenjang jjigae, soybean paste stew",
+     "intro": "A rustic soybean paste stew with tofu, courgette, potato and mushrooms, served bubbling.",
+     "ing": [
+      "water",
+      "kombu",
+      "dark miso (or doenjang)",
+      "gochujang (chilli paste)",
+      "garlic cloves",
+      "medium potato",
+      "onion",
+      "courgette",
+      "fresh shiitake mushrooms",
+      "firm tofu",
+      "fresh green chilli",
+      "spring onion"
+     ],
+     "steps": [
+      "Put the kombu in the cold water in a pot and heat slowly; take it out as soon as the first bubbles appear.",
+      "Meanwhile cut the potato and courgette into 1.5 cm cubes, the onion into pieces, the mushrooms into slices and the tofu into 2 cm dice.",
+      "Dissolve the miso in the stock by pressing it through a sieve with a spoon, then add the gochujang and minced garlic.",
+      "Add the potato and onion and simmer.",
+      "Add the courgette, mushrooms and tofu and cook until the potato is tender.",
+      "Add the sliced chilli and spring onion, cook for 1 minute and serve piping hot with rice."
+     ],
+     "labels": [
+      "Stock",
+      "",
+      "",
+      "Potato",
+      "Vegetables",
+      ""
+     ],
+     "tips": [
+      "With real doenjang from a Korean shop the flavour is deeper and earthier than with miso.",
+      "Many families use a stock of kombu and dried anchovies: more savoury, though no longer vegan."
+     ]
+    },
+    "fr": {
+     "title": "Doenjang jjigae, ragoût de pâte de soja",
+     "intro": "Ragoût rustique à la pâte de soja, tofu, courgette, pomme de terre et champignons.",
+     "ing": [
+      "eau",
+      "kombu",
+      "miso brun (ou doenjang)",
+      "gochujang (pâte de piment)",
+      "gousses d'ail",
+      "pomme de terre moyenne",
+      "oignon",
+      "courgette",
+      "shiitakés frais",
+      "tofu ferme",
+      "piment vert frais",
+      "oignon nouveau"
+     ],
+     "steps": [
+      "Mets le kombu dans l'eau froide dans une casserole et chauffe doucement ; retire-le dès les premières bulles.",
+      "Coupe pomme de terre et courgette en dés de 1,5 cm, l'oignon en morceaux, les champignons en lamelles et le tofu en cubes de 2 cm.",
+      "Délaye le miso dans le bouillon en le passant au tamis avec une cuillère, puis ajoute le gochujang et l'ail haché.",
+      "Ajoute la pomme de terre et l'oignon et laisse frémir.",
+      "Ajoute courgette, champignons et tofu et cuis jusqu'à ce que la pomme de terre soit tendre.",
+      "Ajoute le piment et l'oignon nouveau émincés, cuis 1 minute et sers bien chaud avec du riz."
+     ],
+     "labels": [
+      "Bouillon",
+      "",
+      "",
+      "Pomme de terre",
+      "Légumes",
+      ""
+     ],
+     "tips": [
+      "Avec un vrai doenjang d'épicerie coréenne, le goût est plus profond et rustique qu'avec du miso.",
+      "Beaucoup de familles font un bouillon kombu et anchois séchés : plus savoureux, mais plus végan."
+     ]
+    },
+    "es": {
+     "title": "Doenjang jjigae, guiso de pasta de soja",
+     "intro": "Guiso rústico de pasta de soja con tofu, calabacín, patata y setas, servido hirviendo.",
+     "ing": [
+      "agua",
+      "alga kombu",
+      "miso oscuro (o doenjang)",
+      "gochujang (pasta de guindilla)",
+      "dientes de ajo",
+      "patata mediana",
+      "cebolla",
+      "calabacín",
+      "shiitake frescos",
+      "tofu firme",
+      "guindilla verde fresca",
+      "cebolleta"
+     ],
+     "steps": [
+      "Pon el kombu en el agua fría en una olla y calienta despacio; retíralo en cuanto salgan las primeras burbujas.",
+      "Mientras, corta la patata y el calabacín en dados de 1,5 cm, la cebolla en trozos, las setas en láminas y el tofu en dados de 2 cm.",
+      "Disuelve el miso en el caldo pasándolo por un colador con una cuchara, luego añade el gochujang y el ajo picado.",
+      "Añade la patata y la cebolla y cuece a fuego suave.",
+      "Añade el calabacín, las setas y el tofu y cuece hasta que la patata esté tierna.",
+      "Añade la guindilla y la cebolleta en rodajas, cuece 1 minuto y sirve muy caliente con arroz."
+     ],
+     "labels": [
+      "Caldo",
+      "",
+      "",
+      "Patata",
+      "Verduras",
+      ""
+     ],
+     "tips": [
+      "Con doenjang auténtico de tienda coreana el sabor es más profundo y rústico que con miso.",
+      "Muchas familias usan caldo de kombu y anchoas secas: más sabroso, pero ya no vegano."
+     ]
+    },
+    "de": {
+     "title": "Doenjang-Jjigae, Sojapasten-Eintopf",
+     "intro": "Rustikaler Eintopf mit Sojabohnenpaste, Tofu, Zucchini, Kartoffel und Pilzen.",
+     "ing": [
+      "Wasser",
+      "Kombu-Alge",
+      "dunkles Miso (oder Doenjang)",
+      "Gochujang (Chilipaste)",
+      "Knoblauchzehen",
+      "mittelgroße Kartoffel",
+      "Zwiebel",
+      "Zucchini",
+      "frische Shiitake-Pilze",
+      "fester Tofu",
+      "frische grüne Chili",
+      "Frühlingszwiebel"
+     ],
+     "steps": [
+      "Leg den Kombu ins kalte Wasser in einen Topf und erhitz es langsam; nimm ihn heraus, sobald die ersten Bläschen kommen.",
+      "Schneid inzwischen Kartoffel und Zucchini in 1,5-cm-Würfel, die Zwiebel in Stücke, die Pilze in Scheiben und den Tofu in 2-cm-Würfel.",
+      "Streich das Miso mit einem Löffel durch ein Sieb in die Brühe und gib Gochujang und gehackten Knoblauch dazu.",
+      "Gib Kartoffel und Zwiebel dazu und lass alles köcheln.",
+      "Gib Zucchini, Pilze und Tofu dazu und gar alles, bis die Kartoffel weich ist.",
+      "Gib Chili und Frühlingszwiebel in Ringen dazu, koch alles 1 Minute und servier es heiß mit Reis."
+     ],
+     "labels": [
+      "Brühe",
+      "",
+      "",
+      "Kartoffel",
+      "Gemüse",
+      ""
+     ],
+     "tips": [
+      "Mit echtem Doenjang aus dem Koreashop schmeckt es tiefer und erdiger als mit Miso.",
+      "Viele Familien kochen die Brühe mit Kombu und getrockneten Sardellen: würziger, aber nicht mehr vegan."
+     ]
+    }
+   }
+  },
+  {
+   "id": "haemul-pajeon",
+   "cat": "antipasti",
+   "sub": "finger",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 2,
+   "kcal": 360,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "KR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 150,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "rice-flour"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 250,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "spring-onions"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "shrimp"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "squid"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 5,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "rice-vinegar"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "gochugaru"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sesame-seeds"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 240
+    },
+    {
+     "timer": 210
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Haemul pajeon, pancake ai frutti di mare",
+     "intro": "Pancake croccante coreano pieno di cipollotti, gamberi e calamari, con salsa di soia.",
+     "ing": [
+      "farina 00",
+      "farina di riso",
+      "sale",
+      "uovo",
+      "acqua ghiacciata",
+      "cipollotti",
+      "gamberi sgusciati",
+      "calamari puliti",
+      "peperoncino rosso fresco",
+      "olio di semi",
+      "salsa di soia",
+      "aceto di riso",
+      "gochugaru (peperoncino coreano)",
+      "semi di sesamo"
+     ],
+     "steps": [
+      "Mescola soia, aceto, gochugaru e sesamo: è la salsa per intingere.",
+      "Taglia i cipollotti in pezzi da 10 cm, aprendo a metà le parti bianche grosse. Trita grossolanamente gamberi e calamari; affetta il peperoncino.",
+      "Sbatti farine, sale, uovo e acqua ghiacciata fino a una pastella fluida; bastano pochi colpi, qualche grumo va bene.",
+      "Scalda 2 cucchiai d'olio in padella da 26 cm, stendi metà dei cipollotti, copri con metà pastella, metà frutti di mare e peperoncino.",
+      "Cuoci a fuoco medio-alto premendo con la spatola, finché il fondo è dorato e croccante.",
+      "Giralo, aggiungi 1 cucchiaio d'olio lungo il bordo e cuoci finché i frutti di mare sono cotti e la crosta è croccante.",
+      "Ripeti con il resto. Taglia a quadrotti e servi subito con la salsa."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Primo lato",
+      "Secondo lato",
+      ""
+     ],
+     "tips": [
+      "Acqua ghiacciata e pastella poco lavorata: è il segreto di un pajeon croccante e non gommoso.",
+      "In Corea si mangia nei giorni di pioggia con una ciotola di makgeolli, il vino di riso torbido.",
+      "Con la farina coreana buchim-garu al posto delle due farine la pastella è già condita."
+     ]
+    },
+    "en": {
+     "title": "Haemul pajeon, seafood scallion pancake",
+     "intro": "A crisp Korean pancake packed with spring onions, prawns and squid, with a soy dip.",
+     "ing": [
+      "plain flour",
+      "rice flour",
+      "salt",
+      "egg",
+      "ice-cold water",
+      "spring onions",
+      "peeled prawns",
+      "cleaned squid",
+      "fresh red chilli",
+      "sunflower oil",
+      "soy sauce",
+      "rice vinegar",
+      "gochugaru (Korean chilli flakes)",
+      "sesame seeds"
+     ],
+     "steps": [
+      "Mix the soy, vinegar, gochugaru and sesame: that's the dipping sauce.",
+      "Cut the spring onions into 10 cm lengths, halving thick white parts. Roughly chop the prawns and squid; slice the chilli.",
+      "Whisk the flours, salt, egg and ice-cold water into a runny batter; a few strokes are enough, a few lumps are fine.",
+      "Heat 2 tbsp oil in a 26 cm pan, lay in half the spring onions, pour over half the batter and scatter with half the seafood and chilli.",
+      "Cook over medium-high heat, pressing with a spatula, until the underside is golden and crisp.",
+      "Flip it, add 1 tbsp oil around the edge and cook until the seafood is cooked and the crust is crisp.",
+      "Repeat with the rest. Cut into squares and serve straight away with the dipping sauce."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "First side",
+      "Second side",
+      ""
+     ],
+     "tips": [
+      "Ice-cold water and a barely mixed batter are the secret to a crisp, not chewy, pajeon.",
+      "In Korea it's eaten on rainy days with a bowl of makgeolli, the cloudy rice wine.",
+      "Use Korean buchim-garu pancake mix instead of the two flours for a ready-seasoned batter."
+     ]
+    },
+    "fr": {
+     "title": "Haemul pajeon, galette aux fruits de mer",
+     "intro": "Galette coréenne croustillante aux oignons nouveaux, crevettes et calamars, sauce soja.",
+     "ing": [
+      "farine de blé",
+      "farine de riz",
+      "sel",
+      "œuf",
+      "eau glacée",
+      "oignons nouveaux",
+      "crevettes décortiquées",
+      "calamars nettoyés",
+      "piment rouge frais",
+      "huile de tournesol",
+      "sauce soja",
+      "vinaigre de riz",
+      "gochugaru (piment coréen)",
+      "graines de sésame"
+     ],
+     "steps": [
+      "Mélange soja, vinaigre, gochugaru et sésame : c'est la sauce à tremper.",
+      "Coupe les oignons nouveaux en tronçons de 10 cm, en fendant les blancs épais. Hache grossièrement crevettes et calamars ; émince le piment.",
+      "Fouette farines, sel, œuf et eau glacée en une pâte fluide ; quelques coups suffisent, quelques grumeaux ne gênent pas.",
+      "Chauffe 2 c. à soupe d'huile dans une poêle de 26 cm, étale la moitié des oignons, puis la moitié de la pâte, des fruits de mer et du piment.",
+      "Cuis à feu moyen-vif en pressant à la spatule, jusqu'à ce que le dessous soit doré et croustillant.",
+      "Retourne-la, ajoute 1 c. à soupe d'huile sur le bord et cuis jusqu'à ce que les fruits de mer soient cuits et la croûte croustillante.",
+      "Recommence avec le reste. Coupe en carrés et sers aussitôt avec la sauce."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "1er côté",
+      "2e côté",
+      ""
+     ],
+     "tips": [
+      "Eau glacée et pâte à peine mélangée : le secret d'un pajeon croustillant et pas caoutchouteux.",
+      "En Corée, on le mange les jours de pluie avec un bol de makgeolli, le vin de riz trouble.",
+      "Avec le mélange coréen buchim-garu à la place des deux farines, la pâte est déjà assaisonnée."
+     ]
+    },
+    "es": {
+     "title": "Haemul pajeon, tortita de marisco",
+     "intro": "Tortita coreana crujiente llena de cebolleta, gambas y calamar, con salsa de soja.",
+     "ing": [
+      "harina de trigo",
+      "harina de arroz",
+      "sal",
+      "huevo",
+      "agua helada",
+      "cebolletas",
+      "gambas peladas",
+      "calamar limpio",
+      "guindilla roja fresca",
+      "aceite de girasol",
+      "salsa de soja",
+      "vinagre de arroz",
+      "gochugaru (guindilla coreana)",
+      "semillas de sésamo"
+     ],
+     "steps": [
+      "Mezcla la soja, el vinagre, el gochugaru y el sésamo: es la salsa para mojar.",
+      "Corta la cebolleta en trozos de 10 cm, abriendo las partes blancas gruesas. Pica las gambas y el calamar; corta la guindilla en aros.",
+      "Bate las harinas, la sal, el huevo y el agua helada hasta una masa fluida; bastan unos movimientos, algún grumo no importa.",
+      "Calienta 2 cucharadas de aceite en una sartén de 26 cm, pon la mitad de la cebolleta y cubre con la mitad de la masa, el marisco y la guindilla.",
+      "Cocina a fuego medio-alto aplastando con la espátula, hasta que la base esté dorada y crujiente.",
+      "Dale la vuelta, añade 1 cucharada de aceite por el borde y cocina hasta que el marisco esté hecho y la costra crujiente.",
+      "Repite con el resto. Corta en cuadrados y sirve enseguida con la salsa."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Primer lado",
+      "Segundo lado",
+      ""
+     ],
+     "tips": [
+      "Agua helada y masa poco batida: el secreto de un pajeon crujiente y no gomoso.",
+      "En Corea se come los días de lluvia con un cuenco de makgeolli, el vino de arroz turbio.",
+      "Con la harina coreana buchim-garu en lugar de las dos harinas, la masa ya va sazonada."
+     ]
+    },
+    "de": {
+     "title": "Haemul Pajeon, Meeresfrüchte-Pfannkuchen",
+     "intro": "Knuspriger koreanischer Pfannkuchen mit Frühlingszwiebeln, Garnelen und Tintenfisch.",
+     "ing": [
+      "Weizenmehl (Type 405)",
+      "Reismehl",
+      "Salz",
+      "Ei",
+      "eiskaltes Wasser",
+      "Frühlingszwiebeln",
+      "geschälte Garnelen",
+      "Kalmar, geputzt",
+      "frische rote Chili",
+      "Sonnenblumenöl",
+      "Sojasoße",
+      "Reisessig",
+      "Gochugaru (koreanische Chiliflocken)",
+      "Sesamsamen"
+     ],
+     "steps": [
+      "Verrühr Sojasoße, Essig, Gochugaru und Sesam: Das ist der Dip.",
+      "Schneid die Frühlingszwiebeln in 10-cm-Stücke, dicke weiße Teile längs halbiert. Hack Garnelen und Kalmar grob, schneid die Chili in Ringe.",
+      "Verquirl beide Mehle, Salz, Ei und eiskaltes Wasser zu einem flüssigen Teig; rühr nur kurz, ein paar Klümpchen sind gut.",
+      "Erhitz 2 EL Öl in einer 26-cm-Pfanne, leg die halben Frühlingszwiebeln hinein, gieß den halben Teig darüber, verteil halbe Meeresfrüchte und Chili.",
+      "Brat ihn bei mittlerer bis starker Hitze und drück ihn mit dem Wender an, bis die Unterseite goldbraun und knusprig ist.",
+      "Wende ihn, gib 1 EL Öl an den Rand und brat ihn, bis die Meeresfrüchte gar sind und die Kruste knusprig ist.",
+      "Wiederhol das mit dem Rest. Schneid die Pfannkuchen in Quadrate und servier sie sofort mit dem Dip."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Erste Seite",
+      "Zweite Seite",
+      ""
+     ],
+     "tips": [
+      "Eiskaltes Wasser und kaum gerührter Teig: So wird Pajeon knusprig statt zäh.",
+      "In Korea isst man ihn an Regentagen mit einer Schale Makgeolli, dem trüben Reiswein.",
+      "Mit koreanischer Pfannkuchenmischung Buchim-Garu statt der beiden Mehle ist der Teig schon gewürzt."
+     ]
+    }
+   }
+  },
+  {
+   "id": "jjimdak",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 80,
+   "diff": 2,
+   "kcal": 620,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "party",
+    "comfort"
+   ],
+   "months": [],
+   "origin": "KR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "chicken-pieces"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "sweet-potato-noodles"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "dried-chilies"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 6,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "brown-sugar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "honey"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "mirin"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "black-pepper"
+    },
+    {
+     "q": 600,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "toasted-sesame-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sesame-seeds"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {
+     "timer": 180
+    },
+    {},
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Jjimdak, pollo brasato di Andong",
+     "intro": "Pollo brasato in salsa di soia dolce e piccante con patate e spaghetti di patata dolce.",
+     "ing": [
+      "pollo a pezzi con osso (cosce e sovracosce)",
+      "spaghetti di patata dolce (dangmyeon)",
+      "patate",
+      "carota",
+      "cipolla",
+      "cipollotti",
+      "peperoncini secchi",
+      "spicchi d'aglio",
+      "zenzero fresco",
+      "salsa di soia",
+      "zucchero di canna",
+      "miele",
+      "mirin",
+      "pepe nero",
+      "acqua",
+      "olio di sesamo tostato",
+      "semi di sesamo"
+     ],
+     "steps": [
+      "Metti in ammollo gli spaghetti di patata dolce in acqua tiepida.",
+      "Intanto sbollenta il pollo in acqua bollente, poi scolalo e sciacqualo: la salsa resterà pulita.",
+      "Mescola soia, zucchero, miele, mirin, aglio tritato, zenzero grattugiato, pepe e acqua.",
+      "Metti pollo, salsa e peperoncini in una pentola larga, porta a bollore, copri e cuoci a fuoco medio-basso.",
+      "Aggiungi patate e carota a grossi pezzi e la cipolla a spicchi; cuoci coperto finché le patate sono tenere e il pollo è cotto all'osso.",
+      "Unisci gli spaghetti scolati e i cipollotti a pezzi; cuoci scoperto mescolando finché gli spaghetti sono lucidi e hanno assorbito la salsa.",
+      "Condisci con olio di sesamo e semi di sesamo e porta la pentola al centro della tavola."
+     ],
+     "labels": [
+      "Ammollo",
+      "Pollo",
+      "",
+      "Brasatura",
+      "Verdure",
+      "Noodles",
+      ""
+     ],
+     "tips": [
+      "Gli spaghetti di patata dolce assorbono tanto liquido: se la salsa si asciuga, aggiungi un mestolo d'acqua.",
+      "Ad Andong si usa lo sciroppo di riso jocheong al posto del miele: lo trovi nei negozi coreani."
+     ]
+    },
+    "en": {
+     "title": "Jjimdak, Andong braised chicken",
+     "intro": "Chicken braised in a sweet, spicy soy sauce with potatoes and glassy sweet potato noodles.",
+     "ing": [
+      "bone-in chicken pieces (thighs and drumsticks)",
+      "sweet potato glass noodles (dangmyeon)",
+      "potatoes",
+      "carrot",
+      "onion",
+      "spring onions",
+      "dried red chillies",
+      "garlic cloves",
+      "fresh ginger",
+      "soy sauce",
+      "brown sugar",
+      "honey",
+      "mirin",
+      "black pepper",
+      "water",
+      "toasted sesame oil",
+      "sesame seeds"
+     ],
+     "steps": [
+      "Soak the sweet potato noodles in lukewarm water.",
+      "Meanwhile blanch the chicken in boiling water, then drain and rinse it: the sauce will stay clean.",
+      "Mix the soy, sugar, honey, mirin, minced garlic, grated ginger, pepper and water.",
+      "Put the chicken, sauce and chillies in a wide pot, bring to the boil, cover and cook over medium-low heat.",
+      "Add the potatoes and carrot in big chunks and the onion wedges; cover and cook until the potatoes are tender and the chicken cooked through.",
+      "Add the drained noodles and spring onions in pieces; cook uncovered, stirring, until the noodles are glossy and have soaked up the sauce.",
+      "Drizzle with sesame oil, sprinkle with sesame seeds and set the pot in the middle of the table."
+     ],
+     "labels": [
+      "Soak",
+      "Chicken",
+      "",
+      "Braise",
+      "Vegetables",
+      "Noodles",
+      ""
+     ],
+     "tips": [
+      "The noodles drink a lot of liquid: if the sauce dries out, add a ladle of water.",
+      "In Andong they use jocheong rice syrup instead of honey; look for it in Korean shops."
+     ]
+    },
+    "fr": {
+     "title": "Jjimdak, poulet braisé d'Andong",
+     "intro": "Poulet braisé au soja sucré et pimenté, pommes de terre et nouilles de patate douce.",
+     "ing": [
+      "morceaux de poulet avec os (cuisses et pilons)",
+      "vermicelles de patate douce (dangmyeon)",
+      "pommes de terre",
+      "carotte",
+      "oignon",
+      "oignons nouveaux",
+      "piments séchés",
+      "gousses d'ail",
+      "gingembre frais",
+      "sauce soja",
+      "sucre roux",
+      "miel",
+      "mirin",
+      "poivre noir",
+      "eau",
+      "huile de sésame grillé",
+      "graines de sésame"
+     ],
+     "steps": [
+      "Fais tremper les vermicelles de patate douce dans de l'eau tiède.",
+      "Pendant ce temps, blanchis le poulet dans l'eau bouillante, puis égoutte-le et rince-le : la sauce restera nette.",
+      "Mélange soja, sucre, miel, mirin, ail haché, gingembre râpé, poivre et eau.",
+      "Mets poulet, sauce et piments dans une cocotte large, porte à ébullition, couvre et cuis à feu moyen-doux.",
+      "Ajoute pommes de terre et carotte en gros morceaux et l'oignon en quartiers ; cuis à couvert jusqu'à ce que le poulet soit cuit à cœur.",
+      "Ajoute les vermicelles égouttés et les oignons en tronçons ; cuis à découvert en remuant jusqu'à ce qu'ils brillent et boivent la sauce.",
+      "Arrose d'huile de sésame, parsème de graines de sésame et pose la cocotte au milieu de la table."
+     ],
+     "labels": [
+      "Trempage",
+      "Poulet",
+      "",
+      "Braisage",
+      "Légumes",
+      "Nouilles",
+      ""
+     ],
+     "tips": [
+      "Les vermicelles boivent beaucoup : si la sauce sèche trop, ajoute une louche d'eau.",
+      "À Andong, on utilise le sirop de riz jocheong au lieu du miel ; on le trouve en épicerie coréenne."
+     ]
+    },
+    "es": {
+     "title": "Jjimdak, pollo guisado de Andong",
+     "intro": "Pollo guisado en soja dulce y picante con patatas y fideos de boniato.",
+     "ing": [
+      "pollo troceado con hueso (muslos y contramuslos)",
+      "fideos de boniato (dangmyeon)",
+      "patatas",
+      "zanahoria",
+      "cebolla",
+      "cebolletas",
+      "guindillas secas",
+      "dientes de ajo",
+      "jengibre fresco",
+      "salsa de soja",
+      "azúcar moreno",
+      "miel",
+      "mirin",
+      "pimienta negra",
+      "agua",
+      "aceite de sésamo tostado",
+      "semillas de sésamo"
+     ],
+     "steps": [
+      "Pon en remojo los fideos de boniato en agua tibia.",
+      "Mientras, escalda el pollo en agua hirviendo, luego escúrrelo y enjuágalo: la salsa quedará limpia.",
+      "Mezcla la soja, el azúcar, la miel, el mirin, el ajo picado, el jengibre rallado, la pimienta y el agua.",
+      "Pon el pollo, la salsa y las guindillas en una olla ancha, lleva a ebullición, tapa y cuece a fuego medio-bajo.",
+      "Añade las patatas y la zanahoria en trozos grandes y la cebolla en gajos; cuece tapado hasta que las patatas estén tiernas y el pollo hecho.",
+      "Añade los fideos escurridos y la cebolleta en trozos; cuece destapado removiendo hasta que los fideos brillen y absorban la salsa.",
+      "Riega con aceite de sésamo, espolvorea sésamo y pon la olla en el centro de la mesa."
+     ],
+     "labels": [
+      "Remojo",
+      "Pollo",
+      "",
+      "Guiso",
+      "Verduras",
+      "Fideos",
+      ""
+     ],
+     "tips": [
+      "Los fideos absorben mucho líquido: si la salsa se seca, añade un cucharón de agua.",
+      "En Andong usan sirope de arroz jocheong en vez de miel; lo encontrarás en tiendas coreanas."
+     ]
+    },
+    "de": {
+     "title": "Jjimdak, Schmorhähnchen aus Andong",
+     "intro": "Hähnchen in süß-scharfer Sojasoße geschmort, mit Kartoffeln und Süßkartoffel-Glasnudeln.",
+     "ing": [
+      "Hähnchenteile mit Knochen (Keulen)",
+      "Süßkartoffel-Glasnudeln (Dangmyeon)",
+      "Kartoffeln",
+      "Karotte",
+      "Zwiebel",
+      "Frühlingszwiebeln",
+      "getrocknete Chilischoten",
+      "Knoblauchzehen",
+      "frischer Ingwer",
+      "Sojasoße",
+      "brauner Zucker",
+      "Honig",
+      "Mirin",
+      "schwarzer Pfeffer",
+      "Wasser",
+      "geröstetes Sesamöl",
+      "Sesamsamen"
+     ],
+     "steps": [
+      "Weich die Glasnudeln in lauwarmem Wasser ein.",
+      "Blanchier inzwischen das Hähnchen in kochendem Wasser, gieß es ab und spül es ab: So bleibt die Soße klar.",
+      "Verrühr Sojasoße, Zucker, Honig, Mirin, gehackten Knoblauch, geriebenen Ingwer, Pfeffer und Wasser.",
+      "Gib Hähnchen, Soße und Chilis in einen breiten Topf, bring alles zum Kochen und lass es zugedeckt bei mittlerer Hitze schmoren.",
+      "Gib Kartoffeln und Karotte in groben Stücken und die Zwiebelspalten dazu und gar alles zugedeckt, bis Kartoffeln und Hähnchen durch sind.",
+      "Gib die abgetropften Nudeln und die Frühlingszwiebeln dazu und koch alles offen unter Rühren, bis die Nudeln glänzen und Soße aufsaugen.",
+      "Beträufel alles mit Sesamöl, bestreu es mit Sesam und stell den Topf in die Tischmitte."
+     ],
+     "labels": [
+      "Einweichen",
+      "Hähnchen",
+      "",
+      "Schmoren",
+      "Gemüse",
+      "Nudeln",
+      ""
+     ],
+     "tips": [
+      "Die Nudeln saugen viel Flüssigkeit auf: Wird die Soße zu trocken, gib eine Kelle Wasser dazu.",
+      "In Andong nimmt man Reissirup Jocheong statt Honig; den gibt es im Koreashop."
+     ]
+    }
+   }
+  },
+  {
+   "id": "sigeumchi-namul",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 15,
+   "diff": 1,
+   "kcal": 70,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "origin": "KR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "spinach"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "toasted-sesame-oil"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sesame-seeds"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 30
+    },
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Sigeumchi namul, spinaci al sesamo",
+     "intro": "Spinaci scottati e conditi con aglio e sesamo: il banchan più semplice e amato.",
+     "ing": [
+      "spinaci freschi",
+      "sale",
+      "spicchio d'aglio",
+      "cipollotto",
+      "olio di sesamo tostato",
+      "semi di sesamo tostati"
+     ],
+     "steps": [
+      "Porta a bollore abbondante acqua con metà del sale e scotta gli spinaci lavati finché sono appena appassiti.",
+      "Scolali, passali in acqua fredda e strizzali bene a manciate per togliere tutta l'acqua.",
+      "Tagliali a pezzi di 5 cm; trita finemente aglio e cipollotto e schiaccia leggermente il sesamo.",
+      "Condisci con le mani con aglio, cipollotto, olio di sesamo, sesamo e il sale rimasto. Servi a temperatura ambiente."
+     ],
+     "labels": [
+      "Spinaci",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Strizza gli spinaci con decisione: se restano bagnati il condimento si diluisce.",
+      "Si conserva 2 giorni in frigo in un contenitore chiuso, come tutti i banchan."
+     ]
+    },
+    "en": {
+     "title": "Sigeumchi namul, sesame spinach",
+     "intro": "Blanched spinach dressed with garlic and sesame: the simplest, best-loved banchan.",
+     "ing": [
+      "fresh spinach",
+      "salt",
+      "garlic clove",
+      "spring onion",
+      "toasted sesame oil",
+      "toasted sesame seeds"
+     ],
+     "steps": [
+      "Bring plenty of water to the boil with half the salt and blanch the washed spinach until just wilted.",
+      "Drain, plunge into cold water and squeeze out firmly by the handful to remove all the water.",
+      "Cut into 5 cm lengths; finely mince the garlic and spring onion and lightly crush the sesame seeds.",
+      "Toss with your hands with the garlic, spring onion, sesame oil, sesame seeds and remaining salt. Serve at room temperature."
+     ],
+     "labels": [
+      "Spinach",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Squeeze the spinach hard: if it stays wet, the dressing gets watered down.",
+      "It keeps for 2 days in the fridge in a sealed container, like all banchan."
+     ]
+    },
+    "fr": {
+     "title": "Sigeumchi namul, épinards au sésame",
+     "intro": "Épinards blanchis assaisonnés d'ail et de sésame : le banchan le plus simple et aimé.",
+     "ing": [
+      "épinards frais",
+      "sel",
+      "gousse d'ail",
+      "oignon nouveau",
+      "huile de sésame grillé",
+      "graines de sésame grillées"
+     ],
+     "steps": [
+      "Porte à ébullition une grande casserole d'eau avec la moitié du sel et blanchis les épinards lavés juste le temps qu'ils tombent.",
+      "Égoutte-les, passe-les sous l'eau froide et essore-les bien par poignées pour retirer toute l'eau.",
+      "Coupe-les en tronçons de 5 cm ; hache finement ail et oignon nouveau et écrase légèrement le sésame.",
+      "Mélange à la main avec ail, oignon, huile de sésame, sésame et le reste de sel. Sers à température ambiante."
+     ],
+     "labels": [
+      "Épinards",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Essore les épinards franchement : s'ils restent mouillés, l'assaisonnement se dilue.",
+      "Il se garde 2 jours au frigo dans une boîte fermée, comme tous les banchan."
+     ]
+    },
+    "es": {
+     "title": "Sigeumchi namul, espinacas al sésamo",
+     "intro": "Espinacas escaldadas aliñadas con ajo y sésamo: el banchan más sencillo y querido.",
+     "ing": [
+      "espinacas frescas",
+      "sal",
+      "diente de ajo",
+      "cebolleta",
+      "aceite de sésamo tostado",
+      "semillas de sésamo tostadas"
+     ],
+     "steps": [
+      "Lleva a ebullición abundante agua con la mitad de la sal y escalda las espinacas lavadas hasta que se ablanden.",
+      "Escúrrelas, pásalas por agua fría y estrújalas bien a puñados para quitarles toda el agua.",
+      "Córtalas en trozos de 5 cm; pica muy fino el ajo y la cebolleta y machaca un poco el sésamo.",
+      "Mezcla con las manos con el ajo, la cebolleta, el aceite y las semillas de sésamo y el resto de la sal. Sirve a temperatura ambiente."
+     ],
+     "labels": [
+      "Espinacas",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Estruja las espinacas con fuerza: si quedan mojadas, el aliño se diluye.",
+      "Se conserva 2 días en la nevera en un recipiente cerrado, como todos los banchan."
+     ]
+    },
+    "de": {
+     "title": "Sigeumchi Namul, Sesam-Spinat",
+     "intro": "Kurz blanchierter Spinat mit Knoblauch und Sesam: das einfachste, beliebteste Banchan.",
+     "ing": [
+      "frischer Blattspinat",
+      "Salz",
+      "Knoblauchzehe",
+      "Frühlingszwiebel",
+      "geröstetes Sesamöl",
+      "gerösteter Sesam"
+     ],
+     "steps": [
+      "Bring reichlich Wasser mit der Hälfte des Salzes zum Kochen und blanchier den gewaschenen Spinat, bis er gerade zusammenfällt.",
+      "Gieß ihn ab, schreck ihn in kaltem Wasser ab und drück ihn handvollweise kräftig aus.",
+      "Schneid ihn in 5-cm-Stücke, hack Knoblauch und Frühlingszwiebel fein und zerdrück den Sesam leicht.",
+      "Misch ihn mit den Händen mit Knoblauch, Frühlingszwiebel, Sesamöl, Sesam und restlichem Salz. Servier ihn zimmerwarm."
+     ],
+     "labels": [
+      "Spinat",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Drück den Spinat kräftig aus: Bleibt er nass, verwässert das Dressing.",
+      "In einer verschlossenen Dose hält er sich 2 Tage im Kühlschrank, wie alle Banchan."
+     ]
+    }
+   }
+  },
+  {
+   "id": "hotteok",
+   "cat": "dolci",
+   "sub": "torte",
+   "servings": 4,
+   "minutes": 90,
+   "diff": 2,
+   "kcal": 410,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "kids",
+    "comfort"
+   ],
+   "months": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "origin": "KR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 200,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "glutinous-rice-flour"
+    },
+    {
+     "q": 4,
+     "u": "g",
+     "k": "dry-yeast"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 180,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 80,
+     "u": "g",
+     "k": "brown-sugar"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "walnuts"
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 3600,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 60
+    },
+    {
+     "timer": 120
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Hotteok, frittelle dolci ripiene",
+     "intro": "Frittelle lievitate gommose con un cuore fuso di zucchero di canna, cannella e noci.",
+     "ing": [
+      "farina 00",
+      "farina di riso glutinoso",
+      "lievito di birra secco",
+      "zucchero",
+      "sale",
+      "acqua tiepida",
+      "olio di semi",
+      "zucchero di canna",
+      "cannella in polvere",
+      "gherigli di noce"
+     ],
+     "steps": [
+      "Sciogli lievito e zucchero nell'acqua tiepida, a circa 37 °C.",
+      "Aggiungi le due farine, il sale e 1 cucchiaio d'olio e mescola fino a un impasto morbido e appiccicoso.",
+      "Copri e lascia lievitare in un luogo tiepido finché raddoppia.",
+      "Intanto mescola zucchero di canna, cannella e noci tritate: è il ripieno.",
+      "Ungi le mani, dividi l'impasto in 8, appiattisci ogni pezzo nel palmo, metti un cucchiaio colmo di ripieno e chiudi bene a fagotto.",
+      "Scalda 1 cucchiaio d'olio in padella a fuoco medio e adagia 2 o 3 palline con la chiusura in basso finché dorano sotto.",
+      "Girali e schiacciali con una spatola unta fino a 1 cm di spessore; abbassa la fiamma, copri e cuoci finché il ripieno si scioglie.",
+      "Girali ancora per 30 secondi e servili caldi; aspetta un minuto prima di mordere, lo zucchero fuso scotta."
+     ],
+     "labels": [
+      "",
+      "",
+      "Lievitazione",
+      "",
+      "",
+      "Primo lato",
+      "Schiaccia",
+      ""
+     ],
+     "tips": [
+      "Ungiti bene le mani: l'impasto è appiccicoso apposta, ed è questo che lo rende gommoso.",
+      "Aggiungi al ripieno semi di girasole e di zucca: è il ssiat hotteok di Busan."
+     ]
+    },
+    "en": {
+     "title": "Hotteok, sweet filled pancakes",
+     "intro": "Chewy yeasted pancakes with a molten centre of brown sugar, cinnamon and walnuts.",
+     "ing": [
+      "plain flour",
+      "glutinous rice flour",
+      "dried yeast",
+      "sugar",
+      "salt",
+      "warm water",
+      "sunflower oil",
+      "brown sugar",
+      "ground cinnamon",
+      "walnuts"
+     ],
+     "steps": [
+      "Dissolve the yeast and sugar in the lukewarm water, at about 37 °C.",
+      "Add both flours, the salt and 1 tbsp oil and stir to a soft, sticky dough.",
+      "Cover and leave to rise somewhere warm until doubled.",
+      "Meanwhile mix the brown sugar, cinnamon and chopped walnuts: that's the filling.",
+      "Oil your hands, divide the dough into 8, flatten each piece in your palm, add a heaped tbsp of filling and pinch tightly closed.",
+      "Heat 1 tbsp oil in a pan over medium heat and add 2 or 3 balls, seam side down, until golden underneath.",
+      "Flip and press flat with an oiled spatula to 1 cm thick; lower the heat, cover and cook until the filling melts.",
+      "Flip once more for 30 seconds and serve hot; wait a minute before biting in, the melted sugar is scalding."
+     ],
+     "labels": [
+      "",
+      "",
+      "Rise",
+      "",
+      "",
+      "First side",
+      "Press",
+      ""
+     ],
+     "tips": [
+      "Oil your hands well: the dough is meant to be sticky, that's what makes it chewy.",
+      "Add sunflower and pumpkin seeds to the filling for Busan-style ssiat hotteok."
+     ]
+    },
+    "fr": {
+     "title": "Hotteok, galettes fourrées sucrées",
+     "intro": "Galettes levées moelleuses au cœur fondant de sucre roux, cannelle et noix.",
+     "ing": [
+      "farine de blé",
+      "farine de riz gluant",
+      "levure de boulanger sèche",
+      "sucre",
+      "sel",
+      "eau tiède",
+      "huile de tournesol",
+      "sucre roux",
+      "cannelle moulue",
+      "cerneaux de noix"
+     ],
+     "steps": [
+      "Délaye la levure et le sucre dans l'eau tiède, à environ 37 °C.",
+      "Ajoute les deux farines, le sel et 1 c. à soupe d'huile et mélange jusqu'à obtenir une pâte souple et collante.",
+      "Couvre et laisse lever dans un endroit tiède jusqu'à ce qu'elle double.",
+      "Pendant ce temps, mélange sucre roux, cannelle et noix hachées : c'est la garniture.",
+      "Huile tes mains, divise la pâte en 8, aplatis chaque morceau dans ta paume, mets une bonne cuillerée de garniture et referme bien.",
+      "Chauffe 1 c. à soupe d'huile dans une poêle à feu moyen et dépose 2 ou 3 boules, fermeture dessous, jusqu'à ce qu'elles dorent.",
+      "Retourne-les et aplatis-les à la spatule huilée sur 1 cm ; baisse le feu, couvre et cuis jusqu'à ce que la garniture fonde.",
+      "Retourne-les encore 30 secondes et sers chaud ; attends une minute avant de croquer, le sucre fondu brûle."
+     ],
+     "labels": [
+      "",
+      "",
+      "Levée",
+      "",
+      "",
+      "1er côté",
+      "Aplatir",
+      ""
+     ],
+     "tips": [
+      "Huile-toi bien les mains : la pâte est collante exprès, c'est ce qui la rend moelleuse.",
+      "Ajoute des graines de tournesol et de courge à la garniture : c'est le ssiat hotteok de Busan."
+     ]
+    },
+    "es": {
+     "title": "Hotteok, tortitas dulces rellenas",
+     "intro": "Tortitas fermentadas y elásticas con corazón fundido de azúcar moreno, canela y nueces.",
+     "ing": [
+      "harina de trigo",
+      "harina de arroz glutinoso",
+      "levadura seca de panadero",
+      "azúcar",
+      "sal",
+      "agua tibia",
+      "aceite de girasol",
+      "azúcar moreno",
+      "canela molida",
+      "nueces peladas"
+     ],
+     "steps": [
+      "Disuelve la levadura y el azúcar en el agua tibia, a unos 37 °C.",
+      "Añade las dos harinas, la sal y 1 cucharada de aceite y mezcla hasta tener una masa blanda y pegajosa.",
+      "Tapa y deja levar en un lugar templado hasta que doble su volumen.",
+      "Mientras, mezcla el azúcar moreno, la canela y las nueces picadas: es el relleno.",
+      "Úntate las manos de aceite, divide la masa en 8, aplana cada trozo en la palma, pon una cucharada colmada de relleno y ciérrala bien.",
+      "Calienta 1 cucharada de aceite en una sartén a fuego medio y pon 2 o 3 bolas con el cierre abajo hasta que se doren por debajo.",
+      "Dales la vuelta y aplástalas con una espátula aceitada hasta 1 cm; baja el fuego, tapa y cuece hasta que el relleno se funda.",
+      "Dales otra vuelta 30 segundos y sírvelas calientes; espera un minuto antes de morder, el azúcar fundido quema."
+     ],
+     "labels": [
+      "",
+      "",
+      "Levado",
+      "",
+      "",
+      "Primer lado",
+      "Aplastar",
+      ""
+     ],
+     "tips": [
+      "Úntate bien las manos: la masa es pegajosa a propósito, eso la hace elástica.",
+      "Añade pipas de girasol y de calabaza al relleno: es el ssiat hotteok de Busan."
+     ]
+    },
+    "de": {
+     "title": "Hotteok, gefüllte süße Pfannkuchen",
+     "intro": "Weiche Hefepfannkuchen mit flüssigem Kern aus braunem Zucker, Zimt und Walnüssen.",
+     "ing": [
+      "Weizenmehl (Type 405)",
+      "Klebreismehl",
+      "Trockenhefe",
+      "Zucker",
+      "Salz",
+      "lauwarmes Wasser",
+      "Sonnenblumenöl",
+      "brauner Zucker",
+      "gemahlener Zimt",
+      "Walnusskerne"
+     ],
+     "steps": [
+      "Lös Hefe und Zucker im lauwarmen Wasser bei etwa 37 °C auf.",
+      "Gib beide Mehle, Salz und 1 EL Öl dazu und rühr alles zu einem weichen, klebrigen Teig.",
+      "Deck ihn ab und lass ihn an einem warmen Ort gehen, bis er sich verdoppelt hat.",
+      "Misch inzwischen braunen Zucker, Zimt und gehackte Walnüsse: Das ist die Füllung.",
+      "Öl deine Hände ein, teil den Teig in 8 Stücke, drück jedes flach, gib 1 gehäuften EL Füllung darauf und verschließ es gut.",
+      "Erhitz 1 EL Öl in einer Pfanne bei mittlerer Hitze und leg 2-3 Kugeln mit der Naht nach unten hinein, bis sie unten goldbraun sind.",
+      "Wende sie, drück sie mit einem geölten Wender 1 cm flach, reduzier die Hitze, leg den Deckel auf und gar sie, bis die Füllung schmilzt.",
+      "Wende sie noch einmal für 30 Sekunden und servier sie heiß; warte eine Minute, der flüssige Zucker ist sehr heiß."
+     ],
+     "labels": [
+      "",
+      "",
+      "Gehen",
+      "",
+      "",
+      "Erste Seite",
+      "Flachdrücken",
+      ""
+     ],
+     "tips": [
+      "Öl die Hände gut ein: Der Teig soll klebrig sein, genau das macht ihn so elastisch.",
+      "Mit Sonnenblumen- und Kürbiskernen in der Füllung wird daraus Ssiat-Hotteok aus Busan."
+     ]
+    }
+   }
+  },
+  {
+   "id": "boricha",
+   "cat": "bevande",
+   "sub": "calde",
+   "servings": 4,
+   "minutes": 30,
+   "diff": 1,
+   "kcal": 10,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [],
+   "origin": "KR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 40,
+     "u": "g",
+     "k": "pearl-barley"
+    },
+    {
+     "q": 1200,
+     "u": "ml",
+     "k": "water"
+    }
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 720
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Boricha, tè d'orzo tostato",
+     "intro": "Infuso coreano di orzo tostato, dal sapore di nocciola e pane, senza caffeina.",
+     "ing": [
+      "orzo perlato",
+      "acqua"
+     ],
+     "steps": [
+      "Tosta l'orzo in padella asciutta a fuoco medio-basso, mescolando spesso, finché è marrone scuro come caffè e profuma.",
+      "Porta l'acqua a bollore, aggiungi l'orzo e fai sobbollire a fuoco basso.",
+      "Spegni e lascia in infusione ancora qualche minuto, poi filtra.",
+      "Servilo caldo d'inverno o freddo di frigo d'estate, a volontà durante il pasto."
+     ],
+     "labels": [
+      "Tostatura",
+      "Sobbollire",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Nei negozi coreani trovi l'orzo già tostato (bori) o in bustine: salti la tostatura.",
+      "Si conserva 3 giorni in frigo in una bottiglia di vetro; l'orzo tostato si tiene mesi in barattolo."
+     ]
+    },
+    "en": {
+     "title": "Boricha, roasted barley tea",
+     "intro": "Korean roasted barley infusion with a nutty, toasty taste and no caffeine.",
+     "ing": [
+      "pearl barley",
+      "water"
+     ],
+     "steps": [
+      "Toast the barley in a dry pan over medium-low heat, stirring often, until deep brown like coffee and fragrant.",
+      "Bring the water to the boil, add the barley and simmer over low heat.",
+      "Turn off the heat and leave to steep a few more minutes, then strain.",
+      "Serve it hot in winter or fridge-cold in summer, freely throughout the meal."
+     ],
+     "labels": [
+      "Toast",
+      "Simmer",
+      "Rest",
+      ""
+     ],
+     "tips": [
+      "Korean shops sell ready-roasted barley (bori) or tea bags, so you can skip the toasting.",
+      "It keeps 3 days in the fridge in a glass bottle; roasted barley keeps for months in a jar."
+     ]
+    },
+    "fr": {
+     "title": "Boricha, thé d'orge torréfiée",
+     "intro": "Infusion coréenne d'orge torréfiée au goût de noisette et de pain grillé, sans caféine.",
+     "ing": [
+      "orge perlée",
+      "eau"
+     ],
+     "steps": [
+      "Torréfie l'orge à sec dans une poêle à feu moyen-doux, en remuant souvent, jusqu'à ce qu'elle soit brun foncé et parfumée.",
+      "Porte l'eau à ébullition, ajoute l'orge et laisse frémir à feu doux.",
+      "Éteins et laisse infuser encore quelques minutes, puis filtre.",
+      "Sers-le chaud l'hiver ou bien frais l'été, à volonté pendant le repas."
+     ],
+     "labels": [
+      "Torréfaction",
+      "Mijoter",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "En épicerie coréenne, on trouve de l'orge déjà torréfiée (bori) ou en sachets : pas besoin de torréfier.",
+      "Il se garde 3 jours au frigo en bouteille de verre ; l'orge torréfiée se conserve des mois en bocal."
+     ]
+    },
+    "es": {
+     "title": "Boricha, té de cebada tostada",
+     "intro": "Infusión coreana de cebada tostada, con sabor a avellana y pan tostado, sin cafeína.",
+     "ing": [
+      "cebada perlada",
+      "agua"
+     ],
+     "steps": [
+      "Tuesta la cebada en una sartén sin aceite a fuego medio-bajo, removiendo a menudo, hasta que esté marrón oscuro y huela.",
+      "Lleva el agua a ebullición, añade la cebada y cuece a fuego bajo.",
+      "Apaga y deja reposar unos minutos más, luego cuela.",
+      "Sírvelo caliente en invierno o frío de nevera en verano, a discreción durante la comida."
+     ],
+     "labels": [
+      "Tostado",
+      "Hervir",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "En tiendas coreanas venden cebada ya tostada (bori) o en bolsitas: te ahorras el tostado.",
+      "Se conserva 3 días en la nevera en botella de cristal; la cebada tostada dura meses en un tarro."
+     ]
+    },
+    "de": {
+     "title": "Boricha, gerösteter Gerstentee",
+     "intro": "Koreanischer Aufguss aus gerösteter Gerste, nussig und brotig, ohne Koffein.",
+     "ing": [
+      "Perlgraupen",
+      "Wasser"
+     ],
+     "steps": [
+      "Röste die Graupen in einer trockenen Pfanne bei mäßiger Hitze unter häufigem Rühren, bis sie kaffeebraun sind und duften.",
+      "Bring das Wasser zum Kochen, gib die Gerste dazu und lass sie bei schwacher Hitze köcheln.",
+      "Schalt den Herd aus, lass alles noch ein paar Minuten ziehen und seih es dann ab.",
+      "Servier ihn im Winter heiß oder im Sommer kühlschrankkalt, ganz nach Belieben zum Essen."
+     ],
+     "labels": [
+      "Rösten",
+      "Köcheln",
+      "Ziehen",
+      ""
+     ],
+     "tips": [
+      "Im Koreashop gibt es fertig geröstete Gerste (Bori) oder Teebeutel, dann entfällt das Rösten.",
+      "Er hält sich 3 Tage im Kühlschrank in einer Glasflasche; geröstete Gerste hält sich monatelang im Glas."
+     ]
+    }
+   }
+  }
+ ]
+}

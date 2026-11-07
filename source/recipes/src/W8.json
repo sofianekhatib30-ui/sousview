@@ -1,0 +1,4125 @@
+{
+ "group": "W8",
+ "recipes": [
+  {
+   "id": "boeuf-bourguignon",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 240,
+   "diff": 2,
+   "kcal": 680,
+   "diet": [],
+   "tags": [
+    "comfort",
+    "festive"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "origin": "FR",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 1000,
+     "u": "g",
+     "k": "beef-stew-meat"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "pancetta"
+    },
+    {
+     "q": 750,
+     "u": "ml",
+     "k": "red-wine"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "beef-broth"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "00-flour"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "thyme"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "button-mushrooms"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "pearl-onions"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 360
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 120
+    },
+    {},
+    {
+     "timer": 9000,
+     "bg": true,
+     "alt": {
+      "pressure": {
+       "timer": 2700
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 900
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "leftover"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "carottes-vichy"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Bœuf bourguignon",
+     "intro": "Manzo brasato nel vino rosso con pancetta, funghi e cipolline: il piatto della Borgogna.",
+     "ing": [
+      "manzo da brasato (cappello del prete o guancia)",
+      "pancetta tesa a cubetti",
+      "vino rosso di Borgogna (o Pinot nero)",
+      "brodo di manzo",
+      "carote",
+      "cipolla",
+      "spicchi d'aglio",
+      "farina 00",
+      "concentrato di pomodoro",
+      "rametti di timo",
+      "foglie di alloro",
+      "champignon piccoli",
+      "cipolline borettane",
+      "burro",
+      "olio di semi di girasole",
+      "prezzemolo tritato",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Taglia la carne a cubi di 5 cm, asciugala bene con carta da cucina e condiscila con sale e pepe.",
+      "In una casseruola di ghisa rosola la pancetta in 1 cucchiaio d'olio finché è dorata, poi tienila da parte.",
+      "Aggiungi l'olio rimasto e rosola la carne in due volte, a fuoco vivo, finché è ben scura su ogni lato. Mettila da parte.",
+      "Abbassa il fuoco e cuoci carote a rondelle, cipolla tritata e aglio schiacciato finché sono morbidi.",
+      "Rimetti carne e pancetta, spolvera con la farina, unisci il concentrato e mescola per 2 minuti.",
+      "Versa il vino e il brodo, aggiungi timo e alloro e porta a bollore raschiando bene il fondo.",
+      "Copri e cuoci a fuoco minimo per 2 ore e mezza, finché la carne si sfalda con la forchetta.",
+      "Intanto, a fine cottura, rosola in padella le cipolline sbucciate con metà del burro finché sono dorate e tenere.",
+      "Aggiungi il burro rimasto e i funghi tagliati a metà e saltali a fuoco vivo finché sono dorati.",
+      "Togli timo e alloro, unisci funghi e cipolline allo stufato e cuoci scoperto finché il sugo vela il cucchiaio.",
+      "Cospargi di prezzemolo e servi con patate lesse, purè o tagliatelle al burro."
+     ],
+     "labels": [
+      "",
+      "Pancetta",
+      "Rosolatura",
+      "Verdure",
+      "Farina",
+      "",
+      "Brasato",
+      "Cipolline",
+      "Funghi",
+      "Riduzione",
+      ""
+     ],
+     "tips": [
+      "Fallo il giorno prima: dopo una notte in frigo è ancora più buono. Riscaldalo piano, coperto.",
+      "Marinare la carne una notte nel vino con carota, cipolla e timo dà un sugo più profondo.",
+      "Con le carote Vichy al burro e un Bourgogne rosso a 16 °C, lo stesso della cottura."
+     ],
+     "alt": {
+      "6": {
+       "pressure": "Chiudi la pentola a pressione e cuoci 45 minuti dal fischio, poi lasciala sfiatare da sola."
+      }
+     }
+    },
+    "en": {
+     "title": "Bœuf bourguignon",
+     "intro": "Beef braised in red wine with lardons, mushrooms and pearl onions: a Burgundy classic.",
+     "ing": [
+      "stewing beef (chuck or cheek)",
+      "pancetta, cut into lardons",
+      "red Burgundy (or Pinot Noir)",
+      "beef stock",
+      "carrots",
+      "onion",
+      "garlic cloves",
+      "all-purpose flour",
+      "tomato paste",
+      "thyme sprigs",
+      "bay leaves",
+      "small button mushrooms",
+      "pearl onions",
+      "butter",
+      "sunflower oil",
+      "chopped parsley",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Cut the beef into 5 cm cubes, pat it very dry with paper towels and season with salt and pepper.",
+      "In a cast-iron casserole, brown the pancetta in 1 tbsp oil until golden, then set it aside.",
+      "Add the remaining oil and brown the beef in two batches over high heat until deeply browned all over. Set aside.",
+      "Lower the heat and cook the sliced carrots, chopped onion and crushed garlic until soft.",
+      "Return the beef and pancetta, sprinkle with the flour, add the tomato paste and stir for 2 minutes.",
+      "Pour in the wine and stock, add the thyme and bay leaves and bring to a boil, scraping the bottom.",
+      "Cover and simmer on the lowest heat for 2 and a half hours, until the beef falls apart with a fork.",
+      "Meanwhile, near the end, brown the peeled pearl onions in half the butter until golden and tender.",
+      "Add the remaining butter and the halved mushrooms and sauté over high heat until golden.",
+      "Remove the thyme and bay, stir the mushrooms and onions into the stew and simmer uncovered until the sauce coats a spoon.",
+      "Scatter with parsley and serve with boiled potatoes, mash or buttered noodles."
+     ],
+     "labels": [
+      "",
+      "Pancetta",
+      "Browning",
+      "Vegetables",
+      "Flour",
+      "",
+      "Braise",
+      "Pearl onions",
+      "Mushrooms",
+      "Reduce",
+      ""
+     ],
+     "tips": [
+      "Make it a day ahead: after a night in the fridge it tastes even better. Reheat gently, covered.",
+      "Marinating the beef overnight in the wine with carrot, onion and thyme gives a deeper sauce.",
+      "Serve with buttery Vichy carrots and a red Burgundy at 16 °C, the same wine you cooked with."
+     ],
+     "alt": {
+      "6": {
+       "pressure": "Lock the pressure cooker lid and cook for 45 minutes at pressure, then let it release naturally."
+      }
+     }
+    },
+    "fr": {
+     "title": "Bœuf bourguignon",
+     "intro": "Bœuf mijoté longuement au vin rouge, avec lardons, champignons et petits oignons.",
+     "ing": [
+      "bœuf à braiser (paleron ou joue)",
+      "lardons nature",
+      "vin rouge de Bourgogne",
+      "bouillon de bœuf",
+      "carottes",
+      "oignon",
+      "gousses d'ail",
+      "farine",
+      "concentré de tomate",
+      "brins de thym",
+      "feuilles de laurier",
+      "petits champignons de Paris",
+      "petits oignons grelots",
+      "beurre",
+      "huile de tournesol",
+      "persil plat haché",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Coupe le bœuf en cubes de 5 cm, sèche-le bien avec du papier absorbant, sale et poivre.",
+      "Dans une cocotte en fonte, fais dorer les lardons dans 1 c. à soupe d'huile, puis réserve-les.",
+      "Ajoute le reste d'huile et saisis la viande en deux fois, à feu vif, jusqu'à ce qu'elle soit bien colorée. Réserve.",
+      "Baisse le feu et fais revenir les carottes en rondelles, l'oignon haché et l'ail écrasé jusqu'à ce qu'ils soient tendres.",
+      "Remets la viande et les lardons, saupoudre de farine, ajoute le concentré et remue 2 minutes.",
+      "Verse le vin et le bouillon, ajoute le thym et le laurier et porte à ébullition en grattant le fond.",
+      "Couvre et laisse mijoter à feu très doux 2 h 30, jusqu'à ce que la viande se défasse à la fourchette.",
+      "Pendant ce temps, en fin de cuisson, fais dorer les petits oignons pelés dans la moitié du beurre.",
+      "Ajoute le reste du beurre et les champignons coupés en deux, et fais-les sauter à feu vif jusqu'à ce qu'ils dorent.",
+      "Retire thym et laurier, ajoute champignons et oignons au ragoût et laisse réduire à découvert jusqu'à ce que la sauce nappe.",
+      "Parsème de persil et sers avec des pommes vapeur, une purée ou des tagliatelles au beurre."
+     ],
+     "labels": [
+      "",
+      "Lardons",
+      "Saisie",
+      "Légumes",
+      "Farine",
+      "",
+      "Mijotage",
+      "Oignons",
+      "Champignons",
+      "Réduction",
+      ""
+     ],
+     "tips": [
+      "Prépare-le la veille : après une nuit au frais, il est encore meilleur. Réchauffe-le doucement, couvert.",
+      "Faire mariner la viande une nuit dans le vin avec carotte, oignon et thym donne une sauce plus profonde.",
+      "Avec des carottes Vichy et un bourgogne rouge à 16 °C, le même que pour la cuisson."
+     ],
+     "alt": {
+      "6": {
+       "pressure": "Ferme l'autocuiseur et compte 45 minutes après la mise en pression, puis laisse-le décompresser seul."
+      }
+     }
+    },
+    "es": {
+     "title": "Bœuf bourguignon",
+     "intro": "Ternera guisada a fuego lento en vino tinto con panceta, champiñones y cebollitas.",
+     "ing": [
+      "ternera para guisar (aguja o carrillera)",
+      "panceta en dados",
+      "vino tinto de Borgoña (o Pinot Noir)",
+      "caldo de carne",
+      "zanahorias",
+      "cebolla",
+      "dientes de ajo",
+      "harina de trigo",
+      "concentrado de tomate",
+      "ramitas de tomillo",
+      "hojas de laurel",
+      "champiñones pequeños",
+      "cebollitas francesas",
+      "mantequilla",
+      "aceite de girasol",
+      "perejil picado",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Corta la carne en tacos de 5 cm, sécala bien con papel de cocina y salpimiéntala.",
+      "En una cazuela de hierro dora la panceta con 1 cucharada de aceite y resérvala.",
+      "Añade el resto del aceite y dora la carne en dos tandas, a fuego vivo, hasta que esté bien tostada. Resérvala.",
+      "Baja el fuego y rehoga la zanahoria en rodajas, la cebolla picada y el ajo aplastado hasta que estén tiernos.",
+      "Vuelve a poner la carne y la panceta, espolvorea la harina, añade el concentrado y remueve 2 minutos.",
+      "Vierte el vino y el caldo, añade el tomillo y el laurel y lleva a ebullición rascando el fondo.",
+      "Tapa y cuece a fuego mínimo 2 horas y media, hasta que la carne se deshaga con el tenedor.",
+      "Mientras, al final de la cocción, dora las cebollitas peladas con la mitad de la mantequilla hasta que estén tiernas.",
+      "Añade el resto de la mantequilla y los champiñones partidos por la mitad y saltéalos a fuego vivo hasta dorarlos.",
+      "Retira el tomillo y el laurel, añade champiñones y cebollitas y cuece sin tapa hasta que la salsa napé la cuchara.",
+      "Espolvorea con perejil y sirve con patatas cocidas, puré o tallarines con mantequilla."
+     ],
+     "labels": [
+      "",
+      "Panceta",
+      "Dorar",
+      "Verduras",
+      "Harina",
+      "",
+      "Guiso",
+      "Cebollitas",
+      "Champiñones",
+      "Reducir",
+      ""
+     ],
+     "tips": [
+      "Hazlo el día antes: tras una noche en la nevera está aún mejor. Recaliéntalo despacio y tapado.",
+      "Marinar la carne una noche en el vino con zanahoria, cebolla y tomillo da una salsa más profunda.",
+      "Con zanahorias Vichy y un borgoña tinto a 16 °C, el mismo que usaste para guisar."
+     ],
+     "alt": {
+      "6": {
+       "pressure": "Cierra la olla a presión y cuece 45 minutos desde que suba la válvula; deja que pierda presión sola."
+      }
+     }
+    },
+    "de": {
+     "title": "Bœuf bourguignon",
+     "intro": "Rindfleisch, lange in Rotwein geschmort, mit Speck, Champignons und Perlzwiebeln.",
+     "ing": [
+      "Schmorfleisch vom Rind (Schulter oder Backe)",
+      "Bauchspeck, gewürfelt",
+      "roter Burgunder (oder Pinot Noir)",
+      "Rinderbrühe",
+      "Karotten",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "Mehl (Type 405)",
+      "Tomatenmark",
+      "Zweige Thymian",
+      "Lorbeerblätter",
+      "kleine Champignons",
+      "Perlzwiebeln",
+      "Butter",
+      "Sonnenblumenöl",
+      "gehackte Petersilie",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Schneide das Fleisch in 5-cm-Würfel, tupf es gründlich trocken und würze es mit Salz und Pfeffer.",
+      "Brate den Speck in einem gusseisernen Bräter in 1 EL Öl goldbraun an und nimm ihn heraus.",
+      "Gib das restliche Öl dazu und brate das Fleisch in zwei Portionen scharf an, bis es rundum dunkel ist. Herausnehmen.",
+      "Reduziere die Hitze und dünste Karottenscheiben, gehackte Zwiebel und zerdrückten Knoblauch weich.",
+      "Gib Fleisch und Speck zurück, bestäub alles mit Mehl, rühr das Tomatenmark unter und röste 2 Minuten.",
+      "Gieß Wein und Brühe an, gib Thymian und Lorbeer dazu und lass alles aufkochen, dabei den Bratsatz lösen.",
+      "Deckel drauf und bei kleinster Hitze 2,5 Stunden schmoren, bis das Fleisch mit der Gabel zerfällt.",
+      "Brate inzwischen, gegen Ende der Garzeit, die geschälten Perlzwiebeln in der Hälfte der Butter goldbraun und weich.",
+      "Gib die restliche Butter und die halbierten Champignons dazu und brate sie bei starker Hitze goldbraun.",
+      "Nimm Thymian und Lorbeer heraus, gib Pilze und Zwiebeln dazu und köchle offen, bis die Sauce den Löffel überzieht.",
+      "Mit Petersilie bestreuen und mit Salzkartoffeln, Püree oder Butternudeln servieren."
+     ],
+     "labels": [
+      "",
+      "Speck",
+      "Anbraten",
+      "Gemüse",
+      "Mehl",
+      "",
+      "Schmoren",
+      "Perlzwiebeln",
+      "Pilze",
+      "Einkochen",
+      ""
+     ],
+     "tips": [
+      "Am Vortag kochen: nach einer Nacht im Kühlschrank schmeckt er noch besser. Langsam zugedeckt erwärmen.",
+      "Mariniere das Fleisch über Nacht im Wein mit Karotte, Zwiebel und Thymian: die Sauce wird tiefer.",
+      "Dazu Vichy-Karotten und ein roter Burgunder mit 16 °C, derselbe wie im Topf."
+     ],
+     "alt": {
+      "6": {
+       "pressure": "Schließ den Schnellkochtopf und gare 45 Minuten unter Druck, dann den Druck von selbst abbauen lassen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "coq-au-vin",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 130,
+   "diff": 2,
+   "kcal": 620,
+   "diet": [],
+   "tags": [
+    "comfort",
+    "festive"
+   ],
+   "months": [],
+   "origin": "FR",
+   "alcohol": false,
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "ingredients": [
+    {
+     "q": 1400,
+     "u": "g",
+     "k": "chicken-pieces"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "pancetta"
+    },
+    {
+     "q": 600,
+     "u": "ml",
+     "k": "red-wine"
+    },
+    {
+     "q": 40,
+     "u": "ml",
+     "k": "brandy"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "chicken-broth",
+     "make": "brodo-pollo"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "00-flour"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "thyme"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "button-mushrooms"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "pearl-onions"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 360
+    },
+    {
+     "timer": 600
+    },
+    {},
+    {
+     "timer": 300
+    },
+    {},
+    {
+     "timer": 3600,
+     "bg": true,
+     "alt": {
+      "pressure": {
+       "timer": 1080
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Coq au vin",
+     "intro": "Pollo cotto piano nel vino rosso con pancetta, funghi e cipolline, in un sugo lucido.",
+     "ing": [
+      "pollo a pezzi (cosce e sovracosce)",
+      "pancetta tesa a cubetti",
+      "vino rosso corposo (Pinot nero o Borgogna)",
+      "cognac o brandy",
+      "brodo di pollo",
+      "cipolla",
+      "carota",
+      "spicchi d'aglio",
+      "farina 00",
+      "concentrato di pomodoro",
+      "rametti di timo",
+      "foglia di alloro",
+      "champignon piccoli",
+      "cipolline borettane",
+      "burro",
+      "olio di semi di girasole",
+      "prezzemolo tritato",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Asciuga il pollo e condiscilo con sale e pepe. In una casseruola rosola la pancetta nell'olio finché è croccante e toglila.",
+      "Rosola il pollo nel grasso rimasto, prima dalla parte della pelle, finché è ben dorato. Elimina l'unto in eccesso.",
+      "Versa il cognac e fiammeggialo con un fiammifero lungo, a cappa spenta, oppure lascialo solo evaporare.",
+      "Togli il pollo, cuoci cipolla, carota e aglio tritati finché sono morbidi, poi unisci farina e concentrato.",
+      "Rimetti pollo e pancetta, versa vino e brodo (anche pronto), aggiungi timo e alloro e porta a bollore.",
+      "Copri e cuoci a fuoco basso 1 ora, finché la carne si stacca dall'osso e al cuore segna 75 °C.",
+      "Intanto rosola in padella le cipolline sbucciate con metà del burro finché sono dorate e tenere.",
+      "Aggiungi il burro rimasto e i funghi tagliati a metà e saltali a fuoco vivo finché sono dorati.",
+      "Togli il pollo e fai restringere il sugo a fuoco vivo finché vela il cucchiaio; rimetti pollo, funghi e cipolline.",
+      "Elimina timo e alloro, cospargi di prezzemolo e servi con patate lesse o pane croccante."
+     ],
+     "labels": [
+      "Pancetta",
+      "Pollo",
+      "",
+      "Verdure",
+      "",
+      "Cottura",
+      "Cipolline",
+      "Funghi",
+      "Salsa",
+      ""
+     ],
+     "tips": [
+      "Lascia il pollo una notte nel vino con cipolla e timo: carne più saporita e sugo più scuro.",
+      "Con Riesling al posto del rosso e un goccio di panna alla fine diventa il coq au riesling alsaziano.",
+      "Il giorno dopo è ancora meglio: riscaldalo a fuoco dolce con un goccio d'acqua."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Chiudi la pentola a pressione e cuoci 18 minuti dal fischio; sfiata e controlla che la carne si stacchi dall'osso."
+      }
+     }
+    },
+    "en": {
+     "title": "Coq au vin",
+     "intro": "Chicken simmered in red wine with lardons, mushrooms and pearl onions in a glossy sauce.",
+     "ing": [
+      "chicken pieces (thighs and drumsticks)",
+      "pancetta, cut into lardons",
+      "full-bodied red wine (Pinot Noir or Burgundy)",
+      "cognac or brandy",
+      "chicken stock",
+      "onion",
+      "carrot",
+      "garlic cloves",
+      "all-purpose flour",
+      "tomato paste",
+      "thyme sprigs",
+      "bay leaf",
+      "small button mushrooms",
+      "pearl onions",
+      "butter",
+      "sunflower oil",
+      "chopped parsley",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Pat the chicken dry and season it. In a casserole, fry the pancetta in the oil until crisp, then lift it out.",
+      "Brown the chicken in the fat left in the pan, skin side first, until deep golden. Pour off excess fat.",
+      "Pour in the cognac and flambé it with a long match, extractor fan off, or simply let it bubble away.",
+      "Lift out the chicken, cook the chopped onion, carrot and garlic until soft, then stir in the flour and tomato paste.",
+      "Return the chicken and pancetta, pour in the wine and stock (shop-bought is fine), add thyme and bay and bring to a boil.",
+      "Cover and simmer on low heat for 1 hour, until the meat comes away from the bone and reaches 75 °C inside.",
+      "Meanwhile, brown the peeled pearl onions in half the butter in a frying pan until golden and tender.",
+      "Add the rest of the butter and the halved mushrooms and sauté over high heat until golden.",
+      "Lift out the chicken and boil the sauce hard until it coats a spoon; return the chicken, mushrooms and onions.",
+      "Discard the thyme and bay, scatter with parsley and serve with boiled potatoes or crusty bread."
+     ],
+     "labels": [
+      "Pancetta",
+      "Chicken",
+      "",
+      "Vegetables",
+      "",
+      "Simmer",
+      "Pearl onions",
+      "Mushrooms",
+      "Sauce",
+      ""
+     ],
+     "tips": [
+      "Leave the chicken overnight in the wine with onion and thyme: tastier meat and a darker sauce.",
+      "Use Riesling instead of red wine and finish with a splash of cream for Alsatian coq au riesling.",
+      "It is even better the next day: reheat over low heat with a splash of water."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Lock the pressure cooker and cook for 18 minutes at pressure; release and check the meat comes off the bone."
+      }
+     }
+    },
+    "fr": {
+     "title": "Coq au vin",
+     "intro": "Poulet mijoté au vin rouge avec lardons, champignons et petits oignons, sauce nappante.",
+     "ing": [
+      "poulet fermier en morceaux (cuisses et hauts de cuisse)",
+      "lardons nature",
+      "vin rouge corsé (bourgogne)",
+      "cognac",
+      "bouillon de volaille",
+      "oignon",
+      "carotte",
+      "gousses d'ail",
+      "farine",
+      "concentré de tomate",
+      "brins de thym",
+      "feuille de laurier",
+      "petits champignons de Paris",
+      "petits oignons grelots",
+      "beurre",
+      "huile de tournesol",
+      "persil plat haché",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Sèche le poulet, sale et poivre. Dans une cocotte, fais dorer les lardons dans l'huile, puis retire-les.",
+      "Fais dorer le poulet dans la graisse restante, côté peau d'abord, puis retire l'excès de gras.",
+      "Verse le cognac et flambe avec une longue allumette, hotte éteinte, ou laisse-le simplement s'évaporer.",
+      "Retire le poulet, fais suer oignon, carotte et ail hachés, puis ajoute la farine et le concentré.",
+      "Remets poulet et lardons, verse le vin et le bouillon (même tout prêt), ajoute thym et laurier et porte à ébullition.",
+      "Couvre et laisse mijoter 1 heure à feu doux, jusqu'à ce que la chair se détache de l'os et atteigne 75 °C à cœur.",
+      "Pendant ce temps, fais dorer les petits oignons pelés à la poêle dans la moitié du beurre.",
+      "Ajoute le reste du beurre et les champignons coupés en deux, et fais-les sauter à feu vif.",
+      "Retire le poulet et fais réduire la sauce à feu vif jusqu'à ce qu'elle nappe ; remets poulet, champignons et oignons.",
+      "Retire thym et laurier, parsème de persil et sers avec des pommes vapeur ou du pain de campagne."
+     ],
+     "labels": [
+      "Lardons",
+      "Poulet",
+      "",
+      "Légumes",
+      "",
+      "Mijotage",
+      "Oignons",
+      "Champignons",
+      "Sauce",
+      ""
+     ],
+     "tips": [
+      "Laisse le poulet mariner une nuit dans le vin avec oignon et thym : chair plus goûteuse, sauce plus sombre.",
+      "Avec du riesling à la place du rouge et un trait de crème à la fin, c'est le coq au riesling alsacien.",
+      "Il est encore meilleur le lendemain : réchauffe-le à feu doux avec un peu d'eau."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Ferme l'autocuiseur et compte 18 minutes après la mise en pression ; décompresse et vérifie la cuisson."
+      }
+     }
+    },
+    "es": {
+     "title": "Coq au vin",
+     "intro": "Pollo guisado en vino tinto con panceta, champiñones y cebollitas, en una salsa brillante.",
+     "ing": [
+      "pollo troceado (muslos y contramuslos)",
+      "panceta en dados",
+      "vino tinto con cuerpo (Pinot Noir o Borgoña)",
+      "coñac o brandy",
+      "caldo de pollo",
+      "cebolla",
+      "zanahoria",
+      "dientes de ajo",
+      "harina de trigo",
+      "concentrado de tomate",
+      "ramitas de tomillo",
+      "hoja de laurel",
+      "champiñones pequeños",
+      "cebollitas francesas",
+      "mantequilla",
+      "aceite de girasol",
+      "perejil picado",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Seca el pollo y salpimiéntalo. En una cazuela dora la panceta con el aceite hasta que esté crujiente y sácala.",
+      "Dora el pollo en la grasa que queda, primero por el lado de la piel, y retira el exceso de grasa.",
+      "Vierte el coñac y flambéalo con una cerilla larga, con la campana apagada, o deja simplemente que se evapore.",
+      "Saca el pollo, rehoga la cebolla, la zanahoria y el ajo picados hasta que estén tiernos y añade harina y concentrado.",
+      "Vuelve a poner pollo y panceta, vierte el vino y el caldo (vale comprado), añade tomillo y laurel y lleva a ebullición.",
+      "Tapa y cuece a fuego bajo 1 hora, hasta que la carne se separe del hueso y alcance 75 °C por dentro.",
+      "Mientras, dora en una sartén las cebollitas peladas con la mitad de la mantequilla hasta que estén tiernas.",
+      "Añade el resto de la mantequilla y los champiñones partidos y saltéalos a fuego vivo hasta dorarlos.",
+      "Saca el pollo y reduce la salsa a fuego vivo hasta que napé la cuchara; vuelve a poner pollo, champiñones y cebollitas.",
+      "Retira el tomillo y el laurel, espolvorea perejil y sirve con patatas cocidas o pan crujiente."
+     ],
+     "labels": [
+      "Panceta",
+      "Pollo",
+      "",
+      "Verduras",
+      "",
+      "Guiso",
+      "Cebollitas",
+      "Champiñones",
+      "Salsa",
+      ""
+     ],
+     "tips": [
+      "Deja el pollo una noche en el vino con cebolla y tomillo: carne más sabrosa y salsa más oscura.",
+      "Con riesling en lugar de tinto y un chorrito de nata al final se convierte en el coq au riesling alsaciano.",
+      "Al día siguiente está aún mejor: recaliéntalo a fuego suave con un chorrito de agua."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Cierra la olla a presión y cuece 18 minutos desde que suba la válvula; libera y comprueba que la carne se suelte."
+      }
+     }
+    },
+    "de": {
+     "title": "Coq au vin",
+     "intro": "Hähnchen in Rotwein geschmort, mit Speck, Pilzen und Perlzwiebeln in glänzender Sauce.",
+     "ing": [
+      "Hähnchenteile (Ober- und Unterkeulen)",
+      "Bauchspeck, gewürfelt",
+      "kräftiger Rotwein (Pinot Noir oder Burgunder)",
+      "Cognac oder Weinbrand",
+      "Hühnerbrühe",
+      "Zwiebel",
+      "Karotte",
+      "Knoblauchzehen",
+      "Mehl (Type 405)",
+      "Tomatenmark",
+      "Zweige Thymian",
+      "Lorbeerblatt",
+      "kleine Champignons",
+      "Perlzwiebeln",
+      "Butter",
+      "Sonnenblumenöl",
+      "gehackte Petersilie",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Tupf das Hähnchen trocken und würze es. Brate den Speck im Öl in einem Bräter knusprig und nimm ihn heraus.",
+      "Brate das Hähnchen im restlichen Fett an, zuerst auf der Hautseite, bis es goldbraun ist. Überschüssiges Fett abgießen.",
+      "Gieß den Cognac an und flambier ihn mit einem langen Streichholz bei ausgeschalteter Haube oder lass ihn verkochen.",
+      "Nimm das Hähnchen heraus, dünste gehackte Zwiebel, Karotte und Knoblauch weich und rühr Mehl und Tomatenmark ein.",
+      "Gib Hähnchen und Speck zurück, gieß Wein und Brühe (auch gekaufte) an, füg Thymian und Lorbeer hinzu und lass aufkochen.",
+      "Zugedeckt bei kleiner Hitze 1 Stunde schmoren, bis sich das Fleisch vom Knochen löst und innen 75 °C hat.",
+      "Brate inzwischen die geschälten Perlzwiebeln in der Hälfte der Butter in einer Pfanne goldbraun und weich.",
+      "Gib die restliche Butter und die halbierten Pilze dazu und brate sie scharf goldbraun.",
+      "Nimm das Hähnchen heraus und koch die Sauce sämig ein; dann Hähnchen, Pilze und Zwiebeln wieder hineingeben.",
+      "Thymian und Lorbeer entfernen, mit Petersilie bestreuen und mit Salzkartoffeln oder knusprigem Brot servieren."
+     ],
+     "labels": [
+      "Speck",
+      "Hähnchen",
+      "",
+      "Gemüse",
+      "",
+      "Schmoren",
+      "Perlzwiebeln",
+      "Pilze",
+      "Sauce",
+      ""
+     ],
+     "tips": [
+      "Leg das Hähnchen über Nacht mit Zwiebel und Thymian in den Wein: würzigeres Fleisch, dunklere Sauce.",
+      "Mit Riesling statt Rotwein und einem Schuss Sahne am Ende wird daraus elsässischer Coq au Riesling.",
+      "Am nächsten Tag schmeckt er noch besser: bei sanfter Hitze mit einem Schluck Wasser erwärmen."
+     ],
+     "alt": {
+      "5": {
+       "pressure": "Schließ den Schnellkochtopf, gare 18 Minuten unter Druck, lass ab und prüf, ob sich das Fleisch löst."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "moules-marinieres",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 30,
+   "diff": 1,
+   "kcal": 390,
+   "diet": [
+    "gf"
+   ],
+   "tags": [
+    "party",
+    "budget"
+   ],
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "FR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 2000,
+     "u": "g",
+     "k": "mussels"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "shallots"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 250,
+     "u": "ml",
+     "k": "dry-white-wine"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "thyme"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "baguettes"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 180
+    },
+    {
+     "timer": 60
+    },
+    {
+     "timer": 300
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Moules marinières, cozze al vino bianco",
+     "intro": "Cozze aperte in pentola con scalogno, vino bianco, burro e prezzemolo, alla francese.",
+     "ing": [
+      "cozze",
+      "scalogni",
+      "burro",
+      "vino bianco secco (Muscadet o Chablis)",
+      "rametti di timo",
+      "foglia di alloro",
+      "prezzemolo tritato",
+      "pepe nero",
+      "baguette"
+     ],
+     "steps": [
+      "Lava le cozze sotto l'acqua fredda, elimina il bisso e i gusci rotti e scarta quelle aperte che non si richiudono toccandole.",
+      "In una pentola larga e alta sciogli metà del burro e appassisci gli scalogni tritati a fuoco dolce, senza colorirli.",
+      "Versa il vino, aggiungi timo e alloro e fai bollire vivacemente per 1 minuto.",
+      "Butta le cozze, copri e cuoci a fuoco alto, scuotendo la pentola un paio di volte, finché sono tutte aperte.",
+      "Scarta quelle rimaste chiuse, aggiungi il burro rimasto, il prezzemolo e una macinata di pepe e mescola.",
+      "Servi subito in ciotole fonde con il loro sugo e la baguette per la scarpetta."
+     ],
+     "labels": [
+      "",
+      "Scalogni",
+      "Vino",
+      "Cozze",
+      "",
+      ""
+     ],
+     "tips": [
+      "Non salare e usa una pentola grande: le cozze devono stare in due o tre strati per aprirsi insieme.",
+      "Moules à la crème: a fine cottura aggiungi 100 ml di panna e lascia sobbollire 1 minuto.",
+      "Nel nord della Francia e in Belgio si servono con patatine fritte: moules-frites."
+     ]
+    },
+    "en": {
+     "title": "Moules marinières",
+     "intro": "Mussels steamed open with shallots, white wine, butter and parsley, the French way.",
+     "ing": [
+      "mussels",
+      "shallots",
+      "butter",
+      "dry white wine (Muscadet or Chablis)",
+      "thyme sprigs",
+      "bay leaf",
+      "chopped parsley",
+      "black pepper",
+      "baguette"
+     ],
+     "steps": [
+      "Rinse the mussels under cold water, pull off the beards and discard any broken ones or open ones that don't close when tapped.",
+      "In a large, deep pot melt half the butter and soften the chopped shallots over low heat without letting them brown.",
+      "Pour in the wine, add the thyme and bay leaf and boil hard for 1 minute.",
+      "Tip in the mussels, cover and cook over high heat, shaking the pot a couple of times, until they have all opened.",
+      "Discard any that stayed shut, add the remaining butter, the parsley and some black pepper and toss.",
+      "Serve straight away in deep bowls with the juices and baguette for mopping up."
+     ],
+     "labels": [
+      "",
+      "Shallots",
+      "Wine",
+      "Mussels",
+      "",
+      ""
+     ],
+     "tips": [
+      "Don't salt, and use a big pot: the mussels should sit in two or three layers so they open together.",
+      "Moules à la crème: stir in 100 ml cream at the end and let it bubble for 1 minute.",
+      "In northern France and Belgium they come with fries: moules-frites."
+     ]
+    },
+    "fr": {
+     "title": "Moules marinières",
+     "intro": "Moules ouvertes à la marmite avec échalotes, vin blanc, beurre et persil.",
+     "ing": [
+      "moules de bouchot",
+      "échalotes",
+      "beurre",
+      "vin blanc sec (muscadet)",
+      "brins de thym",
+      "feuille de laurier",
+      "persil plat haché",
+      "poivre noir",
+      "baguette"
+     ],
+     "steps": [
+      "Lave les moules à l'eau froide, retire les barbes, jette celles qui sont cassées ou ouvertes et ne se referment pas.",
+      "Dans un grand faitout, fais fondre la moitié du beurre et fais suer les échalotes hachées sans coloration.",
+      "Verse le vin, ajoute le thym et le laurier et fais bouillir vivement 1 minute.",
+      "Ajoute les moules, couvre et cuis à feu vif en secouant la marmite deux fois, jusqu'à ce qu'elles soient ouvertes.",
+      "Jette celles restées fermées, ajoute le reste du beurre, le persil et un tour de moulin à poivre, et mélange.",
+      "Sers aussitôt dans des bols creux avec le jus et la baguette pour saucer."
+     ],
+     "labels": [
+      "",
+      "Échalotes",
+      "Vin",
+      "Moules",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ne sale pas et prends une grande marmite : les moules doivent être sur deux ou trois couches pour s'ouvrir ensemble.",
+      "Moules à la crème : ajoute 100 ml de crème en fin de cuisson et laisse frémir 1 minute.",
+      "Dans le Nord et en Belgique, on les sert avec des frites : les moules-frites."
+     ]
+    },
+    "es": {
+     "title": "Moules marinières",
+     "intro": "Mejillones al vapor con chalota, vino blanco, mantequilla y perejil, a la francesa.",
+     "ing": [
+      "mejillones",
+      "chalotas",
+      "mantequilla",
+      "vino blanco seco (Muscadet o Chablis)",
+      "ramitas de tomillo",
+      "hoja de laurel",
+      "perejil picado",
+      "pimienta negra",
+      "barra de pan (baguette)"
+     ],
+     "steps": [
+      "Lava los mejillones con agua fría, quita las barbas y desecha los rotos o los abiertos que no se cierran al tocarlos.",
+      "En una olla grande y alta derrite la mitad de la mantequilla y pocha las chalotas picadas a fuego suave, sin dorarlas.",
+      "Vierte el vino, añade el tomillo y el laurel y deja hervir con fuerza 1 minuto.",
+      "Echa los mejillones, tapa y cuece a fuego fuerte, sacudiendo la olla un par de veces, hasta que se abran todos.",
+      "Desecha los que sigan cerrados, añade el resto de la mantequilla, el perejil y pimienta, y mezcla.",
+      "Sirve enseguida en cuencos hondos con su jugo y la baguette para mojar."
+     ],
+     "labels": [
+      "",
+      "Chalotas",
+      "Vino",
+      "Mejillones",
+      "",
+      ""
+     ],
+     "tips": [
+      "No sales y usa una olla grande: los mejillones deben quedar en dos o tres capas para abrirse a la vez.",
+      "Moules à la crème: añade 100 ml de nata al final y deja que hierva suave 1 minuto.",
+      "En el norte de Francia y en Bélgica se sirven con patatas fritas: moules-frites."
+     ]
+    },
+    "de": {
+     "title": "Moules marinières",
+     "intro": "Miesmuscheln, im Topf mit Schalotten, Weißwein, Butter und Petersilie gedämpft.",
+     "ing": [
+      "Miesmuscheln",
+      "Schalotten",
+      "Butter",
+      "trockener Weißwein (Muscadet oder Chablis)",
+      "Zweige Thymian",
+      "Lorbeerblatt",
+      "gehackte Petersilie",
+      "schwarzer Pfeffer",
+      "Baguette"
+     ],
+     "steps": [
+      "Wasch die Muscheln kalt, zieh die Bärte ab und wirf zerbrochene oder offene weg, die sich beim Antippen nicht schließen.",
+      "Schmilz in einem großen, hohen Topf die Hälfte der Butter und dünste die gehackten Schalotten glasig, ohne Farbe.",
+      "Gieß den Wein an, gib Thymian und Lorbeer dazu und lass alles 1 Minute sprudelnd kochen.",
+      "Gib die Muscheln hinein, Deckel drauf und bei starker Hitze garen, den Topf zweimal rütteln, bis alle offen sind.",
+      "Entferne geschlossen gebliebene Muscheln, gib restliche Butter, Petersilie und Pfeffer dazu und schwenk alles durch.",
+      "Sofort in tiefen Schalen mit dem Sud servieren, dazu Baguette zum Tunken."
+     ],
+     "labels": [
+      "",
+      "Schalotten",
+      "Wein",
+      "Muscheln",
+      "",
+      ""
+     ],
+     "tips": [
+      "Nicht salzen und einen großen Topf nehmen: höchstens zwei, drei Lagen, damit sich alle gleichzeitig öffnen.",
+      "Moules à la crème: zum Schluss 100 ml Sahne einrühren und 1 Minute köcheln lassen.",
+      "In Nordfrankreich und Belgien gibt es Pommes dazu: Moules-frites."
+     ]
+    }
+   }
+  },
+  {
+   "id": "carottes-vichy",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 120,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [
+    "budget",
+    "kids"
+   ],
+   "months": [],
+   "origin": "FR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 700,
+     "u": "g",
+     "k": "carrots"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 250,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "parsley"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 180
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "boeuf-bourguignon"
+    },
+    {
+     "k": "spice"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Carote Vichy, glassate al burro",
+     "intro": "Rondelle di carota cotte in poca acqua con burro e zucchero fino a diventare lucide.",
+     "ing": [
+      "carote",
+      "burro",
+      "zucchero",
+      "sale",
+      "acqua (meglio minerale)",
+      "prezzemolo tritato"
+     ],
+     "steps": [
+      "Pela le carote e tagliale a rondelle di 3 mm, tutte uguali perché cuociano insieme.",
+      "Mettile in una padella larga con burro, zucchero, sale e acqua: devono esserne appena coperte.",
+      "Copri con un disco di carta forno e cuoci a fuoco medio finché sono tenere e l'acqua è quasi evaporata.",
+      "Togli la carta e fai saltare a fuoco vivo finché il fondo diventa una glassa lucida che le avvolge.",
+      "Cospargi di prezzemolo, assaggia di sale e servi subito."
+     ],
+     "labels": [
+      "",
+      "",
+      "Cottura",
+      "Glassa",
+      ""
+     ],
+     "tips": [
+      "In Francia si usa l'acqua di Vichy, ricca di bicarbonato: un pizzico di bicarbonato nell'acqua fa lo stesso.",
+      "Accompagnano arrosti, pollo e soprattutto il bœuf bourguignon.",
+      "Al posto del prezzemolo prova un po' di cerfoglio o di dragoncello tritato."
+     ]
+    },
+    "en": {
+     "title": "Vichy carrots",
+     "intro": "Carrot coins cooked in a little water with butter and sugar until glossy and sweet.",
+     "ing": [
+      "carrots",
+      "butter",
+      "sugar",
+      "salt",
+      "water (mineral water if you have it)",
+      "chopped parsley"
+     ],
+     "steps": [
+      "Peel the carrots and slice them into 3 mm coins, all the same so they cook evenly.",
+      "Put them in a wide pan with the butter, sugar, salt and water: they should be just covered.",
+      "Cover with a circle of baking paper and cook over medium heat until tender and the water has nearly gone.",
+      "Remove the paper and toss over high heat until the liquid turns into a shiny glaze that coats them.",
+      "Sprinkle with parsley, taste for salt and serve at once."
+     ],
+     "labels": [
+      "",
+      "",
+      "Cook",
+      "Glaze",
+      ""
+     ],
+     "tips": [
+      "In France they use bicarbonate-rich Vichy water: a pinch of baking soda in the water makes them just as tender.",
+      "They go well with roasts, chicken and especially bœuf bourguignon.",
+      "Instead of parsley, try a little chopped chervil or tarragon."
+     ]
+    },
+    "fr": {
+     "title": "Carottes Vichy",
+     "intro": "Rondelles de carottes cuites à court mouillement, beurre et sucre, jusqu'à être glacées.",
+     "ing": [
+      "carottes",
+      "beurre",
+      "sucre",
+      "sel",
+      "eau de Vichy (ou eau minérale)",
+      "persil plat haché"
+     ],
+     "steps": [
+      "Épluche les carottes et coupe-les en rondelles de 3 mm, régulières pour une cuisson homogène.",
+      "Mets-les dans une sauteuse avec le beurre, le sucre, le sel et l'eau : elles doivent être juste couvertes.",
+      "Couvre d'un disque de papier cuisson et cuis à feu moyen jusqu'à ce qu'elles soient tendres et l'eau presque évaporée.",
+      "Retire le papier et fais sauter à feu vif jusqu'à ce que le jus devienne un glaçage brillant.",
+      "Parsème de persil, rectifie le sel et sers aussitôt."
+     ],
+     "labels": [
+      "",
+      "",
+      "Cuisson",
+      "Glaçage",
+      ""
+     ],
+     "tips": [
+      "L'eau de Vichy, riche en bicarbonate, les attendrit : à défaut, une pincée de bicarbonate dans l'eau.",
+      "Parfaites avec un rôti, une volaille et surtout le bœuf bourguignon.",
+      "À la place du persil, essaie un peu de cerfeuil ou d'estragon ciselé."
+     ]
+    },
+    "es": {
+     "title": "Zanahorias Vichy",
+     "intro": "Rodajas de zanahoria cocidas en poca agua con mantequilla y azúcar hasta quedar glaseadas.",
+     "ing": [
+      "zanahorias",
+      "mantequilla",
+      "azúcar",
+      "sal",
+      "agua (mejor mineral)",
+      "perejil picado"
+     ],
+     "steps": [
+      "Pela las zanahorias y córtalas en rodajas de 3 mm, todas iguales para que se hagan a la vez.",
+      "Ponlas en una sartén amplia con la mantequilla, el azúcar, la sal y el agua: deben quedar justo cubiertas.",
+      "Cubre con un disco de papel de horno y cuece a fuego medio hasta que estén tiernas y el agua casi evaporada.",
+      "Quita el papel y saltea a fuego vivo hasta que el fondo se convierta en un glaseado brillante.",
+      "Espolvorea con perejil, prueba de sal y sirve enseguida."
+     ],
+     "labels": [
+      "",
+      "",
+      "Cocción",
+      "Glaseado",
+      ""
+     ],
+     "tips": [
+      "En Francia se usa agua de Vichy, rica en bicarbonato: una pizca de bicarbonato en el agua da el mismo efecto.",
+      "Acompañan asados, pollo y sobre todo el bœuf bourguignon.",
+      "En lugar de perejil, prueba un poco de perifollo o estragón picado."
+     ]
+    },
+    "de": {
+     "title": "Vichy-Karotten",
+     "intro": "Karottenscheiben, in wenig Wasser mit Butter und Zucker glänzend glasiert.",
+     "ing": [
+      "Karotten",
+      "Butter",
+      "Zucker",
+      "Salz",
+      "Wasser (am besten Mineralwasser)",
+      "gehackte Petersilie"
+     ],
+     "steps": [
+      "Schäl die Karotten und schneide sie in gleichmäßige, 3 mm dicke Scheiben.",
+      "Gib sie mit Butter, Zucker, Salz und Wasser in eine weite Pfanne: sie sollen knapp bedeckt sein.",
+      "Mit einem Kreis aus Backpapier abdecken und bei mittlerer Hitze garen, bis sie weich sind und das Wasser fast weg ist.",
+      "Nimm das Papier ab und schwenk sie bei starker Hitze, bis der Fond zu einer glänzenden Glasur wird.",
+      "Mit Petersilie bestreuen, mit Salz abschmecken und sofort servieren."
+     ],
+     "labels": [
+      "",
+      "",
+      "Garen",
+      "Glasieren",
+      ""
+     ],
+     "tips": [
+      "In Frankreich nimmt man Vichy-Wasser mit viel Natron: eine Prise Natron im Wasser wirkt genauso.",
+      "Passen zu Braten, Hähnchen und vor allem zu Bœuf bourguignon.",
+      "Statt Petersilie passt auch etwas gehackter Kerbel oder Estragon."
+     ]
+    }
+   }
+  },
+  {
+   "id": "tarte-bourdaloue",
+   "cat": "dolci",
+   "sub": "torte",
+   "servings": 8,
+   "minutes": 120,
+   "diff": 2,
+   "kcal": 420,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "festive"
+   ],
+   "months": [
+    9,
+    10,
+    11,
+    12,
+    1,
+    2
+   ],
+   "origin": "FR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 350,
+     "u": "g",
+     "k": "sweet-shortcrust-pastry",
+     "make": "pasta-frolla"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "pears"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "almond-flour"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "vanilla-extract"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "flaked-almonds"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "apricot-jam"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 900
+    },
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 2400
+    },
+    {
+     "timer": 1800
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tarte Bourdaloue, pere e mandorle",
+     "intro": "Pere sciroppate su crema di mandorle e frolla: un classico delle pasticcerie di Parigi.",
+     "ing": [
+      "pasta frolla",
+      "pere mature ma sode (Williams)",
+      "zucchero",
+      "acqua",
+      "limone",
+      "burro morbido",
+      "farina di mandorle",
+      "uova",
+      "farina 00",
+      "estratto di vaniglia",
+      "mandorle a lamelle",
+      "confettura di albicocche"
+     ],
+     "steps": [
+      "Porta a bollore acqua, 100 g di zucchero e il succo del limone; cuoci le pere sbucciate, a metà e senza torsolo, finché sono tenere.",
+      "Spegni e lascia raffreddare le pere nello sciroppo.",
+      "Intanto accendi il forno a 180 °C, stendi la frolla (anche pronta) in uno stampo da 24 cm, bucherella il fondo e mettilo in frigo.",
+      "Lavora il burro morbido con 100 g di zucchero, poi unisci le uova una alla volta, la farina di mandorle, la farina e la vaniglia.",
+      "Spalma la crema sulla frolla. Scola e asciuga le pere, affettale sottili e disponile a raggiera, premendole appena.",
+      "Cospargi di mandorle a lamelle e cuoci nella parte bassa del forno finché la crema è gonfia e dorata.",
+      "Lascia intiepidire la tarte nello stampo.",
+      "Scalda la confettura con un cucchiaio d'acqua e spennella le pere per renderle lucide. Servi tiepida o a temperatura ambiente."
+     ],
+     "labels": [
+      "Pere",
+      "Sciroppo",
+      "",
+      "",
+      "",
+      "Forno",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Con le pere sciroppate in barattolo salti la cottura e risparmi mezz'ora.",
+      "Servila con un cucchiaio di crème fraîche o di panna appena montata.",
+      "Si conserva 2 giorni coperta, a temperatura ambiente: la crema di mandorle resta morbida."
+     ]
+    },
+    "en": {
+     "title": "Pear and almond tart (Bourdaloue)",
+     "intro": "Poached pears on almond cream in a sweet crust: a Paris pâtisserie classic.",
+     "ing": [
+      "sweet shortcrust pastry",
+      "ripe but firm pears (Williams or Bartlett)",
+      "sugar",
+      "water",
+      "lemon",
+      "softened butter",
+      "ground almonds",
+      "eggs",
+      "all-purpose flour",
+      "vanilla extract",
+      "flaked almonds",
+      "apricot jam"
+     ],
+     "steps": [
+      "Bring the water, 100 g sugar and the lemon juice to a boil; poach the peeled, halved and cored pears until tender.",
+      "Turn off the heat and let the pears cool in the syrup.",
+      "Meanwhile heat the oven to 180 °C, line a 24 cm tart tin with the pastry (shop-bought is fine), prick it and chill.",
+      "Beat the soft butter with 100 g sugar, then add the eggs one at a time, the ground almonds, flour and vanilla.",
+      "Spread the almond cream over the pastry. Drain and dry the pears, slice them thinly and fan them out, pressing lightly.",
+      "Scatter with flaked almonds and bake on the lower shelf until the almond cream is puffed and golden.",
+      "Let the tart cool in its tin until just warm.",
+      "Warm the jam with a spoonful of water and brush it over the pears to glaze. Serve warm or at room temperature."
+     ],
+     "labels": [
+      "Pears",
+      "Cooling",
+      "",
+      "",
+      "",
+      "Bake",
+      "Cooling",
+      ""
+     ],
+     "tips": [
+      "Canned pear halves in syrup let you skip the poaching and save half an hour.",
+      "Serve with a spoonful of crème fraîche or softly whipped cream.",
+      "It keeps for 2 days covered at room temperature; the almond cream stays moist."
+     ]
+    },
+    "fr": {
+     "title": "Tarte Bourdaloue aux poires",
+     "intro": "Poires pochées sur crème d'amande et pâte sucrée : un grand classique de pâtisserie.",
+     "ing": [
+      "pâte sucrée",
+      "poires williams mûres mais fermes",
+      "sucre",
+      "eau",
+      "citron",
+      "beurre mou",
+      "poudre d'amande",
+      "œufs",
+      "farine",
+      "extrait de vanille",
+      "amandes effilées",
+      "confiture d'abricots"
+     ],
+     "steps": [
+      "Porte à ébullition l'eau, 100 g de sucre et le jus du citron ; poche les poires pelées, coupées en deux et épépinées.",
+      "Éteins le feu et laisse refroidir les poires dans le sirop.",
+      "Pendant ce temps, préchauffe le four à 180 °C, fonce un moule de 24 cm avec la pâte (même toute prête), pique et réserve au frais.",
+      "Travaille le beurre mou avec 100 g de sucre, puis ajoute les œufs un à un, la poudre d'amande, la farine et la vanille.",
+      "Étale la crème d'amande sur la pâte. Égoutte et sèche les poires, émince-les et dispose-les en rosace.",
+      "Parsème d'amandes effilées et enfourne en bas du four jusqu'à ce que la crème soit gonflée et dorée.",
+      "Laisse tiédir la tarte dans son moule.",
+      "Chauffe la confiture avec une cuillerée d'eau et nappe les poires au pinceau. Sers tiède ou à température ambiante."
+     ],
+     "labels": [
+      "Poires",
+      "Sirop",
+      "",
+      "",
+      "",
+      "Cuisson",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "Avec des poires au sirop en conserve, tu sautes le pochage et gagnes une demi-heure.",
+      "Sers-la avec une cuillerée de crème fraîche épaisse ou de crème fouettée.",
+      "Elle se garde 2 jours couverte à température ambiante ; la crème d'amande reste moelleuse."
+     ]
+    },
+    "es": {
+     "title": "Tarta Bourdaloue de peras",
+     "intro": "Peras en almíbar sobre crema de almendra y masa dulce: un clásico de pastelería parisina.",
+     "ing": [
+      "masa quebrada dulce",
+      "peras maduras pero firmes (Williams)",
+      "azúcar",
+      "agua",
+      "limón",
+      "mantequilla blanda",
+      "almendra molida",
+      "huevos",
+      "harina de trigo",
+      "extracto de vainilla",
+      "almendras laminadas",
+      "mermelada de albaricoque"
+     ],
+     "steps": [
+      "Lleva a ebullición el agua, 100 g de azúcar y el zumo del limón; cuece las peras peladas, en mitades y sin corazón.",
+      "Apaga el fuego y deja que las peras se enfríen en el almíbar.",
+      "Mientras, enciende el horno a 180 °C, forra un molde de 24 cm con la masa (vale comprada), pínchala y métela en la nevera.",
+      "Bate la mantequilla blanda con 100 g de azúcar y añade los huevos de uno en uno, la almendra, la harina y la vainilla.",
+      "Extiende la crema sobre la masa. Escurre y seca las peras, córtalas en láminas y colócalas en abanico, presionando un poco.",
+      "Esparce las almendras laminadas y hornea en la parte baja hasta que la crema esté hinchada y dorada.",
+      "Deja templar la tarta en el molde.",
+      "Calienta la mermelada con una cucharada de agua y pinta las peras para que brillen. Sirve templada o a temperatura ambiente."
+     ],
+     "labels": [
+      "Peras",
+      "Almíbar",
+      "",
+      "",
+      "",
+      "Horno",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "Con peras en almíbar de bote te saltas la cocción y ahorras media hora.",
+      "Sírvela con una cucharada de crème fraîche o nata recién montada.",
+      "Se conserva 2 días tapada a temperatura ambiente; la crema de almendra sigue jugosa."
+     ]
+    },
+    "de": {
+     "title": "Birnen-Mandel-Tarte Bourdaloue",
+     "intro": "Pochierte Birnen auf Mandelcreme im Mürbeteig: ein Klassiker der Pariser Konditoreien.",
+     "ing": [
+      "süßer Mürbeteig",
+      "reife, aber feste Birnen (Williams)",
+      "Zucker",
+      "Wasser",
+      "Zitrone",
+      "weiche Butter",
+      "gemahlene Mandeln",
+      "Eier",
+      "Mehl (Type 405)",
+      "Vanilleextrakt",
+      "Mandelblättchen",
+      "Aprikosenkonfitüre"
+     ],
+     "steps": [
+      "Koch Wasser, 100 g Zucker und Zitronensaft auf; pochier die geschälten, halbierten, entkernten Birnen darin weich.",
+      "Schalte den Herd aus und lass die Birnen im Sirup abkühlen.",
+      "Heiz inzwischen den Ofen auf 180 °C, leg eine 24-cm-Form mit dem Teig (auch gekauft) aus, stich ihn ein und kühl ihn.",
+      "Schlag die weiche Butter mit 100 g Zucker cremig, dann nacheinander Eier, Mandeln, Mehl und Vanille unterrühren.",
+      "Streich die Mandelcreme auf den Teig. Birnen abtropfen, trocken tupfen, in dünne Scheiben schneiden und fächerförmig auflegen.",
+      "Mit Mandelblättchen bestreuen und im unteren Ofendrittel backen, bis die Creme aufgegangen und goldbraun ist.",
+      "Lass die Tarte in der Form lauwarm abkühlen.",
+      "Erwärm die Konfitüre mit einem Löffel Wasser und bestreich die Birnen damit. Lauwarm oder zimmerwarm servieren."
+     ],
+     "labels": [
+      "Birnen",
+      "Abkühlen",
+      "",
+      "",
+      "",
+      "Backen",
+      "Abkühlen",
+      ""
+     ],
+     "tips": [
+      "Mit Dosenbirnen in Sirup sparst du dir das Pochieren und eine halbe Stunde.",
+      "Dazu ein Löffel Crème fraîche oder leicht geschlagene Sahne.",
+      "Abgedeckt hält sie sich 2 Tage bei Zimmertemperatur, die Mandelcreme bleibt saftig."
+     ]
+    }
+   }
+  },
+  {
+   "id": "kir",
+   "cat": "cocktail",
+   "sub": "classici",
+   "servings": 1,
+   "minutes": 2,
+   "diff": 1,
+   "kcal": 150,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "FR",
+   "alcohol": true,
+   "ingredients": [
+    {
+     "q": 15,
+     "u": "ml",
+     "k": "creme-de-cassis"
+    },
+    {
+     "q": 120,
+     "u": "ml",
+     "k": "dry-white-wine"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Kir",
+     "intro": "Bianco di Borgogna e crème de cassis: l'aperitivo nato a Digione.",
+     "ing": [
+      "crème de cassis (liquore di ribes nero)",
+      "Bourgogne Aligoté ben freddo (o altro bianco secco)"
+     ],
+     "steps": [
+      "Tieni vino e crème de cassis in frigo e raffredda un calice da vino.",
+      "Versa la crème de cassis sul fondo del calice.",
+      "Aggiungi a filo il vino bianco freddo: si mescola quasi da solo, senza ghiaccio.",
+      "Dai un giro leggero con un cucchiaino e servi subito, con gougères o salatini."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Kir royal: al posto del vino usa champagne o un crémant di Borgogna.",
+      "Con un rosso giovane e fruttato, come un Beaujolais, diventa un Cardinal.",
+      "La crème de cassis si trova in enoteca; una volta aperta tienila in frigo, dura mesi."
+     ]
+    },
+    "en": {
+     "title": "Kir",
+     "intro": "Burgundy white wine and crème de cassis: the aperitif born in Dijon.",
+     "ing": [
+      "crème de cassis (blackcurrant liqueur)",
+      "well-chilled Bourgogne Aligoté (or another dry white)"
+     ],
+     "steps": [
+      "Keep the wine and crème de cassis in the fridge and chill a wine glass.",
+      "Pour the crème de cassis into the bottom of the glass.",
+      "Top up slowly with the cold white wine: it mixes almost by itself, no ice needed.",
+      "Give it a gentle stir with a teaspoon and serve at once, with gougères or nibbles."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Kir royal: swap the wine for champagne or a Crémant de Bourgogne.",
+      "Made with a young, fruity red such as Beaujolais, it becomes a Cardinal.",
+      "Look for crème de cassis in wine shops; once opened keep it in the fridge and it lasts for months."
+     ]
+    },
+    "fr": {
+     "title": "Kir",
+     "intro": "Bourgogne aligoté et crème de cassis : l'apéritif né à Dijon.",
+     "ing": [
+      "crème de cassis",
+      "bourgogne aligoté bien frais"
+     ],
+     "steps": [
+      "Garde le vin et la crème de cassis au frais et rafraîchis un verre à vin.",
+      "Verse la crème de cassis au fond du verre.",
+      "Complète doucement avec le vin blanc frais : il se mélange presque seul, sans glaçons.",
+      "Remue légèrement à la cuillère et sers aussitôt, avec des gougères ou des amuse-bouches."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Kir royal : remplace le vin par du champagne ou un crémant de Bourgogne.",
+      "Avec un rouge jeune et fruité, comme un beaujolais, il devient un cardinal.",
+      "Une fois ouverte, garde la crème de cassis au réfrigérateur : elle garde son fruit des mois."
+     ]
+    },
+    "es": {
+     "title": "Kir",
+     "intro": "Blanco de Borgoña y crème de cassis: el aperitivo nacido en Dijon.",
+     "ing": [
+      "crème de cassis (licor de grosella negra)",
+      "Bourgogne Aligoté bien frío (u otro blanco seco)"
+     ],
+     "steps": [
+      "Guarda el vino y la crème de cassis en la nevera y enfría una copa de vino.",
+      "Vierte la crème de cassis en el fondo de la copa.",
+      "Añade despacio el vino blanco frío: se mezcla casi solo, sin hielo.",
+      "Remueve suavemente con una cucharilla y sirve enseguida, con gougères o algo para picar."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Kir royal: cambia el vino por champán o un crémant de Borgoña.",
+      "Con un tinto joven y afrutado, como un Beaujolais, se convierte en un Cardinal.",
+      "La crème de cassis se encuentra en vinotecas; una vez abierta guárdala en la nevera, dura meses."
+     ]
+    },
+    "de": {
+     "title": "Kir",
+     "intro": "Weißer Burgunder und Crème de Cassis: der Aperitif aus Dijon.",
+     "ing": [
+      "Crème de Cassis (Johannisbeerlikör)",
+      "kalter Bourgogne Aligoté (oder trockener Weißwein)"
+     ],
+     "steps": [
+      "Stell Wein und Crème de Cassis kalt und kühl ein Weinglas vor.",
+      "Gieß die Crème de Cassis auf den Boden des Glases.",
+      "Füll langsam mit dem kalten Weißwein auf: er mischt sich fast von selbst, ohne Eis.",
+      "Kurz mit einem Löffel umrühren und sofort servieren, dazu Gougères oder Knabbereien."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Kir Royal: statt Wein Champagner oder einen Crémant de Bourgogne nehmen.",
+      "Mit einem jungen, fruchtigen Roten wie Beaujolais wird daraus ein Cardinal.",
+      "Crème de Cassis gibt es im Weinhandel; geöffnet im Kühlschrank aufbewahren, dann hält sie Monate."
+     ]
+    }
+   }
+  },
+  {
+   "id": "buttermilk-fried-chicken",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 300,
+   "diff": 2,
+   "kcal": 720,
+   "diet": [],
+   "tags": [
+    "comfort",
+    "party"
+   ],
+   "months": [],
+   "origin": "US",
+   "alcohol": false,
+   "methods": [
+    "fry",
+    "airfryer",
+    "oven"
+   ],
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "chicken-pieces"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "plain-yogurt"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "hot-sauce"
+    },
+    {
+     "q": 3,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "cornstarch"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "baking-powder"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "garlic-powder"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "cayenne-pepper"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "black-pepper"
+    },
+    {
+     "q": 1500,
+     "u": "ml",
+     "k": "peanut-oil"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 14400
+    },
+    {},
+    {},
+    {
+     "timer": 900
+    },
+    {
+     "alt": {
+      "airfryer": {},
+      "oven": {}
+     }
+    },
+    {
+     "timer": 840,
+     "alt": {
+      "airfryer": {
+       "timer": 1500
+      },
+      "oven": {
+       "timer": 2700
+      }
+     }
+    },
+    {
+     "timer": 300
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "spice"
+    },
+    {
+     "k": "pair",
+     "link": "coleslaw"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pollo fritto del Sud (buttermilk)",
+     "intro": "Pollo marinato nel latticello e fritto in una crosta croccante e speziata, come nel Sud.",
+     "ing": [
+      "cosce e sovracosce di pollo con pelle",
+      "yogurt bianco intero",
+      "latte intero",
+      "salsa piccante (tipo Tabasco)",
+      "sale fino",
+      "farina 00",
+      "amido di mais",
+      "lievito in polvere per dolci",
+      "paprika dolce",
+      "aglio in polvere",
+      "pepe di Cayenna",
+      "pepe nero macinato",
+      "olio di arachidi per friggere"
+     ],
+     "steps": [
+      "In una ciotola mescola yogurt, latte, salsa piccante e 2 cucchiaini di sale: è il tuo latticello.",
+      "Immergi il pollo, copri e lascialo in frigo almeno 4 ore, meglio tutta la notte.",
+      "In una ciotola larga mescola farina, amido, lievito, paprika, aglio, Cayenna, pepe e il sale rimasto.",
+      "Versa 3 cucchiai di marinata nella farina e strofinala con le dita: i grumetti diventeranno la crosta croccante.",
+      "Sgocciola il pollo, passalo nella farina premendo bene e lascialo riposare su una gratella.",
+      "Scalda l'olio a 170 °C in una pentola dai bordi alti, riempita al massimo per metà.",
+      "Friggi pochi pezzi alla volta, girandoli, tenendo l'olio a 150-160 °C, finché sono dorati e al cuore segnano 75 °C.",
+      "Scola il pollo su una gratella, salalo appena e lascialo riposare prima di servire."
+     ],
+     "labels": [
+      "",
+      "Marinata",
+      "",
+      "",
+      "Riposo",
+      "",
+      "Frittura",
+      "Riposo"
+     ],
+     "tips": [
+      "Il vero buttermilk (latticello) si trova a volte nei negozi bio o etnici: usane 450 ml al posto di yogurt e latte.",
+      "Nella farina aggiungi 1 cucchiaino di timo secco e 1 di origano, come in molte cucine del Sud.",
+      "Servilo con coleslaw, cornbread e un filo di miele piccante."
+     ],
+     "alt": {
+      "5": {
+       "airfryer": "Preriscalda la friggitrice ad aria a 190 °C e spruzza il pollo con un velo d'olio su tutti i lati.",
+       "oven": "Scalda il forno ventilato a 220 °C, metti una gratella su una teglia e spruzza il pollo d'olio su ogni lato."
+      },
+      "6": {
+       "airfryer": "Cuoci in un solo strato a 190 °C per 25 minuti, girando a metà, finché è dorato e al cuore segna 75 °C.",
+       "oven": "Cuoci sulla gratella 45 minuti, girando a metà, finché è dorato e al cuore segna 75 °C."
+      }
+     }
+    },
+    "en": {
+     "title": "Buttermilk fried chicken",
+     "intro": "Chicken soaked in buttermilk and fried in a craggy, spiced crust, Southern style.",
+     "ing": [
+      "bone-in, skin-on chicken thighs and drumsticks",
+      "plain whole-milk yogurt",
+      "whole milk",
+      "hot sauce (such as Tabasco)",
+      "fine salt",
+      "all-purpose flour",
+      "cornstarch",
+      "baking powder",
+      "sweet paprika",
+      "garlic powder",
+      "cayenne pepper",
+      "ground black pepper",
+      "peanut oil, for frying"
+     ],
+     "steps": [
+      "In a bowl, whisk the yogurt, milk, hot sauce and 2 tsp salt: this is your buttermilk.",
+      "Add the chicken, cover and refrigerate for at least 4 hours, ideally overnight.",
+      "In a wide bowl, mix the flour, cornstarch, baking powder, paprika, garlic powder, cayenne, pepper and remaining salt.",
+      "Drizzle 3 tbsp of the marinade into the flour and rub it in with your fingers: those little clumps make the crunchy crust.",
+      "Lift the chicken from the marinade, press it firmly into the flour and let it rest on a wire rack.",
+      "Heat the oil to 170 °C in a deep, heavy pot filled no more than halfway.",
+      "Fry a few pieces at a time, turning, keeping the oil at 150-160 °C, until deep golden and 75 °C inside.",
+      "Drain the chicken on a rack, sprinkle with a little salt and let it rest before serving."
+     ],
+     "labels": [
+      "",
+      "Marinate",
+      "",
+      "",
+      "Rest",
+      "",
+      "Frying",
+      "Rest"
+     ],
+     "tips": [
+      "With real buttermilk it is even simpler: use 450 ml instead of the yogurt and milk.",
+      "Add 1 tsp dried thyme and 1 tsp dried oregano to the flour, as many Southern cooks do.",
+      "Serve with coleslaw, cornbread and a drizzle of hot honey."
+     ],
+     "alt": {
+      "5": {
+       "airfryer": "Preheat the air fryer to 190 °C and spray the chicken lightly with oil on all sides.",
+       "oven": "Heat a fan oven to 220 °C, set a rack over a baking tray and spray the chicken with oil on all sides."
+      },
+      "6": {
+       "airfryer": "Cook in a single layer at 190 °C for 25 minutes, turning halfway, until golden and 75 °C inside.",
+       "oven": "Bake on the rack for 45 minutes, turning halfway, until golden and 75 °C inside."
+      }
+     }
+    },
+    "fr": {
+     "title": "Poulet frit à la buttermilk",
+     "intro": "Poulet mariné au lait fermenté, frit dans une croûte épicée et bien croustillante.",
+     "ing": [
+      "hauts de cuisse et pilons de poulet avec la peau",
+      "yaourt nature entier",
+      "lait entier",
+      "sauce piquante (type Tabasco)",
+      "sel fin",
+      "farine",
+      "fécule de maïs",
+      "levure chimique",
+      "paprika doux",
+      "ail en poudre",
+      "piment de Cayenne",
+      "poivre noir moulu",
+      "huile d'arachide pour la friture"
+     ],
+     "steps": [
+      "Dans un saladier, mélange yaourt, lait, sauce piquante et 2 c. à café de sel : c'est ta buttermilk.",
+      "Plonge le poulet dedans, couvre et laisse au réfrigérateur au moins 4 heures, idéalement une nuit.",
+      "Dans un grand plat, mélange farine, fécule, levure, paprika, ail, piment de Cayenne, poivre et le reste du sel.",
+      "Verse 3 c. à soupe de marinade dans la farine et frotte du bout des doigts : ces petits grumeaux font la croûte.",
+      "Égoutte le poulet, enrobe-le de farine en pressant bien et laisse-le reposer sur une grille.",
+      "Chauffe l'huile à 170 °C dans une cocotte à bords hauts, remplie au maximum à moitié.",
+      "Fais frire quelques morceaux à la fois en les retournant, huile à 150-160 °C, jusqu'à 75 °C à cœur.",
+      "Égoutte le poulet sur une grille, sale légèrement et laisse reposer avant de servir."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "",
+      "Repos",
+      "",
+      "Friture",
+      "Repos"
+     ],
+     "tips": [
+      "Si tu trouves du babeurre (lait ribot), utilises-en 450 ml à la place du yaourt et du lait.",
+      "Ajoute à la farine 1 c. à café de thym séché et 1 d'origan, comme dans beaucoup de cuisines du Sud.",
+      "Sers-le avec du coleslaw, du cornbread et un filet de miel pimenté."
+     ],
+     "alt": {
+      "5": {
+       "airfryer": "Préchauffe la friteuse à air à 190 °C et vaporise un voile d'huile sur tout le poulet.",
+       "oven": "Préchauffe le four à chaleur tournante à 220 °C, pose une grille sur une plaque et huile le poulet."
+      },
+      "6": {
+       "airfryer": "Cuis en une seule couche à 190 °C 25 minutes, en retournant à mi-cuisson, jusqu'à 75 °C à cœur.",
+       "oven": "Enfourne sur la grille 45 minutes en retournant à mi-cuisson, jusqu'à ce qu'il soit doré et à 75 °C à cœur."
+      }
+     }
+    },
+    "es": {
+     "title": "Pollo frito sureño (buttermilk)",
+     "intro": "Pollo marinado en suero de leche y frito con una costra crujiente y especiada.",
+     "ing": [
+      "muslos y contramuslos de pollo con piel",
+      "yogur natural entero",
+      "leche entera",
+      "salsa picante (tipo Tabasco)",
+      "sal fina",
+      "harina de trigo",
+      "maicena",
+      "levadura química",
+      "pimentón dulce",
+      "ajo en polvo",
+      "cayena molida",
+      "pimienta negra molida",
+      "aceite de cacahuete para freír"
+     ],
+     "steps": [
+      "En un bol mezcla el yogur, la leche, la salsa picante y 2 cucharaditas de sal: es tu suero de leche.",
+      "Sumerge el pollo, tapa y déjalo en la nevera al menos 4 horas, mejor toda la noche.",
+      "En un bol amplio mezcla harina, maicena, levadura, pimentón, ajo, cayena, pimienta y el resto de la sal.",
+      "Echa 3 cucharadas de marinada en la harina y frótala con los dedos: esos grumitos serán la costra crujiente.",
+      "Escurre el pollo, rebózalo en la harina presionando bien y déjalo reposar sobre una rejilla.",
+      "Calienta el aceite a 170 °C en una olla honda, llena como mucho hasta la mitad.",
+      "Fríe pocas piezas a la vez, dándoles la vuelta, con el aceite a 150-160 °C, hasta que estén doradas y a 75 °C por dentro.",
+      "Escurre el pollo en una rejilla, sálalo un poco y déjalo reposar antes de servir."
+     ],
+     "labels": [
+      "",
+      "Marinado",
+      "",
+      "",
+      "Reposo",
+      "",
+      "Fritura",
+      "Reposo"
+     ],
+     "tips": [
+      "Si encuentras suero de leche de verdad (buttermilk), usa 450 ml en lugar del yogur y la leche.",
+      "Añade a la harina 1 cucharadita de tomillo seco y 1 de orégano, como en muchas cocinas del Sur.",
+      "Sírvelo con coleslaw, cornbread y un chorrito de miel picante."
+     ],
+     "alt": {
+      "5": {
+       "airfryer": "Precalienta la freidora de aire a 190 °C y rocía el pollo con un poco de aceite por todos lados.",
+       "oven": "Calienta el horno con ventilador a 220 °C, pon una rejilla sobre una bandeja y rocía el pollo con aceite."
+      },
+      "6": {
+       "airfryer": "Cocina en una sola capa a 190 °C 25 minutos, girando a mitad, hasta que esté dorado y a 75 °C dentro.",
+       "oven": "Hornea sobre la rejilla 45 minutos, girando a mitad, hasta que esté dorado y a 75 °C por dentro."
+      }
+     }
+    },
+    "de": {
+     "title": "Buttermilk Fried Chicken",
+     "intro": "Hähnchen, in Buttermilch mariniert und in einer krossen, würzigen Kruste frittiert.",
+     "ing": [
+      "Hähnchenober- und Unterkeulen mit Haut",
+      "Naturjoghurt (3,5 %)",
+      "Vollmilch",
+      "scharfe Sauce (z. B. Tabasco)",
+      "feines Salz",
+      "Mehl (Type 405)",
+      "Speisestärke",
+      "Backpulver",
+      "edelsüßes Paprikapulver",
+      "Knoblauchpulver",
+      "Cayennepfeffer",
+      "gemahlener schwarzer Pfeffer",
+      "Erdnussöl zum Frittieren"
+     ],
+     "steps": [
+      "Verrühr Joghurt, Milch, scharfe Sauce und 2 TL Salz in einer Schüssel: das ist deine Buttermilch.",
+      "Leg das Hähnchen hinein, deck es ab und lass es mindestens 4 Stunden, besser über Nacht, im Kühlschrank.",
+      "Misch in einer weiten Schüssel Mehl, Stärke, Backpulver, Paprika, Knoblauch, Cayenne, Pfeffer und restliches Salz.",
+      "Träufle 3 EL Marinade ins Mehl und reib es mit den Fingern ein: die kleinen Klümpchen werden zur krossen Kruste.",
+      "Lass das Hähnchen abtropfen, drück es fest ins Mehl und lass es auf einem Gitter ruhen.",
+      "Erhitz das Öl in einem hohen Topf, höchstens zur Hälfte gefüllt, auf 170 °C.",
+      "Frittier wenige Stücke auf einmal bei 150-160 °C und wende sie, bis sie goldbraun sind und innen 75 °C haben.",
+      "Lass das Hähnchen auf einem Gitter abtropfen, salz es leicht und lass es kurz ruhen."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "",
+      "",
+      "Ruhen",
+      "",
+      "Frittieren",
+      "Ruhen"
+     ],
+     "tips": [
+      "Mit echter Buttermilch geht es noch einfacher: 450 ml statt Joghurt und Milch nehmen.",
+      "Gib 1 TL getrockneten Thymian und 1 TL Oregano ins Mehl, wie viele Köche in den Südstaaten.",
+      "Dazu Coleslaw, Cornbread und ein Schuss scharfer Honig."
+     ],
+     "alt": {
+      "5": {
+       "airfryer": "Heiz die Heißluftfritteuse auf 190 °C vor und besprüh das Hähnchen rundum dünn mit Öl.",
+       "oven": "Heiz den Ofen mit Umluft auf 220 °C, leg ein Gitter auf ein Blech und besprüh das Hähnchen mit Öl."
+      },
+      "6": {
+       "airfryer": "In einer Lage bei 190 °C 25 Minuten garen, nach der Hälfte wenden, bis es goldbraun ist und innen 75 °C hat.",
+       "oven": "Auf dem Gitter 45 Minuten backen, nach der Hälfte wenden, bis es goldbraun ist und innen 75 °C hat."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "new-england-clam-chowder",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 110,
+   "diff": 2,
+   "kcal": 430,
+   "diet": [],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "US",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1500,
+     "u": "g",
+     "k": "clams"
+    },
+    {
+     "q": 250,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "smoked-bacon"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "celery"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "00-flour"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "heavy-cream"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "thyme"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "chives"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "crackers"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 3600
+    },
+    {
+     "timer": 300
+    },
+    {},
+    {
+     "timer": 480
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Clam chowder, zuppa di vongole e patate",
+     "intro": "Zuppa cremosa di vongole, patate e pancetta affumicata, come a Boston.",
+     "ing": [
+      "vongole veraci",
+      "acqua",
+      "pancetta affumicata a cubetti",
+      "burro",
+      "cipolla",
+      "coste di sedano",
+      "farina 00",
+      "patate",
+      "latte intero",
+      "panna fresca",
+      "rametti di timo",
+      "foglia di alloro",
+      "erba cipollina tritata",
+      "sale",
+      "pepe nero",
+      "cracker salati"
+     ],
+     "steps": [
+      "Metti le vongole in acqua fredda salata e lasciale spurgare, poi sciacquale bene.",
+      "In una pentola con l'acqua cuoci le vongole a fuoco vivo, coperte, scuotendo, finché si aprono.",
+      "Sgusciale, tenendone qualcuna intera, e filtra il liquido di cottura con un colino foderato di carta da cucina.",
+      "Nella pentola pulita rosola la pancetta nel burro, poi aggiungi cipolla e sedano a dadini e cuoci finché sono morbidi.",
+      "Spolvera con la farina, mescola per 2 minuti e versa piano il liquido delle vongole, mescolando.",
+      "Aggiungi le patate a cubetti di 1,5 cm, timo e alloro e un po' d'acqua se non sono coperte; cuoci finché sono tenere.",
+      "Versa latte e panna e scalda a fuoco basso senza far bollire, finché la zuppa si addensa un po'.",
+      "Togli timo e alloro, unisci le vongole, pepa e assaggia di sale. Servi con erba cipollina e cracker."
+     ],
+     "labels": [
+      "Spurgo",
+      "Vongole",
+      "",
+      "Soffritto",
+      "Farina",
+      "Patate",
+      "Latte",
+      ""
+     ],
+     "tips": [
+      "Dopo il latte non farla mai bollire: la zuppa resta liscia e le vongole non diventano gommose.",
+      "In America si usano spesso vongole in scatola: 2 lattine con il loro liquido, aggiunte alla fine.",
+      "Il giorno dopo è più densa: allungala con un goccio di latte e scaldala piano."
+     ]
+    },
+    "en": {
+     "title": "New England clam chowder",
+     "intro": "Creamy soup of clams, potatoes and smoky bacon, the way they make it in Boston.",
+     "ing": [
+      "fresh clams (littlenecks or carpet shell)",
+      "water",
+      "smoked bacon, diced",
+      "butter",
+      "onion",
+      "celery stalks",
+      "all-purpose flour",
+      "potatoes",
+      "whole milk",
+      "heavy cream",
+      "thyme sprigs",
+      "bay leaf",
+      "chopped chives",
+      "salt",
+      "black pepper",
+      "oyster crackers or saltines"
+     ],
+     "steps": [
+      "Soak the clams in cold salted water so they purge their sand, then rinse them well.",
+      "Cook the clams with the water in a covered pot over high heat, shaking, until they open.",
+      "Shell them, keeping a few whole, and strain the cooking liquid through a sieve lined with paper towel.",
+      "In the clean pot, fry the bacon in the butter, then add the diced onion and celery and cook until soft.",
+      "Sprinkle in the flour, stir for 2 minutes, then slowly pour in the clam liquid, stirring.",
+      "Add the potatoes in 1.5 cm cubes, the thyme and bay, plus a little water if needed to cover; cook until tender.",
+      "Pour in the milk and cream and heat gently without boiling until the chowder thickens slightly.",
+      "Discard the thyme and bay, stir in the clams, season with pepper and salt to taste. Serve with chives and crackers."
+     ],
+     "labels": [
+      "Purge",
+      "Clams",
+      "",
+      "Bacon",
+      "Flour",
+      "Potatoes",
+      "Milk",
+      ""
+     ],
+     "tips": [
+      "Never let it boil once the milk is in: the chowder stays smooth and the clams don't turn rubbery.",
+      "Canned clams work too, as many Americans use them: 2 cans with their juice, added at the end.",
+      "It thickens overnight: loosen with a splash of milk and reheat gently."
+     ]
+    },
+    "fr": {
+     "title": "Clam chowder de Nouvelle-Angleterre",
+     "intro": "Soupe crémeuse aux palourdes, pommes de terre et lard fumé, comme à Boston.",
+     "ing": [
+      "palourdes",
+      "eau",
+      "lardons fumés",
+      "beurre",
+      "oignon",
+      "branches de céleri",
+      "farine",
+      "pommes de terre",
+      "lait entier",
+      "crème liquide entière",
+      "brins de thym",
+      "feuille de laurier",
+      "ciboulette ciselée",
+      "sel",
+      "poivre noir",
+      "crackers salés"
+     ],
+     "steps": [
+      "Mets les palourdes dans de l'eau froide salée pour qu'elles dégorgent, puis rince-les bien.",
+      "Fais ouvrir les palourdes avec l'eau dans une casserole couverte, à feu vif, en secouant.",
+      "Décortique-les en en gardant quelques-unes entières et filtre le jus à travers une passoire garnie de papier absorbant.",
+      "Dans la casserole propre, fais dorer les lardons au beurre, puis ajoute oignon et céleri en dés jusqu'à ce qu'ils soient tendres.",
+      "Saupoudre de farine, remue 2 minutes, puis verse doucement le jus des palourdes en mélangeant.",
+      "Ajoute les pommes de terre en dés de 1,5 cm, thym, laurier et un peu d'eau si besoin ; cuis jusqu'à ce qu'elles soient tendres.",
+      "Verse le lait et la crème et chauffe doucement sans faire bouillir, jusqu'à ce que la soupe épaississe un peu.",
+      "Retire thym et laurier, ajoute les palourdes, poivre et sale si besoin. Sers avec ciboulette et crackers."
+     ],
+     "labels": [
+      "Dégorger",
+      "Palourdes",
+      "",
+      "Lardons",
+      "Farine",
+      "Pommes de terre",
+      "Lait",
+      ""
+     ],
+     "tips": [
+      "Ne la fais jamais bouillir après le lait : elle reste lisse et les palourdes ne durcissent pas.",
+      "Aux États-Unis, on utilise souvent des palourdes en conserve : 2 boîtes avec leur jus, à la fin.",
+      "Le lendemain, elle épaissit : détends-la avec un peu de lait et réchauffe doucement."
+     ]
+    },
+    "es": {
+     "title": "Clam chowder de Nueva Inglaterra",
+     "intro": "Sopa cremosa de almejas, patatas y panceta ahumada, como en Boston.",
+     "ing": [
+      "almejas",
+      "agua",
+      "panceta ahumada en dados",
+      "mantequilla",
+      "cebolla",
+      "ramas de apio",
+      "harina de trigo",
+      "patatas",
+      "leche entera",
+      "nata para montar",
+      "ramitas de tomillo",
+      "hoja de laurel",
+      "cebollino picado",
+      "sal",
+      "pimienta negra",
+      "galletas saladas"
+     ],
+     "steps": [
+      "Pon las almejas en agua fría con sal para que suelten la arena y luego acláralas bien.",
+      "Cuece las almejas con el agua en una olla tapada a fuego vivo, sacudiendo, hasta que se abran.",
+      "Quítales la concha, dejando unas pocas enteras, y cuela el caldo con un colador forrado de papel de cocina.",
+      "En la olla limpia dora la panceta con la mantequilla, añade la cebolla y el apio en dados y rehoga hasta que estén tiernos.",
+      "Espolvorea la harina, remueve 2 minutos y vierte poco a poco el caldo de las almejas sin dejar de remover.",
+      "Añade las patatas en dados de 1,5 cm, tomillo, laurel y algo de agua si no quedan cubiertas; cuece hasta que estén tiernas.",
+      "Vierte la leche y la nata y calienta a fuego bajo sin que hierva, hasta que la sopa espese un poco.",
+      "Retira el tomillo y el laurel, añade las almejas, pimienta y sal al gusto. Sirve con cebollino y galletas saladas."
+     ],
+     "labels": [
+      "Desarenar",
+      "Almejas",
+      "",
+      "Sofrito",
+      "Harina",
+      "Patatas",
+      "Leche",
+      ""
+     ],
+     "tips": [
+      "No la dejes hervir después de la leche: la sopa queda fina y las almejas no se ponen gomosas.",
+      "En Estados Unidos se usan a menudo almejas en lata: 2 latas con su jugo, añadidas al final.",
+      "Al día siguiente espesa: aligérala con un chorrito de leche y caliéntala despacio."
+     ]
+    },
+    "de": {
+     "title": "New England Clam Chowder",
+     "intro": "Cremige Suppe mit Venusmuscheln, Kartoffeln und Räucherspeck, wie in Boston.",
+     "ing": [
+      "Venusmuscheln",
+      "Wasser",
+      "Räucherspeck, gewürfelt",
+      "Butter",
+      "Zwiebel",
+      "Stangen Staudensellerie",
+      "Mehl (Type 405)",
+      "Kartoffeln",
+      "Vollmilch",
+      "Sahne",
+      "Zweige Thymian",
+      "Lorbeerblatt",
+      "gehackter Schnittlauch",
+      "Salz",
+      "schwarzer Pfeffer",
+      "Salzcracker"
+     ],
+     "steps": [
+      "Leg die Muscheln in kaltes Salzwasser, damit sie den Sand abgeben, und spül sie dann gut ab.",
+      "Gare die Muscheln mit dem Wasser zugedeckt bei starker Hitze und rüttle den Topf, bis sie sich öffnen.",
+      "Lös das Fleisch aus, ein paar Muscheln ganz lassen, und gieß den Sud durch ein mit Küchenpapier ausgelegtes Sieb.",
+      "Brate im sauberen Topf den Speck in der Butter an, gib Zwiebel- und Selleriewürfel dazu und dünste sie weich.",
+      "Bestäub alles mit Mehl, rühr 2 Minuten und gieß dann den Muschelsud unter Rühren langsam an.",
+      "Gib Kartoffelwürfel (1,5 cm), Thymian, Lorbeer und bei Bedarf etwas Wasser dazu und koch sie weich.",
+      "Gieß Milch und Sahne an und erwärm alles sanft, ohne es kochen zu lassen, bis die Suppe leicht bindet.",
+      "Thymian und Lorbeer entfernen, Muscheln dazugeben, pfeffern und abschmecken. Mit Schnittlauch und Crackern servieren."
+     ],
+     "labels": [
+      "Wässern",
+      "Muscheln",
+      "",
+      "Speck",
+      "Mehl",
+      "Kartoffeln",
+      "Milch",
+      ""
+     ],
+     "tips": [
+      "Nach der Milch nie mehr kochen lassen: die Suppe bleibt glatt und die Muscheln werden nicht zäh.",
+      "In den USA nimmt man oft Muscheln aus der Dose: 2 Dosen samt Saft, ganz zum Schluss dazugeben.",
+      "Am nächsten Tag ist sie dicker: mit etwas Milch verdünnen und sanft erwärmen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cornbread",
+   "cat": "forno",
+   "sub": "pane",
+   "servings": 8,
+   "minutes": 45,
+   "diff": 1,
+   "kcal": 250,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "budget",
+    "comfort"
+   ],
+   "months": [],
+   "origin": "US",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 220,
+     "u": "g",
+     "k": "fine-cornmeal"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "baking-powder"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "baking-soda"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "plain-yogurt"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "butter"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 900,
+     "bg": true
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 300
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "new-england-clam-chowder"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cornbread, pane di mais in padella",
+     "intro": "Pane di mais del Sud cotto nella ghisa rovente: crosta croccante, interno umido.",
+     "ing": [
+      "farina di mais fioretto",
+      "farina 00",
+      "lievito in polvere per dolci",
+      "bicarbonato",
+      "sale",
+      "zucchero",
+      "uova",
+      "yogurt bianco intero",
+      "latte intero",
+      "burro"
+     ],
+     "steps": [
+      "Metti nel forno una padella di ghisa da 25 cm, o una teglia di metallo, e accendi a 220 °C: deve scaldarsi bene.",
+      "Intanto mescola in una ciotola farina di mais, farina, lievito, bicarbonato, sale e zucchero.",
+      "In un'altra ciotola sbatti uova, yogurt e latte: è il sostituto del buttermilk.",
+      "Estrai la padella rovente con un guanto, sciogli dentro il burro e versane due terzi nel composto di uova.",
+      "Unisci i liquidi alle polveri con pochi colpi di spatola: qualche grumo va bene, non lavorare troppo.",
+      "Versa l'impasto nella padella calda, deve sfrigolare, e cuoci finché è dorato e lo stecchino esce asciutto.",
+      "Lascialo riposare qualche minuto, poi taglialo a spicchi e servilo caldo con burro o miele."
+     ],
+     "labels": [
+      "Padella",
+      "",
+      "",
+      "",
+      "",
+      "Forno",
+      "Riposo"
+     ],
+     "tips": [
+      "Il burro nella padella rovente crea la crosta croccante: non saltare il preriscaldamento.",
+      "Nel profondo Sud molti lo fanno senza zucchero né farina di grano, solo mais: più rustico.",
+      "Perfetto accanto a chili, pollo fritto o una zuppa calda come il clam chowder."
+     ]
+    },
+    "en": {
+     "title": "Skillet cornbread",
+     "intro": "Southern cornbread baked in a hot cast-iron skillet: crisp crust, moist crumb.",
+     "ing": [
+      "fine yellow cornmeal",
+      "all-purpose flour",
+      "baking powder",
+      "baking soda",
+      "salt",
+      "sugar",
+      "eggs",
+      "plain whole-milk yogurt",
+      "whole milk",
+      "butter"
+     ],
+     "steps": [
+      "Put a 25 cm cast-iron skillet, or a metal cake pan, in the oven and heat to 220 °C so it gets very hot.",
+      "Meanwhile, mix the cornmeal, flour, baking powder, baking soda, salt and sugar in a bowl.",
+      "In another bowl, beat the eggs, yogurt and milk: this stands in for buttermilk.",
+      "Take out the hot skillet with an oven glove, melt the butter in it and pour two thirds into the egg mixture.",
+      "Fold the wet mix into the dry with a few strokes: a few lumps are fine, don't overmix.",
+      "Pour the batter into the hot skillet, it should sizzle, and bake until golden and a skewer comes out clean.",
+      "Let it rest for a few minutes, then cut into wedges and serve warm with butter or honey."
+     ],
+     "labels": [
+      "Skillet",
+      "",
+      "",
+      "",
+      "",
+      "Bake",
+      "Rest"
+     ],
+     "tips": [
+      "Butter in a screaming-hot skillet makes the crisp crust: don't skip preheating the pan.",
+      "In the Deep South many make it with no sugar or wheat flour, just cornmeal: more rustic.",
+      "Great next to chili, fried chicken or a hot soup such as clam chowder."
+     ]
+    },
+    "fr": {
+     "title": "Cornbread, pain de maïs",
+     "intro": "Pain de maïs du Sud cuit dans la fonte brûlante : croûte croustillante, mie moelleuse.",
+     "ing": [
+      "semoule de maïs fine",
+      "farine",
+      "levure chimique",
+      "bicarbonate de soude",
+      "sel",
+      "sucre",
+      "œufs",
+      "yaourt nature entier",
+      "lait entier",
+      "beurre"
+     ],
+     "steps": [
+      "Mets une poêle en fonte de 25 cm, ou un moule en métal, dans le four et préchauffe à 220 °C.",
+      "Pendant ce temps, mélange dans un saladier semoule de maïs, farine, levure, bicarbonate, sel et sucre.",
+      "Dans un autre bol, bats les œufs, le yaourt et le lait : ils remplacent la buttermilk.",
+      "Sors la poêle brûlante avec une manique, fais-y fondre le beurre et verse-en les deux tiers dans le mélange aux œufs.",
+      "Incorpore le liquide aux poudres en quelques coups de spatule : quelques grumeaux, c'est normal.",
+      "Verse la pâte dans la poêle chaude, elle doit grésiller, et cuis jusqu'à ce qu'elle soit dorée et le pique sec.",
+      "Laisse reposer quelques minutes, puis coupe en parts et sers chaud avec du beurre ou du miel."
+     ],
+     "labels": [
+      "Poêle",
+      "",
+      "",
+      "",
+      "",
+      "Cuisson",
+      "Repos"
+     ],
+     "tips": [
+      "Le beurre dans la poêle brûlante fait la croûte croustillante : ne saute pas le préchauffage.",
+      "Dans le Sud profond, on le fait souvent sans sucre ni farine de blé, rien que du maïs.",
+      "Parfait avec un chili, du poulet frit ou une soupe chaude comme le clam chowder."
+     ]
+    },
+    "es": {
+     "title": "Cornbread, pan de maíz",
+     "intro": "Pan de maíz sureño hecho en sartén de hierro ardiendo: costra crujiente, miga jugosa.",
+     "ing": [
+      "harina de maíz amarilla fina",
+      "harina de trigo",
+      "levadura química",
+      "bicarbonato sódico",
+      "sal",
+      "azúcar",
+      "huevos",
+      "yogur natural entero",
+      "leche entera",
+      "mantequilla"
+     ],
+     "steps": [
+      "Mete en el horno una sartén de hierro de 25 cm, o un molde metálico, y enciéndelo a 220 °C para que se caliente bien.",
+      "Mientras, mezcla en un bol la harina de maíz, la harina, la levadura, el bicarbonato, la sal y el azúcar.",
+      "En otro bol bate los huevos, el yogur y la leche: sustituyen al suero de leche.",
+      "Saca la sartén ardiendo con una manopla, derrite dentro la mantequilla y vierte dos tercios en la mezcla de huevo.",
+      "Une los líquidos con los secos con pocos movimientos de espátula: algún grumo está bien, no lo trabajes de más.",
+      "Vierte la masa en la sartén caliente, debe chisporrotear, y hornea hasta que esté dorado y el palillo salga seco.",
+      "Déjalo reposar unos minutos, córtalo en porciones y sírvelo caliente con mantequilla o miel."
+     ],
+     "labels": [
+      "Sartén",
+      "",
+      "",
+      "",
+      "",
+      "Horno",
+      "Reposo"
+     ],
+     "tips": [
+      "La mantequilla en la sartén ardiendo forma la costra crujiente: no te saltes el precalentado.",
+      "En el Sur profundo muchos lo hacen sin azúcar ni harina de trigo, solo maíz: más rústico.",
+      "Perfecto con chili, pollo frito o una sopa caliente como el clam chowder."
+     ]
+    },
+    "de": {
+     "title": "Cornbread aus der Pfanne",
+     "intro": "Maisbrot aus dem Süden, in der heißen Gusspfanne gebacken: außen knusprig, innen saftig.",
+     "ing": [
+      "feiner Maisgrieß",
+      "Mehl (Type 405)",
+      "Backpulver",
+      "Natron",
+      "Salz",
+      "Zucker",
+      "Eier",
+      "Naturjoghurt (3,5 %)",
+      "Vollmilch",
+      "Butter"
+     ],
+     "steps": [
+      "Stell eine 25-cm-Gusspfanne oder eine Metallform in den Ofen und heiz auf 220 °C, damit sie richtig heiß wird.",
+      "Misch inzwischen in einer Schüssel Maisgrieß, Mehl, Backpulver, Natron, Salz und Zucker.",
+      "Verquirl in einer zweiten Schüssel Eier, Joghurt und Milch: das ersetzt die Buttermilch.",
+      "Nimm die heiße Pfanne mit einem Topflappen heraus, schmilz die Butter darin und gieß zwei Drittel in die Eiermischung.",
+      "Heb die flüssigen Zutaten mit wenigen Zügen unter die trockenen: ein paar Klümpchen sind in Ordnung.",
+      "Gieß den Teig in die heiße Pfanne, er soll zischen, und back ihn goldbraun, bis ein Stäbchen sauber herauskommt.",
+      "Kurz ruhen lassen, dann in Stücke schneiden und warm mit Butter oder Honig servieren."
+     ],
+     "labels": [
+      "Pfanne",
+      "",
+      "",
+      "",
+      "",
+      "Backen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Die Butter in der glühend heißen Pfanne macht die Kruste: das Vorheizen nicht auslassen.",
+      "Im tiefen Süden backt man es oft ohne Zucker und Weizenmehl, nur mit Mais: rustikaler.",
+      "Passt zu Chili, Fried Chicken oder einer heißen Suppe wie Clam Chowder."
+     ]
+    }
+   }
+  },
+  {
+   "id": "coleslaw",
+   "cat": "contorni",
+   "sub": "insalate",
+   "servings": 4,
+   "minutes": 60,
+   "diff": 1,
+   "kcal": 190,
+   "diet": [
+    "veg",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "budget",
+    "party"
+   ],
+   "months": [],
+   "origin": "US",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "white-cabbage"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "red-cabbage"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "mayonnaise",
+     "make": "maionese"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "apple-cider-vinegar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "dijon-mustard"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 1800
+    }
+   ],
+   "tips": [
+    {
+     "k": "spice"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "buttermilk-fried-chicken"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Coleslaw, insalata di cavolo cremosa",
+     "intro": "Cavolo e carote a julienne in una salsa cremosa e acidula: il contorno dei barbecue.",
+     "ing": [
+      "cavolo cappuccio bianco",
+      "cavolo cappuccio rosso",
+      "carote",
+      "sale",
+      "maionese",
+      "aceto di mele",
+      "zucchero",
+      "senape di Digione",
+      "pepe nero"
+     ],
+     "steps": [
+      "Elimina le foglie esterne e il torsolo e affetta i due cavoli sottilissimi, a coltello o con la mandolina.",
+      "Mescola i cavoli con il sale in uno scolapasta e lasciali così: perdono acqua e il condimento non si annacqua.",
+      "Intanto grattugia le carote e mescola in una ciotola grande maionese (anche pronta), aceto, zucchero, senape e pepe.",
+      "Strizza bene il cavolo con le mani e uniscilo al condimento con le carote.",
+      "Mescola bene, copri e lascia in frigo perché si insaporisca. Rimescola prima di servire."
+     ],
+     "labels": [
+      "",
+      "Cavolo",
+      "",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "Mezzo cucchiaino di semi di sedano è il tocco americano classico: li trovi nei negozi di spezie.",
+      "Versione leggera senza maionese: 4 cucchiai d'olio, 3 di aceto di mele e 1 di zucchero.",
+      "Perfetto con il pollo fritto, le costine o dentro un panino con pulled pork."
+     ]
+    },
+    "en": {
+     "title": "Coleslaw",
+     "intro": "Shredded cabbage and carrot in a creamy, tangy dressing: the barbecue side.",
+     "ing": [
+      "green cabbage",
+      "red cabbage",
+      "carrots",
+      "salt",
+      "mayonnaise",
+      "apple cider vinegar",
+      "sugar",
+      "Dijon mustard",
+      "black pepper"
+     ],
+     "steps": [
+      "Remove the outer leaves and core and shred both cabbages very finely with a knife or mandoline.",
+      "Toss the cabbage with the salt in a colander and leave it: it releases water so the dressing stays creamy.",
+      "Meanwhile grate the carrots and whisk the mayonnaise (shop-bought is fine), vinegar, sugar, mustard and pepper in a big bowl.",
+      "Squeeze the cabbage firmly with your hands and add it to the dressing with the carrots.",
+      "Mix well, cover and chill so the flavours come together. Stir again before serving."
+     ],
+     "labels": [
+      "",
+      "Cabbage",
+      "",
+      "",
+      "Chill"
+     ],
+     "tips": [
+      "Half a teaspoon of celery seed is the classic American touch.",
+      "Lighter, mayo-free version: 4 tbsp oil, 3 tbsp cider vinegar and 1 tbsp sugar.",
+      "Perfect with fried chicken, ribs or piled into a pulled pork sandwich."
+     ]
+    },
+    "fr": {
+     "title": "Coleslaw",
+     "intro": "Chou et carottes râpés dans une sauce crémeuse et acidulée : l'accompagnement du barbecue.",
+     "ing": [
+      "chou blanc",
+      "chou rouge",
+      "carottes",
+      "sel",
+      "mayonnaise",
+      "vinaigre de cidre",
+      "sucre",
+      "moutarde de Dijon",
+      "poivre noir"
+     ],
+     "steps": [
+      "Retire les feuilles extérieures et le trognon et émince les deux choux très finement, au couteau ou à la mandoline.",
+      "Mélange les choux avec le sel dans une passoire et laisse dégorger : la sauce ne sera pas détrempée.",
+      "Pendant ce temps, râpe les carottes et mélange dans un grand saladier mayonnaise (même toute prête), vinaigre, sucre, moutarde et poivre.",
+      "Presse bien le chou entre tes mains et ajoute-le à la sauce avec les carottes.",
+      "Mélange bien, couvre et laisse au frais pour que les saveurs se marient. Remue avant de servir."
+     ],
+     "labels": [
+      "",
+      "Chou",
+      "",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "Une demi-cuillère à café de graines de céleri, c'est la touche américaine classique.",
+      "Version sans mayonnaise : 4 c. à soupe d'huile, 3 de vinaigre de cidre et 1 de sucre.",
+      "Parfait avec du poulet frit, des travers de porc ou dans un sandwich au pulled pork."
+     ]
+    },
+    "es": {
+     "title": "Coleslaw",
+     "intro": "Col y zanahoria en tiras con un aliño cremoso y ácido: la guarnición de las barbacoas.",
+     "ing": [
+      "repollo",
+      "lombarda",
+      "zanahorias",
+      "sal",
+      "mayonesa",
+      "vinagre de manzana",
+      "azúcar",
+      "mostaza de Dijon",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Quita las hojas externas y el troncho y corta las dos coles en tiras finísimas, con cuchillo o mandolina.",
+      "Mezcla la col con la sal en un escurridor y déjala reposar: suelta agua y el aliño no se agua.",
+      "Mientras, ralla las zanahorias y mezcla en un bol grande la mayonesa (vale comprada), el vinagre, el azúcar, la mostaza y pimienta.",
+      "Escurre bien la col con las manos y añádela al aliño con las zanahorias.",
+      "Mezcla bien, tapa y deja en la nevera para que coja sabor. Vuelve a mezclar antes de servir."
+     ],
+     "labels": [
+      "",
+      "Col",
+      "",
+      "",
+      "Nevera"
+     ],
+     "tips": [
+      "Media cucharadita de semillas de apio es el toque americano clásico; búscalas en tiendas de especias.",
+      "Versión ligera sin mayonesa: 4 cucharadas de aceite, 3 de vinagre de manzana y 1 de azúcar.",
+      "Perfecto con pollo frito, costillas o dentro de un bocadillo de pulled pork."
+     ]
+    },
+    "de": {
+     "title": "Coleslaw",
+     "intro": "Fein geschnittener Kohl und Karotten in cremig-säuerlichem Dressing: die Grillbeilage.",
+     "ing": [
+      "Weißkohl",
+      "Rotkohl",
+      "Karotten",
+      "Salz",
+      "Mayonnaise",
+      "Apfelessig",
+      "Zucker",
+      "Dijonsenf",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Entferne äußere Blätter und Strunk und hobel beide Kohlsorten sehr fein, mit Messer oder Gemüsehobel.",
+      "Misch den Kohl in einem Sieb mit dem Salz und lass ihn stehen: er verliert Wasser, das Dressing bleibt cremig.",
+      "Raspel inzwischen die Karotten und verrühr in einer großen Schüssel Mayonnaise (auch gekaufte), Essig, Zucker, Senf und Pfeffer.",
+      "Drück den Kohl mit den Händen kräftig aus und gib ihn mit den Karotten zum Dressing.",
+      "Gut mischen, abdecken und kalt stellen, damit es durchzieht. Vor dem Servieren noch einmal umrühren."
+     ],
+     "labels": [
+      "",
+      "Kohl",
+      "",
+      "",
+      "Kühlen"
+     ],
+     "tips": [
+      "Ein halber TL Selleriesamen ist der klassische amerikanische Kick, erhältlich im Gewürzhandel.",
+      "Leichter ohne Mayo: 4 EL Öl, 3 EL Apfelessig und 1 EL Zucker.",
+      "Perfekt zu Fried Chicken, Spareribs oder im Pulled-Pork-Sandwich."
+     ]
+    }
+   }
+  },
+  {
+   "id": "apple-pie",
+   "cat": "dolci",
+   "sub": "frutta",
+   "servings": 8,
+   "minutes": 225,
+   "diff": 2,
+   "kcal": 410,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "festive",
+    "comfort"
+   ],
+   "months": [
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "origin": "US",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "shortcrust-pastry",
+     "make": "pasta-brisee"
+    },
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "apples"
+    },
+    {
+     "q": 110,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "brown-sugar"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "nutmeg"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "cornstarch"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "salt"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "eggs"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 900,
+     "bg": true
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 2400
+    },
+    {
+     "timer": 7200
+    }
+   ],
+   "tips": [
+    {
+     "k": "pair"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Apple pie americana",
+     "intro": "Doppia crosta friabile e un ripieno alto di mele alla cannella: il dolce simbolo USA.",
+     "ing": [
+      "pasta brisée (2 dischi)",
+      "mele (metà Granny Smith, metà Golden)",
+      "zucchero",
+      "zucchero di canna",
+      "limone",
+      "cannella in polvere",
+      "noce moscata",
+      "amido di mais",
+      "sale",
+      "burro a fiocchetti",
+      "uovo per spennellare"
+     ],
+     "steps": [
+      "Sbuccia le mele, togli il torsolo e tagliale a fette di 5 mm.",
+      "Mescolale con lo zucchero (tranne 1 cucchiaio), zucchero di canna, succo e scorza di limone, spezie, sale e amido.",
+      "Intanto accendi il forno a 200 °C e stendi un disco di brisée (anche pronta) in una tortiera da 23 cm, lasciandola debordare.",
+      "Riempi con le mele a cupola, lasciando nella ciotola il succo in eccesso, e distribuisci sopra il burro a fiocchetti.",
+      "Copri con il secondo disco, sigilla i bordi pizzicandoli e pratica 4 tagli al centro per far uscire il vapore.",
+      "Spennella con l'uovo sbattuto, cospargi con lo zucchero tenuto da parte e cuoci nella parte bassa del forno.",
+      "Abbassa a 180 °C e cuoci finché è ben dorata e il succo bolle dai tagli; copri i bordi con alluminio se scuriscono.",
+      "Lasciala raffreddare su una gratella: il ripieno si rapprende e le fette restano intere."
+     ],
+     "labels": [
+      "",
+      "Mele",
+      "",
+      "",
+      "",
+      "Forno 200",
+      "Forno 180",
+      "Riposo"
+     ],
+     "tips": [
+      "À la mode, come negli USA: una fetta tiepida con una pallina di gelato alla vaniglia.",
+      "Copertura a grata: taglia il secondo disco a strisce di 2 cm e intrecciale sopra le mele.",
+      "Cuoci la torta su una teglia già calda: il fondo diventa croccante e il succo non sporca il forno."
+     ]
+    },
+    "en": {
+     "title": "Apple pie",
+     "intro": "Flaky double crust and a tall filling of cinnamon apples: America's signature dessert.",
+     "ing": [
+      "pie crust (2 discs)",
+      "apples (half Granny Smith, half Golden Delicious)",
+      "sugar",
+      "light brown sugar",
+      "lemon",
+      "ground cinnamon",
+      "nutmeg",
+      "cornstarch",
+      "salt",
+      "butter, in small pieces",
+      "egg, for brushing"
+     ],
+     "steps": [
+      "Peel and core the apples and cut them into 5 mm slices.",
+      "Toss with the sugar (save 1 tbsp), brown sugar, lemon juice and zest, spices, salt and cornstarch.",
+      "Meanwhile heat the oven to 200 °C and line a 23 cm pie dish with one disc of pastry (shop-bought is fine), letting it overhang.",
+      "Pile in the apples in a dome, leaving excess juice in the bowl, and dot with the butter.",
+      "Cover with the second disc, crimp the edges to seal and cut 4 slits in the centre to let steam escape.",
+      "Brush with beaten egg, sprinkle with the reserved sugar and bake on the lowest shelf.",
+      "Lower to 180 °C and bake until deep golden and the juices bubble through the slits; shield the edges with foil if they darken.",
+      "Let it cool on a wire rack: the filling sets and the slices hold their shape."
+     ],
+     "labels": [
+      "",
+      "Apples",
+      "",
+      "",
+      "",
+      "Bake 200",
+      "Bake 180",
+      "Cooling"
+     ],
+     "tips": [
+      "Serve it à la mode: a warm slice with a scoop of vanilla ice cream.",
+      "Lattice top: cut the second disc into 2 cm strips and weave them over the apples.",
+      "Bake the pie on a preheated baking tray: the base crisps up and any juice won't drip onto the oven."
+     ]
+    },
+    "fr": {
+     "title": "Apple pie américaine",
+     "intro": "Double pâte croustillante et une généreuse garniture de pommes à la cannelle.",
+     "ing": [
+      "pâte brisée (2 abaisses)",
+      "pommes (moitié granny smith, moitié golden)",
+      "sucre",
+      "cassonade",
+      "citron",
+      "cannelle en poudre",
+      "noix de muscade",
+      "fécule de maïs",
+      "sel",
+      "beurre en parcelles",
+      "œuf pour dorer"
+     ],
+     "steps": [
+      "Épluche les pommes, retire le cœur et coupe-les en lamelles de 5 mm.",
+      "Mélange-les avec le sucre (garde-en 1 c. à soupe), la cassonade, le jus et le zeste du citron, les épices, le sel et la fécule.",
+      "Pendant ce temps, préchauffe le four à 200 °C et fonce un moule de 23 cm avec une abaisse (même toute prête), en la laissant déborder.",
+      "Remplis de pommes en dôme, en laissant l'excès de jus dans le saladier, et parsème de beurre.",
+      "Couvre avec la seconde abaisse, pince les bords pour souder et fais 4 entailles au centre pour la vapeur.",
+      "Dore à l'œuf battu, saupoudre du sucre réservé et enfourne en bas du four.",
+      "Baisse à 180 °C et cuis jusqu'à ce qu'elle soit bien dorée et que le jus bouillonne ; protège les bords avec de l'alu.",
+      "Laisse-la refroidir sur une grille : la garniture prend et les parts se tiennent."
+     ],
+     "labels": [
+      "",
+      "Pommes",
+      "",
+      "",
+      "",
+      "Four 200",
+      "Four 180",
+      "Repos"
+     ],
+     "tips": [
+      "À la mode, comme aux États-Unis : une part tiède avec une boule de glace vanille.",
+      "Couvercle en croisillons : coupe la seconde abaisse en bandes de 2 cm et tresse-les sur les pommes.",
+      "Pose la tarte sur une plaque déjà chaude : le fond croustille et le jus ne coule pas dans le four."
+     ]
+    },
+    "es": {
+     "title": "Apple pie americana",
+     "intro": "Doble masa crujiente y un relleno alto de manzana con canela: el postre símbolo de EE. UU.",
+     "ing": [
+      "masa quebrada (2 discos)",
+      "manzanas (mitad Granny Smith, mitad Golden)",
+      "azúcar",
+      "azúcar moreno",
+      "limón",
+      "canela molida",
+      "nuez moscada",
+      "maicena",
+      "sal",
+      "mantequilla en daditos",
+      "huevo para pintar"
+     ],
+     "steps": [
+      "Pela las manzanas, quítales el corazón y córtalas en láminas de 5 mm.",
+      "Mézclalas con el azúcar (menos 1 cucharada), el azúcar moreno, zumo y ralladura de limón, especias, sal y maicena.",
+      "Mientras, enciende el horno a 200 °C y forra un molde de 23 cm con un disco de masa (vale comprada), dejando que sobresalga.",
+      "Rellena con las manzanas formando una cúpula, dejando el exceso de jugo en el bol, y reparte la mantequilla.",
+      "Cubre con el segundo disco, sella los bordes pellizcándolos y haz 4 cortes en el centro para que salga el vapor.",
+      "Pinta con el huevo batido, espolvorea el azúcar reservado y hornea en la parte baja del horno.",
+      "Baja a 180 °C y hornea hasta que esté bien dorada y el jugo burbujee por los cortes; cubre los bordes con papel de aluminio si se oscurecen.",
+      "Déjala enfriar sobre una rejilla: el relleno cuaja y las porciones quedan enteras."
+     ],
+     "labels": [
+      "",
+      "Manzanas",
+      "",
+      "",
+      "",
+      "Horno 200",
+      "Horno 180",
+      "Reposo"
+     ],
+     "tips": [
+      "À la mode, como en EE. UU.: una porción templada con una bola de helado de vainilla.",
+      "Cubierta de rejilla: corta el segundo disco en tiras de 2 cm y entrelázalas sobre la manzana.",
+      "Hornea la tarta sobre una bandeja ya caliente: la base queda crujiente y el jugo no ensucia el horno."
+     ]
+    },
+    "de": {
+     "title": "Amerikanischer Apple Pie",
+     "intro": "Doppelte, mürbe Kruste und eine hohe Füllung aus Zimtäpfeln: Amerikas Lieblingskuchen.",
+     "ing": [
+      "ungesüßter Mürbeteig (2 Platten)",
+      "Äpfel (halb Granny Smith, halb Golden Delicious)",
+      "Zucker",
+      "brauner Zucker",
+      "Zitrone",
+      "gemahlener Zimt",
+      "Muskatnuss",
+      "Speisestärke",
+      "Salz",
+      "Butter in Flöckchen",
+      "Ei zum Bestreichen"
+     ],
+     "steps": [
+      "Schäl die Äpfel, entferne das Kerngehäuse und schneide sie in 5 mm dicke Spalten.",
+      "Misch sie mit Zucker (1 EL zurückbehalten), braunem Zucker, Zitronensaft und -schale, Gewürzen, Salz und Stärke.",
+      "Heiz inzwischen den Ofen auf 200 °C und leg eine 23-cm-Pieform mit einer Teigplatte (auch gekauft) aus, mit Überstand.",
+      "Füll die Äpfel kuppelförmig ein, überschüssigen Saft in der Schüssel lassen, und verteil die Butterflöckchen darauf.",
+      "Leg die zweite Platte darauf, drück die Ränder zusammen und schneide 4 Schlitze in die Mitte, damit Dampf entweicht.",
+      "Mit verquirltem Ei bestreichen, mit dem restlichen Zucker bestreuen und im unteren Ofendrittel backen.",
+      "Auf 180 °C reduzieren und backen, bis er tief goldbraun ist und Saft aus den Schlitzen blubbert; Ränder notfalls mit Alufolie schützen.",
+      "Lass ihn auf einem Gitter auskühlen: die Füllung zieht an und die Stücke bleiben in Form."
+     ],
+     "labels": [
+      "",
+      "Äpfel",
+      "",
+      "",
+      "",
+      "Ofen 200",
+      "Ofen 180",
+      "Abkühlen"
+     ],
+     "tips": [
+      "À la mode wie in den USA: ein lauwarmes Stück mit einer Kugel Vanilleeis.",
+      "Gitterdeckel: die zweite Platte in 2 cm breite Streifen schneiden und über den Äpfeln verflechten.",
+      "Back den Pie auf einem vorgeheizten Blech: der Boden wird knusprig und Saft tropft nicht in den Ofen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "banana-pudding",
+   "cat": "dolci",
+   "sub": "cucchiaio",
+   "servings": 6,
+   "minutes": 300,
+   "diff": 1,
+   "kcal": 420,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "comfort",
+    "party"
+   ],
+   "months": [],
+   "origin": "US",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "cornstarch"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "salt"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "vanilla-extract"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "bananas"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "dry-biscuits"
+    },
+    {
+     "q": 250,
+     "u": "ml",
+     "k": "heavy-cream"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "powdered-sugar"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 480
+    },
+    {
+     "timer": 1800
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 14400
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Banana pudding, crema e banane",
+     "intro": "Strati di crema alla vaniglia, banane e biscotti morbidi: il dolce al cucchiaio del Sud.",
+     "ing": [
+      "latte intero",
+      "zucchero",
+      "amido di mais",
+      "sale",
+      "tuorli",
+      "burro",
+      "estratto di vaniglia",
+      "banane mature",
+      "biscotti secchi alla vaniglia",
+      "panna fresca da montare",
+      "zucchero a velo"
+     ],
+     "steps": [
+      "In un pentolino frusta zucchero, amido e sale, poi i tuorli e infine il latte, versato a filo.",
+      "Cuoci a fuoco medio mescolando sempre finché la crema si addensa e fa le prime bolle; poi ancora 1 minuto.",
+      "Togli dal fuoco, unisci burro e vaniglia, copri con pellicola a contatto e lascia intiepidire.",
+      "Monta la panna con lo zucchero a velo a neve morbida e taglia le banane a rondelle.",
+      "In una pirofila fai uno strato di biscotti, uno di banane e uno di crema; ripeti e finisci con la crema.",
+      "Copri con la panna montata e sbriciola sopra qualche biscotto.",
+      "Lascia in frigo almeno 4 ore: i biscotti si ammorbidiscono e diventano come pan di Spagna."
+     ],
+     "labels": [
+      "",
+      "Crema",
+      "Raffreddare",
+      "",
+      "",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "I biscotti originali sono i vanilla wafers americani, nei negozi di prodotti USA; i Maria vanno benissimo.",
+      "Come in molte case del Sud: copri con una meringa di 3 albumi e 80 g di zucchero e dorala 5 minuti a 200 °C.",
+      "Si conserva 2 giorni in frigo coperto; le banane scuriscono un po' ma il gusto resta."
+     ]
+    },
+    "en": {
+     "title": "Banana pudding",
+     "intro": "Layers of vanilla custard, bananas and softened wafers: the South's best-loved pudding.",
+     "ing": [
+      "whole milk",
+      "sugar",
+      "cornstarch",
+      "salt",
+      "egg yolks",
+      "butter",
+      "vanilla extract",
+      "ripe bananas",
+      "vanilla wafers",
+      "heavy cream",
+      "powdered sugar"
+     ],
+     "steps": [
+      "In a saucepan, whisk the sugar, cornstarch and salt, then the yolks, and finally the milk in a thin stream.",
+      "Cook over medium heat, whisking constantly, until the custard thickens and starts to bubble; then 1 minute more.",
+      "Off the heat, stir in the butter and vanilla, press cling film onto the surface and let it cool.",
+      "Whip the cream with the powdered sugar to soft peaks and slice the bananas.",
+      "In a dish, layer wafers, bananas and custard; repeat, finishing with custard.",
+      "Spread the whipped cream on top and crumble over a few wafers.",
+      "Chill for at least 4 hours: the wafers soften until they are almost like sponge cake."
+     ],
+     "labels": [
+      "",
+      "Custard",
+      "Cooling",
+      "",
+      "",
+      "",
+      "Chill"
+     ],
+     "tips": [
+      "The originals are American vanilla wafers from US food shops; plain butter biscuits work too.",
+      "The old-school Southern way: top with a meringue of 3 egg whites and 80 g sugar, browned at 200 °C for 5 minutes.",
+      "It keeps for 2 days covered in the fridge; the bananas darken a little but it still tastes great."
+     ]
+    },
+    "fr": {
+     "title": "Banana pudding",
+     "intro": "Couches de crème vanille, bananes et biscuits fondants : le dessert à la cuillère du Sud.",
+     "ing": [
+      "lait entier",
+      "sucre",
+      "fécule de maïs",
+      "sel",
+      "jaunes d'œufs",
+      "beurre",
+      "extrait de vanille",
+      "bananes mûres",
+      "biscuits secs à la vanille",
+      "crème liquide entière",
+      "sucre glace"
+     ],
+     "steps": [
+      "Dans une casserole, fouette sucre, fécule et sel, puis les jaunes et enfin le lait versé en filet.",
+      "Cuis à feu moyen sans cesser de fouetter jusqu'à ce que la crème épaississe et frémisse, puis 1 minute de plus.",
+      "Hors du feu, ajoute beurre et vanille, filme au contact et laisse tiédir.",
+      "Monte la crème avec le sucre glace en chantilly souple et coupe les bananes en rondelles.",
+      "Dans un plat, alterne biscuits, bananes et crème ; recommence et termine par la crème.",
+      "Recouvre de chantilly et émiette quelques biscuits par-dessus.",
+      "Laisse au frais au moins 4 heures : les biscuits ramollissent jusqu'à devenir moelleux comme une génoise."
+     ],
+     "labels": [
+      "",
+      "Crème",
+      "Refroidir",
+      "",
+      "",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "Les vrais sont les vanilla wafers américains, en épicerie US ; des petits-beurre marchent aussi.",
+      "À l'ancienne, comme dans le Sud : une meringue de 3 blancs et 80 g de sucre, dorée 5 minutes à 200 °C.",
+      "Il se garde 2 jours au frais, couvert ; les bananes brunissent un peu, mais le goût reste."
+     ]
+    },
+    "es": {
+     "title": "Banana pudding",
+     "intro": "Capas de crema de vainilla, plátano y galletas tiernas: el postre de cuchara del Sur.",
+     "ing": [
+      "leche entera",
+      "azúcar",
+      "maicena",
+      "sal",
+      "yemas de huevo",
+      "mantequilla",
+      "extracto de vainilla",
+      "plátanos maduros",
+      "galletas de vainilla (tipo María)",
+      "nata para montar",
+      "azúcar glas"
+     ],
+     "steps": [
+      "En un cazo bate el azúcar, la maicena y la sal, luego las yemas y por último la leche en hilo.",
+      "Cuece a fuego medio sin dejar de remover hasta que la crema espese y empiece a burbujear; luego 1 minuto más.",
+      "Fuera del fuego, añade la mantequilla y la vainilla, cubre con film a piel y deja templar.",
+      "Monta la nata con el azúcar glas a punto suave y corta los plátanos en rodajas.",
+      "En una fuente haz una capa de galletas, otra de plátano y otra de crema; repite y termina con crema.",
+      "Cubre con la nata montada y desmenuza unas galletas por encima.",
+      "Deja en la nevera al menos 4 horas: las galletas se ablandan hasta parecer bizcocho."
+     ],
+     "labels": [
+      "",
+      "Crema",
+      "Templar",
+      "",
+      "",
+      "",
+      "Nevera"
+     ],
+     "tips": [
+      "Las originales son las vanilla wafers americanas, en tiendas de productos de EE. UU.; las María van genial.",
+      "Al estilo antiguo del Sur: cubre con merengue de 3 claras y 80 g de azúcar y dóralo 5 minutos a 200 °C.",
+      "Se conserva 2 días tapado en la nevera; el plátano se oscurece un poco pero el sabor se mantiene."
+     ]
+    },
+    "de": {
+     "title": "Banana Pudding",
+     "intro": "Schichten aus Vanillecreme, Bananen und weichen Keksen: das Löffeldessert der Südstaaten.",
+     "ing": [
+      "Vollmilch",
+      "Zucker",
+      "Speisestärke",
+      "Salz",
+      "Eigelb",
+      "Butter",
+      "Vanilleextrakt",
+      "reife Bananen",
+      "Vanillekekse (oder Butterkekse)",
+      "Schlagsahne",
+      "Puderzucker"
+     ],
+     "steps": [
+      "Verquirl in einem Topf Zucker, Stärke und Salz, dann die Eigelbe und zuletzt die Milch in dünnem Strahl.",
+      "Bei mittlerer Hitze unter ständigem Rühren kochen, bis die Creme andickt und Blasen wirft, dann noch 1 Minute.",
+      "Vom Herd nehmen, Butter und Vanille einrühren, Frischhaltefolie direkt auflegen und abkühlen lassen.",
+      "Schlag die Sahne mit dem Puderzucker locker und schneide die Bananen in Scheiben.",
+      "Schichte in einer Form Kekse, Bananen und Creme; wiederhole das und schließ mit Creme ab.",
+      "Streich die Sahne darüber und zerbrösel ein paar Kekse obenauf.",
+      "Mindestens 4 Stunden kühlen: die Kekse werden weich wie Biskuit."
+     ],
+     "labels": [
+      "",
+      "Creme",
+      "Abkühlen",
+      "",
+      "",
+      "",
+      "Kühlen"
+     ],
+     "tips": [
+      "Original sind amerikanische Vanilla Wafers aus dem US-Laden; Butterkekse gehen auch.",
+      "Wie früher im Süden: mit Baiser aus 3 Eiweiß und 80 g Zucker bedecken und 5 Minuten bei 200 °C bräunen.",
+      "Abgedeckt hält er sich 2 Tage im Kühlschrank; die Bananen werden etwas dunkler, der Geschmack bleibt."
+     ]
+    }
+   }
+  },
+  {
+   "id": "mint-julep",
+   "cat": "cocktail",
+   "sub": "classici",
+   "servings": 1,
+   "minutes": 3,
+   "diff": 1,
+   "kcal": 190,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "US",
+   "alcohol": true,
+   "ingredients": [
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "bourbon"
+    },
+    {
+     "q": 15,
+     "u": "ml",
+     "k": "simple-syrup"
+    },
+    {
+     "q": 10,
+     "u": "",
+     "k": "mint"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "mint"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Mint Julep",
+     "intro": "Bourbon, menta fresca e tanto ghiaccio tritato: il drink del Kentucky Derby.",
+     "ing": [
+      "bourbon",
+      "sciroppo di zucchero (1:1)",
+      "foglie di menta",
+      "rametto di menta",
+      "ghiaccio tritato"
+     ],
+     "steps": [
+      "Metti le foglie di menta e lo sciroppo in una julep cup o in un tumbler e pestale appena, senza ridurle in poltiglia.",
+      "Aggiungi il bourbon e riempi il bicchiere a metà di ghiaccio tritato; mescola finché il bicchiere si appanna.",
+      "Completa con altro ghiaccio tritato a cupola e mescola ancora qualche secondo.",
+      "Batti il rametto di menta sul palmo per liberare il profumo, infilalo accanto a una cannuccia corta e servi."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Il ghiaccio tritato finissimo è tutto: avvolgi i cubetti in un canovaccio e battili con il mattarello.",
+      "Con cognac al posto del bourbon ritrovi il julep dell'Ottocento."
+     ]
+    },
+    "en": {
+     "title": "Mint Julep",
+     "intro": "Bourbon, fresh mint and a mound of crushed ice: the Kentucky Derby drink.",
+     "ing": [
+      "bourbon",
+      "simple syrup (1:1)",
+      "mint leaves",
+      "mint sprig",
+      "crushed ice"
+     ],
+     "steps": [
+      "Put the mint leaves and syrup in a julep cup or rocks glass and press gently, without mashing them to a pulp.",
+      "Add the bourbon and half-fill the glass with crushed ice; stir until the outside of the glass frosts.",
+      "Top with more crushed ice in a dome and stir for a few more seconds.",
+      "Slap the mint sprig against your palm to release its aroma, tuck it in beside a short straw and serve."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Finely crushed ice is everything: wrap ice cubes in a tea towel and bash them with a rolling pin.",
+      "Swap the bourbon for cognac and you have the 19th-century julep."
+     ]
+    },
+    "fr": {
+     "title": "Mint julep",
+     "intro": "Bourbon, menthe fraîche et glace pilée à profusion : le cocktail du Kentucky Derby.",
+     "ing": [
+      "bourbon",
+      "sirop de sucre (1:1)",
+      "feuilles de menthe",
+      "brin de menthe",
+      "glace pilée"
+     ],
+     "steps": [
+      "Mets les feuilles de menthe et le sirop dans une julep cup ou un verre bas et presse-les doucement, sans les écraser.",
+      "Ajoute le bourbon et remplis le verre à moitié de glace pilée ; remue jusqu'à ce que le verre givre.",
+      "Complète avec de la glace pilée en dôme et remue encore quelques secondes.",
+      "Frappe le brin de menthe dans ta paume pour libérer son parfum, plante-le à côté d'une paille courte et sers."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Tout est dans la glace pilée très fine : enveloppe les glaçons dans un torchon et tape au rouleau.",
+      "Avec du cognac à la place du bourbon, tu retrouves le julep du XIXe siècle."
+     ]
+    },
+    "es": {
+     "title": "Mint julep",
+     "intro": "Bourbon, menta fresca y mucho hielo picado: el cóctel del Derby de Kentucky.",
+     "ing": [
+      "bourbon",
+      "almíbar (1:1)",
+      "hojas de menta",
+      "ramita de menta",
+      "hielo picado"
+     ],
+     "steps": [
+      "Pon las hojas de menta y el almíbar en una julep cup o un vaso bajo y presiónalas suavemente, sin machacarlas.",
+      "Añade el bourbon y llena el vaso hasta la mitad de hielo picado; remueve hasta que el vaso se escarche.",
+      "Completa con más hielo picado formando una cúpula y remueve unos segundos más.",
+      "Golpea la ramita de menta en la palma para liberar el aroma, colócala junto a una pajita corta y sirve."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "El hielo muy picado lo es todo: envuelve los cubitos en un paño y golpéalos con el rodillo.",
+      "Con coñac en lugar de bourbon tienes el julep del siglo XIX."
+     ]
+    },
+    "de": {
+     "title": "Mint Julep",
+     "intro": "Bourbon, frische Minze und ein Berg Crushed Ice: der Drink des Kentucky Derby.",
+     "ing": [
+      "Bourbon",
+      "Zuckersirup (1:1)",
+      "Minzblätter",
+      "Minzzweig",
+      "Crushed Ice"
+     ],
+     "steps": [
+      "Gib Minzblätter und Sirup in einen Julep-Becher oder Tumbler und drück sie sanft an, ohne sie zu zerquetschen.",
+      "Gib den Bourbon dazu, füll das Glas halb mit Crushed Ice und rühr, bis es außen beschlägt.",
+      "Mit weiterem Crushed Ice kuppelförmig auffüllen und noch ein paar Sekunden rühren.",
+      "Schlag den Minzzweig kurz auf die Handfläche, damit er duftet, steck ihn neben einen kurzen Strohhalm und servier."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Fein zerstoßenes Eis ist alles: Eiswürfel in ein Geschirrtuch wickeln und mit dem Nudelholz zerschlagen.",
+      "Mit Cognac statt Bourbon wird daraus der Julep des 19. Jahrhunderts."
+     ]
+    }
+   }
+  }
+ ]
+}

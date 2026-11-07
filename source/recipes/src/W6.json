@@ -1,0 +1,5748 @@
+{
+ "group": "W6",
+ "recipes": [
+  {
+   "id": "pozole-rojo",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 160,
+   "diff": 2,
+   "kcal": 560,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "festive",
+    "party",
+    "comfort"
+   ],
+   "months": [],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "pork-shoulder"
+    },
+    {
+     "q": 800,
+     "u": "g",
+     "k": "canned-hominy"
+    },
+    {
+     "q": 5,
+     "u": "",
+     "k": "dried-guajillo-chilies"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "dried-ancho-chilies"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 5,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 2500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "white-cabbage"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "radishes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "tortilla-chips"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 5400,
+     "bg": true,
+     "alt": {
+      "pressure": {
+       "timer": 2100
+      }
+     }
+    },
+    {},
+    {
+     "timer": 1200
+    },
+    {},
+    {
+     "timer": 300
+    },
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "spice"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pozole rojo",
+     "intro": "Zuppa di maiale e mais pozolero al chile rosso, da condire a tavola.",
+     "ing": [
+      "spalla di maiale",
+      "mais pozolero in scatola, sgocciolato",
+      "peperoncini guajillo secchi",
+      "peperoncini ancho secchi",
+      "cipolla bianca",
+      "spicchi d'aglio",
+      "foglie di alloro",
+      "origano secco",
+      "cumino in polvere",
+      "olio di semi",
+      "acqua",
+      "sale",
+      "cavolo cappuccio",
+      "ravanelli",
+      "lime",
+      "tostadas o tortilla chips"
+     ],
+     "steps": [
+      "Taglia il maiale in pezzi da 5 cm e mettilo con l'acqua, mezza cipolla, 3 spicchi d'aglio, alloro e 2 cucchiaini di sale.",
+      "Porta a bollore, schiuma e fai sobbollire coperto a fuoco basso finché la carne è tenera.",
+      "Intanto apri i chili, togli semi e piccioli e tostali in padella asciutta 20 secondi per lato, senza bruciarli.",
+      "Coprili con un mestolo abbondante di brodo caldo della pentola e lasciali ammorbidire.",
+      "Frulla i chili con il liquido, 2 spicchi d'aglio, l'altra mezza cipolla, origano e cumino; passa al setaccio.",
+      "Scalda l'olio in una padella e friggi la salsa, mescolando, finché si scurisce e si addensa.",
+      "Togli cipolla e alloro dalla pentola, sfilaccia un po' la carne, unisci la salsa e il mais sciacquato e fai sobbollire.",
+      "Intanto affetta finissimo il cavolo, taglia i ravanelli a rondelle e il lime a spicchi.",
+      "Regola di sale e servi in ciotole fonde: ognuno aggiunge cavolo, ravanelli, origano, lime e tostadas."
+     ],
+     "labels": [
+      "",
+      "Maiale",
+      "",
+      "Chili",
+      "",
+      "Salsa",
+      "Pozole",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con l'origano messicano dei negozi latini, sbriciolato sopra a tavola, il profumo è quello giusto.",
+      "Con cosce di pollo al posto del maiale cuoce in 40 minuti ed è altrettanto tradizionale.",
+      "Il giorno dopo è ancora più buono: conserva il brodo a parte dalle guarnizioni crude."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Bollore e schiuma, poi chiudi la pentola a pressione e cuoci 35 minuti dal fischio; sfiata."
+      }
+     }
+    },
+    "en": {
+     "title": "Pozole rojo",
+     "intro": "Pork and hominy soup in red chili broth, topped at the table.",
+     "ing": [
+      "pork shoulder",
+      "canned hominy, drained",
+      "dried guajillo chilies",
+      "dried ancho chilies",
+      "white onion",
+      "garlic cloves",
+      "bay leaves",
+      "dried oregano",
+      "ground cumin",
+      "vegetable oil",
+      "water",
+      "salt",
+      "white cabbage",
+      "radishes",
+      "limes",
+      "tostadas or tortilla chips"
+     ],
+     "steps": [
+      "Cut the pork into 5 cm chunks and put it in a pot with the water, half the onion, 3 garlic cloves, the bay leaves and 2 tsp salt.",
+      "Bring to a boil, skim, then simmer covered over low heat until the meat is tender.",
+      "Meanwhile open the chilies, remove stems and seeds and toast them in a dry pan 20 seconds per side without burning.",
+      "Cover them with a generous ladle of hot broth from the pot and let them soften.",
+      "Blend the chilies with their liquid, 2 garlic cloves, the other half onion, oregano and cumin; strain.",
+      "Heat the oil in a pan and fry the sauce, stirring, until it darkens and thickens.",
+      "Remove the onion and bay from the pot, shred the meat a little, add the sauce and rinsed hominy and simmer.",
+      "Meanwhile finely shred the cabbage, slice the radishes into rounds and cut the limes into wedges.",
+      "Season with salt and serve in deep bowls: everyone adds cabbage, radish, oregano, lime and tostadas."
+     ],
+     "labels": [
+      "",
+      "Pork",
+      "",
+      "Chilies",
+      "",
+      "Sauce",
+      "Pozole",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mexican oregano from a Latin shop, crumbled over at the table, gives the authentic aroma.",
+      "With chicken thighs instead of pork it cooks in 40 minutes and is just as traditional.",
+      "It is even better the next day: keep the soup separate from the raw toppings."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Boil and skim, then lock the pressure cooker lid and cook 35 minutes at pressure; release."
+      }
+     }
+    },
+    "fr": {
+     "title": "Pozole rojo",
+     "intro": "Soupe de porc et maïs pozolero au piment rouge, garnie à table.",
+     "ing": [
+      "échine de porc",
+      "maïs pozolero en conserve, égoutté",
+      "piments guajillo séchés",
+      "piments ancho séchés",
+      "oignon blanc",
+      "gousses d'ail",
+      "feuilles de laurier",
+      "origan séché",
+      "cumin en poudre",
+      "huile neutre",
+      "eau",
+      "sel",
+      "chou blanc",
+      "radis",
+      "citrons verts",
+      "tostadas ou chips de tortilla"
+     ],
+     "steps": [
+      "Coupe le porc en morceaux de 5 cm et mets-le avec l'eau, un demi-oignon, 3 gousses d'ail, le laurier et 2 c. à café de sel.",
+      "Porte à ébullition, écume, puis laisse frémir à couvert à feu doux jusqu'à ce que la viande soit tendre.",
+      "Pendant ce temps, ouvre les piments, ôte queues et graines et toaste-les 20 secondes par face à sec, sans les brûler.",
+      "Couvre-les d'une bonne louche de bouillon chaud de la marmite et laisse-les ramollir.",
+      "Mixe les piments avec leur liquide, 2 gousses d'ail, l'autre demi-oignon, l'origan et le cumin ; passe au tamis.",
+      "Chauffe l'huile dans une poêle et fais frire la sauce en remuant jusqu'à ce qu'elle fonce et épaississe.",
+      "Retire oignon et laurier, effiloche un peu la viande, ajoute la sauce et le maïs rincé et laisse mijoter.",
+      "Pendant ce temps, émince finement le chou, coupe les radis en rondelles et les citrons verts en quartiers.",
+      "Rectifie le sel et sers dans des bols creux : chacun ajoute chou, radis, origan, citron vert et tostadas."
+     ],
+     "labels": [
+      "",
+      "Porc",
+      "",
+      "Piments",
+      "",
+      "Sauce",
+      "Pozole",
+      "",
+      ""
+     ],
+     "tips": [
+      "Avec de l'origan mexicain d'épicerie latine, émietté à table, le parfum est authentique.",
+      "Avec des hauts de cuisse de poulet au lieu du porc, il cuit en 40 minutes, tout aussi traditionnel.",
+      "Encore meilleur le lendemain : garde la soupe à part des garnitures crues."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Porte à ébullition, écume, ferme l'autocuiseur et compte 35 minutes après le sifflement."
+      }
+     }
+    },
+    "es": {
+     "title": "Pozole rojo",
+     "intro": "Caldo rojo de cerdo y maíz pozolero, que cada uno adereza en la mesa.",
+     "ing": [
+      "espaldilla de cerdo",
+      "maíz pozolero de lata, escurrido",
+      "chiles guajillo secos",
+      "chiles anchos secos",
+      "cebolla blanca",
+      "dientes de ajo",
+      "hojas de laurel",
+      "orégano seco",
+      "comino molido",
+      "aceite de girasol",
+      "agua",
+      "sal",
+      "repollo",
+      "rábanos",
+      "limas",
+      "tostadas o totopos"
+     ],
+     "steps": [
+      "Corta el cerdo en trozos de 5 cm y ponlo en una olla con el agua, media cebolla, 3 ajos, el laurel y 2 cucharaditas de sal.",
+      "Lleva a ebullición, espuma y deja hervir tapado a fuego bajo hasta que la carne esté tierna.",
+      "Mientras, abre los chiles, quítales rabo y semillas y tuéstalos en sartén seca 20 segundos por lado sin quemarlos.",
+      "Cúbrelos con un buen cucharón de caldo caliente de la olla y deja que se ablanden.",
+      "Tritura los chiles con su líquido, 2 ajos, la otra media cebolla, orégano y comino; cuela la salsa.",
+      "Calienta el aceite en una sartén y fríe la salsa, removiendo, hasta que se oscurezca y espese.",
+      "Retira la cebolla y el laurel, deshebra un poco la carne, añade la salsa y el maíz enjuagado y deja hervir suave.",
+      "Mientras, corta el repollo muy fino, los rábanos en rodajas y las limas en gajos.",
+      "Ajusta de sal y sirve en platos hondos: cada uno añade repollo, rábano, orégano, lima y tostadas."
+     ],
+     "labels": [
+      "",
+      "Cerdo",
+      "",
+      "Chiles",
+      "",
+      "Salsa",
+      "Pozole",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con orégano mexicano de tienda latina, desmoronado en la mesa, el aroma es el de verdad.",
+      "Con contramuslos de pollo en lugar de cerdo se hace en 40 minutos y es igual de tradicional.",
+      "Al día siguiente está aún más rico: guarda el caldo aparte de las guarniciones crudas."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Hierve y espuma, cierra la olla a presión y cuece 35 minutos desde que suba la válvula."
+      }
+     }
+    },
+    "de": {
+     "title": "Pozole rojo",
+     "intro": "Suppe aus Schwein und Hominy in roter Chilibrühe, am Tisch garniert.",
+     "ing": [
+      "Schweineschulter",
+      "Hominy aus der Dose, abgetropft",
+      "getrocknete Guajillo-Chilis",
+      "getrocknete Ancho-Chilis",
+      "weiße Zwiebel",
+      "Knoblauchzehen",
+      "Lorbeerblätter",
+      "getrockneter Oregano",
+      "gemahlener Kreuzkümmel",
+      "neutrales Öl",
+      "Wasser",
+      "Salz",
+      "Weißkohl",
+      "Radieschen",
+      "Limetten",
+      "Tostadas oder Tortilla-Chips"
+     ],
+     "steps": [
+      "Schneid das Fleisch in 5-cm-Stücke und gib es mit Wasser, halber Zwiebel, 3 Knoblauchzehen, Lorbeer und 2 TL Salz in einen Topf.",
+      "Aufkochen, abschäumen und zugedeckt bei schwacher Hitze köcheln lassen, bis das Fleisch weich ist.",
+      "Öffne inzwischen die Chilis, entferne Stiele und Kerne und röste sie 20 Sekunden pro Seite in einer trockenen Pfanne.",
+      "Übergieß sie mit einer großen Kelle heißer Brühe aus dem Topf und lass sie weich werden.",
+      "Püriere die Chilis mit der Flüssigkeit, 2 Knoblauchzehen, der halben Zwiebel, Oregano und Kreuzkümmel; passiere es.",
+      "Erhitz das Öl in einer Pfanne und brate die Sauce unter Rühren an, bis sie dunkler und dicker wird.",
+      "Nimm Zwiebel und Lorbeer heraus, zupf das Fleisch etwas auseinander, gib Sauce und abgespülten Hominy dazu und lass köcheln.",
+      "Schneid inzwischen den Kohl in feine Streifen, die Radieschen in Scheiben und die Limetten in Spalten.",
+      "Mit Salz abschmecken und in tiefen Schalen servieren: Jeder gibt Kohl, Radieschen, Oregano, Limette und Tostadas dazu."
+     ],
+     "labels": [
+      "",
+      "Schwein",
+      "",
+      "Chilis",
+      "",
+      "Sauce",
+      "Pozole",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mexikanischer Oregano aus dem Latino-Laden, am Tisch darübergerebelt, bringt das echte Aroma.",
+      "Mit Hähnchenschenkeln statt Schwein ist er in 40 Minuten fertig und genauso traditionell.",
+      "Am nächsten Tag noch besser: Bewahre die Suppe getrennt von den rohen Toppings auf."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Aufkochen, abschäumen, Schnellkochtopf schließen und 35 Minuten unter Druck garen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "mole-poblano",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 130,
+   "diff": 3,
+   "kcal": 720,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "festive",
+    "party"
+   ],
+   "months": [],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "chicken-pieces"
+    },
+    {
+     "q": 1500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "dried-ancho-chilies"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "dried-pasilla-chilies"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "lard"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "almonds"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "roasted-peanuts"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sesame-seeds"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "cloves"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "anise-seeds"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "black-pepper"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "raisins"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "corn-tortillas"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "dark-chocolate"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 2400,
+     "bg": true
+    },
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {
+     "timer": 180
+    },
+    {},
+    {
+     "timer": 480
+    },
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 1800
+    },
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Mole poblano, pollo in salsa di chili",
+     "intro": "La salsa delle feste di Puebla: chili secchi, frutta secca, spezie e cioccolato.",
+     "ing": [
+      "pollo a pezzi (cosce e sovracosce)",
+      "acqua",
+      "cipolla bianca",
+      "spicchi d'aglio",
+      "peperoncini ancho secchi",
+      "peperoncini pasilla secchi",
+      "strutto",
+      "mandorle con la pelle",
+      "arachidi tostate non salate",
+      "semi di sesamo",
+      "chiodi di garofano",
+      "semi di anice",
+      "pepe nero",
+      "uvetta",
+      "tortilla di mais rafferma",
+      "pomodori maturi",
+      "cannella in polvere",
+      "cioccolato fondente",
+      "zucchero",
+      "sale"
+     ],
+     "steps": [
+      "Metti il pollo con l'acqua, mezza cipolla, 1 spicchio d'aglio e sale; porta a bollore e cuoci a fuoco dolce finché è cotto.",
+      "Intanto togli piccioli e semi ai chili, tienine 1 cucchiaio, tostali 20 secondi per lato e mettili in acqua calda.",
+      "In 1 cucchiaio di strutto tosta mandorle, arachidi, 3 cucchiai di sesamo, i semi dei chili, chiodi, anice e pepe finché sono dorati.",
+      "Nella stessa padella fai gonfiare l'uvetta per pochi secondi, poi friggi la tortilla a pezzi finché è croccante.",
+      "Abbrustolisci pomodori, l'altra mezza cipolla e 2 spicchi d'aglio in padella finché sono anneriti qua e là.",
+      "Frulla tutto con i chili scolati, la cannella e 500 ml del brodo del pollo fino a una crema liscia; passala al setaccio.",
+      "Scalda 2 cucchiai di strutto in una pentola pesante, versa la salsa (schizza) e friggila mescolando finché si scurisce.",
+      "Aggiungi cioccolato, zucchero e 250 ml di brodo; cuoci a fuoco basso mescolando spesso finché vela il cucchiaio. Sala.",
+      "Unisci i pezzi di pollo scolati e lasciali insaporire nella salsa a fuoco dolce.",
+      "Servi il pollo coperto di mole, cospargi con il sesamo rimasto e accompagna con riso e tortillas calde."
+     ],
+     "labels": [
+      "Pollo",
+      "Chili",
+      "Tostatura",
+      "",
+      "Pomodori",
+      "",
+      "Mole",
+      "Mole",
+      "Pollo",
+      ""
+     ],
+     "tips": [
+      "Se trovi il chile mulato nei negozi latini, sostituisci 2 ancho: è il trio classico del mole poblano.",
+      "Con il cioccolato messicano da tavola, già dolce e alla cannella, ometti lo zucchero.",
+      "Il mole avanzato si congela bene; scaldato su tortillas ripiene di pollo diventa enmoladas."
+     ]
+    },
+    "en": {
+     "title": "Mole poblano with chicken",
+     "intro": "Puebla's festive sauce of dried chilies, nuts, spices and chocolate over chicken.",
+     "ing": [
+      "chicken pieces (legs and thighs)",
+      "water",
+      "white onion",
+      "garlic cloves",
+      "dried ancho chilies",
+      "dried pasilla chilies",
+      "lard",
+      "skin-on almonds",
+      "unsalted roasted peanuts",
+      "sesame seeds",
+      "cloves",
+      "aniseed",
+      "black pepper",
+      "raisins",
+      "stale corn tortilla",
+      "ripe tomatoes",
+      "ground cinnamon",
+      "dark chocolate",
+      "sugar",
+      "salt"
+     ],
+     "steps": [
+      "Put the chicken in the water with half the onion, 1 garlic clove and salt; bring to a boil and simmer until cooked through.",
+      "Meanwhile stem and seed the chilies, saving 1 tbsp seeds, toast 20 seconds per side and soak in hot water.",
+      "In 1 tbsp lard toast the almonds, peanuts, 3 tbsp sesame, chili seeds, cloves, aniseed and pepper until golden.",
+      "In the same pan, let the raisins puff for a few seconds, then fry the torn tortilla until crisp.",
+      "Char the tomatoes, the other half onion and 2 garlic cloves in the pan until blackened in spots.",
+      "Blend everything with the drained chilies, cinnamon and 500 ml of the chicken broth until very smooth; strain.",
+      "Heat 2 tbsp lard in a heavy pot, pour in the sauce (it spatters) and fry, stirring, until it darkens.",
+      "Add the chocolate, sugar and 250 ml broth; simmer on low, stirring often, until it coats a spoon. Salt to taste.",
+      "Add the drained chicken pieces and let them heat through in the sauce over low heat.",
+      "Serve the chicken smothered in mole, sprinkle with the remaining sesame and add rice and warm tortillas."
+     ],
+     "labels": [
+      "Chicken",
+      "Chilies",
+      "Toasting",
+      "",
+      "Tomatoes",
+      "",
+      "Mole",
+      "Mole",
+      "Chicken",
+      ""
+     ],
+     "tips": [
+      "If you find mulato chilies in a Latin shop, swap 2 anchos: it is the classic mole poblano trio.",
+      "With Mexican table chocolate, already sweet and spiced with cinnamon, leave out the sugar.",
+      "Leftover mole freezes well; spooned over chicken-filled tortillas it becomes enmoladas."
+     ]
+    },
+    "fr": {
+     "title": "Mole poblano au poulet",
+     "intro": "La sauce des fêtes de Puebla : piments séchés, fruits secs, épices et chocolat.",
+     "ing": [
+      "poulet en morceaux (cuisses)",
+      "eau",
+      "oignon blanc",
+      "gousses d'ail",
+      "piments ancho séchés",
+      "piments pasilla séchés",
+      "saindoux",
+      "amandes entières",
+      "cacahuètes grillées non salées",
+      "graines de sésame",
+      "clous de girofle",
+      "graines d'anis",
+      "poivre noir",
+      "raisins secs",
+      "tortilla de maïs rassise",
+      "tomates mûres",
+      "cannelle en poudre",
+      "chocolat noir",
+      "sucre",
+      "sel"
+     ],
+     "steps": [
+      "Mets le poulet dans l'eau avec un demi-oignon, 1 gousse d'ail et du sel ; porte à ébullition et cuis à feu doux.",
+      "Pendant ce temps, épépine les piments (garde 1 c. à soupe de graines), toaste-les 20 s par face et fais-les tremper.",
+      "Dans 1 c. à soupe de saindoux, fais dorer amandes, cacahuètes, 3 c. à soupe de sésame, graines de piment, girofle, anis et poivre.",
+      "Dans la même poêle, fais gonfler les raisins quelques secondes, puis fais frire la tortilla en morceaux.",
+      "Fais noircir par endroits les tomates, l'autre demi-oignon et 2 gousses d'ail dans la poêle.",
+      "Mixe le tout avec les piments égouttés, la cannelle et 500 ml du bouillon de poulet, puis passe au tamis.",
+      "Chauffe 2 c. à soupe de saindoux dans une cocotte, verse la sauce (ça éclabousse) et fais-la frire en remuant.",
+      "Ajoute chocolat, sucre et 250 ml de bouillon ; mijote à feu doux en remuant souvent jusqu'à napper la cuillère. Sale.",
+      "Ajoute les morceaux de poulet égouttés et laisse-les s'imprégner dans la sauce à feu doux.",
+      "Sers le poulet nappé de mole, parsème du sésame restant et accompagne de riz et de tortillas chaudes."
+     ],
+     "labels": [
+      "Poulet",
+      "Piments",
+      "Torréfaction",
+      "",
+      "Tomates",
+      "",
+      "Mole",
+      "Mole",
+      "Poulet",
+      ""
+     ],
+     "tips": [
+      "Si tu trouves du piment mulato en épicerie latine, remplace 2 anchos : c'est le trio classique.",
+      "Avec du chocolat mexicain à la cannelle, déjà sucré, supprime le sucre.",
+      "Le mole se congèle bien ; versé sur des tortillas farcies au poulet, il donne des enmoladas."
+     ]
+    },
+    "es": {
+     "title": "Mole poblano con pollo",
+     "intro": "La salsa de fiesta de Puebla: chiles secos, frutos secos, especias y chocolate.",
+     "ing": [
+      "pollo troceado (muslos y contramuslos)",
+      "agua",
+      "cebolla blanca",
+      "dientes de ajo",
+      "chiles anchos secos",
+      "chiles pasilla secos",
+      "manteca de cerdo",
+      "almendras con piel",
+      "cacahuetes tostados sin sal",
+      "ajonjolí",
+      "clavos de olor",
+      "anís en grano",
+      "pimienta negra",
+      "pasas",
+      "tortilla de maíz dura",
+      "tomates maduros",
+      "canela molida",
+      "chocolate negro",
+      "azúcar",
+      "sal"
+     ],
+     "steps": [
+      "Pon el pollo en el agua con media cebolla, 1 ajo y sal; lleva a ebullición y cuece a fuego suave hasta que esté hecho.",
+      "Mientras, quita rabo y semillas a los chiles (guarda 1 cucharada), tuéstalos 20 segundos por lado y remójalos en agua caliente.",
+      "En 1 cucharada de manteca tuesta almendras, cacahuetes, 3 cucharadas de ajonjolí, semillas de chile, clavos, anís y pimienta.",
+      "En la misma sartén infla las pasas unos segundos y luego fríe la tortilla en trozos hasta que cruja.",
+      "Asa en la sartén los tomates, la otra media cebolla y 2 ajos hasta que estén tatemados.",
+      "Tritura todo con los chiles escurridos, la canela y 500 ml del caldo del pollo hasta que quede liso; cuélalo.",
+      "Calienta 2 cucharadas de manteca en una olla gruesa, vierte la salsa (salpica) y fríela removiendo hasta que oscurezca.",
+      "Añade chocolate, azúcar y 250 ml de caldo; cuece a fuego bajo removiendo a menudo hasta que nape la cuchara. Sala.",
+      "Incorpora las piezas de pollo escurridas y deja que se calienten en la salsa a fuego suave.",
+      "Sirve el pollo bañado en mole, espolvorea el ajonjolí restante y acompaña con arroz y tortillas calientes."
+     ],
+     "labels": [
+      "Pollo",
+      "Chiles",
+      "Tostado",
+      "",
+      "Tomates",
+      "",
+      "Mole",
+      "Mole",
+      "Pollo",
+      ""
+     ],
+     "tips": [
+      "Si encuentras chile mulato en una tienda latina, cambia 2 anchos: es el trío clásico del mole poblano.",
+      "Con chocolate de mesa mexicano, ya dulce y con canela, no añadas azúcar.",
+      "El mole sobrante se congela bien; sobre tortillas rellenas de pollo se convierte en enmoladas."
+     ]
+    },
+    "de": {
+     "title": "Mole poblano mit Hähnchen",
+     "intro": "Pueblas Festtagssauce aus getrockneten Chilis, Nüssen, Gewürzen und Schokolade.",
+     "ing": [
+      "Hähnchenteile (Keulen und Schenkel)",
+      "Wasser",
+      "weiße Zwiebel",
+      "Knoblauchzehen",
+      "getrocknete Ancho-Chilis",
+      "getrocknete Pasilla-Chilis",
+      "Schweineschmalz",
+      "ungeschälte Mandeln",
+      "ungesalzene geröstete Erdnüsse",
+      "Sesamsamen",
+      "Gewürznelken",
+      "Anissamen",
+      "schwarzer Pfeffer",
+      "Rosinen",
+      "altbackene Maistortilla",
+      "reife Tomaten",
+      "gemahlener Zimt",
+      "Zartbitterschokolade",
+      "Zucker",
+      "Salz"
+     ],
+     "steps": [
+      "Gib das Hähnchen mit halber Zwiebel, 1 Knoblauchzehe und Salz ins Wasser, aufkochen und sanft garen, bis es durch ist.",
+      "Entferne inzwischen Stiele und Kerne (1 EL Kerne aufheben), röste die Chilis 20 Sekunden pro Seite und weiche sie heiß ein.",
+      "Röste in 1 EL Schmalz Mandeln, Erdnüsse, 3 EL Sesam, Chilikerne, Nelken, Anis und Pfeffer goldbraun.",
+      "Lass in derselben Pfanne die Rosinen kurz aufgehen und brate dann die zerrissene Tortilla knusprig.",
+      "Röste Tomaten, die halbe Zwiebel und 2 Knoblauchzehen in der Pfanne, bis sie stellenweise schwarz sind.",
+      "Püriere alles mit den abgetropften Chilis, Zimt und 500 ml Hühnerbrühe ganz fein und streich es durch ein Sieb.",
+      "Erhitz 2 EL Schmalz in einem schweren Topf, gieß die Sauce hinein (spritzt) und brate sie unter Rühren dunkler.",
+      "Gib Schokolade, Zucker und 250 ml Brühe dazu und köchle es unter häufigem Rühren, bis es den Löffel überzieht. Salzen.",
+      "Gib die abgetropften Hähnchenteile dazu und lass sie bei schwacher Hitze in der Sauce durchziehen.",
+      "Serviere das Hähnchen mit reichlich Mole, streu den restlichen Sesam darüber, dazu Reis und warme Tortillas."
+     ],
+     "labels": [
+      "Hähnchen",
+      "Chilis",
+      "Rösten",
+      "",
+      "Tomaten",
+      "",
+      "Mole",
+      "Mole",
+      "Hähnchen",
+      ""
+     ],
+     "tips": [
+      "Findest du Mulato-Chilis im Latino-Laden, ersetze 2 Anchos damit: das klassische Mole-Trio.",
+      "Mit mexikanischer Trinkschokolade, schon süß und mit Zimt, lässt du den Zucker weg.",
+      "Übrige Mole lässt sich gut einfrieren; über gefüllte Tortillas gegossen werden daraus Enmoladas."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cochinita-pibil",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 510,
+   "diff": 2,
+   "kcal": 650,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "pork-shoulder"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "achiote-paste"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "oranges"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "black-pepper"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 12,
+     "u": "",
+     "k": "corn-tortillas"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 14400
+    },
+    {
+     "alt": {
+      "pressure": {}
+     }
+    },
+    {
+     "timer": 12600,
+     "bg": true,
+     "alt": {
+      "pressure": {
+       "timer": 3600
+      }
+     }
+    },
+    {
+     "timer": 1800
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "spice"
+    }
+   ],
+   "methods": [
+    "oven",
+    "pressure"
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cochinita pibil",
+     "intro": "Maiale dello Yucatán marinato all'achiote e agrumi, cotto lento e sfilacciato.",
+     "ing": [
+      "spalla di maiale",
+      "pasta di achiote",
+      "arance",
+      "lime",
+      "spicchi d'aglio",
+      "cumino in polvere",
+      "origano secco",
+      "pepe nero macinato",
+      "sale",
+      "cipolle rosse",
+      "lime per le cipolle",
+      "peperoncino fresco piccante",
+      "tortillas di mais"
+     ],
+     "steps": [
+      "Frulla l'achiote con il succo di arance e 2 lime, l'aglio, cumino, 1 cucchiaino di origano, pepe e sale.",
+      "Taglia la carne in 6 pezzi grossi, ricoprili di marinata, copri e lascia in frigo (anche tutta la notte).",
+      "Scalda il forno a 160 °C. Fodera una pirofila con carta forno e alluminio, metti carne e marinata e chiudi a pacchetto.",
+      "Cuoci in forno finché la carne si sfalda con la forchetta.",
+      "Intanto affetta sottili le cipolle rosse e condiscile con il succo di 3 lime, sale, origano e il peperoncino a rondelle.",
+      "Sfilaccia la carne con due forchette direttamente nel suo sugo e regola di sale.",
+      "Scalda le tortillas in padella asciutta 30 secondi per lato, riempile di carne e completa con le cipolle."
+     ],
+     "labels": [
+      "",
+      "Marinatura",
+      "",
+      "Forno",
+      "Cipolle",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con il succo di arance amare, quelle siciliane da marmellata, al posto di arance e lime è come nello Yucatán.",
+      "Con le foglie di banano dei negozi asiatici, passate sulla fiamma, la carne prende un aroma erbaceo.",
+      "Il vero chile dello Yucatán è l'habanero: usane mezzo, è molto piccante."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Metti carne e marinata nella pentola a pressione con 100 ml d'acqua e chiudi il coperchio."
+      },
+      "3": {
+       "pressure": "Cuoci 60 minuti dal fischio a fuoco basso, poi lascia sfiatare da sola."
+      }
+     }
+    },
+    "en": {
+     "title": "Cochinita pibil",
+     "intro": "Yucatán pork marinated in achiote and citrus, slow-cooked and pulled.",
+     "ing": [
+      "pork shoulder",
+      "achiote paste",
+      "oranges",
+      "limes",
+      "garlic cloves",
+      "ground cumin",
+      "dried oregano",
+      "ground black pepper",
+      "salt",
+      "red onions",
+      "limes for the onions",
+      "hot fresh chili",
+      "corn tortillas"
+     ],
+     "steps": [
+      "Blend the achiote with the juice of the oranges and 2 limes, garlic, cumin, 1 tsp oregano, pepper and salt.",
+      "Cut the meat into 6 large pieces, coat them in the marinade, cover and refrigerate (overnight is fine).",
+      "Heat the oven to 160 °C. Line a dish with baking paper and foil, add meat and marinade and seal into a parcel.",
+      "Bake until the meat falls apart with a fork.",
+      "Meanwhile thinly slice the red onions and toss with the juice of 3 limes, salt, oregano and the sliced chili.",
+      "Shred the meat with two forks right in its juices and adjust the salt.",
+      "Warm the tortillas in a dry pan 30 seconds per side, fill with the pork and top with the pickled onions."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "Oven",
+      "Onions",
+      "",
+      ""
+     ],
+     "tips": [
+      "Bitter Seville orange juice instead of orange and lime makes it taste just like in Yucatán.",
+      "Banana leaves from an Asian shop, briefly passed over a flame, give the meat a grassy aroma.",
+      "The real Yucatán chili is the habanero: use only half, it is very hot."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Put the meat and marinade in the pressure cooker with 100 ml water and lock the lid."
+      },
+      "3": {
+       "pressure": "Cook 60 minutes at pressure over low heat, then let the pressure drop naturally."
+      }
+     }
+    },
+    "fr": {
+     "title": "Cochinita pibil",
+     "intro": "Porc du Yucatán mariné à l'achiote et aux agrumes, cuit longuement et effiloché.",
+     "ing": [
+      "échine de porc",
+      "pâte d'achiote",
+      "oranges",
+      "citrons verts",
+      "gousses d'ail",
+      "cumin en poudre",
+      "origan séché",
+      "poivre noir moulu",
+      "sel",
+      "oignons rouges",
+      "citrons verts pour les oignons",
+      "piment frais fort",
+      "tortillas de maïs"
+     ],
+     "steps": [
+      "Mixe l'achiote avec le jus des oranges et de 2 citrons verts, l'ail, le cumin, 1 c. à café d'origan, poivre et sel.",
+      "Coupe la viande en 6 gros morceaux, enrobe-les de marinade, couvre et laisse au frais (même toute la nuit).",
+      "Préchauffe le four à 160 °C. Tapisse un plat de papier cuisson et d'alu, ajoute viande et marinade et ferme en papillote.",
+      "Enfourne jusqu'à ce que la viande se défasse à la fourchette.",
+      "Pendant ce temps, émince les oignons rouges et mélange-les au jus de 3 citrons verts, sel, origan et piment émincé.",
+      "Effiloche la viande à deux fourchettes directement dans son jus et rectifie le sel.",
+      "Réchauffe les tortillas à sec 30 secondes par face, garnis-les de porc et ajoute les oignons marinés."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "Four",
+      "Oignons",
+      "",
+      ""
+     ],
+     "tips": [
+      "Avec du jus d'oranges amères (bigarades) au lieu d'orange et citron vert, c'est comme au Yucatán.",
+      "Avec des feuilles de bananier d'épicerie asiatique, passées sur la flamme, la viande prend un arôme herbacé.",
+      "Le vrai piment du Yucatán est le habanero : n'en mets que la moitié, il est très fort."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Mets la viande et la marinade dans l'autocuiseur avec 100 ml d'eau et ferme le couvercle."
+      },
+      "3": {
+       "pressure": "Cuis 60 minutes après le sifflement à feu doux, puis laisse la pression retomber seule."
+      }
+     }
+    },
+    "es": {
+     "title": "Cochinita pibil",
+     "intro": "Cerdo yucateco marinado en achiote y cítricos, cocido lento y deshebrado.",
+     "ing": [
+      "espaldilla de cerdo",
+      "pasta de achiote",
+      "naranjas",
+      "limas",
+      "dientes de ajo",
+      "comino molido",
+      "orégano seco",
+      "pimienta negra molida",
+      "sal",
+      "cebollas moradas",
+      "limas para la cebolla",
+      "chile fresco picante",
+      "tortillas de maíz"
+     ],
+     "steps": [
+      "Tritura el achiote con el zumo de las naranjas y 2 limas, el ajo, comino, 1 cucharadita de orégano, pimienta y sal.",
+      "Corta la carne en 6 trozos grandes, cúbrelos con el adobo, tapa y deja en la nevera (mejor toda la noche).",
+      "Precalienta el horno a 160 °C. Forra una fuente con papel de horno y aluminio, pon carne y adobo y cierra como un paquete.",
+      "Hornea hasta que la carne se deshaga con un tenedor.",
+      "Mientras, corta la cebolla morada en juliana fina y alíñala con el zumo de 3 limas, sal, orégano y el chile en rodajas.",
+      "Deshebra la carne con dos tenedores en su propio jugo y ajusta de sal.",
+      "Calienta las tortillas en sartén seca 30 segundos por lado, rellénalas de cochinita y pon la cebolla encima."
+     ],
+     "labels": [
+      "",
+      "Adobo",
+      "",
+      "Horno",
+      "Cebolla",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con zumo de naranja agria en lugar de naranja y lima queda igual que en Yucatán.",
+      "Con hojas de plátano de tienda asiática, pasadas por la llama, la carne toma un aroma herbáceo.",
+      "El chile de Yucatán es el habanero: usa solo medio, pica muchísimo."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Pon la carne y el adobo en la olla a presión con 100 ml de agua y ciérrala."
+      },
+      "3": {
+       "pressure": "Cuece 60 minutos desde que suba la válvula a fuego bajo y deja que baje sola."
+      }
+     }
+    },
+    "de": {
+     "title": "Cochinita pibil",
+     "intro": "Schwein aus Yucatán in Achiote und Zitrus mariniert, langsam gegart und gezupft.",
+     "ing": [
+      "Schweineschulter",
+      "Achiote-Paste",
+      "Orangen",
+      "Limetten",
+      "Knoblauchzehen",
+      "gemahlener Kreuzkümmel",
+      "getrockneter Oregano",
+      "gemahlener schwarzer Pfeffer",
+      "Salz",
+      "rote Zwiebeln",
+      "Limetten für die Zwiebeln",
+      "scharfe frische Chili",
+      "Maistortillas"
+     ],
+     "steps": [
+      "Püriere Achiote mit dem Saft der Orangen und 2 Limetten, Knoblauch, Kreuzkümmel, 1 TL Oregano, Pfeffer und Salz.",
+      "Schneid das Fleisch in 6 große Stücke, reib sie mit der Marinade ein und stell sie zugedeckt kalt (gern über Nacht).",
+      "Heiz den Ofen auf 160 °C vor. Leg eine Form mit Backpapier und Alufolie aus, Fleisch und Marinade hinein, dicht verschließen.",
+      "Im Ofen garen, bis das Fleisch mit der Gabel zerfällt.",
+      "Schneid inzwischen die roten Zwiebeln in feine Ringe und misch sie mit dem Saft von 3 Limetten, Salz, Oregano und Chili.",
+      "Zupf das Fleisch mit zwei Gabeln direkt im Bratensaft auseinander und schmeck mit Salz ab.",
+      "Erwärme die Tortillas 30 Sekunden pro Seite in einer trockenen Pfanne, füll sie mit Fleisch und gib Zwiebeln darauf."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "",
+      "Ofen",
+      "Zwiebeln",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mit Saft von Bitterorangen statt Orange und Limette schmeckt es wie in Yucatán.",
+      "Bananenblätter aus dem Asialaden, kurz über die Flamme gezogen, geben dem Fleisch ein grasiges Aroma.",
+      "Die echte Yucatán-Chili ist die Habanero: nimm nur eine halbe, sie ist sehr scharf."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Gib Fleisch und Marinade mit 100 ml Wasser in den Schnellkochtopf und schließ den Deckel."
+      },
+      "3": {
+       "pressure": "60 Minuten unter Druck bei schwacher Hitze garen, dann von selbst abdampfen lassen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "tacos-de-pescado-baja",
+   "cat": "unici",
+   "sub": "street",
+   "servings": 4,
+   "minutes": 40,
+   "diff": 2,
+   "kcal": 620,
+   "diet": [],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "white-fish-fillets"
+    },
+    {
+     "q": 170,
+     "u": "g",
+     "k": "00-flour"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "baking-powder"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 220,
+     "u": "ml",
+     "k": "lager-beer"
+    },
+    {
+     "q": 1000,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "mayonnaise",
+     "make": "maionese"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "sour-cream"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "white-cabbage"
+    },
+    {
+     "q": 12,
+     "u": "",
+     "k": "corn-tortillas"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "hot-sauce"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 240
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "pair",
+     "link": "pico-de-gallo"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tacos de pescado, pesce in pastella",
+     "intro": "Pesce in pastella alla birra, cavolo croccante e crema al lime, come a Ensenada.",
+     "ing": [
+      "filetti di pesce bianco (merluzzo o nasello)",
+      "farina 00",
+      "lievito per dolci",
+      "origano secco",
+      "sale",
+      "birra chiara ghiacciata",
+      "olio di semi per friggere",
+      "maionese",
+      "panna acida",
+      "lime",
+      "cavolo cappuccio",
+      "tortillas di mais",
+      "coriandolo fresco",
+      "salsa piccante"
+     ],
+     "steps": [
+      "Mescola maionese, panna acida, il succo di mezzo lime e un pizzico di sale; affetta finissimo il cavolo.",
+      "Taglia il pesce a listarelle di 2 x 10 cm, asciugalo, salalo e passalo in 2 cucchiai di farina.",
+      "Sbatti la farina rimasta con lievito, origano, sale e la birra ghiacciata fino a una pastella liscia e densa.",
+      "Scalda l'olio a 180 °C in una pentola dai bordi alti.",
+      "Immergi il pesce nella pastella e friggi pochi pezzi alla volta finché sono dorati e croccanti; scola su carta.",
+      "Scalda le tortillas in padella asciutta 30 secondi per lato e tienile avvolte in un canovaccio.",
+      "Componi: pesce, cavolo, crema, coriandolo, una spremuta di lime e salsa piccante a piacere."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Frittura",
+      "",
+      ""
+     ],
+     "tips": [
+      "Aggiungi un cucchiaio di pico de gallo su ogni taco.",
+      "La birra deve essere gelata: lo sbalzo di temperatura rende la pastella leggera e croccante.",
+      "Con gamberi sgusciati al posto del pesce diventano tacos de camarón, l'altro classico di Baja."
+     ]
+    },
+    "en": {
+     "title": "Baja fish tacos",
+     "intro": "Beer-battered fish, crunchy cabbage and lime crema, the way they make them in Ensenada.",
+     "ing": [
+      "white fish fillets (cod or hake)",
+      "all-purpose flour",
+      "baking powder",
+      "dried oregano",
+      "salt",
+      "ice-cold lager",
+      "vegetable oil for frying",
+      "mayonnaise",
+      "sour cream",
+      "limes",
+      "white cabbage",
+      "corn tortillas",
+      "fresh cilantro",
+      "hot sauce"
+     ],
+     "steps": [
+      "Mix the mayonnaise, sour cream, juice of half a lime and a pinch of salt; finely shred the cabbage.",
+      "Cut the fish into 2 x 10 cm strips, pat dry, salt and dust with 2 tbsp of the flour.",
+      "Whisk the remaining flour with baking powder, oregano, salt and the ice-cold beer into a smooth, thick batter.",
+      "Heat the oil to 180 °C in a deep pot.",
+      "Dip the fish in the batter and fry a few pieces at a time until golden and crisp; drain on paper.",
+      "Warm the tortillas in a dry pan 30 seconds per side and keep them wrapped in a tea towel.",
+      "Assemble: fish, cabbage, crema, cilantro, a squeeze of lime and hot sauce to taste."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Frying",
+      "",
+      ""
+     ],
+     "tips": [
+      "Add a spoonful of pico de gallo to each taco.",
+      "The beer must be ice-cold: the temperature shock keeps the batter light and crisp.",
+      "Use peeled shrimp instead of fish for tacos de camarón, the other Baja classic."
+     ]
+    },
+    "fr": {
+     "title": "Tacos de poisson façon Baja",
+     "intro": "Poisson en pâte à la bière, chou croquant et crème au citron vert, comme à Ensenada.",
+     "ing": [
+      "filets de poisson blanc (cabillaud ou merlu)",
+      "farine T55",
+      "levure chimique",
+      "origan séché",
+      "sel",
+      "bière blonde glacée",
+      "huile de friture",
+      "mayonnaise",
+      "crème aigre",
+      "citrons verts",
+      "chou blanc",
+      "tortillas de maïs",
+      "coriandre fraîche",
+      "sauce piquante"
+     ],
+     "steps": [
+      "Mélange mayonnaise, crème aigre, le jus d'un demi-citron vert et une pincée de sel ; émince finement le chou.",
+      "Coupe le poisson en lanières de 2 x 10 cm, sèche-les, sale et farine-les avec 2 c. à soupe de farine.",
+      "Fouette le reste de farine avec levure, origan, sel et la bière glacée jusqu'à une pâte lisse et épaisse.",
+      "Chauffe l'huile à 180 °C dans une casserole à bords hauts.",
+      "Plonge le poisson dans la pâte et fais frire quelques morceaux à la fois, bien dorés ; égoutte sur du papier.",
+      "Réchauffe les tortillas à sec 30 secondes par face et garde-les dans un torchon.",
+      "Monte : poisson, chou, crème, coriandre, un filet de citron vert et sauce piquante au goût."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Friture",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ajoute une cuillerée de pico de gallo sur chaque taco.",
+      "La bière doit être glacée : le choc thermique rend la pâte légère et croustillante.",
+      "Avec des crevettes décortiquées, ce sont des tacos de camarón, l'autre classique de Baja."
+     ]
+    },
+    "es": {
+     "title": "Tacos de pescado estilo Baja",
+     "intro": "Pescado capeado en cerveza, col crujiente y crema de lima, como en Ensenada.",
+     "ing": [
+      "filetes de pescado blanco (bacalao o merluza)",
+      "harina de trigo",
+      "levadura química",
+      "orégano seco",
+      "sal",
+      "cerveza clara muy fría",
+      "aceite para freír",
+      "mayonesa",
+      "crema agria",
+      "limas",
+      "repollo",
+      "tortillas de maíz",
+      "cilantro fresco",
+      "salsa picante"
+     ],
+     "steps": [
+      "Mezcla la mayonesa, la crema agria, el zumo de media lima y una pizca de sal; corta el repollo muy fino.",
+      "Corta el pescado en tiras de 2 x 10 cm, sécalo, sálalo y pásalo por 2 cucharadas de harina.",
+      "Bate el resto de la harina con la levadura, orégano, sal y la cerveza helada hasta una masa lisa y espesa.",
+      "Calienta el aceite a 180 °C en una olla honda.",
+      "Pasa el pescado por la masa y fríe pocas piezas a la vez hasta que estén doradas y crujientes; escurre.",
+      "Calienta las tortillas en sartén seca 30 segundos por lado y guárdalas envueltas en un paño.",
+      "Arma: pescado, repollo, crema, cilantro, un chorrito de lima y salsa picante al gusto."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Fritura",
+      "",
+      ""
+     ],
+     "tips": [
+      "Pon una cucharada de pico de gallo en cada taco.",
+      "La cerveza tiene que estar helada: el contraste de temperatura hace la masa ligera y crujiente.",
+      "Con camarones pelados en lugar de pescado son tacos de camarón, el otro clásico de Baja."
+     ]
+    },
+    "de": {
+     "title": "Baja Fisch-Tacos",
+     "intro": "Fisch im Bierteig, knackiger Kohl und Limettencreme, wie in Ensenada.",
+     "ing": [
+      "weiße Fischfilets (Kabeljau oder Seehecht)",
+      "Weizenmehl Type 405",
+      "Backpulver",
+      "getrockneter Oregano",
+      "Salz",
+      "eiskaltes helles Bier",
+      "Öl zum Frittieren",
+      "Mayonnaise",
+      "Schmand",
+      "Limetten",
+      "Weißkohl",
+      "Maistortillas",
+      "frischer Koriander",
+      "scharfe Sauce"
+     ],
+     "steps": [
+      "Verrühr Mayonnaise, Schmand, den Saft einer halben Limette und eine Prise Salz; hobel den Kohl fein.",
+      "Schneid den Fisch in 2 x 10 cm große Streifen, tupf ihn trocken, salze ihn und bestäub ihn mit 2 EL Mehl.",
+      "Schlag das restliche Mehl mit Backpulver, Oregano, Salz und dem eiskalten Bier zu einem glatten, dicken Teig.",
+      "Erhitz das Öl in einem hohen Topf auf 180 °C.",
+      "Zieh den Fisch durch den Teig und frittiere wenige Stücke auf einmal goldbraun und knusprig; abtropfen lassen.",
+      "Erwärme die Tortillas 30 Sekunden pro Seite in einer trockenen Pfanne und wickel sie in ein Tuch.",
+      "Belegen: Fisch, Kohl, Creme, Koriander, ein Spritzer Limette und nach Belieben scharfe Sauce."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Frittieren",
+      "",
+      ""
+     ],
+     "tips": [
+      "Gib auf jeden Taco einen Löffel Pico de Gallo.",
+      "Das Bier muss eiskalt sein: Der Temperaturschock macht den Teig leicht und knusprig.",
+      "Mit geschälten Garnelen statt Fisch werden daraus Tacos de Camarón, der andere Baja-Klassiker."
+     ]
+    }
+   }
+  },
+  {
+   "id": "chiles-en-nogada",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 80,
+   "diff": 3,
+   "kcal": 640,
+   "diet": [
+    "gf"
+   ],
+   "tags": [
+    "festive"
+   ],
+   "months": [
+    8,
+    9
+   ],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 4,
+     "u": "",
+     "k": "green-bell-peppers"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "walnuts"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 80,
+     "u": "g",
+     "k": "fresh-goat-cheese"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "ground-beef-pork"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "apples"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "pears"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "peaches"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "raisins"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "almonds"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "ground-cinnamon"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "pomegranates"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "parsley"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600
+    },
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {
+     "timer": 300
+    },
+    {},
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 900
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Chiles en nogada",
+     "intro": "Si racconta che nacquero a Puebla nel 1821, con i colori della bandiera messicana.",
+     "ing": [
+      "peperoni verdi grandi",
+      "gherigli di noce freschi",
+      "latte intero",
+      "caprino fresco",
+      "zucchero",
+      "olio di semi",
+      "cipolla bianca",
+      "spicchi d'aglio",
+      "macinato misto manzo e maiale",
+      "pomodori maturi",
+      "mela",
+      "pera",
+      "pesca",
+      "uvetta",
+      "mandorle pelate",
+      "cannella in polvere",
+      "sale",
+      "pepe nero",
+      "melagrana",
+      "prezzemolo"
+     ],
+     "steps": [
+      "Abbrustolisci i peperoni sotto il grill del forno a 250 °C, girandoli, finché la pelle è nera e gonfia.",
+      "Chiudili in una ciotola coperta con pellicola: il vapore farà staccare la pelle.",
+      "Intanto copri le noci con acqua bollente, poi strofinale tra le dita per togliere più pellicina possibile.",
+      "Frulla noci, latte, caprino, zucchero e un pizzico di sale fino a una salsa liscia e colante; mettila in frigo.",
+      "Pela i peperoni, incidili per il lungo e togli semi e filamenti lasciandoli interi.",
+      "Rosola cipolla e aglio tritati nell'olio, poi aggiungi la carne e falla dorare sgranandola.",
+      "Unisci pomodori grattugiati, mela, pera e pesca a dadini, uvetta, mandorle tritate, cannella, sale e pepe; cuoci finché è asciutto.",
+      "Riempi i peperoni con il picadillo e richiudili leggermente.",
+      "Servili tiepidi, coperti di nogada fredda, con chicchi di melagrana e foglie di prezzemolo."
+     ],
+     "labels": [
+      "Peperoni",
+      "Vapore",
+      "Noci",
+      "",
+      "",
+      "Carne",
+      "Ripieno",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con i veri chiles poblanos dei negozi latini il sapore è più profumato e appena piccante.",
+      "Nella versione capeada i peperoni ripieni si passano in uovo sbattuto a neve e si friggono."
+     ]
+    },
+    "en": {
+     "title": "Chiles en nogada",
+     "intro": "It is said they were created in Puebla in 1821, in the colours of the Mexican flag.",
+     "ing": [
+      "large green peppers",
+      "fresh walnut halves",
+      "whole milk",
+      "fresh goat cheese",
+      "sugar",
+      "vegetable oil",
+      "white onion",
+      "garlic cloves",
+      "ground beef and pork mix",
+      "ripe tomatoes",
+      "apple",
+      "pear",
+      "peach",
+      "raisins",
+      "blanched almonds",
+      "ground cinnamon",
+      "salt",
+      "black pepper",
+      "pomegranate",
+      "flat-leaf parsley"
+     ],
+     "steps": [
+      "Char the peppers under the oven grill at 250 °C, turning, until the skin is black and blistered.",
+      "Seal them in a bowl covered with cling film: the steam loosens the skin.",
+      "Meanwhile cover the walnuts with boiling water, then rub them between your fingers to remove as much skin as you can.",
+      "Blend the walnuts, milk, goat cheese, sugar and a pinch of salt into a smooth, pourable sauce; chill it.",
+      "Peel the peppers, slit them lengthwise and remove the seeds and ribs, keeping them whole.",
+      "Sauté the chopped onion and garlic in the oil, then add the meat and brown it, breaking it up.",
+      "Add grated tomatoes, diced apple, pear and peach, raisins, chopped almonds, cinnamon, salt and pepper; cook until dry.",
+      "Stuff the peppers with the picadillo and close them slightly.",
+      "Serve them lukewarm, covered with cold nogada and topped with pomegranate seeds and parsley leaves."
+     ],
+     "labels": [
+      "Peppers",
+      "Steam",
+      "Walnuts",
+      "",
+      "",
+      "Meat",
+      "Filling",
+      "",
+      ""
+     ],
+     "tips": [
+      "With real poblano chilies from a Latin shop the flavour is more fragrant and slightly hot.",
+      "For the capeado version, dip the stuffed peppers in whisked egg batter and fry them."
+     ]
+    },
+    "fr": {
+     "title": "Chiles en nogada",
+     "intro": "On raconte qu'ils sont nés à Puebla en 1821, aux couleurs du drapeau mexicain.",
+     "ing": [
+      "gros poivrons verts",
+      "cerneaux de noix fraîches",
+      "lait entier",
+      "chèvre frais",
+      "sucre",
+      "huile neutre",
+      "oignon blanc",
+      "gousses d'ail",
+      "haché mélangé bœuf et porc",
+      "tomates mûres",
+      "pomme",
+      "poire",
+      "pêche",
+      "raisins secs",
+      "amandes mondées",
+      "cannelle en poudre",
+      "sel",
+      "poivre noir",
+      "grenade",
+      "persil plat"
+     ],
+     "steps": [
+      "Fais griller les poivrons sous le gril du four à 250 °C en les tournant, jusqu'à ce que la peau noircisse.",
+      "Enferme-les dans un saladier couvert de film : la vapeur décolle la peau.",
+      "Pendant ce temps, couvre les noix d'eau bouillante, puis frotte-les entre tes doigts pour ôter le plus de peau possible.",
+      "Mixe noix, lait, chèvre, sucre et une pincée de sel jusqu'à une sauce lisse et nappante ; réserve au frais.",
+      "Pèle les poivrons, fends-les sur la longueur et retire graines et membranes en les gardant entiers.",
+      "Fais revenir oignon et ail hachés dans l'huile, puis ajoute la viande et fais-la dorer en l'émiettant.",
+      "Ajoute tomates râpées, pomme, poire et pêche en dés, raisins, amandes hachées, cannelle, sel et poivre ; cuis à sec.",
+      "Farcis les poivrons de picadillo et referme-les légèrement.",
+      "Sers-les tièdes, nappés de nogada froide, parsemés de grains de grenade et de feuilles de persil."
+     ],
+     "labels": [
+      "Poivrons",
+      "Vapeur",
+      "Noix",
+      "",
+      "",
+      "Viande",
+      "Farce",
+      "",
+      ""
+     ],
+     "tips": [
+      "Avec de vrais piments poblanos d'épicerie latine, le goût est plus parfumé et légèrement piquant.",
+      "Version capeado : passe les poivrons farcis dans des œufs battus en neige et fais-les frire."
+     ]
+    },
+    "es": {
+     "title": "Chiles en nogada",
+     "intro": "Se cuenta que nacieron en Puebla en 1821, con los colores de la bandera mexicana.",
+     "ing": [
+      "pimientos verdes grandes",
+      "nueces de Castilla peladas",
+      "leche entera",
+      "queso fresco de cabra",
+      "azúcar",
+      "aceite de girasol",
+      "cebolla blanca",
+      "dientes de ajo",
+      "carne picada mixta de res y cerdo",
+      "tomates maduros",
+      "manzana",
+      "pera",
+      "melocotón",
+      "pasas",
+      "almendras peladas",
+      "canela molida",
+      "sal",
+      "pimienta negra",
+      "granada",
+      "perejil"
+     ],
+     "steps": [
+      "Asa los pimientos bajo el grill del horno a 250 °C, girándolos, hasta que la piel esté negra y ampollada.",
+      "Mételos en un bol tapado con film: el vapor soltará la piel.",
+      "Mientras, cubre las nueces con agua hirviendo y frótalas entre los dedos para quitarles toda la piel que puedas.",
+      "Tritura nueces, leche, queso, azúcar y una pizca de sal hasta una salsa lisa y fluida; enfríala.",
+      "Pela los pimientos, ábrelos a lo largo y quítales semillas y venas sin romperlos.",
+      "Sofríe la cebolla y el ajo picados en el aceite, añade la carne y dórala desmenuzándola.",
+      "Añade tomate rallado, manzana, pera y melocotón en dados, pasas, almendras picadas, canela, sal y pimienta; cuece hasta secar.",
+      "Rellena los chiles con el picadillo y ciérralos un poco.",
+      "Sírvelos templados, bañados en nogada fría, con granos de granada y hojas de perejil."
+     ],
+     "labels": [
+      "Pimientos",
+      "Sudar",
+      "Nueces",
+      "",
+      "",
+      "Carne",
+      "Picadillo",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con chiles poblanos de verdad, de tienda latina, el sabor es más aromático y apenas picante.",
+      "En la versión capeada, los chiles rellenos se pasan por huevo batido a punto de nieve y se fríen."
+     ]
+    },
+    "de": {
+     "title": "Chiles en nogada",
+     "intro": "Man erzählt, sie entstanden 1821 in Puebla, in den Farben der mexikanischen Flagge.",
+     "ing": [
+      "große grüne Paprikaschoten",
+      "frische Walnusskerne",
+      "Vollmilch",
+      "Ziegenfrischkäse",
+      "Zucker",
+      "neutrales Öl",
+      "weiße Zwiebel",
+      "Knoblauchzehen",
+      "gemischtes Hackfleisch",
+      "reife Tomaten",
+      "Apfel",
+      "Birne",
+      "Pfirsich",
+      "Rosinen",
+      "geschälte Mandeln",
+      "gemahlener Zimt",
+      "Salz",
+      "schwarzer Pfeffer",
+      "Granatapfel",
+      "glatte Petersilie"
+     ],
+     "steps": [
+      "Röste die Paprika unter dem Ofengrill bei 250 °C unter Wenden, bis die Haut schwarz ist und Blasen wirft.",
+      "Gib sie in eine mit Folie abgedeckte Schüssel: Der Dampf löst die Haut.",
+      "Übergieß inzwischen die Walnüsse mit kochendem Wasser und reib so viel Haut wie möglich ab.",
+      "Püriere Walnüsse, Milch, Ziegenkäse, Zucker und eine Prise Salz zu einer glatten Sauce; kalt stellen.",
+      "Häute die Paprika, schlitz sie längs auf und entferne Kerne und Rippen, ohne sie zu zerreißen.",
+      "Dünste gehackte Zwiebel und Knoblauch im Öl an, gib das Hack dazu und brate es krümelig an.",
+      "Gib geriebene Tomaten, Apfel-, Birnen- und Pfirsichwürfel, Rosinen, Mandeln, Zimt, Salz und Pfeffer dazu; einkochen.",
+      "Füll die Paprika mit dem Picadillo und schließ sie leicht.",
+      "Serviere sie lauwarm mit kalter Nogada, Granatapfelkernen und Petersilienblättern."
+     ],
+     "labels": [
+      "Paprika",
+      "Dämpfen",
+      "Walnüsse",
+      "",
+      "",
+      "Fleisch",
+      "Füllung",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mit echten Poblano-Chilis aus dem Latino-Laden schmeckt es aromatischer und leicht scharf.",
+      "Für die Capeado-Variante tauchst du die gefüllten Paprika in Eischaum und frittierst sie."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pico-de-gallo",
+   "cat": "basi",
+   "sub": "salse",
+   "servings": 4,
+   "minutes": 20,
+   "diff": 1,
+   "kcal": 35,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "party"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 4,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "jalapenos"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "tacos-de-pescado-baja"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pico de gallo",
+     "intro": "Salsa cruda di pomodoro, cipolla, chili e coriandolo, tagliata al coltello.",
+     "ing": [
+      "pomodori sodi e maturi",
+      "cipolla bianca",
+      "peperoncino jalapeño",
+      "coriandolo fresco",
+      "lime",
+      "sale"
+     ],
+     "steps": [
+      "Taglia i pomodori a dadini di 5 mm, eliminando semi e parte acquosa.",
+      "Trita finemente la cipolla e sciacquala sotto l'acqua fredda per renderla più delicata; scolala bene.",
+      "Togli i semi al jalapeño se lo vuoi meno piccante e tritalo finissimo con il coriandolo.",
+      "Mescola tutto con il succo di lime e lascia riposare perché i sapori si uniscano.",
+      "Sala solo al momento di servire, con tacos, totopos o carne alla griglia."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Il sale fa buttare acqua ai pomodori: aggiungilo all'ultimo e la salsa resta croccante.",
+      "Perfetto sui tacos di pesce in pastella.",
+      "Con il serrano al posto del jalapeño è più vicino alla versione di Città del Messico."
+     ]
+    },
+    "en": {
+     "title": "Pico de gallo",
+     "intro": "Fresh salsa of tomato, onion, chili and cilantro, chopped by hand.",
+     "ing": [
+      "firm ripe tomatoes",
+      "white onion",
+      "jalapeño",
+      "fresh cilantro",
+      "lime",
+      "salt"
+     ],
+     "steps": [
+      "Dice the tomatoes into 5 mm cubes, discarding the seeds and watery pulp.",
+      "Finely chop the onion and rinse it under cold water to soften its bite; drain well.",
+      "Seed the jalapeño if you want it milder and mince it very finely with the cilantro.",
+      "Mix everything with the lime juice and let it rest so the flavours come together.",
+      "Salt only just before serving, with tacos, tortilla chips or grilled meat."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Rest",
+      ""
+     ],
+     "tips": [
+      "Salt draws water from the tomatoes: add it last and the salsa stays crisp.",
+      "Perfect on beer-battered fish tacos.",
+      "Use serrano instead of jalapeño for the Mexico City style."
+     ]
+    },
+    "fr": {
+     "title": "Pico de gallo",
+     "intro": "Salsa crue de tomate, oignon, piment et coriandre, coupée au couteau.",
+     "ing": [
+      "tomates mûres et fermes",
+      "oignon blanc",
+      "piment jalapeño",
+      "coriandre fraîche",
+      "citron vert",
+      "sel"
+     ],
+     "steps": [
+      "Coupe les tomates en dés de 5 mm, en retirant les graines et l'eau.",
+      "Hache finement l'oignon et rince-le à l'eau froide pour l'adoucir ; égoutte bien.",
+      "Épépine le jalapeño si tu le veux plus doux et hache-le très finement avec la coriandre.",
+      "Mélange le tout avec le jus de citron vert et laisse reposer pour que les saveurs se marient.",
+      "Sale juste avant de servir, avec des tacos, des chips de tortilla ou des grillades."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "Le sel fait rendre l'eau des tomates : ajoute-le au dernier moment, la salsa reste croquante.",
+      "Parfait sur les tacos de poisson en beignet.",
+      "Avec du serrano au lieu du jalapeño, c'est plus proche de la version de Mexico."
+     ]
+    },
+    "es": {
+     "title": "Pico de gallo",
+     "intro": "Salsa fresca de tomate, cebolla, chile y cilantro, picada a cuchillo.",
+     "ing": [
+      "tomates maduros y firmes",
+      "cebolla blanca",
+      "chile jalapeño",
+      "cilantro fresco",
+      "lima",
+      "sal"
+     ],
+     "steps": [
+      "Corta los tomates en dados de 5 mm, quitando semillas y la parte acuosa.",
+      "Pica fina la cebolla y enjuágala con agua fría para suavizarla; escúrrela bien.",
+      "Quita las semillas al jalapeño si lo quieres menos picante y pícalo muy fino con el cilantro.",
+      "Mezcla todo con el zumo de lima y deja reposar para que se integren los sabores.",
+      "Sala justo antes de servir, con tacos, totopos o carne asada."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "La sal hace que el tomate suelte agua: añádela al final y la salsa queda crujiente.",
+      "Perfecto sobre los tacos de pescado capeado.",
+      "Con chile serrano en lugar de jalapeño queda como en la Ciudad de México."
+     ]
+    },
+    "de": {
+     "title": "Pico de Gallo",
+     "intro": "Frische Salsa aus Tomate, Zwiebel, Chili und Koriander, von Hand gehackt.",
+     "ing": [
+      "reife, feste Tomaten",
+      "weiße Zwiebel",
+      "Jalapeño",
+      "frischer Koriander",
+      "Limette",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid die Tomaten in 5-mm-Würfel und entferne Kerne und wässriges Inneres.",
+      "Hack die Zwiebel fein und spül sie kalt ab, damit sie milder wird; gut abtropfen lassen.",
+      "Entkerne die Jalapeño, wenn du es milder magst, und hack sie mit dem Koriander sehr fein.",
+      "Misch alles mit dem Limettensaft und lass es ziehen, damit sich die Aromen verbinden.",
+      "Salz erst kurz vor dem Servieren; dazu Tacos, Tortilla-Chips oder Gegrilltes."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Ziehen",
+      ""
+     ],
+     "tips": [
+      "Salz zieht Wasser aus den Tomaten: Gib es zuletzt dazu, dann bleibt die Salsa knackig.",
+      "Passt perfekt zu Fisch-Tacos im Bierteig.",
+      "Mit Serrano statt Jalapeño schmeckt sie wie in Mexiko-Stadt."
+     ]
+    }
+   }
+  },
+  {
+   "id": "arroz-verde",
+   "cat": "primi",
+   "sub": "riso",
+   "servings": 4,
+   "minutes": 40,
+   "diff": 1,
+   "kcal": 330,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "budget"
+   ],
+   "months": [],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 300,
+     "u": "g",
+     "k": "long-grain-rice"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "cilantro"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "green-bell-peppers"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "jalapenos"
+    },
+    {
+     "q": 0.5,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 600,
+     "u": "ml",
+     "k": "vegetable-broth",
+     "make": "brodo-vegetale"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 300
+    },
+    {},
+    {
+     "timer": 1080
+    },
+    {
+     "timer": 300
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "cochinita-pibil"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Arroz verde, riso al coriandolo",
+     "intro": "Riso messicano cotto in un brodo frullato di coriandolo, prezzemolo e peperoncino.",
+     "ing": [
+      "riso a chicco lungo",
+      "coriandolo fresco",
+      "prezzemolo",
+      "peperone verde",
+      "peperoncino jalapeño",
+      "cipolla bianca",
+      "spicchi d'aglio",
+      "brodo vegetale tiepido",
+      "olio di semi",
+      "sale"
+     ],
+     "steps": [
+      "Sciacqua il riso in un colino finché l'acqua esce limpida e lascialo scolare bene.",
+      "Frulla coriandolo, prezzemolo, peperone, jalapeño, cipolla e aglio con il brodo tiepido (anche pronto) fino a renderlo liscio.",
+      "Scalda l'olio in una casseruola larga e tosta il riso a fuoco medio, mescolando, finché diventa opaco e appena dorato.",
+      "Versa il liquido verde, aggiungi il sale e porta a bollore.",
+      "Copri, abbassa al minimo e cuoci senza mai sollevare il coperchio.",
+      "Spegni e lascia riposare coperto, poi sgrana con una forchetta."
+     ],
+     "labels": [
+      "",
+      "",
+      "Riso",
+      "",
+      "Cottura",
+      "Riposo"
+     ],
+     "tips": [
+      "Frulla con brodo tiepido, non bollente: le erbe restano di un verde brillante.",
+      "Con un chile poblano al posto del peperone verde il riso è più profumato.",
+      "Accompagna benissimo la cochinita pibil."
+     ]
+    },
+    "en": {
+     "title": "Arroz verde (Mexican green rice)",
+     "intro": "Mexican rice cooked in a blended broth of cilantro, parsley and chili.",
+     "ing": [
+      "long-grain rice",
+      "fresh cilantro",
+      "flat-leaf parsley",
+      "green bell pepper",
+      "jalapeño",
+      "white onion",
+      "garlic cloves",
+      "lukewarm vegetable broth",
+      "vegetable oil",
+      "salt"
+     ],
+     "steps": [
+      "Rinse the rice in a sieve until the water runs clear and let it drain well.",
+      "Blend the cilantro, parsley, pepper, jalapeño, onion and garlic with the lukewarm broth (store-bought is fine) until smooth.",
+      "Heat the oil in a wide pan and toast the rice over medium heat, stirring, until opaque and lightly golden.",
+      "Pour in the green liquid, add the salt and bring to a boil.",
+      "Cover, turn the heat to the lowest setting and cook without lifting the lid.",
+      "Turn off the heat and let it rest covered, then fluff with a fork."
+     ],
+     "labels": [
+      "",
+      "",
+      "Rice",
+      "",
+      "Cooking",
+      "Rest"
+     ],
+     "tips": [
+      "Blend with lukewarm, not boiling, broth so the herbs stay bright green.",
+      "A poblano chili instead of the green pepper makes it more fragrant.",
+      "It goes beautifully with cochinita pibil."
+     ]
+    },
+    "fr": {
+     "title": "Arroz verde, riz vert mexicain",
+     "intro": "Riz mexicain cuit dans un bouillon mixé de coriandre, persil et piment.",
+     "ing": [
+      "riz long grain",
+      "coriandre fraîche",
+      "persil plat",
+      "poivron vert",
+      "piment jalapeño",
+      "oignon blanc",
+      "gousses d'ail",
+      "bouillon de légumes tiède",
+      "huile neutre",
+      "sel"
+     ],
+     "steps": [
+      "Rince le riz dans une passoire jusqu'à ce que l'eau soit claire et laisse-le bien égoutter.",
+      "Mixe coriandre, persil, poivron, jalapeño, oignon et ail avec le bouillon tiède (même tout prêt) jusqu'à ce que ce soit lisse.",
+      "Chauffe l'huile dans une sauteuse et fais revenir le riz à feu moyen en remuant, jusqu'à ce qu'il soit nacré et blond.",
+      "Verse le liquide vert, ajoute le sel et porte à ébullition.",
+      "Couvre, baisse au minimum et cuis sans jamais soulever le couvercle.",
+      "Éteins et laisse reposer à couvert, puis égrène à la fourchette."
+     ],
+     "labels": [
+      "",
+      "",
+      "Riz",
+      "",
+      "Cuisson",
+      "Repos"
+     ],
+     "tips": [
+      "Mixe avec du bouillon tiède, pas bouillant : les herbes restent d'un vert vif.",
+      "Avec un piment poblano à la place du poivron vert, le riz est plus parfumé.",
+      "Il accompagne parfaitement la cochinita pibil."
+     ]
+    },
+    "es": {
+     "title": "Arroz verde",
+     "intro": "Arroz mexicano cocido en un caldo licuado de cilantro, perejil y chile.",
+     "ing": [
+      "arroz de grano largo",
+      "cilantro fresco",
+      "perejil",
+      "pimiento verde",
+      "chile jalapeño",
+      "cebolla blanca",
+      "dientes de ajo",
+      "caldo de verduras templado",
+      "aceite de girasol",
+      "sal"
+     ],
+     "steps": [
+      "Lava el arroz en un colador hasta que el agua salga limpia y déjalo escurrir bien.",
+      "Licúa cilantro, perejil, pimiento, jalapeño, cebolla y ajo con el caldo templado (también de brik) hasta que quede liso.",
+      "Calienta el aceite en una cazuela ancha y sofríe el arroz a fuego medio, removiendo, hasta que esté opaco y apenas dorado.",
+      "Vierte el líquido verde, añade la sal y lleva a ebullición.",
+      "Tapa, baja al mínimo y cuece sin levantar la tapa.",
+      "Apaga y deja reposar tapado; luego suelta el arroz con un tenedor."
+     ],
+     "labels": [
+      "",
+      "",
+      "Arroz",
+      "",
+      "Cocción",
+      "Reposo"
+     ],
+     "tips": [
+      "Licúa con caldo templado, no hirviendo: las hierbas mantienen el verde intenso.",
+      "Con un chile poblano en lugar del pimiento verde el arroz queda más aromático.",
+      "Acompaña de maravilla a la cochinita pibil."
+     ]
+    },
+    "de": {
+     "title": "Arroz verde, grüner Reis",
+     "intro": "Mexikanischer Reis, in einer pürierten Brühe aus Koriander, Petersilie und Chili gegart.",
+     "ing": [
+      "Langkornreis",
+      "frischer Koriander",
+      "glatte Petersilie",
+      "grüne Paprikaschote",
+      "Jalapeño",
+      "weiße Zwiebel",
+      "Knoblauchzehen",
+      "lauwarme Gemüsebrühe",
+      "neutrales Öl",
+      "Salz"
+     ],
+     "steps": [
+      "Spül den Reis im Sieb, bis das Wasser klar ist, und lass ihn gut abtropfen.",
+      "Püriere Koriander, Petersilie, Paprika, Jalapeño, Zwiebel und Knoblauch mit der lauwarmen Brühe (auch fertige) glatt.",
+      "Erhitz das Öl in einem breiten Topf und röste den Reis bei mittlerer Hitze unter Rühren, bis er glasig und hellgolden ist.",
+      "Gieß die grüne Flüssigkeit an, salze und bring alles zum Kochen.",
+      "Deckel drauf, Hitze auf die kleinste Stufe und garen, ohne den Deckel zu heben.",
+      "Vom Herd nehmen, zugedeckt ruhen lassen und dann mit einer Gabel auflockern."
+     ],
+     "labels": [
+      "",
+      "",
+      "Reis",
+      "",
+      "Garen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Püriere mit lauwarmer, nicht kochender Brühe: So bleiben die Kräuter leuchtend grün.",
+      "Mit einer Poblano-Chili statt grüner Paprika wird der Reis aromatischer.",
+      "Passt wunderbar zu Cochinita Pibil."
+     ]
+    }
+   }
+  },
+  {
+   "id": "frijoles-de-olla",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 360,
+   "diff": 1,
+   "kcal": 290,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "budget",
+    "healthy"
+   ],
+   "months": [],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "dried-black-beans"
+    },
+    {
+     "q": 2000,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 1.5,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "cilantro"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 14400
+    },
+    {
+     "alt": {
+      "pressure": {}
+     }
+    },
+    {
+     "timer": 6000,
+     "alt": {
+      "pressure": {
+       "timer": 1800
+      }
+     }
+    },
+    {
+     "timer": 900
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "spice"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "i18n": {
+    "it": {
+     "title": "Frijoles de olla, fagioli neri",
+     "intro": "Fagioli neri cotti piano con cipolla e aglio, cremosi e serviti nel loro brodo.",
+     "ing": [
+      "fagioli neri secchi",
+      "acqua",
+      "cipolla bianca",
+      "spicchi d'aglio",
+      "foglia di alloro",
+      "sale",
+      "coriandolo fresco"
+     ],
+     "steps": [
+      "Sciacqua i fagioli eliminando eventuali sassolini e mettili in ammollo in abbondante acqua fredda (anche tutta la notte).",
+      "Scolali e mettili in pentola con l'acqua, mezza cipolla, l'aglio intero e l'alloro, senza sale; porta a bollore.",
+      "Cuoci semicoperto a fuoco basso finché sono cremosi, aggiungendo acqua calda se scoprono.",
+      "Aggiungi il sale e cuoci senza coperchio perché il brodo si addensi un po'.",
+      "Togli cipolla e alloro e servi in ciotoline con il brodo, la cipolla rimasta tritata e il coriandolo."
+     ],
+     "labels": [
+      "Ammollo",
+      "",
+      "Fagioli",
+      "Brodo",
+      ""
+     ],
+     "tips": [
+      "In Messico si aggiunge un rametto di epazote a fine cottura: lo trovi secco nei negozi latini.",
+      "Il giorno dopo schiacciali in padella con un filo d'olio: diventano frijoles refritos."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Scolali e mettili nella pentola a pressione con 1,5 l d'acqua, mezza cipolla, aglio e alloro, senza sale."
+      },
+      "2": {
+       "pressure": "Chiudi e cuoci 30 minuti dal fischio a fuoco basso, poi lascia sfiatare da sola e apri."
+      }
+     }
+    },
+    "en": {
+     "title": "Frijoles de olla (pot beans)",
+     "intro": "Black beans simmered slowly with onion and garlic, creamy and served in their broth.",
+     "ing": [
+      "dried black beans",
+      "water",
+      "white onion",
+      "garlic cloves",
+      "bay leaf",
+      "salt",
+      "fresh cilantro"
+     ],
+     "steps": [
+      "Rinse the beans, picking out any stones, and soak them in plenty of cold water (overnight is fine).",
+      "Drain and put them in a pot with the water, half the onion, the whole garlic and bay leaf, no salt; bring to a boil.",
+      "Simmer half-covered over low heat until creamy, adding hot water if they peek out.",
+      "Add the salt and cook uncovered so the broth thickens slightly.",
+      "Remove the onion and bay leaf and serve in small bowls with broth, the rest of the onion chopped and cilantro."
+     ],
+     "labels": [
+      "Soaking",
+      "",
+      "Beans",
+      "Broth",
+      ""
+     ],
+     "tips": [
+      "In Mexico a sprig of epazote goes in at the end: look for it dried in Latin shops.",
+      "The next day mash them in a pan with a little oil to make frijoles refritos."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Drain and put them in the pressure cooker with 1.5 l water, half the onion, garlic and bay leaf, no salt."
+      },
+      "2": {
+       "pressure": "Lock the lid and cook 30 minutes at pressure over low heat, then let it release naturally."
+      }
+     }
+    },
+    "fr": {
+     "title": "Frijoles de olla, haricots noirs",
+     "intro": "Haricots noirs mijotés avec oignon et ail, fondants, servis dans leur bouillon.",
+     "ing": [
+      "haricots noirs secs",
+      "eau",
+      "oignon blanc",
+      "gousses d'ail",
+      "feuille de laurier",
+      "sel",
+      "coriandre fraîche"
+     ],
+     "steps": [
+      "Rince les haricots en retirant les cailloux et fais-les tremper dans beaucoup d'eau froide (même toute la nuit).",
+      "Égoutte-les et mets-les dans une marmite avec l'eau, un demi-oignon, l'ail entier et le laurier, sans sel ; porte à ébullition.",
+      "Laisse cuire à demi-couvert à feu doux jusqu'à ce qu'ils soient fondants, en ajoutant de l'eau chaude si besoin.",
+      "Ajoute le sel et cuis sans couvercle pour que le bouillon épaississe un peu.",
+      "Retire oignon et laurier et sers en bols avec le bouillon, le reste de l'oignon haché et la coriandre."
+     ],
+     "labels": [
+      "Trempage",
+      "",
+      "Haricots",
+      "Bouillon",
+      ""
+     ],
+     "tips": [
+      "Au Mexique on ajoute un brin d'épazote en fin de cuisson : on le trouve séché en épicerie latine.",
+      "Le lendemain, écrase-les à la poêle avec un filet d'huile : ce sont des frijoles refritos."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Égoutte-les et mets-les dans l'autocuiseur avec 1,5 l d'eau, un demi-oignon, l'ail et le laurier, sans sel."
+      },
+      "2": {
+       "pressure": "Ferme et cuis 30 minutes après le sifflement à feu doux, puis laisse la pression retomber."
+      }
+     }
+    },
+    "es": {
+     "title": "Frijoles de olla",
+     "intro": "Frijoles negros cocidos despacio con cebolla y ajo, servidos en su caldo.",
+     "ing": [
+      "frijoles negros secos",
+      "agua",
+      "cebolla blanca",
+      "dientes de ajo",
+      "hoja de laurel",
+      "sal",
+      "cilantro fresco"
+     ],
+     "steps": [
+      "Lava los frijoles quitando piedritas y ponlos en remojo en abundante agua fría (mejor toda la noche).",
+      "Escúrrelos y ponlos en la olla con el agua, media cebolla, los ajos enteros y el laurel, sin sal; lleva a ebullición.",
+      "Cuece medio tapado a fuego bajo hasta que estén cremosos, añadiendo agua caliente si se quedan sin caldo.",
+      "Añade la sal y cuece destapado para que el caldo espese un poco.",
+      "Retira la cebolla y el laurel y sirve en tazones con su caldo, la cebolla restante picada y cilantro."
+     ],
+     "labels": [
+      "Remojo",
+      "",
+      "Frijoles",
+      "Caldo",
+      ""
+     ],
+     "tips": [
+      "En México se añade una ramita de epazote al final: lo encuentras seco en tiendas latinas.",
+      "Al día siguiente machácalos en la sartén con un poco de aceite: frijoles refritos."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Escúrrelos y ponlos en la olla a presión con 1,5 l de agua, media cebolla, ajo y laurel, sin sal."
+      },
+      "2": {
+       "pressure": "Cierra y cuece 30 minutos desde que suba la válvula a fuego bajo; deja que baje sola."
+      }
+     }
+    },
+    "de": {
+     "title": "Frijoles de olla, schwarze Bohnen",
+     "intro": "Schwarze Bohnen, langsam mit Zwiebel und Knoblauch gegart und in ihrer Brühe serviert.",
+     "ing": [
+      "getrocknete schwarze Bohnen",
+      "Wasser",
+      "weiße Zwiebel",
+      "Knoblauchzehen",
+      "Lorbeerblatt",
+      "Salz",
+      "frischer Koriander"
+     ],
+     "steps": [
+      "Spül die Bohnen, sortier Steinchen aus und weiche sie in reichlich kaltem Wasser ein (gern über Nacht).",
+      "Abgießen und mit Wasser, halber Zwiebel, ganzem Knoblauch und Lorbeer, ohne Salz, in einen Topf geben; aufkochen.",
+      "Halb zugedeckt bei schwacher Hitze weich köcheln, bei Bedarf heißes Wasser nachgießen.",
+      "Salz dazugeben und ohne Deckel kochen, bis die Brühe etwas eindickt.",
+      "Nimm Zwiebel und Lorbeer heraus und serviere die Bohnen mit Brühe, gehackter Zwiebel und Koriander."
+     ],
+     "labels": [
+      "Einweichen",
+      "",
+      "Bohnen",
+      "Brühe",
+      ""
+     ],
+     "tips": [
+      "In Mexiko kommt am Ende ein Zweig Epazote dazu: getrocknet im Latino-Laden erhältlich.",
+      "Am nächsten Tag in der Pfanne mit etwas Öl zerdrücken: So entstehen Frijoles refritos."
+     ],
+     "alt": {
+      "1": {
+       "pressure": "Abgießen und mit 1,5 l Wasser, halber Zwiebel, Knoblauch und Lorbeer, ohne Salz, in den Schnellkochtopf geben."
+      },
+      "2": {
+       "pressure": "Schließen und 30 Minuten unter Druck bei schwacher Hitze garen, dann von selbst abdampfen lassen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "agua-de-jamaica",
+   "cat": "bevande",
+   "sub": "fresche",
+   "servings": 4,
+   "minutes": 85,
+   "diff": 1,
+   "kcal": 100,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party",
+    "budget"
+   ],
+   "months": [],
+   "origin": "MX",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 40,
+     "u": "g",
+     "k": "dried-hibiscus"
+    },
+    {
+     "q": 500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 1000,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 300
+    },
+    {
+     "timer": 900
+    },
+    {},
+    {
+     "timer": 3600
+    }
+   ],
+   "tips": [
+    {
+     "k": "spice"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Agua de jamaica, infuso di ibisco",
+     "intro": "Bibita rubino di fiori di ibisco, acidula e dissetante, da servire ghiacciata.",
+     "ing": [
+      "fiori di ibisco essiccati (karkadè)",
+      "acqua per l'infuso",
+      "zucchero",
+      "acqua fredda",
+      "lime",
+      "ghiaccio"
+     ],
+     "steps": [
+      "Sciacqua velocemente i fiori di ibisco in un colino.",
+      "Porta a bollore 500 ml d'acqua, aggiungi i fiori e fai sobbollire.",
+      "Spegni, aggiungi lo zucchero, mescola e lascia in infusione.",
+      "Filtra in una caraffa premendo i fiori, aggiungi l'acqua fredda e il succo di lime; assaggia e regola lo zucchero.",
+      "Metti in frigo e servi in bicchieri pieni di ghiaccio."
+     ],
+     "labels": [
+      "",
+      "Ibisco",
+      "Infusione",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "Metti una stecca di cannella e 2 chiodi di garofano nell'infuso per una versione invernale.",
+      "I fiori usati, saltati con cipolla e aglio, sono un ripieno vegetale per tacos."
+     ]
+    },
+    "en": {
+     "title": "Agua de jamaica (hibiscus drink)",
+     "intro": "A ruby-red hibiscus drink, tart and refreshing, served over ice.",
+     "ing": [
+      "dried hibiscus flowers",
+      "water for steeping",
+      "sugar",
+      "cold water",
+      "lime",
+      "ice"
+     ],
+     "steps": [
+      "Quickly rinse the hibiscus flowers in a sieve.",
+      "Bring 500 ml water to a boil, add the flowers and simmer.",
+      "Turn off the heat, stir in the sugar and let it steep.",
+      "Strain into a jug, pressing the flowers, add the cold water and lime juice; taste and adjust the sugar.",
+      "Chill in the fridge and serve in glasses full of ice."
+     ],
+     "labels": [
+      "",
+      "Hibiscus",
+      "Steeping",
+      "",
+      "Chill"
+     ],
+     "tips": [
+      "Add a cinnamon stick and 2 cloves while steeping for a wintry version.",
+      "The used flowers, sautéed with onion and garlic, make a meatless taco filling."
+     ]
+    },
+    "fr": {
+     "title": "Agua de jamaica, boisson d'hibiscus",
+     "intro": "Boisson rubis aux fleurs d'hibiscus, acidulée et désaltérante, servie glacée.",
+     "ing": [
+      "fleurs d'hibiscus séchées (bissap)",
+      "eau pour l'infusion",
+      "sucre",
+      "eau froide",
+      "citron vert",
+      "glaçons"
+     ],
+     "steps": [
+      "Rince rapidement les fleurs d'hibiscus dans une passoire.",
+      "Porte 500 ml d'eau à ébullition, ajoute les fleurs et laisse frémir.",
+      "Éteins, ajoute le sucre, mélange et laisse infuser.",
+      "Filtre dans une carafe en pressant les fleurs, ajoute l'eau froide et le jus de citron vert ; ajuste le sucre.",
+      "Mets au frais et sers dans des verres remplis de glaçons."
+     ],
+     "labels": [
+      "",
+      "Hibiscus",
+      "Infusion",
+      "",
+      "Frigo"
+     ],
+     "tips": [
+      "Ajoute un bâton de cannelle et 2 clous de girofle à l'infusion pour une version d'hiver.",
+      "Les fleurs utilisées, sautées avec oignon et ail, font une garniture végétale pour tacos."
+     ]
+    },
+    "es": {
+     "title": "Agua de jamaica",
+     "intro": "Bebida color rubí de flor de jamaica, ácida y refrescante, servida con hielo.",
+     "ing": [
+      "flor de jamaica seca",
+      "agua para la infusión",
+      "azúcar",
+      "agua fría",
+      "lima",
+      "hielo"
+     ],
+     "steps": [
+      "Enjuaga rápidamente la flor de jamaica en un colador.",
+      "Hierve 500 ml de agua, añade las flores y deja hervir suave.",
+      "Apaga, añade el azúcar, remueve y deja reposar.",
+      "Cuela en una jarra presionando las flores, añade el agua fría y el zumo de lima; prueba y ajusta el azúcar.",
+      "Enfría en la nevera y sirve en vasos llenos de hielo."
+     ],
+     "labels": [
+      "",
+      "Jamaica",
+      "Infusión",
+      "",
+      "Nevera"
+     ],
+     "tips": [
+      "Añade una rama de canela y 2 clavos a la infusión para una versión de invierno.",
+      "Las flores usadas, salteadas con cebolla y ajo, son un relleno vegetal para tacos."
+     ]
+    },
+    "de": {
+     "title": "Agua de Jamaica, Hibiskusgetränk",
+     "intro": "Rubinrotes Getränk aus Hibiskusblüten, säuerlich und erfrischend, eiskalt serviert.",
+     "ing": [
+      "getrocknete Hibiskusblüten",
+      "Wasser zum Aufkochen",
+      "Zucker",
+      "kaltes Wasser",
+      "Limette",
+      "Eiswürfel"
+     ],
+     "steps": [
+      "Spül die Hibiskusblüten kurz im Sieb ab.",
+      "Bring 500 ml Wasser zum Kochen, gib die Blüten dazu und lass sie köcheln.",
+      "Vom Herd nehmen, Zucker einrühren und ziehen lassen.",
+      "In einen Krug abseihen, Blüten ausdrücken, kaltes Wasser und Limettensaft dazu; Zucker abschmecken.",
+      "Kalt stellen und in Gläsern mit viel Eis servieren."
+     ],
+     "labels": [
+      "",
+      "Hibiskus",
+      "Ziehen",
+      "",
+      "Kühlen"
+     ],
+     "tips": [
+      "Gib eine Zimtstange und 2 Nelken mit ins Wasser, dann schmeckt es winterlich.",
+      "Die ausgekochten Blüten, mit Zwiebel und Knoblauch gebraten, ergeben eine vegetarische Taco-Füllung."
+     ]
+    }
+   }
+  },
+  {
+   "id": "pastitsio",
+   "cat": "unici",
+   "sub": "torte",
+   "servings": 4,
+   "minutes": 130,
+   "diff": 2,
+   "kcal": 820,
+   "diet": [],
+   "tags": [
+    "comfort",
+    "party"
+   ],
+   "months": [],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "ground-beef"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "red-wine"
+    },
+    {
+     "q": 250,
+     "u": "ml",
+     "k": "tomato-passata"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "cloves"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "bucatini"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 90,
+     "u": "g",
+     "k": "pecorino-romano"
+    },
+    {
+     "q": 700,
+     "u": "ml",
+     "k": "bechamel",
+     "make": "besciamella"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600
+    },
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {
+     "timer": 480
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 2700
+    },
+    {
+     "timer": 1200
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Pastítsio, pasticcio greco di pasta",
+     "intro": "Pasta, ragù alla cannella e una spessa besciamella dorata: il gratin della domenica greca.",
+     "ing": [
+      "olio extravergine d'oliva",
+      "cipolla",
+      "spicchi d'aglio",
+      "macinato di manzo",
+      "vino rosso secco",
+      "passata di pomodoro",
+      "concentrato di pomodoro",
+      "stecca di cannella",
+      "chiodi di garofano",
+      "acqua",
+      "bucatini o ziti",
+      "uova",
+      "pecorino grattugiato",
+      "besciamella",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Rosola la cipolla tritata nell'olio, poi aggiungi aglio e carne e falla dorare bene sgranandola.",
+      "Sfuma col vino, poi unisci passata, concentrato, cannella, chiodi, acqua, sale e pepe; cuoci finché è denso.",
+      "Intanto cuoci la pasta in acqua salata 2 minuti meno del tempo indicato e scolala.",
+      "Condisci la pasta con 1 uovo sbattuto e un terzo del formaggio.",
+      "Unisci alla besciamella tiepida (anche pronta) 2 tuorli e un altro terzo del formaggio, mescolando bene.",
+      "In una pirofila unta da 20 x 28 cm stendi metà pasta, il ragù senza cannella e chiodi, poi il resto della pasta.",
+      "Copri con la besciamella, cospargi il formaggio rimasto e cuoci in forno a 180 °C finché è ben dorato.",
+      "Lascia riposare prima di tagliare, così le fette restano compatte."
+     ],
+     "labels": [
+      "Carne",
+      "Ragù",
+      "Pasta",
+      "",
+      "",
+      "",
+      "Forno",
+      "Riposo"
+     ],
+     "tips": [
+      "Con il kefalotyri grattugiato dei negozi greci al posto del pecorino il sapore è quello di Atene.",
+      "Il giorno dopo si taglia ancora meglio: scalda le fette in forno a 160 °C per 15 minuti."
+     ]
+    },
+    "en": {
+     "title": "Pastitsio (Greek baked pasta)",
+     "intro": "Pasta, cinnamon-scented meat sauce and a thick golden béchamel: Greece's Sunday bake.",
+     "ing": [
+      "extra-virgin olive oil",
+      "onion",
+      "garlic cloves",
+      "ground beef",
+      "dry red wine",
+      "tomato passata",
+      "tomato paste",
+      "cinnamon stick",
+      "cloves",
+      "water",
+      "bucatini or ziti",
+      "eggs",
+      "grated pecorino",
+      "béchamel sauce",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Sauté the chopped onion in the oil, then add the garlic and beef and brown well, breaking it up.",
+      "Deglaze with the wine, then add passata, paste, cinnamon, cloves, water, salt and pepper; simmer until thick.",
+      "Meanwhile cook the pasta in salted water 2 minutes less than the package says and drain.",
+      "Toss the pasta with 1 beaten egg and a third of the cheese.",
+      "Stir 2 egg yolks and another third of the cheese into the warm béchamel (store-bought is fine).",
+      "In an oiled 20 x 28 cm dish layer half the pasta, the meat sauce without cinnamon and cloves, then the rest of the pasta.",
+      "Cover with the béchamel, sprinkle with the remaining cheese and bake at 180 °C until deep golden.",
+      "Let it rest before cutting so the slices hold their shape."
+     ],
+     "labels": [
+      "Meat",
+      "Sauce",
+      "Pasta",
+      "",
+      "",
+      "",
+      "Oven",
+      "Rest"
+     ],
+     "tips": [
+      "Grated kefalotyri from a Greek shop instead of pecorino gives it the true Athenian taste.",
+      "It slices even better the next day: reheat portions at 160 °C for 15 minutes."
+     ]
+    },
+    "fr": {
+     "title": "Pastitsio, gratin de pâtes grec",
+     "intro": "Pâtes, sauce à la viande à la cannelle et béchamel dorée : le gratin du dimanche grec.",
+     "ing": [
+      "huile d'olive vierge extra",
+      "oignon",
+      "gousses d'ail",
+      "bœuf haché",
+      "vin rouge sec",
+      "coulis de tomate",
+      "concentré de tomate",
+      "bâton de cannelle",
+      "clous de girofle",
+      "eau",
+      "bucatini ou ziti",
+      "œufs",
+      "pecorino râpé",
+      "béchamel",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Fais revenir l'oignon haché dans l'huile, ajoute l'ail et la viande et fais bien dorer en émiettant.",
+      "Déglace au vin, puis ajoute coulis, concentré, cannelle, girofle, eau, sel et poivre ; mijote jusqu'à épaissir.",
+      "Pendant ce temps, cuis les pâtes à l'eau salée 2 minutes de moins qu'indiqué et égoutte-les.",
+      "Mélange les pâtes avec 1 œuf battu et un tiers du fromage.",
+      "Incorpore 2 jaunes et un autre tiers du fromage à la béchamel tiède (même toute prête).",
+      "Dans un plat huilé de 20 x 28 cm, étale la moitié des pâtes, la sauce sans cannelle ni girofle, puis le reste des pâtes.",
+      "Couvre de béchamel, parsème du reste de fromage et enfourne à 180 °C jusqu'à ce que ce soit bien doré.",
+      "Laisse reposer avant de couper pour que les parts se tiennent."
+     ],
+     "labels": [
+      "Viande",
+      "Sauce",
+      "Pâtes",
+      "",
+      "",
+      "",
+      "Four",
+      "Repos"
+     ],
+     "tips": [
+      "Avec du kefalotyri râpé d'épicerie grecque au lieu du pecorino, le goût est celui d'Athènes.",
+      "Le lendemain, il se coupe encore mieux : réchauffe les parts 15 minutes à 160 °C."
+     ]
+    },
+    "es": {
+     "title": "Pastitsio, pastel griego de pasta",
+     "intro": "Pasta, ragú con canela y una gruesa bechamel dorada: el horneado del domingo griego.",
+     "ing": [
+      "aceite de oliva virgen extra",
+      "cebolla",
+      "dientes de ajo",
+      "carne picada de ternera",
+      "vino tinto seco",
+      "tomate triturado",
+      "concentrado de tomate",
+      "rama de canela",
+      "clavos",
+      "agua",
+      "bucatini o macarrones largos",
+      "huevos",
+      "queso pecorino rallado",
+      "bechamel",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Sofríe la cebolla picada en el aceite, añade el ajo y la carne y dórala bien desmenuzándola.",
+      "Riega con el vino y añade tomate, concentrado, canela, clavos, agua, sal y pimienta; cuece hasta que espese.",
+      "Mientras, cuece la pasta en agua con sal 2 minutos menos de lo indicado y escúrrela.",
+      "Mezcla la pasta con 1 huevo batido y un tercio del queso.",
+      "Añade a la bechamel templada (también comprada) 2 yemas y otro tercio del queso, removiendo bien.",
+      "En una fuente untada de 20 x 28 cm pon media pasta, el ragú sin canela ni clavos y luego el resto de la pasta.",
+      "Cubre con la bechamel, espolvorea el queso restante y hornea a 180 °C hasta que esté bien dorado.",
+      "Deja reposar antes de cortar para que las porciones queden firmes."
+     ],
+     "labels": [
+      "Carne",
+      "Ragú",
+      "Pasta",
+      "",
+      "",
+      "",
+      "Horno",
+      "Reposo"
+     ],
+     "tips": [
+      "Con kefalotyri rallado de tienda griega en lugar de pecorino sabe como en Atenas.",
+      "Al día siguiente se corta aún mejor: calienta las porciones en el horno a 160 °C 15 minutos."
+     ]
+    },
+    "de": {
+     "title": "Pastitsio, griechischer Nudelauflauf",
+     "intro": "Nudeln, Hacksauce mit Zimt und dicke goldene Béchamel: der griechische Sonntagsauflauf.",
+     "ing": [
+      "natives Olivenöl extra",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "Rinderhackfleisch",
+      "trockener Rotwein",
+      "passierte Tomaten",
+      "Tomatenmark",
+      "Zimtstange",
+      "Gewürznelken",
+      "Wasser",
+      "Bucatini oder Zite",
+      "Eier",
+      "geriebener Pecorino",
+      "Béchamelsauce",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Dünste die gehackte Zwiebel im Öl an, gib Knoblauch und Hack dazu und brate es krümelig braun.",
+      "Mit Wein ablöschen, dann Tomaten, Mark, Zimt, Nelken, Wasser, Salz und Pfeffer dazu; dick einköcheln.",
+      "Koch inzwischen die Nudeln in Salzwasser 2 Minuten kürzer als angegeben und gieß sie ab.",
+      "Misch die Nudeln mit 1 verquirlten Ei und einem Drittel des Käses.",
+      "Rühr 2 Eigelb und ein weiteres Drittel des Käses unter die lauwarme Béchamel (auch fertige).",
+      "Schichte in einer geölten Form (20 x 28 cm) die Hälfte der Nudeln, die Sauce ohne Zimt und Nelken und den Rest Nudeln.",
+      "Mit Béchamel bedecken, restlichen Käse darüberstreuen und bei 180 °C goldbraun backen.",
+      "Vor dem Anschneiden ruhen lassen, damit die Stücke ihre Form behalten."
+     ],
+     "labels": [
+      "Fleisch",
+      "Sauce",
+      "Nudeln",
+      "",
+      "",
+      "",
+      "Ofen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Mit geriebenem Kefalotyri aus dem griechischen Laden statt Pecorino schmeckt es wie in Athen.",
+      "Am nächsten Tag lässt er sich noch besser schneiden: Stücke 15 Minuten bei 160 °C erwärmen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "stifado",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 160,
+   "diff": 2,
+   "kcal": 620,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1000,
+     "u": "g",
+     "k": "beef-stew-meat"
+    },
+    {
+     "q": 800,
+     "u": "g",
+     "k": "pearl-onions"
+    },
+    {
+     "q": 80,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "red-wine"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "red-wine-vinegar"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "canned-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "cloves"
+    },
+    {
+     "q": 5,
+     "u": "",
+     "k": "allspice-berries"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 120
+    },
+    {
+     "timer": 480
+    },
+    {},
+    {
+     "timer": 3600,
+     "bg": true,
+     "alt": {
+      "pressure": {
+       "timer": 1500
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 3600,
+     "alt": {
+      "pressure": {
+       "timer": 600
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "i18n": {
+    "it": {
+     "title": "Stifádo, manzo con cipolline",
+     "intro": "Manzo stufato nel vino rosso con cipolline, cannella e pimento, dolce e profumato.",
+     "ing": [
+      "manzo per spezzatino (cappello del prete o reale)",
+      "cipolline borettane",
+      "olio extravergine d'oliva",
+      "spicchi d'aglio",
+      "concentrato di pomodoro",
+      "vino rosso secco",
+      "aceto di vino rosso",
+      "pomodori pelati",
+      "stecca di cannella",
+      "chiodi di garofano",
+      "bacche di pimento",
+      "foglie di alloro",
+      "acqua",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Sbollenta le cipolline 2 minuti, raffreddale in acqua fredda e pelale lasciandole intere.",
+      "In una casseruola rosola la carne a fuoco vivo in 4 cucchiai d'olio, poca alla volta, finché è ben dorata.",
+      "Aggiungi aglio e concentrato, mescola 1 minuto, poi sfuma con vino e aceto e lascia evaporare.",
+      "Unisci pelati schiacciati, cannella, chiodi, pimento, alloro, acqua, sale e pepe; copri e cuoci a fuoco basso.",
+      "Intanto fai dorare le cipolline intere nell'olio rimasto, scuotendo la padella, finché sono dorate ovunque.",
+      "Aggiungi le cipolline alla carne senza mescolare, scuoti la pentola e cuoci coperto finché il manzo è tenerissimo.",
+      "Togli cannella e alloro, lascia riposare 10 minuti e servi con pane rustico, riso o patate."
+     ],
+     "labels": [
+      "Cipolline",
+      "Rosolatura",
+      "",
+      "Stufato",
+      "Cipolline",
+      "Stufato",
+      ""
+     ],
+     "tips": [
+      "Dopo le cipolline non mescolare più: scuoti la pentola e resteranno intere e lucide.",
+      "Con il coniglio a pezzi al posto del manzo è il kounéli stifádo, classico delle isole.",
+      "Il giorno dopo è ancora più buono: scaldalo piano con un goccio d'acqua."
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Unisci pelati, spezie, alloro, acqua, sale e pepe, chiudi la pentola a pressione e cuoci 25 minuti dal fischio."
+      },
+      "5": {
+       "pressure": "Apri, aggiungi le cipolline senza mescolare, richiudi e cuoci altri 10 minuti dal fischio."
+      }
+     }
+    },
+    "en": {
+     "title": "Stifado (beef with pearl onions)",
+     "intro": "Beef braised in red wine with pearl onions, cinnamon and allspice, sweet and fragrant.",
+     "ing": [
+      "beef chuck, cubed",
+      "pearl onions",
+      "extra-virgin olive oil",
+      "garlic cloves",
+      "tomato paste",
+      "dry red wine",
+      "red wine vinegar",
+      "canned whole tomatoes",
+      "cinnamon stick",
+      "cloves",
+      "allspice berries",
+      "bay leaves",
+      "water",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Blanch the pearl onions for 2 minutes, cool them in cold water and peel, keeping them whole.",
+      "In a heavy pot brown the beef over high heat in 4 tbsp oil, in batches, until well browned.",
+      "Add the garlic and tomato paste, stir 1 minute, then deglaze with wine and vinegar and let it bubble off.",
+      "Add the crushed tomatoes, cinnamon, cloves, allspice, bay, water, salt and pepper; cover and simmer gently.",
+      "Meanwhile brown the whole pearl onions in the remaining oil, shaking the pan, until golden all over.",
+      "Add the onions to the beef without stirring, shake the pot and cook covered until the beef is very tender.",
+      "Remove the cinnamon and bay, let it rest 10 minutes and serve with crusty bread, rice or potatoes."
+     ],
+     "labels": [
+      "Onions",
+      "Browning",
+      "",
+      "Braise",
+      "Onions",
+      "Braise",
+      ""
+     ],
+     "tips": [
+      "Once the onions are in, do not stir: shake the pot and they stay whole and glossy.",
+      "Use jointed rabbit instead of beef for kouneli stifado, an island classic.",
+      "It is even better the next day: reheat gently with a splash of water."
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Add tomatoes, spices, bay, water, salt and pepper, lock the pressure cooker and cook 25 minutes at pressure."
+      },
+      "5": {
+       "pressure": "Open, add the onions without stirring, lock again and cook another 10 minutes at pressure."
+      }
+     }
+    },
+    "fr": {
+     "title": "Stifado, bœuf aux petits oignons",
+     "intro": "Bœuf mijoté au vin rouge avec petits oignons, cannelle et piment de la Jamaïque.",
+     "ing": [
+      "bœuf à braiser (paleron) en cubes",
+      "petits oignons grelots",
+      "huile d'olive vierge extra",
+      "gousses d'ail",
+      "concentré de tomate",
+      "vin rouge sec",
+      "vinaigre de vin rouge",
+      "tomates pelées en conserve",
+      "bâton de cannelle",
+      "clous de girofle",
+      "baies de piment de la Jamaïque",
+      "feuilles de laurier",
+      "eau",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Blanchis les petits oignons 2 minutes, refroidis-les à l'eau froide et pèle-les en les gardant entiers.",
+      "Dans une cocotte, saisis la viande à feu vif dans 4 c. à soupe d'huile, par petites quantités, bien dorée.",
+      "Ajoute l'ail et le concentré, remue 1 minute, puis déglace au vin et au vinaigre et laisse réduire.",
+      "Ajoute tomates écrasées, cannelle, girofle, piment, laurier, eau, sel et poivre ; couvre et mijote doucement.",
+      "Pendant ce temps, fais dorer les petits oignons entiers dans le reste d'huile en secouant la poêle.",
+      "Ajoute les oignons à la viande sans remuer, secoue la cocotte et cuis à couvert jusqu'à ce que le bœuf soit fondant.",
+      "Retire cannelle et laurier, laisse reposer 10 minutes et sers avec du pain de campagne, du riz ou des pommes de terre."
+     ],
+     "labels": [
+      "Oignons",
+      "Saisie",
+      "",
+      "Mijotage",
+      "Oignons",
+      "Mijotage",
+      ""
+     ],
+     "tips": [
+      "Une fois les oignons ajoutés, ne remue plus : secoue la cocotte, ils restent entiers et brillants.",
+      "Avec du lapin en morceaux au lieu du bœuf, c'est le kouneli stifado, classique des îles.",
+      "Encore meilleur le lendemain : réchauffe doucement avec un peu d'eau."
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Ajoute tomates, épices, laurier, eau, sel et poivre, ferme l'autocuiseur et compte 25 minutes."
+      },
+      "5": {
+       "pressure": "Ouvre, ajoute les oignons sans remuer, referme et compte encore 10 minutes."
+      }
+     }
+    },
+    "es": {
+     "title": "Stifado, ternera con cebollitas",
+     "intro": "Ternera guisada en vino tinto con cebollitas, canela y pimienta de Jamaica.",
+     "ing": [
+      "ternera para guisar (aguja) en dados",
+      "cebollitas francesas",
+      "aceite de oliva virgen extra",
+      "dientes de ajo",
+      "concentrado de tomate",
+      "vino tinto seco",
+      "vinagre de vino tinto",
+      "tomate pelado en conserva",
+      "rama de canela",
+      "clavos",
+      "granos de pimienta de Jamaica",
+      "hojas de laurel",
+      "agua",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Escalda las cebollitas 2 minutos, enfríalas en agua fría y pélalas dejándolas enteras.",
+      "En una cazuela dora la carne a fuego fuerte en 4 cucharadas de aceite, por tandas, hasta que esté bien dorada.",
+      "Añade el ajo y el concentrado, remueve 1 minuto, riega con vino y vinagre y deja que se evapore.",
+      "Añade el tomate aplastado, canela, clavos, pimienta de Jamaica, laurel, agua, sal y pimienta; tapa y cuece suave.",
+      "Mientras, dora las cebollitas enteras en el aceite restante, moviendo la sartén, hasta que estén doradas.",
+      "Añade las cebollitas a la carne sin remover, mueve la olla y cuece tapado hasta que la ternera esté muy tierna.",
+      "Retira la canela y el laurel, deja reposar 10 minutos y sirve con pan rústico, arroz o patatas."
+     ],
+     "labels": [
+      "Cebollitas",
+      "Dorado",
+      "",
+      "Guiso",
+      "Cebollitas",
+      "Guiso",
+      ""
+     ],
+     "tips": [
+      "Con las cebollitas dentro, no remuevas: mueve la olla y quedarán enteras y brillantes.",
+      "Con conejo troceado en lugar de ternera es el kouneli stifado, clásico de las islas.",
+      "Al día siguiente está aún mejor: caliéntalo despacio con un chorrito de agua."
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Añade tomate, especias, laurel, agua, sal y pimienta, cierra la olla a presión y cuece 25 minutos."
+      },
+      "5": {
+       "pressure": "Abre, añade las cebollitas sin remover, vuelve a cerrar y cuece 10 minutos más."
+      }
+     }
+    },
+    "de": {
+     "title": "Stifado, Rind mit Perlzwiebeln",
+     "intro": "Rind in Rotwein geschmort, mit Perlzwiebeln, Zimt und Piment, süßlich und duftend.",
+     "ing": [
+      "Rindergulasch aus der Schulter",
+      "Perlzwiebeln",
+      "natives Olivenöl extra",
+      "Knoblauchzehen",
+      "Tomatenmark",
+      "trockener Rotwein",
+      "Rotweinessig",
+      "geschälte Tomaten aus der Dose",
+      "Zimtstange",
+      "Gewürznelken",
+      "Pimentkörner",
+      "Lorbeerblätter",
+      "Wasser",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Blanchier die Perlzwiebeln 2 Minuten, schreck sie kalt ab und schäl sie, ohne sie zu zerteilen.",
+      "Brate das Fleisch im Schmortopf in 4 EL Öl bei starker Hitze portionsweise kräftig an.",
+      "Knoblauch und Tomatenmark 1 Minute mitrösten, mit Wein und Essig ablöschen und einkochen lassen.",
+      "Zerdrückte Tomaten, Zimt, Nelken, Piment, Lorbeer, Wasser, Salz und Pfeffer dazu; zugedeckt sanft schmoren.",
+      "Brate inzwischen die ganzen Perlzwiebeln im restlichen Öl rundum goldbraun und schwenk dabei die Pfanne.",
+      "Gib die Zwiebeln ohne Umrühren zum Fleisch, schwenk den Topf und schmor alles zugedeckt, bis das Rind ganz zart ist.",
+      "Zimt und Lorbeer entfernen, 10 Minuten ruhen lassen und mit Bauernbrot, Reis oder Kartoffeln servieren."
+     ],
+     "labels": [
+      "Zwiebeln",
+      "Anbraten",
+      "",
+      "Schmoren",
+      "Zwiebeln",
+      "Schmoren",
+      ""
+     ],
+     "tips": [
+      "Nach den Zwiebeln nicht mehr rühren: Schwenk den Topf, dann bleiben sie ganz und glänzend.",
+      "Mit zerteiltem Kaninchen statt Rind wird daraus Kouneli Stifado, ein Klassiker der Inseln.",
+      "Am nächsten Tag noch besser: Mit einem Schuss Wasser sanft erwärmen."
+     ],
+     "alt": {
+      "3": {
+       "pressure": "Tomaten, Gewürze, Lorbeer, Wasser, Salz und Pfeffer dazu, Schnellkochtopf schließen, 25 Minuten garen."
+      },
+      "5": {
+       "pressure": "Öffnen, Zwiebeln ohne Umrühren dazugeben, wieder schließen und weitere 10 Minuten garen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "paidakia",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 80,
+   "diff": 1,
+   "kcal": 560,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1200,
+     "u": "g",
+     "k": "lamb-chops"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "flaky-salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 3600
+    },
+    {
+     "alt": {
+      "bbq": {},
+      "pan": {}
+     }
+    },
+    {},
+    {
+     "timer": 420,
+     "alt": {
+      "bbq": {
+       "timer": 360
+      },
+      "pan": {
+       "timer": 480
+      }
+     }
+    },
+    {
+     "timer": 180
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "pair"
+    },
+    {
+     "k": "spice"
+    },
+    {
+     "k": "secret"
+    }
+   ],
+   "methods": [
+    "grill",
+    "bbq",
+    "pan"
+   ],
+   "i18n": {
+    "it": {
+     "title": "Paidákia, costolette d'agnello",
+     "intro": "Costolette d'agnello alla griglia con limone e origano, come nelle taverne greche.",
+     "ing": [
+      "costolette d'agnello",
+      "olio extravergine d'oliva",
+      "limoni",
+      "spicchi d'aglio",
+      "origano secco",
+      "pepe nero",
+      "sale in fiocchi"
+     ],
+     "steps": [
+      "Massaggia le costolette con olio, il succo di 1 limone, aglio schiacciato, metà origano e pepe; lasciale marinare.",
+      "Scalda bene la piastra finché è rovente.",
+      "Sala le costolette solo ora, appena prima di cuocerle.",
+      "Cuoci 3-4 minuti per lato finché sono ben rosolate fuori e rosate dentro.",
+      "Lasciale riposare qualche minuto, poi spruzzale di limone e cospargi con l'origano rimasto e il sale in fiocchi.",
+      "Servile subito con spicchi di limone: in Grecia si mangiano con le mani."
+     ],
+     "labels": [
+      "Marinatura",
+      "",
+      "",
+      "Griglia",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Servile con tzatziki e patate fritte all'origano, come in taverna.",
+      "Usa la rigani greca, l'origano selvatico in mazzetti: è molto più profumata.",
+      "Chiedi costolette alte 1,5 cm: cuociono in fretta e restano rosate e succose."
+     ],
+     "alt": {
+      "1": {
+       "bbq": "Prepara la brace viva e scalda bene la griglia.",
+       "pan": "Scalda una padella di ghisa a fuoco vivo con un filo d'olio."
+      },
+      "3": {
+       "bbq": "Cuoci sulla brace 3 minuti per lato, finché sono abbrustolite fuori e rosate dentro.",
+       "pan": "Cuoci in padella 4 minuti per lato, senza affollarle, finché sono dorate."
+      }
+     }
+    },
+    "en": {
+     "title": "Paidakia (Greek lamb chops)",
+     "intro": "Grilled lamb chops with lemon and oregano, just like in a Greek taverna.",
+     "ing": [
+      "lamb rib chops",
+      "extra-virgin olive oil",
+      "lemons",
+      "garlic cloves",
+      "dried oregano",
+      "black pepper",
+      "flaky salt"
+     ],
+     "steps": [
+      "Rub the chops with oil, the juice of 1 lemon, crushed garlic, half the oregano and pepper; leave to marinate.",
+      "Heat the grill pan until it is smoking hot.",
+      "Salt the chops only now, just before cooking.",
+      "Cook 3-4 minutes per side until well browned outside and pink inside.",
+      "Let them rest a few minutes, then squeeze over lemon and sprinkle with the remaining oregano and flaky salt.",
+      "Serve straight away with lemon wedges: in Greece they are eaten with your hands."
+     ],
+     "labels": [
+      "Marinade",
+      "",
+      "",
+      "Grill",
+      "Rest",
+      ""
+     ],
+     "tips": [
+      "Serve with tzatziki and oregano fries, taverna style.",
+      "Use Greek rigani, wild oregano sold in bunches: it is far more fragrant.",
+      "Ask for chops 1.5 cm thick: they cook fast and stay pink and juicy."
+     ],
+     "alt": {
+      "1": {
+       "bbq": "Light the barbecue and get the coals glowing hot.",
+       "pan": "Heat a cast-iron pan over high heat with a drizzle of oil."
+      },
+      "3": {
+       "bbq": "Grill over the coals 3 minutes per side until charred outside and pink inside.",
+       "pan": "Pan-fry 4 minutes per side without crowding until golden."
+      }
+     }
+    },
+    "fr": {
+     "title": "Paidakia, côtelettes d'agneau",
+     "intro": "Côtelettes d'agneau grillées au citron et à l'origan, comme dans une taverne grecque.",
+     "ing": [
+      "côtelettes d'agneau",
+      "huile d'olive vierge extra",
+      "citrons",
+      "gousses d'ail",
+      "origan séché",
+      "poivre noir",
+      "fleur de sel"
+     ],
+     "steps": [
+      "Masse les côtelettes avec l'huile, le jus d'1 citron, l'ail écrasé, la moitié de l'origan et du poivre ; laisse mariner.",
+      "Fais chauffer la plancha jusqu'à ce qu'elle soit brûlante.",
+      "Sale les côtelettes seulement maintenant, juste avant la cuisson.",
+      "Cuis 3 à 4 minutes par face, bien saisies dehors et rosées dedans.",
+      "Laisse-les reposer quelques minutes, arrose de citron et parsème du reste d'origan et de fleur de sel.",
+      "Sers aussitôt avec des quartiers de citron : en Grèce, on les mange avec les doigts."
+     ],
+     "labels": [
+      "Marinade",
+      "",
+      "",
+      "Grill",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "Sers avec du tzatziki et des frites à l'origan, comme à la taverne.",
+      "Utilise la rigani grecque, l'origan sauvage en bouquets : bien plus parfumée.",
+      "Demande des côtelettes de 1,5 cm d'épaisseur : elles cuisent vite et restent rosées."
+     ],
+     "alt": {
+      "1": {
+       "bbq": "Allume le barbecue et attends des braises bien vives.",
+       "pan": "Fais chauffer une poêle en fonte à feu vif avec un filet d'huile."
+      },
+      "3": {
+       "bbq": "Fais griller sur la braise 3 minutes par face, grillées dehors et rosées dedans.",
+       "pan": "Cuis à la poêle 4 minutes par face sans les serrer, jusqu'à ce qu'elles dorent."
+      }
+     }
+    },
+    "es": {
+     "title": "Paidakia, chuletas de cordero",
+     "intro": "Chuletas de cordero a la parrilla con limón y orégano, como en una taberna griega.",
+     "ing": [
+      "chuletas de cordero",
+      "aceite de oliva virgen extra",
+      "limones",
+      "dientes de ajo",
+      "orégano seco",
+      "pimienta negra",
+      "sal en escamas"
+     ],
+     "steps": [
+      "Unta las chuletas con aceite, el zumo de 1 limón, ajo machacado, la mitad del orégano y pimienta; déjalas marinar.",
+      "Calienta bien la plancha hasta que humee.",
+      "Sala las chuletas justo ahora, antes de cocinarlas.",
+      "Cocina 3-4 minutos por lado hasta que estén doradas por fuera y rosadas por dentro.",
+      "Déjalas reposar unos minutos, riégalas con limón y espolvorea el orégano restante y la sal en escamas.",
+      "Sírvelas enseguida con gajos de limón: en Grecia se comen con las manos."
+     ],
+     "labels": [
+      "Marinado",
+      "",
+      "",
+      "Plancha",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "Sírvelas con tzatziki y patatas fritas con orégano, como en la taberna.",
+      "Usa rigani griega, orégano silvestre en ramillete: es mucho más aromática.",
+      "Pide chuletas de 1,5 cm de grosor: se hacen rápido y quedan rosadas y jugosas."
+     ],
+     "alt": {
+      "1": {
+       "bbq": "Prepara las brasas bien vivas y calienta la parrilla.",
+       "pan": "Calienta una sartén de hierro a fuego fuerte con un hilo de aceite."
+      },
+      "3": {
+       "bbq": "Asa sobre las brasas 3 minutos por lado, tostadas por fuera y rosadas por dentro.",
+       "pan": "Cocina en la sartén 4 minutos por lado, sin amontonarlas, hasta que se doren."
+      }
+     }
+    },
+    "de": {
+     "title": "Paidakia, Lammkoteletts",
+     "intro": "Gegrillte Lammkoteletts mit Zitrone und Oregano, wie in der griechischen Taverne.",
+     "ing": [
+      "Lammkoteletts",
+      "natives Olivenöl extra",
+      "Zitronen",
+      "Knoblauchzehen",
+      "getrockneter Oregano",
+      "schwarzer Pfeffer",
+      "Salzflocken"
+     ],
+     "steps": [
+      "Reib die Koteletts mit Öl, dem Saft von 1 Zitrone, zerdrücktem Knoblauch, halbem Oregano und Pfeffer ein; marinieren.",
+      "Erhitz die Grillpfanne, bis sie richtig heiß ist.",
+      "Salz die Koteletts erst jetzt, kurz vor dem Garen.",
+      "3-4 Minuten pro Seite garen, bis sie außen gebräunt und innen rosa sind.",
+      "Ein paar Minuten ruhen lassen, mit Zitrone beträufeln und mit restlichem Oregano und Salzflocken bestreuen.",
+      "Sofort mit Zitronenspalten servieren: In Griechenland isst man sie mit den Händen."
+     ],
+     "labels": [
+      "Marinieren",
+      "",
+      "",
+      "Grillen",
+      "Ruhen",
+      ""
+     ],
+     "tips": [
+      "Dazu Tzatziki und Pommes mit Oregano, wie in der Taverne.",
+      "Nimm griechische Rigani, wilden Oregano im Bund: viel aromatischer.",
+      "Lass dir die Koteletts 1,5 cm dick schneiden: Sie garen schnell und bleiben rosa und saftig."
+     ],
+     "alt": {
+      "1": {
+       "bbq": "Heiz den Grill an, bis die Kohle glüht.",
+       "pan": "Erhitz eine gusseiserne Pfanne mit etwas Öl stark."
+      },
+      "3": {
+       "bbq": "Über der Glut 3 Minuten pro Seite grillen, außen kross und innen rosa.",
+       "pan": "In der Pfanne 4 Minuten pro Seite braten, nicht zu eng legen, bis sie goldbraun sind."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "garides-saganaki",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 380,
+   "diet": [
+    "gf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "shrimp"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "chili-flakes"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "canned-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 40,
+     "u": "ml",
+     "k": "ouzo"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "feta"
+    },
+    {
+     "q": 10,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 300
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 240,
+     "alt": {
+      "oven": {
+       "timer": 480
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    }
+   ],
+   "methods": [
+    "pan",
+    "oven"
+   ],
+   "i18n": {
+    "it": {
+     "title": "Garídes saganáki, gamberi e feta",
+     "intro": "Gamberi in sugo di pomodoro all'ouzo, coperti di feta che si scioglie.",
+     "ing": [
+      "gamberi o mazzancolle crudi",
+      "olio extravergine d'oliva",
+      "cipolla",
+      "spicchi d'aglio",
+      "peperoncino in fiocchi",
+      "pomodori pelati",
+      "origano secco",
+      "ouzo",
+      "feta",
+      "prezzemolo",
+      "sale"
+     ],
+     "steps": [
+      "Sguscia i gamberi lasciando la coda e togli il filo nero con uno stecchino.",
+      "In una padella larga fai appassire la cipolla tritata nell'olio, poi aggiungi aglio e peperoncino per 1 minuto.",
+      "Aggiungi i pelati schiacciati, origano e sale e cuoci finché il sugo si addensa.",
+      "Adagia i gamberi nel sugo, versa l'ouzo e cuoci girandoli finché diventano rosa.",
+      "Sbriciola la feta sopra, copri e lascia ammorbidire a fuoco basso.",
+      "Cospargi di prezzemolo tritato e porta in tavola sfrigolante, con pane per la scarpetta."
+     ],
+     "labels": [
+      "",
+      "Soffritto",
+      "Sugo",
+      "Gamberi",
+      "Feta",
+      ""
+     ],
+     "tips": [
+      "Senza ouzo usa un goccio di vino bianco secco e un pizzico di semi di finocchio.",
+      "Togli dal fuoco quando i gamberi sono rosa e piegati a C: a O sono già troppo cotti."
+     ],
+     "alt": {
+      "4": {
+       "oven": "Trasferisci in una teglia di coccio, sbriciola sopra la feta e inforna a 200 °C per 8 minuti."
+      }
+     }
+    },
+    "en": {
+     "title": "Garides saganaki (prawns with feta)",
+     "intro": "Prawns in an ouzo-scented tomato sauce under a layer of melting feta.",
+     "ing": [
+      "raw whole prawns",
+      "extra-virgin olive oil",
+      "onion",
+      "garlic cloves",
+      "chili flakes",
+      "canned whole tomatoes",
+      "dried oregano",
+      "ouzo",
+      "feta",
+      "flat-leaf parsley",
+      "salt"
+     ],
+     "steps": [
+      "Peel the prawns, leaving the tails on, and remove the dark vein with a toothpick.",
+      "In a wide pan soften the chopped onion in the oil, then add the garlic and chili for 1 minute.",
+      "Add the crushed tomatoes, oregano and salt and simmer until the sauce thickens.",
+      "Nestle the prawns in the sauce, pour in the ouzo and cook, turning, until they turn pink.",
+      "Crumble the feta over the top, cover and let it soften over low heat.",
+      "Sprinkle with chopped parsley and serve sizzling, with bread to mop up the sauce."
+     ],
+     "labels": [
+      "",
+      "Onion",
+      "Sauce",
+      "Prawns",
+      "Feta",
+      ""
+     ],
+     "tips": [
+      "No ouzo? Use a splash of dry white wine and a pinch of fennel seeds.",
+      "Take them off when the prawns are pink and C-shaped: an O shape means overcooked."
+     ],
+     "alt": {
+      "4": {
+       "oven": "Transfer to a clay dish, crumble the feta over and bake at 200 °C for 8 minutes."
+      }
+     }
+    },
+    "fr": {
+     "title": "Garides saganaki, crevettes à la feta",
+     "intro": "Crevettes dans une sauce tomate à l'ouzo, sous une couche de feta fondante.",
+     "ing": [
+      "crevettes crues entières",
+      "huile d'olive vierge extra",
+      "oignon",
+      "gousses d'ail",
+      "piment en flocons",
+      "tomates pelées en conserve",
+      "origan séché",
+      "ouzo",
+      "feta",
+      "persil plat",
+      "sel"
+     ],
+     "steps": [
+      "Décortique les crevettes en gardant la queue et retire le boyau noir avec un cure-dent.",
+      "Dans une grande poêle, fais fondre l'oignon haché dans l'huile, puis ajoute ail et piment 1 minute.",
+      "Ajoute les tomates écrasées, l'origan et le sel et laisse mijoter jusqu'à ce que la sauce épaississe.",
+      "Dépose les crevettes dans la sauce, verse l'ouzo et cuis en les retournant jusqu'à ce qu'elles rosissent.",
+      "Émiette la feta par-dessus, couvre et laisse-la fondre à feu doux.",
+      "Parsème de persil haché et sers grésillant, avec du pain pour saucer."
+     ],
+     "labels": [
+      "",
+      "Oignon",
+      "Sauce",
+      "Crevettes",
+      "Feta",
+      ""
+     ],
+     "tips": [
+      "Sans ouzo, mets un trait de vin blanc sec et une pincée de graines de fenouil.",
+      "Retire du feu quand les crevettes sont roses en forme de C : en O, elles sont trop cuites."
+     ],
+     "alt": {
+      "4": {
+       "oven": "Verse dans un plat en terre, émiette la feta dessus et enfourne 8 minutes à 200 °C."
+      }
+     }
+    },
+    "es": {
+     "title": "Garides saganaki, gambas con feta",
+     "intro": "Gambas en salsa de tomate con ouzo, cubiertas de feta fundida.",
+     "ing": [
+      "gambas crudas enteras",
+      "aceite de oliva virgen extra",
+      "cebolla",
+      "dientes de ajo",
+      "guindilla en copos",
+      "tomate pelado en conserva",
+      "orégano seco",
+      "ouzo",
+      "queso feta",
+      "perejil",
+      "sal"
+     ],
+     "steps": [
+      "Pela las gambas dejando la cola y quita el intestino con un palillo.",
+      "En una sartén amplia pocha la cebolla picada en el aceite y añade el ajo y la guindilla 1 minuto.",
+      "Añade el tomate aplastado, el orégano y la sal y cuece hasta que la salsa espese.",
+      "Coloca las gambas en la salsa, vierte el ouzo y cocina girándolas hasta que se pongan rosadas.",
+      "Desmenuza la feta por encima, tapa y deja que se ablande a fuego bajo.",
+      "Espolvorea perejil picado y sirve chisporroteando, con pan para mojar."
+     ],
+     "labels": [
+      "",
+      "Sofrito",
+      "Salsa",
+      "Gambas",
+      "Feta",
+      ""
+     ],
+     "tips": [
+      "Sin ouzo, usa un chorrito de vino blanco seco y una pizca de semillas de hinojo.",
+      "Retíralas cuando estén rosadas y en forma de C: en forma de O ya están pasadas."
+     ],
+     "alt": {
+      "4": {
+       "oven": "Pasa todo a una cazuela de barro, desmenuza la feta encima y hornea a 200 °C 8 minutos."
+      }
+     }
+    },
+    "de": {
+     "title": "Garides Saganaki, Garnelen mit Feta",
+     "intro": "Garnelen in Tomatensauce mit Ouzo unter einer Schicht schmelzendem Feta.",
+     "ing": [
+      "rohe ganze Garnelen",
+      "natives Olivenöl extra",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "Chiliflocken",
+      "geschälte Tomaten aus der Dose",
+      "getrockneter Oregano",
+      "Ouzo",
+      "Feta",
+      "glatte Petersilie",
+      "Salz"
+     ],
+     "steps": [
+      "Schäl die Garnelen, lass die Schwanzflosse dran und zieh den Darm mit einem Zahnstocher heraus.",
+      "Dünste in einer breiten Pfanne die gehackte Zwiebel im Öl weich, dann Knoblauch und Chili 1 Minute mitbraten.",
+      "Gib die zerdrückten Tomaten, Oregano und Salz dazu und köchle die Sauce dick ein.",
+      "Leg die Garnelen in die Sauce, gieß den Ouzo an und gare sie unter Wenden, bis sie rosa sind.",
+      "Feta darüberbröseln, zudecken und bei schwacher Hitze weich werden lassen.",
+      "Mit gehackter Petersilie bestreuen und brutzelnd servieren, mit Brot zum Tunken."
+     ],
+     "labels": [
+      "",
+      "Zwiebel",
+      "Sauce",
+      "Garnelen",
+      "Feta",
+      ""
+     ],
+     "tips": [
+      "Ohne Ouzo nimm einen Schuss trockenen Weißwein und eine Prise Fenchelsamen.",
+      "Vom Herd nehmen, wenn die Garnelen rosa und C-förmig sind: O-förmig heißt zu lange gegart."
+     ],
+     "alt": {
+      "4": {
+       "oven": "In eine Tonform geben, Feta darüberbröseln und 8 Minuten bei 200 °C backen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "spanakopita",
+   "cat": "unici",
+   "sub": "torte",
+   "servings": 6,
+   "minutes": 100,
+   "diff": 2,
+   "kcal": 470,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [
+    3,
+    4,
+    5,
+    10,
+    11
+   ],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 1000,
+     "u": "g",
+     "k": "spinach"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "dill"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "feta"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "filo-pastry"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 240
+    },
+    {
+     "timer": 240
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 3000
+    },
+    {
+     "timer": 900
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Spanakópita, torta di spinaci e feta",
+     "intro": "Torta di pasta fillo croccante ripiena di spinaci, feta, aneto e cipollotti.",
+     "ing": [
+      "spinaci freschi",
+      "cipollotti",
+      "olio extravergine d'oliva",
+      "aneto fresco",
+      "prezzemolo",
+      "feta",
+      "uova",
+      "pasta fillo",
+      "pepe nero",
+      "sale"
+     ],
+     "steps": [
+      "Lava gli spinaci, falli appassire in una pentola larga senz'acqua, poi raffreddali e strizzali benissimo.",
+      "Affetta i cipollotti e falli appassire in 2 cucchiai d'olio finché sono morbidi.",
+      "Trita grossolanamente gli spinaci e mescolali con cipollotti, erbe tritate, feta sbriciolata, uova e pepe. Sala poco.",
+      "Ungi una teglia da 25 x 30 cm e stendi metà dei fogli di fillo uno alla volta, spennellandoli d'olio e lasciandoli sbordare.",
+      "Distribuisci il ripieno, ripiega i bordi e copri con il resto dei fogli, sempre spennellati d'olio.",
+      "Incidi la superficie a porzioni con un coltello affilato e spruzzala con qualche goccia d'acqua.",
+      "Cuoci in forno a 180 °C finché la sfoglia è dorata e croccante.",
+      "Lasciala intiepidire prima di tagliarla: si serve calda o a temperatura ambiente."
+     ],
+     "labels": [
+      "Spinaci",
+      "Cipollotti",
+      "",
+      "",
+      "",
+      "",
+      "Forno",
+      "Riposo"
+     ],
+     "tips": [
+      "Tieni la fillo che non usi sotto un canovaccio umido: all'aria secca e si spezza.",
+      "Con spinaci surgelati: usane 750 g, scongelati e strizzati bene, e salta il primo passaggio.",
+      "Ottima anche fredda il giorno dopo; per ridarle croccantezza scaldala 10 minuti a 170 °C."
+     ]
+    },
+    "en": {
+     "title": "Spanakopita (spinach and feta pie)",
+     "intro": "Crisp filo pie filled with spinach, feta, dill and spring onions.",
+     "ing": [
+      "fresh spinach",
+      "spring onions",
+      "extra-virgin olive oil",
+      "fresh dill",
+      "flat-leaf parsley",
+      "feta",
+      "eggs",
+      "filo pastry",
+      "black pepper",
+      "salt"
+     ],
+     "steps": [
+      "Wash the spinach, wilt it in a wide pot with no extra water, then cool and squeeze it very dry.",
+      "Slice the spring onions and soften them in 2 tbsp oil until tender.",
+      "Roughly chop the spinach and mix with the onions, chopped herbs, crumbled feta, eggs and pepper. Go easy on salt.",
+      "Oil a 25 x 30 cm dish and lay in half the filo sheets one at a time, brushing each with oil and letting them overhang.",
+      "Spread in the filling, fold the edges over and cover with the rest of the sheets, each brushed with oil.",
+      "Score the top into portions with a sharp knife and sprinkle with a few drops of water.",
+      "Bake at 180 °C until the pastry is deep golden and crisp.",
+      "Let it cool a little before cutting: serve warm or at room temperature."
+     ],
+     "labels": [
+      "Spinach",
+      "Onions",
+      "",
+      "",
+      "",
+      "",
+      "Oven",
+      "Rest"
+     ],
+     "tips": [
+      "Keep the filo you are not using under a damp tea towel: in the air it dries and cracks.",
+      "With frozen spinach: use 750 g, thawed and squeezed dry, and skip the first step.",
+      "Great cold the next day; to crisp it up again, reheat 10 minutes at 170 °C."
+     ]
+    },
+    "fr": {
+     "title": "Spanakopita, tourte épinards et feta",
+     "intro": "Tourte de filo croustillante garnie d'épinards, feta, aneth et oignons nouveaux.",
+     "ing": [
+      "épinards frais",
+      "oignons nouveaux",
+      "huile d'olive vierge extra",
+      "aneth frais",
+      "persil plat",
+      "feta",
+      "œufs",
+      "pâte filo",
+      "poivre noir",
+      "sel"
+     ],
+     "steps": [
+      "Lave les épinards, fais-les tomber dans une grande marmite sans eau, puis laisse refroidir et presse-les bien.",
+      "Émince les oignons nouveaux et fais-les fondre dans 2 c. à soupe d'huile.",
+      "Hache grossièrement les épinards et mélange-les avec oignons, herbes hachées, feta émiettée, œufs et poivre. Sale peu.",
+      "Huile un plat de 25 x 30 cm et dispose la moitié des feuilles de filo une à une, huilées, en les laissant déborder.",
+      "Étale la farce, rabats les bords et couvre avec le reste des feuilles, toujours huilées.",
+      "Entaille le dessus en parts avec un couteau bien aiguisé et asperge de quelques gouttes d'eau.",
+      "Enfourne à 180 °C jusqu'à ce que la pâte soit bien dorée et croustillante.",
+      "Laisse tiédir avant de couper : elle se sert chaude ou à température ambiante."
+     ],
+     "labels": [
+      "Épinards",
+      "Oignons",
+      "",
+      "",
+      "",
+      "",
+      "Four",
+      "Repos"
+     ],
+     "tips": [
+      "Garde la filo en attente sous un torchon humide : à l'air, elle sèche et se casse.",
+      "Avec des épinards surgelés : 750 g décongelés et bien pressés, et saute la première étape.",
+      "Délicieuse froide le lendemain ; pour la recroustiller, réchauffe-la 10 minutes à 170 °C."
+     ]
+    },
+    "es": {
+     "title": "Spanakopita, empanada de espinacas",
+     "intro": "Pastel de filo crujiente relleno de espinacas, feta, eneldo y cebolleta.",
+     "ing": [
+      "espinacas frescas",
+      "cebolletas",
+      "aceite de oliva virgen extra",
+      "eneldo fresco",
+      "perejil",
+      "queso feta",
+      "huevos",
+      "pasta filo",
+      "pimienta negra",
+      "sal"
+     ],
+     "steps": [
+      "Lava las espinacas, saltéalas en una olla ancha sin agua hasta que se ablanden, enfríalas y escúrrelas muy bien.",
+      "Corta las cebolletas y pochalas en 2 cucharadas de aceite hasta que estén tiernas.",
+      "Pica las espinacas y mézclalas con la cebolleta, las hierbas picadas, la feta desmenuzada, los huevos y pimienta. Sala poco.",
+      "Unta una fuente de 25 x 30 cm y coloca la mitad de las hojas de filo una a una, pintándolas con aceite y dejando que sobresalgan.",
+      "Reparte el relleno, dobla los bordes y cubre con el resto de las hojas, pintadas con aceite.",
+      "Marca las porciones en la superficie con un cuchillo afilado y salpica con unas gotas de agua.",
+      "Hornea a 180 °C hasta que la masa esté dorada y crujiente.",
+      "Deja que se temple antes de cortarla: se sirve caliente o a temperatura ambiente."
+     ],
+     "labels": [
+      "Espinacas",
+      "Cebolleta",
+      "",
+      "",
+      "",
+      "",
+      "Horno",
+      "Reposo"
+     ],
+     "tips": [
+      "Guarda la filo que no uses bajo un paño húmedo: al aire se seca y se rompe.",
+      "Con espinacas congeladas: usa 750 g, descongeladas y bien escurridas, y sáltate el primer paso.",
+      "Buenísima fría al día siguiente; para que vuelva a crujir, caliéntala 10 minutos a 170 °C."
+     ]
+    },
+    "de": {
+     "title": "Spanakopita, Spinat-Feta-Pie",
+     "intro": "Knuspriger Filoteig mit Spinat, Feta, Dill und Frühlingszwiebeln gefüllt.",
+     "ing": [
+      "frischer Blattspinat",
+      "Frühlingszwiebeln",
+      "natives Olivenöl extra",
+      "frischer Dill",
+      "glatte Petersilie",
+      "Feta",
+      "Eier",
+      "Filoteig",
+      "schwarzer Pfeffer",
+      "Salz"
+     ],
+     "steps": [
+      "Wasch den Spinat, lass ihn ohne Wasser in einem breiten Topf zusammenfallen, abkühlen und kräftig ausdrücken.",
+      "Schneid die Frühlingszwiebeln in Ringe und dünste sie in 2 EL Öl weich.",
+      "Hack den Spinat grob und misch ihn mit Zwiebeln, Kräutern, zerbröseltem Feta, Eiern und Pfeffer. Sparsam salzen.",
+      "Öl eine Form (25 x 30 cm) ein und leg die Hälfte der Filoblätter einzeln hinein, jedes geölt und über den Rand hängend.",
+      "Verteil die Füllung, schlag die Ränder ein und deck alles mit den übrigen, geölten Blättern ab.",
+      "Ritz die Oberfläche mit einem scharfen Messer in Stücke und sprenkel ein paar Tropfen Wasser darauf.",
+      "Bei 180 °C backen, bis der Teig goldbraun und knusprig ist.",
+      "Vor dem Schneiden etwas abkühlen lassen: warm oder bei Zimmertemperatur servieren."
+     ],
+     "labels": [
+      "Spinat",
+      "Zwiebeln",
+      "",
+      "",
+      "",
+      "",
+      "Ofen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Deck den Filoteig, den du gerade nicht brauchst, mit einem feuchten Tuch ab, sonst bricht er.",
+      "Mit TK-Spinat: 750 g aufgetaut und gut ausgedrückt verwenden und den ersten Schritt überspringen.",
+      "Am nächsten Tag auch kalt köstlich; für mehr Knusper 10 Minuten bei 170 °C aufbacken."
+     ]
+    }
+   }
+  },
+  {
+   "id": "fasolada",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 360,
+   "diff": 1,
+   "kcal": 430,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort",
+    "budget",
+    "healthy"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "dried-cannellini-beans"
+    },
+    {
+     "q": 2000,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "bay-leaves"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "celery"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "canned-tomatoes"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 14400
+    },
+    {
+     "timer": 300
+    },
+    {
+     "timer": 2700,
+     "bg": true,
+     "alt": {
+      "pressure": {
+       "timer": 900
+      }
+     }
+    },
+    {},
+    {
+     "timer": 2700,
+     "alt": {
+      "pressure": {
+       "timer": 600
+      }
+     }
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "pair"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "spice"
+    }
+   ],
+   "methods": [
+    "pot",
+    "pressure"
+   ],
+   "i18n": {
+    "it": {
+     "title": "Fasoláda, zuppa di fagioli greca",
+     "intro": "La zuppa nazionale greca: fagioli bianchi, verdure, pomodoro e tanto olio buono.",
+     "ing": [
+      "fagioli cannellini secchi",
+      "acqua",
+      "foglia di alloro",
+      "carote",
+      "coste di sedano",
+      "cipolla",
+      "pomodori pelati",
+      "concentrato di pomodoro",
+      "olio extravergine d'oliva",
+      "pepe nero",
+      "sale"
+     ],
+     "steps": [
+      "Metti i fagioli in ammollo in abbondante acqua fredda (anche tutta la notte).",
+      "Scolali, coprili d'acqua fresca, porta a bollore e fai bollire qualche minuto; scola di nuovo.",
+      "Rimettili in pentola con 2 litri d'acqua e l'alloro e fai sobbollire.",
+      "Intanto taglia a dadini carote, sedano e cipolla.",
+      "Aggiungi le verdure, i pelati schiacciati, il concentrato, metà olio e pepe; cuoci finché i fagioli sono cremosi.",
+      "Sala, versa l'olio rimasto e cuoci ancora qualche minuto finché il brodo è vellutato.",
+      "Togli l'alloro e servi caldo con pane, olive e cipolla cruda."
+     ],
+     "labels": [
+      "Ammollo",
+      "Bollitura",
+      "Fagioli",
+      "",
+      "Zuppa",
+      "Olio",
+      ""
+     ],
+     "tips": [
+      "In Grecia si accompagna con olive kalamata, sardine sotto sale e una fetta di feta.",
+      "Con 2 lattine di cannellini salti l'ammollo: aggiungili con le verdure e cuoci 25 minuti.",
+      "Un pizzico di peperoncino e una manciata di sedano in foglia tritato alla fine la ravvivano."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Mettili nella pentola a pressione con 1,5 litri d'acqua e l'alloro e cuoci 15 minuti dal fischio."
+      },
+      "4": {
+       "pressure": "Apri, aggiungi verdure, pelati, concentrato, metà olio e pepe, richiudi e cuoci 10 minuti dal fischio."
+      }
+     }
+    },
+    "en": {
+     "title": "Fasolada (Greek bean soup)",
+     "intro": "Greece's national soup: white beans, vegetables, tomato and plenty of good olive oil.",
+     "ing": [
+      "dried cannellini beans",
+      "water",
+      "bay leaf",
+      "carrots",
+      "celery stalks",
+      "onion",
+      "canned whole tomatoes",
+      "tomato paste",
+      "extra-virgin olive oil",
+      "black pepper",
+      "salt"
+     ],
+     "steps": [
+      "Soak the beans in plenty of cold water (overnight is fine).",
+      "Drain, cover with fresh water, bring to a boil and boil a few minutes; drain again.",
+      "Return them to the pot with 2 litres water and the bay leaf and simmer.",
+      "Meanwhile dice the carrots, celery and onion.",
+      "Add the vegetables, crushed tomatoes, paste, half the oil and pepper; simmer until the beans are creamy.",
+      "Salt, pour in the remaining oil and cook a few more minutes until the broth is silky.",
+      "Remove the bay leaf and serve hot with bread, olives and raw onion."
+     ],
+     "labels": [
+      "Soaking",
+      "Blanching",
+      "Beans",
+      "",
+      "Soup",
+      "Oil",
+      ""
+     ],
+     "tips": [
+      "In Greece it comes with Kalamata olives, salted sardines and a slice of feta.",
+      "With 2 cans of cannellini you skip the soaking: add them with the vegetables and cook 25 minutes.",
+      "A pinch of chili and a handful of chopped celery leaves at the end brighten it up."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Put them in the pressure cooker with 1.5 litres water and the bay leaf and cook 15 minutes at pressure."
+      },
+      "4": {
+       "pressure": "Open, add the vegetables, tomatoes, paste, half the oil and pepper, lock again and cook 10 minutes."
+      }
+     }
+    },
+    "fr": {
+     "title": "Fasolada, soupe de haricots grecque",
+     "intro": "La soupe nationale grecque : haricots blancs, légumes, tomate et beaucoup de bonne huile.",
+     "ing": [
+      "haricots blancs secs (cannellini)",
+      "eau",
+      "feuille de laurier",
+      "carottes",
+      "branches de céleri",
+      "oignon",
+      "tomates pelées en conserve",
+      "concentré de tomate",
+      "huile d'olive vierge extra",
+      "poivre noir",
+      "sel"
+     ],
+     "steps": [
+      "Fais tremper les haricots dans beaucoup d'eau froide (même toute la nuit).",
+      "Égoutte, couvre d'eau fraîche, porte à ébullition et fais bouillir quelques minutes ; égoutte à nouveau.",
+      "Remets-les dans la marmite avec 2 litres d'eau et le laurier et laisse frémir.",
+      "Pendant ce temps, coupe en dés carottes, céleri et oignon.",
+      "Ajoute les légumes, les tomates écrasées, le concentré, la moitié de l'huile et du poivre ; cuis jusqu'à ce que les haricots soient fondants.",
+      "Sale, verse le reste d'huile et cuis encore quelques minutes jusqu'à ce que le bouillon soit velouté.",
+      "Retire le laurier et sers chaud avec du pain, des olives et de l'oignon cru."
+     ],
+     "labels": [
+      "Trempage",
+      "Blanchiment",
+      "Haricots",
+      "",
+      "Soupe",
+      "Huile",
+      ""
+     ],
+     "tips": [
+      "En Grèce, on l'accompagne d'olives de Kalamata, de sardines salées et d'une tranche de feta.",
+      "Avec 2 boîtes de cannellini, pas de trempage : ajoute-les avec les légumes et cuis 25 minutes.",
+      "Une pincée de piment et une poignée de feuilles de céleri hachées à la fin la réveillent."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Mets-les dans l'autocuiseur avec 1,5 litre d'eau et le laurier et compte 15 minutes après le sifflement."
+      },
+      "4": {
+       "pressure": "Ouvre, ajoute légumes, tomates, concentré, la moitié de l'huile et du poivre, referme et compte 10 minutes."
+      }
+     }
+    },
+    "es": {
+     "title": "Fasolada, sopa griega de alubias",
+     "intro": "La sopa nacional griega: alubias blancas, verduras, tomate y mucho aceite bueno.",
+     "ing": [
+      "alubias blancas secas",
+      "agua",
+      "hoja de laurel",
+      "zanahorias",
+      "ramas de apio",
+      "cebolla",
+      "tomate pelado en conserva",
+      "concentrado de tomate",
+      "aceite de oliva virgen extra",
+      "pimienta negra",
+      "sal"
+     ],
+     "steps": [
+      "Pon las alubias en remojo en abundante agua fría (mejor toda la noche).",
+      "Escúrrelas, cúbrelas con agua limpia, hierve unos minutos y vuelve a escurrir.",
+      "Vuelve a ponerlas en la olla con 2 litros de agua y el laurel y deja hervir suave.",
+      "Mientras, corta en dados la zanahoria, el apio y la cebolla.",
+      "Añade las verduras, el tomate aplastado, el concentrado, la mitad del aceite y pimienta; cuece hasta que las alubias estén cremosas.",
+      "Sala, añade el aceite restante y cuece unos minutos más hasta que el caldo quede untuoso.",
+      "Retira el laurel y sirve caliente con pan, aceitunas y cebolla cruda."
+     ],
+     "labels": [
+      "Remojo",
+      "Hervor",
+      "Alubias",
+      "",
+      "Sopa",
+      "Aceite",
+      ""
+     ],
+     "tips": [
+      "En Grecia se acompaña con aceitunas de Kalamata, sardinas en salazón y una loncha de feta.",
+      "Con 2 latas de alubias te saltas el remojo: añádelas con las verduras y cuece 25 minutos.",
+      "Una pizca de guindilla y un puñado de hojas de apio picadas al final la avivan."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Ponlas en la olla a presión con 1,5 litros de agua y el laurel y cuece 15 minutos desde que suba la válvula."
+      },
+      "4": {
+       "pressure": "Abre, añade verduras, tomate, concentrado, la mitad del aceite y pimienta, cierra y cuece 10 minutos."
+      }
+     }
+    },
+    "de": {
+     "title": "Fasolada, griechische Bohnensuppe",
+     "intro": "Griechenlands Nationalsuppe: weiße Bohnen, Gemüse, Tomate und reichlich gutes Olivenöl.",
+     "ing": [
+      "getrocknete weiße Bohnen",
+      "Wasser",
+      "Lorbeerblatt",
+      "Karotten",
+      "Stangen Staudensellerie",
+      "Zwiebel",
+      "geschälte Tomaten aus der Dose",
+      "Tomatenmark",
+      "natives Olivenöl extra",
+      "schwarzer Pfeffer",
+      "Salz"
+     ],
+     "steps": [
+      "Weich die Bohnen in reichlich kaltem Wasser ein (gern über Nacht).",
+      "Abgießen, mit frischem Wasser bedecken, ein paar Minuten sprudelnd kochen und erneut abgießen.",
+      "Gib sie mit 2 Litern Wasser und dem Lorbeerblatt zurück in den Topf und lass sie köcheln.",
+      "Schneid inzwischen Karotten, Sellerie und Zwiebel in Würfel.",
+      "Gemüse, zerdrückte Tomaten, Mark, die Hälfte des Öls und Pfeffer dazu; köcheln, bis die Bohnen cremig sind.",
+      "Salzen, restliches Öl dazugießen und noch ein paar Minuten kochen, bis die Brühe sämig ist.",
+      "Lorbeer entfernen und heiß mit Brot, Oliven und roher Zwiebel servieren."
+     ],
+     "labels": [
+      "Einweichen",
+      "Abkochen",
+      "Bohnen",
+      "",
+      "Suppe",
+      "Öl",
+      ""
+     ],
+     "tips": [
+      "In Griechenland gibt es Kalamata-Oliven, Salzsardinen und eine Scheibe Feta dazu.",
+      "Mit 2 Dosen weißen Bohnen entfällt das Einweichen: mit dem Gemüse 25 Minuten kochen.",
+      "Eine Prise Chili und gehackte Sellerieblätter zum Schluss machen sie lebendiger."
+     ],
+     "alt": {
+      "2": {
+       "pressure": "Mit 1,5 Litern Wasser und Lorbeer in den Schnellkochtopf geben und 15 Minuten unter Druck garen."
+      },
+      "4": {
+       "pressure": "Öffnen, Gemüse, Tomaten, Mark, halbes Öl und Pfeffer dazu, schließen und 10 Minuten garen."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "briam",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 120,
+   "diff": 1,
+   "kcal": 300,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "waxy-potatoes"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "zucchini"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "eggplants"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-bell-peppers"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 2700
+    },
+    {
+     "timer": 2400
+    },
+    {
+     "timer": 900
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Briám, verdure al forno greche",
+     "intro": "Patate, zucchine, melanzane e peperoni cotti lenti in forno con pomodoro e olio.",
+     "ing": [
+      "patate a pasta gialla",
+      "zucchine",
+      "melanzana",
+      "peperone rosso",
+      "cipolle rosse",
+      "spicchi d'aglio",
+      "pomodori maturi",
+      "olio extravergine d'oliva",
+      "origano secco",
+      "prezzemolo",
+      "acqua",
+      "sale",
+      "pepe nero"
+     ],
+     "steps": [
+      "Scalda il forno a 200 °C. Taglia patate, zucchine e melanzana a tocchi, il peperone a strisce e le cipolle a spicchi.",
+      "Grattugia 2 pomodori e mescola la polpa con aglio tritato, olio, origano, prezzemolo, sale e pepe.",
+      "In una teglia grande condisci le verdure con il sugo crudo, copri con gli altri pomodori a fette e aggiungi l'acqua.",
+      "Copri con alluminio e cuoci in forno.",
+      "Scopri, gira delicatamente le verdure e cuoci finché sono dorate e il sugo si è ristretto.",
+      "Lascia riposare: il briám è più buono tiepido, con pane per raccogliere l'olio."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Forno",
+      "Forno",
+      "Riposo"
+     ],
+     "tips": [
+      "Taglia le patate più piccole delle altre verdure: così cuociono tutte nello stesso tempo.",
+      "Se non serve vegano, una fetta di feta accanto lo rende un piatto unico.",
+      "Il giorno dopo, a temperatura ambiente, è ancora più saporito."
+     ]
+    },
+    "en": {
+     "title": "Briam (Greek roasted vegetables)",
+     "intro": "Potatoes, zucchini, eggplant and peppers slow-baked with tomato and olive oil.",
+     "ing": [
+      "waxy potatoes",
+      "zucchini",
+      "eggplant",
+      "red bell pepper",
+      "red onions",
+      "garlic cloves",
+      "ripe tomatoes",
+      "extra-virgin olive oil",
+      "dried oregano",
+      "flat-leaf parsley",
+      "water",
+      "salt",
+      "black pepper"
+     ],
+     "steps": [
+      "Heat the oven to 200 °C. Cut the potatoes, zucchini and eggplant into chunks, the pepper into strips and onions into wedges.",
+      "Grate 2 tomatoes and mix the pulp with chopped garlic, oil, oregano, parsley, salt and pepper.",
+      "In a large dish toss the vegetables with the raw sauce, top with the other tomatoes, sliced, and add the water.",
+      "Cover with foil and bake.",
+      "Uncover, gently turn the vegetables and bake until golden and the juices have reduced.",
+      "Let it rest: briam is best warm, with bread to soak up the oil."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Oven",
+      "Oven",
+      "Rest"
+     ],
+     "tips": [
+      "Cut the potatoes smaller than the other vegetables so everything cooks at the same time.",
+      "If it need not be vegan, a slab of feta alongside makes it a full meal.",
+      "It tastes even better the next day at room temperature."
+     ]
+    },
+    "fr": {
+     "title": "Briam, légumes rôtis à la grecque",
+     "intro": "Pommes de terre, courgettes, aubergine et poivron rôtis lentement, tomate et huile.",
+     "ing": [
+      "pommes de terre à chair ferme",
+      "courgettes",
+      "aubergine",
+      "poivron rouge",
+      "oignons rouges",
+      "gousses d'ail",
+      "tomates mûres",
+      "huile d'olive vierge extra",
+      "origan séché",
+      "persil plat",
+      "eau",
+      "sel",
+      "poivre noir"
+     ],
+     "steps": [
+      "Préchauffe le four à 200 °C. Coupe pommes de terre, courgettes et aubergine en morceaux, le poivron en lanières, les oignons en quartiers.",
+      "Râpe 2 tomates et mélange la pulpe avec l'ail haché, l'huile, l'origan, le persil, du sel et du poivre.",
+      "Dans un grand plat, mélange les légumes avec la sauce crue, couvre des autres tomates en tranches et ajoute l'eau.",
+      "Couvre d'aluminium et enfourne.",
+      "Découvre, retourne délicatement les légumes et cuis jusqu'à ce qu'ils dorent et que le jus ait réduit.",
+      "Laisse reposer : le briam est meilleur tiède, avec du pain pour saucer l'huile."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Four",
+      "Four",
+      "Repos"
+     ],
+     "tips": [
+      "Coupe les pommes de terre plus petites que les autres légumes : tout cuit en même temps.",
+      "S'il n'a pas à être végan, une tranche de feta à côté en fait un plat complet.",
+      "Le lendemain, à température ambiante, il est encore plus savoureux."
+     ]
+    },
+    "es": {
+     "title": "Briam, verduras al horno griegas",
+     "intro": "Patatas, calabacín, berenjena y pimiento asados despacio con tomate y aceite.",
+     "ing": [
+      "patatas",
+      "calabacines",
+      "berenjena",
+      "pimiento rojo",
+      "cebollas moradas",
+      "dientes de ajo",
+      "tomates maduros",
+      "aceite de oliva virgen extra",
+      "orégano seco",
+      "perejil",
+      "agua",
+      "sal",
+      "pimienta negra"
+     ],
+     "steps": [
+      "Precalienta el horno a 200 °C. Corta patatas, calabacines y berenjena en trozos, el pimiento en tiras y la cebolla en gajos.",
+      "Ralla 2 tomates y mezcla la pulpa con ajo picado, aceite, orégano, perejil, sal y pimienta.",
+      "En una fuente grande mezcla las verduras con la salsa cruda, cubre con los otros tomates en rodajas y añade el agua.",
+      "Cubre con papel de aluminio y hornea.",
+      "Destapa, da la vuelta a las verduras con cuidado y hornea hasta que estén doradas y el jugo se reduzca.",
+      "Deja reposar: el briam está más rico templado, con pan para mojar el aceite."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Horno",
+      "Horno",
+      "Reposo"
+     ],
+     "tips": [
+      "Corta las patatas más pequeñas que el resto: así todo se hace a la vez.",
+      "Si no tiene que ser vegano, una loncha de feta al lado lo convierte en plato único.",
+      "Al día siguiente, a temperatura ambiente, está aún más sabroso."
+     ]
+    },
+    "de": {
+     "title": "Briam, griechisches Ofengemüse",
+     "intro": "Kartoffeln, Zucchini, Aubergine und Paprika, langsam mit Tomate und Olivenöl gebacken.",
+     "ing": [
+      "festkochende Kartoffeln",
+      "Zucchini",
+      "Aubergine",
+      "rote Paprikaschote",
+      "rote Zwiebeln",
+      "Knoblauchzehen",
+      "reife Tomaten",
+      "natives Olivenöl extra",
+      "getrockneter Oregano",
+      "glatte Petersilie",
+      "Wasser",
+      "Salz",
+      "schwarzer Pfeffer"
+     ],
+     "steps": [
+      "Heiz den Ofen auf 200 °C vor. Schneid Kartoffeln, Zucchini und Aubergine in Stücke, Paprika in Streifen, Zwiebeln in Spalten.",
+      "Reib 2 Tomaten und misch das Fruchtfleisch mit gehacktem Knoblauch, Öl, Oregano, Petersilie, Salz und Pfeffer.",
+      "Misch das Gemüse in einer großen Form mit der rohen Sauce, leg die übrigen Tomaten in Scheiben darauf und gieß das Wasser an.",
+      "Mit Alufolie abdecken und backen.",
+      "Folie abnehmen, Gemüse vorsichtig wenden und backen, bis es gebräunt und der Saft eingekocht ist.",
+      "Ruhen lassen: Briam schmeckt lauwarm am besten, mit Brot zum Auftunken."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Ofen",
+      "Ofen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Schneid die Kartoffeln kleiner als das übrige Gemüse, dann wird alles gleichzeitig gar.",
+      "Muss es nicht vegan sein, macht eine Scheibe Feta daneben ein Hauptgericht daraus.",
+      "Am nächsten Tag bei Zimmertemperatur schmeckt es noch besser."
+     ]
+    }
+   }
+  },
+  {
+   "id": "galaktoboureko",
+   "cat": "dolci",
+   "sub": "torte",
+   "servings": 8,
+   "minutes": 140,
+   "diff": 3,
+   "kcal": 480,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "festive",
+    "party"
+   ],
+   "months": [],
+   "origin": "GR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 1000,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "semolina"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "vanilla-extract"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "filo-pastry"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "butter"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 300
+    },
+    {
+     "timer": 300
+    },
+    {},
+    {},
+    {},
+    {
+     "timer": 2700
+    },
+    {
+     "timer": 3600
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Galaktoboúreko, crema in pasta fillo",
+     "intro": "Crema di latte e semolino tra strati di fillo al burro, bagnata di sciroppo al limone.",
+     "ing": [
+      "zucchero per lo sciroppo",
+      "acqua",
+      "limone non trattato",
+      "stecca di cannella",
+      "latte intero",
+      "zucchero per la crema",
+      "semolino fine",
+      "burro per la crema",
+      "estratto di vaniglia",
+      "uova",
+      "pasta fillo",
+      "burro fuso per la fillo"
+     ],
+     "steps": [
+      "Per lo sciroppo fai bollire acqua, 250 g di zucchero, una striscia di scorza di limone e la cannella; poi lascialo raffreddare.",
+      "Scalda il latte con metà dello zucchero della crema, versa il semolino a pioggia mescolando e cuoci a fuoco basso finché è denso.",
+      "Fuori dal fuoco unisci 40 g di burro, vaniglia e la scorza grattugiata del limone; sbatti le uova con lo zucchero rimasto e incorporale.",
+      "Imburra una teglia da 22 x 30 cm e stendi metà della fillo, un foglio alla volta, spennellando ognuno di burro fuso.",
+      "Versa la crema, ripiega i bordi e copri con la fillo rimasta imburrata; incidi a rombi solo gli strati superiori.",
+      "Cuoci in forno a 180 °C finché la superficie è dorata e croccante.",
+      "Versa piano lo sciroppo freddo sul dolce bollente e lascialo assorbire; taglia solo quando è tiepido."
+     ],
+     "labels": [
+      "Sciroppo",
+      "Crema",
+      "",
+      "",
+      "",
+      "Forno",
+      "Riposo"
+     ],
+     "tips": [
+      "Sciroppo freddo su dolce caldo: solo così la fillo assorbe senza diventare molle.",
+      "Si conserva in frigo 3 giorni coperto; tiralo fuori mezz'ora prima di servirlo."
+     ]
+    },
+    "en": {
+     "title": "Galaktoboureko (custard filo pie)",
+     "intro": "Milk and semolina custard between buttery filo layers, soaked in lemon syrup.",
+     "ing": [
+      "sugar for the syrup",
+      "water",
+      "unwaxed lemon",
+      "cinnamon stick",
+      "whole milk",
+      "sugar for the custard",
+      "fine semolina",
+      "butter for the custard",
+      "vanilla extract",
+      "eggs",
+      "filo pastry",
+      "melted butter for the filo"
+     ],
+     "steps": [
+      "For the syrup, boil the water, 250 g sugar, a strip of lemon peel and the cinnamon; then let it cool completely.",
+      "Heat the milk with half the custard sugar, rain in the semolina while whisking and cook on low until thick.",
+      "Off the heat stir in 40 g butter, vanilla and grated lemon zest; beat the eggs with the remaining sugar and whisk them in.",
+      "Butter a 22 x 30 cm dish and lay in half the filo, one sheet at a time, brushing each with melted butter.",
+      "Pour in the custard, fold over the edges and cover with the remaining buttered filo; score diamonds in the top layers only.",
+      "Bake at 180 °C until the top is deep golden and crisp.",
+      "Slowly pour the cold syrup over the hot pie and let it soak in; cut only once it is lukewarm."
+     ],
+     "labels": [
+      "Syrup",
+      "Custard",
+      "",
+      "",
+      "",
+      "Oven",
+      "Rest"
+     ],
+     "tips": [
+      "Cold syrup on a hot pie: that way the filo soaks it up without going soggy.",
+      "Keeps covered in the fridge for 3 days; take it out half an hour before serving."
+     ]
+    },
+    "fr": {
+     "title": "Galaktoboureko, flan de semoule en filo",
+     "intro": "Crème de lait et semoule entre des feuilles de filo beurrées, imbibée de sirop au citron.",
+     "ing": [
+      "sucre pour le sirop",
+      "eau",
+      "citron non traité",
+      "bâton de cannelle",
+      "lait entier",
+      "sucre pour la crème",
+      "semoule fine",
+      "beurre pour la crème",
+      "extrait de vanille",
+      "œufs",
+      "pâte filo",
+      "beurre fondu pour la filo"
+     ],
+     "steps": [
+      "Pour le sirop, fais bouillir l'eau, 250 g de sucre, un zeste de citron et la cannelle ; puis laisse refroidir.",
+      "Chauffe le lait avec la moitié du sucre de la crème, verse la semoule en pluie en fouettant et cuis à feu doux jusqu'à épaissir.",
+      "Hors du feu, ajoute 40 g de beurre, la vanille et le zeste râpé ; bats les œufs avec le reste du sucre et incorpore-les.",
+      "Beurre un plat de 22 x 30 cm et dispose la moitié de la filo, feuille par feuille, en badigeonnant chacune de beurre fondu.",
+      "Verse la crème, rabats les bords et couvre du reste de filo beurrée ; entaille des losanges sur le dessus seulement.",
+      "Enfourne à 180 °C jusqu'à ce que le dessus soit bien doré et croustillant.",
+      "Verse lentement le sirop froid sur le gâteau brûlant et laisse-le absorber ; coupe seulement une fois tiède."
+     ],
+     "labels": [
+      "Sirop",
+      "Crème",
+      "",
+      "",
+      "",
+      "Four",
+      "Repos"
+     ],
+     "tips": [
+      "Sirop froid sur gâteau chaud : ainsi la filo s'imbibe sans ramollir.",
+      "Se garde 3 jours au frais, couvert ; sors-le une demi-heure avant de servir."
+     ]
+    },
+    "es": {
+     "title": "Galaktoboureko, crema en pasta filo",
+     "intro": "Crema de leche y sémola entre capas de filo con mantequilla, bañada en almíbar de limón.",
+     "ing": [
+      "azúcar para el almíbar",
+      "agua",
+      "limón sin tratar",
+      "rama de canela",
+      "leche entera",
+      "azúcar para la crema",
+      "sémola fina",
+      "mantequilla para la crema",
+      "extracto de vainilla",
+      "huevos",
+      "pasta filo",
+      "mantequilla derretida para la filo"
+     ],
+     "steps": [
+      "Para el almíbar hierve el agua, 250 g de azúcar, una tira de piel de limón y la canela; luego deja que se enfríe.",
+      "Calienta la leche con la mitad del azúcar de la crema, añade la sémola en lluvia batiendo y cuece a fuego bajo hasta espesar.",
+      "Fuera del fuego añade 40 g de mantequilla, vainilla y la ralladura de limón; bate los huevos con el azúcar restante e incorpóralos.",
+      "Unta con mantequilla una fuente de 22 x 30 cm y coloca la mitad de la filo, hoja a hoja, pintando cada una con mantequilla.",
+      "Vierte la crema, dobla los bordes y cubre con el resto de la filo untada; marca rombos solo en las capas de arriba.",
+      "Hornea a 180 °C hasta que la superficie esté dorada y crujiente.",
+      "Vierte despacio el almíbar frío sobre el pastel caliente y deja que lo absorba; córtalo cuando esté templado."
+     ],
+     "labels": [
+      "Almíbar",
+      "Crema",
+      "",
+      "",
+      "",
+      "Horno",
+      "Reposo"
+     ],
+     "tips": [
+      "Almíbar frío sobre pastel caliente: así la filo lo absorbe sin ablandarse.",
+      "Se conserva tapado en la nevera 3 días; sácalo media hora antes de servir."
+     ]
+    },
+    "de": {
+     "title": "Galaktoboureko, Grießcreme im Filoteig",
+     "intro": "Grießcreme zwischen buttrigen Filoblättern, mit Zitronensirup getränkt.",
+     "ing": [
+      "Zucker für den Sirup",
+      "Wasser",
+      "Bio-Zitrone",
+      "Zimtstange",
+      "Vollmilch",
+      "Zucker für die Creme",
+      "Weichweizengrieß",
+      "Butter für die Creme",
+      "Vanilleextrakt",
+      "Eier",
+      "Filoteig",
+      "geschmolzene Butter für den Filoteig"
+     ],
+     "steps": [
+      "Für den Sirup Wasser, 250 g Zucker, ein Stück Zitronenschale und Zimt aufkochen und dann ganz abkühlen lassen.",
+      "Erhitz die Milch mit der Hälfte des Cremezuckers, rühr den Grieß einrieseln und koch alles bei schwacher Hitze dick ein.",
+      "Vom Herd nehmen, 40 g Butter, Vanille und Zitronenabrieb einrühren; Eier mit dem restlichen Zucker schlagen und unterrühren.",
+      "Fette eine Form (22 x 30 cm) ein und leg die Hälfte des Filoteigs Blatt für Blatt hinein, jedes mit Butter bestrichen.",
+      "Creme einfüllen, Ränder einschlagen, mit dem übrigen gebutterten Filo abdecken und nur die oberen Lagen rautenförmig einritzen.",
+      "Bei 180 °C backen, bis die Oberfläche goldbraun und knusprig ist.",
+      "Gieß den kalten Sirup langsam über den heißen Kuchen und lass ihn einziehen; erst lauwarm anschneiden."
+     ],
+     "labels": [
+      "Sirup",
+      "Creme",
+      "",
+      "",
+      "",
+      "Ofen",
+      "Ruhen"
+     ],
+     "tips": [
+      "Kalter Sirup auf heißen Kuchen: Nur so saugt der Filo ihn auf, ohne matschig zu werden.",
+      "Hält sich abgedeckt 3 Tage im Kühlschrank; eine halbe Stunde vor dem Servieren herausnehmen."
+     ]
+    }
+   }
+  }
+ ]
+}

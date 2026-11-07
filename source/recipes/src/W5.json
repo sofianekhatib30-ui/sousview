@@ -1,0 +1,4848 @@
+{
+ "group": "W5",
+ "recipes": [
+  {
+   "id": "kenchinjiru",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 65,
+   "diff": 1,
+   "kcal": 120,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "comfort"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "origin": "JP",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 10,
+     "u": "g",
+     "k": "kombu"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "dried-shiitake"
+    },
+    {
+     "q": 1100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "firm-tofu"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "daikon"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "potatoes"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "toasted-sesame-oil"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sake"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 120
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist",
+     "link": "dashi"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Kenchinjiru, zuppa di verdure e tofu",
+     "intro": "Zuppa dei templi zen: verdure d'inverno e tofu rosolati nel sesamo, in dashi vegetale.",
+     "ing": [
+      "alga kombu",
+      "funghi shiitake secchi",
+      "acqua fredda",
+      "tofu compatto",
+      "daikon",
+      "carota",
+      "patata",
+      "olio di sesamo tostato",
+      "sake",
+      "salsa di soia",
+      "sale",
+      "cipollotti"
+     ],
+     "steps": [
+      "Metti kombu e shiitake in 1,1 litri d'acqua fredda e lasciali in ammollo 30 minuti.",
+      "Intanto pela daikon e carota e tagliali a quarti di rondella sottili. Taglia la patata a cubetti e asciuga bene il tofu.",
+      "Scalda piano e togli la kombu prima del bollore. Estrai gli shiitake, elimina i gambi e affettali.",
+      "In una pentola scalda l'olio di sesamo, sbriciola il tofu con le mani e rosolalo 3 minuti con verdure e shiitake.",
+      "Versa il dashi, porta a bollore e schiuma. Sobbolli 15 minuti, finché daikon e patata sono teneri.",
+      "Condisci con sake, salsa di soia e un pizzico di sale e fai sobbollire ancora 2 minuti.",
+      "Servi ben caldo in ciotole, con i cipollotti affettati sopra."
+     ],
+     "labels": [
+      "Ammollo",
+      "",
+      "Dashi",
+      "Rosolatura",
+      "Verdure",
+      "Condimento",
+      ""
+     ],
+     "tips": [
+      "Se trovi konnyaku e radice di bardana (gobo) nei negozi asiatici, aggiungili: è la versione completa.",
+      "Con il dashi classico di kombu e katsuobushi è più sapida, ma non è più vegana.",
+      "Il giorno dopo è ancora più buona: riscaldala piano, senza farla bollire a lungo."
+     ]
+    },
+    "en": {
+     "title": "Kenchinjiru, vegetable and tofu soup",
+     "intro": "Zen temple soup: winter vegetables and tofu fried in sesame oil, in a plant-based dashi.",
+     "ing": [
+      "kombu seaweed",
+      "dried shiitake mushrooms",
+      "cold water",
+      "firm tofu",
+      "daikon radish",
+      "carrot",
+      "potato",
+      "toasted sesame oil",
+      "sake",
+      "soy sauce",
+      "salt",
+      "spring onions"
+     ],
+     "steps": [
+      "Put the kombu and shiitake in 1.1 litres of cold water and leave to soak for 30 minutes.",
+      "Meanwhile peel the daikon and carrot and slice into thin quarter-moons. Dice the potato and pat the tofu dry.",
+      "Heat slowly and lift out the kombu before it boils. Remove the shiitake, cut off the stems and slice.",
+      "Heat the sesame oil in a pot, crumble in the tofu by hand and fry with the vegetables and shiitake for 3 minutes.",
+      "Pour in the dashi, bring to a boil and skim. Simmer for 15 minutes, until the daikon and potato are tender.",
+      "Season with sake, soy sauce and a pinch of salt and simmer for 2 more minutes.",
+      "Serve piping hot in bowls, topped with sliced spring onion."
+     ],
+     "labels": [
+      "Soak",
+      "",
+      "Dashi",
+      "Sauté",
+      "Vegetables",
+      "Season",
+      ""
+     ],
+     "tips": [
+      "If you find konnyaku and burdock root (gobo) at an Asian shop, add them: that's the full version.",
+      "With classic kombu and katsuobushi dashi it's richer, but no longer vegan.",
+      "It's even better the next day: reheat gently, without boiling it for long."
+     ]
+    },
+    "fr": {
+     "title": "Kenchinjiru, soupe de légumes au tofu",
+     "intro": "Soupe des temples zen : légumes d'hiver et tofu revenus au sésame, dans un dashi végétal.",
+     "ing": [
+      "algue kombu",
+      "champignons shiitakés séchés",
+      "eau froide",
+      "tofu ferme",
+      "radis daikon",
+      "carotte",
+      "pomme de terre",
+      "huile de sésame grillé",
+      "saké",
+      "sauce soja",
+      "sel",
+      "oignons nouveaux"
+     ],
+     "steps": [
+      "Mets le kombu et les shiitakés dans 1,1 litre d'eau froide et laisse tremper 30 minutes.",
+      "Pendant ce temps, épluche daikon et carotte et taille-les en fins quartiers de rondelle. Coupe la pomme de terre en dés.",
+      "Chauffe doucement et retire le kombu avant l'ébullition. Sors les shiitakés, ôte les pieds et émince-les.",
+      "Chauffe l'huile de sésame dans une casserole, émiette le tofu à la main et fais-le revenir 3 minutes avec légumes et shiitakés.",
+      "Verse le dashi, porte à ébullition et écume. Laisse frémir 15 minutes, jusqu'à ce que daikon et pomme de terre soient tendres.",
+      "Assaisonne avec le saké, la sauce soja et une pincée de sel, puis laisse frémir encore 2 minutes.",
+      "Sers bien chaud dans des bols, parsemé d'oignon nouveau émincé."
+     ],
+     "labels": [
+      "Trempage",
+      "",
+      "Dashi",
+      "Revenir",
+      "Légumes",
+      "Assaisonner",
+      ""
+     ],
+     "tips": [
+      "Si tu trouves du konnyaku et de la racine de bardane (gobo) en épicerie asiatique, ajoute-les.",
+      "Avec un dashi classique kombu et katsuobushi, elle est plus riche, mais n'est plus végane.",
+      "Elle est encore meilleure le lendemain : réchauffe-la doucement, sans la faire bouillir longtemps."
+     ]
+    },
+    "es": {
+     "title": "Kenchinjiru, sopa de verduras y tofu",
+     "intro": "Sopa de templo zen: verduras de invierno y tofu salteados en sésamo, en dashi vegetal.",
+     "ing": [
+      "alga kombu",
+      "setas shiitake secas",
+      "agua fría",
+      "tofu firme",
+      "rábano daikon",
+      "zanahoria",
+      "patata",
+      "aceite de sésamo tostado",
+      "sake",
+      "salsa de soja",
+      "sal",
+      "cebolletas"
+     ],
+     "steps": [
+      "Pon el kombu y las shiitake en 1,1 litros de agua fría y déjalos en remojo 30 minutos.",
+      "Mientras, pela el daikon y la zanahoria y córtalos en cuartos de rodaja finos. Corta la patata en dados y seca el tofu.",
+      "Calienta despacio y retira el kombu antes de que hierva. Saca las shiitake, quítales el pie y córtalas en láminas.",
+      "Calienta el aceite de sésamo en una olla, desmenuza el tofu con las manos y saltéalo 3 minutos con las verduras y las shiitake.",
+      "Vierte el dashi, lleva a ebullición y espuma. Cuece a fuego suave 15 minutos, hasta que el daikon y la patata estén tiernos.",
+      "Sazona con el sake, la salsa de soja y una pizca de sal y deja hervir suave 2 minutos más.",
+      "Sírvela muy caliente en cuencos, con la cebolleta en rodajas por encima."
+     ],
+     "labels": [
+      "Remojo",
+      "",
+      "Dashi",
+      "Salteado",
+      "Verduras",
+      "Sazonar",
+      ""
+     ],
+     "tips": [
+      "Si encuentras konnyaku y raíz de bardana (gobo) en tiendas asiáticas, añádelos: es la versión completa.",
+      "Con el dashi clásico de kombu y katsuobushi tiene más sabor, pero deja de ser vegana.",
+      "Al día siguiente está aún mejor: recaliéntala despacio, sin que hierva mucho rato."
+     ]
+    },
+    "de": {
+     "title": "Kenchinjiru, Gemüsesuppe mit Tofu",
+     "intro": "Suppe der Zen-Tempel: Wintergemüse und Tofu in Sesamöl angebraten, in pflanzlichem Dashi.",
+     "ing": [
+      "Kombu-Alge",
+      "getrocknete Shiitake-Pilze",
+      "kaltes Wasser",
+      "fester Tofu",
+      "Daikon-Rettich",
+      "Karotte",
+      "Kartoffel",
+      "geröstetes Sesamöl",
+      "Sake",
+      "Sojasoße",
+      "Salz",
+      "Frühlingszwiebeln"
+     ],
+     "steps": [
+      "Leg Kombu und Shiitake in 1,1 Liter kaltes Wasser und lass sie 30 Minuten einweichen.",
+      "Schäl inzwischen Daikon und Karotte und schneid sie in dünne Viertelscheiben. Würfle die Kartoffel, tupf den Tofu trocken.",
+      "Erhitz alles langsam und nimm den Kombu vor dem Kochen heraus. Nimm die Shiitake heraus, entstiel sie und schneid sie klein.",
+      "Erhitz das Sesamöl in einem Topf, zerbröckle den Tofu hinein und brat ihn 3 Minuten mit Gemüse und Shiitake an.",
+      "Gieß das Dashi an, bring es zum Kochen und schöpf den Schaum ab. 15 Minuten köcheln, bis Daikon und Kartoffel weich sind.",
+      "Würz mit Sake, Sojasoße und einer Prise Salz und lass alles noch 2 Minuten köcheln.",
+      "Serviere die Suppe heiß in Schalen, mit Frühlingszwiebelringen bestreut."
+     ],
+     "labels": [
+      "Einweichen",
+      "",
+      "Dashi",
+      "Anbraten",
+      "Gemüse",
+      "Würzen",
+      ""
+     ],
+     "tips": [
+      "Wenn du im Asialaden Konnyaku und Klettenwurzel (Gobo) findest, gib sie dazu: Das ist die volle Version.",
+      "Mit klassischem Dashi aus Kombu und Katsuobushi schmeckt sie kräftiger, ist aber nicht mehr vegan.",
+      "Am nächsten Tag schmeckt sie noch besser: Wärm sie sanft auf, ohne sie lange kochen zu lassen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "nikujaga",
+   "cat": "unici",
+   "sub": "pentola",
+   "servings": 4,
+   "minutes": 55,
+   "diff": 1,
+   "kcal": 420,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "JP",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 300,
+     "u": "g",
+     "k": "beef"
+    },
+    {
+     "q": 600,
+     "u": "g",
+     "k": "potatoes"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "frozen-peas"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "dashi",
+     "make": "dashi"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sake"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "mirin"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 180
+    },
+    {},
+    {
+     "timer": 600
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 600
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Nikujaga, manzo e patate in umido",
+     "intro": "Il piatto di casa per eccellenza in Giappone: manzo e patate in un brodo dolce e salato.",
+     "ing": [
+      "manzo a fettine sottilissime",
+      "patate",
+      "cipolla grande",
+      "carota",
+      "piselli surgelati",
+      "olio di semi",
+      "dashi (anche istantaneo)",
+      "sake",
+      "mirin",
+      "zucchero",
+      "salsa di soia"
+     ],
+     "steps": [
+      "Taglia le patate in pezzi grandi e tienile in acqua fredda. Taglia la cipolla a spicchi, la carota a tocchetti e il manzo in pezzi di 5 cm.",
+      "Scalda l'olio in una pentola e rosola il manzo finché cambia colore, poi unisci cipolla, carota e patate scolate.",
+      "Versa il dashi (anche istantaneo), sake, mirin e zucchero. Porta a bollore ed elimina la schiuma.",
+      "Copri con un disco di carta forno bucato al centro, a contatto, e sobbolli 10 minuti a fuoco medio-basso.",
+      "Aggiungi la salsa di soia e cuoci altri 10 minuti, finché uno stecchino entra nelle patate senza resistenza.",
+      "Unisci i piselli e cuoci 2 minuti, mescolando poco per non sfaldare le patate.",
+      "Spegni e lascia riposare coperto 10 minuti: raffreddandosi, le patate assorbono il sapore.",
+      "Servi in ciotole con un po' di liquido di cottura, accanto al riso bianco."
+     ],
+     "labels": [
+      "",
+      "Rosolatura",
+      "",
+      "Sobbollire",
+      "Patate",
+      "Piselli",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Il disco di carta forno (otoshibuta) fa circolare il brodo e tiene intere le patate.",
+      "Nel Kanto si fa spesso col maiale; se li trovi nei negozi asiatici, aggiungi 200 g di shirataki.",
+      "Il giorno dopo è ancora più buono: si conserva 3 giorni in frigo, riscaldalo piano."
+     ]
+    },
+    "en": {
+     "title": "Nikujaga, beef and potato simmer",
+     "intro": "Japan's ultimate home dish: beef and potatoes in a sweet and savoury broth.",
+     "ing": [
+      "very thinly sliced beef",
+      "potatoes",
+      "large onion",
+      "carrot",
+      "frozen peas",
+      "sunflower oil",
+      "dashi (instant is fine)",
+      "sake",
+      "mirin",
+      "sugar",
+      "soy sauce"
+     ],
+     "steps": [
+      "Cut the potatoes into large chunks and keep them in cold water. Cut the onion into wedges, the carrot into chunks, the beef into 5 cm pieces.",
+      "Heat the oil in a pot and brown the beef until it changes colour, then add the onion, carrot and drained potatoes.",
+      "Pour in the dashi (instant is fine), sake, mirin and sugar. Bring to a boil and skim off the foam.",
+      "Lay a disc of baking paper with a hole in the middle right on the surface and simmer for 10 minutes over medium-low heat.",
+      "Add the soy sauce and cook for 10 more minutes, until a skewer slides into the potatoes easily.",
+      "Add the peas and cook for 2 minutes, stirring as little as possible so the potatoes don't break up.",
+      "Turn off the heat and leave covered for 10 minutes: as it cools, the potatoes soak up the flavour.",
+      "Serve in bowls with a little of the broth, alongside plain rice."
+     ],
+     "labels": [
+      "",
+      "Brown",
+      "",
+      "Simmer",
+      "Potatoes",
+      "Peas",
+      "Rest",
+      ""
+     ],
+     "tips": [
+      "The paper drop lid (otoshibuta) keeps the broth circulating and the potatoes whole.",
+      "In the Kanto region it's often made with pork; if your Asian shop has them, add 200 g shirataki.",
+      "Even better the next day: keeps 3 days in the fridge, reheat gently."
+     ]
+    },
+    "fr": {
+     "title": "Nikujaga, bœuf et pommes de terre",
+     "intro": "Le classique familial japonais : bœuf et pommes de terre dans un bouillon sucré-salé.",
+     "ing": [
+      "bœuf en tranches très fines",
+      "pommes de terre",
+      "gros oignon",
+      "carotte",
+      "petits pois surgelés",
+      "huile de tournesol",
+      "dashi (instantané possible)",
+      "saké",
+      "mirin",
+      "sucre",
+      "sauce soja"
+     ],
+     "steps": [
+      "Coupe les pommes de terre en gros morceaux, garde-les dans l'eau froide. Oignon en quartiers, carotte en tronçons, bœuf en morceaux de 5 cm.",
+      "Chauffe l'huile dans une cocotte et saisis le bœuf jusqu'à ce qu'il change de couleur, puis ajoute oignon, carotte et pommes de terre.",
+      "Verse le dashi (même instantané), le saké, le mirin et le sucre. Porte à ébullition et écume.",
+      "Pose à la surface un disque de papier cuisson percé au centre et laisse frémir 10 minutes à feu moyen-doux.",
+      "Ajoute la sauce soja et cuis encore 10 minutes, jusqu'à ce qu'une pique entre facilement dans les pommes de terre.",
+      "Ajoute les petits pois et cuis 2 minutes en remuant le moins possible pour ne pas casser les pommes de terre.",
+      "Éteins et laisse reposer 10 minutes à couvert : en refroidissant, les pommes de terre prennent le goût.",
+      "Sers dans des bols avec un peu de bouillon, à côté du riz blanc."
+     ],
+     "labels": [
+      "",
+      "Saisir",
+      "",
+      "Mijoter",
+      "Pommes de terre",
+      "Petits pois",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "Le disque de papier (otoshibuta) fait circuler le bouillon et garde les pommes de terre entières.",
+      "Dans le Kanto, on le fait souvent au porc ; si ton épicerie asiatique en a, ajoute 200 g de shirataki.",
+      "Encore meilleur le lendemain : 3 jours au frigo, réchauffe-le doucement."
+     ]
+    },
+    "es": {
+     "title": "Nikujaga, guiso de ternera y patatas",
+     "intro": "El plato casero japonés por excelencia: ternera y patatas en un caldo dulce y salado.",
+     "ing": [
+      "ternera en lonchas muy finas",
+      "patatas",
+      "cebolla grande",
+      "zanahoria",
+      "guisantes congelados",
+      "aceite de girasol",
+      "dashi (vale instantáneo)",
+      "sake",
+      "mirin",
+      "azúcar",
+      "salsa de soja"
+     ],
+     "steps": [
+      "Corta las patatas en trozos grandes y déjalas en agua fría. Corta la cebolla en gajos, la zanahoria en trozos y la ternera en piezas de 5 cm.",
+      "Calienta el aceite en una olla y dora la ternera hasta que cambie de color; añade la cebolla, la zanahoria y las patatas escurridas.",
+      "Vierte el dashi (vale instantáneo), el sake, el mirin y el azúcar. Lleva a ebullición y retira la espuma.",
+      "Cubre con un disco de papel de horno con un agujero en el centro, pegado al guiso, y cuece 10 minutos a fuego medio-bajo.",
+      "Añade la salsa de soja y cuece 10 minutos más, hasta que un palillo entre en las patatas sin resistencia.",
+      "Añade los guisantes y cuece 2 minutos removiendo lo mínimo para que las patatas no se rompan.",
+      "Apaga y deja reposar tapado 10 minutos: al templarse, las patatas absorben el sabor.",
+      "Sirve en cuencos con un poco del caldo, junto al arroz blanco."
+     ],
+     "labels": [
+      "",
+      "Dorar",
+      "",
+      "Guisar",
+      "Patatas",
+      "Guisantes",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "El disco de papel (otoshibuta) hace circular el caldo y mantiene las patatas enteras.",
+      "En la región de Kanto se hace a menudo con cerdo; si tu tienda asiática tiene shirataki, añade 200 g.",
+      "Al día siguiente está aún mejor: aguanta 3 días en la nevera, recaliéntalo despacio."
+     ]
+    },
+    "de": {
+     "title": "Nikujaga, Rindfleisch mit Kartoffeln",
+     "intro": "Japans Hausmannskost schlechthin: Rindfleisch und Kartoffeln in süß-salziger Brühe.",
+     "ing": [
+      "hauchdünn geschnittenes Rindfleisch",
+      "Kartoffeln",
+      "große Zwiebel",
+      "Karotte",
+      "TK-Erbsen",
+      "Sonnenblumenöl",
+      "Dashi (auch instant)",
+      "Sake",
+      "Mirin",
+      "Zucker",
+      "Sojasoße"
+     ],
+     "steps": [
+      "Schneid die Kartoffeln grob und leg sie in kaltes Wasser. Schneid die Zwiebel in Spalten, die Karotte in Stücke, das Fleisch in 5-cm-Stücke.",
+      "Erhitz das Öl in einem Topf und brat das Fleisch an, bis es die Farbe wechselt. Gib Zwiebel, Karotte und abgetropfte Kartoffeln dazu.",
+      "Gieß Dashi (auch instant), Sake, Mirin und Zucker an. Bring alles zum Kochen und schöpf den Schaum ab.",
+      "Leg einen Kreis Backpapier mit einem Loch in der Mitte direkt auf die Oberfläche und lass alles 10 Minuten sanft köcheln.",
+      "Gib die Sojasoße dazu und koch alles weitere 10 Minuten, bis ein Spieß leicht in die Kartoffeln gleitet.",
+      "Gib die Erbsen dazu und gare sie 2 Minuten, dabei möglichst wenig rühren, damit die Kartoffeln ganz bleiben.",
+      "Schalt den Herd aus und lass alles zugedeckt 10 Minuten ziehen: Beim Abkühlen nehmen die Kartoffeln den Geschmack auf.",
+      "Serviere es in Schalen mit etwas Brühe, dazu weißen Reis."
+     ],
+     "labels": [
+      "",
+      "Anbraten",
+      "",
+      "Köcheln",
+      "Kartoffeln",
+      "Erbsen",
+      "Ruhen",
+      ""
+     ],
+     "tips": [
+      "Der Papierdeckel (Otoshibuta) hält die Brühe in Bewegung, so bleiben die Kartoffeln ganz.",
+      "In der Kanto-Region nimmt man oft Schweinefleisch; hat dein Asialaden Shirataki, gib 200 g dazu.",
+      "Am nächsten Tag noch besser: Hält 3 Tage im Kühlschrank, sanft aufwärmen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "oyakodon",
+   "cat": "unici",
+   "sub": "bowl",
+   "servings": 4,
+   "minutes": 65,
+   "diff": 2,
+   "kcal": 620,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort",
+    "kids"
+   ],
+   "months": [],
+   "origin": "JP",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 320,
+     "u": "g",
+     "k": "short-grain-rice"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "chicken-thighs"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "dashi",
+     "make": "dashi"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "mirin"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 1320,
+     "bg": true
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 420
+    },
+    {
+     "timer": 60
+    },
+    {
+     "timer": 30
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Oyakodon, riso con pollo e uova",
+     "intro": "Pollo e uova, «genitore e figlio», cotti nel dashi dolce e versati sul riso caldo.",
+     "ing": [
+      "riso giapponese (o a chicco tondo)",
+      "acqua",
+      "cosce di pollo disossate",
+      "cipolla",
+      "uova freschissime",
+      "dashi (anche istantaneo)",
+      "salsa di soia",
+      "mirin",
+      "zucchero",
+      "cipollotti"
+     ],
+     "steps": [
+      "Lava il riso in acqua fredda strofinandolo finché l'acqua è quasi limpida, poi lascialo in ammollo nei 400 ml d'acqua per 30 minuti.",
+      "Intanto taglia il pollo a bocconi di 3 cm e la cipolla a mezzelune sottili. Sbatti appena le uova: l'albume deve restare a filamenti.",
+      "Porta il riso a bollore coperto, poi cuoci 12 minuti al minimo. Spegni e lascia riposare 10 minuti senza alzare il coperchio.",
+      "Intanto in una padella larga porta a bollore dashi, soia, mirin e zucchero. Aggiungi la cipolla e cuocila 3 minuti.",
+      "Unisci il pollo e sobbolli 7 minuti, girandolo, finché è cotto al cuore e senza parti rosa.",
+      "Versa due terzi delle uova a spirale sul pollo, copri e cuoci 1 minuto a fuoco medio.",
+      "Versa le uova rimaste, copri 30 secondi e spegni: devono essere rapprese ma ancora morbide e lucide.",
+      "Riempi le ciotole di riso, fai scivolare sopra pollo e uova con il loro sugo e completa con i cipollotti."
+     ],
+     "labels": [
+      "Ammollo",
+      "",
+      "Riso",
+      "Cipolla",
+      "Pollo",
+      "Uova",
+      "Ultime uova",
+      ""
+     ],
+     "tips": [
+      "Le uova appena sbattute, con albume e tuorlo non uniformi, danno il tipico effetto marmorizzato.",
+      "Con la mitsuba dei negozi giapponesi al posto del cipollotto hai il profumo originale.",
+      "Se preferisci le uova ben rapprese, lasciale coperte 2 minuti in più a fuoco basso."
+     ]
+    },
+    "en": {
+     "title": "Oyakodon, chicken and egg rice bowl",
+     "intro": "Chicken and egg, 'parent and child', simmered in sweet dashi and spooned over hot rice.",
+     "ing": [
+      "Japanese short-grain rice",
+      "water",
+      "boneless chicken thighs",
+      "onion",
+      "very fresh eggs",
+      "dashi (instant is fine)",
+      "soy sauce",
+      "mirin",
+      "sugar",
+      "spring onions"
+     ],
+     "steps": [
+      "Rinse the rice in cold water, rubbing it, until the water is almost clear, then soak it in the 400 ml water for 30 minutes.",
+      "Meanwhile cut the chicken into 3 cm pieces and the onion into thin half-moons. Beat the eggs lightly: the whites should stay streaky.",
+      "Bring the rice to a boil covered, then cook on the lowest heat for 12 minutes. Turn off and rest 10 minutes without lifting the lid.",
+      "Meanwhile bring the dashi, soy sauce, mirin and sugar to a boil in a wide pan. Add the onion and cook for 3 minutes.",
+      "Add the chicken and simmer for 7 minutes, turning, until cooked through with no pink left.",
+      "Pour two thirds of the eggs over the chicken in a spiral, cover and cook for 1 minute over medium heat.",
+      "Pour in the rest of the eggs, cover for 30 seconds and turn off: they should be set but still soft and glossy.",
+      "Fill bowls with rice, slide the chicken and eggs on top with their sauce and finish with spring onion."
+     ],
+     "labels": [
+      "Soak",
+      "",
+      "Rice",
+      "Onion",
+      "Chicken",
+      "Eggs",
+      "Last eggs",
+      ""
+     ],
+     "tips": [
+      "Barely beaten eggs, with white and yolk not fully mixed, give the classic marbled look.",
+      "Use mitsuba from a Japanese shop instead of spring onion for the authentic aroma.",
+      "If you prefer firmer eggs, keep them covered on low heat for 2 more minutes."
+     ]
+    },
+    "fr": {
+     "title": "Oyakodon, bol de riz poulet et œuf",
+     "intro": "Poulet et œuf, « parent et enfant », mijotés dans un dashi sucré, sur du riz chaud.",
+     "ing": [
+      "riz japonais (ou riz rond)",
+      "eau",
+      "hauts de cuisse de poulet désossés",
+      "oignon",
+      "œufs très frais",
+      "dashi (instantané possible)",
+      "sauce soja",
+      "mirin",
+      "sucre",
+      "oignons nouveaux"
+     ],
+     "steps": [
+      "Rince le riz à l'eau froide en le frottant jusqu'à ce que l'eau soit presque claire, puis fais-le tremper 30 minutes dans les 400 ml d'eau.",
+      "Pendant ce temps, coupe le poulet en bouchées de 3 cm et l'oignon en fines demi-lunes. Bats à peine les œufs : le blanc doit rester filant.",
+      "Porte le riz à ébullition à couvert, puis cuis 12 minutes à feu très doux. Éteins et laisse reposer 10 minutes sans ouvrir.",
+      "Pendant ce temps, porte à ébullition dashi, soja, mirin et sucre dans une poêle large. Ajoute l'oignon et cuis 3 minutes.",
+      "Ajoute le poulet et laisse frémir 7 minutes en le retournant, jusqu'à ce qu'il soit cuit à cœur, sans trace rosée.",
+      "Verse deux tiers des œufs en spirale sur le poulet, couvre et cuis 1 minute à feu moyen.",
+      "Verse le reste des œufs, couvre 30 secondes et éteins : ils doivent être pris mais encore moelleux et brillants.",
+      "Remplis les bols de riz, fais glisser dessus poulet et œufs avec leur sauce et parsème d'oignon nouveau."
+     ],
+     "labels": [
+      "Trempage",
+      "",
+      "Riz",
+      "Oignon",
+      "Poulet",
+      "Œufs",
+      "Derniers œufs",
+      ""
+     ],
+     "tips": [
+      "Des œufs à peine battus, blanc et jaune pas tout à fait mêlés, donnent l'aspect marbré typique.",
+      "Avec du mitsuba d'épicerie japonaise à la place de l'oignon nouveau, tu as le parfum d'origine.",
+      "Si tu préfères les œufs plus pris, laisse-les couverts 2 minutes de plus à feu doux."
+     ]
+    },
+    "es": {
+     "title": "Oyakodon, arroz con pollo y huevo",
+     "intro": "Pollo y huevo, «padre e hijo», cocidos en dashi dulce y servidos sobre arroz caliente.",
+     "ing": [
+      "arroz japonés (o redondo)",
+      "agua",
+      "contramuslos de pollo deshuesados",
+      "cebolla",
+      "huevos muy frescos",
+      "dashi (vale instantáneo)",
+      "salsa de soja",
+      "mirin",
+      "azúcar",
+      "cebolletas"
+     ],
+     "steps": [
+      "Lava el arroz en agua fría frotándolo hasta que el agua salga casi limpia y déjalo en remojo 30 minutos en los 400 ml de agua.",
+      "Mientras, corta el pollo en bocados de 3 cm y la cebolla en medias lunas finas. Bate apenas los huevos: la clara debe quedar en hebras.",
+      "Lleva el arroz a ebullición tapado y cuécelo 12 minutos a fuego mínimo. Apaga y deja reposar 10 minutos sin destapar.",
+      "Mientras, en una sartén amplia, lleva a ebullición el dashi, la soja, el mirin y el azúcar. Añade la cebolla y cuécela 3 minutos.",
+      "Añade el pollo y cuécelo suave 7 minutos, dándole la vuelta, hasta que esté hecho por dentro y sin partes rosadas.",
+      "Vierte dos tercios del huevo en espiral sobre el pollo, tapa y cuece 1 minuto a fuego medio.",
+      "Vierte el resto del huevo, tapa 30 segundos y apaga: debe quedar cuajado pero aún tierno y brillante.",
+      "Llena los cuencos de arroz, desliza encima el pollo con el huevo y su salsa y termina con la cebolleta."
+     ],
+     "labels": [
+      "Remojo",
+      "",
+      "Arroz",
+      "Cebolla",
+      "Pollo",
+      "Huevo",
+      "Último huevo",
+      ""
+     ],
+     "tips": [
+      "Los huevos apenas batidos, sin mezclar del todo clara y yema, dan el típico aspecto marmolado.",
+      "Con mitsuba de tienda japonesa en lugar de cebolleta tendrás el aroma original.",
+      "Si prefieres el huevo más hecho, déjalo tapado 2 minutos más a fuego bajo."
+     ]
+    },
+    "de": {
+     "title": "Oyakodon, Reisschale mit Huhn und Ei",
+     "intro": "Hähnchen und Ei, „Eltern und Kind“, in süßem Dashi gegart und über heißen Reis gegeben.",
+     "ing": [
+      "japanischer Rundkornreis",
+      "Wasser",
+      "Hähnchenschenkel ohne Knochen",
+      "Zwiebel",
+      "sehr frische Eier",
+      "Dashi (auch instant)",
+      "Sojasoße",
+      "Mirin",
+      "Zucker",
+      "Frühlingszwiebeln"
+     ],
+     "steps": [
+      "Wasch den Reis in kaltem Wasser und reib ihn dabei, bis das Wasser fast klar ist. Lass ihn dann 30 Minuten in den 400 ml Wasser quellen.",
+      "Schneid inzwischen das Hähnchen in 3-cm-Stücke und die Zwiebel in dünne Halbringe. Verquirl die Eier nur kurz: Das Eiweiß bleibt schlierig.",
+      "Bring den Reis zugedeckt zum Kochen und gare ihn 12 Minuten auf kleinster Stufe. Herd aus, 10 Minuten zugedeckt ruhen lassen.",
+      "Bring inzwischen Dashi, Sojasoße, Mirin und Zucker in einer weiten Pfanne zum Kochen. Gib die Zwiebel dazu und gare sie 3 Minuten.",
+      "Gib das Hähnchen dazu und lass es 7 Minuten köcheln, dabei wenden, bis es durchgegart und nicht mehr rosa ist.",
+      "Gieß zwei Drittel der Eier spiralförmig über das Hähnchen, deck die Pfanne zu und gare alles 1 Minute bei mittlerer Hitze.",
+      "Gieß die restlichen Eier dazu, deck 30 Sekunden zu und schalt aus: Sie sollen gestockt, aber noch weich und glänzend sein.",
+      "Füll den Reis in Schalen, lass Hähnchen und Ei mit der Soße darauf gleiten und streu Frühlingszwiebeln darüber."
+     ],
+     "labels": [
+      "Einweichen",
+      "",
+      "Reis",
+      "Zwiebel",
+      "Hähnchen",
+      "Eier",
+      "Letzte Eier",
+      ""
+     ],
+     "tips": [
+      "Nur kurz verquirlte Eier, Eiweiß und Eigelb nicht ganz vermischt, ergeben die typische Marmorierung.",
+      "Mit Mitsuba aus dem Japanladen statt Frühlingszwiebel bekommst du das Originalaroma.",
+      "Magst du die Eier fester, lass sie zugedeckt noch 2 Minuten bei kleiner Hitze stehen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "buta-no-shogayaki",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 25,
+   "diff": 1,
+   "kcal": 420,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "JP",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "pork-loin"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "mirin"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sake"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "white-cabbage"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 120
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 60
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "kenchinjiru"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Shōgayaki, maiale allo zenzero",
+     "intro": "Maiale saltato in salsa di zenzero fresco e soia, servito col cavolo crudo croccante.",
+     "ing": [
+      "lonza di maiale a fettine sottili",
+      "cipolla",
+      "zenzero fresco",
+      "salsa di soia",
+      "mirin",
+      "sake",
+      "zucchero",
+      "olio di semi",
+      "cavolo cappuccio"
+     ],
+     "steps": [
+      "Grattugia finemente lo zenzero e mescolalo con soia, mirin, sake e zucchero finché lo zucchero si scioglie.",
+      "Incidi il bordo grasso delle fettine in 2 o 3 punti, così non si arricciano, e lasciale nella marinata 10 minuti.",
+      "Intanto affetta il cavolo sottilissimo, tienilo in acqua ghiacciata 5 minuti perché diventi croccante e scolalo bene.",
+      "Affetta la cipolla. Scalda l'olio in una padella larga a fuoco vivo e saltala 2 minuti, finché si ammorbidisce.",
+      "Sgocciola la carne (tieni la marinata) e cuocila in un solo strato, a fuoco vivo, 90 secondi per lato, finché non è più rosa.",
+      "Versa la marinata e salta 1 minuto, finché la salsa si riduce e lucida carne e cipolla.",
+      "Servi con un mucchietto di cavolo crudo accanto, il sugo sulla carne e riso bianco."
+     ],
+     "labels": [
+      "",
+      "Marinatura",
+      "",
+      "Cipolla",
+      "Maiale",
+      "Glassa",
+      ""
+     ],
+     "tips": [
+      "Grattugia lo zenzero all'ultimo e tienine un cucchiaino da aggiungere a fine cottura: profuma di più.",
+      "Infarina appena le fettine con fecola di patate: la salsa si attacca meglio e resta lucida.",
+      "Con riso, kenchinjiru e un contorno freddo è il pasto completo di una casa giapponese."
+     ]
+    },
+    "en": {
+     "title": "Shōgayaki, Japanese ginger pork",
+     "intro": "Pork stir-fried in a fresh ginger and soy sauce, served with crisp raw cabbage.",
+     "ing": [
+      "thinly sliced pork loin",
+      "onion",
+      "fresh ginger",
+      "soy sauce",
+      "mirin",
+      "sake",
+      "sugar",
+      "sunflower oil",
+      "white cabbage"
+     ],
+     "steps": [
+      "Finely grate the ginger and stir it into the soy sauce, mirin, sake and sugar until the sugar dissolves.",
+      "Nick the fatty edge of each slice in 2 or 3 places so it doesn't curl, then leave in the marinade for 10 minutes.",
+      "Meanwhile shred the cabbage very finely, soak it in iced water for 5 minutes to crisp up and drain well.",
+      "Slice the onion. Heat the oil in a wide pan over high heat and stir-fry the onion for 2 minutes until softened.",
+      "Drain the pork (keep the marinade) and cook in a single layer over high heat, 90 seconds per side, until no longer pink.",
+      "Pour in the marinade and toss for 1 minute, until the sauce reduces and glazes the pork and onion.",
+      "Serve with a mound of raw cabbage, the sauce spooned over the pork, and plain rice."
+     ],
+     "labels": [
+      "",
+      "Marinate",
+      "",
+      "Onion",
+      "Pork",
+      "Glaze",
+      ""
+     ],
+     "tips": [
+      "Grate the ginger at the last minute and keep a teaspoon back to add at the end: more aroma.",
+      "Lightly dust the slices with potato starch: the sauce clings better and stays glossy.",
+      "With rice, kenchinjiru and a cold side, it's a complete Japanese home meal."
+     ]
+    },
+    "fr": {
+     "title": "Shōgayaki, porc au gingembre",
+     "intro": "Porc sauté dans une sauce au gingembre frais et soja, servi avec du chou cru croquant.",
+     "ing": [
+      "filet de porc en tranches fines",
+      "oignon",
+      "gingembre frais",
+      "sauce soja",
+      "mirin",
+      "saké",
+      "sucre",
+      "huile de tournesol",
+      "chou blanc"
+     ],
+     "steps": [
+      "Râpe finement le gingembre et mélange-le avec soja, mirin, saké et sucre jusqu'à ce que le sucre fonde.",
+      "Entaille le bord gras des tranches en 2 ou 3 endroits pour qu'elles ne se rétractent pas, puis laisse mariner 10 minutes.",
+      "Pendant ce temps, émince le chou très finement, plonge-le 5 minutes dans l'eau glacée pour qu'il croustille et égoutte bien.",
+      "Émince l'oignon. Chauffe l'huile dans une grande poêle à feu vif et fais-le sauter 2 minutes, jusqu'à ce qu'il s'attendrisse.",
+      "Égoutte le porc (garde la marinade) et saisis-le à plat à feu vif, 90 secondes par face, jusqu'à ce qu'il ne soit plus rosé.",
+      "Verse la marinade et fais sauter 1 minute, jusqu'à ce que la sauce réduise et laque porc et oignon.",
+      "Sers avec un petit tas de chou cru, nappe la viande de sauce et accompagne de riz blanc."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "Oignon",
+      "Porc",
+      "Laquage",
+      ""
+     ],
+     "tips": [
+      "Râpe le gingembre au dernier moment et gardes-en une cuillère pour la fin : plus de parfum.",
+      "Farine à peine les tranches de fécule de pomme de terre : la sauce accroche mieux et reste brillante.",
+      "Avec du riz, un kenchinjiru et un accompagnement froid, c'est le repas complet d'une maison japonaise."
+     ]
+    },
+    "es": {
+     "title": "Shōgayaki, cerdo al jengibre",
+     "intro": "Cerdo salteado en salsa de jengibre fresco y soja, servido con col cruda crujiente.",
+     "ing": [
+      "lomo de cerdo en filetes finos",
+      "cebolla",
+      "jengibre fresco",
+      "salsa de soja",
+      "mirin",
+      "sake",
+      "azúcar",
+      "aceite de girasol",
+      "repollo"
+     ],
+     "steps": [
+      "Ralla fino el jengibre y mézclalo con la soja, el mirin, el sake y el azúcar hasta que el azúcar se disuelva.",
+      "Haz 2 o 3 cortes en el borde de grasa de cada filete para que no se encoja y déjalos en la marinada 10 minutos.",
+      "Mientras, corta el repollo muy fino, déjalo 5 minutos en agua con hielo para que quede crujiente y escúrrelo bien.",
+      "Corta la cebolla en juliana. Calienta el aceite en una sartén amplia a fuego vivo y saltéala 2 minutos, hasta que se ablande.",
+      "Escurre la carne (guarda la marinada) y dórala en una capa a fuego vivo, 90 segundos por lado, hasta que no quede rosada.",
+      "Vierte la marinada y saltea 1 minuto, hasta que la salsa reduzca y glasee la carne y la cebolla.",
+      "Sirve con un montoncito de repollo crudo al lado, la salsa sobre la carne y arroz blanco."
+     ],
+     "labels": [
+      "",
+      "Marinada",
+      "",
+      "Cebolla",
+      "Cerdo",
+      "Glaseado",
+      ""
+     ],
+     "tips": [
+      "Ralla el jengibre en el último momento y guarda una cucharadita para el final: más aroma.",
+      "Enharina apenas los filetes con fécula de patata: la salsa se agarra mejor y queda brillante.",
+      "Con arroz, kenchinjiru y una guarnición fría es la comida completa de una casa japonesa."
+     ]
+    },
+    "de": {
+     "title": "Shōgayaki, Schweinefleisch mit Ingwer",
+     "intro": "Schweinefleisch in frischer Ingwer-Soja-Soße, dazu knackiger roher Weißkohl.",
+     "ing": [
+      "Schweinelende in dünnen Scheiben",
+      "Zwiebel",
+      "frischer Ingwer",
+      "Sojasoße",
+      "Mirin",
+      "Sake",
+      "Zucker",
+      "Sonnenblumenöl",
+      "Weißkohl"
+     ],
+     "steps": [
+      "Reib den Ingwer fein und verrühr ihn mit Sojasoße, Mirin, Sake und Zucker, bis sich der Zucker gelöst hat.",
+      "Schneid den Fettrand jeder Scheibe 2 bis 3 Mal ein, damit sie sich nicht wölbt, und leg das Fleisch 10 Minuten in die Marinade.",
+      "Hobel inzwischen den Kohl hauchdünn, leg ihn 5 Minuten in Eiswasser, damit er knackig wird, und lass ihn gut abtropfen.",
+      "Schneid die Zwiebel in Streifen. Erhitz das Öl in einer großen Pfanne stark und brat die Zwiebel 2 Minuten, bis sie weich wird.",
+      "Lass das Fleisch abtropfen (Marinade aufheben) und brat es in einer Lage bei starker Hitze 90 Sekunden pro Seite, bis es nicht mehr rosa ist.",
+      "Gieß die Marinade dazu und schwenk alles 1 Minute, bis die Soße eindickt und Fleisch und Zwiebel glänzen.",
+      "Serviere es mit einem Häufchen rohem Kohl, Soße über dem Fleisch, dazu weißen Reis."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "",
+      "Zwiebel",
+      "Schwein",
+      "Glasieren",
+      ""
+     ],
+     "tips": [
+      "Reib den Ingwer erst kurz vorher und heb einen Teelöffel für den Schluss auf: mehr Aroma.",
+      "Bestäub die Scheiben leicht mit Kartoffelstärke: Die Soße haftet besser und glänzt.",
+      "Mit Reis, Kenchinjiru und einer kalten Beilage wird daraus ein japanisches Familienessen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "ingen-no-gomaae",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 15,
+   "diff": 1,
+   "kcal": 90,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "JP",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 300,
+     "u": "g",
+     "k": "green-beans"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "sesame-seeds"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1.5,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 180
+    },
+    {},
+    {
+     "timer": 180
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Ingen no gomaae, fagiolini al sesamo",
+     "intro": "Fagiolini croccanti in una salsa di sesamo tostato e pestato, dolce e sapida.",
+     "ing": [
+      "fagiolini",
+      "semi di sesamo bianchi",
+      "zucchero",
+      "salsa di soia",
+      "sale"
+     ],
+     "steps": [
+      "Porta a bollore abbondante acqua salata e spunta i fagiolini.",
+      "Sbollentali 3 minuti, finché sono verde brillante e ancora croccanti.",
+      "Scolali in acqua ghiacciata, poi asciugali bene e tagliali in pezzi di 4 cm.",
+      "Tosta il sesamo in una padella asciutta a fuoco medio, scuotendola, finché è dorato e inizia a scoppiettare.",
+      "Pestalo ancora caldo nel mortaio finché è ridotto in polvere per metà e profuma, poi unisci zucchero e soia.",
+      "Condisci i fagiolini con la salsa di sesamo appena prima di servire, a temperatura ambiente."
+     ],
+     "labels": [
+      "",
+      "Fagiolini",
+      "",
+      "Sesamo",
+      "",
+      ""
+     ],
+     "tips": [
+      "Condiscili solo all'ultimo: la soia richiama acqua e il sesamo perde croccantezza.",
+      "Con spinaci sbollentati e strizzati diventa hōrensō no gomaae, altro grande classico.",
+      "Senza mortaio usa il macinino da caffè a brevi impulsi: deve restare granuloso, non diventare pasta."
+     ]
+    },
+    "en": {
+     "title": "Ingen no gomaae, sesame green beans",
+     "intro": "Crisp green beans in a sweet and savoury dressing of toasted, crushed sesame.",
+     "ing": [
+      "green beans",
+      "white sesame seeds",
+      "sugar",
+      "soy sauce",
+      "salt"
+     ],
+     "steps": [
+      "Bring a large pot of salted water to a boil and trim the beans.",
+      "Blanch them for 3 minutes, until bright green and still crisp.",
+      "Drain into iced water, then dry them well and cut into 4 cm lengths.",
+      "Toast the sesame in a dry pan over medium heat, shaking, until golden and starting to pop.",
+      "Grind it in a mortar while still warm until half-crushed and fragrant, then stir in the sugar and soy sauce.",
+      "Toss the beans with the sesame dressing just before serving, at room temperature."
+     ],
+     "labels": [
+      "",
+      "Beans",
+      "",
+      "Sesame",
+      "",
+      ""
+     ],
+     "tips": [
+      "Dress them at the last minute: soy draws out water and the sesame loses its crunch.",
+      "Made with blanched, squeezed spinach it becomes hōrensō no gomaae, another classic.",
+      "No mortar? Pulse in a spice grinder: it should stay gritty, not turn to paste."
+     ]
+    },
+    "fr": {
+     "title": "Ingen no gomaae, haricots au sésame",
+     "intro": "Haricots verts croquants dans une sauce sucrée-salée au sésame grillé et pilé.",
+     "ing": [
+      "haricots verts",
+      "graines de sésame blanc",
+      "sucre",
+      "sauce soja",
+      "sel"
+     ],
+     "steps": [
+      "Porte à ébullition une grande casserole d'eau salée et équeute les haricots.",
+      "Blanchis-les 3 minutes, jusqu'à ce qu'ils soient vert vif et encore croquants.",
+      "Plonge-les dans l'eau glacée, sèche-les bien et coupe-les en tronçons de 4 cm.",
+      "Fais griller le sésame à sec dans une poêle à feu moyen, en remuant, jusqu'à ce qu'il dore et commence à sauter.",
+      "Pile-le encore chaud au mortier jusqu'à ce qu'il soit à moitié réduit en poudre et parfumé, puis ajoute sucre et soja.",
+      "Mélange les haricots avec la sauce au sésame juste avant de servir, à température ambiante."
+     ],
+     "labels": [
+      "",
+      "Haricots",
+      "",
+      "Sésame",
+      "",
+      ""
+     ],
+     "tips": [
+      "Assaisonne au dernier moment : le soja fait rendre de l'eau et le sésame perd son croquant.",
+      "Avec des épinards blanchis et pressés, ça devient le hōrensō no gomaae, autre classique.",
+      "Sans mortier, utilise un moulin à café par petites impulsions : ça doit rester granuleux."
+     ]
+    },
+    "es": {
+     "title": "Ingen no gomaae, judías al sésamo",
+     "intro": "Judías verdes crujientes en un aliño dulce y salado de sésamo tostado y majado.",
+     "ing": [
+      "judías verdes",
+      "semillas de sésamo blanco",
+      "azúcar",
+      "salsa de soja",
+      "sal"
+     ],
+     "steps": [
+      "Pon a hervir abundante agua con sal y despunta las judías.",
+      "Escáldalas 3 minutos, hasta que estén de un verde intenso y aún crujientes.",
+      "Pásalas a agua con hielo, sécalas bien y córtalas en trozos de 4 cm.",
+      "Tuesta el sésamo en una sartén sin aceite a fuego medio, moviéndola, hasta que se dore y empiece a saltar.",
+      "Májalo aún caliente en el mortero hasta que esté medio molido y fragante; luego añade el azúcar y la soja.",
+      "Aliña las judías con la salsa de sésamo justo antes de servir, a temperatura ambiente."
+     ],
+     "labels": [
+      "",
+      "Judías",
+      "",
+      "Sésamo",
+      "",
+      ""
+     ],
+     "tips": [
+      "Alíñalas en el último momento: la soja suelta agua y el sésamo pierde lo crujiente.",
+      "Con espinacas escaldadas y escurridas se convierte en hōrensō no gomaae, otro clásico.",
+      "Sin mortero, usa un molinillo de café a golpes cortos: debe quedar granuloso, no en pasta."
+     ]
+    },
+    "de": {
+     "title": "Ingen no Gomaae, Bohnen mit Sesam",
+     "intro": "Knackige grüne Bohnen in süß-salzigem Dressing aus geröstetem, zerstoßenem Sesam.",
+     "ing": [
+      "grüne Bohnen",
+      "weiße Sesamsamen",
+      "Zucker",
+      "Sojasoße",
+      "Salz"
+     ],
+     "steps": [
+      "Bring reichlich Salzwasser zum Kochen und knips die Enden der Bohnen ab.",
+      "Blanchier sie 3 Minuten, bis sie leuchtend grün und noch bissfest sind.",
+      "Schreck sie in Eiswasser ab, tupf sie gut trocken und schneid sie in 4 cm lange Stücke.",
+      "Röste den Sesam in einer trockenen Pfanne bei mittlerer Hitze unter Schwenken, bis er golden ist und zu springen beginnt.",
+      "Zerstoß ihn noch warm im Mörser, bis er halb gemahlen ist und duftet, dann rühr Zucker und Sojasoße unter.",
+      "Misch die Bohnen erst kurz vor dem Servieren mit dem Sesamdressing, bei Zimmertemperatur."
+     ],
+     "labels": [
+      "",
+      "Bohnen",
+      "",
+      "Sesam",
+      "",
+      ""
+     ],
+     "tips": [
+      "Erst kurz vorher anmachen: Die Sojasoße zieht Wasser und der Sesam verliert seinen Biss.",
+      "Mit blanchiertem, ausgedrücktem Spinat wird daraus Hōrensō no Gomaae, ein weiterer Klassiker.",
+      "Kein Mörser? Nimm eine Gewürzmühle mit kurzen Stößen: Es soll körnig bleiben, keine Paste."
+     ]
+    }
+   }
+  },
+  {
+   "id": "kohaku-namasu",
+   "cat": "contorni",
+   "sub": "insalate",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 1,
+   "kcal": 45,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "festive",
+    "healthy"
+   ],
+   "months": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "origin": "JP",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "daikon"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "rice-vinegar"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "lemons"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 600
+    },
+    {},
+    {},
+    {
+     "timer": 1800
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "twist"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Kōhaku namasu, daikon e carota",
+     "intro": "Daikon e carota in agrodolce: bianco e rosso, i colori di festa del Capodanno giapponese.",
+     "ing": [
+      "daikon",
+      "carota",
+      "sale",
+      "aceto di riso",
+      "zucchero",
+      "scorza di limone non trattato"
+     ],
+     "steps": [
+      "Pela daikon e carota e tagliali a fiammiferi sottili lunghi 5 cm, con il coltello o la mandolina.",
+      "Mescolali con il sale in una ciotola e lasciali 10 minuti, finché si ammorbidiscono e rilasciano acqua.",
+      "Strizzali con forza a manciate ed elimina tutto il liquido.",
+      "Sciogli lo zucchero nell'aceto di riso mescolando, poi aggiungi la scorza di limone grattugiata.",
+      "Condisci le verdure, mescola bene e lasciale in frigo almeno 30 minuti, perché prendano sapore.",
+      "Servi fredda in piccole porzioni, a mucchietto, scolando un po' di liquido."
+     ],
+     "labels": [
+      "",
+      "Sale",
+      "",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Se non trovi il daikon, usa ravanelli a fettine sottili: più piccanti, ma ottimi.",
+      "Con la scorza di yuzu dei negozi giapponesi al posto del limone hai il profumo originale.",
+      "In un barattolo chiuso si conserva in frigo 5 giorni e migliora col tempo."
+     ]
+    },
+    "en": {
+     "title": "Kōhaku namasu, daikon carrot salad",
+     "intro": "Sweet-sour daikon and carrot: red and white, the festive colours of Japanese New Year.",
+     "ing": [
+      "daikon radish",
+      "carrot",
+      "salt",
+      "rice vinegar",
+      "sugar",
+      "unwaxed lemon zest"
+     ],
+     "steps": [
+      "Peel the daikon and carrot and cut them into thin 5 cm matchsticks, with a knife or a mandoline.",
+      "Toss them with the salt in a bowl and leave for 10 minutes, until they soften and release water.",
+      "Squeeze them hard by handfuls and discard all the liquid.",
+      "Stir the sugar into the rice vinegar until dissolved, then add the grated lemon zest.",
+      "Dress the vegetables, mix well and chill for at least 30 minutes so they absorb the flavour.",
+      "Serve cold in small mounds, draining off a little of the liquid."
+     ],
+     "labels": [
+      "",
+      "Salt",
+      "",
+      "",
+      "Chill",
+      ""
+     ],
+     "tips": [
+      "No daikon? Use thinly sliced radishes: sharper, but very good.",
+      "Yuzu zest from a Japanese shop instead of lemon gives the authentic aroma.",
+      "In a sealed jar it keeps 5 days in the fridge and improves with time."
+     ]
+    },
+    "fr": {
+     "title": "Kōhaku namasu, daikon et carotte",
+     "intro": "Daikon et carotte en aigre-doux : rouge et blanc, couleurs de fête du Nouvel An japonais.",
+     "ing": [
+      "radis daikon",
+      "carotte",
+      "sel",
+      "vinaigre de riz",
+      "sucre",
+      "zeste de citron non traité"
+     ],
+     "steps": [
+      "Épluche le daikon et la carotte et taille-les en fines allumettes de 5 cm, au couteau ou à la mandoline.",
+      "Mélange-les avec le sel dans un saladier et laisse 10 minutes, jusqu'à ce qu'ils s'assouplissent et rendent leur eau.",
+      "Presse-les fort par poignées et jette tout le liquide.",
+      "Fais fondre le sucre dans le vinaigre de riz en remuant, puis ajoute le zeste de citron râpé.",
+      "Assaisonne les légumes, mélange bien et laisse au frais au moins 30 minutes pour qu'ils prennent le goût.",
+      "Sers froid en petits dômes, en égouttant un peu le liquide."
+     ],
+     "labels": [
+      "",
+      "Sel",
+      "",
+      "",
+      "Frigo",
+      ""
+     ],
+     "tips": [
+      "Pas de daikon ? Prends des radis roses en fines rondelles : plus piquants, mais très bons.",
+      "Avec du zeste de yuzu d'épicerie japonaise à la place du citron, tu as le parfum d'origine.",
+      "Dans un bocal fermé, elle se garde 5 jours au frigo et s'améliore avec le temps."
+     ]
+    },
+    "es": {
+     "title": "Kōhaku namasu, daikon y zanahoria",
+     "intro": "Daikon y zanahoria en agridulce: rojo y blanco, colores de fiesta del Año Nuevo japonés.",
+     "ing": [
+      "rábano daikon",
+      "zanahoria",
+      "sal",
+      "vinagre de arroz",
+      "azúcar",
+      "piel de limón sin tratar"
+     ],
+     "steps": [
+      "Pela el daikon y la zanahoria y córtalos en bastoncitos finos de 5 cm, a cuchillo o con mandolina.",
+      "Mézclalos con la sal en un bol y déjalos 10 minutos, hasta que se ablanden y suelten agua.",
+      "Escúrrelos con fuerza a puñados y desecha todo el líquido.",
+      "Disuelve el azúcar en el vinagre de arroz removiendo y añade la piel de limón rallada.",
+      "Aliña las verduras, mezcla bien y déjalas en la nevera al menos 30 minutos para que cojan sabor.",
+      "Sírvela fría en montoncitos, escurriendo un poco el líquido."
+     ],
+     "labels": [
+      "",
+      "Sal",
+      "",
+      "",
+      "Nevera",
+      ""
+     ],
+     "tips": [
+      "¿Sin daikon? Usa rabanitos en láminas finas: más picantes, pero muy ricos.",
+      "Con piel de yuzu de tienda japonesa en lugar de limón tendrás el aroma original.",
+      "En un tarro cerrado aguanta 5 días en la nevera y mejora con el tiempo."
+     ]
+    },
+    "de": {
+     "title": "Kōhaku Namasu, Rettich-Karotten-Salat",
+     "intro": "Rettich und Karotte süßsauer: Rot und Weiß, die Festfarben des japanischen Neujahrs.",
+     "ing": [
+      "Daikon-Rettich",
+      "Karotte",
+      "Salz",
+      "Reisessig",
+      "Zucker",
+      "Schale einer Bio-Zitrone"
+     ],
+     "steps": [
+      "Schäl Daikon und Karotte und schneid sie mit Messer oder Hobel in feine, 5 cm lange Stifte.",
+      "Misch sie in einer Schüssel mit dem Salz und lass sie 10 Minuten ziehen, bis sie weich werden und Wasser abgeben.",
+      "Drück sie handvollweise kräftig aus und gieß die Flüssigkeit weg.",
+      "Rühr den Zucker in den Reisessig, bis er sich löst, und gib die geriebene Zitronenschale dazu.",
+      "Misch das Gemüse mit dem Dressing und stell es mindestens 30 Minuten kalt, damit es den Geschmack annimmt.",
+      "Serviere den Salat kalt in kleinen Häufchen und lass etwas Flüssigkeit abtropfen."
+     ],
+     "labels": [
+      "",
+      "Salzen",
+      "",
+      "",
+      "Kühlen",
+      ""
+     ],
+     "tips": [
+      "Kein Daikon? Nimm fein geschnittene Radieschen: schärfer, aber sehr gut.",
+      "Mit Yuzuschale aus dem Japanladen statt Zitrone bekommst du das Originalaroma.",
+      "Im verschlossenen Glas hält er 5 Tage im Kühlschrank und wird mit der Zeit besser."
+     ]
+    }
+   }
+  },
+  {
+   "id": "zaru-soba",
+   "cat": "primi",
+   "sub": "noodles",
+   "servings": 4,
+   "minutes": 45,
+   "diff": 1,
+   "kcal": 430,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    6,
+    7,
+    8
+   ],
+   "origin": "JP",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "soba-noodles"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "dashi",
+     "make": "dashi"
+    },
+    {
+     "q": 80,
+     "u": "ml",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 80,
+     "u": "ml",
+     "k": "mirin"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "nori"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "daikon"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "wasabi"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 120
+    },
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 270
+    },
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Zaru soba, soba fredda da intingere",
+     "intro": "Soba fredda da intingere in una salsa di dashi e soia: il pranzo estivo giapponese.",
+     "ing": [
+      "soba (noodles di grano saraceno)",
+      "dashi (anche istantaneo)",
+      "salsa di soia",
+      "mirin",
+      "zucchero",
+      "foglio di alga nori",
+      "cipollotti",
+      "daikon",
+      "wasabi in tubetto"
+     ],
+     "steps": [
+      "Per la salsa fai bollire il mirin 1 minuto, poi aggiungi soia, zucchero e dashi e sobbolli ancora 1 minuto.",
+      "Versa la salsa in una ciotola, lasciala intiepidire e mettila in frigo 30 minuti: va servita fredda.",
+      "Intanto porta a bollore abbondante acqua senza sale. Affetta i cipollotti, taglia la nori a striscioline e grattugia il daikon.",
+      "Cuoci la soba come indicato sulla confezione, circa 4 minuti e mezzo, mescolando; se schiuma, aggiungi un goccio d'acqua fredda.",
+      "Scolala e sciacquala sotto l'acqua fredda strofinandola con le mani per togliere l'amido, poi immergila in acqua e ghiaccio.",
+      "Scolala benissimo e disponila a nido su stuoini di bambù o piatti, con la nori sopra.",
+      "Servi la salsa in ciotoline con cipollotto, wasabi e daikon a parte: intingi un boccone di soba alla volta."
+     ],
+     "labels": [
+      "Salsa",
+      "Raffreddare",
+      "",
+      "Soba",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Alla fine versa un po' dell'acqua di cottura nella salsa avanzata e bevila: è il sobayu.",
+      "Con soba 100% grano saraceno (juwari) e tamari al posto della soia è senza glutine.",
+      "La salsa avanzata si tiene 4 giorni in frigo in un barattolo chiuso."
+     ]
+    },
+    "en": {
+     "title": "Zaru soba, cold dipping soba",
+     "intro": "Cold soba dipped in a dashi and soy sauce: Japan's go-to summer lunch.",
+     "ing": [
+      "dried soba noodles",
+      "dashi (instant is fine)",
+      "soy sauce",
+      "mirin",
+      "sugar",
+      "nori sheet",
+      "spring onions",
+      "daikon radish",
+      "wasabi paste"
+     ],
+     "steps": [
+      "For the dipping sauce, boil the mirin for 1 minute, then add the soy sauce, sugar and dashi and simmer for 1 minute.",
+      "Pour the sauce into a bowl, let it cool a little and refrigerate for 30 minutes: it's served cold.",
+      "Meanwhile bring a large pot of unsalted water to a boil. Slice the spring onions, cut the nori into thin strips, grate the daikon.",
+      "Cook the soba as the pack says, about 4½ minutes, stirring; if it foams up, add a splash of cold water.",
+      "Drain and rinse under cold running water, rubbing with your hands to remove the starch, then plunge into iced water.",
+      "Drain very well and pile onto bamboo mats or plates, with the nori on top.",
+      "Serve the sauce in small cups with spring onion, wasabi and daikon on the side: dip one bite of soba at a time."
+     ],
+     "labels": [
+      "Sauce",
+      "Chill",
+      "",
+      "Soba",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "At the end, pour some noodle cooking water into the leftover sauce and drink it: that's sobayu.",
+      "With 100% buckwheat soba (juwari) and tamari instead of soy sauce, it's gluten-free.",
+      "Leftover sauce keeps 4 days in a sealed jar in the fridge."
+     ]
+    },
+    "fr": {
+     "title": "Zaru soba, soba froides à tremper",
+     "intro": "Soba froides à tremper dans une sauce dashi et soja : le déjeuner d'été au Japon.",
+     "ing": [
+      "nouilles soba séchées",
+      "dashi (instantané possible)",
+      "sauce soja",
+      "mirin",
+      "sucre",
+      "feuille de nori",
+      "oignons nouveaux",
+      "radis daikon",
+      "wasabi en tube"
+     ],
+     "steps": [
+      "Pour la sauce, fais bouillir le mirin 1 minute, puis ajoute soja, sucre et dashi et laisse frémir 1 minute.",
+      "Verse la sauce dans un bol, laisse tiédir et mets au frigo 30 minutes : elle se sert froide.",
+      "Pendant ce temps, porte à ébullition une grande casserole d'eau non salée. Émince les oignons, coupe la nori en lanières, râpe le daikon.",
+      "Cuis les soba selon le paquet, environ 4 min 30, en remuant ; si ça mousse trop, ajoute un trait d'eau froide.",
+      "Égoutte et rince sous l'eau froide en frottant avec les mains pour ôter l'amidon, puis plonge-les dans l'eau glacée.",
+      "Égoutte-les très bien et dresse-les en nid sur des nattes en bambou ou des assiettes, la nori par-dessus.",
+      "Sers la sauce dans de petits bols avec oignon, wasabi et daikon à côté : trempe une bouchée de soba à la fois."
+     ],
+     "labels": [
+      "Sauce",
+      "Refroidir",
+      "",
+      "Soba",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "À la fin, verse un peu d'eau de cuisson dans la sauce restante et bois-la : c'est le sobayu.",
+      "Avec des soba 100 % sarrasin (juwari) et du tamari à la place du soja, c'est sans gluten.",
+      "La sauce restante se garde 4 jours au frigo dans un bocal fermé."
+     ]
+    },
+    "es": {
+     "title": "Zaru soba, soba fría para mojar",
+     "intro": "Soba fría para mojar en una salsa de dashi y soja: el almuerzo de verano en Japón.",
+     "ing": [
+      "fideos soba secos",
+      "dashi (vale instantáneo)",
+      "salsa de soja",
+      "mirin",
+      "azúcar",
+      "hoja de alga nori",
+      "cebolletas",
+      "rábano daikon",
+      "wasabi en tubo"
+     ],
+     "steps": [
+      "Para la salsa, hierve el mirin 1 minuto; añade la soja, el azúcar y el dashi y cuece suave 1 minuto más.",
+      "Pasa la salsa a un bol, deja que se temple y métela en la nevera 30 minutos: se sirve fría.",
+      "Mientras, pon a hervir abundante agua sin sal. Corta la cebolleta, corta el nori en tiras finas y ralla el daikon.",
+      "Cuece la soba según el paquete, unos 4 minutos y medio, removiendo; si hace mucha espuma, añade un chorrito de agua fría.",
+      "Escúrrela y lávala bajo el grifo frío frotando con las manos para quitar el almidón; luego sumérgela en agua con hielo.",
+      "Escúrrela muy bien y sírvela en nido sobre esterillas de bambú o platos, con el nori por encima.",
+      "Sirve la salsa en cuencos pequeños con cebolleta, wasabi y daikon aparte: moja un bocado de soba cada vez."
+     ],
+     "labels": [
+      "Salsa",
+      "Enfriar",
+      "",
+      "Soba",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Al final, añade un poco del agua de cocción a la salsa sobrante y bébela: es el sobayu.",
+      "Con soba 100 % de trigo sarraceno (juwari) y tamari en vez de soja, es sin gluten.",
+      "La salsa sobrante aguanta 4 días en la nevera en un tarro cerrado."
+     ]
+    },
+    "de": {
+     "title": "Zaru Soba, kalte Soba zum Dippen",
+     "intro": "Kalte Soba zum Eintunken in Dashi-Soja-Soße: Japans Sommermittagessen.",
+     "ing": [
+      "getrocknete Soba-Nudeln",
+      "Dashi (auch instant)",
+      "Sojasoße",
+      "Mirin",
+      "Zucker",
+      "Noriblatt",
+      "Frühlingszwiebeln",
+      "Daikon-Rettich",
+      "Wasabipaste"
+     ],
+     "steps": [
+      "Lass für die Soße den Mirin 1 Minute sprudelnd kochen, gib Sojasoße, Zucker und Dashi dazu und lass alles 1 Minute köcheln.",
+      "Füll die Soße in eine Schüssel, lass sie abkühlen und stell sie 30 Minuten kalt: Sie wird kalt serviert.",
+      "Bring inzwischen reichlich ungesalzenes Wasser zum Kochen. Schneid Frühlingszwiebeln in Ringe, Nori in Streifen und reib den Daikon.",
+      "Koch die Soba nach Packungsangabe, etwa 4½ Minuten, unter Rühren; schäumt es zu stark, gib einen Schuss kaltes Wasser dazu.",
+      "Gieß sie ab und spül sie kalt ab, dabei mit den Händen reiben, um die Stärke zu entfernen. Dann in Eiswasser tauchen.",
+      "Lass sie sehr gut abtropfen und richte sie als Nest auf Bambusmatten oder Tellern an, Nori darüber.",
+      "Serviere die Soße in kleinen Schälchen, Frühlingszwiebel, Wasabi und Daikon separat: Tunk jeden Bissen Soba einzeln ein."
+     ],
+     "labels": [
+      "Soße",
+      "Kühlen",
+      "",
+      "Soba",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Gieß am Ende etwas Nudelwasser in die übrige Soße und trink sie: Das ist Sobayu.",
+      "Mit Soba aus 100 % Buchweizen (Juwari) und Tamari statt Sojasoße ist es glutenfrei.",
+      "Übrige Soße hält sich im verschlossenen Glas 4 Tage im Kühlschrank."
+     ]
+    }
+   }
+  },
+  {
+   "id": "yayla-corbasi",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 220,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "comfort",
+    "budget"
+   ],
+   "months": [],
+   "origin": "TR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 100,
+     "u": "g",
+     "k": "medium-grain-rice"
+    },
+    {
+     "q": 1200,
+     "u": "ml",
+     "k": "vegetable-broth",
+     "make": "brodo-vegetale"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "plain-yogurt"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "00-flour"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "dried-mint"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "aleppo-pepper"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1080,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 300
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Yayla çorbası, zuppa di yogurt e riso",
+     "intro": "Zuppa di yogurt e riso degli altipiani, profumata di burro fuso e menta secca.",
+     "ing": [
+      "riso Originario",
+      "brodo vegetale caldo",
+      "yogurt bianco intero",
+      "tuorlo",
+      "farina 00",
+      "burro",
+      "menta secca",
+      "peperoncino in fiocchi (pul biber)",
+      "sale"
+     ],
+     "steps": [
+      "Sciacqua il riso e cuocilo nel brodo caldo (anche pronto) a fuoco medio per 18 minuti, finché è molto morbido.",
+      "Intanto in una ciotola sbatti yogurt, tuorlo e farina con la frusta finché sono lisci e senza grumi.",
+      "Stempera il composto con un mestolo di brodo caldo, sbattendo, poi con un secondo: così lo yogurt non impazzisce.",
+      "Abbassa il fuoco e versa lo yogurt a filo, mescolando sempre nello stesso verso. Sobbolli piano 5 minuti, senza bollore forte.",
+      "Regola di sale. In un pentolino sciogli il burro, spegni e aggiungi menta e pul biber: devono sfrigolare 10 secondi.",
+      "Servi la zuppa in ciotole e versa sopra un filo di burro alla menta."
+     ],
+     "labels": [
+      "Riso",
+      "",
+      "",
+      "Yogurt",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mescola sempre nello stesso verso e non farla bollire forte: lo yogurt resta liscio.",
+      "Al posto del riso usa ceci lessati o grano spezzato, come in Anatolia.",
+      "In frigo si addensa: riscaldala piano con un po' d'acqua, senza farla bollire."
+     ]
+    },
+    "en": {
+     "title": "Yayla çorbası, yogurt and rice soup",
+     "intro": "Highland yogurt and rice soup, scented with melted butter and dried mint.",
+     "ing": [
+      "short-grain rice",
+      "hot vegetable stock",
+      "plain whole-milk yogurt",
+      "egg yolk",
+      "plain flour",
+      "butter",
+      "dried mint",
+      "Aleppo chilli flakes (pul biber)",
+      "salt"
+     ],
+     "steps": [
+      "Rinse the rice and cook it in the hot stock (store-bought is fine) over medium heat for 18 minutes, until very soft.",
+      "Meanwhile whisk the yogurt, egg yolk and flour in a bowl until smooth and lump-free.",
+      "Temper the mixture with a ladle of hot stock, whisking, then a second one: this stops the yogurt from splitting.",
+      "Lower the heat and pour in the yogurt in a thin stream, always stirring the same way. Simmer gently 5 minutes, never boiling hard.",
+      "Season with salt. Melt the butter in a small pan, take it off the heat and add the mint and chilli: let them sizzle 10 seconds.",
+      "Ladle the soup into bowls and drizzle with the mint butter."
+     ],
+     "labels": [
+      "Rice",
+      "",
+      "",
+      "Yogurt",
+      "",
+      ""
+     ],
+     "tips": [
+      "Always stir in the same direction and never let it boil hard: the yogurt stays smooth.",
+      "Use cooked chickpeas or cracked wheat instead of rice, as they do in Anatolia.",
+      "It thickens in the fridge: reheat gently with a splash of water, without boiling."
+     ]
+    },
+    "fr": {
+     "title": "Yayla çorbası, soupe au yaourt et riz",
+     "intro": "Soupe des hauts plateaux au yaourt et au riz, parfumée au beurre fondu et à la menthe.",
+     "ing": [
+      "riz rond",
+      "bouillon de légumes chaud",
+      "yaourt nature entier",
+      "jaune d'œuf",
+      "farine T45",
+      "beurre",
+      "menthe séchée",
+      "piment d'Alep (pul biber)",
+      "sel"
+     ],
+     "steps": [
+      "Rince le riz et cuis-le dans le bouillon chaud (même tout prêt) à feu moyen 18 minutes, jusqu'à ce qu'il soit très tendre.",
+      "Pendant ce temps, fouette yaourt, jaune d'œuf et farine dans un bol jusqu'à obtenir un mélange lisse, sans grumeaux.",
+      "Détends le mélange avec une louche de bouillon chaud en fouettant, puis une deuxième : ainsi le yaourt ne tranche pas.",
+      "Baisse le feu et verse le yaourt en filet en remuant toujours dans le même sens. Laisse frémir 5 minutes, sans bouillir fort.",
+      "Sale. Fais fondre le beurre dans une petite casserole, retire du feu et ajoute menthe et piment : ils doivent grésiller 10 secondes.",
+      "Sers la soupe dans des bols, arrosée d'un filet de beurre à la menthe."
+     ],
+     "labels": [
+      "Riz",
+      "",
+      "",
+      "Yaourt",
+      "",
+      ""
+     ],
+     "tips": [
+      "Remue toujours dans le même sens et ne la fais jamais bouillir fort : le yaourt reste lisse.",
+      "Remplace le riz par des pois chiches cuits ou du blé concassé, comme en Anatolie.",
+      "Elle épaissit au frigo : réchauffe-la doucement avec un peu d'eau, sans bouillir."
+     ]
+    },
+    "es": {
+     "title": "Yayla çorbası, sopa de yogur y arroz",
+     "intro": "Sopa de yogur y arroz de las mesetas, perfumada con mantequilla fundida y menta seca.",
+     "ing": [
+      "arroz redondo",
+      "caldo de verduras caliente",
+      "yogur natural entero",
+      "yema de huevo",
+      "harina de trigo",
+      "mantequilla",
+      "menta seca",
+      "copos de chile de Alepo (pul biber)",
+      "sal"
+     ],
+     "steps": [
+      "Lava el arroz y cuécelo en el caldo caliente (vale comprado) a fuego medio 18 minutos, hasta que esté muy tierno.",
+      "Mientras, bate en un bol el yogur, la yema y la harina con varillas hasta que quede liso y sin grumos.",
+      "Atempera la mezcla con un cazo de caldo caliente sin dejar de batir y luego con otro: así el yogur no se corta.",
+      "Baja el fuego y vierte el yogur en hilo, removiendo siempre en el mismo sentido. Cuece suave 5 minutos, sin hervor fuerte.",
+      "Sala. Derrite la mantequilla en un cazo, retira del fuego y añade la menta y el chile: deben chisporrotear 10 segundos.",
+      "Sirve la sopa en cuencos con un hilo de mantequilla a la menta por encima."
+     ],
+     "labels": [
+      "Arroz",
+      "",
+      "",
+      "Yogur",
+      "",
+      ""
+     ],
+     "tips": [
+      "Remueve siempre en el mismo sentido y nunca dejes que hierva fuerte: el yogur queda liso.",
+      "Cambia el arroz por garbanzos cocidos o trigo partido, como en Anatolia.",
+      "Espesa en la nevera: recaliéntala despacio con un poco de agua, sin que hierva."
+     ]
+    },
+    "de": {
+     "title": "Yayla Çorbası, Joghurt-Reis-Suppe",
+     "intro": "Joghurt-Reis-Suppe aus dem Hochland, mit zerlassener Butter und getrockneter Minze.",
+     "ing": [
+      "Rundkornreis",
+      "heiße Gemüsebrühe",
+      "Naturjoghurt (3,5 %)",
+      "Eigelb",
+      "Weizenmehl (Type 405)",
+      "Butter",
+      "getrocknete Minze",
+      "Aleppo-Chiliflocken (Pul Biber)",
+      "Salz"
+     ],
+     "steps": [
+      "Wasch den Reis und gare ihn in der heißen Brühe (auch gekauft) bei mittlerer Hitze 18 Minuten, bis er sehr weich ist.",
+      "Verquirl inzwischen Joghurt, Eigelb und Mehl in einer Schüssel, bis alles glatt und klümpchenfrei ist.",
+      "Rühr erst eine Kelle heiße Brühe unter die Mischung, dann eine zweite: So gerinnt der Joghurt nicht.",
+      "Schalt die Hitze runter, gieß den Joghurt langsam ein und rühr immer in dieselbe Richtung. 5 Minuten sanft köcheln, nicht sprudeln.",
+      "Salz die Suppe. Schmilz die Butter in einem Pfännchen, nimm sie vom Herd und gib Minze und Chili dazu: 10 Sekunden brutzeln lassen.",
+      "Füll die Suppe in Schalen und träufle die Minzbutter darüber."
+     ],
+     "labels": [
+      "Reis",
+      "",
+      "",
+      "Joghurt",
+      "",
+      ""
+     ],
+     "tips": [
+      "Rühr immer in dieselbe Richtung und lass sie nie sprudelnd kochen: So bleibt der Joghurt glatt.",
+      "Statt Reis passen gekochte Kichererbsen oder geschroteter Weizen, wie in Anatolien.",
+      "Im Kühlschrank dickt sie ein: Mit etwas Wasser sanft aufwärmen, nicht kochen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "mercimek-koftesi",
+   "cat": "antipasti",
+   "sub": "finger",
+   "servings": 4,
+   "minutes": 60,
+   "diff": 1,
+   "kcal": 300,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "party",
+    "healthy",
+    "budget"
+   ],
+   "months": [],
+   "origin": "TR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 200,
+     "u": "g",
+     "k": "red-lentils"
+    },
+    {
+     "q": 500,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "fine-bulgur"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 5,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "aleppo-pepper"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "romaine-lettuce"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1080
+    },
+    {
+     "timer": 900,
+     "bg": true
+    },
+    {
+     "timer": 420
+    },
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Mercimek köftesi, polpette di lenticchie",
+     "intro": "Polpettine fredde di lenticchie rosse e bulgur, da avvolgere nella lattuga col limone.",
+     "ing": [
+      "lenticchie rosse decorticate",
+      "acqua",
+      "bulgur fine",
+      "cipolla",
+      "olio extravergine d'oliva",
+      "concentrato di pomodoro",
+      "peperoncino in fiocchi (pul biber)",
+      "cumino in polvere",
+      "cipollotti",
+      "prezzemolo",
+      "limone",
+      "sale",
+      "cespo di lattuga romana"
+     ],
+     "steps": [
+      "Sciacqua le lenticchie e cuocile nei 500 ml d'acqua a fuoco basso per 18 minuti, finché sono sfatte e l'acqua è assorbita.",
+      "Spegni, unisci il bulgur, mescola, copri e lascia riposare 15 minuti: il bulgur si gonfia con il calore.",
+      "Intanto trita la cipolla e falla dorare nell'olio per 6 minuti. Aggiungi concentrato, pul biber e cumino e cuoci 1 minuto.",
+      "Versa il soffritto sulle lenticchie e impasta con le mani, ancora tiepido, per 3 o 4 minuti, finché tiene la forma.",
+      "Fai raffreddare, poi unisci cipollotti e prezzemolo tritati, il succo di mezzo limone e sale, e impasta ancora.",
+      "Con le mani umide prendi una noce di impasto e stringila nel pugno: devono restare i segni delle dita.",
+      "Servile fredde su foglie di lattuga, con spicchi del limone rimasto: si mangiano avvolte nella foglia."
+     ],
+     "labels": [
+      "Lenticchie",
+      "Bulgur",
+      "Cipolla",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Se l'impasto è troppo morbido, aggiungi un cucchiaio di bulgur e aspetta altri 10 minuti.",
+      "Un filo di melassa di melograno (nar ekşisi) sopra le rende agrodolci, come a Istanbul.",
+      "In frigo, coperte, restano buone 2 giorni: il giorno dopo sono ancora più saporite."
+     ]
+    },
+    "en": {
+     "title": "Mercimek köftesi, lentil bulgur bites",
+     "intro": "Cold red lentil and bulgur bites, wrapped in lettuce with a squeeze of lemon.",
+     "ing": [
+      "split red lentils",
+      "water",
+      "fine bulgur",
+      "onion",
+      "extra virgin olive oil",
+      "tomato paste",
+      "Aleppo chilli flakes (pul biber)",
+      "ground cumin",
+      "spring onions",
+      "flat-leaf parsley",
+      "lemon",
+      "salt",
+      "head of romaine lettuce"
+     ],
+     "steps": [
+      "Rinse the lentils and cook them in the 500 ml water over low heat for 18 minutes, until mushy and the water is absorbed.",
+      "Turn off the heat, stir in the bulgur, cover and leave for 15 minutes: the heat makes the bulgur swell.",
+      "Meanwhile chop the onion and fry it in the oil for 6 minutes until golden. Add tomato paste, chilli and cumin and cook 1 minute.",
+      "Tip the onion mixture onto the lentils and knead by hand while still warm for 3 to 4 minutes, until it holds its shape.",
+      "Let it cool, then add the chopped spring onions and parsley, the juice of half the lemon and salt, and knead again.",
+      "With damp hands, take a walnut-sized piece and squeeze it in your fist: the finger marks should stay.",
+      "Serve cold on lettuce leaves with wedges of the remaining lemon: wrap each one in a leaf to eat."
+     ],
+     "labels": [
+      "Lentils",
+      "Bulgur",
+      "Onion",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "If the mix is too soft, add a spoonful of bulgur and wait another 10 minutes.",
+      "A drizzle of pomegranate molasses (nar ekşisi) makes them sweet-sour, Istanbul style.",
+      "Covered in the fridge they keep 2 days and taste even better the next day."
+     ]
+    },
+    "fr": {
+     "title": "Mercimek köftesi, bouchées de lentilles",
+     "intro": "Bouchées froides de lentilles corail et boulgour, à rouler dans la laitue avec du citron.",
+     "ing": [
+      "lentilles corail",
+      "eau",
+      "boulgour fin",
+      "oignon",
+      "huile d'olive vierge extra",
+      "concentré de tomate",
+      "piment d'Alep (pul biber)",
+      "cumin en poudre",
+      "oignons nouveaux",
+      "persil plat",
+      "citron",
+      "sel",
+      "cœur de laitue romaine"
+     ],
+     "steps": [
+      "Rince les lentilles et cuis-les à feu doux 18 minutes dans les 500 ml d'eau, jusqu'à ce qu'elles se défassent et absorbent l'eau.",
+      "Éteins, ajoute le boulgour, mélange, couvre et laisse reposer 15 minutes : la chaleur le fait gonfler.",
+      "Pendant ce temps, hache l'oignon et fais-le dorer 6 minutes dans l'huile. Ajoute concentré, piment et cumin, et cuis 1 minute.",
+      "Verse l'oignon sur les lentilles et pétris à la main, encore tiède, 3 à 4 minutes, jusqu'à ce que la pâte se tienne.",
+      "Laisse refroidir, puis ajoute oignons nouveaux et persil hachés, le jus d'un demi-citron et le sel, et pétris encore.",
+      "Les mains mouillées, prends une noix de pâte et serre-la dans ton poing : les marques des doigts doivent rester.",
+      "Sers-les froides sur des feuilles de laitue, avec des quartiers du citron restant : on les mange roulées dans la feuille."
+     ],
+     "labels": [
+      "Lentilles",
+      "Boulgour",
+      "Oignon",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Si la pâte est trop molle, ajoute une cuillerée de boulgour et attends encore 10 minutes.",
+      "Un filet de mélasse de grenade (nar ekşisi) les rend aigres-douces, comme à Istanbul.",
+      "Couvertes, elles se gardent 2 jours au frigo et sont encore meilleures le lendemain."
+     ]
+    },
+    "es": {
+     "title": "Mercimek köftesi, bocados de lentejas",
+     "intro": "Bocados fríos de lentejas rojas y bulgur, para envolver en lechuga con limón.",
+     "ing": [
+      "lentejas rojas peladas",
+      "agua",
+      "bulgur fino",
+      "cebolla",
+      "aceite de oliva virgen extra",
+      "concentrado de tomate",
+      "copos de chile de Alepo (pul biber)",
+      "comino molido",
+      "cebolletas",
+      "perejil",
+      "limón",
+      "sal",
+      "lechuga romana"
+     ],
+     "steps": [
+      "Lava las lentejas y cuécelas en los 500 ml de agua a fuego bajo 18 minutos, hasta que se deshagan y absorban el agua.",
+      "Apaga, añade el bulgur, mezcla, tapa y deja reposar 15 minutos: con el calor el bulgur se hincha.",
+      "Mientras, pica la cebolla y dórala en el aceite 6 minutos. Añade el concentrado, el chile y el comino y cocina 1 minuto.",
+      "Echa el sofrito sobre las lentejas y amasa con las manos, aún templado, 3 o 4 minutos, hasta que mantenga la forma.",
+      "Deja enfriar y añade la cebolleta y el perejil picados, el zumo de medio limón y sal; amasa de nuevo.",
+      "Con las manos húmedas, coge una porción del tamaño de una nuez y apriétala en el puño: deben quedar las marcas de los dedos.",
+      "Sírvelas frías sobre hojas de lechuga con gajos del limón restante: se comen envueltas en la hoja."
+     ],
+     "labels": [
+      "Lentejas",
+      "Bulgur",
+      "Cebolla",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Si la masa está muy blanda, añade una cucharada de bulgur y espera otros 10 minutos.",
+      "Un hilo de melaza de granada (nar ekşisi) las vuelve agridulces, como en Estambul.",
+      "Tapadas aguantan 2 días en la nevera y al día siguiente están aún más sabrosas."
+     ]
+    },
+    "de": {
+     "title": "Mercimek Köftesi, Linsenbällchen",
+     "intro": "Kalte Bällchen aus roten Linsen und Bulgur, im Salatblatt mit Zitrone gegessen.",
+     "ing": [
+      "rote Linsen",
+      "Wasser",
+      "feiner Bulgur",
+      "Zwiebel",
+      "natives Olivenöl extra",
+      "Tomatenmark",
+      "Aleppo-Chiliflocken (Pul Biber)",
+      "gemahlener Kreuzkümmel",
+      "Frühlingszwiebeln",
+      "glatte Petersilie",
+      "Zitrone",
+      "Salz",
+      "Kopf Romanasalat"
+     ],
+     "steps": [
+      "Wasch die Linsen und gare sie in den 500 ml Wasser bei kleiner Hitze 18 Minuten, bis sie zerfallen und das Wasser aufgesogen ist.",
+      "Schalt den Herd aus, rühr den Bulgur unter, deck alles zu und lass es 15 Minuten ziehen: Der Bulgur quillt in der Wärme.",
+      "Hack inzwischen die Zwiebel und brat sie im Öl 6 Minuten goldbraun. Gib Tomatenmark, Chili und Kreuzkümmel dazu, 1 Minute rösten.",
+      "Gib die Zwiebelmischung zu den Linsen und knete alles noch warm 3 bis 4 Minuten mit den Händen, bis die Masse hält.",
+      "Lass sie abkühlen, gib gehackte Frühlingszwiebeln, Petersilie, den Saft einer halben Zitrone und Salz dazu und knete erneut.",
+      "Nimm mit feuchten Händen walnussgroße Portionen und drück sie in der Faust zusammen: Die Fingerabdrücke sollen bleiben.",
+      "Serviere sie kalt auf Salatblättern mit Spalten der restlichen Zitrone: Man isst sie in ein Blatt gewickelt."
+     ],
+     "labels": [
+      "Linsen",
+      "Bulgur",
+      "Zwiebel",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ist die Masse zu weich, gib einen Löffel Bulgur dazu und warte weitere 10 Minuten.",
+      "Ein Schuss Granatapfelsirup (Nar Ekşisi) macht sie süßsauer, wie in Istanbul.",
+      "Zugedeckt halten sie 2 Tage im Kühlschrank und schmecken am nächsten Tag noch besser."
+     ]
+    }
+   }
+  },
+  {
+   "id": "imam-bayildi",
+   "cat": "antipasti",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 150,
+   "diff": 2,
+   "kcal": 330,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "origin": "TR",
+   "alcohol": false,
+   "methods": [
+    "pan",
+    "oven"
+   ],
+   "ingredients": [
+    {
+     "q": 4,
+     "u": "",
+     "k": "eggplants"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "long-green-peppers"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 720,
+     "alt": {
+      "oven": {
+       "timer": 1500
+      }
+     }
+    },
+    {
+     "timer": 600
+    },
+    {
+     "timer": 300
+    },
+    {},
+    {
+     "timer": 1800,
+     "alt": {
+      "oven": {
+       "timer": 2400
+      }
+     }
+    },
+    {
+     "timer": 3600
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    },
+    {
+     "k": "pair"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "İmam bayıldı, melanzane ripiene",
+     "intro": "Melanzane intere farcite di cipolle e pomodoro, brasate nell'olio e servite tiepide.",
+     "ing": [
+      "melanzane lunghe",
+      "cipolle",
+      "spicchi d'aglio",
+      "pomodori maturi",
+      "peperoni verdi lunghi",
+      "prezzemolo",
+      "olio extravergine d'oliva",
+      "concentrato di pomodoro",
+      "zucchero",
+      "acqua calda",
+      "sale"
+     ],
+     "steps": [
+      "Sbuccia le melanzane a strisce alterne, lasciando il picciolo. Salale e lasciale 20 minuti a perdere l'acqua amara.",
+      "Intanto affetta le cipolle a mezzelune sottili, l'aglio a lamelle e i peperoni a rondelle. Taglia 2 pomodori a dadini e 1 a fette.",
+      "Sciacqua e asciuga le melanzane. Friggile intere in 6 cucchiai d'olio, girandole, finché sono morbide e dorate.",
+      "Nella stessa padella cuoci le cipolle in 4 cucchiai d'olio a fuoco dolce per 10 minuti, finché sono morbide e dolci.",
+      "Aggiungi aglio, peperoni (tienine qualche rondella), pomodori a dadini, concentrato, zucchero e sale. Cuoci 5 minuti, poi il prezzemolo.",
+      "Metti le melanzane in una padella larga, incidile per il lungo e apri una tasca. Riempile e completa con pomodoro e peperone.",
+      "Versa intorno l'acqua calda e l'olio rimasto, copri e cuoci a fuoco basso 30 minuti, finché sono morbidissime.",
+      "Lasciale raffreddare nella padella almeno 1 ora: si servono a temperatura ambiente, ancora meglio il giorno dopo."
+     ],
+     "labels": [
+      "Spurgo",
+      "",
+      "Melanzane",
+      "Cipolle",
+      "Ripieno",
+      "",
+      "Brasatura",
+      "Raffreddare"
+     ],
+     "tips": [
+      "La sbucciatura a strisce tiene intera la melanzana in cottura e lascia entrare il sapore.",
+      "In frigo durano 3 giorni: tirale fuori mezz'ora prima, fredde di frigo perdono sapore.",
+      "Con pane caldo per raccogliere l'olio, oppure con riso pilaf per farne un piatto unico."
+     ],
+     "alt": {
+      "2": {
+       "oven": "Ungi le melanzane intere e cuocile in forno a 200 °C per 25 minuti, girandole a metà, finché sono morbide."
+      },
+      "6": {
+       "oven": "Versa intorno l'acqua calda e l'olio rimasto, copri con stagnola e inforna a 180 °C per 40 minuti."
+      }
+     }
+    },
+    "en": {
+     "title": "İmam bayıldı, stuffed aubergines",
+     "intro": "Aubergines filled with onion and tomato, braised in olive oil and served lukewarm.",
+     "ing": [
+      "long aubergines",
+      "onions",
+      "garlic cloves",
+      "ripe tomatoes",
+      "long green peppers",
+      "flat-leaf parsley",
+      "extra virgin olive oil",
+      "tomato paste",
+      "sugar",
+      "hot water",
+      "salt"
+     ],
+     "steps": [
+      "Peel the aubergines in alternate stripes, leaving the stalk. Salt them and leave for 20 minutes to draw out the bitter juices.",
+      "Meanwhile slice the onions into thin half-moons, the garlic into slivers and the peppers into rings. Dice 2 tomatoes and slice 1.",
+      "Rinse and dry the aubergines. Fry them whole in 6 tbsp oil, turning, until soft and golden all over.",
+      "In the same pan, cook the onions in 4 tbsp oil over low heat for 10 minutes, until soft and sweet.",
+      "Add the garlic, peppers (keep a few rings back), diced tomatoes, tomato paste, sugar and salt. Cook 5 minutes, then add the parsley.",
+      "Lay the aubergines in a wide pan, slit them lengthways and open a pocket. Fill them and top with tomato and pepper.",
+      "Pour the hot water and remaining oil around them, cover and cook over low heat for 30 minutes, until meltingly soft.",
+      "Let them cool in the pan for at least 1 hour: serve at room temperature, even better the next day."
+     ],
+     "labels": [
+      "Salting",
+      "",
+      "Aubergines",
+      "Onions",
+      "Filling",
+      "",
+      "Braise",
+      "Cool"
+     ],
+     "tips": [
+      "Striped peeling keeps the aubergine whole as it cooks and lets the flavour in.",
+      "They keep 3 days in the fridge: take them out half an hour before, as fridge-cold dulls the flavour.",
+      "Serve with warm bread to mop up the oil, or with rice pilaf for a full meal."
+     ],
+     "alt": {
+      "2": {
+       "oven": "Brush the whole aubergines with oil and roast at 200 °C for 25 minutes, turning halfway, until soft."
+      },
+      "6": {
+       "oven": "Pour the hot water and remaining oil around them, cover with foil and bake at 180 °C for 40 minutes."
+      }
+     }
+    },
+    "fr": {
+     "title": "İmam bayıldı, aubergines farcies",
+     "intro": "Aubergines farcies d'oignon et de tomate, braisées à l'huile d'olive et servies tièdes.",
+     "ing": [
+      "aubergines longues",
+      "oignons",
+      "gousses d'ail",
+      "tomates mûres",
+      "poivrons verts longs",
+      "persil plat",
+      "huile d'olive vierge extra",
+      "concentré de tomate",
+      "sucre",
+      "eau chaude",
+      "sel"
+     ],
+     "steps": [
+      "Épluche les aubergines en bandes alternées, en gardant le pédoncule. Sale-les et laisse-les dégorger 20 minutes.",
+      "Pendant ce temps, émince les oignons en demi-lunes, l'ail en lamelles, les poivrons en rondelles. Coupe 2 tomates en dés, 1 en tranches.",
+      "Rince et sèche les aubergines. Fais-les frire entières dans 6 c. à s. d'huile en les tournant, jusqu'à ce qu'elles soient tendres et dorées.",
+      "Dans la même poêle, cuis les oignons dans 4 c. à s. d'huile à feu doux 10 minutes, jusqu'à ce qu'ils soient fondants.",
+      "Ajoute ail, poivrons (garde quelques rondelles), tomates en dés, concentré, sucre et sel. Cuis 5 minutes puis ajoute le persil.",
+      "Pose les aubergines dans une grande sauteuse, fends-les en long et ouvre une poche. Farcis-les et coiffe de tomate et poivron.",
+      "Verse autour l'eau chaude et le reste d'huile, couvre et cuis à feu doux 30 minutes, jusqu'à ce qu'elles soient fondantes.",
+      "Laisse-les refroidir dans la poêle au moins 1 heure : elles se servent à température ambiante, encore meilleures le lendemain."
+     ],
+     "labels": [
+      "Dégorger",
+      "",
+      "Aubergines",
+      "Oignons",
+      "Farce",
+      "",
+      "Braisage",
+      "Refroidir"
+     ],
+     "tips": [
+      "L'épluchage en bandes garde l'aubergine entière à la cuisson et laisse entrer les saveurs.",
+      "Elles se gardent 3 jours au frigo : sors-les une demi-heure avant, trop froides elles perdent du goût.",
+      "Avec du pain chaud pour saucer l'huile, ou du riz pilaf pour en faire un plat complet."
+     ],
+     "alt": {
+      "2": {
+       "oven": "Huile les aubergines entières et rôtis-les 25 minutes au four à 200 °C, en les retournant à mi-cuisson."
+      },
+      "6": {
+       "oven": "Verse autour l'eau chaude et le reste d'huile, couvre de papier alu et enfourne 40 minutes à 180 °C."
+      }
+     }
+    },
+    "es": {
+     "title": "İmam bayıldı, berenjenas rellenas",
+     "intro": "Berenjenas rellenas de cebolla y tomate, guisadas en aceite de oliva y servidas templadas.",
+     "ing": [
+      "berenjenas alargadas",
+      "cebollas",
+      "dientes de ajo",
+      "tomates maduros",
+      "pimientos verdes alargados",
+      "perejil",
+      "aceite de oliva virgen extra",
+      "concentrado de tomate",
+      "azúcar",
+      "agua caliente",
+      "sal"
+     ],
+     "steps": [
+      "Pela las berenjenas a tiras alternas, dejando el tallo. Sálalas y déjalas 20 minutos para que suelten el amargor.",
+      "Mientras, corta las cebollas en medias lunas finas, el ajo en láminas y los pimientos en aros. Corta 2 tomates en dados y 1 en rodajas.",
+      "Lava y seca las berenjenas. Fríelas enteras en 6 cucharadas de aceite, dándoles la vuelta, hasta que estén tiernas y doradas.",
+      "En la misma sartén, pocha las cebollas en 4 cucharadas de aceite a fuego suave 10 minutos, hasta que estén tiernas y dulces.",
+      "Añade el ajo, los pimientos (guarda unos aros), el tomate en dados, el concentrado, el azúcar y la sal. Cocina 5 minutos y añade el perejil.",
+      "Coloca las berenjenas en una sartén amplia, ábrelas a lo largo formando un bolsillo, rellénalas y cúbrelas con tomate y pimiento.",
+      "Vierte alrededor el agua caliente y el aceite restante, tapa y cuece a fuego bajo 30 minutos, hasta que estén muy tiernas.",
+      "Déjalas enfriar en la sartén al menos 1 hora: se sirven a temperatura ambiente, y al día siguiente están aún mejor."
+     ],
+     "labels": [
+      "Desamargar",
+      "",
+      "Berenjenas",
+      "Cebollas",
+      "Relleno",
+      "",
+      "Guisar",
+      "Enfriar"
+     ],
+     "tips": [
+      "Pelarlas a tiras mantiene la berenjena entera al cocinarse y deja entrar el sabor.",
+      "Aguantan 3 días en la nevera: sácalas media hora antes, muy frías pierden sabor.",
+      "Con pan caliente para mojar el aceite, o con arroz pilaf para un plato completo."
+     ],
+     "alt": {
+      "2": {
+       "oven": "Unta las berenjenas enteras con aceite y ásalas 25 minutos en el horno a 200 °C, girándolas a media cocción."
+      },
+      "6": {
+       "oven": "Vierte alrededor el agua caliente y el aceite restante, cubre con papel de aluminio y hornea 40 minutos a 180 °C."
+      }
+     }
+    },
+    "de": {
+     "title": "İmam Bayıldı, gefüllte Auberginen",
+     "intro": "Auberginen mit Zwiebel-Tomaten-Füllung, in Olivenöl geschmort und lauwarm serviert.",
+     "ing": [
+      "lange Auberginen",
+      "Zwiebeln",
+      "Knoblauchzehen",
+      "reife Tomaten",
+      "grüne Spitzpaprika",
+      "glatte Petersilie",
+      "natives Olivenöl extra",
+      "Tomatenmark",
+      "Zucker",
+      "heißes Wasser",
+      "Salz"
+     ],
+     "steps": [
+      "Schäl die Auberginen streifenweise und lass den Stiel dran. Salz sie ein und lass sie 20 Minuten Wasser ziehen.",
+      "Schneid inzwischen die Zwiebeln in dünne Halbringe, den Knoblauch in Scheibchen, die Paprika in Ringe. Würfle 2 Tomaten, 1 in Scheiben.",
+      "Spül die Auberginen ab und tupf sie trocken. Brat sie ganz in 6 EL Öl rundum an, bis sie weich und goldbraun sind.",
+      "Gare die Zwiebeln in derselben Pfanne mit 4 EL Öl bei kleiner Hitze 10 Minuten, bis sie weich und süß sind.",
+      "Gib Knoblauch, Paprika (ein paar Ringe beiseite), Tomatenwürfel, Tomatenmark, Zucker und Salz dazu, gare 5 Minuten, rühr Petersilie unter.",
+      "Leg die Auberginen in eine weite Pfanne, schneid sie längs ein und öffne eine Tasche. Füll sie und leg Tomate und Paprika darauf.",
+      "Gieß heißes Wasser und restliches Öl ringsum an, deck sie zu und schmor sie bei kleiner Hitze 30 Minuten, bis sie ganz weich sind.",
+      "Lass sie mindestens 1 Stunde in der Pfanne abkühlen: Man isst sie zimmerwarm, am nächsten Tag noch besser."
+     ],
+     "labels": [
+      "Entwässern",
+      "",
+      "Auberginen",
+      "Zwiebeln",
+      "Füllung",
+      "",
+      "Schmoren",
+      "Abkühlen"
+     ],
+     "tips": [
+      "Das streifenweise Schälen hält die Aubergine beim Garen zusammen und lässt Geschmack hinein.",
+      "Sie halten 3 Tage im Kühlschrank: Nimm sie eine halbe Stunde vorher heraus, eiskalt schmecken sie flach.",
+      "Dazu warmes Brot zum Auftunken oder Reispilaw als vollständige Mahlzeit."
+     ],
+     "alt": {
+      "2": {
+       "oven": "Bestreich die ganzen Auberginen mit Öl und röste sie 25 Minuten bei 200 °C im Ofen, nach der Hälfte wenden."
+      },
+      "6": {
+       "oven": "Gieß heißes Wasser und restliches Öl ringsum an, deck sie mit Alufolie ab und back sie 40 Minuten bei 180 °C."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "izmir-kofte",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 85,
+   "diff": 2,
+   "kcal": 560,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "TR",
+   "alcohol": false,
+   "methods": [
+    "pan",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "ground-beef"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "bread"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "potatoes"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "long-green-peppers"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "sunflower-oil"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1200,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 480,
+     "alt": {
+      "airfryer": {
+       "timer": 900
+      }
+     }
+    },
+    {
+     "timer": 300,
+     "alt": {
+      "airfryer": {
+       "timer": 480
+      }
+     }
+    },
+    {},
+    {},
+    {
+     "timer": 2100
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "İzmir köfte, polpette al forno",
+     "intro": "Köfte, patate e peperoni verdi al forno nel sugo di pomodoro, come a Smirne.",
+     "ing": [
+      "carne macinata di manzo",
+      "cipolla",
+      "spicchi d'aglio",
+      "pane raffermo senza crosta",
+      "prezzemolo",
+      "cumino in polvere",
+      "pepe nero",
+      "sale",
+      "patate medie",
+      "peperoni verdi lunghi",
+      "pomodori",
+      "concentrato di pomodoro",
+      "acqua calda",
+      "olio di semi di girasole"
+     ],
+     "steps": [
+      "Ammolla il pane in acqua e strizzalo. Grattugia la cipolla e strizzala, trita aglio e prezzemolo.",
+      "Impasta tutto con carne, cumino, sale e pepe per 3 minuti, finché è appiccicoso. Fallo riposare in frigo 20 minuti.",
+      "Intanto pela le patate e tagliale a spicchi spessi, poi asciugale bene. Taglia i pomodori a fette.",
+      "Rosola le patate nell'olio caldo in padella per 8 minuti, girandole, finché sono dorate fuori ma non ancora cotte.",
+      "Con le mani umide forma 12 köfte allungate di 8 cm e rosolale nella stessa padella 5 minuti, finché sono dorate su ogni lato.",
+      "Scalda il forno a 200 °C. In una teglia alterna köfte, patate, peperoni interi e fette di pomodoro, in file strette.",
+      "Sciogli il concentrato nell'acqua calda con un pizzico di sale e pepe e versalo nella teglia.",
+      "Inforna per 35 minuti, finché il sugo si è ristretto, i peperoni sono appassiti e le köfte sono cotte al cuore.",
+      "Lascia riposare 5 minuti e servi nella teglia, con pane o riso pilaf per il sugo."
+     ],
+     "labels": [
+      "",
+      "Riposo",
+      "",
+      "Patate",
+      "Köfte",
+      "",
+      "",
+      "Forno",
+      ""
+     ],
+     "tips": [
+      "Strizza bene la cipolla grattugiata: il suo succo farebbe sfaldare le köfte in cottura.",
+      "Metà manzo e metà agnello danno il sapore delle trattorie di Smirne.",
+      "Servile con pilaf di bulgur e ayran freddo, come in Turchia."
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Ungi le patate con poco olio e cuocile in friggitrice ad aria a 200 °C per 15 minuti, scuotendo il cestello a metà."
+      },
+      "4": {
+       "airfryer": "Forma 12 köfte allungate di 8 cm e cuocile in friggitrice ad aria a 200 °C per 8 minuti, girandole a metà."
+      }
+     }
+    },
+    "en": {
+     "title": "İzmir köfte, baked meatballs",
+     "intro": "Köfte, potatoes and green peppers baked in tomato sauce, the Izmir way.",
+     "ing": [
+      "minced beef",
+      "onion",
+      "garlic cloves",
+      "stale bread, crusts removed",
+      "flat-leaf parsley",
+      "ground cumin",
+      "black pepper",
+      "salt",
+      "medium potatoes",
+      "long green peppers",
+      "tomatoes",
+      "tomato paste",
+      "hot water",
+      "sunflower oil"
+     ],
+     "steps": [
+      "Soak the bread in water and squeeze it out. Grate the onion and squeeze out its juice; chop the garlic and parsley.",
+      "Knead everything with the beef, cumin, salt and pepper for 3 minutes, until sticky. Rest in the fridge for 20 minutes.",
+      "Meanwhile peel the potatoes, cut into thick wedges and pat them dry. Slice the tomatoes.",
+      "Fry the potatoes in the hot oil for 8 minutes, turning, until golden outside but not fully cooked.",
+      "With damp hands, shape 12 oblong köfte 8 cm long and brown them in the same pan for 5 minutes, until golden all over.",
+      "Heat the oven to 200 °C. In a baking dish, line up köfte, potatoes, whole peppers and tomato slices in tight alternating rows.",
+      "Dissolve the tomato paste in the hot water with a pinch of salt and pepper and pour it into the dish.",
+      "Bake for 35 minutes, until the sauce has reduced, the peppers are blistered and the köfte are cooked through.",
+      "Rest for 5 minutes and serve from the dish, with bread or rice pilaf for the sauce."
+     ],
+     "labels": [
+      "",
+      "Rest",
+      "",
+      "Potatoes",
+      "Köfte",
+      "",
+      "",
+      "Oven",
+      ""
+     ],
+     "tips": [
+      "Squeeze the grated onion well: its juice would make the köfte fall apart.",
+      "Half beef, half lamb gives the flavour of Izmir's home-style restaurants.",
+      "Serve with bulgur pilaf and cold ayran, as they do in Turkey."
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Toss the potatoes with a little oil and air-fry at 200 °C for 15 minutes, shaking the basket halfway."
+      },
+      "4": {
+       "airfryer": "Shape 12 oblong köfte 8 cm long and air-fry at 200 °C for 8 minutes, turning halfway."
+      }
+     }
+    },
+    "fr": {
+     "title": "İzmir köfte, boulettes au four",
+     "intro": "Köfte, pommes de terre et poivrons verts cuits au four en sauce tomate, façon Izmir.",
+     "ing": [
+      "bœuf haché",
+      "oignon",
+      "gousses d'ail",
+      "pain rassis sans croûte",
+      "persil plat",
+      "cumin en poudre",
+      "poivre noir",
+      "sel",
+      "pommes de terre moyennes",
+      "poivrons verts longs",
+      "tomates",
+      "concentré de tomate",
+      "eau chaude",
+      "huile de tournesol"
+     ],
+     "steps": [
+      "Fais tremper le pain dans l'eau et essore-le. Râpe l'oignon et presse-le pour ôter le jus ; hache l'ail et le persil.",
+      "Pétris le tout avec le bœuf, le cumin, le sel et le poivre 3 minutes, jusqu'à ce que ce soit collant. Laisse reposer 20 minutes au frais.",
+      "Pendant ce temps, épluche les pommes de terre, coupe-les en gros quartiers et sèche-les bien. Coupe les tomates en tranches.",
+      "Fais dorer les pommes de terre 8 minutes dans l'huile chaude en les retournant : dorées dehors, pas tout à fait cuites.",
+      "Les mains mouillées, forme 12 köfte allongées de 8 cm et fais-les dorer 5 minutes de tous côtés dans la même poêle.",
+      "Préchauffe le four à 200 °C. Dans un plat, alterne en rangs serrés köfte, pommes de terre, poivrons entiers et tranches de tomate.",
+      "Délaye le concentré dans l'eau chaude avec une pincée de sel et de poivre et verse dans le plat.",
+      "Enfourne 35 minutes, jusqu'à ce que la sauce ait réduit, que les poivrons soient flétris et les köfte cuites à cœur.",
+      "Laisse reposer 5 minutes et sers dans le plat, avec du pain ou du riz pilaf pour la sauce."
+     ],
+     "labels": [
+      "",
+      "Repos",
+      "",
+      "Pommes de terre",
+      "Köfte",
+      "",
+      "",
+      "Four",
+      ""
+     ],
+     "tips": [
+      "Presse bien l'oignon râpé : son jus ferait se défaire les köfte à la cuisson.",
+      "Moitié bœuf, moitié agneau, tu retrouves le goût des petits restaurants d'Izmir.",
+      "Sers avec un pilaf de boulgour et un ayran bien frais, comme en Turquie."
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Huile légèrement les pommes de terre et cuis-les 15 minutes à 200 °C en friteuse à air, en secouant à mi-cuisson."
+      },
+      "4": {
+       "airfryer": "Forme 12 köfte allongées de 8 cm et cuis-les 8 minutes à 200 °C en friteuse à air, en les retournant à mi-cuisson."
+      }
+     }
+    },
+    "es": {
+     "title": "İzmir köfte, albóndigas al horno",
+     "intro": "Köfte, patatas y pimientos verdes al horno en salsa de tomate, al estilo de Esmirna.",
+     "ing": [
+      "carne picada de ternera",
+      "cebolla",
+      "dientes de ajo",
+      "pan duro sin corteza",
+      "perejil",
+      "comino molido",
+      "pimienta negra",
+      "sal",
+      "patatas medianas",
+      "pimientos verdes alargados",
+      "tomates",
+      "concentrado de tomate",
+      "agua caliente",
+      "aceite de girasol"
+     ],
+     "steps": [
+      "Remoja el pan en agua y escúrrelo. Ralla la cebolla y exprímela para quitarle el jugo; pica el ajo y el perejil.",
+      "Amasa todo con la carne, el comino, la sal y la pimienta 3 minutos, hasta que esté pegajoso. Déjalo reposar 20 minutos en la nevera.",
+      "Mientras, pela las patatas, córtalas en gajos gruesos y sécalas bien. Corta los tomates en rodajas.",
+      "Dora las patatas en el aceite caliente 8 minutos, dándoles la vuelta, hasta que estén doradas por fuera pero no hechas del todo.",
+      "Con las manos húmedas forma 12 köfte alargadas de 8 cm y dóralas en la misma sartén 5 minutos por todos los lados.",
+      "Precalienta el horno a 200 °C. En una fuente alterna en filas apretadas köfte, patatas, pimientos enteros y rodajas de tomate.",
+      "Disuelve el concentrado en el agua caliente con una pizca de sal y pimienta y viértelo en la fuente.",
+      "Hornea 35 minutos, hasta que la salsa se reduzca, los pimientos se arruguen y las köfte estén hechas por dentro.",
+      "Deja reposar 5 minutos y sirve en la misma fuente, con pan o arroz pilaf para la salsa."
+     ],
+     "labels": [
+      "",
+      "Reposo",
+      "",
+      "Patatas",
+      "Köfte",
+      "",
+      "",
+      "Horno",
+      ""
+     ],
+     "tips": [
+      "Exprime bien la cebolla rallada: su jugo haría que las köfte se deshicieran.",
+      "Mitad ternera y mitad cordero da el sabor de las casas de comidas de Esmirna.",
+      "Sírvelas con pilaf de bulgur y ayran frío, como en Turquía."
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Unta las patatas con un poco de aceite y cocínalas en freidora de aire a 200 °C 15 minutos, agitando a mitad."
+      },
+      "4": {
+       "airfryer": "Forma 12 köfte alargadas de 8 cm y cocínalas en freidora de aire a 200 °C 8 minutos, girándolas a mitad."
+      }
+     }
+    },
+    "de": {
+     "title": "İzmir Köfte, Hackröllchen aus dem Ofen",
+     "intro": "Köfte, Kartoffeln und grüne Paprika im Ofen in Tomatensoße, nach Izmirer Art.",
+     "ing": [
+      "Rinderhackfleisch",
+      "Zwiebel",
+      "Knoblauchzehen",
+      "altbackenes Brot ohne Rinde",
+      "glatte Petersilie",
+      "gemahlener Kreuzkümmel",
+      "schwarzer Pfeffer",
+      "Salz",
+      "mittelgroße Kartoffeln",
+      "grüne Spitzpaprika",
+      "Tomaten",
+      "Tomatenmark",
+      "heißes Wasser",
+      "Sonnenblumenöl"
+     ],
+     "steps": [
+      "Weich das Brot in Wasser ein und drück es aus. Reib die Zwiebel und drück den Saft aus; hack Knoblauch und Petersilie.",
+      "Knete alles mit Hackfleisch, Kreuzkümmel, Salz und Pfeffer 3 Minuten, bis es klebt. Lass die Masse 20 Minuten kalt ruhen.",
+      "Schäl inzwischen die Kartoffeln, schneid sie in dicke Spalten und tupf sie trocken. Schneid die Tomaten in Scheiben.",
+      "Brat die Kartoffeln im heißen Öl 8 Minuten unter Wenden, bis sie außen goldbraun, aber noch nicht gar sind.",
+      "Form mit feuchten Händen 12 längliche Köfte von 8 cm und brat sie in derselben Pfanne 5 Minuten rundum braun an.",
+      "Heiz den Ofen auf 200 °C vor. Leg Köfte, Kartoffeln, ganze Paprika und Tomatenscheiben abwechselnd in dichten Reihen in eine Form.",
+      "Löse das Tomatenmark mit einer Prise Salz und Pfeffer im heißen Wasser auf und gieß es in die Form.",
+      "Back alles 35 Minuten, bis die Soße eingekocht ist, die Paprika Blasen wirft und die Köfte durchgegart sind.",
+      "Lass es 5 Minuten ruhen und serviere es in der Form, mit Brot oder Reispilaw für die Soße."
+     ],
+     "labels": [
+      "",
+      "Ruhen",
+      "",
+      "Kartoffeln",
+      "Köfte",
+      "",
+      "",
+      "Ofen",
+      ""
+     ],
+     "tips": [
+      "Drück die geriebene Zwiebel gut aus: Ihr Saft lässt die Köfte sonst zerfallen.",
+      "Halb Rind, halb Lamm schmeckt wie in den Garküchen von Izmir.",
+      "Dazu Bulgurpilaw und kalter Ayran, wie in der Türkei."
+     ],
+     "alt": {
+      "3": {
+       "airfryer": "Misch die Kartoffeln mit etwas Öl und gare sie 15 Minuten bei 200 °C in der Heißluftfritteuse, nach der Hälfte schütteln."
+      },
+      "4": {
+       "airfryer": "Form 12 längliche Köfte von 8 cm und gare sie 8 Minuten bei 200 °C in der Heißluftfritteuse, nach der Hälfte wenden."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "tavuk-sis",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 150,
+   "diff": 1,
+   "kcal": 390,
+   "diet": [
+    "gf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "TR",
+   "alcohol": false,
+   "methods": [
+    "grill",
+    "oven",
+    "bbq"
+   ],
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "chicken-thighs"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "plain-yogurt"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "aleppo-pepper"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-cumin"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "dried-oregano"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "wooden-skewers"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 7200
+    },
+    {},
+    {
+     "timer": 780,
+     "alt": {
+      "oven": {
+       "timer": 1200
+      },
+      "bbq": {
+       "timer": 660
+      }
+     }
+    },
+    {
+     "timer": 180
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "coban-salatasi"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tavuk şiş, spiedini di pollo",
+     "intro": "Spiedini di sovracosce marinate in yogurt e pul biber, morbidi dentro, abbrustoliti fuori.",
+     "ing": [
+      "cosce di pollo disossate",
+      "yogurt bianco intero",
+      "concentrato di pomodoro",
+      "olio extravergine d'oliva",
+      "spicchi d'aglio",
+      "limoni",
+      "paprica dolce",
+      "peperoncino in fiocchi (pul biber)",
+      "cumino in polvere",
+      "origano secco",
+      "sale",
+      "pepe nero",
+      "spiedini di legno"
+     ],
+     "steps": [
+      "Taglia il pollo a cubi di 3 cm. In una ciotola mescola yogurt, concentrato, olio, aglio grattugiato, succo di 1 limone, spezie, sale e pepe.",
+      "Avvolgi il pollo nella marinata, copri e lascialo in frigo almeno 2 ore. Metti a bagno gli spiedini in acqua.",
+      "Infila 5 o 6 pezzi per spiedino, ben accostati ma senza schiacciarli. Togli il pollo dal frigo 15 minuti prima.",
+      "Scalda bene la piastra e ungila. Cuoci gli spiedini 13 minuti, girandoli ogni 3, finché sono abbrustoliti e cotti al cuore.",
+      "Lasciali riposare 3 minuti, poi spremi sopra l'altro limone e servi con pane lavaş o riso."
+     ],
+     "labels": [
+      "",
+      "Marinatura",
+      "",
+      "Spiedini",
+      "Riposo"
+     ],
+     "tips": [
+      "Le sovracosce restano succose anche a fuoco vivo; il petto si asciuga in fretta.",
+      "Con çoban salatası, cipolla rossa al sommacco e un ayran freddo.",
+      "Avvolti nel lavaş con cipolla, prezzemolo e sommacco diventano un dürüm."
+     ],
+     "alt": {
+      "3": {
+       "oven": "Cuoci sulla griglia alta del forno con funzione grill a 230 °C per 20 minuti, girandoli a metà, finché sono cotti al cuore.",
+       "bbq": "Cuoci sulla brace viva 11 minuti, girandoli spesso, finché sono abbrustoliti ai bordi e senza parti rosa dentro."
+      }
+     }
+    },
+    "en": {
+     "title": "Tavuk şiş, chicken skewers",
+     "intro": "Chicken thigh skewers marinated in yogurt and chilli, tender inside and charred outside.",
+     "ing": [
+      "boneless chicken thighs",
+      "plain whole-milk yogurt",
+      "tomato paste",
+      "extra virgin olive oil",
+      "garlic cloves",
+      "lemons",
+      "sweet paprika",
+      "Aleppo chilli flakes (pul biber)",
+      "ground cumin",
+      "dried oregano",
+      "salt",
+      "black pepper",
+      "wooden skewers"
+     ],
+     "steps": [
+      "Cut the chicken into 3 cm cubes. In a bowl, mix the yogurt, tomato paste, oil, grated garlic, juice of 1 lemon, spices, salt and pepper.",
+      "Coat the chicken in the marinade, cover and refrigerate for at least 2 hours. Soak the skewers in water.",
+      "Thread 5 or 6 pieces onto each skewer, snug but not squashed. Take the chicken out of the fridge 15 minutes ahead.",
+      "Heat the grill pan well and oil it. Cook the skewers for 13 minutes, turning every 3, until charred at the edges and cooked through.",
+      "Rest for 3 minutes, then squeeze over the other lemon and serve with lavash or rice."
+     ],
+     "labels": [
+      "",
+      "Marinate",
+      "",
+      "Skewers",
+      "Rest"
+     ],
+     "tips": [
+      "Thighs stay juicy even over high heat; breast dries out quickly.",
+      "Serve with çoban salatası, sumac red onion and cold ayran.",
+      "Wrapped in lavash with onion, parsley and sumac, they become a dürüm."
+     ],
+     "alt": {
+      "3": {
+       "oven": "Cook on the top rack under the oven grill at 230 °C for 20 minutes, turning halfway, until cooked through.",
+       "bbq": "Cook over hot coals for 11 minutes, turning often, until charred at the edges with no pink inside."
+      }
+     }
+    },
+    "fr": {
+     "title": "Tavuk şiş, brochettes de poulet",
+     "intro": "Brochettes de poulet marinées au yaourt et au piment, tendres dedans, grillées dehors.",
+     "ing": [
+      "hauts de cuisse de poulet désossés",
+      "yaourt nature entier",
+      "concentré de tomate",
+      "huile d'olive vierge extra",
+      "gousses d'ail",
+      "citrons",
+      "paprika doux",
+      "piment d'Alep (pul biber)",
+      "cumin en poudre",
+      "origan séché",
+      "sel",
+      "poivre noir",
+      "brochettes en bois"
+     ],
+     "steps": [
+      "Coupe le poulet en cubes de 3 cm. Dans un bol, mélange yaourt, concentré, huile, ail râpé, jus d'un citron, épices, sel et poivre.",
+      "Enrobe le poulet de marinade, couvre et laisse au frais au moins 2 heures. Fais tremper les brochettes dans l'eau.",
+      "Enfile 5 ou 6 morceaux par brochette, serrés sans les écraser. Sors le poulet du frigo 15 minutes avant.",
+      "Chauffe bien la plancha huilée. Cuis les brochettes 13 minutes en les tournant toutes les 3 min : bords grillés, cuites à cœur.",
+      "Laisse reposer 3 minutes, presse l'autre citron dessus et sers avec du pain lavash ou du riz."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "",
+      "Brochettes",
+      "Repos"
+     ],
+     "tips": [
+      "Le haut de cuisse reste juteux même à feu vif ; le blanc sèche vite.",
+      "Avec un çoban salatası, de l'oignon rouge au sumac et un ayran bien frais.",
+      "Roulées dans un lavash avec oignon, persil et sumac, elles deviennent un dürüm."
+     ],
+     "alt": {
+      "3": {
+       "oven": "Cuis-les sous le gril du four à 230 °C, grille du haut, 20 minutes en les retournant à mi-cuisson, bien cuites à cœur.",
+       "bbq": "Cuis-les sur des braises vives 11 minutes en les tournant souvent : bords grillés et plus aucune trace rosée."
+      }
+     }
+    },
+    "es": {
+     "title": "Tavuk şiş, brochetas de pollo",
+     "intro": "Brochetas de contramuslo en adobo de yogur y chile, tiernas dentro y tostadas fuera.",
+     "ing": [
+      "contramuslos de pollo deshuesados",
+      "yogur natural entero",
+      "concentrado de tomate",
+      "aceite de oliva virgen extra",
+      "dientes de ajo",
+      "limones",
+      "pimentón dulce",
+      "copos de chile de Alepo (pul biber)",
+      "comino molido",
+      "orégano seco",
+      "sal",
+      "pimienta negra",
+      "brochetas de madera"
+     ],
+     "steps": [
+      "Corta el pollo en dados de 3 cm. Mezcla en un bol yogur, concentrado, aceite, ajo rallado, zumo de 1 limón, especias, sal y pimienta.",
+      "Embadurna el pollo con la marinada, tapa y déjalo en la nevera al menos 2 horas. Pon las brochetas en remojo.",
+      "Ensarta 5 o 6 trozos por brocheta, juntos pero sin apretar. Saca el pollo de la nevera 15 minutos antes.",
+      "Calienta bien la plancha y úntala de aceite. Asa las brochetas 13 minutos, girándolas cada 3, hasta que estén tostadas y hechas.",
+      "Déjalas reposar 3 minutos, exprime encima el otro limón y sirve con pan lavash o arroz."
+     ],
+     "labels": [
+      "",
+      "Marinado",
+      "",
+      "Brochetas",
+      "Reposo"
+     ],
+     "tips": [
+      "El contramuslo queda jugoso incluso a fuego fuerte; la pechuga se seca enseguida.",
+      "Con çoban salatası, cebolla morada con zumaque y un ayran frío.",
+      "Envueltas en lavash con cebolla, perejil y zumaque se convierten en un dürüm."
+     ],
+     "alt": {
+      "3": {
+       "oven": "Ásalas en la parte alta del horno con gratinador a 230 °C 20 minutos, girándolas a mitad, hasta que estén hechas.",
+       "bbq": "Ásalas sobre brasas vivas 11 minutos, girándolas a menudo, hasta que estén tostadas y sin partes rosadas."
+      }
+     }
+    },
+    "de": {
+     "title": "Tavuk Şiş, Hähnchenspieße",
+     "intro": "Hähnchenschenkel-Spieße in Joghurt-Chili-Marinade, innen saftig, außen mit Röstaromen.",
+     "ing": [
+      "Hähnchenschenkel ohne Knochen",
+      "Naturjoghurt (3,5 %)",
+      "Tomatenmark",
+      "natives Olivenöl extra",
+      "Knoblauchzehen",
+      "Zitronen",
+      "Paprikapulver edelsüß",
+      "Aleppo-Chiliflocken (Pul Biber)",
+      "gemahlener Kreuzkümmel",
+      "getrockneter Oregano",
+      "Salz",
+      "schwarzer Pfeffer",
+      "Holzspieße"
+     ],
+     "steps": [
+      "Schneid das Hähnchen in 3-cm-Würfel. Verrühr Joghurt, Tomatenmark, Öl, geriebenen Knoblauch, Saft von 1 Zitrone, Gewürze, Salz und Pfeffer.",
+      "Wend das Hähnchen in der Marinade, deck es zu und lass es mindestens 2 Stunden kalt ziehen. Weich die Spieße in Wasser ein.",
+      "Steck 5 bis 6 Stücke auf jeden Spieß, dicht, aber nicht gequetscht. Nimm das Fleisch 15 Minuten vorher aus dem Kühlschrank.",
+      "Heiz die Grillpfanne stark vor und öl sie ein. Grill die Spieße 13 Minuten, alle 3 Minuten wenden, bis sie gebräunt und durch sind.",
+      "Lass sie 3 Minuten ruhen, press die zweite Zitrone darüber und serviere sie mit Lavash oder Reis."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "",
+      "Spieße",
+      "Ruhen"
+     ],
+     "tips": [
+      "Schenkelfleisch bleibt auch bei starker Hitze saftig; Brust wird schnell trocken.",
+      "Dazu Çoban Salatası, rote Zwiebeln mit Sumach und kalter Ayran.",
+      "Im Lavash mit Zwiebeln, Petersilie und Sumach eingerollt wird daraus ein Dürüm."
+     ],
+     "alt": {
+      "3": {
+       "oven": "Gare sie unter dem Backofengrill bei 230 °C auf oberster Schiene 20 Minuten, nach der Hälfte wenden, bis sie durch sind.",
+       "bbq": "Grill sie über heißer Glut 11 Minuten unter häufigem Wenden, bis sie gebräunt und innen nicht mehr rosa sind."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "hamsi-tava",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 2,
+   "kcal": 380,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "TR",
+   "alcohol": false,
+   "methods": [
+    "pan",
+    "airfryer"
+   ],
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "fresh-anchovies"
+    },
+    {
+     "q": 120,
+     "u": "g",
+     "k": "polenta"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 15,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "lemons"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 150,
+     "alt": {
+      "airfryer": {
+       "timer": 360
+      }
+     }
+    },
+    {
+     "timer": 120,
+     "alt": {
+      "airfryer": {
+       "timer": 180
+      }
+     }
+    },
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Hamsi tava, alici fritte alla turca",
+     "intro": "Alici nella farina di mais fritte a raggiera come sul Mar Nero, croccanti e dorate.",
+     "ing": [
+      "alici fresche",
+      "farina di mais fioretto",
+      "sale",
+      "olio di semi di girasole",
+      "cipolla rossa",
+      "prezzemolo",
+      "limoni"
+     ],
+     "steps": [
+      "Pulisci le alici: stacca la testa tirando via le interiora, apri la pancia ed elimina la lisca lasciando la coda. Sciacquale.",
+      "Lasciale sgocciolare in un colapasta, poi asciugale bene con carta da cucina: devono essere asciutte.",
+      "Mescola farina di mais e sale in un piatto largo, passaci le alici e scuoti via l'eccesso.",
+      "Scalda l'olio in una padella larga a 180 °C: un pizzico di farina deve sfrigolare subito.",
+      "Disponi le alici a raggiera, code al centro, e friggile 2 minuti e mezzo, finché sono dorate e croccanti sotto.",
+      "Capovolgi la raggiera tutta insieme aiutandoti con un piatto, come una frittata, e cuoci altri 2 minuti.",
+      "Scolale su carta, salale e servile subito con cipolla rossa a fettine, prezzemolo e spicchi di limone."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Primo lato",
+      "Secondo lato",
+      ""
+     ],
+     "tips": [
+      "Asciuga benissimo le alici: meno acqua vuol dire meno schizzi e crosta più croccante.",
+      "Sul Mar Nero si servono con pane di mais (mısır ekmeği) e insalata di rucola e cipolla."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Disponi le alici in un solo strato nel cestello, spennellale d'olio e cuocile a 200 °C per 6 minuti."
+      },
+      "5": {
+       "airfryer": "Girale una a una e cuoci altri 3 minuti, finché sono dorate e croccanti."
+      }
+     }
+    },
+    "en": {
+     "title": "Hamsi tava, Turkish fried anchovies",
+     "intro": "Anchovies dredged in cornmeal and fried in a sunburst, Black Sea style: crisp and golden.",
+     "ing": [
+      "fresh anchovies",
+      "fine cornmeal",
+      "salt",
+      "sunflower oil",
+      "red onion",
+      "flat-leaf parsley",
+      "lemons"
+     ],
+     "steps": [
+      "Clean the anchovies: pull off the head along with the guts, open the belly and lift out the spine, leaving the tail. Rinse.",
+      "Drain them in a colander, then pat them very dry with paper towel: they must be dry.",
+      "Mix the cornmeal and salt in a wide dish, dredge the anchovies and shake off the excess.",
+      "Heat the oil in a large frying pan to 180 °C: a pinch of cornmeal should sizzle at once.",
+      "Arrange the anchovies in a sunburst, tails to the centre, and fry for 2½ minutes, until golden and crisp underneath.",
+      "Flip the whole sunburst using a plate, like a frittata, and fry for 2 more minutes.",
+      "Drain on paper, salt and serve at once with sliced red onion, parsley and lemon wedges."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "First side",
+      "Second side",
+      ""
+     ],
+     "tips": [
+      "Dry the anchovies thoroughly: less water means less spitting and a crisper crust.",
+      "On the Black Sea they come with cornbread (mısır ekmeği) and a rocket and onion salad."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Lay the anchovies in a single layer in the basket, brush with oil and air-fry at 200 °C for 6 minutes."
+      },
+      "5": {
+       "airfryer": "Turn them one by one and cook for 3 more minutes, until golden and crisp."
+      }
+     }
+    },
+    "fr": {
+     "title": "Hamsi tava, anchois frits à la turque",
+     "intro": "Anchois à la farine de maïs frits en soleil, façon mer Noire : dorés et croustillants.",
+     "ing": [
+      "anchois frais",
+      "farine de maïs fine",
+      "sel",
+      "huile de tournesol",
+      "oignon rouge",
+      "persil plat",
+      "citrons"
+     ],
+     "steps": [
+      "Nettoie les anchois : arrache la tête en entraînant les viscères, ouvre le ventre et retire l'arête en gardant la queue. Rince.",
+      "Laisse-les égoutter dans une passoire, puis sèche-les bien avec du papier absorbant : ils doivent être secs.",
+      "Mélange farine de maïs et sel dans une assiette creuse, passes-y les anchois et secoue l'excédent.",
+      "Chauffe l'huile à 180 °C dans une grande poêle : une pincée de farine doit grésiller aussitôt.",
+      "Dispose les anchois en soleil, queues au centre, et fais-les frire 2 min 30, jusqu'à ce qu'ils soient dorés et croustillants dessous.",
+      "Retourne le soleil d'un coup à l'aide d'une assiette, comme une omelette, et cuis encore 2 minutes.",
+      "Égoutte sur du papier, sale et sers aussitôt avec oignon rouge émincé, persil et quartiers de citron."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "1re face",
+      "2e face",
+      ""
+     ],
+     "tips": [
+      "Sèche très bien les anchois : moins d'eau, moins d'éclaboussures et une croûte plus croustillante.",
+      "Sur la mer Noire, on les sert avec du pain de maïs (mısır ekmeği) et une salade roquette-oignon."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Pose les anchois en une couche dans le panier, badigeonne-les d'huile et cuis 6 minutes à 200 °C."
+      },
+      "5": {
+       "airfryer": "Retourne-les un à un et cuis encore 3 minutes, jusqu'à ce qu'ils soient dorés et croustillants."
+      }
+     }
+    },
+    "es": {
+     "title": "Hamsi tava, boquerones fritos turcos",
+     "intro": "Boquerones rebozados en harina de maíz y fritos en abanico, como en el mar Negro: dorados.",
+     "ing": [
+      "boquerones frescos",
+      "harina de maíz fina",
+      "sal",
+      "aceite de girasol",
+      "cebolla morada",
+      "perejil",
+      "limones"
+     ],
+     "steps": [
+      "Limpia los boquerones: arranca la cabeza tirando de las tripas, abre el vientre y quita la espina dejando la cola. Lávalos.",
+      "Déjalos escurrir en un colador y sécalos bien con papel de cocina: tienen que estar secos.",
+      "Mezcla la harina de maíz y la sal en un plato amplio, pasa los boquerones y sacude el exceso.",
+      "Calienta el aceite en una sartén grande a 180 °C: una pizca de harina debe chisporrotear al instante.",
+      "Coloca los boquerones en abanico, colas al centro, y fríelos 2 minutos y medio, hasta que estén dorados y crujientes por debajo.",
+      "Dale la vuelta al abanico entero con ayuda de un plato, como una tortilla, y fríe 2 minutos más.",
+      "Escúrrelos sobre papel, sálalos y sírvelos enseguida con cebolla morada en juliana, perejil y gajos de limón."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Primer lado",
+      "Segundo lado",
+      ""
+     ],
+     "tips": [
+      "Seca muy bien los boquerones: menos agua, menos salpicaduras y una costra más crujiente.",
+      "En el mar Negro se acompañan con pan de maíz (mısır ekmeği) y ensalada de rúcula y cebolla."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Pon los boquerones en una sola capa en la cesta, píntalos con aceite y cocínalos a 200 °C 6 minutos."
+      },
+      "5": {
+       "airfryer": "Dales la vuelta uno a uno y cocina 3 minutos más, hasta que estén dorados y crujientes."
+      }
+     }
+    },
+    "de": {
+     "title": "Hamsi Tava, gebratene Sardellen",
+     "intro": "Sardellen in Maismehl gewendet und sternförmig gebraten wie am Schwarzen Meer, goldbraun.",
+     "ing": [
+      "frische Sardellen",
+      "feines Maismehl",
+      "Salz",
+      "Sonnenblumenöl",
+      "rote Zwiebel",
+      "glatte Petersilie",
+      "Zitronen"
+     ],
+     "steps": [
+      "Nimm die Sardellen aus: Zieh den Kopf samt Innereien ab, öffne den Bauch und lös die Gräte heraus, der Schwanz bleibt dran.",
+      "Spül sie ab, lass sie im Sieb abtropfen und tupf sie mit Küchenpapier gründlich trocken: Sie müssen ganz trocken sein.",
+      "Misch Maismehl und Salz in einem flachen Teller, wend die Sardellen darin und klopf das überschüssige Mehl ab.",
+      "Erhitz das Öl in einer großen Pfanne auf 180 °C: Eine Prise Mehl muss sofort zischen.",
+      "Leg die Sardellen sternförmig hinein, Schwänze zur Mitte, und brat sie 2½ Minuten, bis sie unten goldbraun und knusprig sind.",
+      "Wend den ganzen Stern mithilfe eines Tellers wie ein Omelett und brat ihn weitere 2 Minuten.",
+      "Lass sie auf Papier abtropfen, salz sie und serviere sie sofort mit roten Zwiebelringen, Petersilie und Zitronenspalten."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "Erste Seite",
+      "Zweite Seite",
+      ""
+     ],
+     "tips": [
+      "Trockne die Sardellen gründlich: weniger Wasser, weniger Spritzer, knusprigere Kruste.",
+      "Am Schwarzen Meer isst man dazu Maisbrot (Mısır Ekmeği) und Rucola-Zwiebel-Salat."
+     ],
+     "alt": {
+      "4": {
+       "airfryer": "Leg die Sardellen in einer Lage in den Korb, bestreich sie mit Öl und gare sie 6 Minuten bei 200 °C."
+      },
+      "5": {
+       "airfryer": "Wend sie einzeln und gare sie weitere 3 Minuten, bis sie goldbraun und knusprig sind."
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "coban-salatasi",
+   "cat": "contorni",
+   "sub": "insalate",
+   "servings": 4,
+   "minutes": 15,
+   "diff": 1,
+   "kcal": 120,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "TR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "cucumbers"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "long-green-peppers"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-onions"
+    },
+    {
+     "q": 20,
+     "u": "g",
+     "k": "parsley"
+    },
+    {
+     "q": 5,
+     "u": "g",
+     "k": "mint"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sumac"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "extra-virgin-olive-oil"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lemons"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {},
+    {},
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "tavuk-sis"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Çoban salatası, insalata del pastore",
+     "intro": "Pomodori, cetrioli e peperoni a dadini, cipolla al sommacco: fresca, acidula, croccante.",
+     "ing": [
+      "pomodori maturi sodi",
+      "cetrioli",
+      "peperoni verdi lunghi",
+      "cipolla rossa",
+      "prezzemolo",
+      "menta fresca",
+      "sommacco",
+      "olio extravergine d'oliva",
+      "limone",
+      "sale"
+     ],
+     "steps": [
+      "Affetta sottile la cipolla, strofinala con metà del sommacco e un pizzico di sale e lasciala 10 minuti ad ammorbidirsi.",
+      "Intanto taglia pomodori, cetrioli (sbucciati a strisce) e peperoni a dadini piccoli e regolari, di circa 1 cm.",
+      "Trita finemente prezzemolo e menta.",
+      "Unisci tutto in una ciotola e condisci all'ultimo con succo di limone, olio e sale.",
+      "Mescola delicatamente e completa con il sommacco rimasto. Servi subito."
+     ],
+     "labels": [
+      "Cipolla",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Taglia tutto a coltello in dadini piccoli e uguali: è il segreto della vera çoban.",
+      "Un filo di melassa di melograno (nar ekşisi) la rende agrodolce, come a Gaziantep.",
+      "Perfetta con tavuk şiş o köfte alla griglia, e col pane per raccogliere il sugo."
+     ]
+    },
+    "en": {
+     "title": "Çoban salatası, shepherd's salad",
+     "intro": "Diced tomato, cucumber and pepper with sumac onion: fresh, tangy and crunchy.",
+     "ing": [
+      "ripe, firm tomatoes",
+      "cucumbers",
+      "long green peppers",
+      "red onion",
+      "flat-leaf parsley",
+      "fresh mint",
+      "sumac",
+      "extra virgin olive oil",
+      "lemon",
+      "salt"
+     ],
+     "steps": [
+      "Thinly slice the onion, rub it with half the sumac and a pinch of salt and leave for 10 minutes to soften.",
+      "Meanwhile dice the tomatoes, cucumbers (peeled in stripes) and peppers into small, even 1 cm cubes.",
+      "Finely chop the parsley and mint.",
+      "Combine everything in a bowl and dress at the last minute with lemon juice, oil and salt.",
+      "Toss gently and finish with the remaining sumac. Serve at once."
+     ],
+     "labels": [
+      "Onion",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Dice everything by knife into small, equal cubes: that's the secret of a true çoban.",
+      "A drizzle of pomegranate molasses (nar ekşisi) makes it sweet-sour, Gaziantep style.",
+      "Perfect with tavuk şiş or grilled köfte, with bread to mop up the juices."
+     ]
+    },
+    "fr": {
+     "title": "Çoban salatası, salade du berger",
+     "intro": "Tomates, concombres et poivrons en dés avec oignon au sumac : frais, acidulé, croquant.",
+     "ing": [
+      "tomates mûres et fermes",
+      "concombres",
+      "poivrons verts longs",
+      "oignon rouge",
+      "persil plat",
+      "menthe fraîche",
+      "sumac",
+      "huile d'olive vierge extra",
+      "citron",
+      "sel"
+     ],
+     "steps": [
+      "Émince finement l'oignon, frotte-le avec la moitié du sumac et une pincée de sel et laisse-le s'attendrir 10 minutes.",
+      "Pendant ce temps, coupe tomates, concombres (épluchés en bandes) et poivrons en petits dés réguliers d'environ 1 cm.",
+      "Hache finement le persil et la menthe.",
+      "Réunis le tout dans un saladier et assaisonne au dernier moment de jus de citron, d'huile et de sel.",
+      "Mélange délicatement et termine avec le reste de sumac. Sers aussitôt."
+     ],
+     "labels": [
+      "Oignon",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Coupe tout au couteau en petits dés égaux : c'est le secret d'un vrai çoban.",
+      "Un filet de mélasse de grenade (nar ekşisi) la rend aigre-douce, façon Gaziantep.",
+      "Parfaite avec des tavuk şiş ou des köfte grillées, et du pain pour saucer."
+     ]
+    },
+    "es": {
+     "title": "Çoban salatası, ensalada del pastor",
+     "intro": "Tomate, pepino y pimiento en dados con cebolla al zumaque: fresca, ácida y crujiente.",
+     "ing": [
+      "tomates maduros y firmes",
+      "pepinos",
+      "pimientos verdes alargados",
+      "cebolla morada",
+      "perejil",
+      "menta fresca",
+      "zumaque",
+      "aceite de oliva virgen extra",
+      "limón",
+      "sal"
+     ],
+     "steps": [
+      "Corta la cebolla en juliana fina, frótala con la mitad del zumaque y una pizca de sal y déjala 10 minutos para que se ablande.",
+      "Mientras, corta los tomates, los pepinos (pelados a tiras) y los pimientos en dados pequeños y regulares de 1 cm.",
+      "Pica fino el perejil y la menta.",
+      "Junta todo en un bol y aliña en el último momento con zumo de limón, aceite y sal.",
+      "Mezcla con cuidado y termina con el zumaque restante. Sirve enseguida."
+     ],
+     "labels": [
+      "Cebolla",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Corta todo a cuchillo en dados pequeños e iguales: es el secreto de la auténtica çoban.",
+      "Un hilo de melaza de granada (nar ekşisi) la vuelve agridulce, al estilo de Gaziantep.",
+      "Perfecta con tavuk şiş o köfte a la parrilla, y pan para mojar el jugo."
+     ]
+    },
+    "de": {
+     "title": "Çoban Salatası, Hirtensalat",
+     "intro": "Gewürfelte Tomaten, Gurken und Paprika mit Sumach-Zwiebeln: frisch, säuerlich, knackig.",
+     "ing": [
+      "reife, feste Tomaten",
+      "Gurken",
+      "grüne Spitzpaprika",
+      "rote Zwiebel",
+      "glatte Petersilie",
+      "frische Minze",
+      "Sumach",
+      "natives Olivenöl extra",
+      "Zitrone",
+      "Salz"
+     ],
+     "steps": [
+      "Schneid die Zwiebel in feine Ringe, reib sie mit der Hälfte des Sumachs und einer Prise Salz ein und lass sie 10 Minuten ziehen.",
+      "Schneid inzwischen Tomaten, Gurken (streifig geschält) und Paprika in kleine, gleichmäßige Würfel von etwa 1 cm.",
+      "Hack Petersilie und Minze fein.",
+      "Gib alles in eine Schüssel und mach es erst kurz vor dem Servieren mit Zitronensaft, Öl und Salz an.",
+      "Misch alles behutsam, streu den restlichen Sumach darüber und serviere den Salat sofort."
+     ],
+     "labels": [
+      "Zwiebel",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Schneid alles mit dem Messer in kleine, gleich große Würfel: Das ist das Geheimnis.",
+      "Ein Schuss Granatapfelsirup (Nar Ekşisi) macht ihn süßsauer, wie in Gaziantep.",
+      "Perfekt zu Tavuk Şiş oder gegrillten Köfte, mit Brot zum Auftunken."
+     ]
+    }
+   }
+  },
+  {
+   "id": "baklava-pistacchi",
+   "cat": "dolci",
+   "sub": "torte",
+   "servings": 12,
+   "minutes": 340,
+   "diff": 2,
+   "kcal": 520,
+   "diet": [
+    "veg"
+   ],
+   "tags": [
+    "festive",
+    "party"
+   ],
+   "months": [],
+   "origin": "TR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "filo-pastry"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "pistachios"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "butter"
+    },
+    {
+     "q": 400,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "lemons"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+     "timer": 3000
+    },
+    {},
+    {
+     "timer": 14400
+    }
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Baklava al pistacchio",
+     "intro": "Strati di fillo burrosa e pistacchi, imbevuti di sciroppo: croccante sopra, morbida sotto.",
+     "ing": [
+      "pasta fillo",
+      "pistacchi sgusciati non salati",
+      "burro",
+      "zucchero",
+      "acqua",
+      "succo di limone"
+     ],
+     "steps": [
+      "Per lo sciroppo porta a bollore zucchero e acqua e sobbolli 10 minuti. Aggiungi il limone e lascialo raffreddare del tutto.",
+      "Intanto sciogli il burro a fuoco basso, schiuma la superficie e versa solo la parte limpida, lasciando il fondo lattiginoso.",
+      "Trita i pistacchi grossolanamente; tienine 2 cucchiai tritati fini per decorare. Scalda il forno a 180 °C.",
+      "Imburra una teglia di 30x20 cm. Rifila la fillo alla misura della teglia e tienila coperta con un canovaccio umido.",
+      "Stendi metà dei fogli uno alla volta, spennellando ognuno di burro.",
+      "Distribuisci i pistacchi, poi copri con i fogli rimasti, sempre imburrandoli uno a uno; abbonda sull'ultimo.",
+      "Con un coltello affilato taglia rombi o quadrati fino al fondo, prima di infornare.",
+      "Cuoci 50 minuti, finché è dorata scura e croccante; se scurisce troppo presto, abbassa a 170 °C.",
+      "Appena sfornata, versa lo sciroppo freddo su tutta la baklava calda: deve sfrigolare.",
+      "Lasciala riposare scoperta almeno 4 ore, meglio una notte, fuori dal frigo. Decora con il pistacchio tritato."
+     ],
+     "labels": [
+      "Sciroppo",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Forno",
+      "",
+      "Riposo"
+     ],
+     "tips": [
+      "Sciroppo freddo su baklava bollente (o il contrario, mai tutti e due caldi): così resta croccante.",
+      "Nei negozi turchi cerca la yufka da baklava, più sottile della fillo: più strati, più croccante.",
+      "Si conserva 1 settimana a temperatura ambiente, coperta da un foglio di carta: mai in frigo."
+     ]
+    },
+    "en": {
+     "title": "Pistachio baklava",
+     "intro": "Layers of buttery filo and pistachio soaked in syrup: crisp on top, soft underneath.",
+     "ing": [
+      "filo pastry",
+      "shelled unsalted pistachios",
+      "butter",
+      "sugar",
+      "water",
+      "lemon juice"
+     ],
+     "steps": [
+      "For the syrup, bring the sugar and water to a boil and simmer for 10 minutes. Add the lemon juice and let it cool completely.",
+      "Meanwhile melt the butter over low heat, skim the foam and pour off only the clear part, leaving the milky solids behind.",
+      "Coarsely chop the pistachios; keep 2 tbsp finely ground for decoration. Heat the oven to 180 °C.",
+      "Butter a 30x20 cm tin. Trim the filo to fit and keep it covered with a damp tea towel.",
+      "Lay down half the sheets one at a time, brushing each with butter.",
+      "Spread over the pistachios, then cover with the remaining sheets, buttering each; be generous on the top one.",
+      "With a sharp knife, cut into diamonds or squares right down to the bottom before baking.",
+      "Bake for 50 minutes, until deep golden and crisp; if it browns too soon, lower to 170 °C.",
+      "As soon as it comes out, pour the cold syrup all over the hot baklava: it should sizzle.",
+      "Leave uncovered for at least 4 hours, ideally overnight, out of the fridge. Sprinkle with the ground pistachio."
+     ],
+     "labels": [
+      "Syrup",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Oven",
+      "",
+      "Rest"
+     ],
+     "tips": [
+      "Cold syrup on hot baklava (or the reverse, never both hot): that's how it stays crisp.",
+      "At Turkish shops look for baklava yufka, thinner than filo: more layers, more crunch.",
+      "Keeps 1 week at room temperature under a sheet of paper: never in the fridge."
+     ]
+    },
+    "fr": {
+     "title": "Baklava à la pistache",
+     "intro": "Filo beurrée et pistaches imbibées de sirop : croustillante dessus, fondante dessous.",
+     "ing": [
+      "pâte filo",
+      "pistaches décortiquées non salées",
+      "beurre",
+      "sucre",
+      "eau",
+      "jus de citron"
+     ],
+     "steps": [
+      "Pour le sirop, porte sucre et eau à ébullition et laisse frémir 10 minutes. Ajoute le jus de citron et laisse refroidir complètement.",
+      "Pendant ce temps, fais fondre le beurre à feu doux, écume la surface et verse seulement la partie claire, sans le dépôt laiteux.",
+      "Concasse grossièrement les pistaches ; garde 2 c. à s. finement moulues pour le décor. Préchauffe le four à 180 °C.",
+      "Beurre un moule de 30x20 cm. Coupe la filo à la taille du moule et garde-la sous un torchon humide.",
+      "Étale la moitié des feuilles une à une, en badigeonnant chacune de beurre.",
+      "Répartis les pistaches, puis recouvre avec le reste des feuilles, beurrées une à une ; sois généreux sur la dernière.",
+      "Avec un couteau bien aiguisé, découpe des losanges ou des carrés jusqu'au fond avant d'enfourner.",
+      "Fais cuire 50 minutes, jusqu'à ce qu'elle soit bien dorée et croustillante ; si elle colore trop vite, baisse à 170 °C.",
+      "À la sortie du four, verse le sirop froid sur toute la baklava chaude : ça doit grésiller.",
+      "Laisse reposer à découvert au moins 4 heures, idéalement une nuit, hors du frigo. Parsème de pistache moulue."
+     ],
+     "labels": [
+      "Sirop",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Four",
+      "",
+      "Repos"
+     ],
+     "tips": [
+      "Sirop froid sur baklava brûlante (ou l'inverse, jamais les deux chauds) : elle reste croustillante.",
+      "En épicerie turque, cherche la yufka à baklava, plus fine que la filo : plus de couches, plus de croquant.",
+      "Elle se garde 1 semaine à température ambiante sous une feuille de papier : jamais au frigo."
+     ]
+    },
+    "es": {
+     "title": "Baklava de pistacho",
+     "intro": "Filo con mantequilla y pistacho empapados en almíbar: crujiente arriba, tierna abajo.",
+     "ing": [
+      "masa filo",
+      "pistachos pelados sin sal",
+      "mantequilla",
+      "azúcar",
+      "agua",
+      "zumo de limón"
+     ],
+     "steps": [
+      "Para el almíbar, lleva a ebullición el azúcar y el agua y cuece suave 10 minutos. Añade el limón y deja que se enfríe del todo.",
+      "Mientras, derrite la mantequilla a fuego bajo, retira la espuma y vierte solo la parte clara, dejando el fondo lechoso.",
+      "Pica los pistachos en trozos gruesos; guarda 2 cucharadas molidas finas para decorar. Precalienta el horno a 180 °C.",
+      "Unta con mantequilla un molde de 30x20 cm. Recorta la masa filo a su medida y tápala con un paño húmedo.",
+      "Coloca la mitad de las hojas una a una, pintando cada una con mantequilla.",
+      "Reparte los pistachos y cubre con las hojas restantes, untándolas una a una; sé generoso con la última.",
+      "Con un cuchillo bien afilado corta rombos o cuadrados hasta el fondo antes de hornear.",
+      "Hornea 50 minutos, hasta que esté bien dorada y crujiente; si se tuesta demasiado pronto, baja a 170 °C.",
+      "Nada más sacarla, vierte el almíbar frío sobre toda la baklava caliente: debe chisporrotear.",
+      "Déjala reposar destapada al menos 4 horas, mejor toda la noche, fuera de la nevera. Decora con el pistacho molido."
+     ],
+     "labels": [
+      "Almíbar",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Horno",
+      "",
+      "Reposo"
+     ],
+     "tips": [
+      "Almíbar frío sobre baklava caliente (o al revés, nunca los dos calientes): así queda crujiente.",
+      "En tiendas turcas busca yufka para baklava, más fina que la filo: más capas, más crujiente.",
+      "Aguanta 1 semana a temperatura ambiente tapada con un papel: nunca en la nevera."
+     ]
+    },
+    "de": {
+     "title": "Pistazien-Baklava",
+     "intro": "Schichten aus gebuttertem Filoteig und Pistazien in Sirup: oben knusprig, unten saftig.",
+     "ing": [
+      "Filoteig",
+      "geschälte ungesalzene Pistazien",
+      "Butter",
+      "Zucker",
+      "Wasser",
+      "Zitronensaft"
+     ],
+     "steps": [
+      "Bring für den Sirup Zucker und Wasser zum Kochen und lass ihn 10 Minuten köcheln. Gib den Zitronensaft dazu, ganz abkühlen lassen.",
+      "Schmilz inzwischen die Butter bei kleiner Hitze, schöpf den Schaum ab und gieß nur den klaren Teil ab, die Molke bleibt zurück.",
+      "Hack die Pistazien grob; heb 2 EL fein gemahlen für die Deko auf. Heiz den Ofen auf 180 °C vor.",
+      "Fette eine Form von 30x20 cm. Schneid den Filoteig passend zu und halte ihn unter einem feuchten Tuch.",
+      "Leg die Hälfte der Blätter einzeln hinein und bestreich jedes mit Butter.",
+      "Verteil die Pistazien darauf und deck sie mit den restlichen Blättern ab, jedes gebuttert; das oberste großzügig.",
+      "Schneid mit einem scharfen Messer vor dem Backen Rauten oder Quadrate bis zum Boden ein.",
+      "Back sie 50 Minuten, bis sie tief goldbraun und knusprig ist; wird sie zu früh dunkel, schalt auf 170 °C runter.",
+      "Gieß den kalten Sirup sofort über die heiße Baklava: Es muss zischen.",
+      "Lass sie mindestens 4 Stunden, besser über Nacht, unbedeckt und außerhalb des Kühlschranks ziehen. Mit Pistazien bestreuen."
+     ],
+     "labels": [
+      "Sirup",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Ofen",
+      "",
+      "Ziehen"
+     ],
+     "tips": [
+      "Kalter Sirup auf heiße Baklava (oder umgekehrt, nie beides heiß): So bleibt sie knusprig.",
+      "Im türkischen Laden gibt es Baklava-Yufka, dünner als Filo: mehr Schichten, mehr Knusper.",
+      "Hält sich 1 Woche bei Zimmertemperatur unter einem Blatt Papier: nie in den Kühlschrank."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cay-turco",
+   "cat": "bevande",
+   "sub": "calde",
+   "servings": 4,
+   "minutes": 25,
+   "diff": 1,
+   "kcal": 5,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "TR",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "black-tea"
+    },
+    {
+     "q": 1200,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "sugar"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 300
+    },
+    {},
+    {
+     "timer": 900
+    },
+    {},
+    {}
+   ],
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "baklava-pistacchi"
+    }
+   ],
+   "i18n": {
+    "it": {
+     "title": "Çay, tè turco",
+     "intro": "Tè color rubino fatto nella doppia teiera, servito nei bicchierini a tulipano.",
+     "ing": [
+      "tè nero turco in foglie (o Ceylon forte)",
+      "acqua",
+      "zollette di zucchero"
+     ],
+     "steps": [
+      "Porta a bollore 1 litro d'acqua nel bollitore inferiore del çaydanlık; metti il tè asciutto nella teiera sopra a scaldarsi.",
+      "Versa sul tè circa 200 ml d'acqua bollente, rabbocca il bollitore sotto e rimetti la teiera sopra.",
+      "Lascia in infusione a fuoco minimo 15 minuti, finché le foglie si depositano sul fondo.",
+      "Versa nei bicchierini a tulipano un terzo di tè per un tè forte, meno per uno leggero, e completa con l'acqua calda di sotto.",
+      "Servi bollente con le zollette a parte, senza latte, e riempi i bicchieri appena si svuotano."
+     ],
+     "labels": [
+      "Acqua",
+      "",
+      "Infusione",
+      "",
+      ""
+     ],
+     "tips": [
+      "Senza çaydanlık: appoggia una teierina su un pentolino d'acqua che bolle.",
+      "Il tè di Rize dei negozi turchi ha il gusto pieno e il colore giusto.",
+      "È il finale obbligato dopo la baklava: il tè forte bilancia lo sciroppo."
+     ]
+    },
+    "en": {
+     "title": "Çay, Turkish tea",
+     "intro": "Ruby-red tea brewed in a double teapot and served in small tulip glasses.",
+     "ing": [
+      "Turkish loose black tea (or strong Ceylon)",
+      "water",
+      "sugar cubes"
+     ],
+     "steps": [
+      "Bring 1 litre of water to a boil in the bottom kettle of the çaydanlık; put the dry tea in the pot on top to warm.",
+      "Pour about 200 ml of boiling water over the tea, top up the bottom kettle and set the teapot back on top.",
+      "Brew over the lowest heat for 15 minutes, until the leaves settle to the bottom.",
+      "Fill a tulip glass a third with tea for strong, less for light, and top up with hot water from the bottom kettle.",
+      "Serve piping hot with sugar cubes on the side, no milk, and refill glasses as soon as they're empty."
+     ],
+     "labels": [
+      "Water",
+      "",
+      "Brew",
+      "",
+      ""
+     ],
+     "tips": [
+      "No çaydanlık? Sit a small teapot on top of a saucepan of boiling water.",
+      "Rize tea from Turkish shops has the right full flavour and colour.",
+      "The essential finish after baklava: the strong tea balances the syrup."
+     ]
+    },
+    "fr": {
+     "title": "Çay, thé turc",
+     "intro": "Thé rouge rubis préparé dans la double théière et servi dans de petits verres tulipe.",
+     "ing": [
+      "thé noir turc en vrac (ou Ceylan corsé)",
+      "eau",
+      "sucre en morceaux"
+     ],
+     "steps": [
+      "Porte 1 litre d'eau à ébullition dans la bouilloire du bas du çaydanlık ; mets le thé sec dans la théière du haut pour le chauffer.",
+      "Verse environ 200 ml d'eau bouillante sur le thé, remplis à nouveau la bouilloire du bas et replace la théière dessus.",
+      "Laisse infuser à feu minimum 15 minutes, jusqu'à ce que les feuilles tombent au fond.",
+      "Verse un tiers de verre tulipe de thé pour un thé fort, moins pour un léger, et complète avec l'eau chaude du bas.",
+      "Sers brûlant avec les sucres à part, sans lait, et ressers dès que les verres sont vides."
+     ],
+     "labels": [
+      "Eau",
+      "",
+      "Infusion",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sans çaydanlık : pose une petite théière sur une casserole d'eau bouillante.",
+      "Le thé de Rize des épiceries turques a le goût plein et la bonne couleur.",
+      "Le final obligé après la baklava : le thé corsé équilibre le sirop."
+     ]
+    },
+    "es": {
+     "title": "Çay, té turco",
+     "intro": "Té rojo rubí hecho en la tetera doble y servido en vasitos de tulipa.",
+     "ing": [
+      "té negro turco a granel (o Ceilán fuerte)",
+      "agua",
+      "terrones de azúcar"
+     ],
+     "steps": [
+      "Lleva a ebullición 1 litro de agua en la tetera de abajo del çaydanlık; pon el té seco en la de arriba para que se caliente.",
+      "Vierte unos 200 ml de agua hirviendo sobre el té, rellena la tetera de abajo y vuelve a colocar la de arriba.",
+      "Deja infusionar a fuego mínimo 15 minutos, hasta que las hojas se depositen en el fondo.",
+      "Llena un tercio del vaso de tulipa con té para un té fuerte, menos para uno suave, y completa con el agua caliente de abajo.",
+      "Sírvelo muy caliente con los terrones aparte, sin leche, y rellena los vasos en cuanto se vacíen."
+     ],
+     "labels": [
+      "Agua",
+      "",
+      "Infusión",
+      "",
+      ""
+     ],
+     "tips": [
+      "¿Sin çaydanlık? Pon una tetera pequeña sobre un cazo de agua hirviendo.",
+      "El té de Rize de las tiendas turcas tiene el sabor pleno y el color justo.",
+      "Es el final obligado tras la baklava: el té fuerte equilibra el almíbar."
+     ]
+    },
+    "de": {
+     "title": "Çay, türkischer Tee",
+     "intro": "Rubinroter Tee aus der Doppelkanne, serviert in kleinen Tulpengläsern.",
+     "ing": [
+      "türkischer Schwarztee, lose (oder kräftiger Ceylon)",
+      "Wasser",
+      "Zuckerwürfel"
+     ],
+     "steps": [
+      "Bring 1 Liter Wasser im unteren Kessel des Çaydanlık zum Kochen; gib den trockenen Tee in die obere Kanne zum Vorwärmen.",
+      "Gieß etwa 200 ml kochendes Wasser über den Tee, füll den unteren Kessel nach und setz die Kanne wieder obenauf.",
+      "Lass ihn bei kleinster Hitze 15 Minuten ziehen, bis die Blätter auf den Boden sinken.",
+      "Füll ein Tulpenglas zu einem Drittel mit Tee für starken, weniger für milden Tee, und gieß mit heißem Wasser von unten auf.",
+      "Serviere ihn heiß mit Zuckerwürfeln extra, ohne Milch, und schenk nach, sobald die Gläser leer sind."
+     ],
+     "labels": [
+      "Wasser",
+      "",
+      "Ziehen",
+      "",
+      ""
+     ],
+     "tips": [
+      "Kein Çaydanlık? Stell eine kleine Teekanne auf einen Topf mit kochendem Wasser.",
+      "Rize-Tee aus dem türkischen Laden hat das volle Aroma und die richtige Farbe.",
+      "Der Pflichtabschluss nach Baklava: Der kräftige Tee gleicht den Sirup aus."
+     ]
+    }
+   }
+  }
+ ]
+}

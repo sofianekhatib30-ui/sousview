@@ -1,0 +1,5377 @@
+{
+ "group": "W2",
+ "recipes": [
+  {
+   "id": "bo-kho",
+   "cat": "unici",
+   "sub": "pentola",
+   "servings": 4,
+   "minutes": 175,
+   "diff": 2,
+   "kcal": 540,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "beef-stew-meat"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "lemongrass"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "shallots"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "five-spice-powder"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 2,
+     "u": "tsp",
+     "k": "sweet-paprika"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "tomato-paste"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "star-anise"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cinnamon-sticks"
+    },
+    {
+     "q": 1000,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "carrots"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "baguettes"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "limes"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1800
+    },
+    {
+     "timer": 480
+    },
+    {},
+    {
+     "timer": 5400,
+     "alt": {
+      "pressure": {
+       "timer": 1800
+      }
+     }
+    },
+    {
+     "timer": 1800,
+     "alt": {
+      "pressure": {
+       "timer": 900
+      }
+     }
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Bò kho, spezzatino alla citronella",
+     "intro": "Manzo stufato con citronella, anice stellato e carote, da intingere col pane caldo.",
+     "ing": [
+      "polpa di manzo da stufato (cappello del prete o muscolo)",
+      "gambi di citronella",
+      "spicchi d'aglio",
+      "scalogni",
+      "zenzero fresco",
+      "cinque spezie cinesi",
+      "salsa di pesce",
+      "zucchero",
+      "paprika dolce",
+      "concentrato di pomodoro",
+      "olio di semi",
+      "anice stellato",
+      "stecca di cannella",
+      "acqua",
+      "carote",
+      "pepe nero",
+      "baguette piccole",
+      "coriandolo fresco",
+      "lime"
+     ],
+     "steps": [
+      "Trita fini aglio, zenzero e 1 gambo di citronella. Schiaccia gli altri 2 gambi col dorso del coltello e tagliali a tronchetti.",
+      "Taglia il manzo a cubi di 4 cm, mescolalo con il trito, cinque spezie, zucchero e metà salsa di pesce e lascia marinare 30 minuti.",
+      "In una pentola dal fondo spesso scalda l'olio con scalogni tritati e paprika, poi rosola il manzo a fuoco vivo per 8 minuti.",
+      "Unisci il concentrato e mescola 1 minuto, poi aggiungi anice, cannella, citronella e l'acqua. Porta a bollore e schiuma.",
+      "Copri e cuoci a fuoco basso per 90 minuti, mescolando ogni tanto, finché la carne è quasi tenera.",
+      "Aggiungi le carote a pezzi grossi e il resto della salsa di pesce e cuoci scoperto 30 minuti, finché il sugo si addensa.",
+      "Togli spezie e citronella e aggiusta di salsa di pesce, zucchero e pepe. La carne deve sfaldarsi sotto il cucchiaio.",
+      "Servi nelle ciotole con coriandolo e spicchi di lime, e con le baguette calde per fare la scarpetta."
+     ],
+     "labels": [
+      "",
+      "Marinatura",
+      "Rosolatura",
+      "",
+      "Stufato",
+      "Carote",
+      "",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Chiudi la pentola a pressione e cuoci 30 minuti dal fischio, poi sfiata e apri."
+      },
+      "5": {
+       "pressure": "Aggiungi le carote e il resto della salsa di pesce e cuoci scoperto 15 minuti, finché sono tenere."
+      }
+     },
+     "tips": [
+      "Il rosso vero viene dai semi di annatto dei negozi asiatici: soffriggine 1 cucchiaino al posto della paprika.",
+      "Nel Sud del Vietnam metà dell'acqua è acqua di cocco: il sugo viene più dolce e rotondo.",
+      "Il giorno dopo è più buono; avanzato, servilo sui noodles di riso al posto del pane."
+     ]
+    },
+    "en": {
+     "title": "Bò kho, lemongrass beef stew",
+     "intro": "Beef braised with lemongrass, star anise and carrots, for dunking warm bread.",
+     "ing": [
+      "beef chuck or shin",
+      "lemongrass stalks",
+      "garlic cloves",
+      "shallots",
+      "fresh ginger",
+      "Chinese five-spice powder",
+      "fish sauce",
+      "sugar",
+      "sweet paprika",
+      "tomato paste",
+      "neutral oil",
+      "star anise pods",
+      "cinnamon stick",
+      "water",
+      "carrots",
+      "black pepper",
+      "small baguettes",
+      "fresh cilantro",
+      "lime"
+     ],
+     "steps": [
+      "Finely chop the garlic, ginger and 1 lemongrass stalk. Bruise the other 2 stalks with the back of a knife and cut into chunks.",
+      "Cut the beef into 4 cm cubes, mix with the chopped aromatics, five-spice, sugar and half the fish sauce and marinate 30 minutes.",
+      "In a heavy pot heat the oil with the chopped shallots and paprika, then brown the beef over high heat for 8 minutes.",
+      "Stir in the tomato paste for 1 minute, then add the star anise, cinnamon, lemongrass and water. Bring to a boil and skim.",
+      "Cover and simmer gently for 90 minutes, stirring now and then, until the beef is almost tender.",
+      "Add the carrots in large chunks and the rest of the fish sauce and cook uncovered 30 minutes, until the sauce thickens.",
+      "Remove the spices and lemongrass and season with fish sauce, sugar and pepper. The beef should fall apart under a spoon.",
+      "Serve in bowls with cilantro and lime wedges, and warm baguettes for mopping up the sauce."
+     ],
+     "labels": [
+      "",
+      "Marinate",
+      "Brown",
+      "",
+      "Braise",
+      "Carrots",
+      "",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Lock the pressure cooker lid and cook 30 minutes from when it hisses, then release the pressure."
+      },
+      "5": {
+       "pressure": "Add the carrots and the rest of the fish sauce and simmer uncovered for 15 minutes, until tender."
+      }
+     },
+     "tips": [
+      "The real red comes from annatto seeds, sold in Asian shops: fry 1 tsp in the oil instead of the paprika.",
+      "In southern Vietnam half the water is coconut water, for a sweeter, rounder sauce.",
+      "It's even better the next day; serve leftovers over rice noodles instead of bread."
+     ]
+    },
+    "fr": {
+     "title": "Bò kho, bœuf mijoté à la citronnelle",
+     "intro": "Bœuf mijoté à la citronnelle, à la badiane et aux carottes, à saucer avec du pain chaud.",
+     "ing": [
+      "bœuf à braiser (paleron ou jarret)",
+      "tiges de citronnelle",
+      "gousses d'ail",
+      "échalotes",
+      "gingembre frais",
+      "cinq-épices",
+      "nuoc-mâm",
+      "sucre",
+      "paprika doux",
+      "concentré de tomate",
+      "huile neutre",
+      "étoiles de badiane",
+      "bâton de cannelle",
+      "eau",
+      "carottes",
+      "poivre noir",
+      "petites baguettes",
+      "coriandre fraîche",
+      "citron vert"
+     ],
+     "steps": [
+      "Hache finement l'ail, le gingembre et 1 tige de citronnelle. Écrase les 2 autres tiges au plat du couteau et coupe-les en tronçons.",
+      "Coupe le bœuf en cubes de 4 cm, mélange-le avec le hachis, les cinq-épices, le sucre et la moitié du nuoc-mâm, et laisse mariner 30 minutes.",
+      "Dans une cocotte à fond épais, chauffe l'huile avec les échalotes hachées et le paprika, puis saisis le bœuf à feu vif 8 minutes.",
+      "Ajoute le concentré et remue 1 minute, puis la badiane, la cannelle, la citronnelle et l'eau. Porte à ébullition et écume.",
+      "Couvre et laisse mijoter à feu doux 90 minutes en remuant de temps en temps, jusqu'à ce que la viande soit presque tendre.",
+      "Ajoute les carottes en gros morceaux et le reste du nuoc-mâm, et cuis à découvert 30 minutes, jusqu'à ce que la sauce épaississe.",
+      "Retire les épices et la citronnelle, rectifie avec nuoc-mâm, sucre et poivre. La viande doit s'effilocher à la cuillère.",
+      "Sers dans des bols avec coriandre et quartiers de citron vert, et des baguettes chaudes pour saucer."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "Saisir",
+      "",
+      "Mijotage",
+      "Carottes",
+      "",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Ferme l'autocuiseur et cuis 30 minutes à partir du sifflement, puis laisse échapper la vapeur."
+      },
+      "5": {
+       "pressure": "Ajoute les carottes et le reste du nuoc-mâm et cuis à découvert 15 minutes, jusqu'à ce qu'elles soient tendres."
+      }
+     },
+     "tips": [
+      "Le vrai rouge vient du rocou (épiceries asiatiques) : fais revenir 1 c. à café de graines à la place du paprika.",
+      "Dans le sud du Vietnam, la moitié de l'eau est de l'eau de coco : la sauce est plus douce et ronde.",
+      "Il est meilleur le lendemain ; sers les restes sur des nouilles de riz à la place du pain."
+     ]
+    },
+    "es": {
+     "title": "Bò kho, guiso vietnamita de ternera",
+     "intro": "Ternera guisada con hierba limón, anís estrellado y zanahoria, para mojar pan caliente.",
+     "ing": [
+      "carne de ternera para guisar (aguja o morcillo)",
+      "tallos de hierba limón",
+      "dientes de ajo",
+      "chalotas",
+      "jengibre fresco",
+      "cinco especias chinas",
+      "salsa de pescado",
+      "azúcar",
+      "pimentón dulce",
+      "concentrado de tomate",
+      "aceite de girasol",
+      "estrellas de anís",
+      "rama de canela",
+      "agua",
+      "zanahorias",
+      "pimienta negra",
+      "baguettes pequeñas",
+      "cilantro fresco",
+      "lima"
+     ],
+     "steps": [
+      "Pica fino el ajo, el jengibre y 1 tallo de hierba limón. Aplasta los otros 2 tallos con el cuchillo y córtalos en trozos.",
+      "Corta la ternera en dados de 4 cm, mézclala con el picado, cinco especias, azúcar y media salsa de pescado, y marina 30 minutos.",
+      "En una olla de fondo grueso calienta el aceite con las chalotas picadas y el pimentón, y dora la ternera a fuego vivo 8 minutos.",
+      "Añade el concentrado y remueve 1 minuto; luego el anís, la canela, la hierba limón y el agua. Lleva a ebullición y espuma.",
+      "Tapa y cuece a fuego lento 90 minutos, removiendo de vez en cuando, hasta que la carne esté casi tierna.",
+      "Añade las zanahorias en trozos grandes y el resto de la salsa de pescado y cuece destapado 30 minutos, hasta que espese.",
+      "Retira las especias y la hierba limón y ajusta de salsa de pescado, azúcar y pimienta. La carne debe deshacerse con la cuchara.",
+      "Sirve en cuencos con cilantro y gajos de lima, y baguettes calientes para mojar en la salsa."
+     ],
+     "labels": [
+      "",
+      "Marinar",
+      "Dorar",
+      "",
+      "Guiso",
+      "Zanahorias",
+      "",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Cierra la olla a presión y cuece 30 minutos desde que suba la válvula; luego deja salir el vapor."
+      },
+      "5": {
+       "pressure": "Añade las zanahorias y el resto de la salsa de pescado y cuece destapado 15 minutos, hasta que estén tiernas."
+      }
+     },
+     "tips": [
+      "El rojo de verdad sale del achiote de las tiendas asiáticas: sofríe 1 cucharadita en vez del pimentón.",
+      "En el sur de Vietnam, la mitad del agua es agua de coco: la salsa queda más dulce y redonda.",
+      "Al día siguiente está aún mejor; lo que sobre, sírvelo sobre fideos de arroz en vez de pan."
+     ]
+    },
+    "de": {
+     "title": "Bò kho, Rindereintopf mit Zitronengras",
+     "intro": "Rind, geschmort mit Zitronengras, Sternanis und Karotten, zum Tunken mit warmem Brot.",
+     "ing": [
+      "Schmorfleisch vom Rind (Schulter oder Wade)",
+      "Stängel Zitronengras",
+      "Knoblauchzehen",
+      "Schalotten",
+      "frischer Ingwer",
+      "Fünf-Gewürze-Pulver",
+      "Fischsauce",
+      "Zucker",
+      "edelsüßes Paprikapulver",
+      "Tomatenmark",
+      "neutrales Öl",
+      "Sternanis",
+      "Zimtstange",
+      "Wasser",
+      "Karotten",
+      "schwarzer Pfeffer",
+      "kleine Baguettes",
+      "frischer Koriander",
+      "Limette"
+     ],
+     "steps": [
+      "Hack Knoblauch, Ingwer und 1 Stängel Zitronengras fein. Klopf die anderen 2 Stängel mit dem Messerrücken an und schneide sie in Stücke.",
+      "Würfle das Rind (4 cm), vermisch es mit dem Gehackten, Fünf-Gewürze-Pulver, Zucker und halber Fischsauce und lass es 30 Minuten ziehen.",
+      "Erhitz das Öl mit gehackten Schalotten und Paprika in einem schweren Topf und brate das Rind bei starker Hitze 8 Minuten an.",
+      "Rühr das Tomatenmark 1 Minute unter, gib Sternanis, Zimt, Zitronengras und Wasser dazu, koch auf und schöpf den Schaum ab.",
+      "Deck den Topf zu und lass alles 90 Minuten leise köcheln, ab und zu umrühren, bis das Fleisch fast weich ist.",
+      "Gib die Karotten in groben Stücken und den Rest Fischsauce dazu und koch alles offen 30 Minuten, bis die Sauce eindickt.",
+      "Nimm Gewürze und Zitronengras heraus und schmeck mit Fischsauce, Zucker und Pfeffer ab. Das Fleisch soll unter dem Löffel zerfallen.",
+      "Serviere den Eintopf in Schalen mit Koriander und Limettenspalten und mit warmem Baguette zum Tunken."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "Anbraten",
+      "",
+      "Schmoren",
+      "Karotten",
+      "",
+      ""
+     ],
+     "alt": {
+      "4": {
+       "pressure": "Verschließ den Schnellkochtopf, gare alles 30 Minuten ab dem Zischen und lass dann den Dampf ab."
+      },
+      "5": {
+       "pressure": "Gib Karotten und restliche Fischsauce dazu und koch alles offen 15 Minuten, bis sie weich sind."
+      }
+     },
+     "tips": [
+      "Das echte Rot kommt von Annattosamen aus dem Asialaden: Brate 1 TL davon statt des Paprikas im Öl an.",
+      "Im Süden Vietnams ist die Hälfte des Wassers Kokoswasser: Die Sauce wird süßer und runder.",
+      "Am nächsten Tag schmeckt er noch besser; Reste servierst du über Reisnudeln statt mit Brot."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "methods": [
+    "pot",
+    "pressure"
+   ]
+  },
+  {
+   "id": "goi-cuon-gamberi",
+   "cat": "antipasti",
+   "sub": "finger",
+   "servings": 4,
+   "minutes": 50,
+   "diff": 2,
+   "kcal": 330,
+   "diet": [
+    "lf"
+   ],
+   "tags": [
+    "party",
+    "healthy"
+   ],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 12,
+     "u": "",
+     "k": "rice-paper"
+    },
+    {
+     "q": 12,
+     "u": "",
+     "k": "shrimp"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "pork-belly"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "rice-vermicelli"
+    },
+    {
+     "q": 8,
+     "u": "",
+     "k": "lettuce"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "cucumbers"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "mint"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "chives"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "hoisin-sauce"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "peanut-butter"
+    },
+    {
+     "q": 80,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "roasted-peanuts"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1500,
+     "bg": true
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 240
+    },
+    {},
+    {
+     "timer": 120
+    },
+    {},
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Gỏi cuốn, involtini freschi di riso",
+     "intro": "Gamberi, maiale ed erbe fresche nella carta di riso, con una salsa densa alle arachidi.",
+     "ing": [
+      "fogli di carta di riso (22 cm)",
+      "gamberi crudi grandi",
+      "pancetta fresca di maiale",
+      "vermicelli di riso",
+      "foglie di lattuga",
+      "cetriolo",
+      "menta fresca",
+      "coriandolo fresco",
+      "erba cipollina",
+      "salsa hoisin",
+      "burro di arachidi",
+      "acqua",
+      "spicchio d'aglio",
+      "olio di semi",
+      "arachidi tostate",
+      "peperoncino fresco",
+      "sale"
+     ],
+     "steps": [
+      "Lessa la pancetta in acqua salata per 25 minuti, finché è cotta e non più rosa dentro. Falla raffreddare e affettala sottile.",
+      "Intanto cuoci i gamberi in acqua bollente per 2 minuti, finché sono rosa e arricciati. Sgusciali e tagliali a metà per il lungo.",
+      "Cuoci i vermicelli di riso per 4 minuti (o come da confezione), passali sotto l'acqua fredda e scolali bene.",
+      "Taglia il cetriolo a bastoncini, lava e asciuga lattuga ed erbe. Metti tutto in fila sul piano di lavoro.",
+      "Salsa: soffriggi l'aglio tritato nell'olio per 30 secondi, aggiungi hoisin, burro di arachidi e acqua e cuoci 2 minuti, finché è liscia.",
+      "Immergi un foglio di carta di riso in acqua tiepida per 2 o 3 secondi e stendilo su un tagliere umido: si ammorbidisce da solo.",
+      "Sul terzo inferiore metti lattuga, un po' di vermicelli, cetriolo, maiale ed erbe; al centro 3 mezzi gamberi col lato rosso in giù.",
+      "Ripiega i lati e arrotola stretto, infilando un filo di erba cipollina che spunti da un lato. Continua con gli altri fogli.",
+      "Servi subito con la salsa nelle ciotoline, cosparsa di arachidi tritate e peperoncino a rondelle."
+     ],
+     "labels": [
+      "Maiale",
+      "Gamberi",
+      "Vermicelli",
+      "",
+      "Salsa",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Bagna la carta di riso solo pochi secondi: finisce di ammorbidirsi sul tagliere, se è già molle si strappa.",
+      "Servi il nước chấm: 3 cucchiai di salsa di pesce, 3 di zucchero, 3 di lime, 9 d'acqua, aglio e peperoncino.",
+      "Si preparano fino a 2 ore prima, coperti con un canovaccio umido. In frigo la carta di riso si indurisce."
+     ]
+    },
+    "en": {
+     "title": "Gỏi cuốn, fresh spring rolls",
+     "intro": "Prawns, pork and fresh herbs wrapped in rice paper, with a thick peanut dipping sauce.",
+     "ing": [
+      "rice paper sheets (22 cm)",
+      "large raw prawns",
+      "pork belly",
+      "rice vermicelli",
+      "lettuce leaves",
+      "cucumber",
+      "fresh mint",
+      "fresh cilantro",
+      "chives",
+      "hoisin sauce",
+      "peanut butter",
+      "water",
+      "garlic clove",
+      "neutral oil",
+      "roasted peanuts",
+      "fresh chili",
+      "salt"
+     ],
+     "steps": [
+      "Simmer the pork belly in salted water for 25 minutes, until cooked through. Let it cool, then slice thinly.",
+      "Meanwhile boil the prawns for 2 minutes, until pink and curled. Peel them and halve lengthwise.",
+      "Cook the rice vermicelli for 4 minutes (or as the pack says), rinse under cold water and drain well.",
+      "Cut the cucumber into sticks, wash and dry the lettuce and herbs. Line everything up on the counter.",
+      "Sauce: fry the minced garlic in the oil for 30 seconds, add hoisin, peanut butter and water and simmer 2 minutes, until smooth.",
+      "Dip a rice paper sheet in warm water for 2 or 3 seconds and lay it on a damp board: it softens as you fill it.",
+      "On the lower third lay lettuce, a little vermicelli, cucumber, pork and herbs; put 3 prawn halves in the middle, red side down.",
+      "Fold in the sides and roll up tightly, tucking in a chive stalk so it sticks out of one end. Repeat with the other sheets.",
+      "Serve right away with the sauce in small bowls, topped with chopped peanuts and sliced chili."
+     ],
+     "labels": [
+      "Pork",
+      "Prawns",
+      "Vermicelli",
+      "",
+      "Sauce",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Only wet the rice paper for a few seconds: it finishes softening on the board, while a soggy one tears.",
+      "Serve nước chấm: 3 tbsp fish sauce, 3 sugar, 3 lime juice, 9 water, plus minced garlic and chili.",
+      "Make them up to 2 hours ahead and cover with a damp towel. In the fridge the rice paper turns hard."
+     ]
+    },
+    "fr": {
+     "title": "Gỏi cuốn, rouleaux de printemps",
+     "intro": "Crevettes, porc et herbes fraîches roulés en galette de riz, avec une sauce cacahuète.",
+     "ing": [
+      "galettes de riz (22 cm)",
+      "grosses crevettes crues",
+      "poitrine de porc fraîche",
+      "vermicelles de riz",
+      "feuilles de laitue",
+      "concombre",
+      "menthe fraîche",
+      "coriandre fraîche",
+      "ciboulette",
+      "sauce hoisin",
+      "beurre de cacahuète",
+      "eau",
+      "gousse d'ail",
+      "huile neutre",
+      "cacahuètes grillées",
+      "piment frais",
+      "sel"
+     ],
+     "steps": [
+      "Fais cuire la poitrine de porc 25 minutes dans l'eau salée, jusqu'à ce qu'elle soit cuite à cœur. Laisse refroidir et tranche finement.",
+      "Pendant ce temps, plonge les crevettes 2 minutes dans l'eau bouillante, jusqu'à ce qu'elles soient roses. Décortique-les et coupe-les en deux.",
+      "Cuis les vermicelles de riz 4 minutes (ou selon le paquet), rince-les à l'eau froide et égoutte-les bien.",
+      "Coupe le concombre en bâtonnets, lave et sèche la laitue et les herbes. Aligne tout sur le plan de travail.",
+      "Sauce : fais revenir l'ail haché 30 secondes dans l'huile, ajoute hoisin, beurre de cacahuète et eau, et cuis 2 minutes jusqu'à ce qu'elle soit lisse.",
+      "Trempe une galette de riz 2 ou 3 secondes dans l'eau tiède et pose-la sur une planche humide : elle ramollit toute seule.",
+      "Sur le tiers inférieur, dispose laitue, un peu de vermicelles, concombre, porc et herbes ; au centre, 3 demi-crevettes côté rose dessous.",
+      "Rabats les côtés et roule bien serré en glissant un brin de ciboulette qui dépasse. Continue avec les autres galettes.",
+      "Sers aussitôt avec la sauce en coupelles, parsemée de cacahuètes concassées et de piment émincé."
+     ],
+     "labels": [
+      "Porc",
+      "Crevettes",
+      "Vermicelles",
+      "",
+      "Sauce",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ne mouille la galette que quelques secondes : elle finit de ramollir sur la planche, trop molle elle se déchire.",
+      "Sers du nước chấm : 3 c. à soupe de nuoc-mâm, 3 de sucre, 3 de citron vert, 9 d'eau, ail et piment.",
+      "Prépare-les jusqu'à 2 heures avant, sous un torchon humide. Au frigo, la galette durcit."
+     ]
+    },
+    "es": {
+     "title": "Gỏi cuốn, rollitos frescos de arroz",
+     "intro": "Gambas, cerdo y hierbas frescas en papel de arroz, con una salsa espesa de cacahuete.",
+     "ing": [
+      "hojas de papel de arroz (22 cm)",
+      "gambas crudas grandes",
+      "panceta fresca de cerdo",
+      "fideos finos de arroz",
+      "hojas de lechuga",
+      "pepino",
+      "hierbabuena fresca",
+      "cilantro fresco",
+      "cebollino",
+      "salsa hoisin",
+      "crema de cacahuete",
+      "agua",
+      "diente de ajo",
+      "aceite de girasol",
+      "cacahuetes tostados",
+      "guindilla fresca",
+      "sal"
+     ],
+     "steps": [
+      "Cuece la panceta en agua con sal 25 minutos, hasta que esté hecha por dentro. Déjala enfriar y córtala en lonchas finas.",
+      "Mientras, cuece las gambas 2 minutos en agua hirviendo, hasta que estén rosadas. Pélalas y córtalas por la mitad a lo largo.",
+      "Cuece los fideos de arroz 4 minutos (o según el paquete), pásalos por agua fría y escúrrelos bien.",
+      "Corta el pepino en bastones, lava y seca la lechuga y las hierbas. Ponlo todo en fila sobre la encimera.",
+      "Salsa: sofríe el ajo picado 30 segundos en el aceite, añade hoisin, crema de cacahuete y agua y cuece 2 minutos, hasta que esté lisa.",
+      "Moja una hoja de papel de arroz 2 o 3 segundos en agua tibia y extiéndela sobre una tabla húmeda: se ablanda sola.",
+      "En el tercio inferior pon lechuga, un poco de fideos, pepino, cerdo y hierbas; en el centro, 3 medias gambas con el lado rojo abajo.",
+      "Dobla los lados y enrolla bien apretado, metiendo un tallo de cebollino que asome por un extremo. Sigue con las demás hojas.",
+      "Sirve enseguida con la salsa en cuencos, cubierta de cacahuetes picados y guindilla en rodajas."
+     ],
+     "labels": [
+      "Cerdo",
+      "Gambas",
+      "Fideos",
+      "",
+      "Salsa",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Moja el papel de arroz solo unos segundos: termina de ablandarse en la tabla; si ya está blando, se rompe.",
+      "Sirve nước chấm: 3 cucharadas de salsa de pescado, 3 de azúcar, 3 de lima, 9 de agua, ajo y guindilla.",
+      "Puedes hacerlos hasta 2 horas antes, tapados con un paño húmedo. En la nevera el papel se endurece."
+     ]
+    },
+    "de": {
+     "title": "Gỏi cuốn, frische Sommerrollen",
+     "intro": "Garnelen, Schweinefleisch und frische Kräuter in Reispapier, mit dicker Erdnusssauce.",
+     "ing": [
+      "Reispapierblätter (22 cm)",
+      "große rohe Garnelen",
+      "frischer Schweinebauch",
+      "Reisvermicelli",
+      "Salatblätter",
+      "Gurke",
+      "frische Minze",
+      "frischer Koriander",
+      "Schnittlauch",
+      "Hoisinsauce",
+      "Erdnussbutter",
+      "Wasser",
+      "Knoblauchzehe",
+      "neutrales Öl",
+      "geröstete Erdnüsse",
+      "frische Chili",
+      "Salz"
+     ],
+     "steps": [
+      "Koch den Schweinebauch 25 Minuten in Salzwasser, bis er durchgegart ist. Lass ihn abkühlen und schneide ihn in dünne Scheiben.",
+      "Gar inzwischen die Garnelen 2 Minuten in kochendem Wasser, bis sie rosa sind. Schäl sie und halbiere sie der Länge nach.",
+      "Gar die Reisvermicelli 4 Minuten (oder nach Packung), spül sie kalt ab und lass sie gut abtropfen.",
+      "Schneide die Gurke in Stifte, wasch und trockne Salat und Kräuter. Leg alles griffbereit nebeneinander.",
+      "Sauce: Brate den gehackten Knoblauch 30 Sekunden im Öl an, gib Hoisin, Erdnussbutter und Wasser dazu und köchle 2 Minuten, bis sie glatt ist.",
+      "Tauch ein Reispapierblatt 2 bis 3 Sekunden in lauwarmes Wasser und leg es auf ein feuchtes Brett: Es wird von selbst weich.",
+      "Leg aufs untere Drittel Salat, etwas Vermicelli, Gurke, Schwein und Kräuter, in die Mitte 3 Garnelenhälften mit der roten Seite nach unten.",
+      "Schlag die Seiten ein und roll alles straff auf, mit einem Schnittlauchhalm, der an einem Ende herausschaut. Mach so mit allen weiter.",
+      "Serviere die Rollen sofort mit der Sauce in Schälchen, bestreut mit gehackten Erdnüssen und Chiliringen."
+     ],
+     "labels": [
+      "Schwein",
+      "Garnelen",
+      "Vermicelli",
+      "",
+      "Sauce",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Feuchte das Reispapier nur kurz an: Es wird auf dem Brett weich, ist es schon schlaff, reißt es.",
+      "Dazu Nước chấm: 3 EL Fischsauce, 3 Zucker, 3 Limettensaft, 9 Wasser, dazu Knoblauch und Chili.",
+      "Du kannst sie bis zu 2 Stunden vorher rollen, unter einem feuchten Tuch. Im Kühlschrank wird das Reispapier hart."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "leftover"
+    }
+   ]
+  },
+  {
+   "id": "banh-xeo",
+   "cat": "unici",
+   "sub": "street",
+   "servings": 4,
+   "minutes": 80,
+   "diff": 3,
+   "kcal": 560,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "party"
+   ],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 200,
+     "u": "g",
+     "k": "rice-flour"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "ground-turmeric"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "coconut-milk"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 250,
+     "u": "g",
+     "k": "pork-belly"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "shrimp"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "onions"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "bean-sprouts"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lettuce"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "mint"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "thai-basil"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 1800,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 120
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 180
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Bánh xèo, crêpe croccante alla curcuma",
+     "intro": "Crêpe di riso e cocco sottili e croccanti, ripiene di gamberi, maiale e germogli.",
+     "ing": [
+      "farina di riso",
+      "curcuma in polvere",
+      "latte di cocco",
+      "acqua fredda",
+      "sale",
+      "cipollotti",
+      "pancetta fresca di maiale a fettine",
+      "gamberi crudi sgusciati",
+      "cipolla",
+      "germogli di soia",
+      "olio di semi",
+      "salsa di pesce",
+      "pepe nero",
+      "cespo di lattuga",
+      "menta fresca",
+      "basilico thai"
+     ],
+     "steps": [
+      "Sbatti farina di riso, curcuma, sale, latte di cocco e acqua: deve essere liquida come latte. Unisci il verde dei cipollotti e lascia riposare.",
+      "Intanto condisci il maiale con salsa di pesce e pepe, affetta la cipolla e lava germogli, lattuga ed erbe.",
+      "Per ogni bánh xèo scalda 1 cucchiaino d'olio in una padella antiaderente da 26 cm e rosola 2 minuti un po' di maiale, gamberi e cipolla.",
+      "Mescola la pastella e versane un mestolo girando la padella per velarla sottile: deve sfrigolare. Metti i germogli su metà e copri 2 minuti.",
+      "Scopri, versa un filo d'olio lungo il bordo e cuoci altri 3 minuti, finché è dorata e croccante e si stacca da sola.",
+      "Piegala a metà e falla scivolare sul piatto. Ripeti con il resto: servile man mano che sono pronte, perché si ammorbidiscono.",
+      "A tavola stacca un pezzo, avvolgilo in una foglia di lattuga con menta e basilico e intingilo nel nước chấm."
+     ],
+     "labels": [
+      "Riposo",
+      "",
+      "Ripieno",
+      "Coperto",
+      "Croccante",
+      "",
+      ""
+     ],
+     "tips": [
+      "Servi il nước chấm: 3 cucchiai di salsa di pesce, 3 di zucchero, 3 di lime, 9 d'acqua, aglio e peperoncino.",
+      "Padella bollente e pastella sottile: se è spessa resta molle. Come per le crêpe, la prima spesso non viene."
+     ]
+    },
+    "en": {
+     "title": "Bánh xèo, crispy turmeric crêpes",
+     "intro": "Thin, crackling rice and coconut crêpes filled with prawns, pork and bean sprouts.",
+     "ing": [
+      "rice flour",
+      "ground turmeric",
+      "coconut milk",
+      "cold water",
+      "salt",
+      "spring onions",
+      "thinly sliced pork belly",
+      "raw peeled prawns",
+      "onion",
+      "bean sprouts",
+      "neutral oil",
+      "fish sauce",
+      "black pepper",
+      "head of lettuce",
+      "fresh mint",
+      "Thai basil"
+     ],
+     "steps": [
+      "Whisk the rice flour, turmeric, salt, coconut milk and water to a batter as thin as milk. Add the sliced spring onion greens and let rest.",
+      "Meanwhile season the pork with fish sauce and pepper, slice the onion and wash the bean sprouts, lettuce and herbs.",
+      "For each bánh xèo heat 1 tsp oil in a 26 cm nonstick pan and fry a little pork, a few prawns and some onion for 2 minutes.",
+      "Stir the batter and pour in a ladleful, swirling to coat the pan thinly: it should sizzle. Add sprouts on one half and cover 2 minutes.",
+      "Uncover, drizzle a little oil around the edge and cook 3 more minutes, until golden, crisp and loose from the pan.",
+      "Fold it in half and slide it onto a plate. Repeat with the rest and serve each as it's ready, since they soften as they sit.",
+      "At the table, tear off a piece, wrap it in a lettuce leaf with mint and basil and dip it in nước chấm."
+     ],
+     "labels": [
+      "Rest",
+      "",
+      "Filling",
+      "Covered",
+      "Crisp",
+      "",
+      ""
+     ],
+     "tips": [
+      "Serve nước chấm: 3 tbsp fish sauce, 3 sugar, 3 lime juice, 9 water, plus minced garlic and chili.",
+      "Very hot pan, thin batter: a thick layer stays soft. As with crêpes, the first one often fails."
+     ]
+    },
+    "fr": {
+     "title": "Bánh xèo, crêpes croustillantes",
+     "intro": "Crêpes fines et croustillantes de riz et coco, aux crevettes, porc et pousses de soja.",
+     "ing": [
+      "farine de riz",
+      "curcuma en poudre",
+      "lait de coco",
+      "eau froide",
+      "sel",
+      "oignons nouveaux",
+      "poitrine de porc en fines tranches",
+      "crevettes crues décortiquées",
+      "oignon",
+      "pousses de soja",
+      "huile neutre",
+      "nuoc-mâm",
+      "poivre noir",
+      "laitue",
+      "menthe fraîche",
+      "basilic thaï"
+     ],
+     "steps": [
+      "Fouette farine de riz, curcuma, sel, lait de coco et eau : la pâte doit être fluide comme du lait. Ajoute le vert des oignons et laisse reposer.",
+      "Pendant ce temps, assaisonne le porc de nuoc-mâm et de poivre, émince l'oignon et lave pousses de soja, laitue et herbes.",
+      "Pour chaque bánh xèo, chauffe 1 c. à café d'huile dans une poêle antiadhésive de 26 cm et fais revenir 2 minutes un peu de porc, crevettes et oignon.",
+      "Remue la pâte, verses-en une louche en inclinant la poêle pour une couche fine : elle doit grésiller. Pousses sur une moitié, couvre 2 minutes.",
+      "Découvre, verse un filet d'huile sur le bord et cuis encore 3 minutes, jusqu'à ce qu'elle soit dorée, croustillante et se décolle.",
+      "Plie-la en deux et fais-la glisser sur l'assiette. Recommence et sers-les au fur et à mesure, car elles ramollissent vite.",
+      "À table, détache un morceau, enroule-le dans une feuille de laitue avec menthe et basilic et trempe-le dans le nước chấm."
+     ],
+     "labels": [
+      "Repos",
+      "",
+      "Garniture",
+      "Couvert",
+      "Croustillant",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sers du nước chấm : 3 c. à soupe de nuoc-mâm, 3 de sucre, 3 de citron vert, 9 d'eau, ail et piment.",
+      "Poêle très chaude et pâte fine : trop épaisse, elle reste molle. Comme pour les crêpes, la première rate souvent."
+     ]
+    },
+    "es": {
+     "title": "Bánh xèo, crepes crujientes de cúrcuma",
+     "intro": "Crepes finas de arroz y coco, crujientes, rellenas de gambas, cerdo y brotes de soja.",
+     "ing": [
+      "harina de arroz",
+      "cúrcuma molida",
+      "leche de coco",
+      "agua fría",
+      "sal",
+      "cebolletas",
+      "panceta fresca de cerdo en lonchas finas",
+      "gambas crudas peladas",
+      "cebolla",
+      "brotes de soja",
+      "aceite de girasol",
+      "salsa de pescado",
+      "pimienta negra",
+      "lechuga",
+      "hierbabuena fresca",
+      "albahaca tailandesa"
+     ],
+     "steps": [
+      "Bate harina de arroz, cúrcuma, sal, leche de coco y agua: debe quedar líquida como leche. Añade el verde de la cebolleta y deja reposar.",
+      "Mientras, adoba el cerdo con salsa de pescado y pimienta, corta la cebolla en juliana y lava los brotes, la lechuga y las hierbas.",
+      "Para cada bánh xèo calienta 1 cucharadita de aceite en una sartén antiadherente de 26 cm y saltea 2 minutos un poco de cerdo, gambas y cebolla.",
+      "Remueve la masa y vierte un cucharón girando la sartén para cubrirla fina: debe chisporrotear. Pon brotes en una mitad y tapa 2 minutos.",
+      "Destapa, echa un hilo de aceite por el borde y cuece 3 minutos más, hasta que esté dorada, crujiente y se despegue sola.",
+      "Dóblala por la mitad y pásala al plato. Repite con el resto y sírvelas según salen, porque se ablandan enseguida.",
+      "En la mesa, corta un trozo, envuélvelo en una hoja de lechuga con hierbabuena y albahaca y mójalo en nước chấm."
+     ],
+     "labels": [
+      "Reposo",
+      "",
+      "Relleno",
+      "Tapado",
+      "Crujiente",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sirve nước chấm: 3 cucharadas de salsa de pescado, 3 de azúcar, 3 de lima, 9 de agua, ajo y guindilla.",
+      "Sartén muy caliente y masa fina: si es gruesa, queda blanda. Como con las crepes, la primera suele salir mal."
+     ]
+    },
+    "de": {
+     "title": "Bánh xèo, knusprige Kurkuma-Crêpes",
+     "intro": "Dünne, knusprige Reis-Kokos-Crêpes mit Garnelen, Schweinefleisch und Sojasprossen.",
+     "ing": [
+      "Reismehl",
+      "gemahlene Kurkuma",
+      "Kokosmilch",
+      "kaltes Wasser",
+      "Salz",
+      "Frühlingszwiebeln",
+      "dünn geschnittener Schweinebauch",
+      "rohe geschälte Garnelen",
+      "Zwiebel",
+      "Sojasprossen",
+      "neutrales Öl",
+      "Fischsauce",
+      "schwarzer Pfeffer",
+      "Kopfsalat",
+      "frische Minze",
+      "Thai-Basilikum"
+     ],
+     "steps": [
+      "Verquirl Reismehl, Kurkuma, Salz, Kokosmilch und Wasser zu einem Teig, flüssig wie Milch. Gib das Grün der Frühlingszwiebeln dazu und lass ihn ruhen.",
+      "Würz inzwischen das Schweinefleisch mit Fischsauce und Pfeffer, schneide die Zwiebel in Streifen und wasch Sprossen, Salat und Kräuter.",
+      "Erhitz für jede Bánh xèo 1 TL Öl in einer beschichteten 26-cm-Pfanne und brate etwas Schwein, Garnelen und Zwiebel 2 Minuten an.",
+      "Rühr den Teig um und gieß eine Kelle ein, dünn verteilt: Es muss zischen. Gib Sprossen auf eine Hälfte und deck 2 Minuten zu.",
+      "Nimm den Deckel ab, gieß etwas Öl am Rand entlang und back sie noch 3 Minuten, bis sie goldbraun und knusprig ist und sich löst.",
+      "Klapp sie zusammen und lass sie auf einen Teller gleiten. Wiederhole das und serviere jede sofort, denn sie werden schnell weich.",
+      "Reiß bei Tisch ein Stück ab, wickle es mit Minze und Basilikum in ein Salatblatt und tunk es in Nước chấm."
+     ],
+     "labels": [
+      "Ruhen",
+      "",
+      "Füllung",
+      "Zugedeckt",
+      "Knusprig",
+      "",
+      ""
+     ],
+     "tips": [
+      "Dazu Nước chấm: 3 EL Fischsauce, 3 Zucker, 3 Limettensaft, 9 Wasser, dazu Knoblauch und Chili.",
+      "Sehr heiße Pfanne, dünner Teig: Zu dick bleibt er weich. Wie bei Crêpes misslingt die erste oft."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "pair"
+    },
+    {
+     "k": "secret"
+    }
+   ]
+  },
+  {
+   "id": "ga-kho-gung",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 60,
+   "diff": 2,
+   "kcal": 390,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "chicken-thighs"
+    },
+    {
+     "q": 50,
+     "u": "g",
+     "k": "fresh-ginger"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "shallots"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "black-pepper"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "fresh-chilies"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 210
+    },
+    {},
+    {
+     "timer": 300
+    },
+    {
+     "timer": 900
+    },
+    {
+     "timer": 420
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Gà kho gừng, pollo allo zenzero",
+     "intro": "Pollo cotto nel caramello con salsa di pesce e tanto zenzero: lucido, salato e dolce.",
+     "ing": [
+      "sovracosce di pollo disossate",
+      "zenzero fresco",
+      "scalogni",
+      "spicchi d'aglio",
+      "salsa di pesce",
+      "zucchero",
+      "pepe nero macinato fresco",
+      "olio di semi",
+      "acqua",
+      "cipollotti",
+      "peperoncino fresco"
+     ],
+     "steps": [
+      "Taglia il pollo a bocconi, lo zenzero a fiammiferi e trita scalogni e aglio.",
+      "Mescola il pollo con salsa di pesce, 1 cucchiaio di zucchero, pepe e metà di aglio e scalogni e lascia marinare 20 minuti.",
+      "In un tegame scalda olio e il resto dello zucchero a fuoco medio finché diventa un caramello ambrato scuro, 3 o 4 minuti.",
+      "Butta subito zenzero, aglio e scalogni rimasti: sfrigolano. Mescola 30 secondi, attento agli schizzi.",
+      "Aggiungi il pollo con la marinata e giralo finché è ricoperto di caramello. Rosola 5 minuti a fuoco medio-alto.",
+      "Versa l'acqua, copri e cuoci a fuoco basso per 15 minuti.",
+      "Scopri e fai ridurre a fuoco vivo per 7 minuti, finché il sugo è denso e lucido e il pollo è cotto anche al centro.",
+      "Finisci con altro pepe, cipollotti a rondelle e peperoncino. Servi caldo con riso bianco."
+     ],
+     "labels": [
+      "",
+      "Marinatura",
+      "Caramello",
+      "",
+      "Rosolatura",
+      "Cottura",
+      "Glassa",
+      ""
+     ],
+     "tips": [
+      "Ferma il caramello quando è color tè scuro: chiaro sa solo di dolce, quasi nero diventa amaro.",
+      "Con riso bianco e verdure saltate all'aglio è la classica cena di casa vietnamita."
+     ]
+    },
+    "en": {
+     "title": "Gà kho gừng, caramelised ginger chicken",
+     "intro": "Chicken simmered in caramel with fish sauce and plenty of ginger: glossy, salty and sweet.",
+     "ing": [
+      "boneless chicken thighs",
+      "fresh ginger",
+      "shallots",
+      "garlic cloves",
+      "fish sauce",
+      "sugar",
+      "freshly ground black pepper",
+      "neutral oil",
+      "water",
+      "spring onions",
+      "fresh chili"
+     ],
+     "steps": [
+      "Cut the chicken into bite-sized pieces and the ginger into matchsticks, and chop the shallots and garlic.",
+      "Toss the chicken with the fish sauce, 1 tbsp sugar, the pepper and half the garlic and shallots and marinate 20 minutes.",
+      "In a wide pan heat the oil and the rest of the sugar over medium heat until it turns a deep amber caramel, 3 to 4 minutes.",
+      "Immediately add the ginger and remaining garlic and shallots: they will sizzle. Stir for 30 seconds, watching for spatters.",
+      "Add the chicken with its marinade and stir until coated in caramel. Brown for 5 minutes over medium-high heat.",
+      "Pour in the water, cover and simmer over low heat for 15 minutes.",
+      "Uncover and reduce over high heat for 7 minutes, until the sauce is sticky and glossy and the chicken is cooked through.",
+      "Finish with more pepper, sliced spring onions and chili. Serve hot with steamed rice."
+     ],
+     "labels": [
+      "",
+      "Marinate",
+      "Caramel",
+      "",
+      "Brown",
+      "Simmer",
+      "Glaze",
+      ""
+     ],
+     "tips": [
+      "Stop the caramel when it's the colour of strong tea: pale it's just sweet, near black it turns bitter.",
+      "With steamed rice and garlicky stir-fried greens it's a classic Vietnamese home dinner."
+     ]
+    },
+    "fr": {
+     "title": "Gà kho gừng, poulet caramélisé",
+     "intro": "Poulet mijoté dans un caramel au nuoc-mâm et beaucoup de gingembre : laqué, salé, sucré.",
+     "ing": [
+      "hauts de cuisse de poulet désossés",
+      "gingembre frais",
+      "échalotes",
+      "gousses d'ail",
+      "nuoc-mâm",
+      "sucre",
+      "poivre noir fraîchement moulu",
+      "huile neutre",
+      "eau",
+      "oignons nouveaux",
+      "piment frais"
+     ],
+     "steps": [
+      "Coupe le poulet en bouchées et le gingembre en allumettes, puis hache les échalotes et l'ail.",
+      "Mélange le poulet avec le nuoc-mâm, 1 c. à soupe de sucre, le poivre et la moitié de l'ail et des échalotes, et laisse mariner 20 minutes.",
+      "Dans une sauteuse, chauffe l'huile et le reste du sucre à feu moyen jusqu'à obtenir un caramel ambré foncé, 3 à 4 minutes.",
+      "Ajoute aussitôt le gingembre et le reste d'ail et d'échalotes : ça grésille. Remue 30 secondes en faisant attention aux projections.",
+      "Ajoute le poulet et sa marinade et remue pour bien l'enrober de caramel. Fais dorer 5 minutes à feu moyen-vif.",
+      "Verse l'eau, couvre et laisse mijoter à feu doux 15 minutes.",
+      "Découvre et fais réduire à feu vif 7 minutes, jusqu'à ce que la sauce soit sirupeuse et brillante et le poulet bien cuit.",
+      "Termine avec du poivre, les oignons nouveaux émincés et le piment. Sers chaud avec du riz blanc."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "Caramel",
+      "",
+      "Dorer",
+      "Mijoter",
+      "Laquer",
+      ""
+     ],
+     "tips": [
+      "Arrête le caramel quand il a la couleur d'un thé foncé : clair, il est juste sucré, presque noir, il devient amer.",
+      "Avec du riz blanc et des légumes sautés à l'ail, c'est le dîner familial vietnamien type."
+     ]
+    },
+    "es": {
+     "title": "Gà kho gừng, pollo al jengibre",
+     "intro": "Pollo en caramelo con salsa de pescado y mucho jengibre: brillante, salado y dulce.",
+     "ing": [
+      "contramuslos de pollo deshuesados",
+      "jengibre fresco",
+      "chalotas",
+      "dientes de ajo",
+      "salsa de pescado",
+      "azúcar",
+      "pimienta negra recién molida",
+      "aceite de girasol",
+      "agua",
+      "cebolletas",
+      "guindilla fresca"
+     ],
+     "steps": [
+      "Corta el pollo en bocados y el jengibre en bastoncitos, y pica las chalotas y el ajo.",
+      "Mezcla el pollo con la salsa de pescado, 1 cucharada de azúcar, la pimienta y la mitad del ajo y la chalota, y deja marinar 20 minutos.",
+      "En una cazuela calienta el aceite y el resto del azúcar a fuego medio hasta tener un caramelo ámbar oscuro, 3 o 4 minutos.",
+      "Echa enseguida el jengibre y el resto del ajo y la chalota: chisporrotean. Remueve 30 segundos con cuidado de no salpicarte.",
+      "Añade el pollo con la marinada y remueve hasta que se cubra de caramelo. Dóralo 5 minutos a fuego medio-alto.",
+      "Vierte el agua, tapa y cuece a fuego lento 15 minutos.",
+      "Destapa y reduce a fuego vivo 7 minutos, hasta que la salsa esté espesa y brillante y el pollo hecho por dentro.",
+      "Termina con más pimienta, cebolleta en rodajas y guindilla. Sirve caliente con arroz blanco."
+     ],
+     "labels": [
+      "",
+      "Marinar",
+      "Caramelo",
+      "",
+      "Dorar",
+      "Cocción",
+      "Glaseado",
+      ""
+     ],
+     "tips": [
+      "Para el caramelo cuando tenga color de té fuerte: claro solo endulza, casi negro amarga.",
+      "Con arroz blanco y verduras salteadas al ajo es la cena casera vietnamita de siempre."
+     ]
+    },
+    "de": {
+     "title": "Gà kho gừng, karamellisiertes Ingwerhuhn",
+     "intro": "Hähnchen im Karamell mit Fischsauce und viel Ingwer geschmort: glänzend, salzig und süß.",
+     "ing": [
+      "Hähnchenschenkel ohne Knochen",
+      "frischer Ingwer",
+      "Schalotten",
+      "Knoblauchzehen",
+      "Fischsauce",
+      "Zucker",
+      "frisch gemahlener schwarzer Pfeffer",
+      "neutrales Öl",
+      "Wasser",
+      "Frühlingszwiebeln",
+      "frische Chili"
+     ],
+     "steps": [
+      "Schneide das Hähnchen in mundgerechte Stücke und den Ingwer in feine Stifte, hack Schalotten und Knoblauch.",
+      "Misch das Hähnchen mit Fischsauce, 1 EL Zucker, Pfeffer und der Hälfte von Knoblauch und Schalotten und lass es 20 Minuten marinieren.",
+      "Erhitz in einer weiten Pfanne Öl und restlichen Zucker bei mittlerer Hitze, bis ein dunkel bernsteinfarbenes Karamell entsteht, 3 bis 4 Minuten.",
+      "Gib sofort Ingwer und den restlichen Knoblauch und Schalotten dazu: Es zischt. Rühr 30 Sekunden, Vorsicht vor Spritzern.",
+      "Gib das Hähnchen mit der Marinade dazu und wende es im Karamell. Brate es 5 Minuten bei mittlerer bis starker Hitze.",
+      "Gieß das Wasser an, deck zu und lass alles bei kleiner Hitze 15 Minuten köcheln.",
+      "Nimm den Deckel ab und lass alles bei starker Hitze 7 Minuten einkochen, bis die Sauce dick und glänzend und das Hähnchen durch ist.",
+      "Vollende es mit mehr Pfeffer, Frühlingszwiebelringen und Chili. Serviere es heiß mit weißem Reis."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "Karamell",
+      "",
+      "Anbraten",
+      "Köcheln",
+      "Glasieren",
+      ""
+     ],
+     "tips": [
+      "Stopp das Karamell, wenn es wie starker Tee aussieht: hell ist es nur süß, fast schwarz wird es bitter.",
+      "Mit weißem Reis und Knoblauchgemüse aus dem Wok ist es ein typisch vietnamesisches Abendessen."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "rau-muong-xao-toi"
+    }
+   ]
+  },
+  {
+   "id": "ca-kho-to-sgombro",
+   "cat": "secondi",
+   "sub": "pesce",
+   "servings": 4,
+   "minutes": 70,
+   "diff": 2,
+   "kcal": 380,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort",
+    "budget"
+   ],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 800,
+     "u": "g",
+     "k": "mackerel"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "shallots"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "black-pepper"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": 200,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 1200
+    },
+    {
+     "timer": 210
+    },
+    {},
+    {
+     "timer": 1800
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cá kho tộ, sgombro caramellato in coccio",
+     "intro": "Sgombro cotto piano nel caramello con salsa di pesce, finché il sugo è scuro e denso.",
+     "ing": [
+      "sgombro a tranci",
+      "salsa di pesce",
+      "zucchero",
+      "scalogni",
+      "spicchi d'aglio",
+      "pepe nero macinato fresco",
+      "peperoncini rossi freschi",
+      "acqua",
+      "olio di semi",
+      "cipollotti",
+      "sale"
+     ],
+     "steps": [
+      "Taglia lo sgombro a tranci di 4 cm, sciacquali in acqua salata e asciugali bene. Trita scalogni e aglio.",
+      "Marina il pesce con salsa di pesce, 1 cucchiaio di zucchero, pepe e metà del trito per 20 minuti, in frigo.",
+      "In un coccio o in un tegame piccolo dal fondo spesso scalda olio e il resto dello zucchero finché è un caramello ambrato scuro.",
+      "Aggiungi il trito rimasto e subito dopo i tranci in un solo strato, poi versa sopra la marinata.",
+      "Versa l'acqua fino a metà altezza, unisci i peperoncini e porta a bollore. Cuoci scoperto a fuoco minimo 30 minuti, bagnando il pesce.",
+      "Alza la fiamma per 5 minuti finché il sugo è denso e scuro, girando una volta i tranci con delicatezza.",
+      "Cospargi di cipollotti e pepe e porta in tavola nel coccio, con riso bianco caldo."
+     ],
+     "labels": [
+      "",
+      "Marinatura",
+      "Caramello",
+      "",
+      "Cottura",
+      "Riduzione",
+      ""
+     ],
+     "tips": [
+      "Non mescolare mai: inclina il coccio e bagna il pesce col sugo, così i tranci restano interi.",
+      "In Vietnam si fa spesso con pesce gatto o pangasio: vanno bene anche tranci di salmone.",
+      "Accompagna con cetriolo a fette e molto riso: il sugo salato è fatto per condirlo."
+     ]
+    },
+    "en": {
+     "title": "Cá kho tộ, caramelised clay-pot mackerel",
+     "intro": "Mackerel slowly cooked in caramel and fish sauce until the sauce is dark and sticky.",
+     "ing": [
+      "mackerel steaks",
+      "fish sauce",
+      "sugar",
+      "shallots",
+      "garlic cloves",
+      "freshly ground black pepper",
+      "fresh red chilies",
+      "water",
+      "neutral oil",
+      "spring onions",
+      "salt"
+     ],
+     "steps": [
+      "Cut the mackerel into 4 cm steaks, rinse in salted water and pat dry. Chop the shallots and garlic.",
+      "Marinate the fish with the fish sauce, 1 tbsp sugar, the pepper and half the chopped aromatics for 20 minutes in the fridge.",
+      "In a clay pot or small heavy pan heat the oil and remaining sugar until it becomes a deep amber caramel.",
+      "Add the rest of the aromatics and straight away the fish in a single layer, then pour the marinade over.",
+      "Add water to come halfway up, add the chilies and bring to a boil. Cook uncovered on the lowest heat for 30 minutes, basting the fish.",
+      "Turn up the heat for 5 minutes until the sauce is thick and dark, turning the steaks gently once.",
+      "Scatter with spring onions and pepper and bring the pot to the table with hot steamed rice."
+     ],
+     "labels": [
+      "",
+      "Marinate",
+      "Caramel",
+      "",
+      "Simmer",
+      "Reduce",
+      ""
+     ],
+     "tips": [
+      "Never stir: tilt the pot and spoon the sauce over the fish so the steaks stay whole.",
+      "In Vietnam it's often made with catfish: salmon steaks work well too.",
+      "Serve with sliced cucumber and plenty of rice: the salty sauce is meant to season it."
+     ]
+    },
+    "fr": {
+     "title": "Cá kho tộ, maquereau caramélisé",
+     "intro": "Maquereau cuit doucement dans un caramel au nuoc-mâm, en sauce sombre et nappante.",
+     "ing": [
+      "maquereau en tronçons",
+      "nuoc-mâm",
+      "sucre",
+      "échalotes",
+      "gousses d'ail",
+      "poivre noir fraîchement moulu",
+      "piments rouges frais",
+      "eau",
+      "huile neutre",
+      "oignons nouveaux",
+      "sel"
+     ],
+     "steps": [
+      "Coupe le maquereau en tronçons de 4 cm, rince-les à l'eau salée et sèche-les bien. Hache les échalotes et l'ail.",
+      "Fais mariner le poisson 20 minutes au frais avec le nuoc-mâm, 1 c. à soupe de sucre, le poivre et la moitié du hachis.",
+      "Dans un poêlon en terre ou une petite casserole à fond épais, chauffe l'huile et le reste du sucre jusqu'à un caramel ambré foncé.",
+      "Ajoute le reste du hachis puis aussitôt le poisson en une seule couche, et verse la marinade dessus.",
+      "Verse l'eau à mi-hauteur, ajoute les piments et porte à ébullition. Cuis à découvert à feu très doux 30 minutes en arrosant le poisson.",
+      "Monte le feu 5 minutes jusqu'à ce que la sauce soit épaisse et sombre, en retournant une fois les tronçons délicatement.",
+      "Parsème d'oignons nouveaux et de poivre et sers dans le poêlon, avec du riz blanc chaud."
+     ],
+     "labels": [
+      "",
+      "Marinade",
+      "Caramel",
+      "",
+      "Cuisson",
+      "Réduction",
+      ""
+     ],
+     "tips": [
+      "Ne remue jamais : incline le poêlon et arrose le poisson de sauce pour garder les tronçons entiers.",
+      "Au Vietnam, on le fait souvent avec du poisson-chat ou du pangasius : des darnes de saumon conviennent aussi.",
+      "Accompagne de concombre en tranches et de beaucoup de riz : la sauce salée est faite pour lui."
+     ]
+    },
+    "es": {
+     "title": "Cá kho tộ, caballa caramelizada",
+     "intro": "Caballa cocida despacio en caramelo y salsa de pescado, con un jugo oscuro y espeso.",
+     "ing": [
+      "caballa en rodajas",
+      "salsa de pescado",
+      "azúcar",
+      "chalotas",
+      "dientes de ajo",
+      "pimienta negra recién molida",
+      "guindillas rojas frescas",
+      "agua",
+      "aceite de girasol",
+      "cebolletas",
+      "sal"
+     ],
+     "steps": [
+      "Corta la caballa en rodajas de 4 cm, acláralas en agua con sal y sécalas bien. Pica las chalotas y el ajo.",
+      "Marina el pescado 20 minutos en la nevera con la salsa de pescado, 1 cucharada de azúcar, la pimienta y la mitad del picado.",
+      "En una cazuela de barro o un cazo pequeño de fondo grueso calienta el aceite y el resto del azúcar hasta un caramelo ámbar oscuro.",
+      "Añade el resto del picado y enseguida el pescado en una sola capa; luego vierte la marinada por encima.",
+      "Vierte agua hasta media altura, añade las guindillas y lleva a ebullición. Cuece destapado a fuego mínimo 30 minutos, regando el pescado.",
+      "Sube el fuego 5 minutos hasta que la salsa esté espesa y oscura, dando la vuelta a las rodajas una vez con cuidado.",
+      "Esparce cebolleta y pimienta y lleva la cazuela a la mesa con arroz blanco caliente."
+     ],
+     "labels": [
+      "",
+      "Marinar",
+      "Caramelo",
+      "",
+      "Cocción",
+      "Reducción",
+      ""
+     ],
+     "tips": [
+      "No remuevas nunca: inclina la cazuela y riega el pescado con la salsa para que no se rompa.",
+      "En Vietnam se hace a menudo con bagre o panga: también va bien con rodajas de salmón.",
+      "Acompaña con pepino en rodajas y mucho arroz: la salsa salada está pensada para él."
+     ]
+    },
+    "de": {
+     "title": "Cá kho tộ, karamellisierte Makrele",
+     "intro": "Makrele, langsam in Karamell und Fischsauce gegart, bis die Sauce dunkel und dick ist.",
+     "ing": [
+      "Makrele in Stücken",
+      "Fischsauce",
+      "Zucker",
+      "Schalotten",
+      "Knoblauchzehen",
+      "frisch gemahlener schwarzer Pfeffer",
+      "frische rote Chilis",
+      "Wasser",
+      "neutrales Öl",
+      "Frühlingszwiebeln",
+      "Salz"
+     ],
+     "steps": [
+      "Schneide die Makrele in 4 cm dicke Stücke, spül sie in Salzwasser ab und tupf sie trocken. Hack Schalotten und Knoblauch.",
+      "Mariniere den Fisch 20 Minuten im Kühlschrank mit Fischsauce, 1 EL Zucker, Pfeffer und der Hälfte der Aromaten.",
+      "Erhitz in einem Tontopf oder kleinen schweren Topf Öl und restlichen Zucker, bis ein dunkel bernsteinfarbenes Karamell entsteht.",
+      "Gib die restlichen Aromaten und gleich danach den Fisch in einer Lage hinein, dann gieß die Marinade darüber.",
+      "Gieß Wasser bis zur halben Höhe an, gib die Chilis dazu und koch auf. Gar alles offen auf kleinster Stufe 30 Minuten und begieß den Fisch.",
+      "Dreh die Hitze 5 Minuten hoch, bis die Sauce dick und dunkel ist, und wende die Stücke einmal vorsichtig.",
+      "Bestreu alles mit Frühlingszwiebeln und Pfeffer und bring den Topf mit heißem Reis auf den Tisch."
+     ],
+     "labels": [
+      "",
+      "Marinieren",
+      "Karamell",
+      "",
+      "Garen",
+      "Einkochen",
+      ""
+     ],
+     "tips": [
+      "Nie umrühren: Kipp den Topf und begieß den Fisch mit der Sauce, so bleiben die Stücke ganz.",
+      "In Vietnam nimmt man oft Wels oder Pangasius: Lachskoteletts gehen auch.",
+      "Reich Gurkenscheiben und viel Reis dazu: Die salzige Sauce ist genau dafür gedacht."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    }
+   ]
+  },
+  {
+   "id": "dau-hu-sot-ca-chua",
+   "cat": "secondi",
+   "sub": "vegetali",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 280,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "firm-tofu"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "fresh-tomatoes"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "shallots"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "salt"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "black-pepper"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 480,
+     "alt": {
+      "airfryer": {
+       "timer": 900
+      }
+     }
+    },
+    {},
+    {
+     "timer": 480
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Đậu hũ sốt cà chua, tofu al pomodoro",
+     "intro": "Tofu dorato in padella e poi cotto in un sugo di pomodori freschi e cipollotti.",
+     "ing": [
+      "tofu compatto",
+      "pomodori maturi",
+      "scalogni",
+      "spicchi d'aglio",
+      "cipollotti",
+      "salsa di soia",
+      "zucchero",
+      "acqua",
+      "olio di semi",
+      "sale",
+      "pepe nero",
+      "coriandolo fresco"
+     ],
+     "steps": [
+      "Scola il tofu, asciugalo bene con carta da cucina e taglialo a cubotti di 3 cm. Asciugalo ancora.",
+      "Friggi il tofu nell'olio in una padella antiaderente a fuoco medio-alto per 8 minuti, girandolo, finché è dorato su tutti i lati.",
+      "Togli il tofu e lascia in padella 1 cucchiaio d'olio. Soffriggi scalogni, aglio e il bianco dei cipollotti tritati per 1 minuto.",
+      "Aggiungi i pomodori a pezzi, zucchero, soia e un pizzico di sale e cuoci 8 minuti, schiacciandoli, finché fanno un sugo.",
+      "Unisci l'acqua e rimetti il tofu. Cuoci 5 minuti a fuoco basso, girandolo, perché assorba il sugo.",
+      "Finisci con il verde dei cipollotti, pepe e coriandolo. Servi con riso bianco."
+     ],
+     "labels": [
+      "",
+      "Tofu",
+      "",
+      "Sugo",
+      "Insaporire",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "airfryer": "Ungi il tofu con 1 cucchiaio d'olio e cuocilo in friggitrice ad aria a 200 °C per 15 minuti, scuotendo a metà."
+      }
+     },
+     "tips": [
+      "Asciuga il tofu due volte: senza acqua in superficie fa la crosticina e non schizza.",
+      "Fuori stagione usa 400 g di pelati. In molte case si aggiunge un goccio di salsa di pesce (non più vegano)."
+     ]
+    },
+    "en": {
+     "title": "Đậu hũ sốt cà chua, tofu in tomato sauce",
+     "intro": "Golden pan-fried tofu simmered in a quick sauce of fresh tomatoes and spring onions.",
+     "ing": [
+      "firm tofu",
+      "ripe tomatoes",
+      "shallots",
+      "garlic cloves",
+      "spring onions",
+      "soy sauce",
+      "sugar",
+      "water",
+      "neutral oil",
+      "salt",
+      "black pepper",
+      "fresh cilantro"
+     ],
+     "steps": [
+      "Drain the tofu, pat it dry with paper towels and cut into 3 cm cubes. Pat dry again.",
+      "Fry the tofu in the oil in a nonstick pan over medium-high heat for 8 minutes, turning, until golden on all sides.",
+      "Lift out the tofu, leaving 1 tbsp oil in the pan. Fry the chopped shallots, garlic and spring onion whites for 1 minute.",
+      "Add the chopped tomatoes, sugar, soy sauce and a pinch of salt and cook 8 minutes, crushing them, until saucy.",
+      "Add the water and return the tofu. Simmer 5 minutes over low heat, turning it, so it soaks up the sauce.",
+      "Finish with the spring onion greens, pepper and cilantro. Serve with steamed rice."
+     ],
+     "labels": [
+      "",
+      "Tofu",
+      "",
+      "Sauce",
+      "Simmer",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "airfryer": "Toss the tofu with 1 tbsp oil and air-fry at 200 °C for 15 minutes, shaking halfway."
+      }
+     },
+     "tips": [
+      "Dry the tofu twice: with no surface water it forms a crust and doesn't spit.",
+      "Out of season use 400 g canned tomatoes. Many homes add a splash of fish sauce (no longer vegan)."
+     ]
+    },
+    "fr": {
+     "title": "Đậu hũ sốt cà chua, tofu à la tomate",
+     "intro": "Tofu doré à la poêle puis mijoté dans une sauce de tomates fraîches et d'oignons nouveaux.",
+     "ing": [
+      "tofu ferme",
+      "tomates mûres",
+      "échalotes",
+      "gousses d'ail",
+      "oignons nouveaux",
+      "sauce soja",
+      "sucre",
+      "eau",
+      "huile neutre",
+      "sel",
+      "poivre noir",
+      "coriandre fraîche"
+     ],
+     "steps": [
+      "Égoutte le tofu, sèche-le bien avec du papier absorbant et coupe-le en cubes de 3 cm. Sèche-le encore.",
+      "Fais dorer le tofu dans l'huile, dans une poêle antiadhésive à feu moyen-vif, 8 minutes en le retournant, jusqu'à ce qu'il soit doré partout.",
+      "Retire le tofu en laissant 1 c. à soupe d'huile. Fais revenir 1 minute les échalotes, l'ail et le blanc des oignons hachés.",
+      "Ajoute les tomates en morceaux, le sucre, la sauce soja et une pincée de sel, et cuis 8 minutes en les écrasant, jusqu'à obtenir une sauce.",
+      "Ajoute l'eau et remets le tofu. Laisse mijoter 5 minutes à feu doux en le retournant pour qu'il s'imprègne de sauce.",
+      "Termine avec le vert des oignons nouveaux, du poivre et de la coriandre. Sers avec du riz blanc."
+     ],
+     "labels": [
+      "",
+      "Tofu",
+      "",
+      "Sauce",
+      "Mijoter",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "airfryer": "Enrobe le tofu d'1 c. à soupe d'huile et cuis-le à la friteuse à air à 200 °C 15 minutes, en secouant à mi-cuisson."
+      }
+     },
+     "tips": [
+      "Sèche le tofu deux fois : sans eau en surface, il croûte et n'éclabousse pas.",
+      "Hors saison, prends 400 g de tomates pelées. Beaucoup ajoutent un trait de nuoc-mâm (plus végan)."
+     ]
+    },
+    "es": {
+     "title": "Đậu hũ sốt cà chua, tofu con tomate",
+     "intro": "Tofu dorado en la sartén y luego guisado en una salsa de tomate fresco y cebolleta.",
+     "ing": [
+      "tofu firme",
+      "tomates maduros",
+      "chalotas",
+      "dientes de ajo",
+      "cebolletas",
+      "salsa de soja",
+      "azúcar",
+      "agua",
+      "aceite de girasol",
+      "sal",
+      "pimienta negra",
+      "cilantro fresco"
+     ],
+     "steps": [
+      "Escurre el tofu, sécalo bien con papel de cocina y córtalo en dados de 3 cm. Sécalo otra vez.",
+      "Fríe el tofu en el aceite en una sartén antiadherente a fuego medio-alto 8 minutos, dándole vueltas, hasta que esté dorado por todos lados.",
+      "Saca el tofu y deja 1 cucharada de aceite en la sartén. Sofríe 1 minuto la chalota, el ajo y lo blanco de la cebolleta picados.",
+      "Añade el tomate troceado, el azúcar, la soja y una pizca de sal y cuece 8 minutos, aplastándolo, hasta que se haga salsa.",
+      "Añade el agua y vuelve a poner el tofu. Cuece 5 minutos a fuego lento, girándolo, para que absorba la salsa.",
+      "Termina con lo verde de la cebolleta, pimienta y cilantro. Sirve con arroz blanco."
+     ],
+     "labels": [
+      "",
+      "Tofu",
+      "",
+      "Salsa",
+      "Guisar",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "airfryer": "Unta el tofu con 1 cucharada de aceite y cocínalo en freidora de aire a 200 °C 15 minutos, agitando a mitad."
+      }
+     },
+     "tips": [
+      "Seca el tofu dos veces: sin agua en la superficie hace costra y no salpica.",
+      "Fuera de temporada usa 400 g de tomate pelado. En muchas casas añaden salsa de pescado (ya no es vegano)."
+     ]
+    },
+    "de": {
+     "title": "Đậu hũ sốt cà chua, Tofu in Tomatensauce",
+     "intro": "Gebratener Tofu, gegart in einer Sauce aus frischen Tomaten und Frühlingszwiebeln.",
+     "ing": [
+      "fester Tofu",
+      "reife Tomaten",
+      "Schalotten",
+      "Knoblauchzehen",
+      "Frühlingszwiebeln",
+      "Sojasauce",
+      "Zucker",
+      "Wasser",
+      "neutrales Öl",
+      "Salz",
+      "schwarzer Pfeffer",
+      "frischer Koriander"
+     ],
+     "steps": [
+      "Lass den Tofu abtropfen, tupf ihn mit Küchenpapier trocken und schneide ihn in 3-cm-Würfel. Tupf ihn noch einmal ab.",
+      "Brate den Tofu im Öl in einer beschichteten Pfanne bei mittlerer bis starker Hitze 8 Minuten rundum goldbraun.",
+      "Nimm den Tofu heraus und lass 1 EL Öl in der Pfanne. Brate Schalotten, Knoblauch und das Weiße der Frühlingszwiebeln 1 Minute an.",
+      "Gib die gehackten Tomaten, Zucker, Sojasauce und eine Prise Salz dazu und koch alles 8 Minuten, dabei zerdrücken, bis eine Sauce entsteht.",
+      "Gib das Wasser dazu und den Tofu zurück. Lass alles 5 Minuten bei kleiner Hitze köcheln und wende ihn, damit er die Sauce aufnimmt.",
+      "Vollende es mit dem Grün der Frühlingszwiebeln, Pfeffer und Koriander. Serviere es mit weißem Reis."
+     ],
+     "labels": [
+      "",
+      "Tofu",
+      "",
+      "Sauce",
+      "Ziehen",
+      ""
+     ],
+     "alt": {
+      "1": {
+       "airfryer": "Misch den Tofu mit 1 EL Öl und gare ihn in der Heißluftfritteuse bei 200 °C 15 Minuten, zwischendurch schütteln."
+      }
+     },
+     "tips": [
+      "Tupf den Tofu zweimal ab: Ohne Wasser an der Oberfläche wird er knusprig und spritzt nicht.",
+      "Außerhalb der Saison 400 g geschälte Dosentomaten. Oft kommt ein Schuss Fischsauce dazu (dann nicht vegan)."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ],
+   "methods": [
+    "pan",
+    "airfryer"
+   ]
+  },
+  {
+   "id": "rau-muong-xao-toi",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 15,
+   "diff": 1,
+   "kcal": 90,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "pak-choi"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "salt"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "water"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 120
+    },
+    {
+     "timer": 60
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Rau muống xào tỏi, verdure all'aglio",
+     "intro": "Verdure a foglia saltate a fiamma alta con tanto aglio, pronte in 5 minuti.",
+     "ing": [
+      "pak choi (o spinaci in foglia)",
+      "spicchi d'aglio",
+      "olio di semi",
+      "sale",
+      "zucchero",
+      "acqua"
+     ],
+     "steps": [
+      "Lava le verdure e scolale bene. Taglia il pak choi a pezzi di 5 cm, tenendo separati gambi e foglie.",
+      "Schiaccia l'aglio e tritalo grossolanamente.",
+      "Scalda l'olio nel wok a fiamma altissima e soffriggi metà dell'aglio per 20 secondi, finché profuma ed è appena dorato.",
+      "Butta i gambi con sale e zucchero e salta 2 minuti.",
+      "Aggiungi foglie e acqua e salta 1 minuto, solo finché appassiscono restando verde brillante.",
+      "Spegni, unisci l'aglio rimasto crudo, mescola e servi subito con il sugo del fondo."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Gambi",
+      "Foglie",
+      ""
+     ],
+     "tips": [
+      "Con la vera rau muống (spinacio d'acqua) dei negozi asiatici i gambi restano cavi e croccanti.",
+      "In molte case si sfuma con un cucchiaino di salsa di pesce: più sapido, ma non più vegano."
+     ]
+    },
+    "en": {
+     "title": "Rau muống xào tỏi, garlic greens",
+     "intro": "Leafy greens tossed over high heat with lots of garlic, ready in 5 minutes.",
+     "ing": [
+      "pak choi (or spinach)",
+      "garlic cloves",
+      "neutral oil",
+      "salt",
+      "sugar",
+      "water"
+     ],
+     "steps": [
+      "Wash the greens and drain well. Cut the pak choi into 5 cm pieces, keeping stems and leaves apart.",
+      "Crush the garlic and chop it roughly.",
+      "Heat the oil in a wok over the highest heat and fry half the garlic for 20 seconds, until fragrant and just golden.",
+      "Add the stems with the salt and sugar and toss for 2 minutes.",
+      "Add the leaves and water and toss for 1 minute, just until wilted but still bright green.",
+      "Turn off the heat, stir in the rest of the garlic raw and serve at once with the pan juices."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Stems",
+      "Leaves",
+      ""
+     ],
+     "tips": [
+      "With real rau muống (water spinach) from Asian shops, the hollow stems stay crunchy.",
+      "Many cooks add a teaspoon of fish sauce at the end: more savoury, but no longer vegan."
+     ]
+    },
+    "fr": {
+     "title": "Rau muống xào tỏi, légumes verts à l'ail",
+     "intro": "Légumes verts sautés à feu vif avec beaucoup d'ail, prêts en 5 minutes.",
+     "ing": [
+      "pak-choï (ou épinards)",
+      "gousses d'ail",
+      "huile neutre",
+      "sel",
+      "sucre",
+      "eau"
+     ],
+     "steps": [
+      "Lave les légumes et égoutte-les bien. Coupe le pak-choï en morceaux de 5 cm, en séparant tiges et feuilles.",
+      "Écrase l'ail et hache-le grossièrement.",
+      "Chauffe l'huile dans le wok à feu très vif et fais revenir la moitié de l'ail 20 secondes, jusqu'à ce qu'il embaume et blondisse.",
+      "Ajoute les tiges avec le sel et le sucre et fais sauter 2 minutes.",
+      "Ajoute les feuilles et l'eau et fais sauter 1 minute, juste jusqu'à ce qu'elles tombent en restant bien vertes.",
+      "Éteins, ajoute le reste d'ail cru, mélange et sers aussitôt avec le jus de cuisson."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Tiges",
+      "Feuilles",
+      ""
+     ],
+     "tips": [
+      "Avec le vrai rau muống (liseron d'eau) des épiceries asiatiques, les tiges creuses restent croquantes.",
+      "Beaucoup ajoutent 1 c. à café de nuoc-mâm à la fin : plus savoureux, mais plus végan."
+     ]
+    },
+    "es": {
+     "title": "Rau muống xào tỏi, verdura al ajo",
+     "intro": "Verdura de hoja salteada a fuego vivo con mucho ajo, lista en 5 minutos.",
+     "ing": [
+      "pak choi (o espinacas)",
+      "dientes de ajo",
+      "aceite de girasol",
+      "sal",
+      "azúcar",
+      "agua"
+     ],
+     "steps": [
+      "Lava la verdura y escúrrela bien. Corta el pak choi en trozos de 5 cm, separando tallos y hojas.",
+      "Aplasta el ajo y pícalo grueso.",
+      "Calienta el aceite en el wok a fuego máximo y sofríe la mitad del ajo 20 segundos, hasta que huela y esté apenas dorado.",
+      "Echa los tallos con la sal y el azúcar y saltea 2 minutos.",
+      "Añade las hojas y el agua y saltea 1 minuto, solo hasta que se ablanden sin perder el verde vivo.",
+      "Apaga, añade el resto del ajo crudo, mezcla y sirve enseguida con el jugo del fondo."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Tallos",
+      "Hojas",
+      ""
+     ],
+     "tips": [
+      "Con el auténtico rau muống (espinaca de agua) de las tiendas asiáticas, los tallos huecos quedan crujientes.",
+      "En muchas casas añaden una cucharadita de salsa de pescado al final: más sabroso, pero ya no vegano."
+     ]
+    },
+    "de": {
+     "title": "Rau muống xào tỏi, Grünes mit Knoblauch",
+     "intro": "Blattgemüse, bei starker Hitze mit viel Knoblauch gebraten, in 5 Minuten fertig.",
+     "ing": [
+      "Pak Choi (oder Blattspinat)",
+      "Knoblauchzehen",
+      "neutrales Öl",
+      "Salz",
+      "Zucker",
+      "Wasser"
+     ],
+     "steps": [
+      "Wasch das Gemüse und lass es gut abtropfen. Schneide den Pak Choi in 5-cm-Stücke, Stiele und Blätter getrennt.",
+      "Zerdrück den Knoblauch und hack ihn grob.",
+      "Erhitz das Öl im Wok auf höchster Stufe und brate die Hälfte des Knoblauchs 20 Sekunden, bis er duftet und hellgolden ist.",
+      "Gib die Stiele mit Salz und Zucker dazu und brate sie 2 Minuten unter Schwenken.",
+      "Gib Blätter und Wasser dazu und schwenk alles 1 Minute, nur bis sie zusammenfallen und noch leuchtend grün sind.",
+      "Schalt die Hitze aus, rühr den restlichen rohen Knoblauch unter und serviere alles sofort mit dem Bratensaft."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Stiele",
+      "Blätter",
+      ""
+     ],
+     "tips": [
+      "Mit echtem Rau muống (Wasserspinat) aus dem Asialaden bleiben die hohlen Stiele knackig.",
+      "Oft kommt am Ende 1 TL Fischsauce dazu: würziger, aber nicht mehr vegan."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  },
+  {
+   "id": "che-chuoi",
+   "cat": "dolci",
+   "sub": "cucchiaio",
+   "servings": 4,
+   "minutes": 30,
+   "diff": 1,
+   "kcal": 340,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 4,
+     "u": "",
+     "k": "bananas"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "coconut-milk"
+    },
+    {
+     "q": 300,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "tapioca-pearls"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "sugar"
+    },
+    {
+     "q": 1,
+     "u": "pinch",
+     "k": "salt"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "roasted-peanuts"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sesame-seeds"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 600,
+     "bg": true
+    },
+    {},
+    {},
+    {
+     "timer": 480
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Chè chuối, banane al latte di cocco",
+     "intro": "Zuppa dolce tiepida di banane, perle di tapioca e cocco, con arachidi e sesamo tostati.",
+     "ing": [
+      "banane mature ma sode",
+      "latte di cocco",
+      "acqua",
+      "perle di tapioca piccole",
+      "zucchero",
+      "sale",
+      "arachidi tostate",
+      "semi di sesamo tostati"
+     ],
+     "steps": [
+      "Metti in ammollo la tapioca in acqua fredda per 10 minuti.",
+      "Intanto sbuccia le banane e tagliale in diagonale a pezzi di 3 cm.",
+      "In una pentola porta a leggero bollore latte di cocco, acqua, zucchero e sale, mescolando.",
+      "Aggiungi la tapioca scolata e cuoci 8 minuti mescolando spesso, finché le perle sono trasparenti.",
+      "Unisci le banane e cuoci piano 5 minuti, finché sono morbide ma intere.",
+      "Servi tiepido nelle ciotole con arachidi tritate e sesamo tostato."
+     ],
+     "labels": [
+      "Ammollo",
+      "",
+      "",
+      "Tapioca",
+      "Banane",
+      ""
+     ],
+     "tips": [
+      "Con le banane piccole dei negozi asiatici (chuối sứ) il dolce è più profumato e i pezzi restano compatti.",
+      "È buono anche freddo; in frigo si addensa, allungalo con un goccio d'acqua."
+     ]
+    },
+    "en": {
+     "title": "Chè chuối, banana coconut sweet soup",
+     "intro": "A warm sweet soup of banana, tapioca pearls and coconut, topped with peanuts and sesame.",
+     "ing": [
+      "ripe but firm bananas",
+      "coconut milk",
+      "water",
+      "small tapioca pearls",
+      "sugar",
+      "salt",
+      "roasted peanuts",
+      "toasted sesame seeds"
+     ],
+     "steps": [
+      "Soak the tapioca pearls in cold water for 10 minutes.",
+      "Meanwhile peel the bananas and cut them on the diagonal into 3 cm pieces.",
+      "In a saucepan bring the coconut milk, water, sugar and salt to a gentle simmer, stirring.",
+      "Add the drained tapioca and cook 8 minutes, stirring often, until the pearls turn clear.",
+      "Add the bananas and simmer gently for 5 minutes, until soft but still whole.",
+      "Serve warm in bowls, topped with chopped peanuts and toasted sesame."
+     ],
+     "labels": [
+      "Soak",
+      "",
+      "",
+      "Tapioca",
+      "Bananas",
+      ""
+     ],
+     "tips": [
+      "With the small bananas from Asian shops (chuối sứ) it's more fragrant and the pieces hold their shape.",
+      "It's good cold too; it thickens in the fridge, so loosen it with a splash of water."
+     ]
+    },
+    "fr": {
+     "title": "Chè chuối, bananes au lait de coco",
+     "intro": "Soupe sucrée tiède de banane, tapioca et coco, avec cacahuètes et sésame grillés.",
+     "ing": [
+      "bananes mûres mais fermes",
+      "lait de coco",
+      "eau",
+      "petites perles de tapioca",
+      "sucre",
+      "sel",
+      "cacahuètes grillées",
+      "graines de sésame grillées"
+     ],
+     "steps": [
+      "Fais tremper les perles de tapioca 10 minutes dans l'eau froide.",
+      "Pendant ce temps, épluche les bananes et coupe-les en biais en tronçons de 3 cm.",
+      "Dans une casserole, porte à frémissement le lait de coco, l'eau, le sucre et le sel en remuant.",
+      "Ajoute le tapioca égoutté et cuis 8 minutes en remuant souvent, jusqu'à ce que les perles soient translucides.",
+      "Ajoute les bananes et laisse frémir 5 minutes, jusqu'à ce qu'elles soient tendres mais entières.",
+      "Sers tiède dans des bols, parsemé de cacahuètes concassées et de sésame grillé."
+     ],
+     "labels": [
+      "Trempage",
+      "",
+      "",
+      "Tapioca",
+      "Bananes",
+      ""
+     ],
+     "tips": [
+      "Avec les petites bananes des épiceries asiatiques (chuối sứ), c'est plus parfumé et elles se tiennent mieux.",
+      "C'est bon froid aussi ; au frigo il épaissit, détends-le avec un peu d'eau."
+     ]
+    },
+    "es": {
+     "title": "Chè chuối, plátano con leche de coco",
+     "intro": "Sopa dulce templada de plátano, perlas de tapioca y coco, con cacahuete y sésamo tostados.",
+     "ing": [
+      "plátanos maduros pero firmes",
+      "leche de coco",
+      "agua",
+      "perlas de tapioca pequeñas",
+      "azúcar",
+      "sal",
+      "cacahuetes tostados",
+      "sésamo tostado"
+     ],
+     "steps": [
+      "Pon la tapioca en remojo en agua fría 10 minutos.",
+      "Mientras, pela los plátanos y córtalos en diagonal en trozos de 3 cm.",
+      "En una olla lleva a un hervor suave la leche de coco, el agua, el azúcar y la sal, removiendo.",
+      "Añade la tapioca escurrida y cuece 8 minutos, removiendo a menudo, hasta que las perlas estén transparentes.",
+      "Añade el plátano y cuece suave 5 minutos, hasta que esté tierno pero entero.",
+      "Sirve templado en cuencos con cacahuete picado y sésamo tostado."
+     ],
+     "labels": [
+      "Remojo",
+      "",
+      "",
+      "Tapioca",
+      "Plátano",
+      ""
+     ],
+     "tips": [
+      "Con los plátanos pequeños de las tiendas asiáticas (chuối sứ) queda más aromático y no se deshacen.",
+      "También está rico frío; en la nevera espesa, acláralo con un chorrito de agua."
+     ]
+    },
+    "de": {
+     "title": "Chè chuối, Bananen in Kokosmilch",
+     "intro": "Warme süße Suppe aus Banane, Tapiokaperlen und Kokos, mit gerösteten Erdnüssen und Sesam.",
+     "ing": [
+      "reife, aber feste Bananen",
+      "Kokosmilch",
+      "Wasser",
+      "kleine Tapiokaperlen",
+      "Zucker",
+      "Salz",
+      "geröstete Erdnüsse",
+      "gerösteter Sesam"
+     ],
+     "steps": [
+      "Weich die Tapiokaperlen 10 Minuten in kaltem Wasser ein.",
+      "Schäl inzwischen die Bananen und schneide sie schräg in 3 cm große Stücke.",
+      "Bring Kokosmilch, Wasser, Zucker und Salz in einem Topf unter Rühren leicht zum Köcheln.",
+      "Gib die abgetropfte Tapioka dazu und koch sie 8 Minuten unter häufigem Rühren, bis die Perlen durchsichtig sind.",
+      "Gib die Bananen dazu und lass sie 5 Minuten sanft köcheln, bis sie weich, aber noch ganz sind.",
+      "Serviere die Suppe warm in Schalen mit gehackten Erdnüssen und geröstetem Sesam."
+     ],
+     "labels": [
+      "Einweichen",
+      "",
+      "",
+      "Tapioka",
+      "Bananen",
+      ""
+     ],
+     "tips": [
+      "Mit den kleinen Bananen aus dem Asialaden (Chuối sứ) duftet es mehr und die Stücke bleiben fest.",
+      "Schmeckt auch kalt; im Kühlschrank dickt es ein, verdünn es dann mit etwas Wasser."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "leftover"
+    }
+   ]
+  },
+  {
+   "id": "ca-phe-sua-da",
+   "cat": "bevande",
+   "sub": "fresche",
+   "servings": 2,
+   "minutes": 10,
+   "diff": 1,
+   "kcal": 170,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "VN",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 20,
+     "u": "g",
+     "k": "coffee"
+    },
+    {
+     "q": 150,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "sweetened-condensed-milk"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 300
+    },
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cà phê sữa đá, caffè freddo al latte",
+     "intro": "Caffè forte versato sul latte condensato e poi sul ghiaccio: dolce, amaro e gelato.",
+     "ing": [
+      "caffè macinato tostatura scura",
+      "acqua",
+      "latte condensato zuccherato",
+      "cubetti di ghiaccio"
+     ],
+     "steps": [
+      "Riempi d'acqua la caldaia di una moka da 3 tazze fino alla valvola, metti il caffè nel filtro senza pressarlo e scalda a fuoco basso.",
+      "Metti 2 cucchiai di latte condensato in ogni bicchiere.",
+      "Versa il caffè bollente sul latte e mescola finché è sciolto e cremoso.",
+      "Riempi i bicchieri di ghiaccio, mescola di nuovo e servi con una cannuccia."
+     ],
+     "labels": [
+      "Moka",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Col filtro phin: 20 g di caffè per tazza, un goccio d'acqua per gonfiarlo, poi 100 ml; gocciola in 5 minuti.",
+      "Senza ghiaccio è cà phê sữa nóng, quello caldo delle mattine d'inverno ad Hanoi."
+     ]
+    },
+    "en": {
+     "title": "Cà phê sữa đá, Vietnamese iced coffee",
+     "intro": "Strong coffee poured over condensed milk, then over ice: sweet, bitter and ice-cold.",
+     "ing": [
+      "dark-roast ground coffee",
+      "water",
+      "sweetened condensed milk",
+      "ice cubes"
+     ],
+     "steps": [
+      "Fill the base of a 3-cup moka pot with water up to the valve, add the coffee without tamping and heat over low heat.",
+      "Put 2 tbsp condensed milk in each glass.",
+      "Pour the hot coffee over the milk and stir until dissolved and creamy.",
+      "Fill the glasses with ice, stir again and serve with a straw."
+     ],
+     "labels": [
+      "Moka pot",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "With a phin filter: 20 g coffee per cup, a splash of water to bloom, then 100 ml; it drips in 5 minutes.",
+      "Skip the ice and it's cà phê sữa nóng, the hot version for Hanoi's winter mornings."
+     ]
+    },
+    "fr": {
+     "title": "Cà phê sữa đá, café glacé vietnamien",
+     "intro": "Café corsé versé sur du lait concentré sucré, puis sur la glace : doux, amer et glacé.",
+     "ing": [
+      "café moulu torréfaction foncée",
+      "eau",
+      "lait concentré sucré",
+      "glaçons"
+     ],
+     "steps": [
+      "Remplis d'eau le bas d'une cafetière moka 3 tasses jusqu'à la valve, mets le café sans tasser et chauffe à feu doux.",
+      "Mets 2 c. à soupe de lait concentré dans chaque verre.",
+      "Verse le café brûlant sur le lait et remue jusqu'à ce qu'il soit fondu et crémeux.",
+      "Remplis les verres de glaçons, remue encore et sers avec une paille."
+     ],
+     "labels": [
+      "Moka",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Avec un filtre phin : 20 g de café par tasse, un peu d'eau pour le gonfler, puis 100 ml ; il goutte en 5 minutes.",
+      "Sans glaçons, c'est le cà phê sữa nóng, la version chaude des matins d'hiver à Hanoï."
+     ]
+    },
+    "es": {
+     "title": "Cà phê sữa đá, café vietnamita con hielo",
+     "intro": "Café fuerte sobre leche condensada y luego sobre hielo: dulce, amargo y helado.",
+     "ing": [
+      "café molido de tueste oscuro",
+      "agua",
+      "leche condensada",
+      "cubitos de hielo"
+     ],
+     "steps": [
+      "Llena de agua la base de una cafetera moka de 3 tazas hasta la válvula, pon el café sin apretar y calienta a fuego bajo.",
+      "Pon 2 cucharadas de leche condensada en cada vaso.",
+      "Vierte el café caliente sobre la leche y remueve hasta que se disuelva y quede cremoso.",
+      "Llena los vasos de hielo, remueve de nuevo y sirve con una pajita."
+     ],
+     "labels": [
+      "Moka",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con filtro phin: 20 g de café por taza, un chorrito de agua para hincharlo y luego 100 ml; gotea en 5 minutos.",
+      "Sin hielo es cà phê sữa nóng, el caliente de las mañanas de invierno en Hanói."
+     ]
+    },
+    "de": {
+     "title": "Cà phê sữa đá, vietnamesischer Eiskaffee",
+     "intro": "Starker Kaffee über gezuckerter Kondensmilch, dann über Eis: süß, bitter und eiskalt.",
+     "ing": [
+      "dunkel gerösteter gemahlener Kaffee",
+      "Wasser",
+      "gezuckerte Kondensmilch",
+      "Eiswürfel"
+     ],
+     "steps": [
+      "Füll den Kessel einer 3-Tassen-Mokkakanne bis zum Ventil, gib den Kaffee locker in den Trichter und erhitz sie bei kleiner Hitze.",
+      "Gib 2 EL Kondensmilch in jedes Glas.",
+      "Gieß den heißen Kaffee über die Milch und rühr, bis sie sich gelöst hat und es cremig ist.",
+      "Füll die Gläser mit Eis, rühr noch einmal um und serviere den Kaffee mit Strohhalm."
+     ],
+     "labels": [
+      "Mokka",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mit Phin-Filter: 20 g Kaffee pro Tasse, etwas Wasser zum Quellen, dann 100 ml; er tropft in 5 Minuten durch.",
+      "Ohne Eis wird daraus Cà phê sữa nóng, die heiße Version für Wintermorgen in Hanoi."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  },
+  {
+   "id": "som-tam",
+   "cat": "contorni",
+   "sub": "insalate",
+   "servings": 4,
+   "minutes": 20,
+   "diff": 1,
+   "kcal": 130,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 300,
+     "u": "g",
+     "k": "carrots"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "cucumbers"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "birds-eye-chilies"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "green-beans"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "cherry-tomatoes"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "brown-sugar"
+    },
+    {
+     "q": 40,
+     "u": "g",
+     "k": "roasted-peanuts"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Som tam, insalata piccante pestata",
+     "intro": "Julienne croccante pestata al mortaio con lime, salsa di pesce e peperoncino.",
+     "ing": [
+      "carote",
+      "cetrioli",
+      "spicchi d'aglio",
+      "peperoncini thai",
+      "fagiolini",
+      "pomodorini",
+      "salsa di pesce",
+      "lime",
+      "zucchero di palma o di canna",
+      "arachidi tostate"
+     ],
+     "steps": [
+      "Taglia carote e cetrioli senza semi a julienne lunga e sottile, con il pelapatate apposito o col coltello.",
+      "Taglia i fagiolini a pezzi di 3 cm e i pomodorini a metà. Spremi i lime.",
+      "In un mortaio grande pesta aglio e peperoncini fino a una pasta grossolana.",
+      "Aggiungi i fagiolini e schiacciali appena, poi i pomodorini, pestandoli piano perché rilascino il succo.",
+      "Unisci zucchero, salsa di pesce e succo di lime e mescola col cucchiaio finché lo zucchero è sciolto.",
+      "Aggiungi la julienne e metà arachidi: pesta leggero e gira col cucchiaio per 1 minuto, perché assorba il condimento.",
+      "Assaggia: aspro, salato, dolce e piccante devono stare in equilibrio. Servi subito con le arachidi rimaste."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "La vera som tam è di papaya verde, nei negozi asiatici: sbucciala e tagliala a julienne come le carote.",
+      "Versione vegana: salsa di soia al posto di quella di pesce (non più senza glutine).",
+      "Come nell'Isan: con larb e riso glutinoso, da mangiare con le mani."
+     ]
+    },
+    "en": {
+     "title": "Som tam, pounded spicy salad",
+     "intro": "Crunchy julienne pounded in a mortar with lime, fish sauce and chili: fresh and fiery.",
+     "ing": [
+      "carrots",
+      "cucumbers",
+      "garlic cloves",
+      "Thai chilies",
+      "green beans",
+      "cherry tomatoes",
+      "fish sauce",
+      "limes",
+      "palm or brown sugar",
+      "roasted peanuts"
+     ],
+     "steps": [
+      "Cut the carrots and seeded cucumbers into long, thin julienne with a julienne peeler or a knife.",
+      "Cut the green beans into 3 cm pieces and halve the tomatoes. Juice the limes.",
+      "In a large mortar pound the garlic and chilies to a rough paste.",
+      "Add the beans and bruise them lightly, then the tomatoes, pounding gently so they release their juice.",
+      "Add the sugar, fish sauce and lime juice and stir with a spoon until the sugar dissolves.",
+      "Add the julienne and half the peanuts: pound lightly and turn with the spoon for 1 minute so it soaks up the dressing.",
+      "Taste: sour, salty, sweet and hot should be in balance. Serve at once with the remaining peanuts."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Real som tam uses green papaya from Asian shops: peel it and julienne it like the carrots.",
+      "Vegan version: use soy sauce instead of fish sauce (no longer gluten-free).",
+      "As in Isan: with larb and sticky rice, eaten with your hands."
+     ]
+    },
+    "fr": {
+     "title": "Som tam, salade pilée épicée",
+     "intro": "Julienne croquante pilée au mortier avec citron vert, nuoc-mâm et piment.",
+     "ing": [
+      "carottes",
+      "concombres",
+      "gousses d'ail",
+      "piments oiseaux",
+      "haricots verts",
+      "tomates cerises",
+      "nuoc-mâm",
+      "citrons verts",
+      "sucre de palme ou roux",
+      "cacahuètes grillées"
+     ],
+     "steps": [
+      "Taille les carottes et les concombres épépinés en longue julienne fine, à l'éplucheur à julienne ou au couteau.",
+      "Coupe les haricots en tronçons de 3 cm et les tomates en deux. Presse les citrons verts.",
+      "Dans un grand mortier, pile l'ail et les piments en une pâte grossière.",
+      "Ajoute les haricots et écrase-les légèrement, puis les tomates, en pilant doucement pour qu'elles rendent leur jus.",
+      "Ajoute le sucre, le nuoc-mâm et le jus de citron vert, et remue à la cuillère jusqu'à ce que le sucre fonde.",
+      "Ajoute la julienne et la moitié des cacahuètes : pile légèrement et retourne à la cuillère 1 minute pour bien l'imprégner.",
+      "Goûte : acide, salé, sucré et piquant doivent s'équilibrer. Sers aussitôt avec le reste des cacahuètes."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "La vraie som tam se fait à la papaye verte des épiceries asiatiques : épluche-la et taille-la comme les carottes.",
+      "Version végane : sauce soja à la place du nuoc-mâm (elle n'est alors plus sans gluten).",
+      "Comme dans l'Isan : avec un larb et du riz gluant, à manger avec les doigts."
+     ]
+    },
+    "es": {
+     "title": "Som tam, ensalada picante machacada",
+     "intro": "Juliana crujiente machacada en el mortero con lima, salsa de pescado y guindilla.",
+     "ing": [
+      "zanahorias",
+      "pepinos",
+      "dientes de ajo",
+      "guindillas tailandesas",
+      "judías verdes",
+      "tomates cherry",
+      "salsa de pescado",
+      "limas",
+      "azúcar de palma o moreno",
+      "cacahuetes tostados"
+     ],
+     "steps": [
+      "Corta las zanahorias y los pepinos sin semillas en juliana larga y fina, con pelador de juliana o cuchillo.",
+      "Corta las judías en trozos de 3 cm y los tomates por la mitad. Exprime las limas.",
+      "En un mortero grande machaca el ajo y las guindillas hasta una pasta gruesa.",
+      "Añade las judías y aplástalas un poco; luego los tomates, machacando suave para que suelten su jugo.",
+      "Añade el azúcar, la salsa de pescado y el zumo de lima y remueve con una cuchara hasta disolver el azúcar.",
+      "Añade la juliana y la mitad del cacahuete: machaca suave y da vueltas con la cuchara 1 minuto para que absorba el aliño.",
+      "Prueba: ácido, salado, dulce y picante deben estar equilibrados. Sirve enseguida con el resto del cacahuete."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "La auténtica som tam lleva papaya verde de las tiendas asiáticas: pélala y córtala en juliana como la zanahoria.",
+      "Versión vegana: salsa de soja en lugar de la de pescado (ya no es sin gluten).",
+      "Como en Isan: con larb y arroz glutinoso, para comer con las manos."
+     ]
+    },
+    "de": {
+     "title": "Som Tam, scharfer Stampfsalat",
+     "intro": "Knackige Julienne, im Mörser mit Limette, Fischsauce und Chili gestampft.",
+     "ing": [
+      "Karotten",
+      "Gurken",
+      "Knoblauchzehen",
+      "Thai-Chilis",
+      "grüne Bohnen",
+      "Kirschtomaten",
+      "Fischsauce",
+      "Limetten",
+      "Palm- oder brauner Zucker",
+      "geröstete Erdnüsse"
+     ],
+     "steps": [
+      "Schneide Karotten und entkernte Gurken mit dem Julienneschäler oder Messer in lange, feine Streifen.",
+      "Schneide die Bohnen in 3-cm-Stücke und halbiere die Tomaten. Press die Limetten aus.",
+      "Zerstampf Knoblauch und Chilis in einem großen Mörser zu einer groben Paste.",
+      "Gib die Bohnen dazu und quetsch sie leicht an, dann die Tomaten, die du sanft stampfst, damit sie Saft abgeben.",
+      "Gib Zucker, Fischsauce und Limettensaft dazu und rühr mit einem Löffel, bis sich der Zucker gelöst hat.",
+      "Gib die Julienne und die Hälfte der Erdnüsse dazu, stampf leicht und wende alles 1 Minute mit dem Löffel, damit es das Dressing aufnimmt.",
+      "Schmeck ab: Sauer, salzig, süß und scharf sollen sich die Waage halten. Serviere alles sofort mit den restlichen Erdnüssen."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Echte Som Tam macht man mit grüner Papaya aus dem Asialaden: schälen und wie die Karotten in Streifen schneiden.",
+      "Vegane Version: Sojasauce statt Fischsauce (dann nicht mehr glutenfrei).",
+      "Wie im Isan: mit Larb und Klebreis, mit den Händen gegessen."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair",
+     "link": "khao-niao"
+    }
+   ]
+  },
+  {
+   "id": "larb-gai",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 30,
+   "diff": 1,
+   "kcal": 250,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "glutinous-rice"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "ground-chicken"
+    },
+    {
+     "q": 4,
+     "u": "tbsp",
+     "k": "water"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "shallots"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 2,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "chili-flakes"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "spring-onions"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "mint"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "lettuce"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 420
+    },
+    {},
+    {},
+    {
+     "timer": 360
+    },
+    {},
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Larb gai, insalata tiepida di pollo",
+     "intro": "Pollo tritato con lime, menta e riso tostato in polvere: aspro, piccante e croccante.",
+     "ing": [
+      "riso glutinoso crudo",
+      "macinato di pollo",
+      "acqua",
+      "scalogni",
+      "salsa di pesce",
+      "lime",
+      "peperoncino in fiocchi",
+      "cipollotti",
+      "menta fresca",
+      "coriandolo fresco",
+      "cespo di lattuga"
+     ],
+     "steps": [
+      "Tosta il riso glutinoso in una padella asciutta a fuoco medio per 7 minuti, scuotendo, finché è dorato scuro e profuma.",
+      "Fallo raffreddare e riducilo in polvere grossolana nel mortaio o nel macinino. È il khao khua.",
+      "Affetta sottili gli scalogni e i cipollotti, spremi i lime e sfoglia menta e coriandolo.",
+      "Cuoci il pollo con l'acqua in padella a fuoco medio per 6 minuti, sgranandolo, finché è cotto e non più rosa.",
+      "Fuori dal fuoco aggiungi salsa di pesce, succo di lime, peperoncino e scalogni e mescola.",
+      "Unisci 2 cucchiai di khao khua, cipollotti, menta e coriandolo. Assaggia: deve essere aspro, sapido e piccante.",
+      "Servi tiepido con le foglie di lattuga per avvolgerlo e il resto della polvere di riso sopra."
+     ],
+     "labels": [
+      "Riso tostato",
+      "",
+      "",
+      "Pollo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Si mangia con riso glutinoso e una som tam: una pallina di riso, un po' di larb, una foglia.",
+      "Prepara il khao khua in quantità: in un barattolo chiuso si conserva un mese.",
+      "Con macinato di maiale diventa larb moo, l'altro grande classico dell'Isan."
+     ]
+    },
+    "en": {
+     "title": "Larb gai, warm minced chicken salad",
+     "intro": "Minced chicken with lime, mint and toasted rice powder: sour, spicy and nutty.",
+     "ing": [
+      "uncooked sticky rice",
+      "ground chicken",
+      "water",
+      "shallots",
+      "fish sauce",
+      "limes",
+      "chili flakes",
+      "spring onions",
+      "fresh mint",
+      "fresh cilantro",
+      "head of lettuce"
+     ],
+     "steps": [
+      "Toast the sticky rice in a dry pan over medium heat for 7 minutes, shaking, until deep golden and fragrant.",
+      "Let it cool and grind to a coarse powder in a mortar or spice grinder. This is khao khua.",
+      "Thinly slice the shallots and spring onions, juice the limes and pick the mint and cilantro leaves.",
+      "Cook the chicken with the water in a pan over medium heat for 6 minutes, breaking it up, until cooked through with no pink.",
+      "Off the heat add the fish sauce, lime juice, chili flakes and shallots and mix.",
+      "Stir in 2 tbsp khao khua, the spring onions, mint and cilantro. Taste: it should be sour, salty and hot.",
+      "Serve warm with lettuce leaves for wrapping and the rest of the rice powder on top."
+     ],
+     "labels": [
+      "Toast rice",
+      "",
+      "",
+      "Chicken",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Eat it with sticky rice and som tam: a ball of rice, a bit of larb, a lettuce leaf.",
+      "Make a big batch of khao khua: it keeps for a month in a sealed jar.",
+      "Made with ground pork it becomes larb moo, the other great Isan classic."
+     ]
+    },
+    "fr": {
+     "title": "Larb gai, salade tiède de poulet",
+     "intro": "Poulet haché au citron vert, à la menthe et à la poudre de riz grillé : acidulé et relevé.",
+     "ing": [
+      "riz gluant cru",
+      "poulet haché",
+      "eau",
+      "échalotes",
+      "nuoc-mâm",
+      "citrons verts",
+      "piment en flocons",
+      "oignons nouveaux",
+      "menthe fraîche",
+      "coriandre fraîche",
+      "laitue"
+     ],
+     "steps": [
+      "Fais griller le riz gluant à sec dans une poêle à feu moyen 7 minutes en secouant, jusqu'à ce qu'il soit bien doré et parfumé.",
+      "Laisse refroidir et réduis-le en poudre grossière au mortier ou au moulin. C'est le khao khua.",
+      "Émince finement les échalotes et les oignons nouveaux, presse les citrons verts et effeuille menthe et coriandre.",
+      "Fais cuire le poulet avec l'eau dans une poêle à feu moyen 6 minutes en l'émiettant, jusqu'à ce qu'il ne soit plus rose.",
+      "Hors du feu, ajoute le nuoc-mâm, le jus de citron vert, le piment et les échalotes, et mélange.",
+      "Incorpore 2 c. à soupe de khao khua, les oignons nouveaux, la menthe et la coriandre. Goûte : acide, salé et piquant.",
+      "Sers tiède avec les feuilles de laitue pour l'envelopper et le reste de poudre de riz par-dessus."
+     ],
+     "labels": [
+      "Riz grillé",
+      "",
+      "",
+      "Poulet",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Il se mange avec du riz gluant et une som tam : une boulette de riz, un peu de larb, une feuille.",
+      "Prépare le khao khua en grande quantité : il se garde un mois dans un bocal fermé.",
+      "Avec du porc haché, il devient larb moo, l'autre grand classique de l'Isan."
+     ]
+    },
+    "es": {
+     "title": "Larb gai, ensalada templada de pollo",
+     "intro": "Pollo picado con lima, hierbabuena y arroz tostado molido: ácido, picante y crujiente.",
+     "ing": [
+      "arroz glutinoso crudo",
+      "carne picada de pollo",
+      "agua",
+      "chalotas",
+      "salsa de pescado",
+      "limas",
+      "guindilla en copos",
+      "cebolletas",
+      "hierbabuena fresca",
+      "cilantro fresco",
+      "lechuga"
+     ],
+     "steps": [
+      "Tuesta el arroz glutinoso en una sartén sin aceite a fuego medio 7 minutos, moviéndolo, hasta que esté dorado oscuro y huela.",
+      "Déjalo enfriar y muélelo grueso en el mortero o el molinillo. Es el khao khua.",
+      "Corta fino la chalota y la cebolleta, exprime las limas y deshoja la hierbabuena y el cilantro.",
+      "Cocina el pollo con el agua en una sartén a fuego medio 6 minutos, desmenuzándolo, hasta que esté hecho y nada rosado.",
+      "Fuera del fuego añade la salsa de pescado, el zumo de lima, la guindilla y la chalota y mezcla.",
+      "Añade 2 cucharadas de khao khua, la cebolleta, la hierbabuena y el cilantro. Prueba: ácido, salado y picante.",
+      "Sirve templado con las hojas de lechuga para envolverlo y el resto del arroz molido por encima."
+     ],
+     "labels": [
+      "Arroz tostado",
+      "",
+      "",
+      "Pollo",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Se come con arroz glutinoso y som tam: una bolita de arroz, un poco de larb, una hoja.",
+      "Haz khao khua de sobra: se conserva un mes en un tarro cerrado.",
+      "Con carne picada de cerdo es larb moo, el otro gran clásico de Isan."
+     ]
+    },
+    "de": {
+     "title": "Larb Gai, lauwarmer Hähnchensalat",
+     "intro": "Hackfleisch vom Huhn mit Limette, Minze und geröstetem Reispulver: sauer, scharf, nussig.",
+     "ing": [
+      "roher Klebreis",
+      "Hähnchenhackfleisch",
+      "Wasser",
+      "Schalotten",
+      "Fischsauce",
+      "Limetten",
+      "Chiliflocken",
+      "Frühlingszwiebeln",
+      "frische Minze",
+      "frischer Koriander",
+      "Kopfsalat"
+     ],
+     "steps": [
+      "Röste den Klebreis in einer trockenen Pfanne bei mittlerer Hitze 7 Minuten unter Schwenken, bis er tiefgolden ist und duftet.",
+      "Lass ihn abkühlen und mahl ihn im Mörser oder in der Gewürzmühle grob. Das ist Khao Khua.",
+      "Schneide Schalotten und Frühlingszwiebeln in feine Ringe, press die Limetten aus und zupf Minze und Koriander.",
+      "Gar das Hackfleisch mit dem Wasser in einer Pfanne bei mittlerer Hitze 6 Minuten, zerkrümel es, bis nichts mehr rosa ist.",
+      "Nimm die Pfanne vom Herd, gib Fischsauce, Limettensaft, Chiliflocken und Schalotten dazu und misch alles.",
+      "Rühr 2 EL Khao Khua, Frühlingszwiebeln, Minze und Koriander unter und schmeck ab: sauer, salzig und scharf.",
+      "Serviere den Larb lauwarm mit Salatblättern zum Einwickeln und dem restlichen Reispulver darüber."
+     ],
+     "labels": [
+      "Reis rösten",
+      "",
+      "",
+      "Hähnchen",
+      "",
+      "",
+      ""
+     ],
+     "tips": [
+      "Dazu Klebreis und Som Tam: ein Reisbällchen, etwas Larb, ein Salatblatt.",
+      "Mach gleich mehr Khao Khua: Im verschlossenen Glas hält es einen Monat.",
+      "Mit Schweinehack wird daraus Larb Moo, der andere große Isan-Klassiker."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "pair",
+     "link": "khao-niao"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  },
+  {
+   "id": "gaeng-khiao-wan-gai",
+   "cat": "secondi",
+   "sub": "carne",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 2,
+   "kcal": 490,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 600,
+     "u": "g",
+     "k": "chicken-thighs"
+    },
+    {
+     "q": 800,
+     "u": "ml",
+     "k": "coconut-milk"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "green-curry-paste"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    },
+    {
+     "q": 300,
+     "u": "g",
+     "k": "eggplants"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "bamboo-shoots"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "kaffir-lime-leaves"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "brown-sugar"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "fresh-chilies"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "thai-basil"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 180
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 720
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Gaeng khiao wan gai, curry verde",
+     "intro": "Pollo e melanzane nel latte di cocco con pasta di curry verde, basilico e lime kaffir.",
+     "ing": [
+      "sovracosce di pollo disossate",
+      "latte di cocco",
+      "pasta di curry verde thai",
+      "olio di semi",
+      "melanzane",
+      "germogli di bambù sgocciolati",
+      "foglie di lime kaffir",
+      "salsa di pesce",
+      "zucchero di palma o di canna",
+      "peperoncino rosso lungo",
+      "foglie di basilico thai"
+     ],
+     "steps": [
+      "Taglia la melanzana a tocchetti di 3 cm e il pollo a fettine sottili.",
+      "In un wok scalda l'olio con 150 ml della parte più densa del latte di cocco e cuoci 3 minuti, finché l'olio si separa.",
+      "Aggiungi la pasta di curry e friggila 2 minuti mescolando, finché profuma molto.",
+      "Unisci il pollo, giralo bene nella pasta e cuoci 3 minuti.",
+      "Versa il resto del cocco, unisci melanzana, bambù, foglie di lime spezzate, salsa di pesce e zucchero e cuoci 12 minuti a fuoco medio.",
+      "Controlla che la melanzana sia morbida e il pollo cotto, poi aggiusta di salsa di pesce e zucchero.",
+      "Spegni, unisci il basilico e il peperoncino a striscioline e servi subito."
+     ],
+     "labels": [
+      "",
+      "Cocco",
+      "Pasta curry",
+      "Pollo",
+      "Curry",
+      "",
+      ""
+     ],
+     "tips": [
+      "Servilo con riso jasmine al vapore: il curry è brodoso e va raccolto col riso.",
+      "Le paste pronte cambiano molto di piccantezza: parti da 2 cucchiai e aggiungi dopo aver assaggiato.",
+      "Con le melanzane thai tonde e verdi dei negozi asiatici, tagliate in quattro, è come a Bangkok."
+     ]
+    },
+    "en": {
+     "title": "Gaeng khiao wan gai, green curry",
+     "intro": "Chicken and eggplant in coconut milk with green curry paste, Thai basil and makrut lime.",
+     "ing": [
+      "boneless chicken thighs",
+      "coconut milk",
+      "Thai green curry paste",
+      "neutral oil",
+      "eggplant",
+      "drained bamboo shoots",
+      "makrut lime leaves",
+      "fish sauce",
+      "palm or brown sugar",
+      "long red chili",
+      "Thai basil leaves"
+     ],
+     "steps": [
+      "Cut the eggplant into 3 cm chunks and the chicken into thin slices.",
+      "In a wok heat the oil with 150 ml of the thickest coconut cream from the can and cook 3 minutes, until the oil separates.",
+      "Add the curry paste and fry for 2 minutes, stirring, until very fragrant.",
+      "Add the chicken, turn it well in the paste and cook for 3 minutes.",
+      "Pour in the rest of the coconut milk, add the eggplant, bamboo, torn lime leaves, fish sauce and sugar and simmer 12 minutes.",
+      "Check the eggplant is soft and the chicken cooked through, then adjust with fish sauce and sugar.",
+      "Turn off the heat, stir in the basil and sliced chili and serve straight away."
+     ],
+     "labels": [
+      "",
+      "Coconut",
+      "Curry paste",
+      "Chicken",
+      "Curry",
+      "",
+      ""
+     ],
+     "tips": [
+      "Serve with steamed jasmine rice: the curry is soupy and meant to be spooned over it.",
+      "Ready-made pastes vary a lot in heat: start with 2 tbsp and add more after tasting.",
+      "With the small round green Thai eggplants from Asian shops, quartered, it tastes like Bangkok."
+     ]
+    },
+    "fr": {
+     "title": "Gaeng khiao wan gai, curry vert",
+     "intro": "Poulet et aubergine au lait de coco, curry vert, basilic thaï et feuilles de combava.",
+     "ing": [
+      "hauts de cuisse de poulet désossés",
+      "lait de coco",
+      "pâte de curry vert thaï",
+      "huile neutre",
+      "aubergine",
+      "pousses de bambou égouttées",
+      "feuilles de combava",
+      "nuoc-mâm",
+      "sucre de palme ou roux",
+      "long piment rouge",
+      "feuilles de basilic thaï"
+     ],
+     "steps": [
+      "Coupe l'aubergine en dés de 3 cm et le poulet en fines lamelles.",
+      "Dans un wok, chauffe l'huile avec 150 ml de la crème de coco la plus épaisse et cuis 3 minutes, jusqu'à ce que l'huile se sépare.",
+      "Ajoute la pâte de curry et fais-la revenir 2 minutes en remuant, jusqu'à ce qu'elle embaume.",
+      "Ajoute le poulet, enrobe-le bien de pâte et cuis 3 minutes.",
+      "Verse le reste du lait de coco, ajoute aubergine, bambou, feuilles de combava déchirées, nuoc-mâm et sucre, et laisse mijoter 12 minutes.",
+      "Vérifie que l'aubergine est tendre et le poulet bien cuit, puis rectifie avec nuoc-mâm et sucre.",
+      "Éteins, ajoute le basilic et le piment émincé, et sers aussitôt."
+     ],
+     "labels": [
+      "",
+      "Coco",
+      "Pâte de curry",
+      "Poulet",
+      "Curry",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sers-le avec du riz jasmin vapeur : le curry est liquide et se mange avec le riz.",
+      "Les pâtes du commerce varient beaucoup en piquant : commence par 2 c. à soupe et ajuste après avoir goûté.",
+      "Avec les petites aubergines thaïes rondes et vertes des épiceries asiatiques, coupées en quatre, c'est comme à Bangkok."
+     ]
+    },
+    "es": {
+     "title": "Gaeng khiao wan gai, curry verde",
+     "intro": "Pollo y berenjena en leche de coco con curry verde, albahaca tailandesa y lima kaffir.",
+     "ing": [
+      "contramuslos de pollo deshuesados",
+      "leche de coco",
+      "pasta de curry verde tailandés",
+      "aceite de girasol",
+      "berenjena",
+      "brotes de bambú escurridos",
+      "hojas de lima kaffir",
+      "salsa de pescado",
+      "azúcar de palma o moreno",
+      "guindilla roja larga",
+      "hojas de albahaca tailandesa"
+     ],
+     "steps": [
+      "Corta la berenjena en dados de 3 cm y el pollo en tiras finas.",
+      "En un wok calienta el aceite con 150 ml de la parte más espesa de la leche de coco y cuece 3 minutos, hasta que se separe el aceite.",
+      "Añade la pasta de curry y sofríela 2 minutos removiendo, hasta que huela mucho.",
+      "Añade el pollo, rebózalo bien en la pasta y cocina 3 minutos.",
+      "Vierte el resto de la leche de coco, añade berenjena, bambú, hojas de lima rotas, salsa de pescado y azúcar y cuece 12 minutos.",
+      "Comprueba que la berenjena esté tierna y el pollo hecho, y ajusta de salsa de pescado y azúcar.",
+      "Apaga, añade la albahaca y la guindilla en tiras y sirve enseguida."
+     ],
+     "labels": [
+      "",
+      "Coco",
+      "Pasta curry",
+      "Pollo",
+      "Curry",
+      "",
+      ""
+     ],
+     "tips": [
+      "Sírvelo con arroz jazmín al vapor: el curry es caldoso y se toma con el arroz.",
+      "Las pastas compradas pican muy distinto: empieza con 2 cucharadas y añade tras probar.",
+      "Con las berenjenas tailandesas redondas y verdes de las tiendas asiáticas, en cuartos, sabe a Bangkok."
+     ]
+    },
+    "de": {
+     "title": "Gaeng Khiao Wan Gai, grünes Curry",
+     "intro": "Hähnchen und Aubergine in Kokosmilch mit grüner Currypaste, Basilikum und Kaffirblättern.",
+     "ing": [
+      "Hähnchenschenkel ohne Knochen",
+      "Kokosmilch",
+      "grüne Thai-Currypaste",
+      "neutrales Öl",
+      "Aubergine",
+      "abgetropfte Bambussprossen",
+      "Kaffirlimettenblätter",
+      "Fischsauce",
+      "Palm- oder brauner Zucker",
+      "lange rote Chili",
+      "Thai-Basilikumblätter"
+     ],
+     "steps": [
+      "Schneide die Aubergine in 3-cm-Stücke und das Hähnchen in dünne Streifen.",
+      "Erhitz im Wok das Öl mit 150 ml der dicksten Kokoscreme aus der Dose und koch sie 3 Minuten, bis sich das Fett absetzt.",
+      "Gib die Currypaste dazu und brate sie 2 Minuten unter Rühren, bis sie intensiv duftet.",
+      "Gib das Hähnchen dazu, wende es gut in der Paste und gare es 3 Minuten.",
+      "Gieß die restliche Kokosmilch an, gib Aubergine, Bambus, zerrupfte Limettenblätter, Fischsauce und Zucker dazu und lass alles 12 Minuten köcheln.",
+      "Prüf, ob die Aubergine weich und das Hähnchen durch ist, und schmeck mit Fischsauce und Zucker ab.",
+      "Schalt den Herd aus, rühr Basilikum und Chilistreifen unter und serviere das Curry sofort."
+     ],
+     "labels": [
+      "",
+      "Kokos",
+      "Currypaste",
+      "Hähnchen",
+      "Curry",
+      "",
+      ""
+     ],
+     "tips": [
+      "Dazu gedämpfter Jasminreis: Das Curry ist flüssig und wird über den Reis gelöffelt.",
+      "Fertige Pasten sind sehr unterschiedlich scharf: Fang mit 2 EL an und gib nach dem Probieren mehr dazu.",
+      "Mit den kleinen runden grünen Thai-Auberginen aus dem Asialaden, geviertelt, schmeckt es wie in Bangkok."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "pair"
+    },
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  },
+  {
+   "id": "phat-kaphrao-nuea",
+   "cat": "unici",
+   "sub": "street",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 1,
+   "kcal": 650,
+   "diet": [
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 300,
+     "u": "g",
+     "k": "jasmine-rice"
+    },
+    {
+     "q": 450,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 500,
+     "u": "g",
+     "k": "ground-beef"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "birds-eye-chilies"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "oyster-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "water"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "thai-basil"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "eggs"
+    },
+    {
+     "q": 6,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 720,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 90
+    },
+    {},
+    {
+     "timer": 240
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Phat kaphrao, manzo al basilico e uovo",
+     "intro": "Manzo saltato con aglio, peperoncino e basilico, su riso jasmine con uovo fritto.",
+     "ing": [
+      "riso jasmine",
+      "acqua per il riso",
+      "macinato di manzo",
+      "spicchi d'aglio",
+      "peperoncini thai",
+      "salsa di ostriche",
+      "salsa di soia",
+      "salsa di pesce",
+      "zucchero",
+      "acqua",
+      "foglie di basilico thai (o sacro)",
+      "uova",
+      "olio di semi"
+     ],
+     "steps": [
+      "Sciacqua il riso finché l'acqua è limpida, mettilo con 450 ml d'acqua in una pentola coperta e cuoci 12 minuti a fuoco minimo, poi spegni.",
+      "Intanto pesta aglio e peperoncini nel mortaio e mescola in una tazza salsa di ostriche, soia, salsa di pesce, zucchero e 3 cucchiai d'acqua.",
+      "Scalda 4 cucchiai d'olio nel wok finché è molto caldo e friggi un uovo alla volta per 90 secondi, bagnandolo d'olio, finché il bordo è croccante.",
+      "Togli l'olio lasciandone 2 cucchiai, poi friggi la pasta di aglio e peperoncino per 20 secondi, finché profuma. Attento ai fumi piccanti.",
+      "Aggiungi il manzo e salta a fiamma alta per 4 minuti, sgranandolo, finché è ben rosolato.",
+      "Versa la salsa e salta 1 minuto finché è lucida. Spegni, unisci il basilico e giralo finché appassisce.",
+      "Servi su piatti di riso con un uovo fritto sopra ogni porzione."
+     ],
+     "labels": [
+      "Riso",
+      "",
+      "Uovo",
+      "",
+      "Manzo",
+      "",
+      ""
+     ],
+     "tips": [
+      "Il vero kaphrao è il basilico sacro, pepato: lo trovi fresco nei negozi thai. Il basilico thai è il sostituto.",
+      "In tavola metti prik nam pla: salsa di pesce con peperoncini thai e aglio tritati, per chi lo vuole più forte.",
+      "Con pollo tritato è phat kaphrao gai, il piatto più ordinato nelle cucine di strada di Bangkok."
+     ]
+    },
+    "en": {
+     "title": "Phat kaphrao, holy basil beef with egg",
+     "intro": "Beef stir-fried with garlic, chili and basil, over jasmine rice with a crisp fried egg.",
+     "ing": [
+      "jasmine rice",
+      "water for the rice",
+      "ground beef",
+      "garlic cloves",
+      "Thai chilies",
+      "oyster sauce",
+      "soy sauce",
+      "fish sauce",
+      "sugar",
+      "water",
+      "Thai or holy basil leaves",
+      "eggs",
+      "neutral oil"
+     ],
+     "steps": [
+      "Rinse the rice until the water runs clear, put it in a covered pan with 450 ml water and cook 12 minutes on the lowest heat, then turn off.",
+      "Meanwhile pound the garlic and chilies in a mortar, and mix the oyster sauce, soy, fish sauce, sugar and 3 tbsp water in a cup.",
+      "Heat 4 tbsp oil in the wok until very hot and fry one egg at a time for 90 seconds, basting with oil, until the edges are crisp.",
+      "Pour off the oil leaving 2 tbsp, then fry the garlic-chili paste for 20 seconds, until fragrant. Mind the spicy fumes.",
+      "Add the beef and stir-fry over high heat for 4 minutes, breaking it up, until well browned.",
+      "Pour in the sauce and toss for 1 minute until glossy. Turn off the heat, add the basil and toss until wilted.",
+      "Serve over plates of rice with a fried egg on top of each portion."
+     ],
+     "labels": [
+      "Rice",
+      "",
+      "Egg",
+      "",
+      "Beef",
+      "",
+      ""
+     ],
+     "tips": [
+      "Real kaphrao is peppery holy basil, sold fresh in Thai shops. Thai basil is the closest stand-in.",
+      "Put out prik nam pla: fish sauce with chopped Thai chilies and garlic, for anyone who wants more heat.",
+      "With minced chicken it's phat kaphrao gai, the most ordered dish at Bangkok's street stalls."
+     ]
+    },
+    "fr": {
+     "title": "Phat kaphrao, bœuf au basilic et œuf",
+     "intro": "Bœuf sauté à l'ail, au piment et au basilic, sur riz jasmin avec un œuf frit croustillant.",
+     "ing": [
+      "riz jasmin",
+      "eau pour le riz",
+      "bœuf haché",
+      "gousses d'ail",
+      "piments oiseaux",
+      "sauce d'huître",
+      "sauce soja",
+      "nuoc-mâm",
+      "sucre",
+      "eau",
+      "feuilles de basilic thaï (ou sacré)",
+      "œufs",
+      "huile neutre"
+     ],
+     "steps": [
+      "Rince le riz jusqu'à ce que l'eau soit claire, mets-le avec 450 ml d'eau dans une casserole couverte et cuis 12 minutes à feu très doux.",
+      "Pendant ce temps, pile l'ail et les piments, et mélange dans une tasse sauce d'huître, soja, nuoc-mâm, sucre et 3 c. à soupe d'eau.",
+      "Chauffe 4 c. à soupe d'huile dans le wok jusqu'à ce qu'elle soit très chaude et fais frire un œuf à la fois 90 secondes, bords croustillants.",
+      "Retire l'huile en en laissant 2 c. à soupe, puis fais revenir la pâte ail-piment 20 secondes. Attention aux vapeurs piquantes.",
+      "Ajoute le bœuf et fais-le sauter à feu vif 4 minutes en l'émiettant, jusqu'à ce qu'il soit bien doré.",
+      "Verse la sauce et fais sauter 1 minute jusqu'à ce que ce soit brillant. Éteins, ajoute le basilic et remue jusqu'à ce qu'il tombe.",
+      "Sers sur des assiettes de riz avec un œuf frit sur chaque portion."
+     ],
+     "labels": [
+      "Riz",
+      "",
+      "Œuf",
+      "",
+      "Bœuf",
+      "",
+      ""
+     ],
+     "tips": [
+      "Le vrai kaphrao, c'est le basilic sacré, poivré, frais dans les épiceries thaïes. Le basilic thaï le remplace.",
+      "Mets sur la table du prik nam pla : nuoc-mâm, piments oiseaux et ail hachés, pour qui en veut plus.",
+      "Avec du poulet haché, c'est le phat kaphrao gai, le plat le plus commandé dans les rues de Bangkok."
+     ]
+    },
+    "es": {
+     "title": "Phat kaphrao, ternera a la albahaca",
+     "intro": "Ternera salteada con ajo, guindilla y albahaca, sobre arroz jazmín con huevo frito.",
+     "ing": [
+      "arroz jazmín",
+      "agua para el arroz",
+      "carne picada de ternera",
+      "dientes de ajo",
+      "guindillas tailandesas",
+      "salsa de ostras",
+      "salsa de soja",
+      "salsa de pescado",
+      "azúcar",
+      "agua",
+      "hojas de albahaca tailandesa (o sagrada)",
+      "huevos",
+      "aceite de girasol"
+     ],
+     "steps": [
+      "Lava el arroz hasta que el agua salga clara, ponlo con 450 ml de agua en una olla tapada y cuece 12 minutos a fuego mínimo; luego apaga.",
+      "Mientras, machaca el ajo y las guindillas y mezcla en una taza la salsa de ostras, la soja, la de pescado, el azúcar y 3 cucharadas de agua.",
+      "Calienta 4 cucharadas de aceite en el wok hasta que esté muy caliente y fríe un huevo cada vez 90 segundos, regándolo, hasta que tenga puntilla.",
+      "Retira el aceite dejando 2 cucharadas y sofríe la pasta de ajo y guindilla 20 segundos, hasta que huela. Cuidado con el humo picante.",
+      "Añade la ternera y saltea a fuego vivo 4 minutos, desmenuzándola, hasta que esté bien dorada.",
+      "Vierte la salsa y saltea 1 minuto hasta que brille. Apaga, añade la albahaca y remueve hasta que se ablande.",
+      "Sirve sobre platos de arroz con un huevo frito encima de cada ración."
+     ],
+     "labels": [
+      "Arroz",
+      "",
+      "Huevo",
+      "",
+      "Ternera",
+      "",
+      ""
+     ],
+     "tips": [
+      "El auténtico kaphrao es la albahaca sagrada, picante, fresca en tiendas tailandesas. La tailandesa la sustituye.",
+      "Pon en la mesa prik nam pla: salsa de pescado con guindillas y ajo picados, para quien quiera más picante.",
+      "Con pollo picado es phat kaphrao gai, el plato más pedido en los puestos callejeros de Bangkok."
+     ]
+    },
+    "de": {
+     "title": "Phat Kaphrao, Rind mit Basilikum und Ei",
+     "intro": "Rind, gebraten mit Knoblauch, Chili und Basilikum, auf Jasminreis mit Spiegelei.",
+     "ing": [
+      "Jasminreis",
+      "Wasser für den Reis",
+      "Rinderhackfleisch",
+      "Knoblauchzehen",
+      "Thai-Chilis",
+      "Austernsauce",
+      "Sojasauce",
+      "Fischsauce",
+      "Zucker",
+      "Wasser",
+      "Thai- oder Heiliges Basilikum",
+      "Eier",
+      "neutrales Öl"
+     ],
+     "steps": [
+      "Wasch den Reis, bis das Wasser klar ist, gib ihn mit 450 ml Wasser in einen Topf mit Deckel und gare ihn 12 Minuten auf kleinster Stufe.",
+      "Zerstampf inzwischen Knoblauch und Chilis im Mörser und verrühr Austernsauce, Soja, Fischsauce, Zucker und 3 EL Wasser in einer Tasse.",
+      "Erhitz 4 EL Öl im Wok sehr stark und brate jeweils ein Ei 90 Sekunden, mit Öl begießen, bis der Rand knusprig und das Eigelb flüssig ist.",
+      "Gieß das Öl bis auf 2 EL ab und brate die Knoblauch-Chili-Paste 20 Sekunden, bis sie duftet. Vorsicht, scharfe Dämpfe.",
+      "Gib das Hackfleisch dazu und brate es bei starker Hitze 4 Minuten krümelig und kräftig braun.",
+      "Gieß die Sauce dazu und schwenk alles 1 Minute, bis es glänzt. Schalt aus, gib das Basilikum dazu und rühr, bis es zusammenfällt.",
+      "Serviere alles auf Tellern mit Reis und leg auf jede Portion ein Spiegelei."
+     ],
+     "labels": [
+      "Reis",
+      "",
+      "Ei",
+      "",
+      "Rind",
+      "",
+      ""
+     ],
+     "tips": [
+      "Echtes Kaphrao ist pfeffriges Heiliges Basilikum aus dem Thai-Laden. Thai-Basilikum ist der beste Ersatz.",
+      "Stell Prik Nam Pla dazu: Fischsauce mit gehackten Thai-Chilis und Knoblauch, für alle, die es schärfer mögen.",
+      "Mit Hähnchenhack ist es Phat Kaphrao Gai, das meistbestellte Gericht an Bangkoks Straßenständen."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  },
+  {
+   "id": "tom-yam-kung",
+   "cat": "primi",
+   "sub": "zuppe",
+   "servings": 4,
+   "minutes": 35,
+   "diff": 2,
+   "kcal": 170,
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "healthy"
+   ],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 500,
+     "u": "g",
+     "k": "shrimp"
+    },
+    {
+     "q": 1200,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "lemongrass"
+    },
+    {
+     "q": 30,
+     "u": "g",
+     "k": "galangal"
+    },
+    {
+     "q": 6,
+     "u": "",
+     "k": "kaffir-lime-leaves"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "mushrooms"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "cherry-tomatoes"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "birds-eye-chilies"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "thai-chili-paste"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "fish-sauce"
+    },
+    {
+     "q": 3,
+     "u": "",
+     "k": "limes"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "cilantro"
+    }
+   ],
+   "steps": [
+    {},
+    {
+     "timer": 900,
+     "bg": true
+    },
+    {},
+    {
+     "timer": 300
+    },
+    {
+     "timer": 180
+    },
+    {
+     "timer": 120
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Tom yam kung, zuppa piccante di gamberi",
+     "intro": "Brodo di gamberi con citronella, galanga e lime kaffir: aspro, piccante e profumatissimo.",
+     "ing": [
+      "gamberi crudi interi",
+      "acqua",
+      "gambi di citronella",
+      "galanga (o zenzero)",
+      "foglie di lime kaffir",
+      "funghi pleurotus o champignon",
+      "pomodorini",
+      "peperoncini thai",
+      "pasta di peperoncino thai (nam prik pao)",
+      "salsa di pesce",
+      "lime",
+      "coriandolo fresco"
+     ],
+     "steps": [
+      "Sguscia i gamberi lasciando la coda, togli il filo nero e tieni da parte teste e gusci.",
+      "Fai sobbollire teste e gusci nell'acqua per 15 minuti, poi filtra il brodo.",
+      "Intanto schiaccia la citronella e tagliala a pezzi di 4 cm, affetta la galanga, spezza le foglie di lime e schiaccia i peperoncini.",
+      "Riporta il brodo a bollore con citronella, galanga e foglie di lime e fai sobbollire 5 minuti.",
+      "Aggiungi funghi e pomodorini a metà e cuoci 3 minuti.",
+      "Unisci i gamberi e cuoci 2 minuti, finché sono appena rosa e arricciati. Spegni il fuoco.",
+      "A fuoco spento unisci salsa di pesce, pasta di peperoncino, succo di lime e peperoncini. Assaggia: deve essere aspra e piccante.",
+      "Servi bollente con coriandolo. Citronella, galanga e foglie servono solo a profumare: non si mangiano."
+     ],
+     "labels": [
+      "",
+      "Brodo",
+      "",
+      "Aromi",
+      "Funghi",
+      "Gamberi",
+      "",
+      ""
+     ],
+     "tips": [
+      "Il lime va aggiunto a fuoco spento: se bolle diventa amaro e perde profumo.",
+      "Per la versione cremosa, tom yam nam khon, aggiungi alla fine 100 ml di latte evaporato o di cocco.",
+      "Con una ciotola di riso jasmine accanto diventa una cena completa."
+     ]
+    },
+    "en": {
+     "title": "Tom yam kung, hot and sour prawn soup",
+     "intro": "Prawn broth with lemongrass, galangal and makrut lime: sour, hot and deeply fragrant.",
+     "ing": [
+      "whole raw prawns",
+      "water",
+      "lemongrass stalks",
+      "galangal (or ginger)",
+      "makrut lime leaves",
+      "oyster or button mushrooms",
+      "cherry tomatoes",
+      "Thai chilies",
+      "Thai chili paste (nam prik pao)",
+      "fish sauce",
+      "limes",
+      "fresh cilantro"
+     ],
+     "steps": [
+      "Peel the prawns leaving the tails on, devein them and keep the heads and shells.",
+      "Simmer the heads and shells in the water for 15 minutes, then strain the broth.",
+      "Meanwhile bruise the lemongrass and cut into 4 cm pieces, slice the galangal, tear the lime leaves and crush the chilies.",
+      "Bring the broth back to a boil with the lemongrass, galangal and lime leaves and simmer 5 minutes.",
+      "Add the mushrooms and halved tomatoes and cook for 3 minutes.",
+      "Add the prawns and cook for 2 minutes, until just pink and curled. Turn off the heat.",
+      "Off the heat stir in the fish sauce, chili paste, lime juice and chilies. Taste: it should be sour and hot.",
+      "Serve piping hot with cilantro. The lemongrass, galangal and leaves are only for flavour: don't eat them."
+     ],
+     "labels": [
+      "",
+      "Broth",
+      "",
+      "Aromatics",
+      "Mushrooms",
+      "Prawns",
+      "",
+      ""
+     ],
+     "tips": [
+      "Add the lime off the heat: boiled lime juice turns bitter and loses its aroma.",
+      "For the creamy version, tom yam nam khon, stir in 100 ml evaporated or coconut milk at the end.",
+      "With a bowl of jasmine rice on the side it becomes a full dinner."
+     ]
+    },
+    "fr": {
+     "title": "Tom yam kung, soupe aigre-piquante",
+     "intro": "Bouillon de crevettes, citronnelle, galanga et combava : acide, piquant et parfumé.",
+     "ing": [
+      "crevettes crues entières",
+      "eau",
+      "tiges de citronnelle",
+      "galanga (ou gingembre)",
+      "feuilles de combava",
+      "pleurotes ou champignons de Paris",
+      "tomates cerises",
+      "piments oiseaux",
+      "pâte de piment thaïe (nam prik pao)",
+      "nuoc-mâm",
+      "citrons verts",
+      "coriandre fraîche"
+     ],
+     "steps": [
+      "Décortique les crevettes en laissant la queue, retire le boyau et garde têtes et carapaces.",
+      "Fais frémir têtes et carapaces dans l'eau 15 minutes, puis filtre le bouillon.",
+      "Pendant ce temps, écrase la citronnelle et coupe-la en tronçons de 4 cm, tranche le galanga, déchire le combava et écrase les piments.",
+      "Remets le bouillon à bouillir avec citronnelle, galanga et combava, et laisse frémir 5 minutes.",
+      "Ajoute les champignons et les tomates coupées en deux, et cuis 3 minutes.",
+      "Ajoute les crevettes et cuis 2 minutes, jusqu'à ce qu'elles soient juste roses. Éteins le feu.",
+      "Hors du feu, ajoute nuoc-mâm, pâte de piment, jus de citron vert et piments. Goûte : acide et piquant.",
+      "Sers brûlant avec de la coriandre. Citronnelle, galanga et feuilles ne servent qu'à parfumer : on ne les mange pas."
+     ],
+     "labels": [
+      "",
+      "Bouillon",
+      "",
+      "Aromates",
+      "Champignons",
+      "Crevettes",
+      "",
+      ""
+     ],
+     "tips": [
+      "Ajoute le citron vert hors du feu : bouilli, il devient amer et perd son parfum.",
+      "Pour la version crémeuse, tom yam nam khon, ajoute à la fin 100 ml de lait concentré non sucré ou de coco.",
+      "Avec un bol de riz jasmin à côté, c'est un dîner complet."
+     ]
+    },
+    "es": {
+     "title": "Tom yam kung, sopa picante de gambas",
+     "intro": "Caldo de gambas con hierba limón, galanga y lima kaffir: ácido, picante y muy aromático.",
+     "ing": [
+      "gambas crudas enteras",
+      "agua",
+      "tallos de hierba limón",
+      "galanga (o jengibre)",
+      "hojas de lima kaffir",
+      "setas de ostra o champiñones",
+      "tomates cherry",
+      "guindillas tailandesas",
+      "pasta de chile tailandesa (nam prik pao)",
+      "salsa de pescado",
+      "limas",
+      "cilantro fresco"
+     ],
+     "steps": [
+      "Pela las gambas dejando la cola, quítales el hilo negro y guarda las cabezas y las cáscaras.",
+      "Cuece las cabezas y cáscaras en el agua a fuego suave 15 minutos y luego cuela el caldo.",
+      "Mientras, aplasta la hierba limón y córtala en trozos de 4 cm, corta la galanga, rompe las hojas de lima y aplasta las guindillas.",
+      "Vuelve a hervir el caldo con la hierba limón, la galanga y las hojas de lima y cuece 5 minutos.",
+      "Añade las setas y los tomates partidos y cuece 3 minutos.",
+      "Añade las gambas y cuece 2 minutos, hasta que estén justo rosadas. Apaga el fuego.",
+      "Fuera del fuego añade la salsa de pescado, la pasta de chile, el zumo de lima y las guindillas. Prueba: ácida y picante.",
+      "Sirve muy caliente con cilantro. La hierba limón, la galanga y las hojas solo aromatizan: no se comen."
+     ],
+     "labels": [
+      "",
+      "Caldo",
+      "",
+      "Aromáticos",
+      "Setas",
+      "Gambas",
+      "",
+      ""
+     ],
+     "tips": [
+      "Añade la lima fuera del fuego: si hierve, amarga y pierde aroma.",
+      "Para la versión cremosa, tom yam nam khon, añade al final 100 ml de leche evaporada o de coco.",
+      "Con un cuenco de arroz jazmín al lado es una cena completa."
+     ]
+    },
+    "de": {
+     "title": "Tom Yam Kung, scharf-saure Garnelensuppe",
+     "intro": "Garnelenbrühe mit Zitronengras, Galgant und Kaffirlimette: sauer, scharf, aromatisch.",
+     "ing": [
+      "ganze rohe Garnelen",
+      "Wasser",
+      "Stängel Zitronengras",
+      "Galgant (oder Ingwer)",
+      "Kaffirlimettenblätter",
+      "Austernpilze oder Champignons",
+      "Kirschtomaten",
+      "Thai-Chilis",
+      "Thai-Chilipaste (Nam Prik Pao)",
+      "Fischsauce",
+      "Limetten",
+      "frischer Koriander"
+     ],
+     "steps": [
+      "Schäl die Garnelen bis auf den Schwanz, entfern den Darm und heb Köpfe und Schalen auf.",
+      "Lass Köpfe und Schalen 15 Minuten im Wasser sieden und seih die Brühe dann ab.",
+      "Klopf inzwischen das Zitronengras an und schneide es in 4-cm-Stücke, schneide den Galgant, zerreiß die Blätter und quetsch die Chilis.",
+      "Bring die Brühe mit Zitronengras, Galgant und Limettenblättern wieder zum Kochen und lass sie 5 Minuten sieden.",
+      "Gib Pilze und halbierte Tomaten dazu und koch sie 3 Minuten.",
+      "Gib die Garnelen dazu und gar sie 2 Minuten, bis sie gerade rosa sind. Schalt den Herd aus.",
+      "Rühr abseits der Hitze Fischsauce, Chilipaste, Limettensaft und Chilis ein und schmeck ab: Sie soll sauer und scharf sein.",
+      "Serviere die Suppe heiß mit Koriander. Zitronengras, Galgant und Blätter geben nur Aroma und werden nicht gegessen."
+     ],
+     "labels": [
+      "",
+      "Brühe",
+      "",
+      "Aromaten",
+      "Pilze",
+      "Garnelen",
+      "",
+      ""
+     ],
+     "tips": [
+      "Limettensaft erst abseits der Hitze dazugeben: Gekocht wird er bitter und verliert sein Aroma.",
+      "Für die cremige Version, Tom Yam Nam Khon, rühr am Ende 100 ml Kondens- oder Kokosmilch ein.",
+      "Mit einer Schale Jasminreis dazu wird sie zum vollständigen Abendessen."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    },
+    {
+     "k": "pair"
+    }
+   ]
+  },
+  {
+   "id": "phat-phak-ruam",
+   "cat": "contorni",
+   "sub": "verdure",
+   "servings": 4,
+   "minutes": 20,
+   "diff": 1,
+   "kcal": 120,
+   "diet": [
+    "veg",
+    "vegan",
+    "lf"
+   ],
+   "tags": [
+    "healthy",
+    "budget"
+   ],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 250,
+     "u": "g",
+     "k": "broccoli"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "carrots"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "red-bell-peppers"
+    },
+    {
+     "q": 150,
+     "u": "g",
+     "k": "mushrooms"
+    },
+    {
+     "q": 100,
+     "u": "g",
+     "k": "baby-corn"
+    },
+    {
+     "q": 200,
+     "u": "g",
+     "k": "pak-choi"
+    },
+    {
+     "q": 4,
+     "u": "",
+     "k": "garlic"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "soy-sauce"
+    },
+    {
+     "q": 1,
+     "u": "tsp",
+     "k": "sugar"
+    },
+    {
+     "q": 6,
+     "u": "tbsp",
+     "k": "water"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sunflower-oil"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 180
+    },
+    {
+     "timer": 120
+    },
+    {
+     "timer": 60
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Phat phak ruam, verdure miste al wok",
+     "intro": "Verdure miste saltate a fiamma viva con aglio e soia, lucide e croccanti.",
+     "ing": [
+      "cimette di broccoli",
+      "carote",
+      "peperone rosso",
+      "funghi champignon o shiitake",
+      "pannocchiette sgocciolate",
+      "pak choi",
+      "spicchi d'aglio",
+      "salsa di soia",
+      "zucchero",
+      "acqua",
+      "olio di semi"
+     ],
+     "steps": [
+      "Taglia le verdure a bocconi: carote a rondelle oblique, peperone a strisce, funghi a metà, pannocchiette e pak choi a pezzi.",
+      "Mescola in una tazza soia, zucchero e 4 cucchiai d'acqua. Schiaccia l'aglio.",
+      "Scalda l'olio nel wok a fiamma altissima e soffriggi l'aglio per 15 secondi, finché è dorato.",
+      "Aggiungi carote e broccoli con 2 cucchiai d'acqua e salta 3 minuti.",
+      "Unisci peperone, funghi e pannocchiette e salta altri 2 minuti.",
+      "Aggiungi pak choi e salsa e salta 1 minuto, finché le foglie appassiscono e tutto è lucido ma croccante.",
+      "Servi subito, con riso jasmine."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Broccoli",
+      "Verdure",
+      "Pak choi",
+      ""
+     ],
+     "tips": [
+      "Fiamma al massimo e wok non troppo pieno: le verdure devono saltare, non stufare. Per 4, meglio in due volte.",
+      "Nei ristoranti si usa la salsa d'ostriche; la cucina vegana thai (jay) usa la salsa ai funghi dei negozi asiatici."
+     ]
+    },
+    "en": {
+     "title": "Phat phak ruam, mixed vegetable stir-fry",
+     "intro": "Mixed vegetables tossed over fierce heat with garlic and soy, glossy and crisp.",
+     "ing": [
+      "broccoli florets",
+      "carrots",
+      "red bell pepper",
+      "button or shiitake mushrooms",
+      "drained baby corn",
+      "pak choi",
+      "garlic cloves",
+      "soy sauce",
+      "sugar",
+      "water",
+      "neutral oil"
+     ],
+     "steps": [
+      "Cut the vegetables into bite-sized pieces: carrots in diagonal slices, pepper in strips, mushrooms halved, corn and pak choi in chunks.",
+      "Mix the soy sauce, sugar and 4 tbsp water in a cup. Crush the garlic.",
+      "Heat the oil in the wok over the highest heat and fry the garlic for 15 seconds, until golden.",
+      "Add the carrots and broccoli with 2 tbsp water and stir-fry for 3 minutes.",
+      "Add the pepper, mushrooms and baby corn and stir-fry 2 more minutes.",
+      "Add the pak choi and sauce and toss for 1 minute, until the leaves wilt and everything is glossy but crisp.",
+      "Serve straight away, with jasmine rice."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Broccoli",
+      "Vegetables",
+      "Pak choi",
+      ""
+     ],
+     "tips": [
+      "Maximum heat and a wok that isn't crowded: the veg should sear, not stew. For 4, cook in two batches.",
+      "Restaurants use oyster sauce; Thai vegan (jay) cooking uses the mushroom sauce sold in Asian shops."
+     ]
+    },
+    "fr": {
+     "title": "Phat phak ruam, légumes sautés au wok",
+     "intro": "Légumes variés sautés à feu vif avec ail et soja, brillants et croquants.",
+     "ing": [
+      "fleurettes de brocoli",
+      "carottes",
+      "poivron rouge",
+      "champignons de Paris ou shiitakés",
+      "mini-épis de maïs égouttés",
+      "pak-choï",
+      "gousses d'ail",
+      "sauce soja",
+      "sucre",
+      "eau",
+      "huile neutre"
+     ],
+     "steps": [
+      "Coupe les légumes en bouchées : carottes en biseau, poivron en lanières, champignons en deux, maïs et pak-choï en morceaux.",
+      "Mélange dans une tasse la sauce soja, le sucre et 4 c. à soupe d'eau. Écrase l'ail.",
+      "Chauffe l'huile dans le wok à feu très vif et fais revenir l'ail 15 secondes, jusqu'à ce qu'il soit doré.",
+      "Ajoute carottes et brocoli avec 2 c. à soupe d'eau et fais sauter 3 minutes.",
+      "Ajoute poivron, champignons et maïs, et fais sauter encore 2 minutes.",
+      "Ajoute le pak-choï et la sauce et fais sauter 1 minute, jusqu'à ce que les feuilles tombent et que tout brille.",
+      "Sers aussitôt, avec du riz jasmin."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Brocoli",
+      "Légumes",
+      "Pak-choï",
+      ""
+     ],
+     "tips": [
+      "Feu maximal et wok pas trop plein : les légumes doivent sauter, pas mijoter. Pour 4, fais deux fournées.",
+      "Au restaurant, on met de la sauce d'huître ; la cuisine végane thaïe (jay) utilise la sauce aux champignons."
+     ]
+    },
+    "es": {
+     "title": "Phat phak ruam, verduras al wok",
+     "intro": "Verduras variadas salteadas a fuego vivo con ajo y soja, brillantes y crujientes.",
+     "ing": [
+      "ramilletes de brócoli",
+      "zanahorias",
+      "pimiento rojo",
+      "champiñones o shiitakes",
+      "mazorquitas de maíz escurridas",
+      "pak choi",
+      "dientes de ajo",
+      "salsa de soja",
+      "azúcar",
+      "agua",
+      "aceite de girasol"
+     ],
+     "steps": [
+      "Corta las verduras en bocados: zanahoria en rodajas oblicuas, pimiento en tiras, champiñones por la mitad, maíz y pak choi en trozos.",
+      "Mezcla en una taza la soja, el azúcar y 4 cucharadas de agua. Aplasta el ajo.",
+      "Calienta el aceite en el wok a fuego máximo y sofríe el ajo 15 segundos, hasta que esté dorado.",
+      "Añade la zanahoria y el brócoli con 2 cucharadas de agua y saltea 3 minutos.",
+      "Añade el pimiento, los champiñones y el maíz y saltea 2 minutos más.",
+      "Añade el pak choi y la salsa y saltea 1 minuto, hasta que las hojas se ablanden y todo brille sin perder lo crujiente.",
+      "Sirve enseguida, con arroz jazmín."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Brócoli",
+      "Verduras",
+      "Pak choi",
+      ""
+     ],
+     "tips": [
+      "Fuego máximo y wok sin llenar: las verduras deben saltear, no cocerse. Para 4, mejor en dos tandas.",
+      "En los restaurantes usan salsa de ostras; la cocina vegana tailandesa (jay) usa salsa de setas."
+     ]
+    },
+    "de": {
+     "title": "Phat Phak Ruam, Wokgemüse",
+     "intro": "Gemischtes Gemüse, scharf angebraten mit Knoblauch und Soja: glänzend und knackig.",
+     "ing": [
+      "Brokkoliröschen",
+      "Karotten",
+      "rote Paprikaschote",
+      "Champignons oder Shiitake",
+      "abgetropfte Maiskölbchen",
+      "Pak Choi",
+      "Knoblauchzehen",
+      "Sojasauce",
+      "Zucker",
+      "Wasser",
+      "neutrales Öl"
+     ],
+     "steps": [
+      "Schneide das Gemüse mundgerecht: Karotten schräg in Scheiben, Paprika in Streifen, Pilze halbiert, Mais und Pak Choi in Stücke.",
+      "Verrühr Sojasauce, Zucker und 4 EL Wasser in einer Tasse. Zerdrück den Knoblauch.",
+      "Erhitz das Öl im Wok auf höchster Stufe und brate den Knoblauch 15 Sekunden goldgelb.",
+      "Gib Karotten und Brokkoli mit 2 EL Wasser dazu und brate sie 3 Minuten unter Rühren.",
+      "Gib Paprika, Pilze und Maiskölbchen dazu und brate alles weitere 2 Minuten.",
+      "Gib Pak Choi und Sauce dazu und schwenk alles 1 Minute, bis die Blätter zusammenfallen und alles glänzt, aber knackig ist.",
+      "Serviere das Gemüse sofort mit Jasminreis."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Brokkoli",
+      "Gemüse",
+      "Pak Choi",
+      ""
+     ],
+     "tips": [
+      "Volle Hitze und kein übervoller Wok: Das Gemüse soll braten, nicht schmoren. Für 4 lieber in zwei Portionen.",
+      "Im Restaurant nimmt man Austernsauce; die vegane Thai-Küche (Jay) nutzt Pilzsauce aus dem Asialaden."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  },
+  {
+   "id": "khao-niao",
+   "cat": "primi",
+   "sub": "riso",
+   "servings": 4,
+   "minutes": 510,
+   "diff": 1,
+   "kcal": 340,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 400,
+     "u": "g",
+     "k": "glutinous-rice"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "water"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {},
+    {
+     "timer": 900,
+     "alt": {
+      "microwave": {
+       "timer": 180
+      }
+     }
+    },
+    {
+     "timer": 600,
+     "alt": {
+      "microwave": {
+       "timer": 180
+      }
+     }
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Khao niao, riso glutinoso al vapore",
+     "intro": "Il riso colloso del nord e dell'Isan: si appallottola con le dita e si intinge nei sughi.",
+     "ing": [
+      "riso glutinoso thai",
+      "acqua per l'ammollo"
+     ],
+     "steps": [
+      "Sciacqua il riso in acqua fredda strofinandolo tra le mani e cambia l'acqua 4 o 5 volte, finché è quasi limpida.",
+      "Coprilo con 5 cm d'acqua fredda e lascialo in ammollo almeno 8 ore, o tutta la notte.",
+      "Scolalo bene. Fodera il cestello per il vapore con un canovaccio pulito bagnato e stendi il riso in uno strato uniforme.",
+      "Richiudi il canovaccio, copri e cuoci sopra l'acqua in ebollizione per 15 minuti.",
+      "Capovolgi il panetto di riso aiutandoti col canovaccio e cuoci altri 10 minuti, finché i chicchi sono traslucidi e senza cuore bianco.",
+      "Rovescialo su un vassoio, allargalo un attimo per far uscire il vapore e tienilo in un cestino coperto o avvolto nel canovaccio."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Vapore",
+      "Vapore 2",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "microwave": "Metti il riso scolato in una ciotola con 150 ml d'acqua, copri e cuoci a 800 W per 3 minuti."
+      },
+      "4": {
+       "microwave": "Mescola e cuoci altri 3 minuti, finché i chicchi sono traslucidi e senza cuore bianco."
+      }
+     },
+     "tips": [
+      "Serve proprio riso glutinoso thai: il riso tondo italiano non diventa colloso allo stesso modo.",
+      "Si mangia con le mani: fai una pallina e intingila nel larb o nella som tam.",
+      "Avanzato si indurisce: avvolgilo in un canovaccio umido e riscaldalo al vapore per 5 minuti."
+     ]
+    },
+    "en": {
+     "title": "Khao niao, steamed sticky rice",
+     "intro": "Northern Thai and Isan sticky rice, rolled into balls by hand to dip in sauces.",
+     "ing": [
+      "Thai sticky rice",
+      "water for soaking"
+     ],
+     "steps": [
+      "Rinse the rice in cold water, rubbing it between your hands, and change the water 4 or 5 times until almost clear.",
+      "Cover with 5 cm of cold water and leave to soak for at least 8 hours, or overnight.",
+      "Drain it well. Line a steamer basket with a clean damp cloth and spread the rice in an even layer.",
+      "Fold the cloth over, cover and steam over boiling water for 15 minutes.",
+      "Flip the block of rice over using the cloth and steam 10 more minutes, until the grains are translucent with no white core.",
+      "Turn it out onto a tray, spread it briefly to let the steam escape, then keep it in a covered basket or wrapped in the cloth."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Steam",
+      "Steam 2",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "microwave": "Put the drained rice in a bowl with 150 ml water, cover and microwave at 800 W for 3 minutes."
+      },
+      "4": {
+       "microwave": "Stir and microwave 3 more minutes, until the grains are translucent with no white core."
+      }
+     },
+     "tips": [
+      "You need real Thai sticky rice: Italian short-grain rice won't turn sticky the same way.",
+      "Eat it with your hands: roll a small ball and dip it into larb or som tam.",
+      "Leftovers harden: wrap them in a damp cloth and re-steam for 5 minutes."
+     ]
+    },
+    "fr": {
+     "title": "Khao niao, riz gluant vapeur",
+     "intro": "Le riz gluant du nord et de l'Isan, roulé en boulettes du bout des doigts pour saucer.",
+     "ing": [
+      "riz gluant thaï",
+      "eau pour le trempage"
+     ],
+     "steps": [
+      "Rince le riz à l'eau froide en le frottant entre tes mains et change l'eau 4 ou 5 fois, jusqu'à ce qu'elle soit presque claire.",
+      "Couvre-le de 5 cm d'eau froide et laisse-le tremper au moins 8 heures, ou toute la nuit.",
+      "Égoutte-le bien. Tapisse le panier vapeur d'un torchon propre mouillé et étale le riz en couche régulière.",
+      "Rabats le torchon, couvre et cuis au-dessus de l'eau bouillante 15 minutes.",
+      "Retourne le bloc de riz à l'aide du torchon et cuis encore 10 minutes, jusqu'à ce que les grains soient translucides, sans cœur blanc.",
+      "Renverse-le sur un plateau, étale-le un instant pour laisser sortir la vapeur et garde-le dans un panier couvert ou dans le torchon."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Vapeur",
+      "Vapeur 2",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "microwave": "Mets le riz égoutté dans un bol avec 150 ml d'eau, couvre et cuis au micro-ondes à 800 W 3 minutes."
+      },
+      "4": {
+       "microwave": "Remue et cuis encore 3 minutes, jusqu'à ce que les grains soient translucides, sans cœur blanc."
+      }
+     },
+     "tips": [
+      "Il faut du vrai riz gluant thaï : le riz rond italien ne devient pas collant de la même façon.",
+      "Il se mange avec les doigts : forme une boulette et trempe-la dans le larb ou la som tam.",
+      "Les restes durcissent : enveloppe-les dans un torchon humide et réchauffe 5 minutes à la vapeur."
+     ]
+    },
+    "es": {
+     "title": "Khao niao, arroz glutinoso al vapor",
+     "intro": "El arroz pegajoso del norte e Isan: se hace bolitas con los dedos y se moja en las salsas.",
+     "ing": [
+      "arroz glutinoso tailandés",
+      "agua para el remojo"
+     ],
+     "steps": [
+      "Lava el arroz en agua fría frotándolo entre las manos y cambia el agua 4 o 5 veces, hasta que salga casi clara.",
+      "Cúbrelo con 5 cm de agua fría y déjalo en remojo al menos 8 horas, o toda la noche.",
+      "Escúrrelo bien. Forra la vaporera con un paño limpio mojado y extiende el arroz en una capa uniforme.",
+      "Dobla el paño por encima, tapa y cuece sobre el agua hirviendo 15 minutos.",
+      "Da la vuelta al bloque de arroz con ayuda del paño y cuece 10 minutos más, hasta que los granos estén translúcidos y sin centro blanco.",
+      "Vuélcalo en una bandeja, extiéndelo un momento para que salga el vapor y guárdalo en una cesta tapada o envuelto en el paño."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Vapor",
+      "Vapor 2",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "microwave": "Pon el arroz escurrido en un bol con 150 ml de agua, tapa y cuece en el microondas a 800 W 3 minutos."
+      },
+      "4": {
+       "microwave": "Remueve y cuece 3 minutos más, hasta que los granos estén translúcidos y sin centro blanco."
+      }
+     },
+     "tips": [
+      "Hace falta arroz glutinoso tailandés: el arroz redondo no se vuelve pegajoso igual.",
+      "Se come con las manos: haz una bolita y mójala en el larb o la som tam.",
+      "Lo que sobra se endurece: envuélvelo en un paño húmedo y caliéntalo al vapor 5 minutos."
+     ]
+    },
+    "de": {
+     "title": "Khao Niao, gedämpfter Klebreis",
+     "intro": "Klebreis aus Nordthailand und dem Isan: mit den Fingern zu Bällchen gerollt und gedippt.",
+     "ing": [
+      "thailändischer Klebreis",
+      "Wasser zum Einweichen"
+     ],
+     "steps": [
+      "Wasch den Reis in kaltem Wasser, reib ihn zwischen den Händen und wechsle das Wasser 4- bis 5-mal, bis es fast klar ist.",
+      "Bedeck ihn 5 cm hoch mit kaltem Wasser und lass ihn mindestens 8 Stunden oder über Nacht einweichen.",
+      "Lass ihn gut abtropfen. Leg den Dämpfeinsatz mit einem sauberen, feuchten Tuch aus und verteil den Reis gleichmäßig.",
+      "Schlag das Tuch über den Reis, deck zu und dämpf ihn 15 Minuten über kochendem Wasser.",
+      "Wende den Reisblock mithilfe des Tuchs und dämpf ihn weitere 10 Minuten, bis die Körner glasig und ohne weißen Kern sind.",
+      "Stürz ihn auf ein Tablett, breite ihn kurz aus, damit der Dampf entweicht, und halt ihn in einem Korb mit Deckel oder im Tuch warm."
+     ],
+     "labels": [
+      "",
+      "",
+      "",
+      "Dämpfen",
+      "Dämpfen 2",
+      ""
+     ],
+     "alt": {
+      "3": {
+       "microwave": "Gib den abgetropften Reis mit 150 ml Wasser in eine Schüssel, deck sie ab und gare ihn bei 800 W 3 Minuten."
+      },
+      "4": {
+       "microwave": "Rühr um und gare ihn weitere 3 Minuten, bis die Körner glasig und ohne weißen Kern sind."
+      }
+     },
+     "tips": [
+      "Es muss echter Thai-Klebreis sein: Italienischer Rundkornreis wird nicht auf dieselbe Art klebrig.",
+      "Man isst ihn mit den Händen: ein Bällchen formen und in Larb oder Som Tam tunken.",
+      "Reste werden hart: in ein feuchtes Tuch wickeln und 5 Minuten nachdämpfen."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "pair",
+     "link": "larb-gai"
+    },
+    {
+     "k": "leftover"
+    }
+   ],
+   "methods": [
+    "steam",
+    "microwave"
+   ]
+  },
+  {
+   "id": "kluai-buat-chi",
+   "cat": "dolci",
+   "sub": "frutta",
+   "servings": 4,
+   "minutes": 20,
+   "diff": 1,
+   "kcal": 310,
+   "diet": [
+    "veg",
+    "vegan",
+    "gf",
+    "lf"
+   ],
+   "tags": [
+    "comfort"
+   ],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 4,
+     "u": "",
+     "k": "bananas"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "coconut-milk"
+    },
+    {
+     "q": 100,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 60,
+     "u": "g",
+     "k": "brown-sugar"
+    },
+    {
+     "q": 0.5,
+     "u": "tsp",
+     "k": "salt"
+    }
+   ],
+   "steps": [
+    {},
+    {},
+    {
+     "timer": 360
+    },
+    {
+     "timer": 300
+    },
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Kluai buat chi, banane nel cocco",
+     "intro": "Banane cotte piano nel latte di cocco con zucchero di palma e un pizzico di sale.",
+     "ing": [
+      "banane sode appena mature",
+      "latte di cocco",
+      "acqua",
+      "zucchero di palma o di canna",
+      "sale"
+     ],
+     "steps": [
+      "Sbuccia le banane, tagliale a metà per il lungo e poi a pezzi di 5 cm.",
+      "In una pentola scalda latte di cocco, acqua, zucchero e sale a fuoco medio, mescolando finché lo zucchero si scioglie. Non far bollire forte.",
+      "Aggiungi le banane e cuoci piano 6 minuti, finché sono morbide e un po' traslucide ma ancora intere.",
+      "Spegni e lascia riposare 5 minuti: le banane assorbono il cocco.",
+      "Assaggia: deve essere dolce con una punta salata. Servi tiepido in ciotoline."
+     ],
+     "labels": [
+      "",
+      "",
+      "Banane",
+      "Riposo",
+      ""
+     ],
+     "tips": [
+      "Nei negozi thai cerca le kluai nam wa, banane piccole e sode: restano compatte e prendono un colore rosato.",
+      "Con zucca a cubetti al posto delle banane diventa fak thong kaeng buat, il dolce gemello."
+     ]
+    },
+    "en": {
+     "title": "Kluai buat chi, bananas in coconut milk",
+     "intro": "Bananas gently poached in coconut milk with palm sugar and a pinch of salt.",
+     "ing": [
+      "firm, just-ripe bananas",
+      "coconut milk",
+      "water",
+      "palm or brown sugar",
+      "salt"
+     ],
+     "steps": [
+      "Peel the bananas, halve them lengthwise, then cut into 5 cm pieces.",
+      "In a saucepan warm the coconut milk, water, sugar and salt over medium heat, stirring until the sugar dissolves. Don't let it boil hard.",
+      "Add the bananas and simmer gently for 6 minutes, until soft and slightly translucent but still whole.",
+      "Turn off the heat and let it rest 5 minutes so the bananas soak up the coconut.",
+      "Taste: it should be sweet with a salty edge. Serve warm in small bowls."
+     ],
+     "labels": [
+      "",
+      "",
+      "Bananas",
+      "Rest",
+      ""
+     ],
+     "tips": [
+      "Look for kluai nam wa in Thai shops, small firm bananas that hold their shape and turn slightly pink.",
+      "Swap the bananas for diced pumpkin and you get fak thong kaeng buat, its twin dessert."
+     ]
+    },
+    "fr": {
+     "title": "Kluai buat chi, bananes au coco",
+     "intro": "Bananes pochées dans le lait de coco avec du sucre de palme et une pincée de sel.",
+     "ing": [
+      "bananes fermes juste mûres",
+      "lait de coco",
+      "eau",
+      "sucre de palme ou roux",
+      "sel"
+     ],
+     "steps": [
+      "Épluche les bananes, coupe-les en deux dans la longueur puis en tronçons de 5 cm.",
+      "Dans une casserole, chauffe lait de coco, eau, sucre et sel à feu moyen en remuant jusqu'à ce que le sucre fonde. Évite les gros bouillons.",
+      "Ajoute les bananes et laisse frémir 6 minutes, jusqu'à ce qu'elles soient tendres et un peu translucides mais entières.",
+      "Éteins et laisse reposer 5 minutes : les bananes s'imprègnent de coco.",
+      "Goûte : c'est sucré avec une pointe de sel. Sers tiède dans de petits bols."
+     ],
+     "labels": [
+      "",
+      "",
+      "Bananes",
+      "Repos",
+      ""
+     ],
+     "tips": [
+      "Cherche des kluai nam wa dans les épiceries thaïes : petites et fermes, elles se tiennent et rosissent.",
+      "Remplace les bananes par du potiron en dés et tu obtiens le fak thong kaeng buat, son dessert jumeau."
+     ]
+    },
+    "es": {
+     "title": "Kluai buat chi, plátanos al coco",
+     "intro": "Plátanos cocidos despacio en leche de coco con azúcar de palma y una pizca de sal.",
+     "ing": [
+      "plátanos firmes recién maduros",
+      "leche de coco",
+      "agua",
+      "azúcar de palma o moreno",
+      "sal"
+     ],
+     "steps": [
+      "Pela los plátanos, córtalos por la mitad a lo largo y luego en trozos de 5 cm.",
+      "En una olla calienta la leche de coco, el agua, el azúcar y la sal a fuego medio, removiendo hasta disolver el azúcar. Que no hierva fuerte.",
+      "Añade los plátanos y cuece suave 6 minutos, hasta que estén tiernos y algo translúcidos pero enteros.",
+      "Apaga y deja reposar 5 minutos: los plátanos absorben el coco.",
+      "Prueba: debe ser dulce con un punto salado. Sirve templado en cuencos pequeños."
+     ],
+     "labels": [
+      "",
+      "",
+      "Plátanos",
+      "Reposo",
+      ""
+     ],
+     "tips": [
+      "Busca kluai nam wa en las tiendas tailandesas: plátanos pequeños y firmes que no se deshacen y se vuelven rosados.",
+      "Cambia los plátanos por calabaza en dados y tendrás fak thong kaeng buat, su postre gemelo."
+     ]
+    },
+    "de": {
+     "title": "Kluai Buat Chi, Bananen in Kokosmilch",
+     "intro": "Bananen, sanft in Kokosmilch mit Palmzucker und einer Prise Salz gegart.",
+     "ing": [
+      "feste, gerade reife Bananen",
+      "Kokosmilch",
+      "Wasser",
+      "Palm- oder brauner Zucker",
+      "Salz"
+     ],
+     "steps": [
+      "Schäl die Bananen, halbiere sie der Länge nach und schneide sie in 5-cm-Stücke.",
+      "Erwärm Kokosmilch, Wasser, Zucker und Salz in einem Topf bei mittlerer Hitze und rühr, bis sich der Zucker löst. Nicht sprudelnd kochen.",
+      "Gib die Bananen dazu und lass sie 6 Minuten sanft köcheln, bis sie weich und leicht glasig, aber noch ganz sind.",
+      "Schalt den Herd aus und lass alles 5 Minuten ziehen, damit die Bananen die Kokosmilch aufnehmen.",
+      "Schmeck ab: süß mit einer salzigen Note. Serviere es lauwarm in kleinen Schalen."
+     ],
+     "labels": [
+      "",
+      "",
+      "Bananen",
+      "Ziehen",
+      ""
+     ],
+     "tips": [
+      "Such im Thai-Laden nach Kluai Nam Wa: kleine, feste Bananen, die ganz bleiben und leicht rosa werden.",
+      "Mit Kürbiswürfeln statt Bananen wird daraus Fak Thong Kaeng Buat, das Zwillingsdessert."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  },
+  {
+   "id": "cha-yen",
+   "cat": "bevande",
+   "sub": "fresche",
+   "servings": 2,
+   "minutes": 20,
+   "diff": 1,
+   "kcal": 220,
+   "diet": [
+    "veg",
+    "gf"
+   ],
+   "tags": [],
+   "months": [],
+   "origin": "TH",
+   "alcohol": false,
+   "ingredients": [
+    {
+     "q": 12,
+     "u": "g",
+     "k": "black-tea"
+    },
+    {
+     "q": 400,
+     "u": "ml",
+     "k": "water"
+    },
+    {
+     "q": 1,
+     "u": "",
+     "k": "star-anise"
+    },
+    {
+     "q": 0.25,
+     "u": "tsp",
+     "k": "vanilla-extract"
+    },
+    {
+     "q": 2,
+     "u": "tbsp",
+     "k": "sugar"
+    },
+    {
+     "q": 3,
+     "u": "tbsp",
+     "k": "sweetened-condensed-milk"
+    },
+    {
+     "q": 60,
+     "u": "ml",
+     "k": "milk"
+    },
+    {
+     "q": null,
+     "u": "",
+     "k": "ice"
+    }
+   ],
+   "steps": [
+    {
+     "timer": 300
+    },
+    {
+     "timer": 600
+    },
+    {},
+    {}
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cha yen, tè freddo thai al latte",
+     "intro": "Tè nero forte e speziato con latte condensato, versato sul ghiaccio e coperto di latte.",
+     "ing": [
+      "tè nero sfuso forte (Assam o Ceylon)",
+      "acqua",
+      "anice stellato",
+      "estratto di vaniglia",
+      "zucchero",
+      "latte condensato zuccherato",
+      "latte intero",
+      "cubetti di ghiaccio"
+     ],
+     "steps": [
+      "Porta a bollore l'acqua con l'anice stellato, spegni, aggiungi il tè e lascia in infusione 5 minuti: deve venire molto forte.",
+      "Filtra, unisci zucchero, latte condensato e vaniglia e mescola finché si sciolgono. Lascia raffreddare 10 minuti.",
+      "Riempi 2 bicchieri alti di ghiaccio e versa il tè fino a tre quarti.",
+      "Completa ogni bicchiere con 2 cucchiai di latte, che scende a nuvole nel tè. Mescola a tavola."
+     ],
+     "labels": [
+      "Infusione",
+      "Raffreddare",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con il tè thai in polvere dei negozi asiatici, già speziato, ottieni il classico colore arancione.",
+      "Senza latte, con zucchero e succo di lime, diventa cha manao, il tè freddo al lime."
+     ]
+    },
+    "en": {
+     "title": "Cha yen, Thai iced tea",
+     "intro": "Strong spiced black tea with condensed milk, poured over ice and topped with milk.",
+     "ing": [
+      "strong loose black tea (Assam or Ceylon)",
+      "water",
+      "star anise pod",
+      "vanilla extract",
+      "sugar",
+      "sweetened condensed milk",
+      "whole milk",
+      "ice cubes"
+     ],
+     "steps": [
+      "Bring the water to a boil with the star anise, turn off the heat, add the tea and steep 5 minutes: it should be very strong.",
+      "Strain, add the sugar, condensed milk and vanilla and stir until dissolved. Let it cool for 10 minutes.",
+      "Fill 2 tall glasses with ice and pour in the tea to three-quarters full.",
+      "Top each glass with 2 tbsp milk, which drifts down through the tea in clouds. Stir at the table."
+     ],
+     "labels": [
+      "Steep",
+      "Cool",
+      "",
+      ""
+     ],
+     "tips": [
+      "Thai tea mix from Asian shops, already spiced, gives the classic bright orange colour.",
+      "Leave out the milk and add sugar and lime juice for cha manao, Thai iced lime tea."
+     ]
+    },
+    "fr": {
+     "title": "Cha yen, thé glacé thaï",
+     "intro": "Thé noir corsé et épicé au lait concentré, versé sur la glace et nappé de lait.",
+     "ing": [
+      "thé noir corsé en vrac (Assam ou Ceylan)",
+      "eau",
+      "étoile de badiane",
+      "extrait de vanille",
+      "sucre",
+      "lait concentré sucré",
+      "lait entier",
+      "glaçons"
+     ],
+     "steps": [
+      "Porte l'eau à ébullition avec la badiane, éteins, ajoute le thé et laisse infuser 5 minutes : il doit être très fort.",
+      "Filtre, ajoute le sucre, le lait concentré et la vanille, et remue jusqu'à dissolution. Laisse refroidir 10 minutes.",
+      "Remplis 2 grands verres de glaçons et verse le thé aux trois quarts.",
+      "Complète chaque verre de 2 c. à soupe de lait, qui descend en nuages dans le thé. Remue à table."
+     ],
+     "labels": [
+      "Infusion",
+      "Refroidir",
+      "",
+      ""
+     ],
+     "tips": [
+      "Avec le mélange de thé thaï des épiceries asiatiques, déjà épicé, tu obtiens la couleur orange typique.",
+      "Sans lait, avec sucre et jus de citron vert, il devient cha manao, le thé glacé au citron vert."
+     ]
+    },
+    "es": {
+     "title": "Cha yen, té helado tailandés",
+     "intro": "Té negro fuerte y especiado con leche condensada, servido sobre hielo y cubierto de leche.",
+     "ing": [
+      "té negro fuerte a granel (Assam o Ceilán)",
+      "agua",
+      "estrella de anís",
+      "extracto de vainilla",
+      "azúcar",
+      "leche condensada",
+      "leche entera",
+      "cubitos de hielo"
+     ],
+     "steps": [
+      "Lleva el agua a ebullición con el anís, apaga, añade el té y deja infusionar 5 minutos: debe quedar muy fuerte.",
+      "Cuela, añade el azúcar, la leche condensada y la vainilla y remueve hasta disolver. Deja enfriar 10 minutos.",
+      "Llena 2 vasos altos de hielo y vierte el té hasta tres cuartos.",
+      "Completa cada vaso con 2 cucharadas de leche, que baja en nubes por el té. Remueve en la mesa."
+     ],
+     "labels": [
+      "Infusión",
+      "Enfriar",
+      "",
+      ""
+     ],
+     "tips": [
+      "Con la mezcla de té tailandés de las tiendas asiáticas, ya especiada, sale el color naranja típico.",
+      "Sin leche, con azúcar y zumo de lima, se convierte en cha manao, el té helado con lima."
+     ]
+    },
+    "de": {
+     "title": "Cha Yen, Thai-Eistee",
+     "intro": "Starker, gewürzter Schwarztee mit Kondensmilch, über Eis gegossen und mit Milch getoppt.",
+     "ing": [
+      "kräftiger loser Schwarztee (Assam oder Ceylon)",
+      "Wasser",
+      "Sternanis",
+      "Vanilleextrakt",
+      "Zucker",
+      "gezuckerte Kondensmilch",
+      "Vollmilch",
+      "Eiswürfel"
+     ],
+     "steps": [
+      "Bring das Wasser mit dem Sternanis zum Kochen, nimm es vom Herd, gib den Tee dazu und lass ihn 5 Minuten sehr kräftig ziehen.",
+      "Seih ab, rühr Zucker, Kondensmilch und Vanille ein, bis sich alles gelöst hat, und lass es 10 Minuten abkühlen.",
+      "Füll 2 hohe Gläser mit Eis und gieß den Tee bis zu drei Vierteln ein.",
+      "Gib auf jedes Glas 2 EL Milch, die in Wolken durch den Tee sinkt. Umgerührt wird am Tisch."
+     ],
+     "labels": [
+      "Ziehen",
+      "Abkühlen",
+      "",
+      ""
+     ],
+     "tips": [
+      "Mit Thai-Teemischung aus dem Asialaden, schon gewürzt, bekommst du die typische orange Farbe.",
+      "Ohne Milch, mit Zucker und Limettensaft wird daraus Cha Manao, Eistee mit Limette."
+     ]
+    }
+   },
+   "tips": [
+    {
+     "k": "secret"
+    },
+    {
+     "k": "twist"
+    }
+   ]
+  }
+ ]
+}

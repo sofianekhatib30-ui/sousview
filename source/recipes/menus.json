@@ -2065,6 +2065,1614 @@
      ]
     }
    }
+  },
+  {
+   "id": "cena-peruviana",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "causa-limena"
+    },
+    {
+     "role": "antipasto",
+     "id": "cebiche-peruano"
+    },
+    {
+     "role": "secondo",
+     "id": "lomo-saltado"
+    },
+    {
+     "role": "dolce",
+     "id": "suspiro-a-la-limena"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "aperitivo",
+     "id": "pisco-sour"
+    },
+    {
+     "role": "bevanda",
+     "id": "chicha-morada"
+    }
+   ],
+   "diet": [],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena peruviana",
+     "intro": "Pisco sour, causa e cebiche freschissimo, poi il lomo saltado al wok e il suspiro: i sapori di Lima tra lime, peperoncino e soia.",
+     "wine": "Pisco sour all'aperitivo; a tavola un bianco secco e sapido come un Albariño, o una lager ghiacciata. Analcolico: chicha morada.",
+     "plan": [
+      "Il giorno prima: chicha morada (bollitura e frigo) e suspiro, crema e meringa, che aspetta in frigo.",
+      "Al mattino: causa, che deve stare in frigo almeno 1 ora; metti il pesce abbattuto a scongelare in frigo.",
+      "Un'ora prima: patate dolci e mais per il cebiche, riso e patatine per il lomo; taglia carne e verdure.",
+      "All'arrivo degli ospiti: pisco sour, poi marina il cebiche 2 minuti e servilo subito con la causa.",
+      "Per il secondo: wok rovente, il lomo saltado è pronto in 5 minuti. Chiudi col suspiro e cannella."
+     ]
+    },
+    "en": {
+     "title": "Peruvian dinner",
+     "intro": "Pisco sour, causa and ultra-fresh ceviche, then wok-tossed lomo saltado and suspiro: the flavors of Lima, with lime, chili and soy.",
+     "wine": "Pisco sour to start; at the table a crisp, saline white like Albariño, or an ice-cold lager. Alcohol-free: chicha morada.",
+     "plan": [
+      "Day before: make the chicha morada (simmer and chill) and the suspiro, cream and meringue; it waits in the fridge.",
+      "Morning: assemble the causa, which needs at least 1 hour in the fridge; thaw the frozen fish in the fridge.",
+      "An hour ahead: sweet potatoes and corn for the ceviche, rice and fries for the lomo; cut the beef and vegetables.",
+      "When guests arrive: pisco sours, then cure the ceviche for 2 minutes and serve it at once with the causa.",
+      "For the main: smoking-hot wok, the lomo saltado is ready in 5 minutes. Finish with suspiro and cinnamon."
+     ]
+    },
+    "fr": {
+     "title": "Dîner péruvien",
+     "intro": "Pisco sour, causa et ceviche ultra-frais, puis lomo saltado au wok et suspiro : les saveurs de Lima, citron vert, piment et soja.",
+     "wine": "Pisco sour à l'apéritif ; à table, un blanc sec et salin comme un albariño, ou une blonde bien fraîche. Sans alcool : chicha morada.",
+     "plan": [
+      "La veille : chicha morada (infusion et frigo) et suspiro, crème et meringue, qui attend au frigo.",
+      "Le matin : monte la causa, qui doit passer au moins 1 heure au frigo ; décongèle le poisson au frigo.",
+      "Une heure avant : patates douces et maïs du ceviche, riz et frites du lomo ; taille viande et légumes.",
+      "À l'arrivée des invités : pisco sour, puis marine le ceviche 2 minutes et sers-le aussitôt avec la causa.",
+      "Pour le plat : wok fumant, le lomo saltado est prêt en 5 minutes. Termine avec le suspiro à la cannelle."
+     ]
+    },
+    "es": {
+     "title": "Cena peruana",
+     "intro": "Pisco sour, causa y cebiche bien fresco, luego lomo saltado al wok y suspiro: los sabores de Lima entre lima, ají y sillao.",
+     "wine": "Pisco sour de aperitivo; en la mesa un blanco seco y salino como un albariño, o una cerveza rubia bien helada. Sin alcohol: chicha morada.",
+     "plan": [
+      "El día antes: chicha morada (hervor y nevera) y suspiro, manjar y merengue, que espera en la nevera.",
+      "Por la mañana: arma la causa, que necesita al menos 1 hora de nevera; descongela el pescado en la nevera.",
+      "Una hora antes: camote y choclo para el cebiche, arroz y papas fritas para el lomo; corta carne y verduras.",
+      "Al llegar los invitados: pisco sour, luego marina el cebiche 2 minutos y sírvelo enseguida con la causa.",
+      "De fondo: wok humeante, el lomo saltado está listo en 5 minutos. Cierra con el suspiro y canela."
+     ]
+    },
+    "de": {
+     "title": "Peruanisches Abendessen",
+     "intro": "Pisco Sour, Causa und fangfrisches Ceviche, dann Lomo saltado aus dem Wok und Suspiro: Limas Aromen mit Limette, Chili und Soja.",
+     "wine": "Pisco Sour zum Auftakt; bei Tisch ein trockener, salziger Weißwein wie Albariño oder ein eiskaltes Helles. Alkoholfrei: Chicha morada.",
+     "plan": [
+      "Am Vortag: Chicha morada (kochen, kühlen) und Suspiro mit Creme und Baiser, das im Kühlschrank wartet.",
+      "Am Morgen: Causa schichten, sie braucht mindestens 1 Stunde Kühlung; den Fisch im Kühlschrank auftauen.",
+      "Eine Stunde vorher: Süßkartoffeln und Mais fürs Ceviche, Reis und Pommes für den Lomo; Fleisch und Gemüse schneiden.",
+      "Wenn die Gäste kommen: Pisco Sour, dann das Ceviche 2 Minuten marinieren und sofort mit der Causa servieren.",
+      "Zum Hauptgang: rauchend heißer Wok, der Lomo saltado ist in 5 Minuten fertig. Zum Schluss Suspiro mit Zimt."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-brasiliana",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "pao-de-queijo"
+    },
+    {
+     "role": "piatto-unico",
+     "id": "feijoada"
+    },
+    {
+     "role": "contorno",
+     "id": "farofa"
+    },
+    {
+     "role": "contorno",
+     "id": "couve-a-mineira"
+    },
+    {
+     "role": "contorno",
+     "id": "vinagrete"
+    },
+    {
+     "role": "dolce",
+     "id": "brigadeiro"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "aperitivo",
+     "id": "caipirinha"
+    },
+    {
+     "role": "bevanda",
+     "id": "suco-de-maracuja"
+    }
+   ],
+   "diet": [],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena brasiliana",
+     "intro": "Pão de queijo caldi e caipirinha, poi la feijoada completa con farofa, couve, vinagrete e arance, e i brigadeiros per finire.",
+     "wine": "Caipirinha all'aperitivo, poi birra lager ghiacciata come a Rio; se vuoi vino, un rosso giovane e fresco. Analcolico: suco de maracujá.",
+     "plan": [
+      "La sera prima: fagioli neri a bagno e brigadeiros (cottura, frigo, palline nelle codette).",
+      "Tre ore prima avvia la feijoada: rosolatura, 1 ora e mezza di cottura, poi 30 minuti con la salsiccia.",
+      "Intanto impasta il pão de queijo e forma le palline; prepara il vinagrete e mettilo in frigo.",
+      "Mezz'ora prima: riso bianco, farofa e suco; inforna il pão de queijo e servilo caldo con la caipirinha.",
+      "All'ultimo salta la couve 3 minuti, taglia le arance a fette e porta in tavola la feijoada nella pentola."
+     ]
+    },
+    "en": {
+     "title": "Brazilian dinner",
+     "intro": "Warm pão de queijo and caipirinhas, then feijoada completa with farofa, couve, vinagrete and oranges, and brigadeiros to finish.",
+     "wine": "Caipirinhas to start, then ice-cold lager as in Rio; if you want wine, a young, fresh red. Alcohol-free: suco de maracujá.",
+     "plan": [
+      "Night before: soak the black beans and make the brigadeiros (cook, chill, roll in sprinkles).",
+      "Three hours ahead start the feijoada: brown the meat, simmer 90 minutes, then 30 more with the sausage.",
+      "Meanwhile mix the pão de queijo dough and shape the balls; make the vinagrete and chill it.",
+      "Half an hour ahead: white rice, farofa and suco; bake the pão de queijo and serve it hot with caipirinhas.",
+      "At the last minute stir-fry the couve for 3 minutes, slice the oranges and bring the feijoada to the table in its pot."
+     ]
+    },
+    "fr": {
+     "title": "Dîner brésilien",
+     "intro": "Pão de queijo tièdes et caipirinha, puis feijoada completa avec farofa, couve, vinagrete et oranges, et brigadeiros pour finir.",
+     "wine": "Caipirinha à l'apéritif, puis une blonde glacée comme à Rio ; pour le vin, un rouge jeune et frais. Sans alcool : suco de maracujá.",
+     "plan": [
+      "La veille : haricots noirs à tremper et brigadeiros (cuisson, frigo, boules roulées dans les vermicelles).",
+      "Trois heures avant, lance la feijoada : rissolage, 1 h 30 de cuisson, puis 30 minutes avec la saucisse.",
+      "Pendant ce temps, prépare la pâte du pão de queijo et façonne les boules ; fais la vinagrete et mets-la au frais.",
+      "Une demi-heure avant : riz blanc, farofa et suco ; enfourne le pão de queijo et sers-le chaud avec la caipirinha.",
+      "Au dernier moment, saute la couve 3 minutes, tranche les oranges et apporte la feijoada dans sa cocotte."
+     ]
+    },
+    "es": {
+     "title": "Cena brasileña",
+     "intro": "Pão de queijo calentito y caipiriña, luego feijoada completa con farofa, couve, vinagrete y naranja, y brigadeiros de postre.",
+     "wine": "Caipiriña de aperitivo y luego cerveza rubia helada, como en Río; si prefieres vino, un tinto joven y fresco. Sin alcohol: jugo de maracuyá.",
+     "plan": [
+      "La noche antes: frijoles negros en remojo y brigadeiros (cocción, nevera y bolitas con fideos de chocolate).",
+      "Tres horas antes empieza la feijoada: dorado, 1 hora y media de cocción y 30 minutos más con la longaniza.",
+      "Mientras, prepara la masa del pão de queijo y forma las bolitas; haz el vinagrete y guárdalo en la nevera.",
+      "Media hora antes: arroz blanco, farofa y jugo; hornea el pão de queijo y sírvelo caliente con la caipiriña.",
+      "Al final saltea la couve 3 minutos, corta la naranja en rodajas y lleva la feijoada a la mesa en su olla."
+     ]
+    },
+    "de": {
+     "title": "Brasilianisches Abendessen",
+     "intro": "Warme Pão de queijo und Caipirinha, dann Feijoada completa mit Farofa, Couve, Vinagrete und Orangen, zum Schluss Brigadeiros.",
+     "wine": "Caipirinha zum Auftakt, dann eiskaltes Helles wie in Rio; wer Wein mag, nimmt einen jungen, frischen Roten. Alkoholfrei: Suco de maracujá.",
+     "plan": [
+      "Am Vorabend: schwarze Bohnen einweichen und Brigadeiros machen (kochen, kühlen, in Streuseln rollen).",
+      "Drei Stunden vorher die Feijoada starten: anbraten, 90 Minuten köcheln, dann 30 Minuten mit der Wurst.",
+      "Inzwischen den Pão-de-queijo-Teig kneten und Kugeln formen; Vinagrete anrühren und kalt stellen.",
+      "Eine halbe Stunde vorher: weißer Reis, Farofa und Suco; Pão de queijo backen und heiß mit Caipirinha servieren.",
+      "Zuletzt die Couve 3 Minuten braten, Orangen in Scheiben schneiden und die Feijoada im Topf auf den Tisch stellen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-vietnamita",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "goi-cuon-gamberi"
+    },
+    {
+     "role": "secondo",
+     "id": "ga-kho-gung"
+    },
+    {
+     "role": "contorno",
+     "id": "rau-muong-xao-toi"
+    },
+    {
+     "role": "dolce",
+     "id": "che-chuoi"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "ca-phe-sua-da"
+    }
+   ],
+   "diet": [],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena vietnamita",
+     "intro": "Gỏi cuốn da arrotolare a tavola, pollo caramellato allo zenzero con riso e verdure all'aglio, chè di banane e caffè freddo.",
+     "wine": "Una lager chiara e leggera ben ghiacciata, come la bia hơi di Hanoi. Analcolico: trà đá, tè verde freddo non zuccherato.",
+     "plan": [
+      "Al mattino lessa pancetta e gamberi, cuoci i vermicelli e prepara salsa di arachidi e nước chấm.",
+      "Un'ora prima marina il pollo 20 minuti e cuoci il riso bianco, da tenere coperto.",
+      "Arrotola i gỏi cuốn poco prima che arrivino gli ospiti e coprili con un canovaccio umido.",
+      "Cuoci il gà kho gừng: caramello, 15 minuti coperto e 7 a fuoco vivo. Intanto prepara il chè fino alle banane.",
+      "All'ultimo salta le verdure all'aglio in 3 minuti; a fine cena banane nel chè e caffè sul ghiaccio."
+     ]
+    },
+    "en": {
+     "title": "Vietnamese dinner",
+     "intro": "Fresh rolls made at the table, caramelised ginger chicken with rice and garlicky greens, banana chè and iced coffee.",
+     "wine": "A light, pale lager served ice-cold, like Hanoi's bia hơi. Alcohol-free: trà đá, unsweetened iced green tea.",
+     "plan": [
+      "In the morning boil the pork and prawns, cook the vermicelli and make the peanut sauce and nước chấm.",
+      "An hour ahead marinate the chicken for 20 minutes and cook the rice, keeping it covered.",
+      "Roll the gỏi cuốn just before guests arrive and cover them with a damp towel.",
+      "Cook the gà kho gừng: caramel, 15 minutes covered, 7 over high heat. Meanwhile make the chè up to the bananas.",
+      "Stir-fry the greens in 3 minutes at the last moment; after dinner add the bananas and pour the coffee over ice."
+     ]
+    },
+    "fr": {
+     "title": "Dîner vietnamien",
+     "intro": "Rouleaux de printemps à table, poulet caramélisé au gingembre avec riz et légumes à l'ail, chè à la banane et café glacé.",
+     "wine": "Une lager blonde et légère bien glacée, comme la bia hơi de Hanoï. Sans alcool : trà đá, thé vert glacé non sucré.",
+     "plan": [
+      "Le matin, cuis le porc, les crevettes et les vermicelles, et prépare la sauce cacahuète et le nước chấm.",
+      "Une heure avant, fais mariner le poulet 20 minutes et cuis le riz, à garder couvert.",
+      "Roule les gỏi cuốn juste avant l'arrivée des invités et couvre-les d'un torchon humide.",
+      "Cuis le gà kho gừng : caramel, 15 minutes couvert, 7 à feu vif. Pendant ce temps, prépare le chè sans les bananes.",
+      "Au dernier moment, saute les légumes en 3 minutes ; au dessert, bananes dans le chè et café sur la glace."
+     ]
+    },
+    "es": {
+     "title": "Cena vietnamita",
+     "intro": "Rollitos frescos en la mesa, pollo caramelizado al jengibre con arroz y verdura al ajo, chè de plátano y café helado.",
+     "wine": "Una lager rubia y ligera bien fría, como la bia hơi de Hanói. Sin alcohol: trà đá, té verde helado sin azúcar.",
+     "plan": [
+      "Por la mañana cuece el cerdo, las gambas y los fideos, y prepara la salsa de cacahuete y el nước chấm.",
+      "Una hora antes marina el pollo 20 minutos y cuece el arroz; mantenlo tapado.",
+      "Enrolla los gỏi cuốn justo antes de que lleguen los invitados y tápalos con un paño húmedo.",
+      "Cocina el gà kho gừng: caramelo, 15 minutos tapado y 7 a fuego vivo. Mientras, prepara el chè sin el plátano.",
+      "Al final saltea la verdura en 3 minutos; en el postre, plátano al chè y café sobre el hielo."
+     ]
+    },
+    "de": {
+     "title": "Vietnamesisches Abendessen",
+     "intro": "Sommerrollen am Tisch, karamellisiertes Ingwerhuhn mit Reis und Knoblauchgemüse, Bananen-Chè und Eiskaffee.",
+     "wine": "Ein leichtes helles Lagerbier, eiskalt wie das Bia hơi in Hanoi. Alkoholfrei: Trà đá, ungesüßter eisgekühlter Grüntee.",
+     "plan": [
+      "Morgens Schweinebauch und Garnelen garen, Vermicelli kochen, Erdnusssauce und Nước chấm anrühren.",
+      "Eine Stunde vorher das Hähnchen 20 Minuten marinieren und den Reis kochen, zugedeckt warm halten.",
+      "Die Gỏi cuốn kurz vor Ankunft der Gäste rollen und mit einem feuchten Tuch abdecken.",
+      "Gà kho gừng kochen: Karamell, 15 Minuten zugedeckt, 7 bei starker Hitze. Nebenbei das Chè ohne Bananen ansetzen.",
+      "Zuletzt das Gemüse in 3 Minuten braten; zum Dessert Bananen ins Chè und den Kaffee über Eis gießen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-thailandese",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "som-tam"
+    },
+    {
+     "role": "primo",
+     "id": "tom-yam-kung"
+    },
+    {
+     "role": "secondo",
+     "id": "larb-gai"
+    },
+    {
+     "role": "contorno",
+     "id": "khao-niao"
+    },
+    {
+     "role": "dolce",
+     "id": "kluai-buat-chi"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "cha-yen"
+    }
+   ],
+   "diet": [
+    "gf"
+   ],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cena thailandese",
+     "intro": "Tom yam di gamberi, poi la tavola dell'Isan: som tam, larb e riso glutinoso da mangiare con le mani. Banane al cocco e cha yen.",
+     "wine": "Una lager thai chiara e ghiacciata, o un Riesling secco e aromatico a 8 °C. Analcolico: acqua frizzante con lime e citronella.",
+     "plan": [
+      "La sera prima metti il riso glutinoso in ammollo; tosta e macina il khao khua.",
+      "Un'ora prima prepara il tè del cha yen e mettilo in frigo; fai il brodo di gamberi del tom yam.",
+      "Metti a vapore il riso (25 minuti) e intanto taglia le verdure della som tam.",
+      "Cuoci il pollo del larb e condiscilo; pesta la som tam all'ultimo, perché resti croccante.",
+      "Finisci il tom yam in 10 minuti mentre gli ospiti si siedono. Le banane nel cocco si cuociono a fine cena."
+     ]
+    },
+    "en": {
+     "title": "Thai dinner",
+     "intro": "Prawn tom yam, then an Isan spread: som tam, larb and sticky rice eaten by hand. Bananas in coconut milk and cha yen to finish.",
+     "wine": "An ice-cold pale Thai-style lager, or a dry aromatic Riesling at 8 °C. Alcohol-free: sparkling water with lime and lemongrass.",
+     "plan": [
+      "The night before, soak the sticky rice; toast and grind the khao khua.",
+      "An hour ahead brew the cha yen tea and chill it; make the prawn broth for the tom yam.",
+      "Steam the rice (25 minutes) and meanwhile cut the vegetables for the som tam.",
+      "Cook and dress the larb chicken; pound the som tam at the last minute so it stays crunchy.",
+      "Finish the tom yam in 10 minutes as guests sit down. Cook the bananas in coconut milk after dinner."
+     ]
+    },
+    "fr": {
+     "title": "Dîner thaïlandais",
+     "intro": "Tom yam aux crevettes, puis une table de l'Isan : som tam, larb et riz gluant à la main. Bananes au coco et cha yen pour finir.",
+     "wine": "Une lager blonde glacée à la thaïe, ou un riesling sec et aromatique à 8 °C. Sans alcool : eau gazeuse au citron vert et citronnelle.",
+     "plan": [
+      "La veille, mets le riz gluant à tremper ; fais griller et moudre le khao khua.",
+      "Une heure avant, infuse le thé du cha yen et mets-le au frais ; prépare le bouillon de crevettes du tom yam.",
+      "Fais cuire le riz à la vapeur (25 minutes) et taille pendant ce temps les légumes de la som tam.",
+      "Cuis et assaisonne le poulet du larb ; pile la som tam au dernier moment pour qu'elle reste croquante.",
+      "Termine le tom yam en 10 minutes pendant que les invités s'installent. Les bananes au coco se font au dessert."
+     ]
+    },
+    "es": {
+     "title": "Cena tailandesa",
+     "intro": "Tom yam de gambas y luego una mesa de Isan: som tam, larb y arroz glutinoso con las manos. Plátanos al coco y cha yen al final.",
+     "wine": "Una lager rubia tailandesa muy fría, o un riesling seco y aromático a 8 °C. Sin alcohol: agua con gas con lima y hierba limón.",
+     "plan": [
+      "La noche antes pon el arroz glutinoso en remojo; tuesta y muele el khao khua.",
+      "Una hora antes infusiona el té del cha yen y enfríalo; haz el caldo de gambas del tom yam.",
+      "Cuece el arroz al vapor (25 minutos) y mientras corta las verduras de la som tam.",
+      "Cocina y aliña el pollo del larb; machaca la som tam en el último momento para que siga crujiente.",
+      "Termina el tom yam en 10 minutos mientras se sientan los invitados. Los plátanos al coco, después de cenar."
+     ]
+    },
+    "de": {
+     "title": "Thailändisches Abendessen",
+     "intro": "Tom Yam mit Garnelen, dann ein Isan-Tisch: Som Tam, Larb und Klebreis zum Essen mit den Händen. Bananen in Kokos und Cha Yen.",
+     "wine": "Ein eiskaltes helles Lager nach Thai-Art oder ein trockener, aromatischer Riesling bei 8 °C. Alkoholfrei: Sprudel mit Limette und Zitronengras.",
+     "plan": [
+      "Am Vorabend den Klebreis einweichen; Khao Khua rösten und mahlen.",
+      "Eine Stunde vorher den Tee für Cha Yen aufbrühen und kalt stellen; die Garnelenbrühe für Tom Yam kochen.",
+      "Den Reis 25 Minuten dämpfen und dabei das Gemüse für die Som Tam schneiden.",
+      "Das Hähnchen für den Larb garen und anmachen; die Som Tam erst zuletzt stampfen, damit sie knackig bleibt.",
+      "Tom Yam in 10 Minuten fertig kochen, während die Gäste Platz nehmen. Die Bananen in Kokos nach dem Essen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-marocchina",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "zaalouk"
+    },
+    {
+     "role": "antipasto",
+     "id": "briouats-formaggio"
+    },
+    {
+     "role": "secondo",
+     "id": "tajine-pesce-chermoula"
+    },
+    {
+     "role": "contorno",
+     "id": "khobz-marocchino"
+    },
+    {
+     "role": "dolce",
+     "id": "arance-alla-cannella"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "te-alla-menta-marocchino"
+    }
+   ],
+   "diet": [],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena marocchina",
+     "intro": "Insalata cotta e briouat da condividere, tajine di pesce col pane caldo, arance alla cannella e tè alla menta versato dall'alto.",
+     "wine": "Un vin gris marocchino o un rosato secco mediterraneo a 10 °C; senza alcol, il tè alla menta per tutta la cena, come in Marocco.",
+     "plan": [
+      "Il giorno prima prepara lo zaalouk e il ripieno dei briouat: riposati sono più buoni.",
+      "Tre ore prima impasta il khobz; mentre lievita fai la chermoula e metti il pesce a marinare.",
+      "Due ore prima chiudi i briouat sotto un canovaccio umido, affetta le arance e mettile in frigo.",
+      "Un'ora prima inforna il khobz, poi avvia il tajine: patate 20 minuti, pesce 15.",
+      "All'arrivo degli ospiti friggi i briouat e servili con lo zaalouk a temperatura ambiente.",
+      "A fine cena cannella sulle arance e tè alla menta."
+     ]
+    },
+    "en": {
+     "title": "Moroccan dinner",
+     "intro": "Cooked salad and briouats to share, fish tagine with warm bread, cinnamon oranges and mint tea poured from on high.",
+     "wine": "A Moroccan vin gris or a dry Mediterranean rosé at 10 °C; alcohol-free, mint tea all through dinner, as in Morocco.",
+     "plan": [
+      "The day before, make the zaalouk and the briouat filling: they're better after a rest.",
+      "Three hours ahead knead the khobz; while it rises make the chermoula and marinate the fish.",
+      "Two hours ahead fold the briouats and keep them under a damp towel; slice the oranges and chill.",
+      "An hour ahead bake the khobz, then start the tagine: potatoes 20 minutes, fish 15.",
+      "When guests arrive fry the briouats and serve them with the zaalouk at room temperature.",
+      "To finish, cinnamon on the oranges and a pot of mint tea."
+     ]
+    },
+    "fr": {
+     "title": "Dîner marocain",
+     "intro": "Salade cuite et briouates à partager, tajine de poisson et pain chaud, oranges à la cannelle et thé à la menthe versé de haut.",
+     "wine": "Un vin gris marocain ou un rosé sec méditerranéen à 10 °C ; sans alcool, du thé à la menthe tout le repas, comme au Maroc.",
+     "plan": [
+      "La veille, prépare le zaalouk et la farce des briouates : reposés, ils sont meilleurs.",
+      "Trois heures avant, pétris le khobz ; pendant qu'il lève, fais la chermoula et mets le poisson à mariner.",
+      "Deux heures avant, plie les briouates sous un torchon humide, tranche les oranges et mets-les au frais.",
+      "Une heure avant, enfourne le khobz, puis lance le tajine : pommes de terre 20 minutes, poisson 15.",
+      "À l'arrivée des invités, fais frire les briouates et sers-les avec le zaalouk à température ambiante.",
+      "Pour finir, cannelle sur les oranges et thé à la menthe."
+     ]
+    },
+    "es": {
+     "title": "Cena marroquí",
+     "intro": "Ensalada cocida y briouats para compartir, tajín de pescado con pan caliente, naranjas con canela y té servido desde lo alto.",
+     "wine": "Un vin gris marroquí o un rosado seco mediterráneo a 10 °C; sin alcohol, té a la menta durante toda la cena, como en Marruecos.",
+     "plan": [
+      "El día antes prepara el zaalouk y el relleno de los briouats: reposados están más ricos.",
+      "Tres horas antes amasa el khobz; mientras leva, haz la chermoula y pon el pescado a marinar.",
+      "Dos horas antes forma los briouats y tenlos bajo un paño húmedo; corta las naranjas y refrigéralas.",
+      "Una hora antes hornea el khobz y empieza el tajín: patatas 20 minutos, pescado 15.",
+      "Cuando lleguen los invitados fríe los briouats y sírvelos con el zaalouk a temperatura ambiente.",
+      "Para acabar, canela sobre las naranjas y té a la menta."
+     ]
+    },
+    "de": {
+     "title": "Marokkanisches Abendessen",
+     "intro": "Gekochter Salat und Briouats zum Teilen, Fisch-Tajine mit warmem Brot, Zimtorangen und Minztee aus der Höhe gegossen.",
+     "wine": "Ein marokkanischer Vin gris oder ein trockener Mittelmeer-Rosé bei 10 °C; alkoholfrei Minztee zum ganzen Essen, wie in Marokko.",
+     "plan": [
+      "Am Vortag Zaalouk und Briouat-Füllung zubereiten: Durchgezogen schmecken sie besser.",
+      "Drei Stunden vorher den Khobz kneten; während er geht, Chermoula machen und den Fisch marinieren.",
+      "Zwei Stunden vorher die Briouats falten und unter ein feuchtes Tuch legen; Orangen schneiden und kühlen.",
+      "Eine Stunde vorher den Khobz backen, dann die Tajine starten: Kartoffeln 20 Minuten, Fisch 15.",
+      "Wenn die Gäste kommen, die Briouats frittieren und mit zimmerwarmem Zaalouk servieren.",
+      "Zum Schluss Zimt auf die Orangen und eine Kanne Minztee."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-libanese",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "hummus"
+    },
+    {
+     "role": "antipasto",
+     "id": "fattoush"
+    },
+    {
+     "role": "antipasto",
+     "id": "batata-harra"
+    },
+    {
+     "role": "secondo",
+     "id": "shish-tawouk-toum"
+    },
+    {
+     "role": "dolce",
+     "id": "maamoul-datteri"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "jallab"
+    }
+   ],
+   "diet": [],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cena libanese",
+     "intro": "Mezze freddi, poi caldi, poi gli spiedini con la toum e i ma'amoul: una tavola lunga da condividere, piatto dopo piatto.",
+     "wine": "Arak allungato con acqua e ghiaccio con i mezze, poi un rosso della Valle della Bekaa; senza alcol, jallab o limonata alla menta.",
+     "plan": [
+      "Fino a una settimana prima prepara i ma'amoul: semola a riposo la sera, il giorno dopo forma e forno.",
+      "La sera prima marina il pollo, fai la toum e l'hummus e tienili in frigo coperti.",
+      "Un'ora prima metti in ammollo pinoli e uvetta, taglia le patate e le verdure del fattoush.",
+      "Mezze freddi: hummus con un filo d'olio e fattoush condito all'ultimo con il pane croccante.",
+      "Mezze caldo: friggi e salta la batata harra, poi cuoci subito gli spiedini sulla piastra.",
+      "Chiudi con ma'amoul e jallab ghiacciato."
+     ]
+    },
+    "en": {
+     "title": "Lebanese dinner",
+     "intro": "Cold mezze, then hot, then skewers with toum and ma'amoul to finish: a long table to share, one plate after another.",
+     "wine": "Arak with water and ice alongside the mezze, then a Bekaa Valley red; alcohol-free, jallab or mint lemonade.",
+     "plan": [
+      "Up to a week ahead make the ma'amoul: semolina rests overnight, then shape and bake the next day.",
+      "The night before marinate the chicken, make the toum and hummus and keep them covered in the fridge.",
+      "An hour ahead soak the pine nuts and raisins, and cut the potatoes and fattoush vegetables.",
+      "Cold mezze: hummus with a drizzle of oil and fattoush, dressed last minute with the crisp bread.",
+      "Hot mezze: fry and toss the batata harra, then grill the skewers straight away.",
+      "Finish with ma'amoul and ice-cold jallab."
+     ]
+    },
+    "fr": {
+     "title": "Dîner libanais",
+     "intro": "Mezzés froids, puis chauds, puis brochettes et toum, et maamoul pour finir : une grande table à partager, plat après plat.",
+     "wine": "Arak allongé d'eau et de glace avec les mezzés, puis un rouge de la Békaa ; sans alcool, jallab ou citronnade à la menthe.",
+     "plan": [
+      "Jusqu'à une semaine avant, fais les maamoul : semoule au repos le soir, façonnage et four le lendemain.",
+      "La veille, fais mariner le poulet, prépare la toum et le houmous et garde-les couverts au frais.",
+      "Une heure avant, fais tremper pignons et raisins, coupe les pommes de terre et les légumes du fattouche.",
+      "Mezzés froids : houmous avec un filet d'huile et fattouche assaisonné au dernier moment avec le pain.",
+      "Mezzé chaud : fris et fais sauter la batata harra, puis grille aussitôt les brochettes.",
+      "Termine avec les maamoul et un jallab glacé."
+     ]
+    },
+    "es": {
+     "title": "Cena libanesa",
+     "intro": "Mezze fríos, luego calientes, después brochetas con toum y maamoul para acabar: una mesa larga para compartir.",
+     "wine": "Arak con agua y hielo con los mezze, luego un tinto del valle de la Bekaa; sin alcohol, jallab o limonada con menta.",
+     "plan": [
+      "Hasta una semana antes haz los maamoul: sémola en reposo por la noche, forma y horno al día siguiente.",
+      "La noche antes marina el pollo, prepara la toum y el hummus y guárdalos tapados en la nevera.",
+      "Una hora antes pon en remojo piñones y pasas y corta las patatas y las verduras del fattoush.",
+      "Mezze fríos: hummus con un hilo de aceite y fattoush aliñado al final con el pan crujiente.",
+      "Mezze caliente: fríe y saltea la batata harra y luego asa enseguida las brochetas en la plancha.",
+      "Acaba con maamoul y jallab bien frío."
+     ]
+    },
+    "de": {
+     "title": "Libanesisches Abendessen",
+     "intro": "Kalte Mezze, dann warme, dann Spieße mit Toum und zum Schluss Ma'amoul: eine lange Tafel zum Teilen, Teller für Teller.",
+     "wine": "Arak mit Wasser und Eis zu den Mezze, danach ein Rotwein aus der Bekaa-Ebene; alkoholfrei Jallab oder Minzlimonade.",
+     "plan": [
+      "Bis zu eine Woche vorher Ma'amoul backen: Grieß über Nacht ruhen lassen, am nächsten Tag formen und backen.",
+      "Am Vorabend das Hähnchen marinieren, Toum und Hummus machen und abgedeckt kühl stellen.",
+      "Eine Stunde vorher Pinienkerne und Rosinen einweichen, Kartoffeln und Gemüse für den Fattoush schneiden.",
+      "Kalte Mezze: Hummus mit einem Schuss Öl und Fattoush, erst zum Schluss mit dem Brot angemacht.",
+      "Warme Mezze: Batata harra frittieren und schwenken, dann gleich die Spieße grillen.",
+      "Zum Schluss Ma'amoul und eiskalter Jallab."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-cinese",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "pai-huanggua"
+    },
+    {
+     "role": "primo",
+     "id": "suanla-tang"
+    },
+    {
+     "role": "secondo",
+     "id": "hong-shao-rou"
+    },
+    {
+     "role": "secondo",
+     "id": "qing-zheng-yu"
+    },
+    {
+     "role": "contorno",
+     "id": "di-san-xian"
+    },
+    {
+     "role": "dolce",
+     "id": "tangyuan-sesamo-nero"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "te-al-gelsomino"
+    }
+   ],
+   "diet": [
+    "lf"
+   ],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena cinese",
+     "intro": "Tanti piatti condivisi al centro: cetrioli freddi, zuppa agropiccante, maiale brasato, pesce al vapore e palline dolci al sesamo.",
+     "wine": "Uno Shaoxing invecchiato servito tiepido, come in Cina, o un Riesling secco. Senza alcol: tè al gelsomino caldo per tutta la cena.",
+     "plan": [
+      "Il giorno prima: brasa l'hong shao rou (riscaldato è più buono) e prepara il ripieno dei tangyuan.",
+      "Due ore prima: ammolla i funghi della zuppa, forma i tangyuan e tienili coperti su un vassoio infarinato.",
+      "Un'ora prima: friggi patate e melanzane del di san xian e prepara la salsa; cuoci il riso, una ciotola a testa.",
+      "Mezz'ora prima: schiaccia e sala i cetrioli, completa la zuppa e scalda il brasato a fuoco basso.",
+      "All'ultimo: branzini al vapore 9 minuti, intanto salta il di san xian; olio bollente sul pesce e in tavola.",
+      "Dopo il pesce: lessa i tangyuan e prepara il tè al gelsomino con l'acqua a 80 °C."
+     ]
+    },
+    "en": {
+     "title": "Chinese dinner",
+     "intro": "Lots of dishes shared in the middle: cold cucumbers, hot and sour soup, braised pork, steamed fish and sweet sesame rice balls.",
+     "wine": "An aged Shaoxing wine served warm, as in China, or a dry Riesling. Alcohol-free: hot jasmine tea throughout the meal.",
+     "plan": [
+      "Day before: braise the hong shao rou (it's better reheated) and make the tangyuan filling.",
+      "Two hours ahead: soak the soup mushrooms, shape the tangyuan and keep them covered on a floured tray.",
+      "An hour ahead: fry the potatoes and aubergine for the di san xian, mix the sauce; cook rice, one bowl each.",
+      "Half an hour ahead: smash and salt the cucumbers, finish the soup and reheat the pork over low heat.",
+      "Last minute: steam the sea bass for 9 minutes while you toss the di san xian; sizzling oil on the fish, then serve.",
+      "After the fish: boil the tangyuan and brew the jasmine tea with water at 80 °C."
+     ]
+    },
+    "fr": {
+     "title": "Dîner chinois",
+     "intro": "Plein de plats à partager au centre : concombres froids, soupe aigre-piquante, porc braisé, poisson vapeur et perles de riz au sésame.",
+     "wine": "Un vin de Shaoxing vieilli servi tiède, comme en Chine, ou un riesling sec. Sans alcool : du thé au jasmin chaud tout le repas.",
+     "plan": [
+      "La veille : braise le hong shao rou (meilleur réchauffé) et prépare la farce des tangyuan.",
+      "Deux heures avant : fais tremper les champignons, façonne les tangyuan et garde-les couverts sur un plateau fariné.",
+      "Une heure avant : fais frire pommes de terre et aubergines du di san xian, prépare la sauce ; cuis le riz pour tous.",
+      "Une demi-heure avant : écrase et sale les concombres, termine la soupe et réchauffe le porc à feu doux.",
+      "Au dernier moment : bars à la vapeur 9 minutes en sautant le di san xian ; huile fumante sur le poisson et à table.",
+      "Après le poisson : cuis les tangyuan et infuse le thé au jasmin avec l'eau à 80 °C."
+     ]
+    },
+    "es": {
+     "title": "Cena china",
+     "intro": "Muchos platos para compartir en el centro: pepinos fríos, sopa agripicante, cerdo guisado, pescado al vapor y bolitas dulces de sésamo.",
+     "wine": "Un vino de Shaoxing añejo servido tibio, como en China, o un riesling seco. Sin alcohol: té de jazmín caliente durante toda la cena.",
+     "plan": [
+      "El día antes: guisa el hong shao rou (recalentado está mejor) y prepara el relleno de los tangyuan.",
+      "Dos horas antes: remoja las setas de la sopa, forma los tangyuan y guárdalos tapados en una bandeja enharinada.",
+      "Una hora antes: fríe las patatas y la berenjena del di san xian y prepara la salsa; cuece arroz, un cuenco por persona.",
+      "Media hora antes: machaca y sala los pepinos, termina la sopa y calienta el cerdo a fuego bajo.",
+      "Al final: lubinas al vapor 9 minutos mientras salteas el di san xian; aceite humeante sobre el pescado y a la mesa.",
+      "Tras el pescado: cuece los tangyuan y prepara el té de jazmín con el agua a 80 °C."
+     ]
+    },
+    "de": {
+     "title": "Chinesisches Abendessen",
+     "intro": "Viele Gerichte zum Teilen in der Tischmitte: kalte Gurken, sauer-scharfe Suppe, Schmorbauch, gedämpfter Fisch und süße Sesambällchen.",
+     "wine": "Ein gereifter Shaoxing-Reiswein, lauwarm wie in China, oder ein trockener Riesling. Alkoholfrei: heißer Jasmintee zum ganzen Essen.",
+     "plan": [
+      "Am Vortag: Hong Shao Rou schmoren (aufgewärmt ist es besser) und die Tangyuan-Füllung zubereiten.",
+      "Zwei Stunden vorher: Pilze für die Suppe einweichen, Tangyuan formen und abgedeckt auf einem bemehlten Blech lagern.",
+      "Eine Stunde vorher: Kartoffeln und Aubergine für Di San Xian frittieren, Soße anrühren; Reis kochen, je eine Schale.",
+      "Eine halbe Stunde vorher: Gurken zerschlagen und salzen, Suppe fertig kochen, Schmorbauch sanft erwärmen.",
+      "Zum Schluss: Wolfsbarsche 9 Minuten dämpfen, dabei Di San Xian schwenken; heißes Öl über den Fisch und servieren.",
+      "Nach dem Fisch: Tangyuan kochen und Jasmintee mit 80 °C heißem Wasser aufgießen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-coreana",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "haemul-pajeon"
+    },
+    {
+     "role": "contorno",
+     "id": "sigeumchi-namul"
+    },
+    {
+     "role": "contorno",
+     "id": "oi-muchim"
+    },
+    {
+     "role": "primo",
+     "id": "kimchi-jjigae"
+    },
+    {
+     "role": "secondo",
+     "id": "jjimdak"
+    },
+    {
+     "role": "dolce",
+     "id": "hotteok"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "boricha"
+    }
+   ],
+   "diet": [
+    "lf"
+   ],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena coreana",
+     "intro": "Pajeon croccante, due banchan e un kimchi jjigae bollente da condividere, jjimdak al centro e hotteok caldi per finire.",
+     "wine": "Makgeolli, il vino di riso torbido, ben freddo, o soju liscio in bicchierini. Senza alcol: boricha, caldo o freddo, per tutta la cena.",
+     "plan": [
+      "Il giorno prima: prepara oi muchim e sigeumchi namul e mettili in frigo; tosta l'orzo per il boricha.",
+      "Due ore prima: impasta gli hotteok e lasciali lievitare; prepara il boricha e mettilo in fresco o tienilo caldo.",
+      "Un'ora e mezza prima: avvia il jjimdak; intanto cuoci il riso, una ciotola a testa, e prepara il kimchi jjigae.",
+      "Mezz'ora prima: banchan in ciotoline al centro; tieni il jjigae a fuoco minimo, da condividere dalla pentola.",
+      "All'ultimo: cuoci i pajeon e portali subito in tavola con la salsa, poi jjimdak e jjigae bollenti.",
+      "Dopo cena: farcisci e cuoci gli hotteok, 3 minuti l'uno, e servili caldissimi."
+     ]
+    },
+    "en": {
+     "title": "Korean dinner",
+     "intro": "Crisp pajeon, two banchan and a bubbling kimchi jjigae to share, jjimdak in the middle and warm hotteok to finish.",
+     "wine": "Makgeolli, the cloudy rice wine, well chilled, or neat soju in small glasses. Alcohol-free: boricha, hot or cold, all evening.",
+     "plan": [
+      "Day before: make the oi muchim and sigeumchi namul and chill; toast the barley for the boricha.",
+      "Two hours ahead: make the hotteok dough and let it rise; brew the boricha and chill it or keep it hot.",
+      "An hour and a half ahead: start the jjimdak; meanwhile cook rice, one bowl each, and make the kimchi jjigae.",
+      "Half an hour ahead: banchan in small bowls in the middle; keep the jjigae on the lowest heat, to share from the pot.",
+      "Last minute: fry the pajeon and bring them straight to the table with the sauce, then the jjimdak and jjigae.",
+      "After dinner: fill and cook the hotteok, 3 minutes each, and serve them piping hot."
+     ]
+    },
+    "fr": {
+     "title": "Dîner coréen",
+     "intro": "Pajeon croustillant, deux banchan et un kimchi jjigae bouillonnant à partager, jjimdak au centre et hotteok chauds pour finir.",
+     "wine": "Du makgeolli, le vin de riz trouble, bien frais, ou du soju sec en petits verres. Sans alcool : du boricha, chaud ou froid.",
+     "plan": [
+      "La veille : prépare l'oi muchim et le sigeumchi namul, au frigo ; torréfie l'orge du boricha.",
+      "Deux heures avant : pétris les hotteok et laisse lever ; prépare le boricha, au frais ou au chaud.",
+      "Une heure et demie avant : lance le jjimdak ; pendant ce temps, cuis le riz, un bol chacun, et le kimchi jjigae.",
+      "Une demi-heure avant : banchan en petits bols au centre ; garde le jjigae à feu très doux, à partager dans la cocotte.",
+      "Au dernier moment : poêle les pajeon et sers-les aussitôt avec la sauce, puis jjimdak et jjigae bien chauds.",
+      "Après le repas : garnis et cuis les hotteok, 3 minutes chacun, et sers-les brûlants."
+     ]
+    },
+    "es": {
+     "title": "Cena coreana",
+     "intro": "Pajeon crujiente, dos banchan y un kimchi jjigae hirviendo para compartir, jjimdak en el centro y hotteok calientes para terminar.",
+     "wine": "Makgeolli, el vino de arroz turbio, bien frío, o soju solo en vasitos. Sin alcohol: boricha, caliente o frío, toda la cena.",
+     "plan": [
+      "El día antes: prepara el oi muchim y el sigeumchi namul y guárdalos en la nevera; tuesta la cebada del boricha.",
+      "Dos horas antes: amasa los hotteok y deja levar; prepara el boricha y enfríalo o mantenlo caliente.",
+      "Hora y media antes: empieza el jjimdak; mientras, cuece arroz, un cuenco por persona, y prepara el kimchi jjigae.",
+      "Media hora antes: banchan en cuencos pequeños en el centro; mantén el jjigae a fuego mínimo, para compartir de la olla.",
+      "Al final: haz los pajeon y llévalos enseguida a la mesa con la salsa, luego el jjimdak y el jjigae bien calientes.",
+      "Después de cenar: rellena y cocina los hotteok, 3 minutos cada uno, y sírvelos muy calientes."
+     ]
+    },
+    "de": {
+     "title": "Koreanisches Abendessen",
+     "intro": "Knuspriger Pajeon, zwei Banchan und ein brodelndes Kimchi-Jjigae zum Teilen, Jjimdak in der Mitte und warme Hotteok zum Schluss.",
+     "wine": "Makgeolli, der trübe Reiswein, gut gekühlt, oder Soju pur in kleinen Gläsern. Alkoholfrei: Boricha, heiß oder kalt, den ganzen Abend.",
+     "plan": [
+      "Am Vortag: Oi Muchim und Sigeumchi Namul zubereiten und kühlen; Gerste für den Boricha rösten.",
+      "Zwei Stunden vorher: Hotteok-Teig ansetzen und gehen lassen; Boricha kochen und kühlen oder warm halten.",
+      "Anderthalb Stunden vorher: Jjimdak aufsetzen; dabei Reis kochen, eine Schale pro Kopf, und Kimchi-Jjigae zubereiten.",
+      "Eine halbe Stunde vorher: Banchan in Schälchen in die Mitte; Jjigae auf kleinster Stufe halten, alle essen aus dem Topf.",
+      "Zum Schluss: Pajeon braten und sofort mit Dip servieren, dann Jjimdak und Jjigae heiß auf den Tisch.",
+      "Nach dem Essen: Hotteok füllen und braten, je 3 Minuten, und ganz heiß servieren."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-giapponese-ichiju-sansai",
+   "courses": [
+    {
+     "role": "primo",
+     "id": "kenchinjiru"
+    },
+    {
+     "role": "secondo",
+     "id": "buta-no-shogayaki"
+    },
+    {
+     "role": "contorno",
+     "id": "ingen-no-gomaae"
+    },
+    {
+     "role": "contorno",
+     "id": "kohaku-namasu"
+    }
+   ],
+   "drinks": [],
+   "diet": [
+    "lf"
+   ],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cena giapponese",
+     "intro": "Ichijū sansai, una zuppa e tre piatti: riso bianco, kenchinjiru, maiale allo zenzero e due contorni freddi.",
+     "wine": "Un sake junmai secco, fresco o tiepido a 40 °C; senza alcol, tè verde genmaicha caldo o mugicha (tè d'orzo) freddo.",
+     "plan": [
+      "Al mattino o il giorno prima: kōhaku namasu, che migliora riposando in frigo.",
+      "Un'ora prima metti in ammollo kombu e shiitake e lava 320 g di riso giapponese.",
+      "Mentre il riso cuoce e riposa, prepara il kenchinjiru e tienilo al caldo.",
+      "Sbollenta i fagiolini e condiscili col sesamo solo prima di servire.",
+      "Marina il maiale 10 minuti e saltalo all'ultimo, in 5 minuti.",
+      "Servi tutto insieme: riso a sinistra, zuppa a destra, maiale e contorni dietro."
+     ]
+    },
+    "en": {
+     "title": "Japanese dinner",
+     "intro": "Ichijū sansai, one soup and three dishes: plain rice, kenchinjiru, ginger pork and two cold sides.",
+     "wine": "A dry junmai sake, chilled or warmed to 40 °C; alcohol-free, hot genmaicha or cold mugicha (barley tea).",
+     "plan": [
+      "Morning or day before: make the kōhaku namasu, which improves resting in the fridge.",
+      "An hour ahead, soak the kombu and shiitake and rinse 320 g of Japanese rice.",
+      "While the rice cooks and rests, make the kenchinjiru and keep it warm.",
+      "Blanch the green beans and dress them with sesame only just before serving.",
+      "Marinate the pork for 10 minutes and stir-fry it at the very end, in 5 minutes.",
+      "Serve everything at once: rice on the left, soup on the right, pork and sides behind."
+     ]
+    },
+    "fr": {
+     "title": "Dîner japonais",
+     "intro": "Ichijū sansai, une soupe et trois plats : riz blanc, kenchinjiru, porc au gingembre et deux accompagnements froids.",
+     "wine": "Un saké junmai sec, frais ou tiédi à 40 °C ; sans alcool, un genmaicha chaud ou un mugicha (thé d'orge) froid.",
+     "plan": [
+      "Le matin ou la veille : le kōhaku namasu, qui s'améliore au frigo.",
+      "Une heure avant, mets kombu et shiitakés à tremper et rince 320 g de riz japonais.",
+      "Pendant que le riz cuit et repose, prépare le kenchinjiru et garde-le au chaud.",
+      "Blanchis les haricots et assaisonne-les au sésame juste avant de servir.",
+      "Fais mariner le porc 10 minutes et saute-le au dernier moment, en 5 minutes.",
+      "Sers tout ensemble : riz à gauche, soupe à droite, porc et accompagnements derrière."
+     ]
+    },
+    "es": {
+     "title": "Cena japonesa",
+     "intro": "Ichijū sansai, una sopa y tres platos: arroz blanco, kenchinjiru, cerdo al jengibre y dos guarniciones frías.",
+     "wine": "Un sake junmai seco, frío o templado a 40 °C; sin alcohol, genmaicha caliente o mugicha (té de cebada) frío.",
+     "plan": [
+      "Por la mañana o la víspera: el kōhaku namasu, que mejora reposando en la nevera.",
+      "Una hora antes, pon en remojo el kombu y las shiitake y lava 320 g de arroz japonés.",
+      "Mientras el arroz se cuece y reposa, prepara el kenchinjiru y mantenlo caliente.",
+      "Escalda las judías y alíñalas con el sésamo justo antes de servir.",
+      "Marina el cerdo 10 minutos y saltéalo al final, en 5 minutos.",
+      "Sirve todo a la vez: arroz a la izquierda, sopa a la derecha, cerdo y guarniciones detrás."
+     ]
+    },
+    "de": {
+     "title": "Japanisches Abendessen",
+     "intro": "Ichijū Sansai, eine Suppe und drei Gerichte: weißer Reis, Kenchinjiru, Ingwer-Schwein und zwei kalte Beilagen.",
+     "wine": "Ein trockener Junmai-Sake, kühl oder auf 40 °C angewärmt; alkoholfrei heißer Genmaicha oder kalter Mugicha (Gerstentee).",
+     "plan": [
+      "Morgens oder am Vortag: Kōhaku Namasu, der im Kühlschrank noch besser wird.",
+      "Eine Stunde vorher Kombu und Shiitake einweichen und 320 g japanischen Reis waschen.",
+      "Während der Reis gart und ruht, das Kenchinjiru kochen und warm halten.",
+      "Bohnen blanchieren und erst kurz vor dem Servieren mit Sesam anmachen.",
+      "Das Schweinefleisch 10 Minuten marinieren und ganz zum Schluss in 5 Minuten braten.",
+      "Alles zusammen servieren: Reis links, Suppe rechts, Fleisch und Beilagen dahinter."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-turca-meze",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "mercimek-koftesi"
+    },
+    {
+     "role": "antipasto",
+     "id": "imam-bayildi"
+    },
+    {
+     "role": "antipasto",
+     "id": "coban-salatasi"
+    },
+    {
+     "role": "secondo",
+     "id": "izmir-kofte"
+    },
+    {
+     "role": "dolce",
+     "id": "baklava-pistacchi"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "ayran"
+    },
+    {
+     "role": "bevanda",
+     "id": "cay-turco"
+    }
+   ],
+   "diet": [],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cena turca",
+     "intro": "Prima il meze: köfte di lenticchie, imam bayıldı e çoban salatası. Poi İzmir köfte dal forno, baklava e çay.",
+     "wine": "Con i meze il rakı allungato con acqua fredda e ghiaccio, poi un rosso anatolico di Öküzgözü; senza alcol, ayran freddo.",
+     "plan": [
+      "Il giorno prima: baklava (deve riposare almeno 4 ore) e imam bayıldı, più buono il giorno dopo.",
+      "Al mattino prepara le köfte di lenticchie e tienile in frigo coperte.",
+      "Due ore prima impasta le İzmir köfte; un'ora prima rosola patate e köfte e componi la teglia.",
+      "Inforna la teglia mentre servi i meze; la çoban salatası si condisce all'ultimo.",
+      "A fine cena metti sul fuoco il çaydanlık: il tè accompagna la baklava."
+     ]
+    },
+    "en": {
+     "title": "Turkish dinner",
+     "intro": "Meze first: lentil köfte, imam bayıldı and çoban salatası. Then İzmir köfte from the oven, baklava and çay.",
+     "wine": "With the meze, rakı topped with cold water and ice, then an Anatolian Öküzgözü red; alcohol-free, cold ayran.",
+     "plan": [
+      "Day before: baklava (it needs at least 4 hours) and imam bayıldı, which is better the next day.",
+      "In the morning make the lentil köfte and keep them covered in the fridge.",
+      "Two hours ahead mix the İzmir köfte; an hour ahead brown the potatoes and köfte and fill the dish.",
+      "Put the dish in the oven while you serve the meze; dress the çoban salatası at the last minute.",
+      "After dinner, put the çaydanlık on: the tea goes with the baklava."
+     ]
+    },
+    "fr": {
+     "title": "Dîner turc",
+     "intro": "D'abord les mezzés : köfte de lentilles, imam bayıldı et çoban salatası. Puis İzmir köfte au four, baklava et çay.",
+     "wine": "Avec les mezzés, du rakı allongé d'eau fraîche et de glace, puis un rouge anatolien d'Öküzgözü ; sans alcool, un ayran frais.",
+     "plan": [
+      "La veille : la baklava (au moins 4 heures de repos) et l'imam bayıldı, meilleur le lendemain.",
+      "Le matin, prépare les köfte de lentilles et garde-les couvertes au frigo.",
+      "Deux heures avant, pétris les İzmir köfte ; une heure avant, dore pommes de terre et köfte et garnis le plat.",
+      "Enfourne le plat pendant que tu sers les mezzés ; assaisonne la çoban salatası au dernier moment.",
+      "En fin de repas, mets le çaydanlık sur le feu : le thé accompagne la baklava."
+     ]
+    },
+    "es": {
+     "title": "Cena turca",
+     "intro": "Primero los meze: köfte de lentejas, imam bayıldı y çoban salatası. Luego İzmir köfte al horno, baklava y çay.",
+     "wine": "Con los meze, rakı rebajado con agua fría y hielo, y después un tinto anatolio de Öküzgözü; sin alcohol, ayran frío.",
+     "plan": [
+      "La víspera: la baklava (necesita al menos 4 horas) y el imam bayıldı, que está mejor al día siguiente.",
+      "Por la mañana prepara las köfte de lentejas y guárdalas tapadas en la nevera.",
+      "Dos horas antes amasa las İzmir köfte; una hora antes dora patatas y köfte y monta la fuente.",
+      "Mete la fuente en el horno mientras sirves los meze; aliña la çoban salatası en el último momento.",
+      "Al final de la cena pon el çaydanlık al fuego: el té acompaña la baklava."
+     ]
+    },
+    "de": {
+     "title": "Türkisches Abendessen",
+     "intro": "Erst Meze: Linsen-Köfte, İmam Bayıldı und Çoban Salatası. Dann İzmir Köfte aus dem Ofen, Baklava und Çay.",
+     "wine": "Zu den Meze Rakı mit kaltem Wasser und Eis, danach ein anatolischer Öküzgözü-Rotwein; alkoholfrei kalter Ayran.",
+     "plan": [
+      "Am Vortag: Baklava (braucht mindestens 4 Stunden) und İmam Bayıldı, das am nächsten Tag besser schmeckt.",
+      "Morgens die Linsen-Köfte formen und zugedeckt kalt stellen.",
+      "Zwei Stunden vorher die İzmir Köfte kneten; eine Stunde vorher Kartoffeln und Köfte anbraten, Form füllen.",
+      "Die Form in den Ofen schieben, während die Meze auf dem Tisch stehen; Çoban Salatası erst zuletzt anmachen.",
+      "Nach dem Essen den Çaydanlık aufsetzen: Der Tee gehört zur Baklava."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-messicana",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "guacamole"
+    },
+    {
+     "role": "secondo",
+     "id": "cochinita-pibil"
+    },
+    {
+     "role": "contorno",
+     "id": "arroz-verde"
+    },
+    {
+     "role": "contorno",
+     "id": "frijoles-de-olla"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "aperitivo",
+     "id": "margarita"
+    },
+    {
+     "role": "bevanda",
+     "id": "agua-de-jamaica"
+    }
+   ],
+   "diet": [
+    "gf",
+    "lf"
+   ],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena messicana",
+     "intro": "Guacamole da intingere, tacos di cochinita pibil con riso verde e fagioli neri: una tavola da Yucatán da condividere.",
+     "wine": "Una birra chiara messicana ghiacciata con lime o una margarita; senza alcol, agua de jamaica fredda.",
+     "plan": [
+      "Il giorno prima marina il maiale e metti in ammollo i fagioli.",
+      "Al mattino cuoci i fagioli e prepara l'agua de jamaica, poi mettila in frigo.",
+      "Quattro ore prima di cena inforna la cochinita; intanto prepara le cipolle al lime.",
+      "Quaranta minuti prima cuoci l'arroz verde e scalda i fagioli.",
+      "All'ultimo schiaccia il guacamole, sfilaccia la carne e scalda le tortillas."
+     ]
+    },
+    "en": {
+     "title": "Mexican dinner",
+     "intro": "Guacamole for dipping, then cochinita pibil tacos with green rice and black beans: a Yucatán-style table to share.",
+     "wine": "An ice-cold Mexican lager with lime or a margarita; alcohol-free, chilled agua de jamaica.",
+     "plan": [
+      "The day before, marinate the pork and soak the beans.",
+      "In the morning cook the beans and make the agua de jamaica, then chill it.",
+      "Four hours before dinner put the cochinita in the oven; meanwhile pickle the onions in lime.",
+      "Forty minutes before, cook the arroz verde and reheat the beans.",
+      "At the last minute mash the guacamole, shred the pork and warm the tortillas."
+     ]
+    },
+    "fr": {
+     "title": "Dîner mexicain",
+     "intro": "Guacamole à tremper, puis tacos de cochinita pibil avec riz vert et haricots noirs : une table du Yucatán à partager.",
+     "wine": "Une bière blonde mexicaine glacée avec du citron vert ou une margarita ; sans alcool, agua de jamaica bien fraîche.",
+     "plan": [
+      "La veille, fais mariner le porc et tremper les haricots.",
+      "Le matin, cuis les haricots et prépare l'agua de jamaica, puis mets-la au frais.",
+      "Quatre heures avant le dîner, enfourne la cochinita ; pendant ce temps, prépare les oignons au citron vert.",
+      "Quarante minutes avant, cuis l'arroz verde et réchauffe les haricots.",
+      "Au dernier moment, écrase le guacamole, effiloche la viande et réchauffe les tortillas."
+     ]
+    },
+    "es": {
+     "title": "Cena mexicana",
+     "intro": "Guacamole para picar y tacos de cochinita pibil con arroz verde y frijoles: una mesa yucateca para compartir.",
+     "wine": "Una cerveza clara mexicana bien fría con lima o una margarita; sin alcohol, agua de jamaica helada.",
+     "plan": [
+      "El día antes, marina el cerdo y pon los frijoles en remojo.",
+      "Por la mañana cuece los frijoles y prepara el agua de jamaica; métela en la nevera.",
+      "Cuatro horas antes de cenar hornea la cochinita; mientras, prepara la cebolla con lima.",
+      "Cuarenta minutos antes cuece el arroz verde y calienta los frijoles.",
+      "Al final machaca el guacamole, deshebra la carne y calienta las tortillas."
+     ]
+    },
+    "de": {
+     "title": "Mexikanisches Abendessen",
+     "intro": "Guacamole zum Dippen, dann Cochinita-Pibil-Tacos mit grünem Reis und schwarzen Bohnen: ein Tisch aus Yucatán.",
+     "wine": "Ein eiskaltes mexikanisches Helles mit Limette oder eine Margarita; alkoholfrei gekühltes Agua de Jamaica.",
+     "plan": [
+      "Am Vortag das Fleisch marinieren und die Bohnen einweichen.",
+      "Morgens die Bohnen kochen und das Agua de Jamaica ansetzen, dann kalt stellen.",
+      "Vier Stunden vor dem Essen die Cochinita in den Ofen schieben; inzwischen die Limettenzwiebeln ansetzen.",
+      "Vierzig Minuten vorher den Arroz verde kochen und die Bohnen aufwärmen.",
+      "Zum Schluss Guacamole zerdrücken, Fleisch zupfen und Tortillas erwärmen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-greca",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "tzatziki"
+    },
+    {
+     "role": "antipasto",
+     "id": "garides-saganaki"
+    },
+    {
+     "role": "secondo",
+     "id": "paidakia"
+    },
+    {
+     "role": "contorno",
+     "id": "briam"
+    },
+    {
+     "role": "dolce",
+     "id": "galaktoboureko"
+    }
+   ],
+   "drinks": [],
+   "diet": [],
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cena greca",
+     "intro": "Una sera da taverna: tzatziki e gamberi saganáki da condividere, costolette alla griglia con briám, poi galaktoboúreko.",
+     "wine": "Un Assyrtiko di Santorini fresco a 10 °C, o ouzo con acqua e ghiaccio con i mezé; senza alcol, acqua frizzante con limone e menta.",
+     "plan": [
+      "Al mattino prepara il galaktoboúreko e lo sciroppo, e lascialo raffreddare.",
+      "Tre ore prima prepara lo tzatziki e mettilo in frigo; marina le costolette.",
+      "Due ore prima inforna il briám: si serve tiepido.",
+      "Prepara il sugo dei gamberi e tienilo pronto in padella.",
+      "All'ultimo cuoci i gamberi con la feta e griglia le costolette."
+     ]
+    },
+    "en": {
+     "title": "Greek dinner",
+     "intro": "A taverna night: tzatziki and prawn saganaki to share, grilled lamb chops with briam, then galaktoboureko.",
+     "wine": "A crisp Santorini Assyrtiko at 10 °C, or ouzo with water and ice alongside the meze; alcohol-free, sparkling water with lemon and mint.",
+     "plan": [
+      "In the morning make the galaktoboureko and syrup and let it cool.",
+      "Three hours ahead make the tzatziki and chill it; marinate the chops.",
+      "Two hours ahead put the briam in the oven: it is served warm.",
+      "Make the prawn sauce and keep it ready in the pan.",
+      "At the last minute cook the prawns with feta and grill the chops."
+     ]
+    },
+    "fr": {
+     "title": "Dîner grec",
+     "intro": "Un soir de taverne : tzatziki et crevettes saganaki à partager, côtelettes grillées avec briam, puis galaktoboureko.",
+     "wine": "Un assyrtiko de Santorin bien frais à 10 °C, ou un ouzo allongé d'eau avec les mezze ; sans alcool, eau pétillante citron et menthe.",
+     "plan": [
+      "Le matin, prépare le galaktoboureko et le sirop, et laisse refroidir.",
+      "Trois heures avant, prépare le tzatziki et mets-le au frais ; fais mariner les côtelettes.",
+      "Deux heures avant, enfourne le briam : il se sert tiède.",
+      "Prépare la sauce des crevettes et garde-la prête dans la poêle.",
+      "Au dernier moment, cuis les crevettes à la feta et grille les côtelettes."
+     ]
+    },
+    "es": {
+     "title": "Cena griega",
+     "intro": "Una noche de taberna: tzatziki y gambas saganaki para compartir, chuletas a la parrilla con briam y galaktoboureko.",
+     "wine": "Un Assyrtiko de Santorini fresco a 10 °C, u ouzo con agua y hielo con los mezze; sin alcohol, agua con gas con limón y menta.",
+     "plan": [
+      "Por la mañana prepara el galaktoboureko y el almíbar y deja que se enfríe.",
+      "Tres horas antes haz el tzatziki y enfríalo; marina las chuletas.",
+      "Dos horas antes hornea el briam: se sirve templado.",
+      "Prepara la salsa de las gambas y déjala lista en la sartén.",
+      "Al final cocina las gambas con la feta y asa las chuletas."
+     ]
+    },
+    "de": {
+     "title": "Griechisches Abendessen",
+     "intro": "Ein Tavernenabend: Tzatziki und Garnelen-Saganaki zum Teilen, Lammkoteletts mit Briam, dann Galaktoboureko.",
+     "wine": "Ein frischer Assyrtiko aus Santorin bei 10 °C oder Ouzo mit Wasser und Eis zu den Meze; alkoholfrei Sprudel mit Zitrone und Minze.",
+     "plan": [
+      "Morgens Galaktoboureko und Sirup zubereiten und abkühlen lassen.",
+      "Drei Stunden vorher Tzatziki anrühren und kalt stellen; Koteletts marinieren.",
+      "Zwei Stunden vorher das Briam in den Ofen schieben: Es wird lauwarm serviert.",
+      "Die Tomatensauce für die Garnelen vorbereiten und in der Pfanne bereithalten.",
+      "Zum Schluss die Garnelen mit Feta garen und die Koteletts grillen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-indiana",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "samosa-patate-piselli"
+    },
+    {
+     "role": "secondo",
+     "id": "rogan-josh"
+    },
+    {
+     "role": "secondo",
+     "id": "palak-paneer"
+    },
+    {
+     "role": "contorno",
+     "id": "jeera-rice"
+    },
+    {
+     "role": "contorno",
+     "id": "naan"
+    },
+    {
+     "role": "dolce",
+     "id": "gulab-jamun"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "bevanda",
+     "id": "chai-latte"
+    }
+   ],
+   "diet": [],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena indiana",
+     "intro": "Samosa croccanti, rogan josh del Kashmir, palak paneer, riso al cumino e naan caldo; per finire gulab jamun e chai.",
+     "wine": "Una lager chiara ben fredda, come nei ristoranti indiani, o un Gewürztraminer secco; senza alcol, mango lassi o acqua con limone e menta.",
+     "plan": [
+      "Il giorno prima: gulab jamun nello sciroppo (migliorano col riposo) e ripieno dei samosa in frigo.",
+      "Tre ore prima impasta il naan e avvia il rogan josh: lievitazione e stufato vanno avanti da soli.",
+      "Intanto chiudi i samosa, prepara la crema di spinaci e dora il paneer.",
+      "Quaranta minuti prima metti il riso in ammollo, poi cuocilo: coperto aspetta senza problemi.",
+      "All'ultimo friggi i samosa, cuoci i naan in padella e unisci paneer e panna agli spinaci.",
+      "Col dolce scalda appena i gulab jamun e prepara il chai."
+     ]
+    },
+    "en": {
+     "title": "An Indian dinner",
+     "intro": "Crisp samosas, Kashmiri rogan josh, palak paneer, cumin rice and warm naan, then gulab jamun and chai to finish.",
+     "wine": "An ice-cold pale lager, as in Indian restaurants, or a dry Gewürztraminer; alcohol-free, a mango lassi or water with lime and mint.",
+     "plan": [
+      "Day before: gulab jamun in their syrup (they improve with time) and the samosa filling in the fridge.",
+      "Three hours ahead make the naan dough and start the rogan josh: the rise and the braise look after themselves.",
+      "Meanwhile shape the samosas, make the spinach purée and brown the paneer.",
+      "Forty minutes ahead soak the rice, then cook it: covered, it happily waits.",
+      "At the last minute fry the samosas, cook the naan in a pan and stir paneer and cream into the spinach.",
+      "With dessert, briefly warm the gulab jamun and brew the chai."
+     ]
+    },
+    "fr": {
+     "title": "Dîner indien",
+     "intro": "Samoussas croustillants, rogan josh du Cachemire, palak paneer, riz au cumin et naans chauds, puis gulab jamun et chai.",
+     "wine": "Une lager blonde bien fraîche, comme au restaurant indien, ou un gewurztraminer sec ; sans alcool, un mango lassi ou de l'eau citron-menthe.",
+     "plan": [
+      "La veille : les gulab jamun dans leur sirop (ils gagnent à attendre) et la farce des samoussas au frais.",
+      "Trois heures avant, pétris les naans et lance le rogan josh : la pousse et le mijotage avancent seuls.",
+      "Pendant ce temps, ferme les samoussas, prépare la purée d'épinards et dore le paneer.",
+      "Quarante minutes avant, fais tremper le riz puis cuis-le : couvert, il attend sans souci.",
+      "Au dernier moment, fais frire les samoussas, cuis les naans à la poêle et ajoute paneer et crème aux épinards.",
+      "Au dessert, réchauffe à peine les gulab jamun et prépare le chai."
+     ]
+    },
+    "es": {
+     "title": "Cena india",
+     "intro": "Samosas crujientes, rogan josh de Cachemira, palak paneer, arroz al comino y naan caliente; de postre, gulab jamun y chai.",
+     "wine": "Una lager rubia bien fría, como en los restaurantes indios, o un gewürztraminer seco; sin alcohol, mango lassi o agua con lima y menta.",
+     "plan": [
+      "El día antes: los gulab jamun en su almíbar (mejoran con el reposo) y el relleno de las samosas en la nevera.",
+      "Tres horas antes amasa el naan y empieza el rogan josh: el levado y el guiso avanzan solos.",
+      "Mientras, cierra las samosas, prepara la crema de espinacas y dora el paneer.",
+      "Cuarenta minutos antes pon el arroz en remojo y luego cuécelo: tapado espera sin problema.",
+      "Al final fríe las samosas, haz los naan en la sartén y añade paneer y nata a las espinacas.",
+      "Con el postre, templa un poco los gulab jamun y prepara el chai."
+     ]
+    },
+    "de": {
+     "title": "Indisches Abendessen",
+     "intro": "Knusprige Samosas, Rogan Josh aus Kaschmir, Palak Paneer, Kreuzkümmelreis und warmes Naan, danach Gulab Jamun und Chai.",
+     "wine": "Ein eiskaltes helles Lager wie im indischen Restaurant oder ein trockener Gewürztraminer; alkoholfrei Mango Lassi oder Wasser mit Limette und Minze.",
+     "plan": [
+      "Am Vortag: Gulab Jamun in den Sirup (sie werden mit der Zeit besser) und die Samosa-Füllung in den Kühlschrank.",
+      "Drei Stunden vorher den Naanteig ansetzen und das Rogan Josh starten: Gehen und Schmoren laufen von allein.",
+      "Inzwischen die Samosas formen, das Spinatpüree zubereiten und den Paneer anbraten.",
+      "Vierzig Minuten vorher den Reis einweichen, dann garen: Zugedeckt wartet er problemlos.",
+      "Zum Schluss die Samosas frittieren, die Naan in der Pfanne backen und Paneer und Sahne unter den Spinat rühren.",
+      "Zum Dessert die Gulab Jamun kurz erwärmen und den Chai aufbrühen."
+     ]
+    }
+   }
+  },
+  {
+   "id": "cena-spagnola",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "pimientos-de-padron"
+    },
+    {
+     "role": "antipasto",
+     "id": "pulpo-a-la-gallega"
+    },
+    {
+     "role": "primo",
+     "id": "salmorejo-cordobes"
+    },
+    {
+     "role": "secondo",
+     "id": "pollo-al-ajillo"
+    },
+    {
+     "role": "contorno",
+     "id": "pisto-manchego"
+    },
+    {
+     "role": "dolce",
+     "id": "arroz-con-leche"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "aperitivo",
+     "id": "tinto-de-verano"
+    },
+    {
+     "role": "bevanda",
+     "id": "horchata-de-chufa"
+    }
+   ],
+   "diet": [],
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cena spagnola",
+     "intro": "Tapas da dividere, pimientos e pulpo, poi salmorejo, pollo al ajillo con pisto e arroz con leche: una lunga sera d'estate.",
+     "wine": "Un Albariño delle Rías Baixas ben freddo con pulpo e pimientos, poi un Rioja giovane col pollo; senza alcol, horchata ghiacciata.",
+     "plan": [
+      "Il giorno prima: chufas in ammollo, arroz con leche in frigo e pisto pronto (riscaldato è più buono).",
+      "Al mattino frulla e filtra l'horchata; prepara il salmorejo e mettilo in frigo almeno un'ora.",
+      "Due ore prima lessa il polpo e poi le patate nella stessa acqua; lasciale lì al caldo.",
+      "Un'ora prima avvia il pollo al ajillo e scalda piano il pisto.",
+      "All'arrivo degli ospiti versa il tinto de verano, friggi i pimientos e condisci il polpo."
+     ]
+    },
+    "en": {
+     "title": "A Spanish dinner",
+     "intro": "Tapas to share, Padrón peppers and octopus, then salmorejo, garlic chicken with pisto and arroz con leche: a long summer night.",
+     "wine": "A chilled Albariño from Rías Baixas with the octopus and peppers, then a young Rioja with the chicken; alcohol-free, iced horchata.",
+     "plan": [
+      "Day before: soak the tiger nuts, chill the arroz con leche and make the pisto (it's better reheated).",
+      "In the morning blend and strain the horchata; make the salmorejo and chill it for at least an hour.",
+      "Two hours ahead boil the octopus, then the potatoes in the same water; leave them there to keep warm.",
+      "An hour ahead start the pollo al ajillo and gently reheat the pisto.",
+      "When guests arrive pour the tinto de verano, fry the Padrón peppers and dress the octopus."
+     ]
+    },
+    "fr": {
+     "title": "Dîner espagnol",
+     "intro": "Tapas à partager, pimientos et poulpe, puis salmorejo, poulet à l'ail avec pisto et arroz con leche : une longue soirée d'été.",
+     "wine": "Un albariño des Rías Baixas bien frais avec le poulpe et les pimientos, puis un rioja jeune avec le poulet ; sans alcool, horchata glacée.",
+     "plan": [
+      "La veille : souchets à tremper, arroz con leche au frais et pisto prêt (il est meilleur réchauffé).",
+      "Le matin, mixe et filtre l'horchata ; prépare le salmorejo et mets-le au frais au moins une heure.",
+      "Deux heures avant, cuis le poulpe puis les pommes de terre dans la même eau ; laisse-les-y au chaud.",
+      "Une heure avant, lance le pollo al ajillo et réchauffe doucement le pisto.",
+      "À l'arrivée des invités, sers le tinto de verano, fais frire les pimientos et assaisonne le poulpe."
+     ]
+    },
+    "es": {
+     "title": "Cena española",
+     "intro": "Tapas para compartir, pimientos de Padrón y pulpo, luego salmorejo, pollo al ajillo con pisto y arroz con leche: noche de verano.",
+     "wine": "Un albariño de las Rías Baixas bien frío con el pulpo y los pimientos, y un rioja joven con el pollo; sin alcohol, horchata helada.",
+     "plan": [
+      "El día antes: chufas en remojo, arroz con leche en la nevera y pisto hecho (recalentado está más rico).",
+      "Por la mañana tritura y cuela la horchata; prepara el salmorejo y mételo en la nevera al menos una hora.",
+      "Dos horas antes cuece el pulpo y luego los cachelos en la misma agua; déjalos ahí calientes.",
+      "Una hora antes empieza el pollo al ajillo y calienta el pisto a fuego suave.",
+      "Cuando lleguen los invitados sirve el tinto de verano, fríe los pimientos y aliña el pulpo."
+     ]
+    },
+    "de": {
+     "title": "Spanisches Abendessen",
+     "intro": "Tapas zum Teilen, Pimientos und Pulpo, dann Salmorejo, Knoblauchhähnchen mit Pisto und Arroz con leche: ein langer Sommerabend.",
+     "wine": "Ein kühler Albariño aus den Rías Baixas zu Pulpo und Pimientos, dann ein junger Rioja zum Hähnchen; alkoholfrei eisgekühlte Horchata.",
+     "plan": [
+      "Am Vortag: Erdmandeln einweichen, Arroz con leche kalt stellen und Pisto kochen (aufgewärmt schmeckt er besser).",
+      "Morgens die Horchata mixen und abseihen; den Salmorejo zubereiten und mindestens eine Stunde kühlen.",
+      "Zwei Stunden vorher den Oktopus garen, dann die Kartoffeln im selben Wasser; darin warm halten.",
+      "Eine Stunde vorher das Pollo al ajillo ansetzen und den Pisto sanft erwärmen.",
+      "Wenn die Gäste kommen, Tinto de verano einschenken, Pimientos braten und den Pulpo anrichten."
+     ]
+    }
+   }
+  },
+  {
+   "id": "diner-francais",
+   "courses": [
+    {
+     "role": "antipasto",
+     "id": "gougeres"
+    },
+    {
+     "role": "secondo",
+     "id": "boeuf-bourguignon"
+    },
+    {
+     "role": "contorno",
+     "id": "carottes-vichy"
+    },
+    {
+     "role": "dolce",
+     "id": "tarte-bourdaloue"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "aperitivo",
+     "id": "kir"
+    }
+   ],
+   "diet": [],
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2
+   ],
+   "i18n": {
+    "it": {
+     "title": "Cena francese",
+     "intro": "Kir e gougères, bœuf bourguignon con carote Vichy, poi i formaggi e la tarte Bourdaloue: una sera in Borgogna.",
+     "wine": "Un Bourgogne rosso, Pinot nero della Côte de Nuits, a 16 °C: lo stesso del bourguignon. Analcolico: succo d'uva rossa con acqua frizzante.",
+     "plan": [
+      "Il giorno prima cuoci il bourguignon (circa 4 ore): dopo una notte in frigo è ancora più buono.",
+      "La mattina cuoci le pere e la tarte Bourdaloue: si serve a temperatura ambiente.",
+      "Un'ora prima togli dal frigo i formaggi (Époisses, Comté, un caprino) e prepara l'impasto delle gougères.",
+      "Inforna le gougères (25 minuti), cuoci le carote Vichy e riscalda piano il bourguignon, coperto.",
+      "Servi kir e gougères, poi bourguignon e carote; i formaggi arrivano prima del dolce, come in Francia."
+     ]
+    },
+    "en": {
+     "title": "French dinner",
+     "intro": "Kir and gougères, bœuf bourguignon with Vichy carrots, then a cheese board and a pear and almond tart: an evening in Burgundy.",
+     "wine": "A red Burgundy, Pinot Noir from the Côte de Nuits, at 16 °C: the same wine as in the stew. Alcohol-free: red grape juice with sparkling water.",
+     "plan": [
+      "The day before, cook the bourguignon (about 4 hours): a night in the fridge makes it even better.",
+      "In the morning, poach the pears and bake the tart: it is served at room temperature.",
+      "An hour ahead, take the cheeses out of the fridge (Époisses, Comté, a goat's cheese) and make the gougère dough.",
+      "Bake the gougères (25 minutes), cook the Vichy carrots and gently reheat the bourguignon, covered.",
+      "Serve kir and gougères, then the stew and carrots; the cheese comes before dessert, as in France."
+     ]
+    },
+    "fr": {
+     "title": "Dîner français",
+     "intro": "Kir et gougères, bœuf bourguignon et carottes Vichy, puis plateau de fromages et tarte Bourdaloue : une soirée en Bourgogne.",
+     "wine": "Un bourgogne rouge, pinot noir de la Côte de Nuits, à 16 °C : le même que dans le bourguignon. Sans alcool : jus de raisin rouge et eau gazeuse.",
+     "plan": [
+      "La veille, cuis le bourguignon (environ 4 heures) : après une nuit au frais, il est encore meilleur.",
+      "Le matin, poche les poires et cuis la tarte Bourdaloue : elle se sert à température ambiante.",
+      "Une heure avant, sors les fromages du frigo (époisses, comté, un chèvre) et prépare la pâte à gougères.",
+      "Enfourne les gougères (25 minutes), cuis les carottes Vichy et réchauffe doucement le bourguignon, couvert.",
+      "Kir et gougères, puis bourguignon et carottes ; le fromage passe avant le dessert, comme il se doit."
+     ]
+    },
+    "es": {
+     "title": "Cena francesa",
+     "intro": "Kir y gougères, bœuf bourguignon con zanahorias Vichy, luego quesos y tarta Bourdaloue: una noche en Borgoña.",
+     "wine": "Un borgoña tinto, Pinot Noir de la Côte de Nuits, a 16 °C: el mismo del guiso. Sin alcohol: mosto tinto con agua con gas.",
+     "plan": [
+      "El día antes cocina el bourguignon (unas 4 horas): tras una noche en la nevera está aún mejor.",
+      "Por la mañana cuece las peras y hornea la tarta Bourdaloue: se sirve a temperatura ambiente.",
+      "Una hora antes saca los quesos de la nevera (Époisses, Comté, uno de cabra) y prepara la masa de las gougères.",
+      "Hornea las gougères (25 minutos), haz las zanahorias Vichy y recalienta el guiso despacio, tapado.",
+      "Sirve kir y gougères, luego el guiso y las zanahorias; los quesos van antes del postre, como en Francia."
+     ]
+    },
+    "de": {
+     "title": "Französisches Abendessen",
+     "intro": "Kir und Gougères, Bœuf bourguignon mit Vichy-Karotten, dann Käse und Birnen-Mandel-Tarte: ein Abend in Burgund.",
+     "wine": "Ein roter Burgunder, Pinot Noir von der Côte de Nuits, bei 16 °C: derselbe wie im Schmortopf. Alkoholfrei: roter Traubensaft mit Sprudel.",
+     "plan": [
+      "Am Vortag das Bourguignon schmoren (etwa 4 Stunden): nach einer Nacht im Kühlschrank schmeckt es noch besser.",
+      "Am Morgen die Birnen pochieren und die Tarte backen: sie wird zimmerwarm serviert.",
+      "Eine Stunde vorher den Käse aus dem Kühlschrank nehmen (Époisses, Comté, ein Ziegenkäse) und den Gougères-Teig rühren.",
+      "Gougères backen (25 Minuten), Vichy-Karotten garen und das Bourguignon zugedeckt sanft erwärmen.",
+      "Erst Kir und Gougères, dann Schmorfleisch und Karotten; der Käse kommt vor dem Dessert, wie in Frankreich."
+     ]
+    }
+   }
+  },
+  {
+   "id": "southern-dinner",
+   "courses": [
+    {
+     "role": "contorno",
+     "id": "cornbread"
+    },
+    {
+     "role": "secondo",
+     "id": "buttermilk-fried-chicken"
+    },
+    {
+     "role": "contorno",
+     "id": "mac-and-cheese"
+    },
+    {
+     "role": "contorno",
+     "id": "coleslaw"
+    },
+    {
+     "role": "dolce",
+     "id": "banana-pudding"
+    }
+   ],
+   "drinks": [
+    {
+     "role": "aperitivo",
+     "id": "mint-julep"
+    }
+   ],
+   "diet": [],
+   "months": [],
+   "i18n": {
+    "it": {
+     "title": "Cena del Sud degli USA",
+     "intro": "Mint julep, pollo fritto croccante con mac and cheese, coleslaw e cornbread, poi banana pudding: la tavola della domenica nel Sud.",
+     "wine": "Mint julep per iniziare, poi una lager americana ben fredda o un bourbon liscio. Analcolico: sweet tea, tè nero freddo zuccherato con limone.",
+     "plan": [
+      "La sera prima metti il pollo nella marinata di yogurt e latte e lascialo in frigo tutta la notte.",
+      "La mattina prepara il banana pudding: crema, strati e almeno 4 ore in frigo.",
+      "Due ore prima fai il coleslaw e mettilo in frigo; poi infarina il pollo e lascialo riposare 15 minuti.",
+      "Un'ora prima inforna il mac and cheese, poi il cornbread nella padella rovente.",
+      "Friggi il pollo per ultimo, pochi pezzi per volta, e porta tutto in tavola insieme con i mint julep."
+     ]
+    },
+    "en": {
+     "title": "Southern dinner",
+     "intro": "Mint juleps, crunchy fried chicken with mac and cheese, coleslaw and cornbread, then banana pudding: Sunday supper down South.",
+     "wine": "Mint juleps to start, then an ice-cold American lager or a neat bourbon. Alcohol-free: sweet tea, chilled sweetened black tea with lemon.",
+     "plan": [
+      "The night before, put the chicken in the yogurt and milk marinade and leave it in the fridge overnight.",
+      "In the morning, make the banana pudding: custard, layers and at least 4 hours in the fridge.",
+      "Two hours ahead, make the coleslaw and chill it; then dredge the chicken and let it rest 15 minutes.",
+      "An hour ahead, bake the mac and cheese, then the cornbread in the hot skillet.",
+      "Fry the chicken last, a few pieces at a time, and bring everything to the table at once with the juleps."
+     ]
+    },
+    "fr": {
+     "title": "Dîner du Sud américain",
+     "intro": "Mint julep, poulet frit croustillant, mac and cheese, coleslaw et cornbread, puis banana pudding : le repas du dimanche dans le Sud.",
+     "wine": "Mint julep pour commencer, puis une lager américaine bien fraîche ou un bourbon sec. Sans alcool : sweet tea, thé noir glacé sucré au citron.",
+     "plan": [
+      "La veille au soir, mets le poulet dans la marinade yaourt-lait et laisse-le au frais toute la nuit.",
+      "Le matin, prépare le banana pudding : crème, montage, puis au moins 4 heures au frais.",
+      "Deux heures avant, fais le coleslaw et mets-le au frais ; puis farine le poulet et laisse-le reposer 15 minutes.",
+      "Une heure avant, enfourne le mac and cheese, puis le cornbread dans la poêle brûlante.",
+      "Fais frire le poulet en dernier, quelques morceaux à la fois, et sers tout ensemble avec les mint juleps."
+     ]
+    },
+    "es": {
+     "title": "Cena del Sur de EE. UU.",
+     "intro": "Mint julep, pollo frito crujiente con mac and cheese, coleslaw y cornbread, y banana pudding: la comida del domingo en el Sur.",
+     "wine": "Mint julep para empezar y luego una lager americana bien fría o un bourbon solo. Sin alcohol: sweet tea, té negro frío endulzado con limón.",
+     "plan": [
+      "La noche antes pon el pollo en la marinada de yogur y leche y déjalo toda la noche en la nevera.",
+      "Por la mañana prepara el banana pudding: crema, capas y al menos 4 horas en la nevera.",
+      "Dos horas antes haz el coleslaw y mételo en la nevera; luego reboza el pollo y déjalo reposar 15 minutos.",
+      "Una hora antes hornea el mac and cheese y después el cornbread en la sartén ardiendo.",
+      "Fríe el pollo al final, pocas piezas a la vez, y lleva todo a la mesa junto con los mint juleps."
+     ]
+    },
+    "de": {
+     "title": "Südstaaten-Dinner",
+     "intro": "Mint Julep, knuspriges Fried Chicken mit Mac and Cheese, Coleslaw und Cornbread, dann Banana Pudding: Sonntagsessen im Süden.",
+     "wine": "Zum Auftakt Mint Julep, dann ein eiskaltes amerikanisches Lager oder Bourbon pur. Alkoholfrei: Sweet Tea, gesüßter Eistee mit Zitrone.",
+     "plan": [
+      "Am Vorabend das Hähnchen in die Joghurt-Milch-Marinade legen und über Nacht kühlen.",
+      "Am Morgen den Banana Pudding machen: Creme, Schichten, dann mindestens 4 Stunden kühlen.",
+      "Zwei Stunden vorher den Coleslaw anmachen und kalt stellen; dann das Hähnchen panieren und 15 Minuten ruhen lassen.",
+      "Eine Stunde vorher Mac and Cheese backen, danach das Cornbread in der heißen Pfanne.",
+      "Das Hähnchen zuletzt portionsweise frittieren und alles zusammen mit den Mint Juleps auftragen."
+     ]
+    }
+   }
   }
  ]
 }
