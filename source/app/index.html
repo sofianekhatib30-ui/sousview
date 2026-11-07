@@ -258,6 +258,8 @@
   .roles { display: flex; flex-wrap: wrap; align-items: center; gap: 0.1rem 0; margin-block-start: 0.2rem; font-size: 0.64rem; font-weight: 700; color: var(--quiet); font-family: var(--sans); }
   .roles span + span::before { content: ''; display: inline-block; inline-size: 2px; block-size: 0.7em; background: var(--saffron); margin-inline: 0.4rem; vertical-align: -0.05em; }
   button:focus .roles span + span::before { background: #000; }
+  .acts { display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem; margin-block-start: 0.5rem; }
+  .acts button { margin: 0; }
   .course .ri { display: block; font-size: 0.68rem; line-height: 1.25; color: var(--ink); opacity: 0.8; margin-block-start: 0.12rem; }
   .course .role { display: block; font-size: 0.64rem; color: var(--rad); font-weight: 800; margin-block-end: 0.05rem; }
   .pairing { border: 2px solid var(--saffron); border-radius: 1rem; padding: 0.6rem 0.85rem 0.7rem; margin: 0.9rem 0 0.4rem; background: rgba(255, 194, 61, 0.08); }
@@ -1497,6 +1499,7 @@
     if ((r.methods || []).length > 1) {
       h += `<h2>${esc(L.method)}</h2><div class="seg" role="group" aria-label="${esc(L.method)}">${r.methods.map((m) => `<button type="button" id="me-${m}" aria-pressed="${m === meth}">${icon(IC[m] ? m : 'pot')}${esc(methodName(m))}</button>`).join('')}</div>`;
     }
+    h += `<div class="acts">${btn('wa-send', esc(L.waSend), esc(L.waRecipe(L.serv(e.serv))), '', 'wa')}${btn('go-shop', esc(L.shop), esc(L.shopFor(L.serv(e.serv))), '', 'cart')}</div>`;
     h += `<h2>${esc(L.ingredients)}</h2><ul class="ing">${ing.map((i, n) => {
       let li = `<div class="li"><span class="q">${esc(fmtQty(i.q, i.u))}</span><span>${esc(ingName(i, i.q))}</span></div>`;
       const b = bases.find((y) => y.n === n);
@@ -1513,7 +1516,6 @@
       }
       return `<li>${li}</li>`;
     }).join('')}</ul>`;
-    h += `<div style="margin-top:0.7rem">${btn('go-shop', esc(L.shop), esc(L.shopFor(L.serv(e.serv))), '', 'cart')}${btn('wa-send', esc(L.waSend), esc(L.waRecipe(L.serv(e.serv))), '', 'wa')}</div>`;
     if ((r.tips || []).length) h += `<h2>${esc(L.tips)}</h2>${tipsBlock(r, 'tip-')}`;
     h += `<div style="margin-top:0.7rem">
         ${e.serv !== r.servings || !r.mine ? btn('save-mine', L.saveMine, e.serv !== r.servings ? L.saveWith(L.serv(e.serv)) : L.saveLater, '', 'mine') : ''}
@@ -1664,8 +1666,10 @@
         ${left ? `<p class="note">${esc(L.left(left))}</p>` : ''}
       </div>
       ${pick ? `<h2>${esc(L.nextTime)}</h2>${tipsBlock({ tips: [pick] }, 'dtip-')}` : ''}
+      ${btn('wa-done', esc(L.waSend), esc(L.waRecipe(L.serv(e.serv))), '', 'wa')}
       ${!r.mine ? btn('save-mine', L.saveMine, L.saveAgain, '', 'mine') : ''}`;
     $footer.innerHTML = `<button type="button" id="home" class="primary"><span>${esc(L.toStart)}</span></button>`;
+    on('wa-done', () => openWhatsApp(recipeText(r, e)));
     on('home', () => { timers.filter((x) => x.done).forEach(removeTimer); goHome(); });
     on('save-mine', () => { saveAsMine(r, e.serv); toast(t().savedToast); render('home'); });
     if (pick && pick.link && D.byId.has(pick.link)) on('dtip-0', () => openRecipe(pick.link));
@@ -1729,7 +1733,7 @@
     if (m.drinks && m.drinks.length) h += `<h2>${esc(L.drinks)}</h2>` + m.drinks.map((c, i) => row(c, i, 'md-')).join('');
     if (tx.wine) h += `<div class="pairing"><div class="ph">${icon('glass')}${esc(L.pairing)}</div><p>${esc(tx.wine)}</p></div>`;
     if (Array.isArray(tx.plan) && tx.plan.length) h += `<h2>${esc(L.gamePlan)}</h2><ol class="plan">${tx.plan.map((x) => `<li>${esc(x)}</li>`).join('')}</ol>`;
-    h += btn('go-shop', esc(L.shop), esc(L.shopFor(L.guests(g))), '', 'cart');
+    h += `<div class="acts">${btn('go-shop', esc(L.shop), esc(L.shopFor(L.guests(g))), '', 'cart')}${btn('wa-menu', esc(L.waSend), esc(L.waShop), '', 'wa')}</div>`;
     $content.innerHTML = h;
     $footer.innerHTML = '';
     const setG = (n) => { e.guests = Math.min(24, Math.max(1, n)); render(activeId()); };
@@ -1738,6 +1742,7 @@
     m.courses.forEach((c, i) => on('mc-' + i, () => openRecipe(c.id, g)));
     (m.drinks || []).forEach((c, i) => on('md-' + i, () => openRecipe(c.id, g)));
     on('go-shop', () => go({ s: 'shop', from: 'menu', id: m.id, n: g }));
+    on('wa-menu', () => { const se = { from: 'menu', id: m.id, n: g }; withTimeout(shopLoad(se), 9000).then(() => openWhatsApp(shopText(se)), () => toast(t().loadError)); });
     return m.courses.length ? 'mc-0' : 'go-shop';
   }
 
