@@ -254,6 +254,7 @@
   .roles { display: flex; flex-wrap: wrap; align-items: center; gap: 0.1rem 0; margin-block-start: 0.2rem; font-size: 0.64rem; font-weight: 700; color: var(--quiet); font-family: var(--sans); }
   .roles span + span::before { content: ''; display: inline-block; inline-size: 2px; block-size: 0.7em; background: var(--saffron); margin-inline: 0.4rem; vertical-align: -0.05em; }
   button:focus .roles span + span::before { background: #000; }
+  .course .ri { display: block; font-size: 0.68rem; line-height: 1.25; color: var(--ink); opacity: 0.8; margin-block-start: 0.12rem; }
   .course .role { display: block; font-size: 0.64rem; color: var(--rad); font-weight: 800; margin-block-end: 0.05rem; }
   .pairing { border: 2px solid var(--saffron); border-radius: 1rem; padding: 0.6rem 0.85rem 0.7rem; margin: 0.9rem 0 0.4rem; background: rgba(255, 194, 61, 0.08); }
   .pairing .ph { display: flex; align-items: center; gap: 0.4rem; color: var(--saffron); font-weight: 800; font-size: 0.74rem; }
@@ -1247,7 +1248,7 @@
     const L = t();
     const ok = D.st === 'ok';
     if (D.st === 'idle' || D.st === 'loading') need(loadCore());
-    if (D.menusSt === 'idle') need(loadMenus());
+    if (D.menusSt !== 'ok') need(loadMenus()); // anche se il caricamento è già partito: quando arriva, la home si ridisegna col pulsante dei menù
     let h = `<h1 class="hero">${esc(L.home)}</h1>
       <div class="search">${icon('search')}<input id="q" type="search" enterkeyhint="search" autocomplete="off" placeholder="${esc(L.searchPh)}" aria-label="${esc(L.searchTitle)}"></div>`;
     let picks = [];
@@ -1660,10 +1661,28 @@
     if (!m) return renderMenus();
     const tx = m.i18n[lang] || m.i18n.en || {};
     const g = e.guests || 4;
+    // Le quantità principali di ogni portata per gli ospiti scelti: così si vede subito che cambiano.
+    const all = m.courses.concat(m.drinks || []).map((c) => c.id).filter((id) => D.byId.has(id));
+    const missing = all.filter((id) => !findRecipe(id));
+    if (missing.length && !e.ingLoading) {
+      e.ingLoading = 1;
+      Promise.all(missing.map((id) => ensure(id).catch(() => null))).then(() => { if (cur() === e) render(activeId()); });
+    }
+    const keyIng = (id) => {
+      const r = findRecipe(id);
+      if (!r) return '';
+      const w = (i) => (i.u === 'g' || i.u === 'ml' ? i.q : i.q * 100);
+      // I pezzi (limoni, spicchi) solo quando il nome resta giusto: "2 limone" o "1½ spicchio" no.
+      const fits = (i, o) => { const v = Math.round(i.q * 2) / 2; return Number.isInteger(v) && (o.q > 1 ? v > 1 : v === 1); };
+      const top = scaledIng(r, g).map((i, n) => [i, r.ingredients[n]])
+        .filter(([i, o]) => i.q != null && i.q > 0 && !STAPLE.test(i.k || '') && (i.u === 'g' || i.u === 'ml' || (!i.u && fits(i, o))))
+        .map(([i]) => i).sort((a, b) => w(b) - w(a)).slice(0, 3);
+      return top.length ? `<span class="ri">${top.map((i) => `${esc(fmtQty(i.q, i.u))} ${esc(i.n)}`).join(' · ')}</span>` : '';
+    };
     const row = (c, i, p) => {
       const x = D.byId.get(c.id);
       if (!x) return '';
-      return `<button type="button" id="${p}${i}" class="rrow course">${minDial(x.m)}<span class="grow"><span class="role">${esc(L.roles[c.role] || c.role)}</span><span class="rt">${esc(titleOf(x))}</span><span class="rm"><span>${fmtMin(x.m)}</span>${x.k ? `<span>${kcalShort(x.k)}</span>` : ''}${dietGlyphs(x.d)}${x.a ? `<span class="alc">${icon('glass')}<span class="sr">${esc(L.alcohol)}</span></span>` : ''}</span></span></button>`;
+      return `<button type="button" id="${p}${i}" class="rrow course">${minDial(x.m)}<span class="grow"><span class="role">${esc(L.roles[c.role] || c.role)}</span><span class="rt">${esc(titleOf(x))}</span>${keyIng(c.id)}<span class="rm"><span>${fmtMin(x.m)}</span>${x.k ? `<span>${kcalShort(x.k)}</span>` : ''}${dietGlyphs(x.d)}${x.a ? `<span class="alc">${icon('glass')}<span class="sr">${esc(L.alcohol)}</span></span>` : ''}</span></span></button>`;
     };
     const st = seasonText(m.months);
     let h = `<h1>${esc(tx.title || m.id)}</h1>${tx.intro ? `<p class="intro">${esc(tx.intro)}</p>` : ''}`;
