@@ -3,7 +3,9 @@
   "functions": {
     "api/wiki.js": { "maxDuration": 15 },
     "api/cerca.js": { "maxDuration": 15 },
-    "api/pair.js": { "maxDuration": 15 }
+    "api/pair.js": { "maxDuration": 15 },
+    "api/opera.js": { "maxDuration": 60 },
+    "api/vicino.js": { "maxDuration": 15 }
   },
   "headers": [
     { "source": "/.well-known/meta-wearables-manifest.json", "headers": [ { "key": "Content-Type", "value": "application/json; charset=utf-8" }, { "key": "Access-Control-Allow-Origin", "value": "*" } ] },
