@@ -19,9 +19,9 @@ TAGS = {'nonna', 'comfort', 'party', 'kids', 'healthy', 'festive', 'budget'}
 _FP = os.path.join(HERE, 'forms.json')
 FORMS = json.load(open(_FP, encoding='utf-8')) if os.path.exists(_FP) else {}
 # Proteina principale per i filtri della cucina: carne, pollame, pesce (dalle chiavi degli ingredienti).
-P_POULTRY = re.compile(r'^(chicken-(?!broth)|whole-chicken|turkey|duck)')
-P_FISH = re.compile(r'^(anchov|canned-tuna|tuna|clams|mussels|octopus|salmon|sardines|shrimp|prawn|squid|soaked-stockfish|stockfish|cod|sushi-grade|swordfish|white-fish|whole-sea-bass|sea-bass|whole-sole|sole|crab|scallop|lobster)')
-P_MEAT = re.compile(r'^(beef(?!-broth)|ground-(beef|pork|lamb|veal|meat)|pork|lamb|veal|bacon|smoked-bacon|pancetta|guanciale|prosciutto|cooked-ham|ham|salami|smoked-sausage|sausage|chorizo|lard|bolognese|mortadella|speck|nduja)')
+P_POULTRY = re.compile(r'^(chicken(?!-broth|-stock)|whole-chicken|turkey|duck|ground-chicken)')
+P_FISH = re.compile(r'^(mackerel|sea-bream|bream|hake|catfish|seafood|mixed-seafood|squid|cuttlefish|fish-fillet|white-fish|monkfish|trout|halibut|sea-bass|prawns|king-prawns|mussels|anchov|canned-tuna|tuna|clams|mussels|octopus|salmon|sardines|shrimp|prawn|squid|soaked-stockfish|stockfish|cod|sushi-grade|swordfish|white-fish|whole-sea-bass|sea-bass|whole-sole|sole|crab|scallop|lobster)')
+P_MEAT = re.compile(r'^(beef(?!-broth)|minced-(beef|pork|lamb|meat)|lamb|mutton|goat|ground-(beef|pork|lamb|veal|meat)|pork|lamb|veal|bacon|smoked-bacon|pancetta|guanciale|prosciutto|cooked-ham|ham($|-)|salami|smoked-sausage|sausage|chorizo|lard|bolognese|mortadella|speck|nduja)')
 def proteins(r):
     if 'veg' in r.get('diet', []) or 'vegan' in r.get('diet', []): return []
     ks = [x.get('k') or '' for x in r['ingredients']] + [x.get('make') or '' for x in r['ingredients']]
