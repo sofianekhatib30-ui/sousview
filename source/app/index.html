@@ -618,7 +618,7 @@
       steps: r.steps.filter((s) => s && typeof s.t === 'string'),
       ingredients: r.ingredients.filter(Boolean).map((i) => {
         const [u, f] = unitInfo(i.u);
-        return { ...i, n: String(i.n || ''), u, q: typeof i.q === 'number' ? i.q * f : null };
+        return { ...i, n: String(i.n || ''), u, q: typeof i.q === 'number' ? i.q * f : null, ...(Array.isArray(i.f) && i.f.length === 2 ? { f: i.f.map(String) } : { f: undefined }) };
       })
     }));
   }
@@ -965,10 +965,11 @@
   const EACH = /(^|[^\p{L}])(ogni|ciascun[oa]?|each|every|jede[snm]?|jeweils|chaque|cada)(?![\p{L}])/iu;
   const PER_PIECE = /(^|[^\p{L}])(?:(?:da|à|of|de|je)\s+|d['’])(?:circa|etwa|environ|about|around|unos|unas|ca\.)?\s*$/iu;
   const MANY = Object.fromEntries(Object.entries(ONE).map(([a, b]) => [b, a]));
-  function scaleText(text, k, ingNames) {
+  function scaleText(text, k, ings) {
     if (!text || !k || Math.abs(k - 1) < 1e-9) return text;
     if (EACH.test(text)) return text; // "in ogni bicchiere", "each": sono dosi per pezzo, restano uguali
-    const keys = (ingNames || []).flatMap((n) => norm(n).split(' ').filter((w) => w.length >= 4).map((w) => w.slice(0, 5)));
+    const keys = (ings || []).flatMap((x) => norm(x.n).split(' ').filter((w) => w.length >= 4).map((w) => w.slice(0, 5)));
+    const forms = (ings || []).filter((x) => Array.isArray(x.f) && !x.u).flatMap((x) => [[x.f[1], x.f], [x.f[0], x.f]]).sort((a, b) => b[0].length - a[0].length);
     const src = String(text), re = /(\d+(?:[.,]\d+)?)\s+/g;
     let out = '', last = 0, m;
     while ((m = re.exec(src))) {
@@ -984,6 +985,15 @@
         const v = q * f * k;
         if (u === 'g' || u === 'ml' || u === 'tbsp' || u === 'tsp') { rep = fmtQty((u === 'g' || u === 'ml') && v < 10 ? Math.max(1, Math.round(v)) : v, u); len = um[1].length; }
       } else if (/^\d+$/.test(m[1])) {
+        const v = Math.max(1, Math.round(q * k));
+        const hit = forms.find(([w]) => rest.slice(0, w.length).toLowerCase() === w.toLowerCase() && !/\p{L}/u.test(rest[w.length] || ''));
+        const plArt = /(^|\s)(le|gli|i|nelle|delle|sulle|alle|dalle|negli|degli|the|les|des|aux|los|las|die|den)\s*$/i.test(src.slice(Math.max(0, at - 9), at));
+        if (hit) {
+          if (v !== q && !(v === 1 && q > 1 && plArt)) { rep = v + ' ' + (v > 1 ? hit[1][1] : hit[1][0]); len = hit[0].length; }
+          if (rep === null) continue;
+          out += src.slice(last, at) + rep; last = at + m[0].length + len; re.lastIndex = last;
+          continue;
+        }
         const wm = rest.match(/^[^\s\d,.;:!?()'’"»]+/);
         if (wm) {
           const w = wm[0], lw = w.toLowerCase(), nw = norm(w).slice(0, 5);
@@ -1023,13 +1033,13 @@
       const ph = phases.length;
       phases.push(b.title);
       const nb = b.base_steps > 0 ? Math.min(b.base_steps, b.steps.length) : b.steps.length; // come fase, solo i primi N passi
-      const kb = (e.serv || r.servings) / b.servings, nbs = b.ingredients.map((x) => x.n);
+      const kb = (e.serv || r.servings) / b.servings, nbs = b.ingredients;
       b.steps.slice(0, nb).forEach((s, i) => steps.push(resolveStep(s, null, ph, bid, i, kb, nbs)));
     });
     const ph = phases.length ? phases.length : -1;
     if (phases.length) phases.push(r.title);
     const m = e.method && (r.methods || []).includes(e.method) ? e.method : null;
-    const kr = (e.serv || r.servings) / r.servings, nrs = r.ingredients.map((x) => x.n);
+    const kr = (e.serv || r.servings) / r.servings, nrs = r.ingredients;
     r.steps.forEach((s, i) => steps.push(resolveStep(s, m && m !== r.methods[0] ? m : null, ph, r.id, i, kr, nrs)));
     return { r, steps, phases };
   }
@@ -1402,6 +1412,8 @@
     const k = (serv || r.servings) / r.servings;
     return r.ingredients.map((i) => ({ ...i, q: i.q == null ? null : i.q * k }));
   }
+  // Il nome che si accorda col numero: "1 cipolla", "2 cipolle". f = [singolare, plurale] dai dati.
+  const ingName = (i, q) => (Array.isArray(i.f) && q != null && !i.u ? (q > 1 ? i.f[1] : i.f[0]) : i.n);
 
   function tipsBlock(r, prefix) {
     const L = t();
@@ -1443,7 +1455,7 @@
     const ing = scaledIng(r, e.serv);
     const meth = methodOf(r);
     let h = `<h1>${esc(r.title)}</h1>`;
-    if (r.intro) h += `<p class="intro">${esc(scaleText(r.intro, e.serv / r.servings, r.ingredients.map((x) => x.n)))}</p>`;
+    if (r.intro) h += `<p class="intro">${esc(scaleText(r.intro, e.serv / r.servings, r.ingredients))}</p>`;
     h += `<div class="facts"><span class="fact">${minDial(r.minutes || 10)}<span>${fmtMin(r.minutes || 10)}</span></span>`;
     if (r.kcal) h += `<span class="fact"><span>${esc(L.kcal(r.kcal))}<small>${esc(L.perServ)}</small></span></span>`;
     if (r.diff) h += `<span class="fact"><span class="pips">${[1, 2, 3].map((n) => `<i class="${n <= r.diff ? 'on' : ''}"></i>`).join('')}</span><span>${esc(L.diffs[r.diff - 1] || '')}</span></span>`;
@@ -1464,7 +1476,7 @@
       h += `<h2>${esc(L.method)}</h2><div class="seg" role="group" aria-label="${esc(L.method)}">${r.methods.map((m) => `<button type="button" id="me-${m}" aria-pressed="${m === meth}">${icon(IC[m] ? m : 'pot')}${esc(methodName(m))}</button>`).join('')}</div>`;
     }
     h += `<h2>${esc(L.ingredients)}</h2><ul class="ing">${ing.map((i, n) => {
-      let li = `<div class="li"><span class="q">${esc(fmtQty(i.q, i.u))}</span><span>${esc(i.n)}</span></div>`;
+      let li = `<div class="li"><span class="q">${esc(fmtQty(i.q, i.u))}</span><span>${esc(ingName(i, i.q))}</span></div>`;
       const b = bases.find((y) => y.n === n);
       if (b) {
         const home = isHome(b.id);
@@ -1473,7 +1485,7 @@
           const br = findRecipe(b.id);
           if (br) {
             const bi = scaledIng(br, e.serv);
-            li += `<div class="nest"><div class="nh">${esc(L.forBase(br.title))}</div><ul>${bi.map((y) => `<li class="li"><span class="q">${esc(fmtQty(y.q, y.u))}</span><span>${esc(y.n)}</span></li>`).join('')}</ul></div>`;
+            li += `<div class="nest"><div class="nh">${esc(L.forBase(br.title))}</div><ul>${bi.map((y) => `<li class="li"><span class="q">${esc(fmtQty(y.q, y.u))}</span><span>${esc(ingName(y, y.q))}</span></li>`).join('')}</ul></div>`;
           } else li += `<div class="nest"><div class="nh">${esc(L.loading)}</div></div>`;
         }
       }
@@ -1520,11 +1532,11 @@
     serv = serv || r.servings;
     const k = serv / r.servings;
     const m = methodOf(r);
-    const steps = r.steps.map((s, i) => { const o = resolveStep(s, m && m !== (r.methods || [])[0] ? m : null, -1, r.id, i, k, r.ingredients.map((x) => x.n)); const out = { t: o.t }; if (o.timer) { out.timer = o.timer; out.label = s.label || t().stepN(i + 1); } return out; });
+    const steps = r.steps.map((s, i) => { const o = resolveStep(s, m && m !== (r.methods || [])[0] ? m : null, -1, r.id, i, k, r.ingredients); const out = { t: o.t }; if (o.timer) { out.timer = o.timer; out.label = s.label || t().stepN(i + 1); } return out; });
     const copy = {
       id: 'mia-' + slug(r.title) + '-' + Date.now().toString(36),
       title: r.title, servings: serv, minutes: r.minutes,
-      ingredients: r.ingredients.map((i) => ({ q: i.q == null ? null : Math.round(i.q * k * 10) / 10, u: i.u, n: i.n, ...(i.k ? { k: i.k } : {}), ...(i.make ? { make: i.make } : {}) })),
+      ingredients: r.ingredients.map((i) => { const q = i.q == null ? null : Math.round(i.q * k * 10) / 10; return { q, u: i.u, n: ingName(i, q), ...(i.f ? { f: i.f } : {}), ...(i.k ? { k: i.k } : {}), ...(i.make ? { make: i.make } : {}) }; }),
       steps, tips: r.tips || [], kcal: r.kcal, diet: r.diet,
       mine: true, lang: r.lang || lang, basedOn: r.mine ? (r.basedOn || null) : r.id, tags: ['mia']
     };
@@ -1672,12 +1684,9 @@
       const r = findRecipe(id);
       if (!r) return '';
       const w = (i) => (i.u === 'g' || i.u === 'ml' ? i.q : i.q * 100);
-      // I pezzi (limoni, spicchi) solo quando il nome resta giusto: "2 limone" o "1½ spicchio" no.
-      const fits = (i, o) => { const v = Math.round(i.q * 2) / 2; return Number.isInteger(v) && (o.q > 1 ? v > 1 : v === 1); };
-      const top = scaledIng(r, g).map((i, n) => [i, r.ingredients[n]])
-        .filter(([i, o]) => i.q != null && i.q > 0 && !STAPLE.test(i.k || '') && (i.u === 'g' || i.u === 'ml' || (!i.u && fits(i, o))))
-        .map(([i]) => i).sort((a, b) => w(b) - w(a)).slice(0, 3);
-      return top.length ? `<span class="ri">${top.map((i) => `${esc(fmtQty(i.q, i.u))} ${esc(i.n)}`).join(' · ')}</span>` : '';
+      const top = scaledIng(r, g).filter((i) => i.q != null && i.q > 0 && !STAPLE.test(i.k || '') && (i.u === 'g' || i.u === 'ml' || !i.u))
+        .sort((a, b) => w(b) - w(a)).slice(0, 3);
+      return top.length ? `<span class="ri">${top.map((i) => `${esc(fmtQty(i.q, i.u))} ${esc(ingName(i, i.q))}`).join(' · ')}</span>` : '';
     };
     const row = (c, i, p) => {
       const x = D.byId.get(c.id);
@@ -1997,8 +2006,8 @@
     const meth = methodOf(r);
     return {
       id: r.id, title: r.title, servings: serv, minutes: r.minutes, kcal_per_serving: r.kcal || null,
-      ingredients: scaledIng(r, serv).map((i) => (fmtQty(i.q, i.u) + ' ' + i.n).trim()),
-      steps: r.steps.map((s, i) => { const o = resolveStep(s, meth && meth !== (r.methods || [])[0] ? meth : null, -1, r.id, i, serv / r.servings, r.ingredients.map((x) => x.n)); return `${i + 1}. ${o.t}${o.timer ? ` (timer ${Math.round(o.timer / 60)} min${o.bg ? ', keeps running in background' : ''})` : ''}`; }),
+      ingredients: scaledIng(r, serv).map((i) => (fmtQty(i.q, i.u) + ' ' + ingName(i, i.q)).trim()),
+      steps: r.steps.map((s, i) => { const o = resolveStep(s, meth && meth !== (r.methods || [])[0] ? meth : null, -1, r.id, i, serv / r.servings, r.ingredients); return `${i + 1}. ${o.t}${o.timer ? ` (timer ${Math.round(o.timer / 60)} min${o.bg ? ', keeps running in background' : ''})` : ''}`; }),
       homemade_options: (r.mine ? [] : basesOf(r)).map((b) => ({ base_id: b.id, ingredient: b.ing.n, base_title: (findRecipe(b.id) || {}).title || titleOf(D.byId.get(b.id)), homemade: isHome(b.id) })),
       methods: (r.methods || []).map((m) => ({ id: m, name: methodName(m), selected: m === meth })),
       tips: (r.tips || []).map((tp) => ({ kind: tp.k, text: tp.t, ...(tp.link && D.byId.has(tp.link) ? { linked_recipe_id: tp.link, linked_recipe_title: titleOf(D.byId.get(tp.link)) } : {}) }))

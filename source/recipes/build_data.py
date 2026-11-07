@@ -15,6 +15,9 @@ DIET = {'veg', 'vegan', 'gf', 'lf'}
 METHODS = {m['id'] for m in TREE.get('methods', [])}
 TIPK = {'twist', 'pair', 'secret', 'spice', 'leftover'}
 TAGS = {'nonna', 'comfort', 'party', 'kids', 'healthy', 'festive', 'budget'}
+# Singolare e plurale dei nomi contati senza unità ("1 cipolla", "2 cipolle"): forms.json, per lingua.
+_FP = os.path.join(HERE, 'forms.json')
+FORMS = json.load(open(_FP, encoding='utf-8')) if os.path.exists(_FP) else {}
 ID_RE = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 BASES = {'impasto-pizza', 'impasto-pasta-uovo', 'pasta-frolla', 'pasta-brisee', 'brodo-vegetale', 'brodo-pollo',
          'sugo-pomodoro', 'ragu-bolognese', 'pesto-genovese', 'besciamella', 'maionese', 'piadina', 'gnocchi-patate', 'dashi'}
@@ -129,7 +132,10 @@ def per_lang(r, L):
     if r.get('methods'): out['methods'] = r['methods']
     if r.get('base_steps'): out['base_steps'] = r['base_steps']
     out['title'] = t['title']; out['intro'] = t['intro']
-    out['ing'] = [{'q': x['q'], 'u': x['u'], 'n': t['ing'][i], 'k': x.get('k'), **({'make': x['make']} if x.get('make') else {})} for i, x in enumerate(r['ingredients'])]
+    def forms(x, name):
+        f = FORMS.get(L, {}).get(name) if x['q'] is not None and not x['u'] else None
+        return {'f': f} if f and f[0] != f[1] else {}
+    out['ing'] = [{'q': x['q'], 'u': x['u'], 'n': t['ing'][i], 'k': x.get('k'), **forms(x, t['ing'][i]), **({'make': x['make']} if x.get('make') else {})} for i, x in enumerate(r['ingredients'])]
     out['steps'] = []
     for j, s in enumerate(r['steps']):
         o = {'t': t['steps'][j]}
