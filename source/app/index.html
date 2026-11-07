@@ -989,7 +989,7 @@
         const hit = forms.find(([w]) => rest.slice(0, w.length).toLowerCase() === w.toLowerCase() && !/\p{L}/u.test(rest[w.length] || ''));
         const plArt = /(^|\s)(le|gli|i|nelle|delle|sulle|alle|dalle|negli|degli|the|les|des|aux|los|las|die|den)\s*$/i.test(src.slice(Math.max(0, at - 9), at));
         if (hit) {
-          if (v !== q && !(v === 1 && q > 1 && plArt)) { rep = v + ' ' + (v > 1 ? hit[1][1] : hit[1][0]); len = hit[0].length; }
+          if (v !== q && !(v === 1 && q > 1 && plArt)) { rep = v + ' ' + (isPlural(v) ? hit[1][1] : hit[1][0]); len = hit[0].length; }
           if (rep === null) continue;
           out += src.slice(last, at) + rep; last = at + m[0].length + len; re.lastIndex = last;
           continue;
@@ -1413,7 +1413,9 @@
     return r.ingredients.map((i) => ({ ...i, q: i.q == null ? null : i.q * k }));
   }
   // Il nome che si accorda col numero: "1 cipolla", "2 cipolle". f = [singolare, plurale] dai dati.
-  const ingName = (i, q) => (Array.isArray(i.f) && q != null && !i.u ? (q > 1 ? i.f[1] : i.f[0]) : i.n);
+  // In francese 1,5 vuole ancora il singolare ("1½ oignon"); nelle altre lingue si passa al plurale sopra 1.
+  const isPlural = (q) => (lang === 'fr' ? q >= 2 : q > 1);
+  const ingName = (i, q) => (Array.isArray(i.f) && q != null && !i.u ? (isPlural(q) ? i.f[1] : i.f[0]) : i.n);
 
   function tipsBlock(r, prefix) {
     const L = t();
@@ -1683,7 +1685,7 @@
     const keyIng = (id) => {
       const r = findRecipe(id);
       if (!r) return '';
-      const w = (i) => (i.u === 'g' || i.u === 'ml' ? i.q : i.q * 100);
+      const w = (i) => (i.u === 'g' || i.u === 'ml' ? i.q : i.q >= 1 ? i.q * 60 : 0);
       const top = scaledIng(r, g).filter((i) => i.q != null && i.q > 0 && !STAPLE.test(i.k || '') && (i.u === 'g' || i.u === 'ml' || !i.u))
         .sort((a, b) => w(b) - w(a)).slice(0, 3);
       return top.length ? `<span class="ri">${top.map((i) => `${esc(fmtQty(i.q, i.u))} ${esc(ingName(i, i.q))}`).join(' · ')}</span>` : '';
