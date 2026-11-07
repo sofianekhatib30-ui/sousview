@@ -13,7 +13,7 @@ export default async function handler(req, res) {
   const seen = new Set(), out = [];
   all.forEach((d, i) => ((d && d.query && d.query.geosearch) || []).forEach((g) => {
     const k = Math.round(g.lat * 3000) + ':' + Math.round(g.lon * 3000);
-    if (SKIP.test(g.title) || seen.has(k)) return;
+    if (SKIP.test(g.title) || /\((metropolitana|metro|stazione|u-bahn|underground|subway)/i.test(g.title) || seen.has(k)) return;
     seen.add(k);
     out.push({ title: g.title, lang: langs[i], lat: g.lat, lon: g.lon, dist: Math.round(g.dist) });
   }));
