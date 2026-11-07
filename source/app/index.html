@@ -45,8 +45,12 @@
   }
   header { grid-area: h; margin-block-end: 2vmin; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; min-inline-size: 0; min-block-size: 1.35rem; }
   .brand { display: flex; align-items: center; gap: 0.35rem; flex: none; font-family: var(--serif); font-weight: 800; font-variation-settings: 'SOFT' 100; font-size: 0.9rem; color: var(--rad); white-space: nowrap; }
-  .brand .dial { inline-size: 1.1rem; block-size: 1.1rem; --on: var(--rad); --off: rgba(255, 122, 26, 0.35); }
-  .timing .brand-word { display: none; }
+  .brand .pot { inline-size: 1.25rem; block-size: 1.25rem; flex: none; }
+  .hl { display: flex; align-items: center; gap: 0.5rem; min-inline-size: 0; }
+  button.back { inline-size: auto; min-block-size: 1.9rem; margin: 0; padding: 0.2rem 0.65rem 0.2rem 0.4rem; gap: 0.25rem; border-radius: 2rem; font-size: 0.74rem; flex: none; }
+  button.back .ic { inline-size: 1rem; block-size: 1rem; stroke-width: 2.8; color: var(--ink); }
+  button.back[hidden] { display: none; }
+  .timing .brand-word, .timing .back span { display: none; }
   .timers { display: flex; gap: 0.35rem; flex-wrap: wrap; justify-content: flex-end; min-inline-size: 0; }
   .timer {
     display: inline-flex; align-items: center; gap: 0.3rem;
@@ -299,7 +303,7 @@
 <body>
 <div id="app" class="shell" aria-live="polite">
   <header>
-    <span class="brand" id="brand"></span>
+    <span class="hl"><button type="button" id="hb-back" class="back" hidden></button><span class="brand" id="brand"></span></span>
     <span id="timerbar" class="timers"></span>
   </header>
   <div id="ring"></div>
@@ -762,6 +766,7 @@
     cart: 'M3 6h4l3 15h15l3-11H8' + C(12, 26, 1.8) + C(23, 26, 1.8),
     glass: 'M10 4h12c0 7-2 11-6 11s-6-4-6-11zM16 15v11M11 27h10',
     check: 'M7 17l6 6 12-13',
+    back: 'M20 6L10 16l10 10',
     play: 'M9 5l18 11-18 11z',
     alarm: C(16, 17, 10) + 'M16 11v6l4 3M5 6l4-3M27 6l-4-3',
     twist: 'M5 11h18l-5-5M27 21H9l5 5',
@@ -1089,7 +1094,16 @@
   const $footer = document.getElementById('footer');
   const $timerbar = document.getElementById('timerbar');
   const $ring = document.getElementById('ring');
-  document.getElementById('brand').innerHTML = dial(12, (i) => i < 9 ? 'on' : '') + '<span class="brand-word">SousView</span>';
+  // Il marchio: la pentola col vapore (quella della prima versione), arancio paprika.
+  document.getElementById('brand').innerHTML = '<svg class="pot" viewBox="0 0 64 64" aria-hidden="true"><path d="M24 10c-2 3 2 5 0 8M32 8c-2 3 2 5 0 8M40 10c-2 3 2 5 0 8" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/><path d="M10 26h44v4H10zM14 32h36v12a10 10 0 0 1-10 10H24a10 10 0 0 1-10-10zM6 34h8v4H6zM50 34h8v4h-8z" fill="currentColor"/></svg><span class="brand-word">SousView</span>';
+  // Indietro sempre a portata, in alto a sinistra, su ogni schermata tranne la home.
+  const $back = document.getElementById('hb-back');
+  function drawBack() {
+    $back.hidden = stack.length < 2;
+    $back.setAttribute('aria-label', t().back);
+    $back.innerHTML = icon('back') + `<span>${esc(t().back)}</span>`;
+  }
+  $back.addEventListener('click', () => { if (stack.length < 2) return; if (pushed) history.back(); else { stack.pop(); render(cur().f); } });
 
   function startTimer(seconds, label, stepKey) {
     const existing = stepKey && timers.find((x) => x.stepKey === stepKey);
@@ -1991,6 +2005,7 @@
     }
     if (e !== lastEntry) { $content.scrollTop = 0; lastEntry = e; }
     renderTimerbar();
+    drawBack();
     registerTools();
     saveStack();
     lastPrimary = primary;
