@@ -1180,11 +1180,13 @@
   function renderTimerbar() {
     const L = t();
     const ck = currentKey();
-    const list = timers.filter((x) => !x.done || x.stepKey === ck).sort((a, b) => (b.stepKey === ck) - (a.stepKey === ck));
-    $timerbar.innerHTML = list.map((tm) => {
+    const list = timers.filter((x) => !x.done || x.stepKey === ck).sort((a, b) => (b.stepKey === ck) - (a.stepKey === ck) || a.remaining - b.remaining);
+    // Al massimo 3 timer in vista (quello del passo e i più vicini a suonare); gli altri in un "+N".
+    const shown = list.slice(0, 3), more = list.length - shown.length;
+    $timerbar.innerHTML = shown.map((tm) => {
       const isCur = ck && tm.stepKey === ck;
       return `<span class="timer${isCur ? ' cur' : ''}${tm.done ? ' done' : ''}${tm.paused ? ' paused' : ''}">${isCur ? '<i class="now"></i>' : ''}${esc(timerLabel(tm))} ${tm.done ? L.doneShort : fmtClock(tm.remaining)}</span>`;
-    }).join('');
+    }).join('') + (more > 0 ? `<span class="timer">+${more}</span>` : '');
     $app.classList.toggle('timing', list.length >= 2);
     renderRing();
   }
