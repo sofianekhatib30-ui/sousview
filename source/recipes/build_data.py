@@ -18,6 +18,18 @@ TAGS = {'nonna', 'comfort', 'party', 'kids', 'healthy', 'festive', 'budget'}
 # Singolare e plurale dei nomi contati senza unità ("1 cipolla", "2 cipolle"): forms.json, per lingua.
 _FP = os.path.join(HERE, 'forms.json')
 FORMS = json.load(open(_FP, encoding='utf-8')) if os.path.exists(_FP) else {}
+# Proteina principale per i filtri della cucina: carne, pollame, pesce (dalle chiavi degli ingredienti).
+P_POULTRY = re.compile(r'^(chicken-(?!broth)|whole-chicken|turkey|duck)')
+P_FISH = re.compile(r'^(anchov|canned-tuna|tuna|clams|mussels|octopus|salmon|sardines|shrimp|prawn|squid|soaked-stockfish|stockfish|cod|sushi-grade|swordfish|white-fish|whole-sea-bass|sea-bass|whole-sole|sole|crab|scallop|lobster)')
+P_MEAT = re.compile(r'^(beef(?!-broth)|ground-(beef|pork|lamb|veal|meat)|pork|lamb|veal|bacon|smoked-bacon|pancetta|guanciale|prosciutto|cooked-ham|ham|salami|smoked-sausage|sausage|chorizo|lard|bolognese|mortadella|speck|nduja)')
+def proteins(r):
+    if 'veg' in r.get('diet', []) or 'vegan' in r.get('diet', []): return []
+    ks = [x.get('k') or '' for x in r['ingredients']] + [x.get('make') or '' for x in r['ingredients']]
+    out = []
+    if any(P_MEAT.match(k) or k == 'ragu-bolognese' for k in ks): out.append('meat')
+    if any(P_POULTRY.match(k) for k in ks): out.append('poultry')
+    if any(P_FISH.match(k) for k in ks): out.append('fish')
+    return out
 ID_RE = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 BASES = {'impasto-pizza', 'impasto-pasta-uovo', 'pasta-frolla', 'pasta-brisee', 'brodo-vegetale', 'brodo-pollo',
          'sugo-pomodoro', 'ragu-bolognese', 'pesto-genovese', 'besciamella', 'maionese', 'piadina', 'gnocchi-patate', 'dashi'}
@@ -198,7 +210,7 @@ def main():
                 written.append(p)
         if not only:
             idx = [{'id': r['id'], 'c': r['cat'], 's': r['sub'], 'm': r['minutes'], 'k': r['kcal'], 'd': r['diet'], 'g': r.get('tags', []),
-                    'mo': r.get('months', []), 'o': r['origin'], **({'me': r['methods']} if r.get('methods') else {}), **({'a': 1} if r.get('alcohol') else {}),
+                    'mo': r.get('months', []), 'o': r['origin'], **({'p': proteins(r)} if proteins(r) else {}), **({'me': r['methods']} if r.get('methods') else {}), **({'a': 1} if r.get('alcohol') else {}),
                     't': {L: r['i18n'][L]['title'] for L in LANGS}} for r in allrec]
             p = os.path.join(d, 'index.json'); json.dump({'v': 1, 'r': idx}, open(p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':')); written.append(p)
             mp = os.path.join(HERE, 'menus.json')
